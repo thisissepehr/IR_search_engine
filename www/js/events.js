@@ -9,5 +9,5 @@ const date =new Date()
 document.getElementById("copyright").innerHTML = "Copy Right &copy "+date.getFullYear()
 
 document.getElementById("search").addEventListener("click",()=>{
-    window.location.href="./results.html"
+    window.location.href="../html/results.html"
 })
