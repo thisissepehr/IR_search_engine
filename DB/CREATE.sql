@@ -83,6 +83,8 @@ CREATE INDEX `fk_paper_word_to_paper_idx` ON `BASP`.`word_to_paper` (`fk_paper_i
 
 CREATE USER 'populator' IDENTIFIED BY 'd9pifetoyesad2cekipoyolis';
 GRANT INSERT ON BASP.* TO 'populator';
+GRANT SELECT ON Author TO 'populator';
+GRANT SELECT ON Word TO 'populator';
 
 CREATE USER 'retriver' IDENTIFIED BY '5t7zuvtoyesad2vguhbpoyoli';
 GRANT SELECT ON BASP.* TO 'retriver';
