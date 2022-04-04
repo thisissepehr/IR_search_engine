@@ -81,8 +81,8 @@ CREATE TABLE IF NOT EXISTS `BASP`.`word_to_paper` (
 
 CREATE INDEX `fk_paper_word_to_paper_idx` ON `BASP`.`word_to_paper` (`fk_paper_id` ASC);
 
-CREATE USER 'populator'@'localhost' IDENTIFIED BY 'd9pifetoyesad2cekipoyolis';
-GRANT INSERT ON SCHEMA::'BASP' 'populator'@'localhost';
+CREATE USER 'populator' IDENTIFIED BY 'd9pifetoyesad2cekipoyolis';
+GRANT INSERT ON BASP.* TO 'populator';
 
-CREATE USER 'retriver'@'localhost' IDENTIFIED BY '5t7zuvtoyesad2vguhbpoyoli';
-GRANT SELECT ON SCHEMA::'BASP' 'retriver'@'localhost';
+CREATE USER 'retriver' IDENTIFIED BY '5t7zuvtoyesad2vguhbpoyoli';
+GRANT SELECT ON BASP.* TO 'retriver';
