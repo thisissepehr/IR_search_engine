@@ -26,7 +26,7 @@ with open('./cord/'+date+'/all_sources_metadata_'+date+'.csv') as f_in:
         authors = row['authors']
         has_full_text = row['has_full_text']
         publish_time = row['publish_time']
-        body = ''
+        body = '' #TODO get full text
         if (has_full_text and not publish_time == '' and not abstract == '' and not authors == '' and not title == '' and not doi == ''):
             if(not  doi.startswith('http://dx.doi.org/')): doi = 'http://dx.doi.org/'+doi
             dataset.append({'doi':doi,'title':title,'abstract':abstract,'authors':authors, 'publish_time':publish_time, 'body':body})
