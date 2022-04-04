@@ -1,10 +1,10 @@
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `BASP` DEFAULT CHARACTER SET utf8 ;
+USE `BASP` ;
 
 -- -----------------------------------------------------
--- Table `mydb`.`Author`
+-- Table `BASP`.`Author`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Author` (
+CREATE TABLE IF NOT EXISTS `BASP`.`Author` (
   `idAuthor` INT NOT NULL AUTO_INCREMENT,
   `FirstName` VARCHAR(45) NULL,
   `LastName` VARCHAR(45) NULL,
@@ -12,12 +12,12 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Author` (
   `email` VARCHAR(45) NULL,
   PRIMARY KEY (`idAuthor`));
 
-CREATE UNIQUE INDEX `email_UNIQUE` ON `mydb`.`Author` (`email` ASC);
+CREATE UNIQUE INDEX `email_UNIQUE` ON `BASP`.`Author` (`email` ASC);
 
 -- -----------------------------------------------------
--- Table `mydb`.`Paper`
+-- Table `BASP`.`Paper`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Paper` (
+CREATE TABLE IF NOT EXISTS `BASP`.`Paper` (
   `idPaper` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(45) NULL,
   `abstract` VARCHAR(45) NULL,
@@ -29,54 +29,60 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Paper` (
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`paper_to_author`
+-- Table `BASP`.`paper_to_author`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`paper_to_author` (
+CREATE TABLE IF NOT EXISTS `BASP`.`paper_to_author` (
   `fk_paper_id` INT NOT NULL,
   `fk_author_id` INT NOT NULL,
   PRIMARY KEY (`fk_paper_id`, `fk_author_id`),
   CONSTRAINT `fk_author_paper_to_author`
     FOREIGN KEY (`fk_author_id`)
-    REFERENCES `mydb`.`Author` (`idAuthor`)
+    REFERENCES `BASP`.`Author` (`idAuthor`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_paper_paper_to_author`
     FOREIGN KEY (`fk_paper_id`)
-    REFERENCES `mydb`.`Paper` (`idPaper`)
+    REFERENCES `BASP`.`Paper` (`idPaper`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 
-CREATE INDEX `fk_author_paper_to_author_idx` ON `mydb`.`paper_to_author` (`fk_author_id` ASC);
+CREATE INDEX `fk_author_paper_to_author_idx` ON `BASP`.`paper_to_author` (`fk_author_id` ASC);
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Word`
+-- Table `BASP`.`Word`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Word` (
+CREATE TABLE IF NOT EXISTS `BASP`.`Word` (
   `idWord` INT NOT NULL AUTO_INCREMENT,
   `word` VARCHAR(45) NULL,
   PRIMARY KEY (`idWord`));
 
-CREATE UNIQUE INDEX `word_UNIQUE` ON `mydb`.`Word` (`word` ASC);
+CREATE UNIQUE INDEX `word_UNIQUE` ON `BASP`.`Word` (`word` ASC);
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`word_to_paper`
+-- Table `BASP`.`word_to_paper`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`word_to_paper` (
+CREATE TABLE IF NOT EXISTS `BASP`.`word_to_paper` (
   `fk_word_id` INT NOT NULL,
   `fk_paper_id` INT NOT NULL,
   `counter` INT NULL,
   PRIMARY KEY (`fk_word_id`, `fk_paper_id`),
   CONSTRAINT `fk_word_word_to_paper`
     FOREIGN KEY (`fk_word_id`)
-    REFERENCES `mydb`.`Word` (`idWord`)
+    REFERENCES `BASP`.`Word` (`idWord`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_paper_word_to_paper`
     FOREIGN KEY (`fk_paper_id`)
-    REFERENCES `mydb`.`Paper` (`idPaper`)
+    REFERENCES `BASP`.`Paper` (`idPaper`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 
-CREATE INDEX `fk_paper_word_to_paper_idx` ON `mydb`.`word_to_paper` (`fk_paper_id` ASC);
+CREATE INDEX `fk_paper_word_to_paper_idx` ON `BASP`.`word_to_paper` (`fk_paper_id` ASC);
+
+CREATE USER 'populator'@'localhost' IDENTIFIED BY 'd9pifetoyesad2cekipoyolis';
+GRANT INSERT ON SCHEMA::'BASP' 'populator'@'localhost';
+
+CREATE USER 'retriver'@'localhost' IDENTIFIED BY '5t7zuvtoyesad2vguhbpoyoli';
+GRANT SELECT ON SCHEMA::'BASP' 'retriver'@'localhost';
