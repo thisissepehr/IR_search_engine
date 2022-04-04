@@ -6,7 +6,6 @@ import mysql.connector
 date = '2020-03-13'
 download = False
 
-
 def donwload():
     url = "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_"+date+".tar.gz"
     r = requests.get(url)
