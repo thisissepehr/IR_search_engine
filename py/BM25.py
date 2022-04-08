@@ -122,4 +122,5 @@ class BM25Okapi(BM25):
                                                (q_freq + self.k1 * (1 - self.b + self.b * doc_len / self.avgdl)))
         return score.tolist()
     
-    # Use get_batch_scores() on the set of pre-indexed docs, then return the top n docs in score-order with get_top_n().
+    # First, create an instance of BM25Okapi, applied to the entire set of pre-indexed docs.
+    # Use get_batch_scores(), then return the top n docs in score-order with get_top_n().
