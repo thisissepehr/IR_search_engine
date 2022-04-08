@@ -1,3 +1,5 @@
+# Algorithm taken from: Trotmam et al, Improvements to BM25 and Language Models Examined
+
 import math
 import numpy as np
 from multiprocessing import Pool, cpu_count
