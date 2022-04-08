@@ -53,3 +53,5 @@ class BM25Okapi(BM25):
             score += (self.idf.get(q) or 0) * (q_freq * (self.k1 + 1) /
                                                (q_freq + self.k1 * (1 - self.b + self.b * doc_len / self.avgdl)))
         return score.tolist()
+    
+    # Use get_batch_scores() on the set of docs, then return the top 10 docs (or however many we want) in order by score.
