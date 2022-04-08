@@ -17,7 +17,7 @@ __Team Members:__
 * [Patrick John Levermore](mailto:p.levermore@se21.qmul.ac.uk)
 * [Bhavya Rajesh Makwana](mailto:b.r.makwana@se21.qmul.ac.uk)
 
-#### Final Grade: ??
+#### Final Grade: 100%
 
 ## Tasks
 A simple search engine on a Covid research papers dataset to help people get informed better!
