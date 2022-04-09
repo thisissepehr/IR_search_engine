@@ -81,7 +81,8 @@ html {
 #results{
   padding: 10px;;
   width : 800px;
-  height: 350px;
+  height: 430px;
+
   visibility: hidden;
   margin: auto;
   margin-top: 35px;
