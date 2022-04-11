@@ -80,10 +80,6 @@ class BM25Okapi(BM25):
         super().__init__(corpus, tokenizer)
 
     def _calc_idf(self, nd):
-        """
-        Calculates frequencies of terms in documents and in corpus.
-        This algorithm sets a floor on the idf values to epsilon * average_idf
-        """
         # collect idf sum to calculate an average idf for epsilon value
         idf_sum = 0
         # collect words with negative idf to set them a special epsilon value.
