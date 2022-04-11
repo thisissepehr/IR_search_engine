@@ -1,8 +1,12 @@
+# README:
+# First, create an instance of BM25Okapi, applied to the entire set of pre-indexed docs.
+# Use get_batch_scores(), then return the top n docs in score-order with get_top_n().
+
+#TODO (Alex) import pre-indexed documents from SQL into a list/dictionary as 'corpus'. This can then be called to BM25Okapi instance.
+
 import math
 import numpy as np
 from multiprocessing import Pool, cpu_count
-
-
 
 class BM25:
     def __init__(self, corpus, tokenizer=None):
