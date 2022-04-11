@@ -1,0 +1,43 @@
+node:   
+      image: node:latest  
+      container_name: node-container  
+      depends_on:
+      - mysql
+      ports:   
+       - 80:80 
+
+mysql:    
+    image: mysql:5.7  
+    container_name: mysql-container  
+    volumes_from:  
+       - mysql-data  
+    environment:  
+      MYSQL_ROOT_PASSWORD: secret  
+      MYSQL_DATABASE: BASP 
+    restart: always
+    env_file: ./.env
+    ports:
+      - $MYSQLDB_LOCAL_PORT:$MYSQLDB_DOCKER_PORT
+      
+
+app-data:    
+    image: node
+    container_name: app-data-container  
+    volumes:  
+      - ./www/:/var/www/
+    command: "true"
+
+python:    
+    image: python
+    container_name: python  
+    env_file: ./.env
+    expose:  
+      - 9000  
+    volumes_from:  
+      - app-data  
+    environment:
+      - DB_HOST=mysqldb
+      - DB_USER=$MYSQLDB_USER
+      - DB_PASSWORD=$MYSQLDB_ROOT_PASSWORD
+      - DB_NAME=$MYSQLDB_DATABASE
+      - DB_PORT=$MYSQLDB_DOCKER_PORT
