@@ -2,3 +2,4 @@
 **/cord
 *.tar.gz
 __pycache__
+www/node_modules

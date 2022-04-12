@@ -1,29 +1,31 @@
 
-document.addEventListener("submit", (event)=>{
-    event.preventDefault()
-    const search = document.getElementById("search-content")
-    console.log(search.value);
-})
-
 // setting the date at the end of the page
 const date =new Date()
 document.getElementById("copyright").innerHTML = "Copy Right &copy "+date.getFullYear()
 
-document.getElementById("search").addEventListener("click",()=>{
-    
-    let container = document.getElementById("results")
-    // document.removeChild(container)
-    // container = document.createElement("div")
-    // container.id = "holder"
-    // container.classList.add("result-container")
-    container.style.visibility = "visible";
-    data.forEach((sample)=>{
-        create_result_tile(sample, container)
-    })
 
+// getting data by Clicking!
+document.getElementById("search").addEventListener("click",(event)=>{
+    //preventing from refrehing
+    event.preventDefault()
+    const search = document.getElementById("search-content").value
+
+    //adding results
+    let container = document.getElementById("results")
+    clear_reasults(container);
+
+    // get results from the server and populate the container
+    const data = getData(search,container);
+
+    // make it visible once the results are prepared
+    container.style.visibility = "visible";
 })
 
-
+let clear_reasults = (container)=>{
+    while(container.firstChild) {
+        container.removeChild(container.firstChild);
+    }      
+}
 let create_result_tile = (sample, container)=> {
     
     // create card
@@ -57,31 +59,23 @@ let create_result_tile = (sample, container)=> {
     container.append(inside_div)
 }
 
-const data= [
-    {
-        title:"something 1",
-        author:["john Doe", "sep"],
-        url:"https://google.com",
-        year: 2022
-    },
-    {
-        title:"something 2",
-        author:["jane Doe"],
-        url:"https://google.com",
-        year: 2021
-    },
-    {
-        title:"something 3",
-        author:["sep Doe"],
-        url:"https://google.com",
-        year: 1982
-    },
-    {
-        title:"something 4",
-        author:["alex Doe"],
-        url:"https://google.com",
-        year: 2022
-    },
-    
-]
+let getData = (query, container)=>{
+    let dataRecieved = []
+    fetch("/search?query="+query).then((response)=>{
+        response.json().then((data)=>{
+            if (data.error){
+
+            }else{
+                dataRecieved = data.data
+                // populating the result area
+                dataRecieved.forEach((sample)=>{
+                    create_result_tile(sample, container)
+                }) 
+            }
+        })
+    })
+    return dataRecieved;
+
+}
+
 
