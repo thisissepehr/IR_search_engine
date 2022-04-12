@@ -1,0 +1,6 @@
+numpy~=1.21.2
+spacy~=3.0.8
+snowballstemmer~=2.2.0
+nltk~=3.7
+mysql-connector-python~=8.0.28
+requests~=2.27.1

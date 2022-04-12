@@ -1,7 +1,6 @@
 import csv
 import mysql.connector
 import downloader as dl
-from bs4 import BeautifulSoup
 import itertools
 import os
 import sys
@@ -14,14 +13,21 @@ import snowballstemmer
 date = '2020-03-13'
 # Change it to your relative path
 directory_path = "../data/10kFiles"
+# directory_path = "../data/Test"
 
 # global DB variables
 db_host = "localhost"
 db_user = "root"
 db_password = "SED_Group10"
 db_database = "BASP"
-select_sqls = {'Author': 'SELECT * FROM Author', 'Paper': 'SELECT * FROM Paper', 'Word': 'SELECT * FROM Word'}# TODO: add the SQL SELECT statements
-insert_sqls = {'Author': 'INSERT INTO table_name (idAuthor, FirstName, LastName) VALUES (value1, value2, value3, ...)', 'Paper': '', 'paper_to_author': '', 'Word': '', 'word_to_paper': ''}  # TODO: add the SQL INSERT statements
+insert_sqls = {'Author': 'INSERT INTO Author (FirstName, LastName) VALUES (%s, %s)',
+               'Paper': 'INSERT INTO Paper (idPaper, title, word_count) VALUES (%s, %s, %s)',
+               'Word': 'INSERT INTO Word (word) VALUES (%s)'}
+select_sqls = {'Author': 'SELECT * FROM Author WHERE FirstName = %(FirstName)s AND LastName =  %(LastName)s',
+               'Paper': 'SELECT * FROM Paper WHERE idPaper = %(idPaper)s',
+               'paper_to_author': 'SELECT * FROM paper_to_author WHERE fk_paper_id = %(fk_paper_id)s AND fk_author_id = %(fk_author_id)s',
+               'Word': 'SELECT * FROM Word WHERE word = %(word)s',
+               'word_to_paper': 'SELECT * FROM word_to_paper WHERE fk_word_id = %(fk_word_id)s AND fk_paper_id = %(fk_paper_id)s'}
 
 # global variables
 dataset = []
@@ -145,26 +151,30 @@ def connect_to_DB():
     @return
         the object id
 '''
-def add_object_to_DB(insert_sqls, select_sql, val, populator) -> int:
-    populator_cursor = populator.cursor()
-    populator_cursor.execute(select_sql, val)
-    try:  # Object already exists
+def add_object_to_DB(insert_sqls, select_sql, select_val, insert_val, populator) -> int:
+    try:
+        populator_cursor = populator.cursor()
+        populator_cursor.execute(select_sql, select_val)
         id = populator_cursor.fetchone()
-    except:  # Object needs to be added
-        populator_cursor.excute(insert_sqls, val)
-        populator.commit()
-        id = populator_cursor.lastrowid()
-    return id
+        if id is None:
+            populator_cursor.execute(insert_sqls, insert_val)
+            populator.commit()
+            # id = populator_cursor.lastrowid()
+        else:
+            return id
+    except BaseException as err:
+        print(err)
+        exit(1)
 
 ''' index function
     All the indexing happens here
 '''
 def index(paper_id, author_id, word_ids):
     populator_cursor = populator.cursor()
-    populator_cursor.excute(insert_sqls['paper_to_author'], (paper_id, author_id))
+    populator_cursor.execute(insert_sqls['paper_to_author'], (paper_id, author_id))
     populator.commit()
     for word_id in word_ids:
-        populator_cursor.excute(insert_sqls['word_to_paper'], (word_id, paper_id))
+        populator_cursor.execute(insert_sqls['word_to_paper'], (word_id, paper_id))
         populator.commit()
 
 ''' populate function
@@ -172,17 +182,22 @@ def index(paper_id, author_id, word_ids):
 '''
 def populate(populator):
     for entry in dataset:
-        val_author = entry['authors']# TODO this string to be split to match the SQL statements
-        val_paper = (entry['id'], entry['title'], entry['doi'], entry['abstract'], entry['publish_time'], entry['body'], len(entry['body'].split()))
-        val_word = entry['body'].split()
+        for auth in entry['authors']:
+            first = auth["first"]
+            last = auth["last"]
+            select_val_author = {'FirstName': first, 'LastName': last}
+            insert_val_author = (first, last)
+            author_id = add_object_to_DB(insert_sqls['Author'], select_sqls['Author'], select_val_author, insert_val_author, populator)
 
-        author_id = add_object_to_DB(insert_sqls['Author'], select_sqls['Author'], val_author, populator)
-        paper_id = add_object_to_DB(insert_sqls['Paper'], select_sqls['Paper'], val_paper, populator)
+        select_val_paper = {'idPaper': entry['id']}
+        insert_val_paper = (entry['id'], entry['title'], entry['word_count'])
+        paper_id = add_object_to_DB(insert_sqls['Paper'], select_sqls['Paper'], select_val_paper, insert_val_paper, populator)
+        # val_word = entry['body'].split()
         word_ids = []
-        for word in val_word:
-            word_ids.append(add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], val_word, populator))
+        # for word in val_word:
+        #     word_ids.append(add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], val_word, populator))
 
-        index(paper_id, author_id, word_ids)
+        # index(paper_id, author_id, word_ids)
 
 # Function to count unique words in document
 def count_unique(id_):
@@ -191,6 +206,7 @@ def count_unique(id_):
     else:
         d_doc_unique_words_count[id_] = 1
 
+# Function to iterate over dataset and parse the files
 def iter_and_parse_all_files(p):
     for root, dirs, files in os.walk(p):
         for file in files:
@@ -214,6 +230,9 @@ def iter_and_parse_all_files(p):
                     for items in abstracts:
                         if len(str(items["text"])) != 0:
                             text_only += str(items["text"])
+                    for items in authors:
+                        if len(str(items["first"])) != 0 or len(str(items["last"])) != 0:
+                            text_only += str(items["first"]) + " " + str(items["first"])
                     text_only += title
                     yield paperid, text_only
 
@@ -274,7 +293,7 @@ if __name__ == "__main__":
 
     load_dataset()
     populator = connect_to_DB()
-    # populate(populator)
+    populate(populator)
 
     # Creates 3 Files
     # 1. Document Word Count (Word counter: {doc1 : 100})
