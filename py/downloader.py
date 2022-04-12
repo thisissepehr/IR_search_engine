@@ -1,7 +1,7 @@
 import requests
 import tarfile
 
-# The Date itenifier of the datset that should be used
+# The Date identifier of the dataset that should be used
 date = '2020-03-13'
 
 ''' load_dataset function

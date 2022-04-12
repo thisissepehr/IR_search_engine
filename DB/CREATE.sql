@@ -88,3 +88,7 @@ GRANT SELECT ON Word TO 'populator';
 
 CREATE USER 'retriver' IDENTIFIED BY '5t7zuvtoyesad2vguhbpoyoli';
 GRANT SELECT ON BASP.* TO 'retriver';
+
+ALTER TABLE Author
+MODIFY title, abstract, body
+text;

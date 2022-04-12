@@ -39,7 +39,7 @@ class BM25:
 
             for word, freq in frequencies.items():
                 try:
-                    nd[word]+=1
+                    nd[word] += 1
                 except KeyError:
                     nd[word] = 1
 
@@ -70,8 +70,6 @@ class BM25:
         top_n = np.argsort(scores)[::-1][:n]
         return [documents[i] for i in top_n]
 
-    
-    
 class BM25Okapi(BM25):
     def __init__(self, corpus, tokenizer=None, k1=1.5, b=0.75, epsilon=0.25):
         self.k1 = k1
