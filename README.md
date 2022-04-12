@@ -1,6 +1,6 @@
 <img src="https://people.bath.ac.uk/mtc47/img/collaborators/QM_Logo.png" height=100>
 
-## Information Retrival (Assignment 3): 
+## Information Retrieval (Assignment 3): 
 # Search Engine
 
 Module Code: **ECS736P** 
