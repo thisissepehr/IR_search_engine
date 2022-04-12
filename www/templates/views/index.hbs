@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/styles.css"/>
+    </head>
+    <body>
+        <div class="content">
+            {{>header}}
+
+            <form action="" method="GET" class="form">
+                <button type="submit" id="search" class="search-button">
+                    <img id="binoculars" src="../img/search.png">
+                </button>   
+                <input type="search" id="search-content" placeholder="Search Anything!" class="search-field" />
+                
+            </form>
+          
+          <div id="results"></div>
+
+
+            {{>footer}}
+        </div>
+        <script src="/js/events.js"></script>
+    </body>
+</html>
+
