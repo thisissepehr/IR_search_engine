@@ -1,10 +1,4 @@
 
-// document.addEventListener("submit", (event)=>{
-//     event.preventDefault()
-//     const search = document.getElementById("search-content")
-//     console.log(search.value);
-// })
-
 // setting the date at the end of the page
 const date =new Date()
 document.getElementById("copyright").innerHTML = "Copy Right &copy "+date.getFullYear()
@@ -16,34 +10,15 @@ document.getElementById("search").addEventListener("click",(event)=>{
     event.preventDefault()
     const search = document.getElementById("search-content").value
 
-    // calling the server for this search query
-    /////////////////////////////////////////////
-    /////////////////////////////////////////////
-    /////////////////////////////////////////////
-    const data = getData(search)
-    // console.log(search);
     //adding results
     let container = document.getElementById("results")
-    
     clear_reasults(container);
-    
-    // populating the result area
-    data.forEach((sample)=>{
-        create_result_tile(sample, container)
-    }) 
+
+    // get results from the server and populate the container
+    const data = getData(search,container);
+
+    // make it visible once the results are prepared
     container.style.visibility = "visible";
-    // TODO: just a test remember to remove it
-    // if (search ==="1"){
-
-    //     data.forEach((sample)=>{
-    //         create_result_tile(sample, container)
-    //     })
-    // }else if(search === "2"){
-    //     data2.forEach((sample)=>{
-    //         create_result_tile(sample, container)
-    //     })
-    // }
-
 })
 
 let clear_reasults = (container)=>{
@@ -84,77 +59,23 @@ let create_result_tile = (sample, container)=> {
     container.append(inside_div)
 }
 
-let getData = (query)=>{
+let getData = (query, container)=>{
     let dataRecieved = []
-    fetch("?query="+query).then((response)=>{
+    fetch("/search?query="+query).then((response)=>{
         response.json().then((data)=>{
             if (data.error){
 
             }else{
-                dataRecieved = data
+                dataRecieved = data.data
+                // populating the result area
+                dataRecieved.forEach((sample)=>{
+                    create_result_tile(sample, container)
+                }) 
             }
         })
     })
-    console.log(dataRecieved)
     return dataRecieved;
 
 }
 
 
-
-const data2= [
-    {
-        title:"something 1000",
-        author:["john Doe", "sep"],
-        url:"https://google.com",
-        year: 2022
-    },
-    {
-        title:"something 2000",
-        author:["jane Doe"],
-        url:"https://google.com",
-        year: 2021
-    },
-    {
-        title:"something 3000",
-        author:["sep Doe"],
-        url:"https://google.com",
-        year: 1982
-    },
-    {
-        title:"something 4000",
-        author:["alex Doe"],
-        url:"https://google.com",
-        year: 2022
-    },
-    
-]
-
-
-const data= [
-    {
-        title:"something 1",
-        author:["john Doe", "sep"],
-        url:"https://google.com",
-        year: 2022
-    },
-    {
-        title:"something 2",
-        author:["jane Doe"],
-        url:"https://google.com",
-        year: 2021
-    },
-    {
-        title:"something 3",
-        author:["sep Doe"],
-        url:"https://google.com",
-        year: 1982
-    },
-    {
-        title:"something 4",
-        author:["alex Doe"],
-        url:"https://google.com",
-        year: 2022
-    },
-    
-]

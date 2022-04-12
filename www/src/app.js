@@ -1,6 +1,7 @@
 const path = require("path")
 const express = require("express")
 const hbs = require('hbs')
+const { response } = require("express")
 
 
 // defining paths to pages
@@ -25,16 +26,25 @@ app.use(express.static(publicDirectoryPath))
 
 app.get("", (req,res)=>{
     res.render("index", {})
-
-
-    // res.sendFile(publicDirectoryPath+"/html/index.html")
 })
 
-// app.get("/search",(req,res)=>{
+app.get("/search",(req,res)=>{
+    if(!req.query.query) {
+        return res.send({
+            error: "Provide some text to start search"
+        })
+    }
 
-// })
-
-
+    // this is the place to call the pythonic functions
+    ///////////////////////////////////////////////////
+    //                                               //
+    //                 Python code call              //
+    //                                               //
+    ///////////////////////////////////////////////////
+    res.send({
+        data: data1
+    })
+})
 
 
 app.listen(port, ()=>{
@@ -43,9 +53,9 @@ app.listen(port, ()=>{
 
 
 
-const data= [
+const data1= [
     {
-        title:"something 1",
+        title:"something 10000",
         author:["john Doe", "sep"],
         url:"https://google.com",
         year: 2022
