@@ -31,7 +31,7 @@ app.get("", (req,res)=>{
 app.get("/search",(req,res)=>{
     if(!req.query.query) {
         return res.send({
-            error: "Provide some text to start search"
+            error: "Provide some text to start the search"
         })
     }
 
