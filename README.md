@@ -36,7 +36,10 @@ pip install -r requirements.txt
 ```
 
 ## Run the Project
-
+To run the project with UI you have to run the server on local host like this:
+```
+node './www/src/app.js'
+```
 
 
 
