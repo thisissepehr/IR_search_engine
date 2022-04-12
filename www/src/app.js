@@ -1,7 +1,6 @@
 const path = require("path")
 const express = require("express")
 const hbs = require('hbs')
-const { response } = require("express")
 
 
 // defining paths to pages
