@@ -25,23 +25,48 @@ html {
   color: #626262;  
 }
 .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-search {
 
   margin: auto;
-  margin-top: 55px;
+  margin-top: 35px;
   width: 800px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
+
+.method-box {
+  display: flex;
+  flex-direction: row;
+  width: 800;
+  position: relative;
+  top: -25px;
+}
+.method-box input {
+  margin-left: 20px;
+}
+.method-box label{
+  font-family: 'Roboto Serif', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #626262;  
+}
 .search-field {
   height: 35px;
-  width: 600px;
-   
+  width: 600px;   
   background: linear-gradient(134.17deg, #EEF1F5 4.98%, #E6E9EF 94.88%);
   box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.75), inset 5px 5px 10px rgba(166, 180, 200, 0.75);
   border-radius: 40px;
-
   padding-left: 50px;
 }
 

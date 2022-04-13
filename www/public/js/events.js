@@ -9,17 +9,30 @@ document.getElementById("search").addEventListener("click",(event)=>{
     //preventing from refrehing
     event.preventDefault()
     const search = document.getElementById("search-content").value
+    const methodToUse = getMethodValue();
 
     //adding results
     let container = document.getElementById("results")
     clear_reasults(container);
 
     // get results from the server and populate the container
-    const data = getData(search,container);
+    const data = getData(search, methodToUse,container);
 
     // make it visible once the results are prepared
     container.style.visibility = "visible";
 })
+
+let getMethodValue = ()=>{
+    const radioButtons = document.querySelectorAll('input[name="method"]');
+    let selectedSize;
+            for (const radioButton of radioButtons) {
+                if (radioButton.checked) {
+                    selectedSize = radioButton.value;
+                    break;
+                }
+            }
+    return selectedSize
+}
 
 let clear_reasults = (container)=>{
     while(container.firstChild) {
@@ -59,9 +72,9 @@ let create_result_tile = (sample, container)=> {
     container.append(inside_div)
 }
 
-let getData = (query, container)=>{
+let getData = (query,methodTouse, container)=>{
     let dataRecieved = []
-    fetch("/search?query="+query).then((response)=>{
+    fetch("/search?query="+query+"&method="+methodTouse).then((response)=>{
         response.json().then((data)=>{
             if (data.error){
 

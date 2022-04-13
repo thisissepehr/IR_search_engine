@@ -10,10 +10,26 @@
             {{>header}}
 
             <form action="" method="GET" class="form">
-                <button type="submit" id="search" class="search-button">
+                <div class="form-search">
+                    <button type="submit" id="search" class="search-button">
                     <img id="binoculars" src="../img/search.png">
-                </button>   
-                <input type="search" id="search-content" placeholder="Search Anything!" class="search-field" />
+                    </button>   
+                    <input type="search" id="search-content" placeholder="Search Anything!" class="search-field" />
+                    
+                </div>
+                <br><br>
+                <div class="method-box">
+                        <input type="radio" id="m1" name="method" value="BM25">
+                        <label for="m1">BM25</label><br>
+                        <input type="radio" id="m2" name="method" value="tf-idf">
+                        <label for="m2">tf-idf</label><br>  
+                        <input type="radio" id="m3" name="method" value="BM25VA">
+                        <label for="m3">BM25VA</label>
+                        <input type="radio" id="m3" name="method" value="BM25L">
+                        <label for="m3">BM25L</label>
+                        <input type="radio" id="m3" name="method" value="BM25_plus">
+                        <label for="m3">BM25 plus</label>
+                </div>
                 
             </form>
           
