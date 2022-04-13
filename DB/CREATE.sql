@@ -8,11 +8,7 @@ CREATE TABLE IF NOT EXISTS `BASP`.`Author` (
   `idAuthor` INT NOT NULL AUTO_INCREMENT,
   `FirstName` VARCHAR(45) NULL,
   `LastName` VARCHAR(45) NULL,
-  `Institution` VARCHAR(45) NULL,
-  `email` VARCHAR(45) NULL,
   PRIMARY KEY (`idAuthor`));
-
-CREATE UNIQUE INDEX `email_UNIQUE` ON `BASP`.`Author` (`email` ASC);
 
 -- -----------------------------------------------------
 -- Table `BASP`.`Paper`
