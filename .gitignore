@@ -3,3 +3,5 @@
 *.tar.gz
 __pycache__
 node_modules
+www/node_modules
+.idea
