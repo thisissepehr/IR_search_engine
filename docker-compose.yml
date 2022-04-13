@@ -18,12 +18,5 @@ services:
     container_name: backend
     depends_on: 
       - db
-    env_file: ./.env
     ports:   
       - 8080:80
-    environment:
-      - DB_HOST=mysqldb
-      - DB_USER=$MYSQLDB_USER
-      - DB_PASSWORD=$MYSQLDB_ROOT_PASSWORD
-      - DB_NAME=$MYSQLDB_DATABASE
-      - DB_PORT=3307

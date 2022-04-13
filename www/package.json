@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
     "express": "^4.17.3",
     "hbs": "^4.2.0",
