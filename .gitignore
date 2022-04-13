@@ -7,3 +7,5 @@ www/node_modules
 ./idea
 *.p
 scores*.txt
+**/20*
+**/data
