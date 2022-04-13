@@ -12,8 +12,8 @@ import snowballstemmer
 # The Date identifier of the dataset that should be used
 date = '2020-03-13'
 # Change it to your relative path
-directory_path = "../data/10kFiles"
-# directory_path = "../data/Test"
+# directory_path = "../data/10kFiles"
+directory_path = "../data/DataFiles"
 
 # global DB variables
 db_host = "localhost"
@@ -42,36 +42,6 @@ d_doc_unique_words_count = {}
     Loads the Dataset from file and downloads the file from server if file non existent
 '''
 def load_dataset():
-    # global dataset
-    # # if True: #TODO replace with file './cord/'+date+'/all_sources_metadata_'+date+'.csv' exists
-    # if not os.path.exists('./cord_/'+date+'/all_sources_metadata_'+date+'.csv'):
-    #     dl.download()
-    # with open('./cord_/'+date+'/all_sources_metadata_'+date+'.csv') as f_in:
-    #     num_rows = 0
-    #     reader = csv.DictReader(f_in)
-    #     for row in reader:
-    #         num_rows += 1
-    #         unique_id = row['sha']
-    #         if os.path.exists("../data/10kFiles/" + str(unique_id) + ".json"):
-    #             doi = row['doi']
-    #             title = row['title']
-    #             abstract = row['abstract']
-    #             authors = row['authors']
-    #             has_full_text = row['has_full_text']
-    #             publish_time = row['publish_time']
-    #             body = ''  # TODO get full text
-    #             if has_full_text and not publish_time == '' and not abstract == '' and not authors == '' and not title == '' and not doi == '':
-    #                 if not doi.startswith('http://dx.doi.org/'):
-    #                     doi = 'http://dx.doi.org/'+doi
-    #                 dataset.append({'id': unique_id, 'doi': doi, 'title': title, 'abstract': abstract,
-    #                                'authors': authors, 'publish_time': publish_time, 'body': body})
-    # f_in.close()
-
-    # print('\n')
-    # print("Number rows in CSV " + str(num_rows))
-    # print("Number of documents in dataset " + str(len(dataset)))
-    # print('\n')
-
     gen1, gen2 = itertools.tee(iter_and_parse_all_files(directory_path))
     ids = (id_ for (id_, text) in gen1)
     texts = (text for (id_, text) in gen2)
