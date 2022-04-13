@@ -47,7 +47,7 @@ def bm25(word_occ, word_count, doc_count, contains_count, all_dwords_count, b=0.
             (tf(word_occ, word_count) + k * (1 - b + b * word_count / avgdl(all_dwords_count, doc_count))))
 
 # Function to calculate BM25L
-def bm25l(word_occ, word_count, doc_countm contains_count, all_dwords_count, b = 0.75, delta = 0.5, k = 1.2):
+def bm25l(word_occ, word_count, doc_countm, contains_count, all_dwords_count, b = 0.75, delta = 0.5, k = 1.2):
     ctd = tf(word_occ, word_count) / (1 - b + b * word_count / avgdl(all_dwords_count, doc_count))
     return idf(doc_count, contains_count) * (k + 1) * (ctd + delta) / (k + ctd + delta)
 
