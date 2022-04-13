@@ -4,4 +4,6 @@
 __pycache__
 node_modules
 www/node_modules
-.idea
+./idea
+*.p
+scores*.txt
