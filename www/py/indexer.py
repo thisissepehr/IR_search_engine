@@ -164,9 +164,11 @@ def add_object_to_DB(instert_sql, select_sql, select_val, val) -> int:
 def index(paper_id, author_ids, word_ids):
     populator_cursor = populator.cursor()
     for author_id  in author_ids:
+        # should checke first if exists
         populator_cursor.execute(insert_sqls['paper_to_author'], (paper_id[0], author_id[0]))
     populator.commit()
     for word_id in word_ids:
+        # should checke first if exists
         populator_cursor.execute(insert_sqls['word_to_paper'], (word_id[0], paper_id[0],dataset.get(paper_id[0])['body'].count(word_id[1])))
     populator.commit()
 
