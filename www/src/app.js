@@ -33,7 +33,7 @@ app.get("/search",(req,res)=>{
             error: "Provide some text to start the search"
         })
     }
-
+    console.log(req.query.method);
     const python = spawn('python',['./utils/searchConnector.py'])
 
     python.stdout.on('data', (data)=>{
