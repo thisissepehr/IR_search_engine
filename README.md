@@ -16,59 +16,46 @@ __Team Members:__
 * [Patrick John Levermore](mailto:p.levermore@se21.qmul.ac.uk)
 * [Bhavya Rajesh Makwana](mailto:b.r.makwana@se21.qmul.ac.uk)
 
-#### Final Grade: 100%
+#### Final Grade: ??%
 
 ## Overview
 
-This project uses Python 3 and spacY and NLTK for the basic libraries and coreNLP in the map reduce example.
-Indexing all the documents in python takes about 3 Hours. The map-reduce implementation only requires less time.
-The searcher uses the indexes provided and can score documents based on cosine similarity in a few seconds (1000 entries ranking list).
-You can score the topics based on TF-IDF, BM25 and BM25VA. The articles used in this project CORD19, a collection of all 
-published scientific papers on COVID-19 from [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)
-
-Refer to Architecture Design from this [PDF](https://github.com/thisissepehr/IR_search_engine/blob/main/Group10_SE_design.pdf)
-
-## Run requirements 
-
-Everything was built on Python 3.6 but should run on earlier versions as well.
-Package requirements:
-
-- numpy~=1.21.2
-- spacy~=3.0.8
-- snowballstemmer~=2.2.0
-- nltk~=3.7
-- mysql-connector-python~=8.0.28
-- requests~=2.27.1
-
-Please Note: From the DataSet Extract the zip and go to 2020-05-12/document_parses/pdf_json, copy files you want to index and 
-past it to data/DataFiles, Indexer will only index these files
-
-## Index
-
-We create three different dictionaries during the indexing phase.
-We run through all the documents and build the dictionaries by adding new entries.
-The dictionaries are stored in pickle format, and push all required data in database.
-
-- Inverted index with the words as keys, as values we save the docNo and the occurrence rate (see below)
-- Word counter index which contains the length of all documents
-- Word unique counter index which is needed for BM25VA
-
-### Examples:
-
-Inverted index:
-{write : {doc1 : 2, doc2: 5},
-zone : {doc5 : 1}}
-
-Word counter:
-{doc1 : 100}
-
-Unique word conter:
-{doc1 : 35}
+for this Project, as Search Engine has been developed, that allowes for the User to search tough the articles collecetd by [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), which is a COVID-19 reasearch paper database.
 
 
-The following metrics are calculated as well
-- total number of documents
-- total number of words in all documents
+## Running the Project
+
+### Using  Docker
+The whole Project has been developed, so that it can be easilty executed and deployed using the single Docker command.
+
+-  `docker-compose up`
+
+This will create a Docker App, which will consitst out of two containers. One Backend Contianer, which runs the Python and Javascript code. The second contianer hosts the MySQL Database.
+
+## Executing the Indexer
+**SYNOPSIS:**
+    
+    python indexer.py [-case | -lemm | -stem | -stop] [-none]
+
+**DESCRIPTION**
+
+The Intexer populated the Database with the Dataset. This operation can be very time intensive, as the most recent Dataset of the [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) collection has a size of ~80GB (April 2022).
+
+**OPTIONS:**
+
+    -case 
+        use case-folding
+    -lemm 
+        use the lemmatization. Does NOT work in combination with stemming.
+    -stem 
+        use stemming. Does NOT work in combination with lemmatizing.
+    -stop 
+        use the stop word filte                    
+    -none
+        only runs with basic tokens
+
+
+## The Methodology
 
 ### Natural language pre-processing
 
@@ -83,8 +70,6 @@ Several *Special strings* are handled. Basic stopwords are already removed in sp
 All of these are excluded from the tokens which later on are stored in the index.
 
 Case-folding is implemented with the python string method "casefold()".
-
-Please Note: Do the same pre-processing for documents and query(By default we are using lemmatizing and stopwords removal)
 
 ### Scoring
 
@@ -127,65 +112,6 @@ None, 0ba1801a150e25b029cf3c2a38573435b21dea80, 4, 0.34348281131845837 <br />
 Note: All scores are from the default settings of the indexer.py - lemmatization and stopwords on.
 
 ### Evaluation of significance
-
-### Running the project
-
-#### Indexer
-$ python indexer.py [-case | -lemm | -stem | -stop] [-none]
-OR
-$ python indexer.py
-
--case turns on case-folding.
--lemm turns on the lemmatization. Does NOT work in combination with stemming.
--stem turns on stemming. Does NOT work in combination with lemmatizing.
--stop turns on the stop word filter.
-                
--none turns everything OFF and only runs with basic tokens. ignores all other args
-
-
-DEFAULT SETTINGS FOR DOCUMENTS:
-
-- case-folding OFF
-- stemming OFF
-- lemmatization ON
-- stop word filters ON
-
-#### Searcher
-
-$ python search.py 
-
-DEFAULT SETTINGS FOR QUERY:
-
-- case-folding OFF
-- stemming OFF
-- lemmatization ON
-- stop word filters ON
-
-Note: You can change the query preprocessing in search.py file by setting these booleans:
-* lemmatize = True
-* stem = False
-* stop_words = True
-* case_fold = False
-
-## Dependencies
-In order to run this project you have to solve some UI dependencies and some python dependencies.
-
-#### UI dependencies
-This project runs on node.js framework. You can download it from [here](https://nodejs.org/en/). To initialize the project go to the project directory in the **www** folder (you should see a file called _package.json_) and the use the code below: 
-```
-npm install
-```
-#### Python Dependencies
-```
-pip install -r requirements.txt
-```
-
-## Run the Project
-To run the project with UI you have to run the server on local host like this:
-```
-cd ./www
-npm start
-```
 
 
 
