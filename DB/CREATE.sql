@@ -18,10 +18,10 @@ CREATE UNIQUE INDEX `email_UNIQUE` ON `BASP`.`Author` (`email` ASC);
 -- Table `BASP`.`Paper`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `BASP`.`Paper` (
-  `idPaper` INT NOT NULL AUTO_INCREMENT,
-  `title` VARCHAR(45) NULL,
-  `abstract` VARCHAR(45) NULL,
-  `body` VARCHAR(45) NULL,
+  `idPaper` VARCHAR(200) NOT NULL AUTO_INCREMENT,
+  `title` text,
+  `abstract` text,
+  `body` text,
   `year` DATETIME NULL,
   `doi` VARCHAR(45) NULL,
   `word_count` INT NULL,
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `BASP`.`Paper` (
 -- Table `BASP`.`paper_to_author`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `BASP`.`paper_to_author` (
-  `fk_paper_id` INT NOT NULL,
+  `fk_paper_id` VARCHAR(200) NOT NULL,
   `fk_author_id` INT NOT NULL,
   PRIMARY KEY (`fk_paper_id`, `fk_author_id`),
   CONSTRAINT `fk_author_paper_to_author`
@@ -65,7 +65,7 @@ CREATE UNIQUE INDEX `word_UNIQUE` ON `BASP`.`Word` (`word` ASC);
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `BASP`.`word_to_paper` (
   `fk_word_id` INT NOT NULL,
-  `fk_paper_id` INT NOT NULL,
+  `fk_paper_id` VARCHAR(200) NOT NULL,
   `counter` INT NULL,
   PRIMARY KEY (`fk_word_id`, `fk_paper_id`),
   CONSTRAINT `fk_word_word_to_paper`
@@ -88,4 +88,5 @@ GRANT SELECT ON Word TO 'populator';
 
 CREATE USER 'retriver' IDENTIFIED BY '5t7zuvtoyesad2vguhbpoyoli';
 GRANT SELECT ON BASP.* TO 'retriver';
+
 
