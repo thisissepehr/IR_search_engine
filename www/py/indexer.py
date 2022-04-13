@@ -2,11 +2,9 @@ import csv
 import mysql.connector
 import downloader as dl
 import itertools
-import os
 import sys
 import spacy
 import json
-import pickle
 import snowballstemmer
 
 # The Date identifier of the dataset that should be used
@@ -47,7 +45,7 @@ def iterate_jsons():
             data = dataset.get(paperid)
             data['authors'] = authors
             dataset.update({paperid:{data}})
-            yield zip(paperid, text_only)
+            yield paperid, text_only
 
 def preprocess(doc_id,token):
     strtok = ''
@@ -63,7 +61,11 @@ def preprocess(doc_id,token):
         return strtok                
 
 def parse_json():
-    for paperid, text in iterate_jsons('./'+date+'/document_parses/pdf_json/')
+    paperids, texts = itertools.tee(iterate_jsons())
+    paperids = (id_ for (id_, text) in paperids)
+    texts = (text for (id_, text) in texts)
+    texts = nlp.pipe(text, batch_size=10)
+    for paperid, text in zip(paperids, texts):
         text = nlp.pipe(text, batch_size=10)
         processed_text = ''
         for token in text:
@@ -77,10 +79,11 @@ def parse_json():
         dataset.update({paperid:{data}})
 
 
-def load_cvs():
+def load_csv():
     global dataset
     counter = 0
-    with open('./'+date+'/all_sources_metadata_'+date+'.csv') as f_in:
+    with open('./'+date+'/metadata.csv','r') as f_in:
+    #with open('./cord/2020-03-13/all_sources_metadata_2020-03-13.csv','r') as f_in:
         reader = csv.DictReader(f_in)
         for row in reader:
             doi = row['doi']
@@ -99,9 +102,10 @@ def load_cvs():
     Loads the Dataset from file and downloads the file from server if file non existent
 '''
 def load_dataset():
-    dl.download()
-    load_cvs()
+    #dl.download()
+    load_csv()
     parse_json()
+    print("here is a stop")
 
 ''' connect_to_DB function
     Connect to the database
@@ -201,7 +205,7 @@ def count_unique(text) -> dict:
         c = token_dict.get(t,0)+1
         token_dict.update({t:c})
     return token_dict
-
+'''
 if __name__ == "__main__":
     ############################### command line arguments, all are ON by DEFAULT #####################################
     lemmatize = False
@@ -240,6 +244,7 @@ if __name__ == "__main__":
                 print("The argument {0} is not valid.".format(argu))
                 sys.exit(1)
     ####################################################################################################
-    load_dataset()
-    connect_to_DB()
-    populate()
+    '''
+load_dataset()
+    #connect_to_DB()
+    #populate()
