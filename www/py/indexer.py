@@ -28,38 +28,26 @@ select_sqls = {'Author': 'SELECT * FROM Author WHERE FirstName = %(FirstName)s A
 
 # global variables
 dataset = {}
+populator = None
+populator_cursor = None
 nlp = spacy.load('en_core_web_sm')
 stemmer = snowballstemmer.stemmer("english")
 MAX_FILE_NUMER = 1000
 
 # Function to iterate over dataset and parse the files
-def iter_and_parse_all_files(p):
-    for root, dirs, files in os.walk(p):
-        for file in files:
-            if not file.startswith('.'):
-                print('using: ' + str(os.path.join(root, file)))
-                path = os.path.join(root, file)
-                with open(path) as f:
-                    text_only = ''
-                    d = json.load(f)
-                    paperid = d["paper_id"].strip()
-                    title = d["metadata"]["title"]
-                    authors = d["metadata"]["authors"]
-                    abstracts = d["abstract"]
-                    texts = d["body_text"]
-                    dataset.append({'id': paperid, 'doi': '', 'title': title, 'abstract': '', 'authors': authors,
-                                    'publish_time': '', 'body': '', 'word_count': ''})
-                    for items in texts:
-                        if len(str(items["text"])) != 0:
-                            text_only += str(items["text"])
-                    for items in abstracts:
-                        if len(str(items["text"])) != 0:
-                            text_only += str(items["text"])
-                    for items in authors:
-                        if len(str(items["first"])) != 0 or len(str(items["last"])) != 0:
-                            text_only += str(items["first"]) + " " + str(items["first"])
-                    text_only += title
-                    yield paperid, text_only
+def iterate_jsons():
+    for paperid,data in dataset.items():
+        with open('./'+date+'/document_parses/pdf_json/'+paperid) as f:
+            text_only = ''
+            json_data = json.load(f)
+            authors = json_data["metadata"]["authors"]
+            texts = json_data["body_text"]
+            for items in texts:
+                text_only = text_only + str(items["text"]) if len(str(items["text"])) != 0 else text_only
+            data = dataset.get(paperid)
+            data['authors'] = authors
+            dataset.update({paperid:{data}})
+            yield zip(paperid, text_only)
 
 def preprocess(doc_id,token):
     strtok = ''
@@ -74,13 +62,13 @@ def preprocess(doc_id,token):
             strtok = strtok.casefold()
         return strtok                
 
-def load_json():
-    ids, texts = iter_and_parse_all_files('./'+date+'/document_parses/pdf_json/')
-    docs = nlp.pipe(texts, batch_size=10)
-    for paperid, doc in zip(ids, docs):
+def parse_json():
+    for paperid, text in iterate_jsons('./'+date+'/document_parses/pdf_json/')
+        text = nlp.pipe(text, batch_size=10)
         processed_text = ''
-        for token in doc:
-            processed_toke = preprocess(doc_id,token)
+        for token in text:
+            token = token.text
+            processed_toke = preprocess(paperid,token)
             if processed_toke == '':
                 continue
             processed_text = processed_text +' '+token
@@ -98,12 +86,11 @@ def load_cvs():
             doi = row['doi']
             title = row['title']
             abstract = row['abstract']
-            authors = row['authors']
             publish_time = row['publish_time']
             paperid = row['pdf_json_files'][25:]
-            if (not paperid == '' and not publish_time == '' and not abstract == '' and not authors == '' and not title == '' and not doi == ''):
+            if (not paperid == '' and not publish_time == '' and not abstract == '' and not title == '' and not doi == ''):
                 if(not doi.startswith('http://dx.doi.org/')): doi = 'http://dx.doi.org/'+doi
-                dataset.update({paperid:{'doi': doi, 'title': title, 'abstract': abstract, 'authors': authors, 'publish_time': publish_time, 'body': ''}})
+                dataset.update({paperid:{'doi': doi, 'title': title, 'abstract': abstract, 'authors': '', 'publish_time': publish_time, 'body': ''}})
             counter = counter + 1
             if counter == MAX_FILE_NUMER:
                 break
@@ -114,7 +101,7 @@ def load_cvs():
 def load_dataset():
     dl.download()
     load_cvs()
-    load_json()
+    parse_json()
 
 ''' connect_to_DB function
     Connect to the database
@@ -124,6 +111,8 @@ def connect_to_DB():
     global db_user
     global db_password
     global db_database
+    global populator_cursor
+    global populator
     try:
         populator = mysql.connector.connect(
             host=db_host,
@@ -131,9 +120,8 @@ def connect_to_DB():
             password=db_password,
             database=db_database
         )
-        return populator
-    except BaseException as err:
-        print(err)
+        populator_cursor=populator.cursor()
+    except:
         exit(1)
 
 ''' add_object_to_DB function
@@ -149,21 +137,30 @@ def connect_to_DB():
     @return
         the object id
 '''
-def add_object_to_DB(insert_sqls, select_sql, select_val, insert_val, populator) -> int:
+def add_object_to_DB(insert_sql, select_sql, val, populator) -> int:
     try:
         populator_cursor = populator.cursor()
-        populator_cursor.execute(select_sql, select_val)
+        populator_cursor.execute(select_sql, val)
         id = populator_cursor.fetchone()
         if id is None:
-            populator_cursor.execute(insert_sqls, insert_val)
+            populator_cursor.execute(insert_sql, val)
             populator.commit()
             id = populator_cursor.lastrowid()
             return id
         else:
             return id
-    except BaseException as err:
-        print(err)
+    except BaseException:
         exit(1)
+
+def add_object_to_DB(instert_sql, select_sql, val) -> int:
+    populator_cursor.execute(select_sql, val)
+    try:  # Object already exists
+        id = populator_cursor.fetchone()
+    except:  # Object needs to be added
+        populator_cursor.excute(instert_sql, val)
+        populator.commit()
+        id = populator_cursor.lastrowid()
+    return id
 
 ''' index function
     All the indexing happens here
@@ -187,18 +184,23 @@ def populate(populator):
 
         select_val_paper = {'idPaper': entry['id']}
         insert_val_paper = (entry['id'], entry['title'], entry['word_count'])
-        paper_id = add_object_to_DB(insert_sqls['Paper'], select_sqls['Paper'], select_val_paper, insert_val_paper, populator)
+
+        author_id = add_object_to_DB(insert_sqls['Author'], select_sqls['Author'], val_author)
+        paper_id = add_object_to_DB(insert_sqls['Paper'], select_sqls['Paper'], val_paper)
         word_ids = []
         for word in val_word:
             word_ids.append(add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], val_word))
 
-
-# Function to count unique words in document
-def count_unique(id_):
-    if id_ in d_doc_unique_words_count.keys():
-        d_doc_unique_words_count[id_] = d_doc_unique_words_count[id_] + 1
-    else:
-        d_doc_unique_words_count[id_] = 1
+''' count_unique function
+    Counts the unique words in the document
+'''
+def count_unique(text) -> dict:
+    tokens = text.split()
+    token_dict = {}
+    for t in tokens:
+        c = token_dict.get(t,0)+1
+        token_dict.update({t:c})
+    return token_dict
 
 if __name__ == "__main__":
     ############################### command line arguments, all are ON by DEFAULT #####################################
@@ -237,19 +239,7 @@ if __name__ == "__main__":
             else:
                 print("The argument {0} is not valid.".format(argu))
                 sys.exit(1)
-
-    print("Using {} as a path for files to index. Changeable in the beginning of the script.".format(directory_path))
-    print('\n')
     ####################################################################################################
-
     load_dataset()
-    populator = connect_to_DB()
-    populate(populator)
-
-    # Creates 3 Files
-    # 1. Document Word Count (Word counter: {doc1 : 100})
-    pickle.dump(d_doc_words_count, open("word_count.p", "wb"))
-    # 2. Inverted Index (Inverted index: {write : {doc1 : 2, doc2: 5}, zone : {doc5 : 1}})
-    pickle.dump(d, open("inv_ind.p", "wb"))
-    # 3. Unique Word Counter (Unique word counter: {doc1 : 35})
-    pickle.dump(d_doc_unique_words_count, open("unique_words_count.p", "wb"))
+    connect_to_DB()
+    populate()
