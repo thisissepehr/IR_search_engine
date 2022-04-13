@@ -28,7 +28,7 @@ published scientific papers on COVID-19 from [CORD19](https://ai2-semanticschola
 
 Refer to Architecture Design from this [PDF](https://github.com/thisissepehr/IR_search_engine/blob/main/Group10_SE_design.pdf)
 
-## Run requirements
+## Run requirements 
 
 Everything was built on Python 3.6 but should run on earlier versions as well.
 Package requirements:
