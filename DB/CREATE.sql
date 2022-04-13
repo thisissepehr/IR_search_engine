@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS `BASP`.`Paper` (
   `year` DATETIME NULL,
   `doi` VARCHAR(45) NULL,
   `word_count` INT NULL,
+  `unique_word_count` INT NULL,
   PRIMARY KEY (`idPaper`));
 
 

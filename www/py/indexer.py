@@ -10,15 +10,12 @@ import pickle
 import snowballstemmer
 
 # The Date identifier of the dataset that should be used
-date = '2020-03-13'
-# Change it to your relative path
-# directory_path = "../data/10kFiles"
-directory_path = "../data/DataFiles"
+date = '2022-03-31'
 
 # global DB variables
 db_host = "localhost"
-db_user = "root"
-db_password = "SED_Group10"
+db_user="populator",
+db_password="d9pifetoyesad2cekipoyolis",
 db_database = "BASP"
 insert_sqls = {'Author': 'INSERT INTO Author (FirstName, LastName) VALUES (%s, %s)',
                'Paper': 'INSERT INTO Paper (idPaper, title, word_count) VALUES (%s, %s, %s)',
@@ -30,63 +27,94 @@ select_sqls = {'Author': 'SELECT * FROM Author WHERE FirstName = %(FirstName)s A
                'word_to_paper': 'SELECT * FROM word_to_paper WHERE fk_word_id = %(fk_word_id)s AND fk_paper_id = %(fk_paper_id)s'}
 
 # global variables
-dataset = []
-numer_of_files = 1
+dataset = {}
 nlp = spacy.load('en_core_web_sm')
 stemmer = snowballstemmer.stemmer("english")
-d = {}
-d_doc_words_count = {}
-d_doc_unique_words_count = {}
+MAX_FILE_NUMER = 1000
+
+# Function to iterate over dataset and parse the files
+def iter_and_parse_all_files(p):
+    for root, dirs, files in os.walk(p):
+        for file in files:
+            if not file.startswith('.'):
+                print('using: ' + str(os.path.join(root, file)))
+                path = os.path.join(root, file)
+                with open(path) as f:
+                    text_only = ''
+                    d = json.load(f)
+                    paperid = d["paper_id"].strip()
+                    title = d["metadata"]["title"]
+                    authors = d["metadata"]["authors"]
+                    abstracts = d["abstract"]
+                    texts = d["body_text"]
+                    dataset.append({'id': paperid, 'doi': '', 'title': title, 'abstract': '', 'authors': authors,
+                                    'publish_time': '', 'body': '', 'word_count': ''})
+                    for items in texts:
+                        if len(str(items["text"])) != 0:
+                            text_only += str(items["text"])
+                    for items in abstracts:
+                        if len(str(items["text"])) != 0:
+                            text_only += str(items["text"])
+                    for items in authors:
+                        if len(str(items["first"])) != 0 or len(str(items["last"])) != 0:
+                            text_only += str(items["first"]) + " " + str(items["first"])
+                    text_only += title
+                    yield paperid, text_only
+
+def preprocess(doc_id,token):
+    strtok = ''
+    if not stop_words or (token.is_alpha and not token.is_stop and len(token.orth_) > 1):
+        if lemmatize:
+            strtok = token.lemma_.strip() 
+        elif stem:
+            strtok = stemmer.stemWord(strtok)
+        else:
+            token.orth_.strip()
+        if case_fold:
+            strtok = strtok.casefold()
+        return strtok                
+
+def load_json():
+    ids, texts = iter_and_parse_all_files('./'+date+'/document_parses/pdf_json/')
+    docs = nlp.pipe(texts, batch_size=10)
+    for paperid, doc in zip(ids, docs):
+        processed_text = ''
+        for token in doc:
+            processed_toke = preprocess(doc_id,token)
+            if processed_toke == '':
+                continue
+            processed_text = processed_text +' '+token
+        data = dataset.get(paperid)
+        data['body'] = processed_text
+        dataset.update({paperid:{data}})
+
+
+def load_cvs():
+    global dataset
+    counter = 0
+    with open('./'+date+'/all_sources_metadata_'+date+'.csv') as f_in:
+        reader = csv.DictReader(f_in)
+        for row in reader:
+            doi = row['doi']
+            title = row['title']
+            abstract = row['abstract']
+            authors = row['authors']
+            publish_time = row['publish_time']
+            paperid = row['pdf_json_files'][25:]
+            if (not paperid == '' and not publish_time == '' and not abstract == '' and not authors == '' and not title == '' and not doi == ''):
+                if(not doi.startswith('http://dx.doi.org/')): doi = 'http://dx.doi.org/'+doi
+                dataset.update({paperid:{'doi': doi, 'title': title, 'abstract': abstract, 'authors': authors, 'publish_time': publish_time, 'body': ''}})
+            counter = counter + 1
+            if counter == MAX_FILE_NUMER:
+                break
 
 ''' load_dataset function
     Loads the Dataset from file and downloads the file from server if file non existent
 '''
 def load_dataset():
-    gen1, gen2 = itertools.tee(iter_and_parse_all_files(directory_path))
-    ids = (id_ for (id_, text) in gen1)
-    texts = (text for (id_, text) in gen2)
-    # docs = nlp.pipe(texts, n_process=4, batch_size=100)
-    docs = nlp.pipe(texts, batch_size=10)
-    file_counter = 0
-    word_counter = 0
-
-    for id_, doc in zip(ids, docs):
-        doc_word_counter = 0
-        file_counter += 1
-        for token in doc:
-            # filter out stopwords
-            if not stop_words or (token.is_alpha and not token.is_stop and len(token.orth_) > 1):
-                doc_word_counter = doc_word_counter + 1
-                # take processed lemma or original depending on settings
-                strtok = token.lemma_.strip() if lemmatize else token.orth_.strip()
-                if case_fold:
-                    strtok = strtok.casefold()
-                if stem:
-                    strtok = stemmer.stemWord(strtok)
-                if strtok not in d.keys():
-                    count_unique(id_)
-                    d[strtok] = {id_: 1}
-                elif strtok in d.keys():
-                    # either increase counter or add document
-                    if id_ in d[strtok].keys():
-                        d[strtok][id_] = d[strtok][id_] + 1
-                    else:
-                        count_unique(id_)
-                        d[strtok][id_] = 1
-        # take only first k items to test
-        # if file_counter == 1:
-        #     break
-        record = None
-        for dicti in dataset:
-            if dicti["id"] == id_:
-                record = dicti
-                break
-        record['word_count'] = str(doc_word_counter)
-        word_counter = word_counter + doc_word_counter
-        d_doc_words_count[id_] = doc_word_counter
-
-    d_doc_words_count["word_counter"] = word_counter # Stores total word counts in all files
-    d_doc_words_count["doc_counter"] = file_counter # Stores total document counts
+    dl.download()
+    load_cvs()
+    load_json()
 
 ''' connect_to_DB function
     Connect to the database
@@ -129,7 +157,8 @@ def add_object_to_DB(insert_sqls, select_sql, select_val, insert_val, populator)
         if id is None:
             populator_cursor.execute(insert_sqls, insert_val)
             populator.commit()
-            # id = populator_cursor.lastrowid()
+            id = populator_cursor.lastrowid()
+            return id
         else:
             return id
     except BaseException as err:
@@ -152,22 +181,17 @@ def index(paper_id, author_id, word_ids):
 '''
 def populate(populator):
     for entry in dataset:
-        for auth in entry['authors']:
-            first = auth["first"]
-            last = auth["last"]
-            select_val_author = {'FirstName': first, 'LastName': last}
-            insert_val_author = (first, last)
-            author_id = add_object_to_DB(insert_sqls['Author'], select_sqls['Author'], select_val_author, insert_val_author, populator)
+        val_author = entry['authors']# TODO this string to be split to match the SQL statements
+        val_paper = (entry['title'], entry['doi'], entry['abstract'], entry['publish_time'], entry['body'], len(entry['body'].split()))
+        val_word = entry['body'].split()
 
         select_val_paper = {'idPaper': entry['id']}
         insert_val_paper = (entry['id'], entry['title'], entry['word_count'])
         paper_id = add_object_to_DB(insert_sqls['Paper'], select_sqls['Paper'], select_val_paper, insert_val_paper, populator)
-        # val_word = entry['body'].split()
         word_ids = []
-        # for word in val_word:
-        #     word_ids.append(add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], val_word, populator))
+        for word in val_word:
+            word_ids.append(add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], val_word))
 
-        # index(paper_id, author_id, word_ids)
 
 # Function to count unique words in document
 def count_unique(id_):
@@ -175,36 +199,6 @@ def count_unique(id_):
         d_doc_unique_words_count[id_] = d_doc_unique_words_count[id_] + 1
     else:
         d_doc_unique_words_count[id_] = 1
-
-# Function to iterate over dataset and parse the files
-def iter_and_parse_all_files(p):
-    for root, dirs, files in os.walk(p):
-        for file in files:
-            if not file.startswith('.'):
-                print('using: ' + str(os.path.join(root, file)))
-                path = os.path.join(root, file)
-                with open(path) as f:
-                    text_only = ''
-                    d = json.load(f)
-                    paperid = d["paper_id"].strip()
-                    metadata = d["metadata"]
-                    title = metadata["title"]
-                    authors = metadata["authors"]
-                    abstracts = d["abstract"]
-                    texts = d["body_text"]
-                    dataset.append({'id': paperid, 'doi': '', 'title': title, 'abstract': '', 'authors': authors,
-                                    'publish_time': '', 'body': '', 'word_count': ''})
-                    for items in texts:
-                        if len(str(items["text"])) != 0:
-                            text_only += str(items["text"])
-                    for items in abstracts:
-                        if len(str(items["text"])) != 0:
-                            text_only += str(items["text"])
-                    for items in authors:
-                        if len(str(items["first"])) != 0 or len(str(items["last"])) != 0:
-                            text_only += str(items["first"]) + " " + str(items["first"])
-                    text_only += title
-                    yield paperid, text_only
 
 if __name__ == "__main__":
     ############################### command line arguments, all are ON by DEFAULT #####################################
@@ -217,12 +211,6 @@ if __name__ == "__main__":
         lemmatize = True
         stem = False
         stop_words = True
-        print("""Using default settings:
-    - case-folding OFF
-    - stemming OFF
-    - lemmatization ON
-    - stop word filters ON
-        """)
     else:
         for argu in sys.argv:
             if argu == "-none":
@@ -248,13 +236,6 @@ if __name__ == "__main__":
                 case_fold = True
             else:
                 print("The argument {0} is not valid.".format(argu))
-                print("""-case turns on case-folding.
-    -lemm turns on the lemmatization. Does NOT work in combination with stemming.
-    -stem turns on stemming. Does NOT work in combination with lemmatizing.
-    -stop turns on the stop word filter.
-
-    -none turns everything OFF and only runs with basic tokens. ignores all other args
-    Program is exiting.""")
                 sys.exit(1)
 
     print("Using {} as a path for files to index. Changeable in the beginning of the script.".format(directory_path))

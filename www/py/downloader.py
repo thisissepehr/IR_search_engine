@@ -2,7 +2,7 @@ import requests
 import tarfile
 
 # The Date identifier of the dataset that should be used
-date = '2020-03-13'
+date = '2022-03-31'
 
 ''' load_dataset function
     Downloads the file from the server and saves it in the cord folder
