@@ -1,6 +1,12 @@
-FROM node:8.6.0
+FROM node:latest
 
-COPY . .
+COPY . ./www
+
+WORKDIR /www
+
+RUN apt-get update || : && apt-get install python3.6 -y
+RUN apt-get install python3-pip -y
+RUN pip3 install -r ./py/requirements.txt
 
 RUN npm install
 
