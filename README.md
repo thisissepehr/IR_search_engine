@@ -26,6 +26,8 @@ The searcher uses the indexes provided and can score documents based on cosine s
 You can score the topics based on TF-IDF, BM25 and BM25VA. The articles used in this project CORD19, a collection of all 
 published scientific papers on COVID-19 from [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)
 
+Refer to Architecture Design from this [PDF](https://github.com/thisissepehr/IR_search_engine/blob/main/Group10_SE_design.pdf)
+
 ## Run requirements
 
 Everything was built on Python 3.6 but should run on earlier versions as well.
