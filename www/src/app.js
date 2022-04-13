@@ -1,7 +1,7 @@
 const path = require("path")
 const express = require("express")
 const hbs = require('hbs')
-
+const {spawn} = require("child_process")
 
 // defining paths to pages
 const publicDirectoryPath = path.join(__dirname,'../public')
@@ -34,15 +34,27 @@ app.get("/search",(req,res)=>{
         })
     }
 
+    const python = spawn('python',['./utils/searchConnector.py'])
+
+    python.stdout.on('data', (data)=>{
+        dataTosend = data.toString();
+        console.log();
+    });
+
+    python.on('close', (code)=>{
+        res.send({
+            data: data1
+        })
+    })
     // this is the place to call the pythonic functions
     ///////////////////////////////////////////////////
     //                                               //
     //                 Python code call              //
     //                                               //
     ///////////////////////////////////////////////////
-    res.send({
-        data: data1
-    })
+    // res.send({
+    //     data: data1
+    // })
 })
 
 
