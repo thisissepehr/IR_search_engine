@@ -159,7 +159,11 @@ DEFAULT SETTINGS FOR QUERY:
 - lemmatization ON
 - stop word filters ON
 
-Note: You can change the query preprocessing in search.py file
+Note: You can change the query preprocessing in search.py file by setting these booleans:
+* lemmatize = True
+* stem = False
+* stop_words = True
+* case_fold = False
 
 ## Dependencies
 In order to run this project you have to solve some UI dependencies and some python dependencies.
