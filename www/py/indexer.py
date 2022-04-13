@@ -35,7 +35,7 @@ MAX_FILE_NUMER = 1000
 # Function to iterate over dataset and parse the files
 def iterate_jsons():
     for paperid,data in dataset.items():
-        with open('./'+date+'/document_parses/pdf_json/'+paperid) as f:
+        with open('./cord/'+date+'/document_parses/pdf_json/'+paperid) as f:
             text_only = ''
             json_data = json.load(f)
             authors = json_data["metadata"]["authors"]
@@ -82,9 +82,8 @@ def parse_json():
 def load_csv():
     global dataset
     counter = 0
-    with open('./'+date+'/metadata.csv','r') as f_in:
-    #with open('./cord/2020-03-13/all_sources_metadata_2020-03-13.csv','r') as f_in:
-        reader = csv.DictReader(f_in)
+    with open('./cord/'+date+'/metadata.csv') as f:
+        reader = csv.DictReader(f)
         for row in reader:
             doi = row['doi']
             title = row['title']
@@ -205,46 +204,12 @@ def count_unique(text) -> dict:
         c = token_dict.get(t,0)+1
         token_dict.update({t:c})
     return token_dict
-'''
+
 if __name__ == "__main__":
-    ############################### command line arguments, all are ON by DEFAULT #####################################
-    lemmatize = False
-    stop_words = False
     stem = False
     case_fold = False
-    sys.argv.pop(0)
-    if len(sys.argv) == 0:
-        lemmatize = True
-        stem = False
-        stop_words = True
-    else:
-        for argu in sys.argv:
-            if argu == "-none":
-                lemmatize = False
-                stop_words = False
-                stem = False
-                case_fold = False
-            elif argu == "-lemm":
-                if stem:
-                    print("Stemming and lemmatization do not work in combination.")
-                    print("Program is exiting.")
-                    sys.exit(1)
-                lemmatize = True
-            elif argu == "-stop":
-                stop_words = True
-            elif argu == "-stem":
-                if lemmatize:
-                    print("Stemming and lemmatization do not work in combination.")
-                    print("Program is exiting.")
-                    sys.exit(1)
-                stem = True
-            elif argu == "-case":
-                case_fold = True
-            else:
-                print("The argument {0} is not valid.".format(argu))
-                sys.exit(1)
-    ####################################################################################################
-    '''
-load_dataset()
-    #connect_to_DB()
-    #populate()
+    lemmatize = True
+    stop_words = True
+    load_dataset()
+    connect_to_DB()
+    populate()
