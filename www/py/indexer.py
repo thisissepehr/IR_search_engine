@@ -2,7 +2,7 @@ import csv
 import mysql.connector
 import downloader as dl
 import itertools
-import sys
+import os
 import spacy
 import json
 import snowballstemmer
@@ -30,7 +30,7 @@ populator = None
 populator_cursor = None
 nlp = spacy.load('en_core_web_sm')
 stemmer = snowballstemmer.stemmer("english")
-MAX_FILE_NUMER = 1000
+MAX_FILE_NUMER = 100
 
 # Function to iterate over dataset and parse the files
 def iterate_jsons():
@@ -44,10 +44,10 @@ def iterate_jsons():
                 text_only = text_only + str(items["text"]) if len(str(items["text"])) != 0 else text_only
             data = dataset.get(paperid)
             data['authors'] = authors
-            dataset.update({paperid:{data}})
+            dataset.update({paperid:data})
             yield paperid, text_only
 
-def preprocess(doc_id,token):
+def preprocess(doc_id,token) -> str:
     strtok = ''
     if not stop_words or (token.is_alpha and not token.is_stop and len(token.orth_) > 1):
         if lemmatize:
@@ -58,25 +58,23 @@ def preprocess(doc_id,token):
             token.orth_.strip()
         if case_fold:
             strtok = strtok.casefold()
-        return strtok                
+        return strtok              
 
 def parse_json():
     paperids, texts = itertools.tee(iterate_jsons())
     paperids = (id_ for (id_, text) in paperids)
     texts = (text for (id_, text) in texts)
-    texts = nlp.pipe(text, batch_size=10)
-    for paperid, text in zip(paperids, texts):
-        text = nlp.pipe(text, batch_size=10)
-        processed_text = ''
-        for token in text:
-            token = token.text
-            processed_toke = preprocess(paperid,token)
-            if processed_toke == '':
+    texts = nlp.pipe(texts, batch_size=10)
+    for paperid, texts in zip(paperids, texts):
+        processed_text:str = ''
+        for token in texts:
+            processed_token:str = preprocess(paperid,token)
+            if processed_token == '' or processed_token == None:
                 continue
-            processed_text = processed_text +' '+token
+            processed_text = processed_text+' '+processed_token
         data = dataset.get(paperid)
         data['body'] = processed_text
-        dataset.update({paperid:{data}})
+        dataset.update({paperid:data})
 
 
 def load_csv():
@@ -89,11 +87,11 @@ def load_csv():
             title = row['title']
             abstract = row['abstract']
             publish_time = row['publish_time']
-            paperid = row['pdf_json_files'][25:]
-            if (not paperid == '' and not publish_time == '' and not abstract == '' and not title == '' and not doi == ''):
+            paperid = row['pdf_json_files'][25:].split()
+            if (not len(paperid) == 0 and not publish_time == '' and not abstract == '' and not title == '' and not doi == ''):
                 if(not doi.startswith('http://dx.doi.org/')): doi = 'http://dx.doi.org/'+doi
-                dataset.update({paperid:{'doi': doi, 'title': title, 'abstract': abstract, 'authors': '', 'publish_time': publish_time, 'body': ''}})
-            counter = counter + 1
+                dataset.update({paperid[0].replace(';',''):{'doi': doi, 'title': title, 'abstract': abstract, 'authors': '', 'publish_time': publish_time, 'body': ''}})
+                counter = counter + 1
             if counter == MAX_FILE_NUMER:
                 break
 
@@ -101,7 +99,8 @@ def load_csv():
     Loads the Dataset from file and downloads the file from server if file non existent
 '''
 def load_dataset():
-    #dl.download()
+    if not os.path.exists('./cord/'+date+'/metadata.csv'):
+        dl.download()
     load_csv()
     parse_json()
     print("here is a stop")

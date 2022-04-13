@@ -35,25 +35,11 @@ This will create a Docker App, which will consitst out of two containers. One Ba
 ## Executing the Indexer
 **SYNOPSIS:**
     
-    python indexer.py [-case | -lemm | -stem | -stop] [-none]
+    python indexer.py
 
 **DESCRIPTION**
 
 The Intexer populated the Database with the Dataset. This operation can be very time intensive, as the most recent Dataset of the [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) collection has a size of ~80GB (April 2022).
-
-**OPTIONS:**
-
-    -case 
-        use case-folding
-    -lemm 
-        use the lemmatization. Does NOT work in combination with stemming.
-    -stem 
-        use stemming. Does NOT work in combination with lemmatizing.
-    -stop 
-        use the stop word filte                    
-    -none
-        only runs with basic tokens
-
 
 ## The Methodology
 
