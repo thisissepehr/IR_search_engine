@@ -88,3 +88,20 @@ GRANT SELECT ON Word TO 'populator';
 
 CREATE USER 'retriver' IDENTIFIED BY '5t7zuvtoyesad2vguhbpoyoli';
 GRANT SELECT ON BASP.* TO 'retriver';
+
+ALTER TABLE Author
+MODIFY title, abstract, body
+text;
+
+ALTER TABLE Paper
+MODIFY idPaper
+VARCHAR(200);
+
+ALTER TABLE paper_to_author
+MODIFY fk_paper_id
+VARCHAR(200);
+
+ALTER TABLE child DROP FOREIGN KEY `child_ibfk_1`;
+
+ALTER TABLE Paper MODIFY idPaper VARCHAR(200) NOT NULL;
+ALTER TABLE Paper DROP PRIMARY KEY;
