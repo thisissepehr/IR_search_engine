@@ -164,11 +164,11 @@ def add_object_to_DB(instert_sql, select_sql, select_val, val) -> int:
 def index(paper_id, author_ids, word_ids):
     populator_cursor = populator.cursor()
     for author_id  in author_ids:
-        populator_cursor.execute(insert_sqls['paper_to_author'], (paper_id, author_id))
+        populator_cursor.execute(insert_sqls['paper_to_author'], (paper_id[0], author_id[0]))
     populator.commit()
-    for word_id,word_val in word_ids:
-        populator_cursor.execute(insert_sqls['word_to_paper'], (word_id, paper_id,dataset.get(paper_id)['body'].count(word_val)))
-        populator.commit()
+    for word_id in word_ids:
+        populator_cursor.execute(insert_sqls['word_to_paper'], (word_id[0], paper_id[0],dataset.get(paper_id[0])['body'].count(word_id[1])))
+    populator.commit()
 
 ''' populate function
     Populates the Database
@@ -184,7 +184,7 @@ def populate():
             author_ids.append(add_object_to_DB(insert_sqls['Author'], select_sqls['Author'], val_author,val_author))
         word_ids = []
         for val_word in val_words:
-            word_ids.append((add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], [val_word],[val_word]),val_word))
+            word_ids.append(add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], [val_word],[val_word]))
         index(paper_id, author_ids, word_ids)
 
 ''' count_unique function
