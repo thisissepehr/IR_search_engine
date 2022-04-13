@@ -1,7 +1,7 @@
-FROM node:latest
+FROM node:8.6.0
 
-COPY ./ ./
-#Rebuild image only when package.json file change
+COPY . .
+
 RUN npm install
 
 CMD ["npm", "start"]

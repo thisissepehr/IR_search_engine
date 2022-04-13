@@ -18,7 +18,7 @@ CREATE UNIQUE INDEX `email_UNIQUE` ON `BASP`.`Author` (`email` ASC);
 -- Table `BASP`.`Paper`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `BASP`.`Paper` (
-  `idPaper` VARCHAR(200) NOT NULL AUTO_INCREMENT,
+  `idPaper` VARCHAR(200) NOT NULL,
   `title` text,
   `abstract` text,
   `body` text,
