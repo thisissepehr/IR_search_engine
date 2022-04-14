@@ -1,0 +1,1256 @@
+{
+    "paper_id": "9d857ac84eca4da3bb1bba80db8b1f52bc289ba3",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Joseph",
+                "middle": [],
+                "last": "Gligorov",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thomas",
+                "middle": [],
+                "last": "Bachelot",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jean-Yves",
+                "middle": [],
+                "last": "Pierga",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Eric-Charles",
+                "middle": [],
+                "last": "Antoine",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Corinne",
+                "middle": [],
+                "last": "Balleyguier",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Emmanuel",
+                "middle": [],
+                "last": "Barranger",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yazid",
+                "middle": [],
+                "last": "Belkacemi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Herv\u00e9",
+                "middle": [],
+                "last": "Bonnefoi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fran\u00e7ois-Cl\u00e9ment",
+                "middle": [],
+                "last": "Bidard",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Luc",
+                "middle": [],
+                "last": "Ceugnart",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jean-Marc",
+                "middle": [],
+                "last": "Classe",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Paul",
+                "middle": [],
+                "last": "Cottu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Charles",
+                "middle": [],
+                "last": "Coutant",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bruno",
+                "middle": [],
+                "last": "Cutuli",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Florence",
+                "middle": [],
+                "last": "Dalenc",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Emile",
+                "middle": [],
+                "last": "Darai",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Veronique",
+                "middle": [],
+                "last": "Dieras",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nadine",
+                "middle": [],
+                "last": "Dohollou",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sylvie",
+                "middle": [],
+                "last": "Giacchetti",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anthony",
+                "middle": [],
+                "last": "Goncalves",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anne-Claire",
+                "middle": [],
+                "last": "Hardy-Bessard",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gilles",
+                "middle": [],
+                "last": "Houvenaeghel",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jean-Philippe",
+                "middle": [],
+                "last": "Jacquin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "William",
+                "middle": [],
+                "last": "Jacot",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Christelle",
+                "middle": [],
+                "last": "Levy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Carole",
+                "middle": [],
+                "last": "Mathelin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Israel",
+                "middle": [],
+                "last": "Nisand",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thierry",
+                "middle": [],
+                "last": "Petit",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Edouard",
+                "middle": [],
+                "last": "Poncelet",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sofia",
+                "middle": [],
+                "last": "Rivera",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Roman",
+                "middle": [],
+                "last": "Rouzier",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "R\u00e9my",
+                "middle": [],
+                "last": "Salmon",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Florian",
+                "middle": [],
+                "last": "Scott\u00e9",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jean-Philippe",
+                "middle": [],
+                "last": "Spano",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Catherine",
+                "middle": [],
+                "last": "Uzan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Laurent",
+                "middle": [],
+                "last": "Zelek",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marc",
+                "middle": [],
+                "last": "Spielmann",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fr\u00e9d\u00e9rique",
+                "middle": [],
+                "last": "Penault-Llorca",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Moise",
+                "middle": [],
+                "last": "Namer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Suzette",
+                "middle": [],
+                "last": "Delaloge",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Nous sommes confront\u00e9s \u00e0 la pand\u00e9mie COVID-19 qui est certes sans cons\u00e9quences graves chez pr\u00e8s de 85 % de la population g\u00e9n\u00e9rale mais qui peut engager le pronostic vital, plus particuli\u00e8rement dans une population fragile. Le taux de mortalit\u00e9 estim\u00e9 du COVID-19 est de 1 \u00e0 3 % soit entre 10 et 30 fois plus que le virus saisonnier de la grippe, et ceci sous r\u00e9serve de donn\u00e9es \u00e9pid\u00e9miologiques imparfaites li\u00e9es au fait que la recherche de SARS-CoV-2 n'est pas syst\u00e9matique dans une population asymptomatique, voire m\u00eame symptomatique sans crit\u00e8res de gravit\u00e9. L'agent causal responsable de la maladie COVID-19 est SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Taxonomie et origine SARS-CoV-2 est un virus d\u00e9nomm\u00e9 ainsi car il peut \u00eatre responsable d'un syndrome aigu respiratoire s\u00e9v\u00e8re (SARS) et qu'il appartient \u00e0 la famille des CoronaVirus (CoV). Il est par ailleurs le second virus de cette famille identifi\u00e9 comme responsable d'\u00e9pid\u00e9mies de SARS. Les CoV sont des virus \u00e0 ARN ayant une apparence de couronne en microscopie \u00e9lectronique, d'o\u00f9 leur d\u00e9nomination. La sousfamille des Orthocoronavirinae de la famille des Coronaviridae (ordre des Nidovirales) se classe en quatre genres de CoV : d'un c\u00f4t\u00e9 alphaCoV et betaCoV (dont les chauves-souris et les rongeurs sont probablement les sources), de l'autre gammaCoV et deltaCoV (dont les esp\u00e8ces aviaires semblent repr\u00e9senter les sources). Le genre betaCoV est par ailleurs subdivis\u00e9 en cinq lign\u00e9es (A-E). Les membres de cette grande famille de virus peuvent provoquer des maladies chez diff\u00e9rentes esp\u00e8ces animales [1] . Le SARS-CoV-2, responsable de la maladie COVID-19, appartient \u00e0 la cat\u00e9gorie betaCoVs. Les analyses g\u00e9nomiques de SARS-CoV-2 sugg\u00e8rent qu'il a probablement \u00e9volu\u00e9 \u00e0 partir d'une souche trouv\u00e9e chez les chauves-souris, sans qu'il ne soit certain qu'il y ait un r\u00e9servoir animalier interm\u00e9diaire entre la chauve-souris et l'homme [2] .",
+            "cite_spans": [
+                {
+                    "start": 910,
+                    "end": 913,
+                    "text": "[1]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1244,
+                    "end": 1247,
+                    "text": "[2]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Informations g\u00e9n\u00e9rales"
+        },
+        {
+            "text": "\u00c9tant donn\u00e9 que les premiers cas de la maladie CoVID-19 \u00e9taient li\u00e9s \u00e0 une exposition directe au march\u00e9 de gros de Huanan Seafood \u00e0 Wuhan, la transmission de l'animal \u00e0 l'homme \u00e9tait pr\u00e9sum\u00e9e \u00eatre le principal m\u00e9canisme. N\u00e9anmoins, les cas ult\u00e9rieurs n'\u00e9taient pas associ\u00e9s \u00e0 ce m\u00e9canisme d'exposition et il a \u00e9t\u00e9 conclu que le virus pouvait \u00eatre transmis d'humain \u00e0 humain. Comme pour les autres pathog\u00e8nes respiratoires, dont la grippe et les rhinovirus, la transmission se produit par le biais de gouttelettes respiratoires provenant de la toux et des \u00e9ternuements. La transmission d'a\u00e9rosols est \u00e9galement possible en cas d'exposition prolong\u00e9e \u00e0 des concentrations \u00e9lev\u00e9es d'a\u00e9rosols dans des espaces clos. L'analyse des donn\u00e9es relatives \u00e0 la propagation du SARS-CoV-2 en Chine semble indiquer qu'un contact \u00e9troit entre les individus est n\u00e9cessaire. En fait, la propagation est principalement limit\u00e9e aux membres de la famille, aux professionnels de la sant\u00e9 et \u00e0 d'autres contacts \u00e9troits. Ces donn\u00e9es sugg\u00e8rent que l'utilisation de l'isolement est le meilleur moyen de contenir cette \u00e9pid\u00e9mie. Par ailleurs, comme les autres CoV, SARS-CoV-2 est sensible aux rayons ultraviolets, \u00e0 la chaleur et peut \u00eatre efficacement inactiv\u00e9 par des solvants lipidiques, comme l'\u00e9ther (75 %), l'\u00e9thanol, les d\u00e9sinfectants contenant du chlore, l'acide peroxyac\u00e9tique et le chloroforme, \u00e0 l'exception de la chlorhexidine [3] . Toutefois, certaines \u00e9tudes rapportent la possibilit\u00e9 d'une persistance de la pr\u00e9sence de SARS-CoV-2 jusqu'\u00e0 trois heures dans l'air et troisjours sur certaines surfaces (plastiques et m\u00e9taux) expliquant peut-\u00eatre le degr\u00e9 de contagiosit\u00e9 \u00e9lev\u00e9 du virus [4] .",
+            "cite_spans": [
+                {
+                    "start": 1413,
+                    "end": 1416,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1673,
+                    "end": 1676,
+                    "text": "[4]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Transmission"
+        },
+        {
+            "text": "En ce qui concerne la technique diagnostique, l'OMS recommande de pr\u00e9lever des \u00e9chantillons \u00e0 la fois dans les voies respiratoires sup\u00e9rieures (\u00e9chantillons naso-et oropharyng\u00e9s) et dans les voies respiratoires inf\u00e9rieures telles que les expectorations, l'aspiration endotrach\u00e9ale ou le lavage bronchoalv\u00e9olaire. La collecte des \u00e9chantillons de lavage broncho-alv\u00e9olaire ne doit normalement \u00eatre effectu\u00e9e que chez les patients ventil\u00e9s m\u00e9caniquement, car les \u00e9chantillons des voies respiratoires inf\u00e9rieures semblent rester positifs pendant une p\u00e9riode plus longue. Les \u00e9chantillons n\u00e9cessitent un stockage \u00e0 quatre degr\u00e9s Celsius. En laboratoire, l'amplification du mat\u00e9riel g\u00e9n\u00e9tique extrait de l'\u00e9chantillon de salive ou de mucus se fait par une r\u00e9action en cha\u00eene par polym\u00e9rase inverse (RT-PCR). Si le r\u00e9sultat du test est positif, il est recommand\u00e9 de r\u00e9p\u00e9ter le test pour v\u00e9rification. Chez les patients dont le diagnostic de COVID-19 a \u00e9t\u00e9 confirm\u00e9, l'\u00e9valuation en laboratoire peut \u00eatre r\u00e9p\u00e9t\u00e9e pour \u00e9valuer la clairance virale. Le diagnostic positif peut \u00e9galement \u00eatre fortement \u00e9voqu\u00e9 par scanner sans injection. Les images scannographiques thoraciques de COVID-19 sont assez caract\u00e9ristiques et diff\u00e9renciantes des autres pneumonies virales classiques ou d'atteintes pulmonaires li\u00e9es \u00e0 d'autres causes. Il s'agit d'une distribution p\u00e9riph\u00e9rique, avec opacit\u00e9s en verre d\u00e9poli, opacit\u00e9s r\u00e9ticulaires fines et des \u00e9paississements vasculaires, avec peu d'extension centrale, absence d'\u00e9panchement pleural et de lymphad\u00e9nopathie [5] . En ce qui concerne la population \u00e0 tester, les avis divergent selon les diff\u00e9rents stades de la maladie, les politiques de sant\u00e9 des pays confront\u00e9s \u00e0 cette pand\u00e9mie et la disponibilit\u00e9 des tests. En France, les recommandations sont disponibles sur un site d\u00e9di\u00e9 [6] .",
+            "cite_spans": [
+                {
+                    "start": 1540,
+                    "end": 1543,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1809,
+                    "end": 1812,
+                    "text": "[6]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Diagnostic"
+        },
+        {
+            "text": "Population g\u00e9n\u00e9rale, l'exp\u00e9rience chinoise (11,9 %) , frissons (11,9 %) , fibralgies-myalgies (9 %) et maux de gorge (9 %). Les formes s\u00e9v\u00e8res se compliquent dans 15,6 % des cas. Sur le plan des examens compl\u00e9mentaires, en dehors du pourcentage de saturation en oxyg\u00e8ne diminu\u00e9 dans les formes s\u00e9v\u00e8res, r\u00e9animatoires et/ou fatales, on notera \u00e9galement dans ces situations la pr\u00e9sence plus fr\u00e9quente d'opacit\u00e9s pulmonaires bilat\u00e9rales, d'une lymphop\u00e9nie plus marqu\u00e9e, d'une augmentation plus marqu\u00e9e de la CRP ( 10 mg/L) et de la procalcitonine ( 0,5 ng/mL) et du taux de LDH.",
+            "cite_spans": [
+                {
+                    "start": 43,
+                    "end": 51,
+                    "text": "(11,9 %)",
+                    "ref_id": null
+                },
+                {
+                    "start": 63,
+                    "end": 71,
+                    "text": "(11,9 %)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Informations g\u00e9n\u00e9rales sur l'infection \u00e0 COVID-19 chez les patients aux ant\u00e9c\u00e9dents de cancers"
+        },
+        {
+            "text": "Population ayant un ant\u00e9c\u00e9dent de cancer, l'exp\u00e9rience chinoise En ce qui concerne les patients atteints de cancer, on notera que dans la publication r\u00e9cente du NEJM [7] , ces patients tome xx > n8x > xx 2020 Pour citer cet article : Gligorov J, et al. COVID-19 et personnes suivies pour un cancer du sein : recommandations fran\u00e7aises pour la pratique clinique de Nice-St Paul de Vence, en collaboration avec le Coll\u00e8ge Nationale des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), la Soci\u00e9t\u00e9 d'Imagerie de la FEMme (SIFEM),. . . Bull Cancer (2020), https://doi.org/10.1016/j.bulcan.2020.03.008 repr\u00e9sentent 0,9 % de la population g\u00e9n\u00e9rale (n = 10). Ils repr\u00e9sentent 1,7 % de la population s\u00e9v\u00e8re (n = 3) et 1,5 % de la population ayant eu un s\u00e9jour en USI et/ou ayant eu une ventilation m\u00e9canique et/ou d\u00e9c\u00e9d\u00e9e (n = 1). Dans une seconde publication du Lancet Oncology [9] , d'autres coll\u00e8gues chinois rapportent cette fois-ci les caract\u00e9ristiques \u00e9volutives de 1590 cas exploitables de patients infect\u00e9s par le COVID-19, au sein desquels certains patients ont un ant\u00e9c\u00e9dent de cancer (trait\u00e9s ou en cours de traitement).",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 169,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 869,
+                    "end": 872,
+                    "text": "[9]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Informations g\u00e9n\u00e9rales sur l'infection \u00e0 COVID-19 chez les patients aux ant\u00e9c\u00e9dents de cancers"
+        },
+        {
+            "text": "Attention toutefois, il n'y a dans cette lettre que dix- Population ayant un ant\u00e9c\u00e9dent de cancer, l'exp\u00e9rience italienne Giuseppe Curigliano, oncologue \u00e0 l'Institut europ\u00e9en d'oncologie \u00e0 Milan a r\u00e9cemment rapport\u00e9 l'exp\u00e9rience italienne et plus particuli\u00e8rement en Lombardie o\u00f9 il exerce [11] . La premi\u00e8re \u00e9tape a \u00e9t\u00e9 celle d'une information d\u00e9livr\u00e9e aupr\u00e8s des personnels prenant en charge les patients atteints de cancers concernant le virus, sa propagation, sa d\u00e9tection, les mesures pr\u00e9ventives de contamination et leur application stricte afin de limiter au maximum la diffusion de l'\u00e9pid\u00e9mie. Par ailleurs, une information a pu ainsi \u00eatre \u00e9galement d\u00e9livr\u00e9e aux patients. La seconde \u00e9tape a \u00e9t\u00e9 d'abroger par voie l\u00e9gislative toute activit\u00e9 \u00e0 but lucratif en canc\u00e9rologie et de cr\u00e9er un r\u00e9seau de collaboration entre secteur public et priv\u00e9 afin de garantir le meilleur parcours de soins possible pour les patients atteints de cancer tout en limitant le risque d'infection \u00e0 SARS-CoV-2. Une structure publique et une structure priv\u00e9e de soins en canc\u00e9rologie ont \u00e9t\u00e9 sanctuaris\u00e9es comme prenant en charge des patients COVID-19 n\u00e9gatifs. ",
+            "cite_spans": [
+                {
+                    "start": 290,
+                    "end": 294,
+                    "text": "[11]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Informations g\u00e9n\u00e9rales sur l'infection \u00e0 COVID-19 chez les patients aux ant\u00e9c\u00e9dents de cancers"
+        },
+        {
+            "text": "Les programmes de d\u00e9pistage organis\u00e9s doivent \u00eatre suspendus pendant la p\u00e9riode de pand\u00e9mie. Les l\u00e9sions suspectes n\u00e9cessitant une exploration sont les l\u00e9sions ACR5, ACR4 et ACR3 dans un contexte \u00e0 risque. Les autres l\u00e9sions (ACR3 sans contexte \u00e0 risque) seront recontr\u00f4l\u00e9es dans trois \u00e0 six mois, \u00e0 distance de la pand\u00e9mie. La biopsie ainsi que son analyse ne n\u00e9cessitent pas de pr\u00e9cautions particuli\u00e8res en ce qui concerne la technique de pr\u00e9l\u00e8vement, le conditionnement, l'acheminement ou encore son analyse [15] . ",
+            "cite_spans": [
+                {
+                    "start": 511,
+                    "end": 515,
+                    "text": "[15]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Proc\u00e9dures diagnostiques"
+        },
+        {
+            "text": "Chirurgie Report de toutes les chirurgies de reconstruction secondaire apr\u00e8s la pand\u00e9mie. Report de toutes les chirurgies portant sur des l\u00e9sions b\u00e9nignes m\u00eame \u00e0 risque jusqu'\u00e0 3 mois, comme les hyperplasies atypiques, les carcinomes lobulaires in situ, les papillomes et autres l\u00e9sions b\u00e9nignes. Pour les pi\u00e8ces op\u00e9ratoires, une fixation rapide des pr\u00e9l\u00e8vements doit \u00eatre privil\u00e9gi\u00e9e \u00e0 l'\u00e9chantillonnage sur pi\u00e8ces fra\u00eeches. Une attention particuli\u00e8re est demand\u00e9e pour l'examen extemporan\u00e9, qui ne doit \u00eatre r\u00e9alis\u00e9 qu'en cas de n\u00e9cessit\u00e9 absolue [15] . Concernant la chirurgie des cancers canalaires in situ : si l'histologie est de bas grade o\u00f9 de grade interm\u00e9diaire et qu'il ne s'agit pas d'une pr\u00e9sentation nodulaire, la chirurgie peut \u00eatre report\u00e9e jusqu'\u00e0 trois mois ; pour les autres formes, la chirurgie peut \u00eatre report\u00e9e \u00e0 six semaines. Les chirurgies doivent \u00eatre ambulatoires le plus souvent possible. En cas de mastectomie, une reconstruction mammaire imm\u00e9diate par proth\u00e8se/expandeur est possible si elle est indiqu\u00e9e mais les autres techniques plus lourdes requ\u00e9rant une chirurgie plus longue et une hospitalisation plus prolong\u00e9e doivent \u00eatre proscrites pendant la pand\u00e9mie. Pour les patientes ayant des comorbidit\u00e9s importantes rendant le risque de complications \u00e9lev\u00e9es en cas de COVID-19 (sujets \u00e2g\u00e9s, pathologie respiratoire chronique ou cardiaque, immunod\u00e9pression. . .), et ayant des cancers invasifs lentement \u00e9volutifs, de bas grade et fortement hormonod\u00e9pendants qui n'auront pas d'indication \u00e0 une chimioth\u00e9rapie, un traitement anti-hormonal premier peut \u00eatre propos\u00e9 afin de d\u00e9caler le geste chirurgical. Mais la patiente devra \u00eatre revue une premi\u00e8re fois au moins \u00e0 huit semaines de l'initiation du traitement. Pour les autres situations, les indications et les s\u00e9quences th\u00e9rapeutiques doivent \u00eatre maintenues.",
+            "cite_spans": [
+                {
+                    "start": 549,
+                    "end": 553,
+                    "text": "[15]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Traitements locor\u00e9gionaux"
+        },
+        {
+            "text": "Les recommandations de la SFRO sont \u00e0 appliquer pour l'organisation des soins [17]. Pour les cancers intracanalaires ayant une indication de radioth\u00e9rapie, un report de trois \u00e0 six mois est possible. En cas de pand\u00e9mie persistante, un sch\u00e9ma hypofractionn\u00e9 sera privil\u00e9gi\u00e9. Un traitement anti-hormonal d'attente peut \u00eatre instaur\u00e9. Pour les cancers invasifs fortement hormonod\u00e9pendants chez les patientes m\u00e9nopaus\u00e9es, de stade I ou II, ou chez des patientes ayant des comorbidit\u00e9s importantes exposant au risque de complications s\u00e9v\u00e8res en cas de COVID-19 (sujets J. Gligorov, T. Bachelot, J-Y Pierga, E-C Antoine, C. Balleyguier, E. Barranger, et al.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Radioth\u00e9rapie"
+        },
+        {
+            "text": "Pour citer cet article : Gligorov J, et al. COVID-19 et personnes suivies pour un cancer du sein : recommandations fran\u00e7aises pour la pratique clinique de Nice-St Paul de Vence, en collaboration avec le Coll\u00e8ge Nationale des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), la Soci\u00e9t\u00e9 d'Imagerie de la FEMme (SIFEM),. . . Bull Cancer (2020), https://doi.org/10.1016/j.bulcan.2020.03.008 \u00e2g\u00e9s, pathologie respiratoire chronique ou cardiaques, immunod\u00e9pression. . .), et ayant une indication de radioth\u00e9rapie, un report de trois \u00e0 6 mois est possible et un sch\u00e9ma hypofractionn\u00e9 sera privil\u00e9gi\u00e9. Un traitement anti-hormonal d'attente doit \u00eatre instaur\u00e9. Pour les autres cancers invasifs ayant une indication de radioth\u00e9rapie, le traitement doit \u00eatre r\u00e9alis\u00e9 selon les indications habituelles. Les sch\u00e9mas hypofractionn\u00e9s sont \u00e0 privil\u00e9gier lorsqu'ils sont possibles et adapt\u00e9s. Pour les patientes en cours de radioth\u00e9rapie selon un sch\u00e9ma normofractionn\u00e9, le passage au sch\u00e9ma hypofractionn\u00e9 de la dose restante peut \u00eatre envisag\u00e9 par un nouveau calcul pour un m\u00eame \u00e9quivalent de dose. Le boost n'apportant pas de b\u00e9n\u00e9fice en survie globale, il devra \u00eatre \u00e9vit\u00e9 chez la majorit\u00e9 des patientes. Lorsque celui-ci est maintenu, il conviendra de privil\u00e9gier les sch\u00e9mas avec boost int\u00e9gr\u00e9 et non s\u00e9quentiel. La radioth\u00e9rapie en situation m\u00e9tastatique \u00e0 vis\u00e9e pseudocurative ou fonctionnelle (radioth\u00e9rapie c\u00e9r\u00e9brale, \u00e9pidurite,. . .) est \u00e0 r\u00e9aliser selon les indications et sch\u00e9mas habituels de mani\u00e8re aussi hypofractionn\u00e9e que possible. La radioth\u00e9rapie en situation m\u00e9tastatique, \u00e0 vis\u00e9e palliative, est \u00e0 reporter si les sympt\u00f4mes sont contr\u00f4l\u00e9s. Dans tous les cas o\u00f9 la radioth\u00e9rapie est retenue, elle doit \u00eatre r\u00e9alis\u00e9e dans des d\u00e9lais courts, de mani\u00e8re aussi hypofractionn\u00e9e que possible, surtout si facteurs de risque de complications s\u00e9v\u00e8res en cas de COVID-19 (sujets \u00e2g\u00e9s, pathologie respiratoire chronique ou cardiaques, immunod\u00e9pression. . .). Les consultations de surveillance hebdomadaires des patientes en cours de radioth\u00e9rapie ne doivent pas \u00eatre syst\u00e9matiques pour limiter la dur\u00e9e de pr\u00e9sence des patientes dans les circuits : privil\u00e9gier les t\u00e9l\u00e9consultations pour les patientes qui pr\u00e9sentent peu ou pas de toxicit\u00e9s aig\u00fces.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Radioth\u00e9rapie"
+        },
+        {
+            "text": "En situation non m\u00e9tastatique En dehors des situations envisag\u00e9es ci-dessus, les indications de traitements n\u00e9oadjuvants et adjuvants restent identiques : chirurgie premi\u00e8re pour tout cancer invasif triple n\u00e9gatif ou HER2 positif T1N0M0. Le traitement adjuvant recommand\u00e9 et d\u00e9but\u00e9 id\u00e9alement dans les quatre semaines apr\u00e8s la chirurgie est : pour les cancers triples n\u00e9gatifs pT1N0 et en l'absence de contre-indication en \u00e9valuant le rapport b\u00e9n\u00e9fice/risque : quatre cycles de doc\u00e9taxel (75 mg/m 2 ) et cyclophosphamide (600 mg/m 2 ) avec facteurs de croissance de la lign\u00e9e blanche. Pour les cancers HER2 positifs pT1N0 et en l'absence de contreindication en \u00e9valuant le rapport b\u00e9n\u00e9fice/risque : quatre cycles de paclitaxel hebdomadaire (80 mg/m 2 ) avec trastuzumab (id\u00e9alement par voie sous-cutan\u00e9e) toutes les trois semaines, puis trastuzumab pour un an. En l'absence de r\u00e9actions allergiques apr\u00e8s les deux premi\u00e8res injections de paclitaxel, l'administration de cortico\u00efdes peut \u00eatre suspendue [18] . Dans les autres cas, en situation n\u00e9oadjuvante et adjuvante, les indications restent identiques. Cependant, nous rappelons plusieurs adaptations fortement recommand\u00e9es : en cas de doute sur le b\u00e9n\u00e9fice de la chimioth\u00e9rapie adjuvante pour les cancers hormonod\u00e9pendants, l'utilisation des signatures transcriptomiques pour la d\u00e9sescalade raisonn\u00e9e de chimioth\u00e9rapie aide \u00e0 la prise de d\u00e9cision. En cas d'indication de chimioth\u00e9rapie pour cette population, elle peut \u00eatre diff\u00e9r\u00e9e jusqu'\u00e0 six semaines apr\u00e8s la chirurgie ; en cas d'indication de chimioth\u00e9rapie, la pose d'un PAC\u00ae n'est pas contre-indiqu\u00e9e, mais ceux-ci \u00e9tant souvent pos\u00e9s par des anesth\u00e9sistes r\u00e9animateurs. Il est important d'anticiper leur pose dans le contexte d'une recrudescence des activit\u00e9s de r\u00e9animation li\u00e9es \u00e0 la pand\u00e9mie ; privil\u00e9gier l'administration \u00e0 domicile des traitements de maintenance anti-HER2 ; \u00e9viter l'administration de cortico\u00efdes \u00e0 vis\u00e9e anti\u00e9m\u00e9tique ; utiliser des facteurs de croissance de la lign\u00e9e blanche d\u00e8s le risque interm\u00e9diaire de neutrop\u00e9nie [19] ; utiliser pr\u00e9f\u00e9rentiellement des sch\u00e9mas permettant de r\u00e9duire le nombre de passages dans les h\u00f4pitaux (sch\u00e9mas toutes les trois semaines plut\u00f4t qu'hebdomadaires). Si un sch\u00e9ma par paclitaxel hebdomadaire est privil\u00e9gi\u00e9, en l'absence de r\u00e9actions allergiques apr\u00e8s les deux premi\u00e8res injections de paclitaxel, l'administration de cortico\u00efdes peut \u00eatre suspendue [17] ; une dur\u00e9e totale du traitement de chimioth\u00e9rapie de 18 semaines doit \u00eatre privil\u00e9gi\u00e9e (six cycles/trois semaines) ; l'utilisation d'un sch\u00e9ma dose-dense n'est pas contreindiqu\u00e9e ; l'utilisation de la cap\u00e9citabine ou de T-DM1 en situation adjuvante en l'absence de pCR respectivement pour la population triple n\u00e9gative ou HER2 positive n'est pas contre-indiqu\u00e9e. ",
+            "cite_spans": [
+                {
+                    "start": 1002,
+                    "end": 1006,
+                    "text": "[18]",
+                    "ref_id": null
+                },
+                {
+                    "start": 2054,
+                    "end": 2058,
+                    "text": "[19]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Traitements syst\u00e9miques"
+        },
+        {
+            "text": "Les d\u00e9placements pour soins de support seront limit\u00e9s aux soins essentiels, les consultations pouvant \u00eatre r\u00e9alis\u00e9es par t\u00e9l\u00e9consultations ou par t\u00e9l\u00e9phone.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Soins de support"
+        },
+        {
+            "text": "L'identification des d\u00e9tresses et la proposition de soutien psychologique sont imp\u00e9ratives dans cette p\u00e9riode. Le soutien peut \u00eatre \u00e9galement propos\u00e9 par t\u00e9l\u00e9consultation ou par t\u00e9l\u00e9phone. Les activit\u00e9s de groupe ne seront pas possibles pendant la p\u00e9riode \u00e9pid\u00e9mique. On encouragera au maximum les personnes \u00e0 continuer des activit\u00e9s physiques \u00e0 domicile. Des activit\u00e9s en ligne seront propos\u00e9es si possible, ou les personnes seront orient\u00e9es vers des sites proposant de telles activit\u00e9s. Les coiffeurs sont ferm\u00e9s pendant la dur\u00e9e de l'\u00e9pid\u00e9mie. La seule fa\u00e7on de se procurer une proth\u00e8se capillaire est en ligne sur les sites des principaux vendeurs ou via les associations de patientes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Soins de support"
+        },
+        {
+            "text": "Les sites en ligne des associations seront recommand\u00e9s aux patientes, afin qu'elles puissent trouver les compl\u00e9ments d'information voire le soutien social n\u00e9cessaires dans cette p\u00e9riode. Plusieurs applications permettent de pr\u00e9server une activit\u00e9 physique adapt\u00e9e et d'apporter un soutien afin d'\u00e9viter tout d\u00e9conditionnement ou risque de complications psychologiques. Un suivi des patients infect\u00e9s est n\u00e9cessaire, par les services de coordination infirmi\u00e8re, par les portails internet des \u00e9tablissements ou par des programmes d'auto-\u00e9valuation d\u00e9velopp\u00e9s sp\u00e9cifiquement ou non.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Soins de support"
+        },
+        {
+            "text": "La plupart des essais cliniques ont \u00e9t\u00e9 ferm\u00e9s aux inclusions. Pour ceux demeurant ouverts aux inclusions et pour les patients en cours de traitement ou suivi, il est recommand\u00e9 de poursuivre la prise en charge selon les bonnes pratiques cliniques. Un ant\u00e9c\u00e9dent de cancer ou la prise en charge actuelle pour un cancer ne doit pas \u00e0 lui seul \u00eatre consid\u00e9r\u00e9 comme un crit\u00e8re d'exclusion pour les essais th\u00e9rapeutiques visant l'infection \u00e0 SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recherche clinique"
+        },
+        {
+            "text": "Il est important pendant la p\u00e9riode de pand\u00e9mie de mettre en place des recueils de donn\u00e9es concernant la prise en charge des patients ainsi que l'impact des modifications de traitement sur les parcours de soin et les soignants. Ceci permettra de pouvoir b\u00e9n\u00e9ficier d'une exp\u00e9rience utile \u00e0 l'optimisation de la prise en charge des patientes si cette situation devait se reproduire.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recueil des donn\u00e9es et impact sur les soign\u00e9s et soignants"
+        },
+        {
+            "text": "D\u00e9claration de liens d'int\u00e9r\u00eats : les auteurs d\u00e9clarent ne pas avoir de liens d'int\u00e9r\u00eats.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recueil des donn\u00e9es et impact sur les soign\u00e9s et soignants"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Institut du sein Henri-Hartmann",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Institut de Canc\u00e9rologie de l'Ouest",
+            "authors": [],
+            "year": null,
+            "venue": "Institut Claudius-Regaud",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Institut de Canc\u00e9rologie de la Loire",
+            "authors": [
+                {
+                    "first": "Cario",
+                    "middle": [],
+                    "last": "Centre Armoricain D&apos;oncologie",
+                    "suffix": ""
+                },
+                {
+                    "first": "France",
+                    "middle": [],
+                    "last": "Plerin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "19",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Coronaviruses post-SARS: update on replication and pathogenesis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Netland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nat Rev Microbiol",
+            "volume": "7",
+            "issn": "6",
+            "pages": "439--50",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nrmicro2147"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Genomic characterization of the 2019 novel humanpathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "COVID-19 et personnes suivies pour un cancer du sein : recommandations fran\u00e7aises pour la pratique clinique de Nice-St Paul de Vence, en collaboration avec le Coll\u00e8ge Nationale des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), la Soci\u00e9t\u00e9 d'Imagerie de la FEMme (SIFEM)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pour",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gligorov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bull Cancer",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bulcan.2020.03.008"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Evaluation and Treatment Coronavirus (COVID-19). Bookshelf ID: NBK554776",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cascella",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rajnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cuomo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dulebohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Napoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Features",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "PMID": [
+                    "32150360"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001316"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Temporal changes of CT findings in 90 patients with COVID-19 pneumonia: a longitudinal study",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020200843"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Diagnosis and treatment of adults with community-acquired pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Metlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Waterer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Long",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "200",
+            "issn": "7",
+            "pages": "45--67",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.201908-1581"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Cancer patients in SARS-CoV-2 infection: a nationwide analysis in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Oncol",
+            "volume": "21",
+            "issn": "3",
+            "pages": "30096--30102",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1470-2045(20)30096-6"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "30566--30569",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30566-3"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "ASCO Daily News",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Curigliano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "A multicenter study of pandemic influenza A (H1N1) infection in patients with solid tumors in 3 countries: early therapy improves outcomes",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chemaly",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Vigil",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Saad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Cancer",
+            "volume": "118",
+            "issn": "18",
+            "pages": "4627--4660",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/cncr.27447"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Epidemiology, diagnosis, treatment, and prevention of influenza infection in oncology patients",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "El Ramahi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Freifeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Oncol Pract",
+            "volume": "15",
+            "issn": "4",
+            "pages": "177--84",
+            "other_ids": {
+                "DOI": [
+                    "10.1200/JOP.18.00567"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Coronavirus disinfection in histopathology",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Henwood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Histotechnol",
+            "volume": "43",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi.org/10.1080/01478885.2020.1734718"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Contrast-enhanced spectral mammography vs. mammography and MRI -clinical performance in a multi-reader evaluation",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fallenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Schmitzberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Amer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Eur Radiol",
+            "volume": "27",
+            "issn": "7",
+            "pages": "2752--64",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00330-016-4650-6"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Incidence of infusion hypersensitivity reaction after withholding dexamethasone premedication in early breast cancer patients not experiencing two previous cycles of infusion hypersensitivity reaction for weekly paclitaxel chemotherapy",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Parinyanitikul",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tanpipattanakul",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Poovorawan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Support Care Cancer",
+            "volume": "26",
+            "issn": "7",
+            "pages": "2471--2478",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00520-018-4087-3"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Hematopoietic growth factors: ESMO Clinical Practice Guidelines for the applications",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Crawford",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Caserta",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Roila",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Ann Oncol",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Interstitial pneumonitis associated with trastuzumab emtansine",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alkan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Oncol Pharm Pract",
+            "volume": "25",
+            "issn": "7",
+            "pages": "1798--800",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1078155218813716"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "COVID-19 et personnes suivies pour un cancer du sein : recommandations fran\u00e7aises pour la pratique clinique de Nice-St Paul de Vence, en collaboration avec le Coll\u00e8ge Nationale des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), la Soci\u00e9t\u00e9 d'Imagerie de la FEMme (SIFEM)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pour",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gligorov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bull Cancer",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bulcan.2020.03.008"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "COVID-19 et personnes suivies pour un cancer du sein : recommandations fran\u00e7aises pour la pratique clinique de Nice-St Paul de Vence, en collaboration avec le Coll\u00e8ge Nationale des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), la Soci\u00e9t\u00e9 d'Imagerie de la FEMme (SIFEM), la Soci\u00e9t\u00e9 Fran\u00e7aise de Chirurgie Oncologique (SFCO), la Soci\u00e9t\u00e9 Fran\u00e7aise de S\u00e9nologie et Pathologie Mammaire (SFSPM) et le French Breast Cancer Intergroup-UNICANCER (UCBG) 21. Centre Fran\u00e7ois-Baclesse, Caen, France 22. Centre Hospitalo-Universitaire de Strasbourg, Strasbourg, France 23. Centre Paul-Strauss, Strasbourg, France 24. Centre Hospitalier de Valenciennes, Valenciennes, France 25. Clinique Saint-Jean-de-Dieu, Paris, France 26. H\u00f4pital Universitaire Avicenne, Bobigny, France 27. Institut Fran\u00e7ais du Sein, Paris, France 28. Centre Jean-Perrin, Clermont-Ferrand, France 29. RPC Nice-St.-Paul-de-Vence, Nice, France Joseph Gligorov, Sorbonne Universit\u00e9, institut universitaire de canc\u00e9rologie AP-HP, Paris, France. joseph.gligorov@aphp.fr COVID-19 and people followed for breast cancer: French guidelines for clinical practice of Nice-St Paul de Vence, in collaboration with the Coll\u00e8ge Nationale des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), the Soci\u00e9t\u00e9 d'Imagerie de la FEMme (SIFEM), the Soci\u00e9t\u00e9 Fran\u00e7aise de Chirurgie Oncologique (SFCO), the Soci\u00e9t\u00e9 Fran\u00e7aise de S\u00e9nologie et Pathologie Mammaire (SFSPM) and the French Breast Cancer Intergroup-UNICANCER (UCBG)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Tout d'abord, les donn\u00e9es r\u00e9cemment publi\u00e9es dans le NEJM permettent de mieux caract\u00e9riser le profil clinique des patients atteints[7]. Ces donn\u00e9es ne portent que sur 1099 patients parmi les 7736 hospitalis\u00e9s ou diagnostiqu\u00e9s et suivis en dehors de l'h\u00f4pital, soit 14,2 % de la population initiale chinoise.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "en rechute et en cours d'immunoth\u00e9rapie ; un quart des patients atteints de cancers et COVID-19 positifs ont re\u00e7u un traitement pour leur cancer dans le mois pr\u00e9c\u00e9dent le diagnostic de l'infection (chirurgie ou chimioth\u00e9rapie), et 75 % \u00e9taient des patients en r\u00e9mission ; les patients ayant un ant\u00e9c\u00e9dent de cancer \u00e9taient plus \u00e2g\u00e9s (63,1 ans vs 48,7 ans) et plus expos\u00e9s au tabac (22 % vs 7 %) que le reste de la population ; lors du diagnostic initial d'infection, ces patients \u00e9taient plus souvent polypn\u00e9iques (47 % vs 23 %) et avaient des crit\u00e8res de s\u00e9v\u00e9rit\u00e9 au scanner plus fr\u00e9quents (94 % vs 75 %) ; l'\u00e9volution \u00e9tait plus s\u00e9v\u00e8re chez ces patients (\u00e9valuation clinique m\u00e9dicale et/ou \u00e9volution r\u00e9animatoire et/ou fatale) (50 % vs 16 % ; p = 0,0008), et au sein des patients ayant un ant\u00e9c\u00e9dent de cancer, le taux de s\u00e9v\u00e9rit\u00e9 \u00e9tait encore plus marqu\u00e9 pour les patients ayant eu un traitement r\u00e9cent par rapport \u00e0 ceux en r\u00e9mission (75 % vs 43 %) ; apr\u00e8s ajustement des variables d'\u00e2ge, tabagisme et autres comorbidit\u00e9s, une analyse de r\u00e9gression logistique retrouve que l'ant\u00e9c\u00e9dent de cancer est associ\u00e9 \u00e0 l'odds ratio le plus il ne semble pas y avoir de risque \u00e9volutif diff\u00e9rent en fonction du type de cancers. Crit\u00e8res de s\u00e9v\u00e9rit\u00e9 et d'\u00e9volution fatale de l'infection \u00e0 COVID-19, l'exp\u00e9rience chinoise Il s'agit l\u00e0 aussi d'une analyse r\u00e9trospective partielle de l'infection r\u00e9cente \u00e0 COVID-19 en Chine [10]. \u00c0 partir d'une cohorte initiale de 813 adultes, 191 patients hospitalis\u00e9s ont \u00e9t\u00e9 analys\u00e9s parmi lesquels 137 ont \u00e9t\u00e9 soign\u00e9s et sont sortis et 54 d\u00e9c\u00e9d\u00e9s \u00e0 l'h\u00f4pital. Les autres patients (n = 613) \u00e9taient soit toujours hospitalis\u00e9s au moment de l'\u00e9tude, soit sans preuve formelle d'infection \u00e0 COVID-19 : un taux de d-dim\u00e8res >1 mg/L \u00e0 l'admission (OR 18,42 ; IC 95 % [2,64-128,55], p = 0,0033) ; la dur\u00e9e m\u00e9diane avant n\u00e9gativation du COVID-19 \u00e9tait de 20 jours (IC 95 % [17-24]), avec des dur\u00e9es pouvant aller jusqu'\u00e0 37 jours. Au sein des patients gu\u00e9ris, il ne semble pas y avoir de diff\u00e9rence dans la dur\u00e9e m\u00e9diane avant n\u00e9gativation entre les patients ayant re\u00e7u un traitement antiviral et les autres, et il est un peu plus long pour les patients ayant eu une \u00e9volution critique (24 jours) par rapport \u00e0 ceux ayant eu une \u00e9volution s\u00e9v\u00e8re (19 jours).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "J. Gligorov, T. Bachelot, J-Y Pierga, E-C Antoine, C. Balleyguier, E. Barranger, et al. tome xx > n8x > xx 2020 Pour citer cet article : Gligorov J, et al. COVID-19 et personnes suivies pour un cancer du sein : recommandations fran\u00e7aises pour la pratique clinique de Nice-St Paul de Vence, en collaboration avec le Coll\u00e8ge Nationale des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), la Soci\u00e9t\u00e9 d'Imagerie de la FEMme (SIFEM),. . . Bull Cancer (2020), https://doi.org/10.1016/j.bulcan.2020.03.008Le syst\u00e8me national de sant\u00e9 italien a d\u00e9fini deux populations de patients : ceux qui ont \u00e9t\u00e9 pris en charge pour un cancer mais en r\u00e9mission sans traitement et ceux qui ont toujours, ou doivent avoir un traitement pour leur cancer. Les mesures d'information et de protection concernant le COVID-19 pour la population g\u00e9n\u00e9rale, s'appliquent pour les patients qui n'ont plus de cancer ni de traitement pour leur cancer. Pour les autres patients en cours de traitement ou devant \u00eatre trait\u00e9s pour leur cancer : s'ils sont en situation curative, maintenir les traitements les plus appropri\u00e9s dans des parcours COVID-19 n\u00e9gatifs, tout en respectant les mesures g\u00e9n\u00e9rales de pr\u00e9vention et de protection. Pour les patients en situation m\u00e9tastatique, il est possible de reporter le traitement si le pronostic fonctionnel ou vital n'est pas compromis. Sinon, maintenir les traitements les plus appropri\u00e9s. Pour les patients ayant des traitements oraux, la prescription de traitements prolong\u00e9s (deux \u00e0 trois cycles) avec surveillance des effets secondaires par t\u00e9l\u00e9consultation est pr\u00e9conis\u00e9e.Quelques donn\u00e9es importantes connues concernant d'autres infections virales, notamment au virus influenza chez les patients atteints de cancers et d'h\u00e9mopathies malignesPlusieurs publications portent sur les infections virales respiratoires en oncoh\u00e9matologie, les informations importantes principales \u00e0 retenir sont : en prenant ce que nous connaissons de l'impact de la grippe, Il est essentiel \u00e9galement, pour les patients qui ne sont pas en situation curative, de d\u00e9finir en cas d'aggravation de la maladie ou de complications li\u00e9es aux traitements, s'ils rel\u00e8vent d'un passage en r\u00e9animation. Si tel est le cas, en discuter avec les r\u00e9animateurs au pr\u00e9alable pour accord, et le faire figurer dans le dossier du patient.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Privil\u00e9gier les traitements oraux ou \u00e0 administration \u00e0 domicile lorsque ceux-ci sont possibles et sans perte de chance pour la patiente. Toutefois, tous les patients ayant un traitement \u00e0 domicile doivent \u00eatre inform\u00e9s de la n\u00e9cessit\u00e9 de suspendre leur traitement en cas de sympt\u00f4mes d'infection virale, de pr\u00e9venir leur oncologue r\u00e9f\u00e9rent et leur m\u00e9decin traitant. L'utilisation d'un traitement syst\u00e9mique avec un risque de complications infectieuses, pulmonaires ou autres, doit \u00eatre syst\u00e9matiquement discut\u00e9e avec les patientes et en RCP afin d'appr\u00e9cier au mieux le rapport b\u00e9n\u00e9fice/risque dans le contexte de la pand\u00e9mie actuelle. En cas d'administration de chimioth\u00e9rapie avec un risque de neutrop\u00e9nie, il faut utiliser des facteurs de croissance de la lign\u00e9e blanche d\u00e8s pr\u00e9sence d'un risque interm\u00e9diaire de neutrop\u00e9nie[19].Pour citer cet article : Gligorov J, et al. COVID-19 et personnes suivies pour un cancer du sein : recommandations fran\u00e7aises pour la pratique clinique de Nice-St Paul de Vence, en collaboration avec le Coll\u00e8ge Nationale des Gyn\u00e9cologues et Obst\u00e9triciens Fran\u00e7ais (CNGOF), la Soci\u00e9t\u00e9 d'Imagerie de la FEMme (SIFEM),. . . Bull Cancer (2020), https://doi.org/10.1016/j.bulcan.2020.03.008 L'administration de l'\u00e9v\u00e9rolimus doit absolument \u00eatre discut\u00e9e au cas par cas du fait du risque de survenue d'une pneumopathie interstitielle et de l'immunosuppression potentielle. Les patientes trait\u00e9es par T-DM1 ont un risque de pneumopathies interstitielles faible mais certain[20]. Tout sympt\u00f4me pulmonaire doit amener \u00e0 v\u00e9rifier l'absence de complications interstitielles. Les patients ayant un traitement lymphop\u00e9niant (cyclophosphamide oral m\u00e9tronomique) sont \u00e0 risque d'infection virale accru et doivent \u00eatre pr\u00e9venus de la n\u00e9cessit\u00e9 d'arr\u00eat du traitement en cas de signes cliniques d'infection virale. L'utilisation des inhibiteurs de CDK4/6 ou de l'alpelisib n'est pas interdite mais doit tenir compte du rapport b\u00e9n\u00e9fice/risque surtout dans une population avec facteurs de risque de complications s\u00e9v\u00e8res en cas de COVID-19 (sujets \u00e2g\u00e9s, pathologie respiratoire chronique ou cardiaque, immunod\u00e9pression. . .). La posologie doit \u00eatre adapt\u00e9e afin d'\u00e9viter au maximum le risque de neutrop\u00e9nie. L'initiation de ces traitements peut \u00e9ventuellement \u00eatre d\u00e9cal\u00e9e par rapport \u00e0 celle du traitement antihormonal. L'utilisation d'inhibiteurs de PARP n'est pas contre-indiqu\u00e9e mais la num\u00e9ration sera monitor\u00e9e de fa\u00e7on extr\u00eamement rapproch\u00e9e pour adapter le sch\u00e9ma posologique et \u00e9viter les besoins transfusionnels. Les patients seront pr\u00e9venus des risques des cytop\u00e9nies associ\u00e9es \u00e0 ces m\u00e9dicaments.Les recommandations ci-dessus sont valables \u00e9galement pour les hommes atteints de cancers du sein. Les indications de consultation de pr\u00e9servation de fertilit\u00e9 ou de PMA sont conserv\u00e9es. Toutefois, il faut tenir compte des recommandations de l'agence de biom\u00e9decine (ABM) dans le contexte de la pand\u00e9mie [21]. En cas de cancer du sein survenu pendant la grossesse, le dossier doit \u00eatre discut\u00e9 dans le cadre du r\u00e9seau \u00ab Cancer Associ\u00e9 \u00e0 La Grossesse \u00bb (CALG [22]). Les indications de consultations oncog\u00e9n\u00e9tiques sont conserv\u00e9es. Toutefois, afin de r\u00e9duire les passages \u00e0 l'h\u00f4pital, les proc\u00e9dures de demande de testing et de rendu des r\u00e9sultats (surtout si absence de risque g\u00e9n\u00e9tique retrouv\u00e9) sont simplifi\u00e9es, avec si possible des t\u00e9l\u00e9consultations.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

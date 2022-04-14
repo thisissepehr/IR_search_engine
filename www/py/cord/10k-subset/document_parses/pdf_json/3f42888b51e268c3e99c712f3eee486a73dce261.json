@@ -1,0 +1,482 @@
+{
+    "paper_id": "3f42888b51e268c3e99c712f3eee486a73dce261",
+    "metadata": {
+        "title": "People-centred health systems: building more resilient health systems in the wake of the Ebola crisis",
+        "authors": [
+            {
+                "first": "Fred",
+                "middle": [
+                    "P"
+                ],
+                "last": "Martineau",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "London School of Hygiene & Tropical Medicine",
+                    "location": {
+                        "addrLine": "15-17 Tavistock Place",
+                        "postCode": "WC1H 9SH",
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": "frederick.martineau@lshtm.ac.uk"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The 2014-2016 West African Ebola outbreak demonstrated the extent to which local social and political dynamics shape health system responses to crises such as epidemics. Many post-Ebola health system strengthening programmes are framed around a notion of health system 'resilience' that focuses on global rather than local priorities and fails to account for key local social dynamics that shape crisis responses. Postcrisis health system strengthening efforts require a shift towards a more 'people-centred' understanding of resilience that attends to the people, relationships and local contexts that constitute health systems and the practices that produce crisis responses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The 2014-2016 West African Ebola outbreak demonstrated the profound and pervasive health, economic, political and social consequences of an inadequate health system. The escalation of the epidemic from a single spill-over event to a global public health crisis was driven to a large extent by people's experiences with government health systems that not only struggled to respond effectively to increased requirements and constraints during the epidemic, but had historically frequently failed to meet basic health needs. 1 In a time of crisis, both these factors combined to undermine the trustworthiness and legitimate authority of government health providers and, by implication, that of national and global epidemic response actors. Mistrust in the motives, intentions and capacities of formal response personnel led many to seek support and advice elsewhere, 2 contributing to under-reporting of Ebola virus disease cases and the persistence of social practices at risk of transmitting Ebola virus. 3 Conversely, however, in many instances these alternative social institutions also contributed positivelyoften cruciallyto efforts to reduce transmission and mitigate an epidemic's impact on affected individuals and communities. 4 Social dynamics between frontline health workers, health managers and the people they serve are thus key determinants of the effectiveness or otherwise of responses to health crises. 5 For health system strengthening initiatives to genuinely improve how health systems respond to major epidemics, commonly framed as building health system 'resilience', they must therefore understand and address the complex and-crucially-locally constituted relationships and structures that shape how different actors respond to crises in practice. Yet currently dominant notions of health system resilience are largely framed in global rather than local terms. How then can local, national and global efforts to improve health system responses better engage with the practice of local health system resilience?",
+            "cite_spans": [
+                {
+                    "start": 522,
+                    "end": 523,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1004,
+                    "end": 1005,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1234,
+                    "end": 1235,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1419,
+                    "end": 1420,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Originating in disciplines as diverse as mental health and engineering, the relevance of a resilience approach to health system strengthening first achieved prominence in the World Health Assembly's 2011 call to member states to 'strengthen the resilience of the health system and society at large'. 6 Almedom and Tumwine 7 define resilience as 'the capacity of individuals, families, communities, systems, and institutions to anticipate, withstand and/or judiciously engage with catastrophic events and/or experiences'. This definition usefully highlights the many individuals and groups that contribute to a system's overall resilience, as well as foregrounding existing strengths within systems that may be obscured by blanketlabelling a system as 'fragile', but raises a crucial question: whose judgements count as to whether a particular action is 'judicious'? Complex health crises such as an Ebola epidemic often produce highly contrasting and competing priorities between different health and non-health actors. The weight and voice afforded to different actors during the response affects whose concerns 'matter' operationally. For example, actions taken at a national or global level to contain Ebola virus disease transmission often have paradoxically negative consequences for people's capacity to withstand or engage with other threats to wellbeing at a local level, in particular non-Ebola health threats, economic opportunities and social cohesion that are a very real threat to survival. The highly centralised command structure adopted during the 2014-2016 epidemic, advantageous for the rapid delivery of clinical and epidemiological resources at scale, proved far less suitable for identifying and responding to these unintended-but foreseeable-consequences. A failure to appreciate and engage with such local priorities was arguably central to the early ineffectiveness of Ebola response efforts. 4 While identifying key properties of health systems that are generally associated with resilience is important in galvanising global support around clearly defined foci, it should not be forgotten that in practice such properties are always enacted locally. System properties are highly context-dependent and emerge from complex, locally specific and dynamic interactions between different health and non-health actors. Recognising that flexibility, for example, is important in how a health system responds to a major crisis 5 must be complemented by understanding how people within a particular health system might actually become more flexible in their roles or actions, or its knock-on effects on other important health system properties. The capacities of health workers to reprioritise their clinical activities, of people who are unwell to alter their care-seeking practices, or of previously non-health actors to take on new health roles vary hugely between and within health systems, and depend in particular on power and trust relationships between each actor. 8 Interventions and system configurations that enable greater resilience in one context may have the opposite effect in another. Identifying generalisably efficacious policy prescriptions for building health system resilience is thus problematic. Instead, analyses of how health system resilience is enacted in a particular context at a particular time, through what practices, by which people, shaped by what constraining and enabling factors should be embedded within all stages of health system strengthening.",
+            "cite_spans": [
+                {
+                    "start": 300,
+                    "end": 301,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1917,
+                    "end": 1918,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 2989,
+                    "end": 2990,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Post-Ebola health system programming requires a shift in policy thinking towards a more local, relational and practiceoriented understanding of health system resilience. Such a shift should start by adapting and applying key insights gained from the recent conceptual shift in health systems and policy research towards 'people-centred' health systemsin particular putting people's voices and needs first, and recognising the central importance of relationships and values in driving system change. 9 What health actors do when faced with a crisis depends on their experiences of the possibilities for, and consequences of, action within their given social, political, economic and moral context. Importantly, health actors are not limited to those with formal roles in the health service. In the context of a poorly functioning government health service, actors and institutions outside the government health sector (such as nonformal health practitioners, locally influential leaders, social and occupational networks) may have more influence on how people respond to health crises than actors within the government health sector. The nature of relationships between formal and parallel non-formal health crisis response actors is a key determinant of whether they will operate in concert or in conflict.",
+            "cite_spans": [
+                {
+                    "start": 499,
+                    "end": 500,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "For health system resilience-building to truly take the 'local' seriously, efforts should therefore focus on understanding and reducing local power disparities, building the trustworthiness of health actors and institutions, developing mechanisms for reconciling rather than eclipsing different actors' priorities and addressing them meaningfully in operational decisions both between and during crises. For example, community surveillance initiatives implemented in the later stages of the Ebola outbreak in Sierra Leone 10 look likely to be continued and strengthened as part of post-Ebola resilience-building. Such approaches are laudably inclusive in engaging constructively with a variety of health and non-health actors and proved effective in identifying potential Ebola cases during the outbreak. 11 Yet in the long term, restricting surveillance and system response only to events that are epidemiologically important, while excluding others that are as (or more) important to people locally, will undermine the trustworthiness and perceived value of the programme (and thus its contribution to resilience in practice), as well as being a lost opportunity to identify and tackle more pervasive social and political health determinants.",
+            "cite_spans": [
+                {
+                    "start": 805,
+                    "end": 807,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Several major post-Ebola reports have recognised the critical importance of engaging with sociocultural dimensions during responses to major epidemics and other health crises. 12, 13 This is no less important in preparing health systems for future crises. One way of achieving this would be to extend calls for greater engagement of anthropologists and social scientists in immediate epidemic responses 13 to their involvement in ongoing health system strengthening efforts. This should not be at the expense of building national and global crisis response capacities, in particular strengthening critical human, material and organisational resources. Indeed, the ability to provide effective clinical care is a necessary-but, in isolation, insufficient-component of the trustworthiness of a health system, and those who work in it. Nor should the role of social scientists be limited to the delivery of community engagement or social mobilisation activities, but in giving policy-relevant insight into local (and broader) sociocultural and political dynamics that shape health system resilience practices. Higher level health system strengthening initiatives must embed explicit localised efforts to build mutual trust, respect and dignity between health actors and the communities they serve alongside initiatives to improve the clinical quality of care. Taking the local seriously in health systems will improve health and social outcomes not just in times of crisis but in the everyday functioning of the health system.",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 179,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 180,
+                    "end": 182,
+                    "text": "13",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Health-system resilience: reflections on the Ebola crisis in western Africa",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kieny",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Schmets",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Bull World Health Organ",
+            "volume": "92",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2471/BLT.14.149278"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Key experiences of community engagement and social mobilization in the Ebola response",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Laverack",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Manoncourt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Glob Health Promot",
+            "volume": "23",
+            "issn": "",
+            "pages": "79--82",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1757975915606674"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Infectious disease: tough choices to reduce Ebola transmission",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Whitty",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Farrar",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nature",
+            "volume": "515",
+            "issn": "",
+            "pages": "192--196",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/515192a"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Village Responses To Ebola Virus Disease In Rural Sierra Leone. An Analytical Overview. Sierra Leone: Social Mobilisation Action Consortium",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Richards",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "What is a resilient health system? Lessons from Ebola",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kruk",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Myers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Varpilah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Lancet",
+            "volume": "385",
+            "issn": "15",
+            "pages": "60755--60758",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/s0140-6736(15)60755-3"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "World Health Assembly. Resolution WHA64.10. Strengthening national health emergency and disaster management capacities and resilience of health systems. Geneva: World Health Organization",
+            "authors": [],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Resilience to disasters: a paradigm shift from vulnerability to strength",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Almedom",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tumwine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "African Health Sciences",
+            "volume": "8",
+            "issn": "S",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Trust and the development of health care as a social institution",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Soc Sci Med",
+            "volume": "56",
+            "issn": "",
+            "pages": "142--151",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/s0277-9536(02)001429"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Explorations on people centredness in health systems",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sheikh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ranson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Health Policy Plan",
+            "volume": "29",
+            "issn": "2",
+            "pages": "1--5",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/heapol/czu082"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A plan for community event-based surveillance to reduce Ebola transmission -Sierra Leone",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Crowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hertz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Maenner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "64",
+            "issn": "",
+            "pages": "70--73",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Rapid evaluation of the effectiveness of a community event-based surveillance system for Ebola virus disease in Sierra Leone",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ratnayake",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jasperse",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Stone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Association Annual Meeting",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Protecting Humanity from Future Health Crises: Report of the High-level Panel on the Global Response to Health Crises. Advance Unedited copy",
+            "authors": [],
+            "year": 2016,
+            "venue": "International Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Competing interests: None declared.Ethical approval: Not required. F. P. Martineau",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

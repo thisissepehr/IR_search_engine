@@ -9,3 +9,22 @@ www/node_modules
 scores*.txt
 **/20*
 **/data
+.ipynb
+
+#adding the metadata.csv
+!www/py/cord/
+www/py/cord/*-subset
+!www/py/cord/*-subset/
+www/py/cord/*-subset/*
+!www/py/cord/*-subset/metadata.csv
+
+
+
+#adding the pdf_json files
+www/py/cord/*-subset/*
+!www/py/cord/*-subset/document_parses
+www/py/cord/*-subset/document_parses/*
+!www/py/cord/*-subset/document_parses/pdf_json
+www/py/cord/*-subset/document_parses/pdf_json/*
+!www/py/cord/*-subset/document_parses/pdf_json/*
+

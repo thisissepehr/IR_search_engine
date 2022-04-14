@@ -1,0 +1,1062 @@
+{
+    "paper_id": "e7df650bc1accc363f871b8d42b4677624d21d88",
+    "metadata": {
+        "title": "Cross-Reactive Antibody Responses to Novel H5Nx Influenza Viruses Following Homologous and Heterologous Prime-Boost Vaccination with a Prepandemic Stockpiled A(H5N1) Vaccine in Humans",
+        "authors": [
+            {
+                "first": "Min",
+                "middle": [
+                    "Z"
+                ],
+                "last": "Levine",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Crystal",
+                "middle": [],
+                "last": "Holiday",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Feng",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Stacie",
+                "middle": [],
+                "last": "Jefferson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Eric",
+                "middle": [],
+                "last": "Gillis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Abbie",
+                "middle": [
+                    "R"
+                ],
+                "last": "Bellamy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Influenza Division, National Center for Immunization and Respiratory Diseases, Centers for Disease Control and Prevention",
+                    "institution": "Emmes Corporation",
+                    "location": {
+                        "addrLine": "1600 Clifton Rd NE",
+                        "postCode": "30329",
+                        "settlement": "Rockville, Atlanta",
+                        "region": "Maryland, GA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Terrence",
+                "middle": [],
+                "last": "Tumpey",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jacqueline",
+                "middle": [
+                    "M"
+                ],
+                "last": "Katz",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Despite increased efforts in surveillance for influenza viruses in wild birds and domestic poultry, human infections of A(H5N1) highly pathogenic avian influenza (HPAI) viruses continue to occur sporadically. More than 800 cases were reported by the World Health Organization from 2003 to 2015, with a fatality rate of >50% [1] . The majority of these infections were associated with direct or close contact with infected poultry. A(H5N1) viruses are increasingly genetically and antigenically diverse; to date, 40 phylogenetically distinct HA clades of the A(H5N1) virus have been identified [2] . Preexisting population immunity in humans to these viruses is very low [3] , underscoring the broad human susceptibility and pandemic potential of HPAI A(H5N1) viruses. Vaccination is an effective prophylactic public health measure to mitigate pandemic-related morbidity and mortality. However, in the event of a pandemic, timely development and production of vaccines that match the novel pandemic strain could be challenging [4] . Thus, several prepandemic vaccine antigens and adjuvants have been included in the US national stockpile [5, 6] . Given the rapid evolution of A(H5N1) viruses, a potential pandemic strain could still be antigenically distinct from the stockpiled vaccines. Development of effective vaccination strategies utilizing stockpiled vaccines to protect against novel emerging virus infection is crucial for influenza pandemic preparedness.",
+            "cite_spans": [
+                {
+                    "start": 324,
+                    "end": 327,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 593,
+                    "end": 596,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 670,
+                    "end": 673,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1026,
+                    "end": 1029,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1137,
+                    "end": 1140,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1141,
+                    "end": 1143,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Since December 2014, novel HPAI A(H5N2) and A(H5N8) viruses have caused multiple outbreaks in US poultry [7] . This is the first appearance of HPAI H5 viruses in the United States since 2004 [8] and, importantly, the first incursion of the A/ goose/Guangdong/1/96 Eurasian lineage viruses into the United States. The novel HPAI A(H5N1) viruses spread along 3 of the 4 US wild bird migratory flyways, caused significant mortality in domestic poultry, and posed a potential risk to public health [9] . Three subtypes of H5 viruses have been identified in infected birds: A(H5N8), A(H5N2), and A(H5N1). These viruses bear similar hemagglutinin (HA), but different neuraminidases acquired through genetic reassortment with North American low pathogenic avian influenza viruses, and are therefore referred to as H5Nx viruses. Hemagglutinins of these viruses belong to Eurasian lineage clade 2.3.4.4 [2, 9] . Although no human cases associated with the North American H5Nx poultry outbreaks were identified, human diseases with clade 2.3.4.4 H5 avian influenza viruses have occurred in China [10] .",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 108,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 191,
+                    "end": 194,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 494,
+                    "end": 497,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 894,
+                    "end": 897,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 898,
+                    "end": 900,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1086,
+                    "end": 1090,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Among current US national stockpiled prepandemic A(H5N1) vaccines, A/Anhui/1/2005 (A/Anhui1), a clade 2.3.4 antigen, is genetically most closely related to the novel H5Nx viruses that circulated in US domestic poultry. In this study, we investigated the potential of stockpiled MF59-adjuvanted A/Anhui1 vaccine to elicit cross-reactive antibody responses to H5Nx viruses following either homologous or heterologous prime-boost vaccination. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Stored sera from healthy adults (age range, 18-49 years) enrolled in a previous randomized A(H5N1) vaccine trial (ClinicalTrials.gov identifier NCT00912496) [11] were used in this study. For homologous prime-boost vaccination, sera were collected from 39 subjects who received 2 doses of 7.5 \u00b5g of A/ Anhui1 vaccine adjuvanted with MF59, 28 days apart. Paired sera were collected before administration of the first dose, and 28 days after the second dose.",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 161,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sera and Viruses"
+        },
+        {
+            "text": "For heterologous prime-boost vaccination, sera were collected from 35 subjects who were primed with either 1 dose (n = 17) or 2 doses (separated by 1 month, n = 18) of nonadjuvanted 90 \u00b5g A/Vietnam/1203/2004 (A/VN1203) vaccine [12] , and then boosted with 1 dose of MF59-adjuvanted 3.75 \u00b5g of A/Anhui1 vaccine 19-25 months (mean, 21.7 months) later. Sera were collected before the A/Anhui1 boost (day 0) and 28 days postboost.",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sera and Viruses"
+        },
+        {
+            "text": "All subjects from the original study groups that gave consent for testing of stored sera were included in the current study. The use of the sera was approved by the Centers for Disease Control and Prevention, National Centers for Immunology and Respiratory Diseases Human Research Determination Review.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sera and Viruses"
+        },
+        {
+            "text": "Wild-type HPAI viruses A/Anhui1 (H5N1), A/Vietnam/ 1194/2004 (A/VN1194, H5N1), A/gyrfalcon/Washington/ 41088-6/2014 (A/Gyr41088-6, H5N8), and A/northern pintail/ Washington/40964/2014 (A/NP40964, H5N2) were propagated in the allantoic cavity of embryonated hen's eggs at 37\u00b0C for 24 hours. All research with HPAI viruses was conducted in biosafety level 3 containment facilities, including enhancement required by the US Department of Agriculture and Select Agent Program [13] .",
+            "cite_spans": [
+                {
+                    "start": 472,
+                    "end": 476,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sera and Viruses"
+        },
+        {
+            "text": "A modified hemagglutination inhibition (HI) assay using horse erythrocytes was performed. Sera were heat inactivated, tested for nonspecific agglutinins, and adsorbed with packed horse erythrocytes as needed. To eliminate potential nonspecific inhibitors introduced from hemadsorption, sera were then treated with receptor-destroying enzyme at 37\u00b0C for 18-20 hours, followed by heat inactivation prior to HI assays.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hemagglutination Inhibition Assays Using Horse Erythrocytes"
+        },
+        {
+            "text": "Sera were serially diluted 2-fold and incubated with 4 hemagglutination units per 25 \u00b5L of virus for 30 minutes. Horse erythrocytes (1% v/v in phosphate-buffered saline + 0.5% bovine serum albumin) were added to the wells. Hemagglutination was read after 60 minutes. HI titer was defined as the reciprocal of the last dilution of serum that completely inhibited hemagglutination. Unless otherwise specified, initial sera dilutions were 1:10. Antibody titers <10 were reported as 5.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hemagglutination Inhibition Assays Using Horse Erythrocytes"
+        },
+        {
+            "text": "Microneutralization (MN) assays were performed as previously described [14] . In brief, human sera were heat inactivated at 56\u00b0C for 30 minutes. Two-fold serial dilutions of sera were incubated with one hundred 50% tissue culture infection dose (TCID 50 ) of influenza viruses and incubated at 37\u00b0C 5% CO 2 for 1 hour. The virus-sera mixture was used to infect 1.5 \u00d7 10 4 / well Madin-Darby canine kidney cells, and incubated for 18-20 hours at 37\u00b0C in a 5% CO 2 humidified incubator. After cold acetone fixation, the presence of viral protein was quantified by enzyme-linked immunosorbent assay using monoclonal antibodies specific to the nucleoproteins of the influenza A viruses. Microneutralization titers were defined as the reciprocal of the highest dilution of serum that gave 50% neutralization. Unless specified otherwise, initial sera dilutions were 1:10. Antibody titers <10 were reported as 5 for calculation purposes.",
+            "cite_spans": [
+                {
+                    "start": 71,
+                    "end": 75,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Microneutralization Assays"
+        },
+        {
+            "text": "Geometric mean antibody titers (GMTs) and 95% confidence intervals (CIs) were determined. Exact CIs were also calculated for all proportional end points. Seroconversion was defined as a 4-fold rise with a postvaccination titer of \u226540. Three pairs of sera from the heterologous prime-boost group were excluded from A(H5N2) HI analysis, and 1 pair of sera from homologous prime-boost group were excluded from A(H5N8) HI analysis, due to high baseline titers of samples. Statistical comparison was performed using paired t test. Statistical analysis was performed using SAS version 9.3 and GraphPad Prism 5 software programs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "Antibody rise to vaccine virus A/Anhui1 was readily detected in sera collected 28 days after 2 doses of 7.5-\u00b5g MF59-adjuvanted A/Anhui1 vaccination (HI GMT, 47.8; MN GMT, 53.1); >70% of participants seroconverted as detected by both HI and MN assays. Participants who had previously received unadjuvanted high-dose A/VN1203, and were then boosted with 1 dose of 3.75-\u00b5g MF59-adjuvanted A/Anhui1 19-25 months later, also mounted comparable antibody responses (P > .05) to A/Anhui1 28 days postboost (HI GMT, 42; MN GMT, 48.2) ( Table 1) . Consistent with a previous report [11] , 2 doses of A/VN1203 prime did not provide a stronger boost to A/Anhui1 antibody response than 1 dose of A/VN1203 prime.",
+            "cite_spans": [
+                {
+                    "start": 572,
+                    "end": 576,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 527,
+                    "end": 535,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Although phylogenetic analysis of HA sequences categorized A/Gyr1088-6 (H5N8) and A/NP40964 (H5N2) (clade 2.3.4.4) in the same clade as A/Anhui1 (clade 2.3.4) [2] , they are antigenically distant from both A/Anhui1 and A/VN1194 (clade 1) vaccine viruses as characterized by ferret antisera in MN and HI assays; ferret antisera to A/Anhui1 reacts with A(H5N8) and A(H5N2) viruses at titers that are >16-fold lower than the titers against homologous virus. Conversely, ferret antisera raised against either H5N8 or H5N2 viruses are >32-fold lower against A/Anhui1 compared with titers against the respective homologous virus ( Supplementary Tables 1 and 2 ). In humans, even with MF59 adjuvants, homologous prime-boost vaccination Table 1) . The difference in cross-reactive HI antibody GMTs to A(H5N8) between homologous vs heterologous A/Anhui1 vaccination was statistically significant (P < .05) (Figure 1 ). In contrast, neutralizing antibody titers to A(H5N8) were only detectable in a small proportion of subjects who received heterologous prime-boost, and none achieved seroconversion ( Figure 1 ).",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 625,
+                    "end": 653,
+                    "text": "Supplementary Tables 1 and 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 729,
+                    "end": 737,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 897,
+                    "end": 906,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1092,
+                    "end": 1100,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Several clade-specific A(H5N1) vaccine antigens have been included in the prepandemic national stockpiles in the United States. However, the rapid evolution of avian influenza viruses pose challenges for such preparedness strategies based on antigenic match. This is exemplified by the emergence of a novel cluster of H5Nx viruses that caused recent outbreaks in poultry across multiple states in the United States. These clade 2.3.4.4 viruses are antigenically distant from the current stockpiled vaccines. In this study, we demonstrated that despite great antigenic distance, heterologous prime-boost vaccination with clade 1 and adjuvanted clade 2.3.4 stockpiled A(H5N1) vaccines was able to induce cross-reactive antibody responses to A(H5N8) and A(H5N2) viruses. Heterologous prime-boost vaccination utilizing stockpiled vaccines may provide a strategy to broaden the cross-reactive antibody responses to novel emerging A(H5N1) viruses. Inactivated A(H5N1) vaccination typically requires at least 2 doses and the use of adjuvants to achieve sufficient serologic responses in a majority of recipients [15, 16] . Few studies have evaluated the effects of heterologous prime-boost using prepandemic stockpiled A(H5N1) antigens. Most have only been focused on antibody responses to the heterologous H5N1 vaccine components [11, [16] [17] [18] . Data on cross-reactive antibody responses to novel emerging viruses such as H5Nx are lacking. Our study suggested that priming with an unadjuvanted clade 1 vaccine induced immune memory that could be boosted with a single low dose (3.75 \u00b5g) of adjuvanted clade 2.3.4 A/Anhui1 vaccine, generating diverse antibody responses that are cross-reactive to antigenically distant H5Nx viruses. This broader boosting effect was not achieved by homologous prime-boost, even with higher antigen doses (7.5 \u00b5g/dose).",
+            "cite_spans": [
+                {
+                    "start": 1105,
+                    "end": 1109,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1110,
+                    "end": 1113,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1324,
+                    "end": 1328,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1329,
+                    "end": 1333,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1334,
+                    "end": 1338,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1339,
+                    "end": 1343,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our study is limited by the small numbers of subjects in each group. In addition, we only evaluated 1 antigen concentration (7.5 \u00b5g) from the homologous prime-boost vaccination that represent the optimum vaccine dose with MF59 [11] . It also is noteworthy that the levels of cross-reactive responses to A(H5N8) and A(H5N2) viruses observed in the study are quite modest. Seroconversion was detected by a modified HI assay using horse erythrocytes. Cross-reactive neutralizing antibodies to H5Nx were only observed at around the detection threshold of the MN assays. Higher levels of cross-reactive antibodies may be required to achieve sufficient protection. Several studies suggested that the use of oil-in-water adjuvants such as stockpiled MF59 and ASO3 could broaden the diversity of antibody populations [17, 19] . Thus, an inclusion of an adjuvant in the priming vaccine could potentially enhance the cross-reactive responses.",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 809,
+                    "end": 813,
+                    "text": "[17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 814,
+                    "end": 817,
+                    "text": "19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Many factors can influence the effectiveness of the vaccine boost, including antigen doses, adjuvants, interval between prime and boost, and importantly, the antigenic relatedness between the prime-boost antigens and with the circulating viruses. Some studies have demonstrated an advantage of longer intervals between the priming and boosting dose, suggesting that allowing B cells to mature may enhance the effect of priming for heterologous antibody responses [12, 18] . In this study, it appeared that the memory B cells induced with A/VN1203 priming persisted for as long as 25 months (mean, 21.7 months) and could be readily recalled upon A/Anhui1 boost to produce cross-reactive antibodies to antigenically distant H5Nx viruses. This provides new evidence to support vaccination strategies using prepandemic stockpiled antigens. In one scenario, at-risk populations could be primed with prepandemic stockpiled antigens in advance, then boosted with antigenically matched pandemic vaccines when it becomes available [20] . However, challenges still reside with the rapid antigenic drift and continued divergence of the A(H5N1) viruses and the limited numbers of antigens that can be stockpiled. The selection of effective priming antigens and the combination of prime-boost vaccine antigens that can provide broad coverage to novel pandemic viruses remained to be explored. Further understanding of the underlying immune mechanisms of prime-boost will help to design better vaccination strategies utilizing stockpiled antigens for pandemic preparedness.",
+            "cite_spans": [
+                {
+                    "start": 463,
+                    "end": 467,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 468,
+                    "end": 471,
+                    "text": "18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1022,
+                    "end": 1026,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Supplementary materials are available at The Journal of Infectious Diseases online.Consisting of data provided by the authors to benefit the reader, the posted materials are not copyedited and are the sole responsibility of the authors, so questions or comments should be addressed to the corresponding author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Data"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization. Cumulative number of confirmed human cases for avian influenza A(H5N1) reported to WHO",
+            "authors": [],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Nomenclature updates resulting from the evolution of avian influenza A(H5) virus clades 2.1.3.2a, 2.2.1, and 2.3.4 during 2013-2014",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Donis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Influenza Other Respir Viruses",
+            "volume": "9",
+            "issn": "",
+            "pages": "271--277",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Highly pathogenic avian influenza A(H5N1) virus infection among workers at live bird markets",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nasreen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Luby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Emerg Infect Dis",
+            "volume": "21",
+            "issn": "",
+            "pages": "629--666",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Immunogenicity and safety of AS03A-adjuvanted H5N1 influenza vaccine prepared from bulk antigen after stockpiling for 4 years",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Godeaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Izurieta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Madariaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dram\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Vaughn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Vaccine",
+            "volume": "33",
+            "issn": "",
+            "pages": "2189--95",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Influenza vaccine and adjuvants stockpiles",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Cioce",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Biomedical Advanced Research and Development Authority (BARDA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "SAGE Working Group on Influenza Vaccines and Immunizations: influenza A (H5N1) vaccine stockpile and inter-pandemic vaccine use",
+            "authors": [],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Outbreaks of avian influenza A (H5N2), (H5N8), and (H5N1) among birds-United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jhung",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Nelson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "64",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "H5N2 avian influenza outbreak in Texas in 2004: the first highly pathogenic strain in the United States in 20 years?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Swayne",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Linares",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Senne",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Suarez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "11412--11433",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Pathogenesis and transmission of novel highly pathogenic avian influenza H5N2 and H5N8 viruses in ferrets and mice",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pulit-Penaloza",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Creager",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Virol",
+            "volume": "89",
+            "issn": "",
+            "pages": "10286--93",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Emergence and dissemination of clade 2.3.4.4 H5Nx influenza viruses-how is the Asian HPAI H5 lineage maintained",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Claes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Morzaria",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Donis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Curr Opin Virol",
+            "volume": "16",
+            "issn": "",
+            "pages": "158--63",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Immunogenicity of avian influenza A/ Anhui/01/2005(H5N1) vaccine with MF59 adjuvant: a randomized clinical trial",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Belshe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Frey",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "JAMA",
+            "volume": "312",
+            "issn": "",
+            "pages": "1420--1428",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "National Institute of Allergy and Infectious Diseases-Funded Vaccine and Treatment Evaluation Units. Safety and immunogenicity of influenza A H5 subunit vaccines: effect of vaccine schedule and antigenic variant",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Belshe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Frey",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Infect Dis",
+            "volume": "203",
+            "issn": "",
+            "pages": "666--73",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Department of Health and Human Services",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chosewood",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Centers for Disease Control and Prevention. Biosafety in microbiological and biomedical laboratories",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "WHO Global Influenza Surveillance Network. Manual for the laboratory diagnosis and virological surveillance of influenza",
+            "authors": [],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Safety and immunogenicity of an inactivated subvirion influenza A (H5N1) vaccine",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Treanor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zangwill",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wolff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "N Engl J Med",
+            "volume": "354",
+            "issn": "",
+            "pages": "1343--51",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Priming with AS03 A-adjuvanted H5N1 influenza vaccine improves the kinetics, magnitude and durability of the immune response after a heterologous booster vaccination: an open non-randomised extension of a double-blind randomised primary study",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Leroux-Roels",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Roman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Forgus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Vaccine",
+            "volume": "28",
+            "issn": "",
+            "pages": "849--57",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "An assessment of prime-boost vaccination schedules with AS03A -adjuvanted prepandemic H5N1 vaccines: a randomized study in European adults",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gillard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Caplanusi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Knuf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Influenza Other Respir Viruses",
+            "volume": "7",
+            "issn": "",
+            "pages": "55--65",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Long-term booster schedules with AS03A-adjuvanted heterologous H5N1 vaccines induces rapid and broad immune responses in Asian adults",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gillard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hwang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "BMC Infect Dis",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "MF59 adjuvant enhances diversity and affinity of antibody-mediated immune response to pandemic influenza vaccines",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khurana",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Verma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Yewdell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Sci Transl Med",
+            "volume": "3",
+            "issn": "",
+            "pages": "85--133",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Single dose vaccination with AS03-adjuvanted H5N1 vaccines in a randomized trial induces strong and broad immune responsiveness to booster vaccination in adults",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Schwarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Horacek",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Knuf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Vaccine",
+            "volume": "27",
+            "issn": "",
+            "pages": "6284--90",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "S556 \u2022 JID 2017:216 (Suppl 4) \u2022 Levine et al",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "CI: confidence interval; GMT: geometric mean titer, VN: A/Vietnam/1203/2004 a Includes both 1VN primed and 2 VN primed subjects S558 \u2022 JID 2017:216 (Suppl 4) \u2022 Levine et al with 2 doses of A/Anhui1 adjuvanted with M59 induced minimal to no cross-reactive HI and MN antibody responses to A(H5N8) virus. In contrast, when primed with an antigenically distant clade 1 A(H5N1) antigen, boosting with a single dose of A/Anhui1 induced modest levels of cross-reactive HI antibody responses to both A(H5N8) and A(H5N2) viruses. Twentythree percent to 25% of participants seroconverted to A(H5N8) and A(H5N2) viruses by HI post-heterologous A/Anhui1 boost (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Hemagglutination inhibition (HI) and microneutralization (MN) antibody responses to H5N1 and H5N8 viruses 28 days following MF59-adjuvanted A/Anhui1 boost. Scatterplot of HI and MN antibody responses to A/Anhui1 (H5N1), and A/Gyr1088-6 (H5N8) 28 days post-A/Anhui1 boost. Error bars indicate 95% confidence interval. *P < .05. Abbreviations: HI, hemagglutination inhibition; MN, microneutralization; PB, Prime-Boost; VN, A/VN/1203.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Hemagglutination and Microneutralization antibody responses following homologous and heterologous prime boost vaccination with MF59-Adjuvanted A/Anhui1",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Heather Tatum, Leilani Thomas, and Yaohui Bai from the Influenza Division, CDC, for their excellent assistance with serology studies; and Dr Todd Davis from the Influenza Division, CDC, for providing viruses. We also thank Dr David Spiro and the investigators from the National Institute of Allergy and Infectious Diseases (NIAID), National Institutes of Health (NIH), for providing the sera, and Dr Armen Donabedian and other colleagues from the Biomedical Advanced Research and Development Authority for the support of this study.Disclaimer. The views expressed in this work are those of the authors and do not reflect the official policy of the CDC or any other agencies of the US government.Financial support. This work was supported by the Centers for Disease Control and Prevention. Supplement sponsorship. This work is part of a supplement sponsored by the Centers for Disease Control and Prevention.Potential conflicts of interest. A.R.B. reports Emmes corporation received funding from NIH/NIAID/DMID for \"Statistical and Data Coordinating Center for Clinical Research in Infectious Diseases\". All other authors report no potential conflicts. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments."
+        }
+    ]
+}

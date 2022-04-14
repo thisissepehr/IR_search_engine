@@ -1,0 +1,3573 @@
+{
+    "paper_id": "bc43b3f4161a7306dd9f7a07bc2a76907fba8d18",
+    "metadata": {
+        "title": "Life Chaos is Associated with Reduced HIV Testing, Engagement in Care, and ART Adherence Among Cisgender Men and Transgender Women upon Entry into Jail",
+        "authors": [
+            {
+                "first": "Sae",
+                "middle": [],
+                "last": "Takada",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Susan",
+                "middle": [
+                    "L"
+                ],
+                "last": "Ettner",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nina",
+                "middle": [
+                    "T"
+                ],
+                "last": "Harawa",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wendy",
+                "middle": [
+                    "H"
+                ],
+                "last": "Garland",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Steve",
+                "middle": [
+                    "J"
+                ],
+                "last": "Shoptaw",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [],
+                "last": "William",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "E",
+                "middle": [],
+                "last": "Cunningham",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Life chaos, the perceived inability to plan for and anticipate the future, may be a barrier to the HIV care continuum for people living with HIV who experience incarceration. Between December 2012 and June 2015, we interviewed 356 adult cisgender men and transgender women living with HIV in Los Angeles County Jail. We assessed life chaos using the Confusion, Hubbub, and Order Scale (CHAOS) and conducted regression analyses to estimate the association between life chaos and care continuum. Forty-eight percent were diagnosed with HIV while incarcerated, 14% were engaged in care 12 months prior to incarceration, mean antiretroviral adherence was 65%, and 68% were virologically suppressed. Adjusting for sociodemographics, HIV-related stigma, and social support, higher life chaos was associated with greater likelihood of diagnosis while incarcerated, lower likelihood of engagement in care, and lower adherence. There was no statistically significant association between life chaos and virologic suppression. Identifying life chaos in criminal-justice involved populations and intervening on it may improve continuum outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The HIV epidemic disproportionately affects the incarcerated population in the US, with an estimated 1.3% prevalence among prisoners that is approximately three times that of the general population [1] . Furthermore, compared to people living with HIV (PLH) in the US general population, incarcerated PLH are often less likely to have met HIV care continuum milestones [2, 3] -engaged in care, received and adhered to antiretroviral therapy (ART) and achieved virologic suppression-at the time of incarceration [4] [5] [6] [7] . This disproportionate burden as well as the profound challenges in achieving the care continuum reflect how the incarcerated population represents one of the most socially and economically marginalized groups in the US [8] [9] [10] . Understanding the lived experience of navigating social and structural barriers to care in community settings may help us to improve the HIV care continuum among incarcerated PLH and those returning from custody.",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 201,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 369,
+                    "end": 372,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 373,
+                    "end": 375,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 511,
+                    "end": 514,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 515,
+                    "end": 518,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 519,
+                    "end": 522,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 523,
+                    "end": 526,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 748,
+                    "end": 751,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 752,
+                    "end": 755,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 756,
+                    "end": 760,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The idea that life chaos-perceived inability to plan for and anticipate the future-leads to adverse outcomes was first proposed by Matheny and colleagues in the field of 1 3 child development [11] . Their tool, the Confusion, Hubbub, and Order Scale (CHAOS), has since been adapted to adults to measure various aspects of stability and predictability in daily life, ranging from a person's perceived ability to organize a routine and keep a schedule, to their sense of certainty regarding their future housing or source of income [12] . While life chaos remains an underexplored concept in the health literature, a limited number of studies have demonstrated that it predicts important health outcomes. Life chaos predicted missed appointments and poor medication adherence among PLH [12, 13] and patients with chronic illness, [14, 15] as well as risky sexual behavior among men who have sex with men (MSM) [16] . In addition, life chaos was associated with structural barriers to HIV care-poverty, homelessness, and having unmet needs for financial, employment, and food support services-supporting its validity [12, 13] .",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 530,
+                    "end": 534,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 784,
+                    "end": 788,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 789,
+                    "end": 792,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 828,
+                    "end": 832,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 833,
+                    "end": 836,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 908,
+                    "end": 912,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1114,
+                    "end": 1118,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1119,
+                    "end": 1122,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The literature on criminal justice-involved PLH suggests high levels of chaos in their lives. They frequently experience poverty, comorbid substance use disorder [17, 18] housing instability [19] , and social isolation from HIVrelated stigma, all of which may contribute to life chaos [13, 16, 20] . Many come from communities where households and relationships are disrupted from high rates of incarceration [21] . Finally, social and economic marginalization due to overlapping stigmatized identities likely compound the life chaos. For example, incarcerated young black MSM often lose access to resources in their community due to homonegativity [22] and have higher rates of homelessness and lower rates of health insurance prior to incarceration compared to other incarcerated men [6] ; transgender women experience discrimination in employment, healthcare and family settings and victimization while incarcerated [23, 24] .",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 166,
+                    "text": "[17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 167,
+                    "end": 170,
+                    "text": "18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 285,
+                    "end": 289,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 290,
+                    "end": 293,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 294,
+                    "end": 297,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 409,
+                    "end": 413,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 649,
+                    "end": 653,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 786,
+                    "end": 789,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 919,
+                    "end": 923,
+                    "text": "[23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 924,
+                    "end": 927,
+                    "text": "24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Guided by the ecosocial theory that posits the importance of examining health inequities in the context of individual, interpersonal, and structural factors [25] , we highlight two interpersonal factors that are known to shape the HIV epidemic among incarcerated PLH: social support and HIVrelated stigma. Supportive social relationships have been shown to be positively associated with protective HIVrelated behaviors, fewer HIV infections, and better HIV care continuum outcomes in general [26] [27] [28] [29] [30] , including for incarcerated PLH [18, 31, 32] . Social support provides material resources or emotional support to buffer the effects of stressors [33, 34] , and can potentially counter the effects of life chaos [16] . On the other hand, social relationships may also be a source of HIV-related stigma, the devaluation and discrimination of PLH, which can be a potent barrier to continuum of care outcomes [35, 36] . For PLH with criminal-justice involvement, HIV-related stigma is associated with hiding one's HIV serostatus, refusing to take ART, and relapsing into substance use [18, 31, 32, 37] .",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 161,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 492,
+                    "end": 496,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 497,
+                    "end": 501,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 502,
+                    "end": 506,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 507,
+                    "end": 511,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 512,
+                    "end": 516,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 550,
+                    "end": 554,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 555,
+                    "end": 558,
+                    "text": "31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 559,
+                    "end": 562,
+                    "text": "32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 664,
+                    "end": 668,
+                    "text": "[33,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 669,
+                    "end": 672,
+                    "text": "34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 729,
+                    "end": 733,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 923,
+                    "end": 927,
+                    "text": "[35,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 928,
+                    "end": 931,
+                    "text": "36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1099,
+                    "end": 1103,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1104,
+                    "end": 1107,
+                    "text": "31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1108,
+                    "end": 1111,
+                    "text": "32,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1112,
+                    "end": 1115,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Using baseline data collected from a sample of PLH from the Los Angeles County Men's Central Jail who participated in a randomized controlled trial of a peer navigation intervention after release from jail, we examined whether life chaos, social support, and HIV-related stigma prior to incarceration were associated with levels of HIV care continuum engagement upon jail entry. We hypothesized that life chaos was associated with each of the HIV care continuum steps.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This study is based on the baseline data collected for the LINK LA study, a two-group, randomized trial of a peer navigation intervention for PLH released from jail, as previously published [38] . To summarize briefly, we recruited participants from Los Angeles County Men's Central Jail. They were eligible for study participation if they were: (1) HIV seropositive; (2) age 18 or older (3) cisgender men or transgender women; (4) English-or bilingual Spanishspeaking; (5) planning to reside in LA County upon release; and (6) eligible for antiretroviral therapy or incarcerated on antiretroviral therapy [38] . Exclusion criteria were: (1) inability to give informed consent; (2) planned transfer to prison; and (3) stay in jail < 5 days. Of a total of 465 potentially eligible persons, we enrolled 356 in the study (105 were screened but not eligible, and four declined).",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 194,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 606,
+                    "end": 610,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study Setting and Population"
+        },
+        {
+            "text": "From December 2012 through June 2015, research staff conducted face-to-face baseline interviews approximately one week prior to release from jail. The team also obtained electronic medical record data on HIV viral load, which was routinely drawn several days after the participants diagnosed with or known to have HIV arrived at jail. Participants were compensated $25 for the interview.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Collection"
+        },
+        {
+            "text": "Primary dependent variables were achievement of steps in the HIV care continuum prior to the jail stay [39] : routine HIV testing in the community (vs. only while incarcerated), engagement in care, ART adherence, and viral suppression. To identify those who did not participate in routine HIV testing, we asked whether the participant first tested positive for HIV during the current or a previous incarceration in jail or prison: participants who first tested positive while incarcerated were deemed not to have achieved that milestone. To measure engagement in care, we asked whether participants who had been diagnosed more than 12 months prior to this incarceration had received at least one HIV primary care visit in the community 12 months prior to entering jail. We assessed ART adherence over the 30 days prior to incarceration using a scale of 0-100% rating scale, generally called a Visual Analog Scale [40] [41] [42] . Finally, we defined virologic suppression as viral load < 400 copies/ml on first viral load after jail entry. This cutoff was selected to account for viral blips that do not result in any clinically significant viral replication [5, 43, 44] .",
+            "cite_spans": [
+                {
+                    "start": 103,
+                    "end": 107,
+                    "text": "[39]",
+                    "ref_id": null
+                },
+                {
+                    "start": 913,
+                    "end": 917,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 918,
+                    "end": 922,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 923,
+                    "end": 927,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1159,
+                    "end": 1162,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1163,
+                    "end": 1166,
+                    "text": "43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1167,
+                    "end": 1170,
+                    "text": "44]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Primary Variables of Interest"
+        },
+        {
+            "text": "The primary independent variables included measures of life chaos, social support, and HIV-related stigma (see \"Appendix\"). To measure life chaos, we administered the 12-item Confusion, Hubbub, and Order Scale (CHAOS) adapted for adults, which measures predictability of life circumstances, ability to plan and anticipate the future, and reliability of income, employment, housing [12] . In this analysis, we excluded two items about certainty of employment in six months in the future, given that the participants were incarcerated and unemployed at the time of interview. Each item was scored on a 5-point Likert-type scale ranging from \"definitely true\" to \"definitely false.\" The items were averaged for the total score (from 1 to 5), with higher numbers representing more chaos. The final 10-item chaos scale showed acceptable internal consistency reliability (Cronbach's alpha = 0.76).",
+            "cite_spans": [
+                {
+                    "start": 381,
+                    "end": 385,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Primary Variables of Interest"
+        },
+        {
+            "text": "We measured social support using a 5-item scale that was derived from a previous tool designed to measure perceived availability of emotional and practical support [45] [46] [47] . Each item was scored on a 5-point Likert-type scale ranging from \"none of the time\" to \"all of the time.\" The scale showed excellent internal consistency reliability (Cronbach's alpha = 0.90). The items were averaged to create a scale score (from 1 to 5), with higher values representing greater social support.",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 169,
+                    "end": 173,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 174,
+                    "end": 178,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Primary Variables of Interest"
+        },
+        {
+            "text": "We measured HIV-related stigma using a 12-item version of an established measure that taps four dimensions of stigma: negative stereotypes associated with HIV, disclosure concerns, treatment by others, and internalization of shame [48, 49] . Each item was scored on a 5-point Likert-type scale ranging from \"none of the time\" to \"all of the time.\" The items were averaged to create a scale score (from 1 to 5), with higher values representing greater stigma. The scale showed acceptable internal consistency reliability (Cronbach's alpha = 0.80).",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 235,
+                    "text": "[48,",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 236,
+                    "end": 239,
+                    "text": "49]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Primary Variables of Interest"
+        },
+        {
+            "text": "Sociodemographic variables included age, race/ethnicity, educational attainment, annual household income, health insurance status, risk/gender group, and HIV transmission risk category. Educational attainment was dichotomized into participants who had less than high school education, and those who had completed high school or equivalent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Other Explanatory Variables"
+        },
+        {
+            "text": "Individual annual income was dichotomized at $10,000 or less and greater than $10,000, with the cutoff based on the median income of the sample. Health insurance status was categorized into private insurance, public insurance, and no insurance. We assigned participants to mutually exclusive categories of HIV transmission risk [50] -men who have sex with men, men who have sex with women, or people who used injection drugs-with an additional category for transgender women given their unique risk related to HIV [51, 52] . We also included SF-12 mental health composite scores [53] .",
+            "cite_spans": [
+                {
+                    "start": 328,
+                    "end": 332,
+                    "text": "[50]",
+                    "ref_id": null
+                },
+                {
+                    "start": 514,
+                    "end": 518,
+                    "text": "[51,",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 519,
+                    "end": 522,
+                    "text": "52]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 579,
+                    "end": 583,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Other Explanatory Variables"
+        },
+        {
+            "text": "The scales for life chaos, social support, and HIV-related stigma were centered by subtracting the sample mean from scores.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "We used logistic regression analyses to estimate the dichotomous outcomes: HIV diagnosis while incarcerated, engagement in care prior to incarceration, and viral suppression. We used linear regression analysis for level of ART adherence. We examined factors associated with HIV diagnosis while incarcerated among all participants (N = 356) and examined correlates of the three remaining outcomes only among participants who were diagnosed with HIV prior to the current incarceration (N = 321). We first conducted bivariate regression analyses to estimate the association between HIV continuum outcomes and each of the variables described above. We then conducted multivariable analyses in which each HIV care continuum outcome was specified as a function of the explanatory variables described above. As an alternative way to interpret the logistic regression models [54] , we estimated marginal effects, defined as the effect of a small change in life chaos on the probability of achieving HIV care continuum outcomes [55] . The regression models were fitted to complete-case data.",
+            "cite_spans": [
+                {
+                    "start": 867,
+                    "end": 871,
+                    "text": "[54]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1019,
+                    "end": 1023,
+                    "text": "[55]",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "We also conducted sensitivity analysis by adding several variables to the regression models for each dependent variable to examine their effect on the previously observed associations. First, we added the interaction variables: life chaos \u00d7 social support and life chaos \u00d7 stigma, into separate multivariable models. We used these interaction variables to examine whether the associations between life chaos and HIV care continuum outcomes changed by the level of social support and the level of stigma, respectively. In separate multivariable models, we added CD4 count as sensitivity analyses. Because the estimates for the main independent variables were robust to this change, we present the original models with the primary independent variables and covariates as described above. Finally, we conducted sensitivity analysis using multiple imputation for the 90 missing (nonresponse) ART adherence values among those who were prescribed ART prior to incarceration by creating 10 imputed data sets using the multivariate normal (MVN) distribution command in STATA v.15.0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "Statistical analyses were conducted using SAS v9.4; marginal effect estimates for logistic regression models and multiple imputation procedures were conducted using STATA v15.0 [56] .",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "[56]",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "We interviewed 356 participants. One hundred and fiftyone (42%) participants were Black/African American and 110 (31%) were Hispanic/Latino ( Table 1 ). The median age of the respondents was 40. Most respondents were MSM (56%), 37% did not graduate from high school, 42% earned $10,000 or less annually, 55% had no health insurance, and 11% had CD4 count less than 500. Regarding HIV care continuum outcomes (Table 2) , 172 (48%) participants were diagnosed while incarcerated, of which 35 (20%) were diagnosed during this incarceration. Of the participants who were diagnosed prior to this incarceration, 46 (14%) had engaged in care in the past 12 months, and 218 (68%) were virologically suppressed at the time of incarceration. Among the 318 (89%) participants who were prescribed ART prior to incarceration, the mean self-reported percentage of ART adherence was 65%. The mean (standard deviation) for the scales (scored from 1 to 5) were as follows: life chaos 3.25 (1.29), social support 2.65 (0.86), and HIV-related stigma 2.59 (0.79).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 142,
+                    "end": 149,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 408,
+                    "end": 417,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Participant Characteristics"
+        },
+        {
+            "text": "In bivariate analyses, life chaos (OR = 1.35, 95% CI 1.05 to 1.73) was associated with higher odds of having been diagnosed with HIV while incarcerated, while having completed high school (OR = 0.62, 95% CI 0.41 to 0.96), and having public health insurance compared to having no insurance (OR = 0.60, 95% CI 0.39 to 0.92) were associated with lower odds (Table 3 ). In the multivariable model, life chaos (aOR = 1.52, 95% CI 1.09 to 2.11) was associated with higher odds of having been diagnosed with HIV while incarcerated, while having completed high school was associated with lower odds (aOR = 0.54, 95% CI 0.32 to 0.80). Average marginal effects estimates showed that a 1-point increase on the chaos scale increases the probability of diagnosis while incarcerated by about 10 percentage points; for example, increasing chaos from 3 to 4 on the 5-point scale would change this probability from 51 to 61%.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 354,
+                    "end": 362,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Correlates of HIV Diagnosis While Incarcerated"
+        },
+        {
+            "text": "In bivariate analyses, life chaos (OR = 0.56, 95% CI 0.39 to 0.81) and Hispanic/Latino ethnicity (OR = 0.38, 95% CI 0.15 to 0.93) were associated with lower odds of engagement in care prior to entering jail, while older age (OR = 1.05, 95% CI 1.02 to 1.09), annual income over $10,000 (OR = 3.15, 95% CI Sensitivity analysis using multiple imputation of ART adherence is shown in Appendix Table 5 . Results of bivariate analyses using imputed data and non-imputed data were similar in magnitude and direction, with the exception of identifying as a transgender woman being associated with lower ART adherence in the analysis using imputed data. Results of the multivariable models using imputed data and non-imputed data were similar in magnitude and direction, with the exception of having public health insurance being not associated with ART adherence at the level of p < 0.05 in the model using imputed data.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 389,
+                    "end": 396,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Correlates of Engagement in Care Prior to Incarceration"
+        },
+        {
+            "text": "In bivariate analyses, HIV-related stigma (OR = 0.69, 95% CI 0.51 to 0.93) was associated with lower odds, and SF12 mental component score (OR = 1.03, 95% CI 1.01 to 1.05) was associated with higher odds of virologic suppression (Table 3 ). In the multivariable model, Black/African American race remained associated with lower odds of virologic suppression (aOR = 0.47, 95% CI 0.24 to 0.93). Life chaos was not significantly associated with virological suppression.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 229,
+                    "end": 237,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Correlates of Virologic Suppression at Incarceration"
+        },
+        {
+            "text": "Additional sensitivity analysis containing life chaos \u00d7 social support and life chaos \u00d7 HIV-related stigma interaction variables for multivariable logistic models, and multivariable linear regression models with complete case and multiple imputation for ART adherence are shown in Appendix Tables 6 and 7. The main effects of life chaos on HIV diagnosis while incarcerated, engagement in care, and ART adherence remained robust to the inclusion of these variables. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlates of Virologic Suppression at Incarceration"
+        },
+        {
+            "text": "While correctional facilities represent an important opportunity to address the HIV care continuum among vulnerable populations [57, 58] , our study among cisgender men and transgender women PLH in the LA county jail showed significant gaps in the HIV care continuum prior to and upon entry into incarceration. Life chaos-the perception of having an unstable, unpredictable, disorganized lifewas associated with elevated odds of HIV diagnosis while incarcerated among all participants, and with reduced odds of engagement in care and lower ART adherence among participants who were already diagnosed with HIV. However, our study did not support the hypothesized association between life chaos and viral suppression. The substantial associations of life chaos with several HIV care continuum variables remained significant and robust to the inclusion of multiple covariates that reflected the social environment of this vulnerable group of PLH. Consistent with our hypotheses, life chaos was associated with greater odds of being first diagnosed with HIV while incarcerated. Almost half of our participants were diagnosed with HIV during their current or a prior incarceration rather than through targeted or routine testing in the community, reflecting the concentration of medically-underserved individuals in the criminal justice system [58] . Routine HIV screening is critical not only for timely linkage to care and treatment for PLH, but also for reducing unrecognized transmission of HIV to others in the community [39] . HIV screening for those who are seronegative can also provide opportunities for risk assessment, counseling and further interventions such as pre-exposure prophylaxis to prevent acquisition of HIV [59] .",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "[57,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "58]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1339,
+                    "end": 1343,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1521,
+                    "end": 1525,
+                    "text": "[39]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1725,
+                    "end": 1729,
+                    "text": "[59]",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Further consistent with our hypotheses, life chaos was associated with poor engagement in care, which was common in this vulnerable population. Eighty-five percent of the participants who had known HIV infection had not engaged in care in the community during the 12 months prior to incarceration, similar to findings from a recent systematic review on incarcerated PLH [7] .",
+            "cite_spans": [
+                {
+                    "start": 370,
+                    "end": 373,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In addition, each one-point increase in the life chaos scale was associated with a 9% decrease in ART adherence in the 30 days prior to jail entry, a finding that was reproducible in the multiple imputation sensitivity analysis. The selfreported mean ART adherence was 65% among those with known HIV infection and prescribed ARTs, comparable to levels reported in other studies [7] .",
+            "cite_spans": [
+                {
+                    "start": 378,
+                    "end": 381,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In contrast, life chaos was not statistically significantly associated with virologic suppression. While we do not know why this occurred in our study, one possible explanation may be that virologic suppression, especially when measured using a single measurement [60] , is a downstream outcome that is not sensitive to the effects of upstream processes of engagement in care and adherence. Hence, life chaos may correlate with poor engagement in care and adherence to ART, but these processes may not be ultimately reflected in the viral load. First, virologic suppression is seen among patients with significant care gaps. In our study, among those who were diagnosed with HIV prior to this incarceration, 14% were engaged in care, while 68% were virologically suppressed. A recent study demonstrated a similar apparent discrepancy: a care gap of less than nine months had no association on viral load, and a gap of 12 months or more resulted in a quarter of previously suppressed patients becoming unsuppressed [61] . One explanation for this observation is that patients continue to take ART despite not engaging in care: a recent study based on a billings claim database showed that 40% of people with care gaps over six months continued to fill their ART prescriptions [62] . Furthermore, studies have shown that moderate levels of adherence as low as 75% can lead to virologic suppression [63] [64] [65] . Finally, reincarceration is common [66] . It is possible that participants received care and took ART during a previous jail stay within the 12 months prior to the current incarceration, and this may not have been reflected in the survey results. While life chaos is an underexplored concept, the literatures on some related concepts may shed light to potential mechanisms through which life chaos may be linked to care continuum outcomes. The perception that the future is uncertain is a central component of life chaos; similarly, time preference theory proposes that those who perceive that the future is uncertain are less likely to engage in healthy behaviors, because they do not value the potential health benefit in the future [67] . If chaos in effect measures future uncertainty, the association we found between chaos and HIV testing, engagement in care, and ART adherence may reflect our participants' lack of perceived benefit of these health-promoting activities. Another conceptually similar Table 5 Multivariable linear regression models describing the relationship between life chaos, social support, and HIV-related stigma with ART adherence among participants who were prescribed ART among HIV-positive cisgender men and transgender women prior to incarceration in LA County Jail, after multiple imputation (N = 284) Bold indicates coefficients or Odds Ratios that are statistically significant at the level of p < 0.05",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 268,
+                    "text": "[60]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1014,
+                    "end": 1018,
+                    "text": "[61]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1275,
+                    "end": 1279,
+                    "text": "[62]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1396,
+                    "end": 1400,
+                    "text": "[63]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1401,
+                    "end": 1405,
+                    "text": "[64]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 1406,
+                    "end": 1410,
+                    "text": "[65]",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1448,
+                    "end": 1452,
+                    "text": "[66]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 2148,
+                    "end": 2152,
+                    "text": "[67]",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2420,
+                    "end": 2427,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The following number of observations were missing these variables: HIV-related stigma (31 observations), and social support (3 observations) *p < 0.05; **p < 0.01; ***p < 0.001 measure, stressful life circumstances (such as employment difficulties and major financial problems) predicted poor ART adherence [68] . Finally, life chaos has been closely linked to underlying poverty [13] as well as with unmet needs in housing, finances, employment, and food security [12, 58] . Prior studies showed that incarcerated PLH who are homeless [2, 69] or otherwise have difficulty meeting basic needs [57, 70] are less likely to receive routine HIV care. Homelessness [66, 69] and food insecurity have been associated with poor ART adherence [3] , while employment has been associated with increased adherence [2] for incarcerated PLH.",
+            "cite_spans": [
+                {
+                    "start": 307,
+                    "end": 311,
+                    "text": "[68]",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 380,
+                    "end": 384,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 465,
+                    "end": 469,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 470,
+                    "end": 473,
+                    "text": "58]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 536,
+                    "end": 539,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 540,
+                    "end": 543,
+                    "text": "69]",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 593,
+                    "end": 597,
+                    "text": "[57,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 598,
+                    "end": 601,
+                    "text": "70]",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 660,
+                    "end": 664,
+                    "text": "[66,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 665,
+                    "end": 668,
+                    "text": "69]",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 734,
+                    "end": 737,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 802,
+                    "end": 805,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "After adjusting for covariates, we did not find any statistically significant differences in any of the HIV care continuum variables between transgender women and cisgender men. A recent multi-site study among criminal-justice involved PLH similarly found no significant difference in ART adherence or viral suppression between cisgender Table 7 Multivariable linear regression models with interaction variables of associations between life chaos, social support, and HIVrelated stigma with ART adherence among participants who were prescribed ART among HIV-positive cisgender men and transgender women prior to incarceration in LA County Jail, complete case (N = 198) and multiple imputation (N = 284) Bold indicates coefficients or Odds Ratios that are statistically significant at the level of p < 0.05",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 338,
+                    "end": 345,
+                    "text": "Table 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The following number of observations were missing these dependent variables: engagement in care (3 observations men and transgender women [71] . The same study found that transgender women were more likely to engage in HIV transmission risk behaviors compare to cisgender men. Transgender women experience disproportionate burden of HIV [72] , and risk behaviors may drive gender disparities among criminal justice-involved PLH. Interpretation of our findings is subject to limitations. First, our data are cross-sectional, which limits our ability to make causal inferences. Second, the interview was done prior to release from jail, so some participants may incorrectly recall their history prior to incarceration. While the restrictive environment of incarceration [18] may color the participants' recollection of life chaos prior to incarceration, our mean chaos score was similar to that found among under-resourced PLH in Los Angeles [12] . The data on HIV testing, engagement in care, and ART adherence are selfreported, and therefore subject to the challenges inherent to all studies using self-reported data. We did not collect data on prior incarceration. While interviews were conducted in a confidential manner, data may be biased with respect to the participants' willingness to report poor adherence and engagement with care. Finally, our results may not generalize to populations outside of Los Angeles County.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 142,
+                    "text": "[71]",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 337,
+                    "end": 341,
+                    "text": "[72]",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 768,
+                    "end": 772,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 940,
+                    "end": 944,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our findings have important implications for researchers, health care providers and policy makers. At the individual level, our findings demonstrate the potential benefit of novel approaches to understand and address life chaos for PLH who experience incarceration in order to achieve HIV care continuum goals. Health care providers may identify patients who show signs of life chaos, such as having difficulty keeping their appointments or reluctance to schedule their next appointment, and offer supportive services, especially if they have experienced incarceration. Providers could partner with peer navigators or community health workers who may assist PLH in managing their life chaos, such as by scheduling or reminding them of their appointments or organizing transportation [38] , thereby making health care a source of stability in their lives. It will be critical to identify and address life chaos among PLH prior to their arriving in jail. It will be important to examine whether interventions that target the underlying factors associated with life chaos, such as housing, food, and income will change the perceptions of insecurity and uncertainty among vulnerable people, and also lead to better continuum of care outcomes in welldesigned prospective studies. At the community level, this may include addressing incarceration stigma-shame and discrimination of people who experience incarceration [57, 73, 74] -as this has been found be to a barrier for formerly incarcerated PLH to accessing care and other resources, such as housing, employment, and educational opportunities.",
+            "cite_spans": [
+                {
+                    "start": 783,
+                    "end": 787,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1412,
+                    "end": 1416,
+                    "text": "[57,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1417,
+                    "end": 1420,
+                    "text": "73,",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 1421,
+                    "end": 1424,
+                    "text": "74]",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Despite these limitations, we conclude that, in this sample of cisgender men and transgender women incarcerated in a large municipal jail, life chaos was associated with gaps in the HIV care continuum prior to entering jail. Prospective studies, including intervention studies, will be needed to establish life chaos as a predictor of continuum outcomes. These findings underscore the value of addressing life chaos proximal to criminal justice involvement for PLH, which represents a public health and clinical target when addressing underlying structural issues faced by many PLH.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "HIV in Prisons, 2015-Statistical Tables (NCJ 250641",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Maruschak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bronson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Contribution of substance use disorders on HIV treatment outcomes and antiretroviral medication adherence among HIV-infected persons entering jail",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Chitsaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Krishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "AIDS Behav",
+            "volume": "17",
+            "issn": "2",
+            "pages": "118--145",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Adherence to HIV treatment and care among previously homeless jail detainees",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Avery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "AIDS Behav",
+            "volume": "17",
+            "issn": "8",
+            "pages": "2654--66",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Jail booking as an occasion for HIV care reengagement: a surveillance-based study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Eastment",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Toren",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Strick",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Buskin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Golden",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dombrowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Public Health",
+            "volume": "107",
+            "issn": "5",
+            "pages": "717--740",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Optimization of human immunodeficiency virus treatment during incarceration: viral suppression at the prison gate",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cepeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Trestman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Altice",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Springer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "JAMA Intern Med",
+            "volume": "174",
+            "issn": "5",
+            "pages": "721--730",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "HIV-infected men who have sex with men, before and after release from jail: the impact of age and race, results from a multi-site study",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vagenas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zelenev",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Altice",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "AIDS Care",
+            "volume": "28",
+            "issn": "1",
+            "pages": "22--31",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The HIV care cascade before, during, and after incarceration: a systematic review and data synthesis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Iroh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mayo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nijhawan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Am J Public Health",
+            "volume": "105",
+            "issn": "7",
+            "pages": "5--16",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Mass imprisonment and the life course: race and class inequality in U.S. incarceration",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pettit",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Western",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Am Sociol Rev",
+            "volume": "69",
+            "issn": "2",
+            "pages": "151--69",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The cost of inequality: metropolitan structure and violent crime",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Blau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Blau",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "Am Sociol Rev",
+            "volume": "47",
+            "issn": "1",
+            "pages": "114--143",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Incarceration in fragile families",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wildeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Western",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Future Child",
+            "volume": "20",
+            "issn": "2",
+            "pages": "157--77",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Bringing order out of chaos: psychometric characteristics of the confusion, hubbub, and order scale",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Matheny",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wachs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ludwig",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kay",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J Appl Dev Psychol",
+            "volume": "16",
+            "issn": "3",
+            "pages": "429--473",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The association between life chaos, health care use, and health status among HIV-infected persons",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sarkisian",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kinsler",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Gen Intern Med",
+            "volume": "22",
+            "issn": "9",
+            "pages": "1286--91",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "HIV-related stress and life chaos mediate the association between poverty and medication adherence among people living with HIV/AIDS",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kalichman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kalichman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Clin Psychol Med Settings",
+            "volume": "23",
+            "issn": "4",
+            "pages": "420--450",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Medication non-adherence after myocardial infarction: an exploration of modifying factors",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Crowley",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zullig",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Gen Intern Med",
+            "volume": "30",
+            "issn": "1",
+            "pages": "83--90",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Association between perceived life chaos and medication adherence in a postmyocardial infarction population",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zullig",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Crowley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Circ Cardiovasc Qual Outcomes",
+            "volume": "6",
+            "issn": "6",
+            "pages": "619--644",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Life chaos and perceived social support among methamphetamineusing men who have sex with men engaging in transactional sexual encounters",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Viswanath",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wilkerson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Breckenridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Selwyn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Subst Use Misuse",
+            "volume": "52",
+            "issn": "1",
+            "pages": "100--107",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "African Americans, HIV, and mass incarceration",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shrage",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Lancet",
+            "volume": "388",
+            "issn": "",
+            "pages": "2--3",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Understanding interactions of formerly incarcerated HIVpositive men and transgender women with substance use treatment, medical, and criminal justice systems",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Harawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Amani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rhode",
+                    "middle": [],
+                    "last": "Bowers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sayles",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int J Drug Policy",
+            "volume": "48",
+            "issn": "",
+            "pages": "63--71",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Revolving doors: imprisonment among the homeless and marginally housed population",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kushel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bangsberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Moss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Am J Public Health",
+            "volume": "95",
+            "issn": "10",
+            "pages": "1747--52",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Chaos, hubbub, and order scale and health risk behaviors in adolescents in Los Angeles",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chatterjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gillman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "The Journal of Pediatrics",
+            "volume": "167",
+            "issn": "6",
+            "pages": "1415--1436",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "HIV and mass incarceration: where infectious diseases and social justice meet",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wohl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "N C Med J",
+            "volume": "77",
+            "issn": "5",
+            "pages": "359--64",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Understanding the syndemic connections between HIV and incarceration among African American men, especially African American men who have sex with men",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mccarthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Myers",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Reeves",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zack",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "217--257",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Transgender stigma and health: a critical review of stigma determinants, mechanisms, and interventions",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "White Hughto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Reisner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Pachankis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Soc Sci Med",
+            "volume": "147",
+            "issn": "",
+            "pages": "222--253",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Racial/ethnic disparities in history of incarceration, experiences of victimization, and associated health indicators among transgender women in the U",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Reisner",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Bailey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sevelius",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "S. Women Health",
+            "volume": "54",
+            "issn": "8",
+            "pages": "750--67",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Epidemiology and the web of causation: has anyone seen the spider?",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Krieger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Soc Sci Med",
+            "volume": "39",
+            "issn": "7",
+            "pages": "887--903",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The dynamic relationship between social support and HIV-related stigma in rural Uganda",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Takada",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Weiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kumbakumba",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Ann Behav Med",
+            "volume": "48",
+            "issn": "1",
+            "pages": "26--37",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Neighborhood social capital in relation to late HIV diagnosis, linkage to HIV care, and HIV care engagement",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ransome",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kawachi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Dean",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "AIDS Behav",
+            "volume": "21",
+            "issn": "3",
+            "pages": "891--904",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The relationship between higher social trust and lower late HIV diagnosis and mortality differs by race/ethnicity: results from a state-level analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ransome",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Batson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Galea",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kawachi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nash",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mayer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Int AIDS Soc",
+            "volume": "20",
+            "issn": "1",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Social Network Support and Decreased Risk of Seroconversion in Black MSM: Results of the BROTHERS (HPTN 061) Study",
+            "authors": [
+                {
+                    "first": "Kag",
+                    "middle": [],
+                    "last": "Hermanstyne",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cook",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Acquir Immune Defic Syndr",
+            "volume": "78",
+            "issn": "2",
+            "pages": "163--171",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Peer social support is associated with recent HIV testing among young black men who have sex with men",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pollack",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rebchook",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Huebner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kegeles",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "AIDS Behav",
+            "volume": "18",
+            "issn": "5",
+            "pages": "913--933",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Effect of social relationships on antiretroviral medication adherence for people living with HIV and substance use disorders and transitioning from prison",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rozanova",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bhushan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Marcus",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Altice",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Health Justice",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Manifestations of HIV stigma and their impact on retention in care for people transitioning from prisons to communities",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kemnitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kuehl",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hochstatter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Health Justice",
+            "volume": "5",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "From social integration to health: Durkheim in the new millennium",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Berkman",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Glass",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Brissette",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Seeman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Soc Sci Med",
+            "volume": "51",
+            "issn": "6",
+            "pages": "843--57",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "social relationships and health behavior across life course",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Umberson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Crosnoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reczek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Annu Rev Sociol",
+            "volume": "36",
+            "issn": "",
+            "pages": "139--57",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Experiences of social stigma and implications for healthcare among a diverse population of HIV positive adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Sayles",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Silver",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sarkisian",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Urban Health",
+            "volume": "84",
+            "issn": "6",
+            "pages": "814--842",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The association of stigma with self-reported access to medical care and antiretroviral therapy adherence in persons living with HIV/AIDS",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Sayles",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kinsler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Martins",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Gen Intern Med",
+            "volume": "24",
+            "issn": "10",
+            "pages": "1101--1109",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The inability to take medications openly at home: does it help explain gender disparities in HAART use?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Sayles",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Womens Health (Larchmt)",
+            "volume": "15",
+            "issn": "2",
+            "pages": "173--81",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Effectiveness of a peer navigation intervention to sustain viral suppression among HIV-positive men and transgender women released from jail: the LINK LA Randomized Clinical Trial",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nakazono",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JAMA Intern Med",
+            "volume": "178",
+            "issn": "4",
+            "pages": "542--53",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Validity of self-report measures in assessing antiretroviral adherence of newly diagnosed, HAART-naive, HIV patients",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Buscher",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hartman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kallen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Giordano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "HIV Clin Trials",
+            "volume": "12",
+            "issn": "5",
+            "pages": "244--54",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The validity of self-reported medication adherence as an outcome in clinical trials of adherence-promotion interventions: findings from the MACH14 study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Simoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Huh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "AIDS Behav",
+            "volume": "18",
+            "issn": "12",
+            "pages": "2285--90",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Self-report measures of antiretroviral therapy adherence: a review with recommendations for HIV research and clinical management",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Simoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kurth",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pearson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Pantalone",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Merrill",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Frick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "AIDS Behav",
+            "volume": "10",
+            "issn": "3",
+            "pages": "227--272",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Predictors of linkage to HIV care and viral suppression after release from jails and prisons: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Loeliger",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Altice",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ciarleglio",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gallagher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Meyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet HIV",
+            "volume": "5",
+            "issn": "2",
+            "pages": "96--106",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents with HIV. Department of Health and Human Services",
+            "authors": [],
+            "year": 2019,
+            "venue": "Panel on Antiretroviral Guidelines for Adults and Adolescents",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Coping, conflictual social interactions, social support, and mood among HIVinfected persons. HCSUS Consortium",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fleishman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sherbourne",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Crystal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Am J Community Psychol",
+            "volume": "28",
+            "issn": "4",
+            "pages": "421--53",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Perceived access and barriers to care among illicit drug users and hazardous drinkers: findings from the Seek, Test, Treat, and Retain data harmonization initiative (STTR)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Matsuzaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Vu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gwadz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Public Health",
+            "volume": "18",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Cohort profile: seek, test, treat and retain United States criminal justice cohort",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chandler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kruszka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Subst Abuse Treat Prev Policy",
+            "volume": "12",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Development and psychometric assessment of a multidimensional measure of internalized HIV stigma in a sample of HIV-positive adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Sayles",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hays",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sarkisian",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mahajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Spritzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "AIDS Behav",
+            "volume": "12",
+            "issn": "5",
+            "pages": "748--58",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Project LINK LA: potential mediators of peer navigation to link released HIV + jail inmates to HIV care; early results of an RCT Study",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Cunningham",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Seiden",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nakazono",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "11th international conference on HIV treatment and prevention adherence",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Diagnosed HIV infection in transgender adults and adolescents: results from the national HIV surveillance system",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Babu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wiewel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Opoku",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Crepaz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "AIDS Behav",
+            "volume": "21",
+            "issn": "9",
+            "pages": "2774--83",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Optimizing HIV prevention and care for transgender adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lake",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "AIDS",
+            "volume": "33",
+            "issn": "3",
+            "pages": "363--75",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "A 12-Item Short-Form Health Survey: construction of scales and preliminary tests of reliability and validity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ware",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kosinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Keller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Med Care",
+            "volume": "34",
+            "issn": "3",
+            "pages": "220--253",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Interaction terms in logit and probit models",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Norton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Econ Lett",
+            "volume": "80",
+            "issn": "1",
+            "pages": "123--132",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Log odds and the interpretation of logit models",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Norton",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dowd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Health Serv Res",
+            "volume": "53",
+            "issn": "2",
+            "pages": "859--78",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Using the margins command to estimate and interpret adjusted predictions and marginal effects",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Stata J",
+            "volume": "12",
+            "issn": "2",
+            "pages": "308--339",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Provider perspectives regarding the health care needs of a key population: HIV-infected prisoners after incarceration",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sidibe",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Golin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Turner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Assoc Nurses AIDS Care",
+            "volume": "26",
+            "issn": "5",
+            "pages": "556--69",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Correctional facilities as partners in reducing HIV disparities",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Rich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Acquir Immune Defic Syndr",
+            "volume": "63",
+            "issn": "01",
+            "pages": "49--53",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Antiretroviral prophylaxis for HIV prevention in heterosexual men and women",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Baeten",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Donnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ndase",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "N Engl J Med",
+            "volume": "367",
+            "issn": "5",
+            "pages": "399--410",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Single viral load measurements overestimate stable viral suppression among HIV patients in care: clinical and public health implications",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Marks",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stirratt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Acquir Immune Defic Syndr",
+            "volume": "73",
+            "issn": "2",
+            "pages": "205--217",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Gaps up to 9 months between HIV primary care visits do not worsen viral load",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Gardner",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Marks",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "AIDS Patient Care STDS",
+            "volume": "32",
+            "issn": "4",
+            "pages": "157--64",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Do persons living with HIV continue to fill prescriptions for antiretroviral drugs during a gap in care? Analysis of a large commercial claims database",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Byrd",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bush",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Gardner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Int Assoc Provid AIDS Care",
+            "volume": "16",
+            "issn": "6",
+            "pages": "632--640",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Adherence and virologic outcomes among treatment-na\u00efve veteran patients with human immunodeficiency virus type 1 infection",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Medicine",
+            "volume": "97",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Less Than 95% adherence to nonnucleoside reverse-transcriptase inhibitor therapy can lead to viral suppression",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bangsberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Clin Infect Dis",
+            "volume": "43",
+            "issn": "7",
+            "pages": "939--980",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Adherence to nonnucleoside reverse transcriptase inhibitor-based HIV therapy and virologic outcomes effect of NNRTI-based HIV therapy adherence on HIV-1 RNA",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Nachega",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hislop",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Dowdy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Chaisson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Regensberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Maartens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Ann Intern Med",
+            "volume": "146",
+            "issn": "8",
+            "pages": "564--73",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Highly active antiretroviral therapy use and HIV transmission risk behaviors among individuals who are HIV infected and were recently released from jail",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Clements-Nolle",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Marx",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pendo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Loughran",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Estes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Am J Public Health",
+            "volume": "98",
+            "issn": "4",
+            "pages": "661--667",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "The role of time preference and perspective and socioeconomic inequalities in health-related behaviours",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Adams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Overload: impact of incident stressful events on antiretroviral medication adherence and virologic failure in a longitudinal, multisite human immunodeficiency virus cohort study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mugavero",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Raper",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reif",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Psychosom Med",
+            "volume": "71",
+            "issn": "9",
+            "pages": "920--926",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Patterns of homelessness and implications for HIV health after release from jail",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zelenev",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Marcus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kopelev",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "AIDS Behav",
+            "volume": "17",
+            "issn": "2",
+            "pages": "181--94",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Competing subsistence needs are associated with retention in care and detectable viral load among people living with HIV",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Palar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J HIV/AIDS Soc Serv",
+            "volume": "17",
+            "issn": "3",
+            "pages": "163--79",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Risk behaviors and HIV care continuum outcomes among criminal justice-involved HIV-infected transgender women and cisgender men: data from the Seek, Test, Treat, and Retain Harmonization Initiative",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Beckwith",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fredericksen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS ONE",
+            "volume": "13",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Worldwide burden of HIV in transgender women: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Baral",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Poteat",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Str\u00f6mdahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wirtz",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Guadamuz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Beyrer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Lancet Infect Dis",
+            "volume": "13",
+            "issn": "3",
+            "pages": "214--236",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Enduring stigma: the long-term effects of incarceration on health",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schnittker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "John",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Health Soc Behav",
+            "volume": "48",
+            "issn": "2",
+            "pages": "115--145",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "A qualitative examination of stigma among formerly incarcerated adults living with HIV. Sage Open",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Swan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/2158244016667450"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "), ART adherence (90 observations, 24 observations not prescribed ART), HIV-related stigma (31 observations), and social support (",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Sociodemographic characteristics of HIV-positive cisgender men and transgender women prior to incarceration in LA County Jail (N = 356) 57) or private health insurance (OR = 7.09, 95% CI 2.87 to 17.51) versus no health insurance were associated with higher odds(Table 3). In the multivariable model, life chaos remained associated with lower odds of engagement in care prior to incarceration (aOR = 0.53, 95% CI 0.32 to 0.87), as did older age (aOR = 1.06, 95% CI 1.02 to 1.10), while annual income over $10,000 (aOR = 2.30, 95% CI 1.01 to 5.23), and private health insurance (aOR = 5.59, 95% CI 2.04 to 15.29) were associated with higher odds. Average marginal effects estimates showed that a 1-point increase on the chaos scale decreases the probability of engagement in care prior to entering jail by about 6 percentage points; for example, increasing chaos from 3 to 4 on the 5-point scale would change this likelihood from 9.5 to 5.6%. 95% CI \u2212 16.90 to \u2212 0.46) was associated with lower ART adherence, representing an almost 9% decrease in selfreported adherence per one-point increase in the life chaos scale. Other covariates associated with lower ART adherence were being a man who has sex with men (b = \u2212 17.68, 95% CI \u2212 34.65 to \u2212 0.70), and having public health insurance (b = \u2212 14.28, 95% CI \u2212 26.09 to \u2212 2.47) compared to no insurance.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "*p < 0.05 by independent group t test comparing means between cisgender men and transgender women or Pearson Chi square test for independence between gender identity and frequency of variable",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Multivariable logistic regression models of associations of life chaos, social support, and HIV-related stigma with HIV diagnosis while incarcerated, engagement in care, and virologic suppression TGW transgender woman, MWID men who inject drugs, MSM men who have sex with men, MSW men who have sex with women, MCS Mental",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Multivariable linear regression models describing the relationship between life chaos, social support, and HIV-related stigma with ART adherence among HIV-positive cisgender-men and transgender women prior to incarceration in LA County Jail (N = 198) Bold indicates coefficients or Odds Ratios that are statistically significant at the level of p < 0.05",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements Primary support for this research was provided",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "1. My daily activities from week to week are unpredictable. Definitely ",
+            "cite_spans": [
+                {
+                    "start": 60,
+                    "end": 70,
+                    "text": "Definitely",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. 12-item Adult Confusion, Hubbub, and Order Scale (CHAOS)"
+        }
+    ]
+}

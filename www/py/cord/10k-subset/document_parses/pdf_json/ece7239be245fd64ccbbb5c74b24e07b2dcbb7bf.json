@@ -1,0 +1,505 @@
+{
+    "paper_id": "ece7239be245fd64ccbbb5c74b24e07b2dcbb7bf",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Letter to the Editor Multiplex PCR implementation as point-of-care testing in a French emergency department Sir,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The increasing availability of syndromic testing for respiratory infections allows identification of almost all respiratory viruses, and some bacteria, involved in influenza-like illness (ILI) [1] . US guidelines specifically recommend use of influenza and multiplex polymerase chain reaction (mPCR) if these can change the management of hospitalized patients [2] . Patient benefit relies on rapid turnaround of results; in this regard, several kits are suitable for point-of-care (POC) use [3e5] . A few studies have investigated the impact of these tests on antiinfective prescribing, their potential cost-effectiveness and length of stay [3, 5] . However, to the authors' knowledge, no studies have focused on the impact of mPCR on infection prevention measures such as droplet precautions and single-room allocation of hospitalized patients.",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 196,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 360,
+                    "end": 363,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 491,
+                    "end": 496,
+                    "text": "[3e5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 641,
+                    "end": 644,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 645,
+                    "end": 647,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "As such, we conducted a prospective feasibility study of the use of mPCR as a POC test in the Emergency Department (ED) of our 850-bed hospital during the 2018e2019 influenza epidemic season. The impact of mPCR use on single-room assignment and antiviral use among patients seeking care in the ED was evaluated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "mPCR has been performed for all admitted patients seeking emergency care for ILI or pneumonia since 2015. During the 2018e2019 influenza season (mid-December 2018 to mid-March 2019), a rapid mPCR method with a turnaround time of 67 min was implemented as a POC test in the ED (QIA-Stat Dx RP2 panel; Qiagen, Hilden, Germany). Seven emergency physicians were trained to perform the mPCR test on nasopharyngeal swabs of all patients with ILI symptoms and with a triage level of 1 or 2 according to the Emergency Severity Index (ESI) [6] . Data on demographic characteristics, level of triage (ESI), antibiotic and antiviral prescriptions, ward of admission and room assignment were collected prospectively. Statistical analysis was performed using Stata Version 15 (Stata Corp., College Station, TX, USA). The research was approved by the local ethics committee (CEERB N2019-050).",
+            "cite_spans": [
+                {
+                    "start": 531,
+                    "end": 534,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "During the study period, 166 patients with ILI were tested by mPCR in the ED. Nine had a failed test (5%) and were excluded from the analysis. The median age of the 157 included patients was 72 years, with slightly more men than women (N \u00bc 89, 56%). The positivity rate of mPCR was 50% (79/157), including six co-infections. Influenza A, rhinovirus and respiratory syncytial virus (RSV) were identified in 46 (58%), 12 (15%) and 12 (15%) of the 79 mPCR-positive samples, respectively (Table I) . Among influenza-positive patients, fever, shortness of breath, cough and myalgia were present in 31 (67%), 40 (87%), 39 (85%) and 20 (43%), respectively. Fever was present in 17 (51%) patients with viruses other than influenza, and in 26 of 78 (33%) patients who were mPCR-negative. No significant differences in symptoms were observed between groups. Thirty-seven of 49 (80%), 24 of 37 (65%) and 32 of 78 (41%) patients with influenza-positive, non-influenza-positive and negative mPCR were assigned a single room, respectively ( Table I ). The difference was significant (P<0.001). Nearly all influenza-positive patients (45/46, 98%) received oseltamivir, contrasting with six of 111 (5%) non-influenza patients (P < 0.001). Twenty of 46 (43%) influenza-positive patients and 39 of 111 (35%) noninfluenza patients received empirical antibiotic treatment (P \u00bc 0.46). The median length of stay of patients with a positive mPCR was 3 days, 34 of 79 (43%) were admitted to the intensive care unit and eight (5%) died during the hospital stay, without differences according to the pathogen.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 484,
+                    "end": 493,
+                    "text": "(Table I)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1027,
+                    "end": 1034,
+                    "text": "Table I",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "In a large French ED using a POC mPCR testing strategy, patients with influenza received appropriate antiviral treatment in nearly all instances, and were assigned a single room in 80% of cases, as well as 75% of cases of the two other most severe viruses, RSV and metapneumovirus. A previous retrospective study conducted in the study ED showed that, with a median laboratory mPCR turnaround time of 19 h, only 22% of patients with influenza were appropriately assigned to a single room. Non-isolation of influenza-positive patients in a single room can be due to multiple reasons, including the variable epidemic course and the local availability of those rooms. Until now, a few studies had assessed the impact of a rapid turnaround time for multiplex testing. Most agreed on a global benefit despite their cost ranging from 80 to 140 V per unit [3e5,7] . A recent study in England showed a reduction of \u00a364 per stay, and another study in China showed a reduction of US$200 per stay [3, 5] . However, these two studies did not provide a clear description of any improvement in utilization of isolation facilities. Among the limitations, the present study was undertaken in a single centre with a limited number of patients. Patients were followed until transfer to clinical wards, whereupon the impact of mPCR on antibiotic duration or cost-effectiveness could not be evaluated. However, the high mPCR positivity rate, and the low failure rate, point to correct use of the test by a relatively small number of trained ED physicians. High rates of assignment to single rooms for patients with the most severe viruses, and appropriate use of antiviral treatment strongly suggest the benefits of POC mPCR testing. Additional studies are needed to confirm the clinical impact and cost-effectiveness of this approach, as well as the benefits on isolation management of syndromic testing as a POC method in the ED setting.",
+            "cite_spans": [
+                {
+                    "start": 849,
+                    "end": 856,
+                    "text": "[3e5,7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 986,
+                    "end": 989,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 990,
+                    "end": 992,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "None declared. 6 (50%) 6 (50%) 3 (33%) 1 (11%) 10 (22%) 3 (2e9) Others (N\u00bc9 c ) 7 (78%) 2 (22%) 8 (88%) 0 (0%) 6 (66%) 6 (0e23) ICU, intensive care unit; RSV, respiratory syncytial virus; IQR, interquartile range. a Including two codetections with RSV and two with a coronavirus. b Including one codetection with a rhinovirus. c Including two coronaviruses, three Mycoplasma pneumoniae and four human metapneumoviruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest statement"
+        },
+        {
+            "text": "y ED Influenza Management Study Group: C. Choquet a , M. Renoux a , V. Ing a , E.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding sources"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical utility of on-demand multiplex respiratory pathogen testing among adult outpatients",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hitoaliaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kotansky",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Peaper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Clin Microbiol",
+            "volume": "54",
+            "issn": "",
+            "pages": "2950--2955",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 update on diagnosis, treatment, chemoprophylaxis, and institutional outbreak management of seasonal influenza",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Uyeki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bernstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bradley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Englund",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "File",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin Infect Dis",
+            "volume": "68",
+            "issn": "",
+            "pages": "1--47",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Routine molecular point-of-care testing for respiratory viruses in adults presenting to hospital with acute respiratory illness (ResPOC): a pragmatic, open-label, randomised controlled trial",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brendish",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Malachira",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Armstrong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Houghton",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Aitken",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Nyimbili",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet Respir Med",
+            "volume": "5",
+            "issn": "",
+            "pages": "401--412",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Multiplex PCR point of care testing versus routine, laboratorybased testing in the treatment of adults with respiratory tract infections: a quasi-randomised study assessing impact on length of stay and antimicrobial use",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Andrews",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chetty",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Virk",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Glass",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Letters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMC Infect Dis",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Evaluation of a molecular point-of-care testing for viral and atypical pathogens on intravenous antibiotic duration in hospitalized adults with lower respiratory tract infection: a randomized clinical trial",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shengchen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin Microbiol Infect",
+            "volume": "25",
+            "issn": "",
+            "pages": "1415--1436",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The emergency severity index triage algorithm version 2 is reliable and valid",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Eitel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Travers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rosenau",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Gilboy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wuerz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Acad Emerg Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "1070--80",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Impact of rapid detection of viral and atypical bacterial pathogens by real-time polymerase chain reaction for patients with lower respiratory tract infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Oosterheert",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Loon",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schuurman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aim",
+                    "middle": [],
+                    "last": "Hoepelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hak",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thijsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Clin Infect Dis",
+            "volume": "41",
+            "issn": "",
+            "pages": "1438--1482",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "* Corresponding author. Address: AP-HP, Bichat Claude-Bernard Hospital, Emergency Department, 75018 Paris, France. E-mail address: donia.bouzid@aphp.fr (D. Bouzid) Available online xxx",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Distribution of patient management and follow-up according to multiplex polymerase chain reaction (mPCR) results",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

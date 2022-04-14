@@ -1,0 +1,4592 @@
+{
+    "paper_id": "85cb4beac8d31f43c6756e2fc5af48784b9c8841",
+    "metadata": {
+        "title": "Influenza, evolution, and the next pandemic",
+        "authors": [
+            {
+                "first": "David",
+                "middle": [
+                    "S"
+                ],
+                "last": "Fedson",
+                "suffix": "",
+                "affiliation": {},
+                "email": "davidsfedson@gmail.com"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "An evolutionary perspective in public health has been important in explaining associations between different human phenotypes and chronic diseases [1] . The same perspective might help us understand many forms of acute critical illness. It might also suggest better ways to manage critically ill patients.",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 150,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Two recent studies of influenza virus infection and endotoxemia in mice have shown that survival is better before puberty than after puberty. These studies help explain the lower mortality in children compared with adults seen in the 1918 influenza pandemic and in many other types of acute illness. This difference is probably the heritage of human evolution. Understanding the scientific basis for this difference suggests an alternative way to respond to the next pandemic. Instead of relying on vaccination and antiviral treatment, we might be able to treat patients with inexpensive generic drugs that modify the host response to acute critical illness. Unlike pandemic vaccines and antiviral treatments, these drugs will be available in any country with a basic healthcare system. If laboratory and clinical research convincingly demonstrates this approach works, it would benefit people everywhere. This idea has been discussed several times in the past decade [2] [3] [4] [5] [6] [7] [8] [9] .",
+            "cite_spans": [
+                {
+                    "start": 968,
+                    "end": 971,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 972,
+                    "end": 975,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 976,
+                    "end": 979,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 980,
+                    "end": 983,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 984,
+                    "end": 987,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 988,
+                    "end": 991,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 992,
+                    "end": 995,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 996,
+                    "end": 999,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The 1918 influenza pandemic is remembered because it killed as many as 50-100 million people worldwide: an estimated 2.5% or more of the global population [9] . Remarkably, the mortality rate was much higher in younger adults than it was in children, giving rise to the familiar W-shaped pandemic mortality curve ( Fig. 1 ) [6, 10] . A similar mortality pattern has not been described for subsequent pandemics (1957, 1968 and 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 158,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 324,
+                    "end": 327,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 328,
+                    "end": 331,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 410,
+                    "end": 430,
+                    "text": "(1957, 1968 and 2009",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 315,
+                    "end": 321,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "MORTALITY IN CHILDREN AND ADULTS WAS DIFFERENT DURING THE 1918 INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Some investigators have attributed high pandemic mortality in young adults to secondary bacterial pneumonia [11] . This explanation is incomplete and unsatisfactory for several reasons. Children were infected with the 1918 virus more frequently than adults ( Fig. 1 ) and they were almost certainly colonized with the same bacteria that were associated with bacterial pneumonia in adults, yet their pneumonia mortality rates were much lower [6, 12] . More important, lower mortality among children compared with adults was not unique to the 1918 pandemic. Children have lower mortality than adults due to infections caused by many bacteria (e.g. Group A Streptococcus, S. pneumoniae, S. aureus and M. tuberculosis) and viruses (e.g. mumps, varicella, poliomyelitis, Epstein Barr virus, hepatitis E, yellow fever, SARS and smallpox). Similar mortality differences have been seen in several other conditions (e.g. disseminated C. albicans infection, acute lung injury accompanying severe malaria, sickle cell chest syndrome, multi-organ failure following severe trauma, severe burn injury and febrile neutropenia) [6, 10] . In short, lower mortality rates among children were not unique to the 1918 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 112,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 441,
+                    "end": 444,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 445,
+                    "end": 448,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1112,
+                    "end": 1115,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1116,
+                    "end": 1119,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 259,
+                    "end": 265,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "MORTALITY IN CHILDREN AND ADULTS WAS DIFFERENT DURING THE 1918 INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Most influenza scientists have sought to explain the 1918 mortality difference by studying the virus. Numerous reports have shown that the virulence of individual influenza viruses differs markedly in laboratory models of infection. For example, influenza A (H3N2) viruses are generally more virulent than H1N1 viruses, and the 1918 virus (H1N1) was more virulent than the ordinary seasonal H1N1 influenza viruses seen today. Antigenic changes in human influenza viruses are frequently reported over the course of a single influenza season [13] , and in 1918 the mortality impact of the second pandemic wave in the fall was much greater than it was during the first wave the preceding spring [10] .",
+            "cite_spans": [
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 692,
+                    "end": 696,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MORTALITY IN CHILDREN AND ADULTS WAS DIFFERENT DURING THE 1918 INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Several investigators have sought to explain the greater mortality among adults in 1918 by studying influenza disease in human populations. During the 1918 influenza pandemic, children 5-14 years of age who were living in remote, isolated communities were often the only ones to survive [14] . There is general agreement that pandemic mortality peaked in young adults, but it was much lower in adults 45 years of age (Fig. 1) . Their lower mortality is thought due to the protective effect of residual immunity following exposure to H1N1-like viruses that circulated before an H3N2-like virus (Russian influenza) appeared in the early 1890s [10] . Influenza virologists agree that antigenic priming following infection with these earlier H1N1viruses (known as 'original antigenic sin') provided some measure of long-lasting protection against the highly virulent H1N1 virus that emerged in 1918 [15] . Accordingly, individuals born after the early 1890s were exposed only to H3N2-like viruses and would have missed antigenic priming with pre-1890 H1N1-like viruses. As young adults in 1918, they were susceptible to infection with the new pandemic H1N1 virus.",
+            "cite_spans": [
+                {
+                    "start": 287,
+                    "end": 291,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 641,
+                    "end": 645,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 895,
+                    "end": 899,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 417,
+                    "end": 425,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "ORIGINAL ANTIGENIC SIN AND ANTIGENIC IMPRINTING"
+        },
+        {
+            "text": "Influenza A viruses are categorized into two groups. Group 1 includes H1, H2 and H5 subtypes, whereas Group 2 includes H3 and H7 subtypes ( Figure 1A in Ref. [16] ). This phylogenetic understanding has informed recent age-specific analyses (based on individual birth year) of mortality patterns before, during and after the 1918 pandemic [17] [18] [19] [20] [21] . Worobey et al. have used a hostspecific molecular clock approach to demonstrate that high mortality in young adults may have been due to childhood exposure to a doubly heterosubtypic putative H3N8 virus that circulated from 1889 to 1900 [19] . They think that young children (but not infants) were protected by childhood exposure to a newly emerged (post-1900) H1variant or N1 antigens. Miller et al. interpret the historical data more cautiously [18, 20] . They agree with Worobey et al that early life antigenic imprinting might have led to a dysregulated T-cell response that increased the risk of death following infection in 1918 with a new and antigenically dissimilar influenza virus. However, they question whether a new H1 virus emerged in the early 1900s to replace the H3 virus that first appeared in 1890.",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 162,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 338,
+                    "end": 342,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 343,
+                    "end": 347,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 348,
+                    "end": 352,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 353,
+                    "end": 357,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 602,
+                    "end": 606,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 812,
+                    "end": 816,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 817,
+                    "end": 820,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 140,
+                    "end": 149,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "ORIGINAL ANTIGENIC SIN AND ANTIGENIC IMPRINTING"
+        },
+        {
+            "text": "Worobey et al have also analyzed cases and deaths due to H5N1 and H7N9 influenza. They have shown that HA imprinting was \"the dominant explanatory factor for observed incidence and mortality patterns for both H5N1 and H7N9\" [21] . For example, individuals born during the period when H1N1 viruses circulated were protected against H5N1 infection (both are Group 1 viruses) but were at increased risk of H7N9 infection (a Group 2 virus) [21] . However, individuals born during the 1968-2015 period (the H3N2 era) were protected against H7N9 infection (both are Group 2 viruses), whereas those born before 1957 (the H1N1 era) were not.",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 228,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ORIGINAL ANTIGENIC SIN AND ANTIGENIC IMPRINTING"
+        },
+        {
+            "text": "The importance of antigenic imprinting was also shown for the 2009 H1N1 pandemic. Individuals born before 1957 were exposed to seasonal H1N1 viruses before the emergence of the new H2N2 pandemic virus in 1957. As older individuals, they experienced a lower incidence of pH1N1 disease in 2009 than those born after 1957 [22] . However, Miller et al. have argued that early life H2N2 virus infection may have actually increased the risk of death during the heterotypic 2009 H1N1 pandemic [23] .",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 323,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 486,
+                    "end": 490,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ORIGINAL ANTIGENIC SIN AND ANTIGENIC IMPRINTING"
+        },
+        {
+            "text": "The importance of antigenic imprinting for human influenza is undeniable. 'First flu' may indeed be 'forever' [24] , but whether antigenic imprinting is helpful or harmful for every individual is still an open question. A similar uncertainty has arisen about influenza vaccination. The doctrine of 'original antigenic sin' was developed following observations that influenza vaccination led to the anamnestic recall of antibodies to earlier influenza viruses [15] . Recent epidemiologic studies, however, suggest that repeated influenza vaccinations may lead to reduced vaccination effectiveness [15, 23] . Moreover, repeated infection of ferrets with H3N2 viruses affects both the quantity and quality of their antibody responses [25] . Thus, there appear to be two sides to the host response following repeated influenza virus infections and vaccination. Moreover, these observations leave open the larger question of whether antigenic interaction among influenza viruses is the only determinant of how an individual will respond to influenza virus infection.",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 114,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 459,
+                    "end": 463,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 596,
+                    "end": 600,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 601,
+                    "end": 604,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 731,
+                    "end": 735,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ORIGINAL ANTIGENIC SIN AND ANTIGENIC IMPRINTING"
+        },
+        {
+            "text": "Writing about the 1918 pandemic, Ahmed et al. observed that \"children were not protected from infection, but, for reasons that are as mysterious today as they were in 1918, they were able to cope with the disease much better than their adult counterparts\" [10] . They added, \". . . this change in disease susceptibility occurs around the time of puberty, and it is possible that sex-associated hormones are involved in this transition\" [10] .",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 260,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "In trying to understand the 'mystery' of greater mortality among young adults during the 1918 pandemic, scientists have studied influenza viruses and the human response to previous infection. In essence, they have asked 'why did young adults die?' They could also have asked 'why did children live?' [6, 9, 12] .",
+            "cite_spans": [
+                {
+                    "start": 300,
+                    "end": 303,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 304,
+                    "end": 306,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 307,
+                    "end": 310,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "Influenza scientists have never created an experimental model of the mortality experience seen in the 1918. Recently, however, Suber and Kobzik experimentally replicated the different susceptibility of children and adults to influenza-related mortality [26] . They infected groups of C57BL/6 mice with influenza A(H1N1) (PR8) virus. Male and female mice were infected on either postnatal day 25 (P25, prepubertal) or postnatal day 28 (P28, pubertal). (In C57BL/6 mice, puberty usually starts on postnatal day P27 or P28.) Mortality was much greater in pubertal (P28) than in prepubertal (P25) mice ( Fig. 2a and b) . Deaths began to occur 9 days following infection. By this time, pulmonary virus titers had fallen to levels much lower than they were on days 3 and 6, and they were similar in prepubertal and pubertal mice ( Fig. 2c) .",
+            "cite_spans": [
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 600,
+                    "end": 614,
+                    "text": "Fig. 2a and b)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 825,
+                    "end": 833,
+                    "text": "Fig. 2c)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "High-dose, exogenous estrogen treatment is known to protect adult female mice infected with influenza virus [27] . To determine the role of sex hormones in the prepubertal/pubertal mortality Differences between P25 and P28 mice were not significant by the Kruskal-Wallis with Dunn's multiple comparisons test. From Ref. [26] with permission difference, Suber and Kobzik castrated male and female mice on day P21 and infected them on day P28 [26] . Over the next 3 weeks, mortality was reduced in castrated but not in sham-operated mice. They then blocked the onset of puberty in P28-infected female mice by pretreating them (starting on day P21) with leuprolide, a gonadotropin-releasing hormone (GnRH) analog. Leuprolide desensitizes GnRH receptors and decreases the secretion of gonadotropins, and this blocks the normal pubertal increase in estrogen. They also pretreated male and female P28infected mice with acyline, a GnRH antagonist. Both leuprolide and acyline pretreatment improved survival [26] . In addition, when P21-ovariectomized mice were infected on day P28, estrogen treatment given 0-2 or 6-8 days following infection abrogated the protective effect of ovariectomy. Protection was also reversed in castrated males by treatment with both estrogen and testosterone (normally, testosterone is converted to estrogen by aromatase).",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 112,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 320,
+                    "end": 324,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 441,
+                    "end": 445,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1000,
+                    "end": 1004,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "Transcriptome profiling over the course of infection showed marked enrichment of estrogen, b-estradiol and estrogen receptor 1 [26] . For this reason, estrogen receptor blockade was carried out using fulvestrant. Pretreating P28-infected male and female mice reduced subsequent mortality, and when fulvestrant was given to females 3 days following infection, survival was greatly improved. In addition, in older postpubertal male and female mice infected on day P42, survival also improved when fulvestrant treatment was started 3 days following infection [26] .",
+            "cite_spans": [
+                {
+                    "start": 127,
+                    "end": 131,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 556,
+                    "end": 560,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "Transcriptome analysis also showed increased expression of IL-1b in the lungs and blood leukocytes of pubertal (P28) mice 9 days after infection [26] . When pubertal mice were infected on day P28 and then treated with anti-IL-1b blocking antibody 5 and 9 days later, survival was greatly improved. Early treatment on the day of infection, however, was not beneficial, suggesting that IL-1b activity was expressed differently at different stages of disease [26] .",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 456,
+                    "end": 460,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "As discussed above mortality rates in many infectious diseases are lower in children than they are in adults [6, 10] , For this reason, Joachim and Kobzik studied mice with endotoxin (LPS)-induced sepsis before and after puberty [28] . The conditions for these experiments differed slightly from those in the influenza experiments [26] ; all mice were female and postpubertal mice were given LPS on postnatal days 33-35, not earlier. Prepubertal mice injected intraperitoneally with LPS on day P24-26 had significantly better survival than postpubertal mice 20 h after injection (Fig.  3a) , although endotoxin levels in the blood were similar in both groups (Fig. 3b) [28] . As in the influenza experiments, survival in prepubertal mice improved when the onset of puberty was delayed by pretreatment with estrogen (3 days before and on the day of LPS injection). Similarly, in postpubertal mice injected with LPS, blocking the onset of puberty by pretreatment with leuprolide (administered daily from prepubertal day P24 to postpubertal day P35) substantially improved survival. In addition, fulvestrant was administered to pre-and postpubertal mice to determine whether the increase in LPS-induced mortality was specifically due to the onset of puberty or the lack of estrogen activity, but the results were indeterminate. Finally, in LPS-treated postpubertal mice, adoptive transfer of peritoneal cells (macrophages and B and T cells) harvested from LPS-naive pre-and postpubertal mice had different effects on survival: mice that received cells from prepubertal mice had significantly lower mortality than those treated with postpubertal cells (Fig. 3c) [28] .",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 112,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 113,
+                    "end": 116,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 331,
+                    "end": 335,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 669,
+                    "end": 673,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1658,
+                    "end": 1662,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 579,
+                    "end": 589,
+                    "text": "(Fig.  3a)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 659,
+                    "end": 668,
+                    "text": "(Fig. 3b)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1648,
+                    "end": 1657,
+                    "text": "(Fig. 3c)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "Investigators have presented many arguments for and against the use of murine models to explain aspects of acute critical illness in humans [29, 30] . For comparative studies of puberty, mice present special problems; humans live much longer than mice and human puberty extends over several years, not a day or two as in mice. Nonetheless, murine studies before and after puberty can be of considerable value. For example, estrogens have an mice were injected intraperitoneally with LPS (Salmonella enterica) and followed for 5 days. Mortality in mice injected with prepubertal peritoneal cells was significantly lower than it was in control mice or those that received postpubertal peritoneal cells. From Ref. [28] with permission important role in puberty and they can also modify the response to acute critical illness. Kobzik et al. have shown that unlike other studies, estrogen treatment reversed protection against influenza mortality in prepubertal and castrated mice [26] . These apparently contradictory findings might reflect the known pro-inflammatory activities of low-dose estrogens and their anti-inflammatory effects when higher doses are used [26, 27] .",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 144,
+                    "text": "[29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 145,
+                    "end": 148,
+                    "text": "30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 711,
+                    "end": 715,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 976,
+                    "end": 980,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1160,
+                    "end": 1164,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1165,
+                    "end": 1168,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "Suber and Kobzik have shown that the different influenza mortality rates in pre-and postpubertal mice have nothing to do with previous exposure to influenza viruses and/or control of virus replication. This observation is critically important. Although antigenic imprinting clearly influences human outcomes in both pandemic and seasonal influenza [15, 18-20, 22, 23] , differences in antigenic imprinting might not be the only explanation for better childhood survival during the 1918 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 367,
+                    "text": "[15, 18-20, 22, 23]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "In attempting to understand the 'mystery' of better survival among children compared with adults during the 1918 pandemic, investigators have focused exclusively on infection with influenza viruses and ignored the better survival of children with other infectious diseases and noninfectious critical illnesses [6, 10] . The better survival of prepubertal mice following endotoxin treatment shown by Kobzik et al. suggests that this is a general phenomenon. Long-lasting, age-specific antigenic imprinting seen with influenza is not known to occur with most other forms of acute critical illness [6, 10] . Instead, changes in the host response to critical illness associated with increased mortality appear to begin with the onset of puberty. It follows that factors associated with prepuberty might somehow contribute to the better survival of children compared with adults.",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 313,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 314,
+                    "end": 317,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 595,
+                    "end": 598,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 599,
+                    "end": 602,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MOUSE MODELS OF INFLUENZA AND ENDOTOXEMIA DEMONSTRATE DIFFERENT MORTALITY BEFORE AND AFTER PUBERTY"
+        },
+        {
+            "text": "Infection with influenza viruses initially targets respiratory epithelial cells [31, 32] . In response, myeloid and lymphoid cells mount a brisk pro-inflammatory response, often called a 'cytokine storm'. Patients who develop severe illness are unable to control what becomes a systemically dysregulated immune response. After several days (usually a week or more), they develop evidence of immunosuppression [6, 32] . Death occurs in those who are unable to resolve their illness and restore homeostasis.",
+            "cite_spans": [
+                {
+                    "start": 80,
+                    "end": 84,
+                    "text": "[31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 85,
+                    "end": 88,
+                    "text": "32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 409,
+                    "end": 412,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 413,
+                    "end": 416,
+                    "text": "32]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "THE HOST RESPONSE TO INFLUENZA"
+        },
+        {
+            "text": "The pathogenesis of acute lung injury, including severe influenza, involves (among other things) mitochondrial dysfunction [33] , oxidative stress [34, 35] , endothelial dysfunction [36, 37] and molecular mechanisms (e.g. specific lipid mediators) that initiate the resolution of pulmonary and systemic injury and the restoration of homeostasis [38, 39] . The evolutionarily conserved process of autophagy is central to the host response [40] ; it contributes to both influenza virus replication [41] and the evolution of influenza-related lung injury [42, 43] .",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 127,
+                    "text": "[33]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 147,
+                    "end": 151,
+                    "text": "[34,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 152,
+                    "end": 155,
+                    "text": "35]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 182,
+                    "end": 186,
+                    "text": "[36,",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 187,
+                    "end": 190,
+                    "text": "37]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 345,
+                    "end": 349,
+                    "text": "[38,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 350,
+                    "end": 353,
+                    "text": "39]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 438,
+                    "end": 442,
+                    "text": "[40]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 496,
+                    "end": 500,
+                    "text": "[41]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 552,
+                    "end": 556,
+                    "text": "[42,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 557,
+                    "end": 560,
+                    "text": "43]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "THE HOST RESPONSE TO INFLUENZA"
+        },
+        {
+            "text": "The host response to infection may involve mechanisms that enhance resistance (which reduces pathogen burden) or tolerance (which reduces the impact of infection) [44, 45] . Both resistance and tolerance are driven by a multiplicity of metabolic changes in immune and other host cells [46] [47] [48] [49] , some of which include estrogen signaling [50] . Some of these immunometabolic changes have been documented in mice with experimental influenza virus infection [51] .",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 167,
+                    "text": "[44,",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 168,
+                    "end": 171,
+                    "text": "45]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 285,
+                    "end": 289,
+                    "text": "[46]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 290,
+                    "end": 294,
+                    "text": "[47]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 295,
+                    "end": 299,
+                    "text": "[48]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 300,
+                    "end": 304,
+                    "text": "[49]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 348,
+                    "end": 352,
+                    "text": "[50]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 466,
+                    "end": 470,
+                    "text": "[51]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "THE HOST RESPONSE TO INFLUENZA"
+        },
+        {
+            "text": "The molecular mechanisms that account for the difference in the mortality rates of children and adults with different forms of acute critical illness (seen in humans and now replicated in mice) are largely unknown. Working together, the endocrine, nervous and immune systems integrate and regulate the availability of energy. Evolutionary biologists have developed the theory of life history, which emphasizes trade-offs in how energy is allocated to storage, activity, maintenance, and the anabolic activities of growth and reproduction [52] . According to life history theory, the transition to puberty is accompanied by an overall switch in the allocation of energy from growth to reproduction. Nonetheless, although this theory has given us a better understanding of changes in energy metabolism that occur over extended periods of time, it has yet to explain the sudden and intense increase in energy expenditure that accompanies the host response to acute critical illness or whether tradeoffs in energy allocation in critical illness are different before and after puberty.",
+            "cite_spans": [
+                {
+                    "start": 538,
+                    "end": 542,
+                    "text": "[52]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "THE HOST RESPONSE TO INFLUENZA"
+        },
+        {
+            "text": "In outbreaks of seasonal and pandemic influenza, only a small number of individuals who are infected develop severe or fatal illness. This was true during the 1918 pandemic; although approximately one-third of the human population was infected, only a small proportion died. Some of this protection is due to CD8 + T-cell immunity, especially immunity directed against the evolutionarily conserved NP antigen [53] . This immunity reflects previous exposure of populations to influenza virus antigens, but importantly it encompasses both Group 1 and Group 2 viruses, unlike antigenic imprinting discussed above. T-cell immunity does not prevent the occurrence of infection, but it modifies the course of illness, reducing virus shedding and in some instances limiting or preventing the occurrence of symptoms [53] . Inborn genetic variants can also account for life-threatening infections [54] , but the susceptibility of most individuals probably depends more on variations in host defense mechanisms that are expressed only after infection has occurred [53, 55] .",
+            "cite_spans": [
+                {
+                    "start": 409,
+                    "end": 413,
+                    "text": "[53]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 808,
+                    "end": 812,
+                    "text": "[53]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 888,
+                    "end": 892,
+                    "text": "[54]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1054,
+                    "end": 1058,
+                    "text": "[53,",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1059,
+                    "end": 1062,
+                    "text": "55]",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "GENETICS, EPIGENETICS, AND THE INDIVIDUAL HOST RESPONSE"
+        },
+        {
+            "text": "The importance of these post-infection variations was demonstrated in 25 HA-seronegative healthy young adults who were experimentally infected with influenza H3N2 virus [56] . (A similar study was undertaken with H1N1 challenge infection [57] .) Following infection, peripheral blood cytokine responses were determined every six hours for the next five days. In nine subjects who developed symptomatic illness, there were early increases in cytokines associated with fever, leucocyte recruitment and markers of innate antiviral immunity, and some of these increases appeared as early as two days before the onset of symptoms [56] . These cytokine findings were also demonstrated in a parallel genomic analysis. In contrast, the 17 subjects who remained asymptomatic showed early and persistent down regulation of the same inflammatory markers. Symptomatic subjects developed cytokine profiles similar to those that have been seen in patients who develop severe illness, while those who remained asymptomatic showed host responses indicating rapid control of infection. These findings suggested that the \"inflammatory pathway an individual will follow is probably determined at (a) very early, even presymptomatic time\" [56] . Which pathway is followed is probably determined (at least in part) by epigenetic factors [58] [59] [60] .",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 173,
+                    "text": "[56]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 238,
+                    "end": 242,
+                    "text": "[57]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 625,
+                    "end": 629,
+                    "text": "[56]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1219,
+                    "end": 1223,
+                    "text": "[56]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1316,
+                    "end": 1320,
+                    "text": "[58]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 1321,
+                    "end": 1325,
+                    "text": "[59]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1326,
+                    "end": 1330,
+                    "text": "[60]",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "GENETICS, EPIGENETICS, AND THE INDIVIDUAL HOST RESPONSE"
+        },
+        {
+            "text": "In a study of populations in Sweden and Japan during the early and late years of the 20 th century, evolutionary biologists showed that the increase in the annual probability of death due to all causes was greatest during the second decade of life, not in later years (Fig. 4 ) [61] . Other studies have shown that stress differentially allocates energy resources between reproduction and immune function [62] , and estrogens contribute to the energy trade-offs that help maintain homeostasis [52, 63] . At least some of the mechanisms responsible for maintaining homeostasis during puberty are epigenetically regulated [64] .",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 282,
+                    "text": "[61]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 405,
+                    "end": 409,
+                    "text": "[62]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 493,
+                    "end": 497,
+                    "text": "[52,",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 498,
+                    "end": 501,
+                    "text": "63]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 620,
+                    "end": 624,
+                    "text": "[64]",
+                    "ref_id": "BIBREF64"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 268,
+                    "end": 275,
+                    "text": "(Fig. 4",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "EVOLUTION, ENERGY METABOLISM AND INFLUENZA OUTCOMES IN CHILDREN AND ADULTS"
+        },
+        {
+            "text": "Numerous laboratory and clinical studies have described biological pathways that are associated with the susceptibility of neonates and the elderly to acute critical illnesses, but very few studies have compared host responses before and after puberty [65, 66] . One such study documented the responses of weanling and adult ferrets following infection with the 2009 H1N1 pandemic virus [65] . Compared with adult ferrets, weanlings developed much milder clinical illnesses and had less evidence of pulmonary damage, yet rapid virus clearance from the respiratory tract was seen in both groups. Like adults, the immune responses of weanlings to infection were robust, but they were different. Pro-inflammatory cytokine responses in the two groups were similar, but regulatory response genes for IL-10 and TGF-1 were more highly expressed in weanlings [65] . Because influenza in ferrets closely mimics the disease in humans, this study suggests that the milder response to influenza in children compared with adults is due to a more strongly expressed regulatory response.",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 256,
+                    "text": "[65,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 257,
+                    "end": 260,
+                    "text": "66]",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 387,
+                    "end": 391,
+                    "text": "[65]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 851,
+                    "end": 855,
+                    "text": "[65]",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "EVOLUTION, ENERGY METABOLISM AND INFLUENZA OUTCOMES IN CHILDREN AND ADULTS"
+        },
+        {
+            "text": "Very few studies have directly compared the cell signaling responses of children and adults to acute critical illness. Nonetheless, in 2004, surgeons reported two studies that directly compared the inflammatory responses of peritoneal macrophages harvested from the sterile abdomens of children and adults [67, 68] . Pro-and anti-inflammatory responses were elicited by exposing the macrophages ex vivo to endotoxin and IL-1. Unlike adults, responses in children were dominated by an IL-10 anti-inflammatory pattern. Recent research has shown that DNA methylation stably reduces the expression of IL-10 in Th1 cells [69] . Short-term reversal of this epigenetic mechanism can bring about an increase in IL-10 gene expression.",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "[67,",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 311,
+                    "end": 314,
+                    "text": "68]",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 616,
+                    "end": 620,
+                    "text": "[69]",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [],
+            "section": "EVOLUTION, ENERGY METABOLISM AND INFLUENZA OUTCOMES IN CHILDREN AND ADULTS"
+        },
+        {
+            "text": "A decade ago, surgeons who were involved in liver transplantation in children and adults sought to better understand inflammatory responses in their patients by studying hepatic ischemicreperfusion injury in mice of different ages [70] . They found evidence of less inflammation but greater autophagy in the livers of younger (4-5-week old) mice compared with older (10-12-week old) mice, and the response of younger mice was associated with greater nuclear retention of PPARg activity. Following pretreatment (for three days) of older mice with the PPARg agonist rosiglitazone, their highly inflammatory response was changed to the less inflammatory response seen in younger mice, and this change was associated with the autophagy pattern seen in younger mice. It is important to recognize that in this study younger mice were not clearly shown to be pre-pubertal and treatment was given before, not after the ischemic episode. Nonetheless, pre-treatment with rosiglitazone was able to \"roll back\" the damaging response of \"adults\" to the more benign response of \"children\". PPARg agonists have important effects on energy metabolism, and there is considerable \"crosstalk\" among these agents (glitazones) and other drugs that also have immunometabolic activities (e.g., statins [71] , ACE inhibitors and angiotensin receptor blockers [72] , metformin [73] ) [5] [6] [7] [8] [9] . These findings suggest that many if not all of these drugs could be used to change the host response of adults to that seen in children. The drugs would probably work better if given in combination rather than by themselves [8] . For a severe infection like pandemic influenza, treatment with these drugs could improve an adult's tolerance of infection [44] [45] [46] [47] and might improve survival. The drugs might also have similar effects in children who develop life-threatening illness.",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 235,
+                    "text": "[70]",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 1279,
+                    "end": 1283,
+                    "text": "[71]",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 1335,
+                    "end": 1339,
+                    "text": "[72]",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 1352,
+                    "end": 1356,
+                    "text": "[73]",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 1359,
+                    "end": 1362,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1363,
+                    "end": 1366,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1367,
+                    "end": 1370,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1371,
+                    "end": 1374,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1375,
+                    "end": 1378,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1605,
+                    "end": 1608,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1734,
+                    "end": 1738,
+                    "text": "[44]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1739,
+                    "end": 1743,
+                    "text": "[45]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1744,
+                    "end": 1748,
+                    "text": "[46]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1749,
+                    "end": 1753,
+                    "text": "[47]",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "TREATING THE HOST RESPONSE TO PANDEMIC INFLUENZA WITH INEXPENSIVE GENERIC DRUGS"
+        },
+        {
+            "text": "Ever since the emergence of highly virulent avian H5N1 influenza in 1997, virologists have warned of the possibility of a new and devastating influenza pandemic. In 2006, epidemiologists provided an estimate of what global mortality might be if the next pandemic is like the one in 1918 [74] . This estimate (51 to 81 million deaths) seems low because in 1918 pandemic mortality is thought to have been 50-100 million and today the global population is four times larger. A recent study from the Institute for Disease Modeling estimates that during the first six months of a 1918-like pandemic, almost 33 million people could die [75] . Moreover, if the next pandemic is caused by an H5N1-like virus, which has a high case fatality rate, its impact on global mortality could be much worse [3] [4] [5] [6] . Influenza virologists are now concerned about the possibility of an H7N9 pandemic [9, 76] . Nonetheless, even in the absence of pandemics, yearly outbreaks of seasonal influenza cause appreciable mortality worldwide [77] . Most of these influenza-related deaths (pandemic and seasonal) occur in developing countries [74, 77] .",
+            "cite_spans": [
+                {
+                    "start": 287,
+                    "end": 291,
+                    "text": "[74]",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 630,
+                    "end": 634,
+                    "text": "[75]",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 789,
+                    "end": 792,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 793,
+                    "end": 796,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 797,
+                    "end": 800,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 801,
+                    "end": 804,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 889,
+                    "end": 892,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 893,
+                    "end": 896,
+                    "text": "76]",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 1023,
+                    "end": 1027,
+                    "text": "[77]",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 1123,
+                    "end": 1127,
+                    "text": "[74,",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 1128,
+                    "end": 1131,
+                    "text": "77]",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ALTERNATIVE RESPONSES TO THE NEXT INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Current strategies for national and global pandemic preparedness focus on influenza vaccination for populations and antiviral treatment for individuals [9] . Influenza virologists hope to develop universal influenza vaccines that will provide long-lasting protection, making it unnecessary to vaccinate against seasonal influenza each year [78] . Vaccination with a universal vaccine might conceivably provide protection against infection with a future pandemic virus. Recent virologic studies, however, raise important questions about whether this strategy will work [79, 80] . Moreover, much of the world will lack the human infrastructure to guarantee administration of a universal vaccine [9] . This means that for the foreseeable future, health officials responsible for pandemic preparedness will have to count on using conventional pandemic vaccines. Unfortunately, none of these vaccines will be available during the first six pandemic months [9] . Moreover, when they eventually become available, it is unlikely they will be equitably distributed to low-and middle-income countries that don't produce their own influenza vaccines [81] . Antiviral treatment of individual pandemic patients could also be problematic. Supplies of one of the drugs (oseltamivir) are limited and the drug is not widely used. There is also concern about the development of antiviral resistance. Moreover, a recent report on 1220 patients hospitalized in China with laboratoryconfirmed H7N9 influenza showed that although 70% of all patients were treated with oseltamivir, case fatality rates were still 40% [82] .",
+            "cite_spans": [
+                {
+                    "start": 152,
+                    "end": 155,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 340,
+                    "end": 344,
+                    "text": "[78]",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 568,
+                    "end": 572,
+                    "text": "[79,",
+                    "ref_id": "BIBREF80"
+                },
+                {
+                    "start": 573,
+                    "end": 576,
+                    "text": "80]",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 693,
+                    "end": 696,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 951,
+                    "end": 954,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1139,
+                    "end": 1143,
+                    "text": "[81]",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 1594,
+                    "end": 1598,
+                    "text": "[82]",
+                    "ref_id": "BIBREF83"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ALTERNATIVE RESPONSES TO THE NEXT INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "An alternative strategy for reducing pandemic mortality would be to develop effective treatments that target the host response of patients who develop severe illness [2] [3] [4] [5] [6] [7] [8] [9] . These drugs might have some effect on the development of symptomatic illness [83] , but their potential impact on pandemic mortality would be far more important. Agendas for laboratory and clinical research to evaluate their potential have been published in several articles ( Table 6 in reference 8, Table 1 in reference 9, and more generally in references 2 and 4-6). Although influenza scientists often regard host response treatment as an adjunct to antivirals [84] , some of this research must be limited to generic drugs that target the host response because most of the world's people won't have access to antivirals but will have access to generics. These studies must go beyond documenting cytokine responses following infection and examine immunometabolic and epigenetic factors that affect (among other things) cellular immunity, endothelial function and energy metabolism [8, 9] . All of these studies should include comparisons before and after puberty.",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 169,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 170,
+                    "end": 173,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 174,
+                    "end": 177,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 178,
+                    "end": 181,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 182,
+                    "end": 185,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 186,
+                    "end": 189,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 194,
+                    "end": 197,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 277,
+                    "end": 281,
+                    "text": "[83]",
+                    "ref_id": "BIBREF84"
+                },
+                {
+                    "start": 665,
+                    "end": 669,
+                    "text": "[84]",
+                    "ref_id": "BIBREF85"
+                },
+                {
+                    "start": 1084,
+                    "end": 1087,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1088,
+                    "end": 1090,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 477,
+                    "end": 484,
+                    "text": "Table 6",
+                    "ref_id": null
+                },
+                {
+                    "start": 501,
+                    "end": 508,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "ALTERNATIVE RESPONSES TO THE NEXT INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Treating the host response holds promise for not only reducing pandemic mortality but also for reducing the appreciable mortality associated with seasonal influenza and other forms of acute critical illness (e.g., Ebola virus disease [8] ). Many of the candidate drugs are produced as generics in developing countries, and supply chains for their worldwide delivery are already in place [5] [6] [7] [8] [9] . Physicians are familiar with these drugs because they use them every day. If this treatment strategy were shown to work, it could be used in any country with a basic healthcare system. For a pandemic, treatment could start in all countries on the first pandemic day.",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 237,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 387,
+                    "end": 390,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 391,
+                    "end": 394,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 395,
+                    "end": 398,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 399,
+                    "end": 402,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 403,
+                    "end": 406,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ALTERNATIVE RESPONSES TO THE NEXT INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Influenza virologists have expanded our understanding of the molecular biology and epidemiology of influenza viruses. Laboratory and clinical investigators have deepened our understanding of the host response to critical illness. Evolutionary biologists have suggested that evolution provides insights that could help public health. All of these developments should shape the way we respond to the next influenza pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION: EVOLUTION SUGGESTS A PRACTICAL RESPONSE TO A GLOBAL INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Charles Darwin wrote \". . . observation must be for or against some view if it is to be of any service\" [85] . His view -the hypothesis that evolution is guided by natural selection -was supported by extensive observations made over several decades, and its explanatory power (i.e., 'service') has withstood challenge for almost 160 years. The idea (hypothesis) of treating the host response to pandemic influenza was introduced in 2004 [2] . Its potential explanatory power has also been supported by experimental and clinical observations, although treating the host response has received little attention from scientists and health officials [4] [5] [6] [7] [8] [9] . Yet in a practical sense this approach to treatment could be of great service (in Darwin's word) if it could reduce global mortality during the next pandemic.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 108,
+                    "text": "[85]",
+                    "ref_id": "BIBREF86"
+                },
+                {
+                    "start": 437,
+                    "end": 440,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 645,
+                    "end": 648,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 649,
+                    "end": 652,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 653,
+                    "end": 656,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 657,
+                    "end": 660,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 661,
+                    "end": 664,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 665,
+                    "end": 668,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSION: EVOLUTION SUGGESTS A PRACTICAL RESPONSE TO A GLOBAL INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Kobzik and colleagues have shown age-specific differences in influenza mortality in mice before and after puberty that are not affected by previous infection (antigenic imprinting) with influenza viruses [26] . Considered with evidence from endotoxemic mice [28] and other studies [4] [5] [6] [7] [8] [9] , their findings suggest that the mortality impact of pandemic and seasonal influenza and other forms of acute critical illness might be reduced by treating the host response. By reducing the damage caused by influenza in adults to the more tolerant response seen in children, treatment could in effect \"roll back\" evolution.",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 208,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 258,
+                    "end": 262,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 281,
+                    "end": 284,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 285,
+                    "end": 288,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 289,
+                    "end": 292,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 293,
+                    "end": 296,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 297,
+                    "end": 300,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 301,
+                    "end": 304,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSION: EVOLUTION SUGGESTS A PRACTICAL RESPONSE TO A GLOBAL INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Physicians will inevitably be called upon to manage seriously ill patients during the next pandemic, but there is a real risk they will relive the experiences of physicians 100 years ago [9, 86] . This is sure to occur if influenza scientists and public health officials continue to reject the possibility that host response treatment could reduce pandemic mortality [7] [8] [9] 87 ]. If we are to take seriously the challenge of preparing for the next pandemic, it is self-evident that a \"top down\" approach based on vaccination and antiviral treatment, driven by the decisions of elite scientists, health officials and corporate executives, will not meet the world's needs [2] [3] [4] [5] [6] [7] [8] [9] . Instead, an effective response must include a \"bottom up\" approach to individual patient treatment by ordinary doctors working in ordinary healthcare systems who use ordinary, widely available and inexpensive generic drugs that modify the host response.",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 190,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 191,
+                    "end": 194,
+                    "text": "86]",
+                    "ref_id": "BIBREF87"
+                },
+                {
+                    "start": 367,
+                    "end": 370,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 371,
+                    "end": 374,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 375,
+                    "end": 378,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 379,
+                    "end": 381,
+                    "text": "87",
+                    "ref_id": "BIBREF88"
+                },
+                {
+                    "start": 675,
+                    "end": 678,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 679,
+                    "end": 682,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 683,
+                    "end": 686,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 687,
+                    "end": 690,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 691,
+                    "end": 694,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 695,
+                    "end": 698,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 699,
+                    "end": 702,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 703,
+                    "end": 706,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSION: EVOLUTION SUGGESTS A PRACTICAL RESPONSE TO A GLOBAL INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "The studies reviewed here suggest that the biological basis for treating the host response reflects our evolutionary heritage. This idea might not be revolutionary [88] , but its practical implications for health, equity and security during the next pandemic could be immense. Consequently, investigators must undertake laboratory and clinical research to convincingly show whether it will be effective. If it is effective and is put into practice, it would represent a striking application of the idea of evolutionary public health [1] .",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[88]",
+                    "ref_id": "BIBREF89"
+                },
+                {
+                    "start": 533,
+                    "end": 536,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSION: EVOLUTION SUGGESTS A PRACTICAL RESPONSE TO A GLOBAL INFLUENZA PANDEMIC"
+        },
+        {
+            "text": "Conflict of interest: None declared. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION: EVOLUTION SUGGESTS A PRACTICAL RESPONSE TO A GLOBAL INFLUENZA PANDEMIC"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Evolutionary public health: introducing the concept",
+            "authors": [
+                {
+                    "first": "Jck",
+                    "middle": [],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Nesse",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sear",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Johnstone",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stearns",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet",
+            "volume": "390",
+            "issn": "",
+            "pages": "500--509",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(17)30572-X"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Pandemic influenza: a potential role for statins in treatment and prophylaxis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Clin Infect Dis",
+            "volume": "43",
+            "issn": "",
+            "pages": "199--205",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Commentary: From scarcity to abundance: pandemic vaccines and other agents for \"have not\" countries",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Dunnill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Public Health Policy",
+            "volume": "28",
+            "issn": "",
+            "pages": "322--362",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Meeting the challenge of influenza pandemic preparedness in developing countries",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Emerg Infect Dis",
+            "volume": "15",
+            "issn": "",
+            "pages": "365--71",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Confronting the next influenza pandemic with antiinflammatory and immunomodulatory agents: why they are needed and how they might work",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Influenza Other Respir Viruses",
+            "volume": "3",
+            "issn": "",
+            "pages": "129--171",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1750-2659.2009.00090.x"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Treating influenza with statins and other immunomodulatory agents",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Antiviral Res",
+            "volume": "99",
+            "issn": "",
+            "pages": "417--452",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.antiviral.2013.06.018"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "How will physicians respond to the next influenza pandemic",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Clin Infect Dis",
+            "volume": "58",
+            "issn": "",
+            "pages": "233--240",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/cit695"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Treating the host response to emerging virus diseases: lessons learned from sepsis, pneumonia, influenza and Ebola",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Ann Transl Med",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinician-initiated research on treating the host response to pandemic influenza",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Hum Vaccin Immunother",
+            "volume": "14",
+            "issn": "",
+            "pages": "790--795",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Protective immunity and susceptibility to infectious diseases: lessons from the 1918 influenza pandemic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mba",
+                    "middle": [],
+                    "last": "Oldstone",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nat Immunol",
+            "volume": "8",
+            "issn": "",
+            "pages": "1188--93",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Predominant role of bacterial pneumonia as a cause of death in pandemic influenza: implications for pandemic influenza preparedness",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morens",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Taubenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fauci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/591708"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Was bacterial pneumonia the predominant cause of death in the 1918-1919 influenza pandemic?",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Infect Dis",
+            "volume": "199",
+            "issn": "",
+            "pages": "1408--1417",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/597621"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Molecular epidemiology of A/H3N2 and A/H1N1 influenza virus during a single epidemic season in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Edelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Spiro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "PLoS Pathog",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Geography may explain adult mortality from the 1918-20 influenza pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mamelund",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Epidemics",
+            "volume": "3",
+            "issn": "",
+            "pages": "46--60",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The doctrine of original antigenic sin: separating good from evil",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Monto",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Malosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Petrie",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Infect Dis",
+            "volume": "215",
+            "issn": "",
+            "pages": "1782--1790",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jix173"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Vaccine-induced antibodies that neutralize group 1 and group 2 influenza A viruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Joyce",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wheatley",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Cell",
+            "volume": "166",
+            "issn": "",
+            "pages": "609--632",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2016.06.043"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Age-and sex-specific mortality associated with the 1918-1919 influenza pandemic in Kentucky",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Eisenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Reid",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Janczewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morens",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Taubenberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Infect Dis",
+            "volume": "207",
+            "issn": "",
+            "pages": "721--730",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jis745"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Age-specific mortality during the 1918 influenza pandemic: unravelling the mystery of high young adult mortality",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gagnon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hallman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0069586"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Genesis and pathogenesis of the 1918 pandemic H1N1 influenza A virus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Worobey",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "111",
+            "issn": "",
+            "pages": "8107--8119",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1324197111"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Reexamining the evidence regarding circulation of a human H1 influenza virus immediately prior to the 1918 Spanish flu",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gagnon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Madrenas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PLoS Pathog",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.ppat.1004615"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Potent protection against H5H1 and H7N9 influenza via childhood hemagglutinin imprinting",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gostic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ambrose",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Worobey",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lloyd-Smith",
+                    "middle": [],
+                    "last": "Jo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Science",
+            "volume": "354",
+            "issn": "",
+            "pages": "722--728",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Searching for sharp drops in the incidence of pandemic A/H1N1 influenza by single year of age",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Archer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0042328"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Pandemic paradox: early life H2N2 pandemic influenza infection enhanced susceptibility to death during the 2009 H1N1 pandemic",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gagnon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Acosta",
+                    "middle": [],
+                    "last": "Hallman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "MBio",
+            "volume": "9",
+            "issn": "",
+            "pages": "2091--2108",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "First flu is forever",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Science",
+            "volume": "354",
+            "issn": "",
+            "pages": "706--707",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.aak9816"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Imprinting of repeated influenza A/H3 exposures on antibody quantity and antibody quality: implications on seasonal vaccine strain selection and vaccine performance",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kosikova",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Radvak",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Xf H",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciy327"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Childhood tolerance of severe influenza: a mortality analysis in mice",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Suber",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kobzik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Physiol Lung Cell Mol Physiol",
+            "volume": "313",
+            "issn": "",
+            "pages": "1087--95",
+            "other_ids": {
+                "DOI": [
+                    "10.1152/ajplung.00364.2017"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Elevated 17b-estradiol protects females from influenza A virus pathogenesis by suppressing inflammatory responses",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lorenzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Jian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS Pathog",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Characterising pre-pubertal resistance to death from endotoxemia",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Joachim",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Suber",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kobzik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Sci Rep",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.10138/s41598-017-16743-1"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Genomic responses in mouse models greatly mimic human inflammatory diseases",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Takao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Miyakawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "112",
+            "issn": "10",
+            "pages": "1163--1170",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1401965111"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The future of murine sepsis and trauma research models",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Efron",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mohr",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Moldawer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Leukoc Biol",
+            "volume": "98",
+            "issn": "",
+            "pages": "945--52",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Induction of interleukin-1 beta (IL-1b) is a critical component of lung inflammation during influenza A (H1N1) virus infection",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Med Virol",
+            "volume": "87",
+            "issn": "",
+            "pages": "1104--1116",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.24138"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Human influenza virus infections",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peteranderl",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Herold",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schmoldt",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Mitochondrial dysfunction in lung pathogenesis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Piantadosi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Suliman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Annu Rev Physiol",
+            "volume": "79",
+            "issn": "",
+            "pages": "495--515",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev-physiol-022516-034322"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Identification of oxidative stress and Tolllike receptor 4 signaling as a key pathway of acute lung injury",
+            "authors": [
+                {
+                    "first": "Y1",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuba",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Neely",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Cell",
+            "volume": "133",
+            "issn": "",
+            "pages": "235--284",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2008.02.043"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The role of oxidative stress in influenza virus infection",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Microbes Infect",
+            "volume": "19",
+            "issn": "12",
+            "pages": "580--586",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.micinf.2017.08.008"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Endothelial cells are central orchestrators of cytokine amplification during influenza virus infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Teijaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Walsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cahalan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Cell",
+            "volume": "146",
+            "issn": "",
+            "pages": "980--91",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2011.08.015"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "The lung microvascular endothelium as a therapeutic target in severe influenza",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Armstrong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mubareka",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Antiviral Res",
+            "volume": "99",
+            "issn": "",
+            "pages": "113--121",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.antiviral.2013.05.003"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Lipidomic profiling of influenza infection identifies mediators that induce and resolve inflammation",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Quehenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Oshansky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Cell",
+            "volume": "154",
+            "issn": "",
+            "pages": "213--240",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2013.05.052"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Treating inflammation and infection in the 21st century: new hints from decoding resolution mediators and mechanisms",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Serhan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "FASEB J",
+            "volume": "31",
+            "issn": "",
+            "pages": "1273--88",
+            "other_ids": {
+                "DOI": [
+                    "10.1096/fj.201601222R"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Perpetual change: autophagy, the endothelium, and response to vascular injury",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Sachdev",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lotze",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Leukoc Biol",
+            "volume": "102",
+            "issn": "",
+            "pages": "221--256",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Autophagy induction regulates influenza virus replication in a time-dependent manner",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Feizi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mehrbod",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Romani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Med Microbiol",
+            "volume": "66",
+            "issn": "",
+            "pages": "536--577",
+            "other_ids": {
+                "DOI": [
+                    "10.1099/jmm.0.000455"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Inhibition of autophagy ameliorates acute lung injury caused by avian influenza A H5N1 infection",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Sci Signal",
+            "volume": "5",
+            "issn": "212",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/scisignal.2001931"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Activation of autophagy is involved in the protective effect of 17b-oestradiol on endotoxaemia-induced multiple organ dysfunction in ovariectomized rats",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Cell Mol Med",
+            "volume": "21",
+            "issn": "",
+            "pages": "3705--3722",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jcmm.13280"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Disease tolerance as a defense strategy",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Medzhitov",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Soares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Science",
+            "volume": "335",
+            "issn": "",
+            "pages": "936--977",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1214935"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Disease tolerance and immunity in host protection against infection",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Soares",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Teixeira",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Moita",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat Rev Immunol",
+            "volume": "17",
+            "issn": "",
+            "pages": "83--96",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nri.2016.136"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Unravelling the networks dictating host resistance versus tolerance during pulmonary infections",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Meunier",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kaufmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Downey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Divangahi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cell Tissue Res",
+            "volume": "367",
+            "issn": "",
+            "pages": "525--561",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00441-017-2572-5"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "KM ES 1 Jamieson AM. Surviving deadly lung infections: innate host tolerance mechanisms in the pulmonary system",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Crane",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lee",
+                    "middle": [],
+                    "last": "Fitzgerald",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Front Immunol",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2018.01421"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "A guide to immunometabolism for immunologists",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "O&apos;neill",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kishton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rathmell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nat Rev Immunol",
+            "volume": "16",
+            "issn": "",
+            "pages": "553--65",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Mitochondrial dynamics at the interface of immune cell metabolism and function",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rambold",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pearce",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Trends Immunol",
+            "volume": "39",
+            "issn": "",
+            "pages": "6--18",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.it.2017.08.006"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Estrogen receptors regulate innate immune cells and signaling pathways",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kovats",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Cell Immunol",
+            "volume": "294",
+            "issn": "",
+            "pages": "63--72",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cellimm.2015.01.018"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Metabolic pathways of lung inflammation revealed by high-resolution metabolomics (HRM) of H1N1 influenza virus infection in mice",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Chandler",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Am J Physiol Regul Integr Comp Physiol",
+            "volume": "311",
+            "issn": "",
+            "pages": "906--916",
+            "other_ids": {
+                "DOI": [
+                    "10.1152/ajpregu.00298.2016"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Endocrinology, energetics, and human life history: a synthetic model",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ellison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Horm Behav",
+            "volume": "91",
+            "issn": "",
+            "pages": "97--106",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.yhbeh.2016.09.006"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Natural T cell-mediated protection against seasonal and pandemic influenza. Results of the Flu Watch Cohort Study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hayward",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Goonetilleke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "191",
+            "issn": "",
+            "pages": "1422--1453",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.201411-1988OC"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Human genetic basis of interindividual variability in the course of infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Casanova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "112",
+            "issn": "",
+            "pages": "7118--7145",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1521644112"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Distinctive roles of age, sex, and genetics in shaping transcriptional variation of human immune responses to microbial challenges",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Piasecka",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Duffy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Urrutia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1714765115"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Differential evolution of peripheral cytokine levels in symptomatic and asymptomatic responses to experimental influenza virus challenge",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mcclain",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Henao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clin Exp Immunol",
+            "volume": "183",
+            "issn": "",
+            "pages": "441--51",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/cei.12736"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Temporal dynamics of host molecular responses differentiate symptomatic and asymptomatic influenza a infection",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Zaas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS Genet",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Mitochondria and epigeneticscrosstalk in homeostasis and stress",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Matilainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Quir\u00f3s",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Auwerx",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Trends Cell Biol",
+            "volume": "27",
+            "issn": "",
+            "pages": "453--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tcb.2017.02.004"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Epigenetic and transcriptomic regulation of lung repair during recovery from influenza infection",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pociask",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Pathol",
+            "volume": "187",
+            "issn": "",
+            "pages": "851--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajpath.2016.12.012"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "The key role of epigenetics in human disease prevention and mitigation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Feinberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "N Engl J Med",
+            "volume": "378",
+            "issn": "",
+            "pages": "1323--1357",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Human mortality improvement in evolutionary context",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Burger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baudisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Vaupel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "109",
+            "issn": "",
+            "pages": "18210--18214",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1215627109"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Metabolic stressors and signals differentially affect energy allocation between reproduction and immune function",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Carlton",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Demas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Gen Comp Endocrinol",
+            "volume": "208",
+            "issn": "",
+            "pages": "21--30",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Estrogens and the control of energy homeostasis: a brain perspective",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "L\u00f3pez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tena-Sempere",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Trends Endocrinol Metab",
+            "volume": "26",
+            "issn": "",
+            "pages": "411--432",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tem.2015.06.003"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "The emerging role of epigenetics in the regulation of female puberty",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lomniczi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ojeda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Endocr Dev",
+            "volume": "29",
+            "issn": "",
+            "pages": "1--16",
+            "other_ids": {
+                "DOI": [
+                    "10.1159/000438840"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Differential pathological and immune responses in newly weaned ferrets are associated with a mild clinical outcome of pandemic 2009 H1N1 infection",
+            "authors": [
+                {
+                    "first": "Ssh",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Banner",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Degousee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Virol",
+            "volume": "86",
+            "issn": "",
+            "pages": "13187--201",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01456-12"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "A mouse model with age-dependent immune response and immune-tolerance for HBV infection",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Vaccine",
+            "volume": "36",
+            "issn": "",
+            "pages": "794--801",
+            "other_ids": {
+                "DOI": [
+                    "doi.org/10.1016/j.vaccine.2017.12.071"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Endotoxin induces an exaggerated interleukin-10 response in peritoneal macrophages of children compared with adults",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Barsness",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bensard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Partrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Calkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hendrickson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mcintyre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Pediatr Surg",
+            "volume": "39",
+            "issn": "",
+            "pages": "912--917",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "IL-1beta induces an exaggerated pro-and anti-inflammatory response in peritoneal macrophages of children compared with adults",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Barsness",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bensard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Partrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Pediatr Surg Int",
+            "volume": "20",
+            "issn": "",
+            "pages": "238--280",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Locus-specific reversible DNA methylation regulates transient IL-10 expression in Th1 cells",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hwang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Immunol",
+            "volume": "200",
+            "issn": "",
+            "pages": "1865--75",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.1701162"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Activation of peroxisome proliferatoractivated receptor-gamma during hepatic ischemia is age-dependent",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kuboki",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Huber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Surg Res",
+            "volume": "147",
+            "issn": "",
+            "pages": "200--205",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jss.2008.02.004"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Pleiotropic effects of statins on the cardiovascular system",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Laufs",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ujk",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Circ Res",
+            "volume": "120",
+            "issn": "",
+            "pages": "229--272",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Effects of ACE-inhibitors and angiotensin receptor blockers on inflammation",
+            "authors": [
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Raimondo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tuttolomondo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Butta",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Miceli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Licata",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pinto",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Curr Pharm Des",
+            "volume": "18",
+            "issn": "",
+            "pages": "4385--413",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Metformin and inflammation: its potential beyond glucoselowering effect",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Saisho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Endocr Metab Immune Disord Drug Targets",
+            "volume": "15",
+            "issn": "",
+            "pages": "196--205",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Estimation of potential global pandemic influenza mortality on the basis of vital registry data from the 1918-20 pandemic: a quantitative analysis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Murray",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lopez",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Feehan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Lancet",
+            "volume": "368",
+            "issn": "",
+            "pages": "2211--2219",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Innovation for pandemics",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gates",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "N Engl J Med",
+            "volume": "378",
+            "issn": "",
+            "pages": "2057--2066",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "H7N9 virulent mutants detected in chickens in China pose an increased threat to humans",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Cell Res",
+            "volume": "2017",
+            "issn": "",
+            "pages": "1409--1430",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/cr.2017.129"
+                ]
+            }
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Estimates of global seasonal influenza-associated respiratory mortality: a modeling study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Iuliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Roguski",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "The pathway to a universal influenza vaccine",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Paules",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Marston",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Eisinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baltimore",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fauci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Immunity",
+            "volume": "47",
+            "issn": "",
+            "pages": "599--603",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Natural and directed antigenic drift of the H1 influenza virus hemagglutinin stalk domain",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ortega",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chaves",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Erratum in: Sci Rep",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-017-14931-7"
+                ]
+            }
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Evaluation of pre-existing antihemagglutinin stalk antibody as a correlate of protection in a healthy volunteer challenge with influenza A/H1N1pdm virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Czajkowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "MBio",
+            "volume": "9",
+            "issn": "",
+            "pages": "2284--2301",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/mBio.02284-17"
+                ]
+            }
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "M The pandemic influenza preparedness framework: a visible procurement option for developing states?",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Eccleston-Turner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Med Law Int",
+            "volume": "17",
+            "issn": "",
+            "pages": "227--275",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0968533217723683"
+                ]
+            }
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "Epidemiology of avian influenza A H7N9 virus in human beings across five epidemics in mainland China, 2013-17: an epidemiological study of laboratory-confirmed case series",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet Infect Dis",
+            "volume": "17",
+            "issn": "17",
+            "pages": "30323--30330",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099"
+                ]
+            }
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Statins, influenza vaccination and influenza",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fedson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Infect Dis",
+            "volume": "215",
+            "issn": "",
+            "pages": "484--489",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jiw537"
+                ]
+            }
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "The role of adjuvant immunomodulatory agents for treatment of severe influenza",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Beigel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Antiviral Res",
+            "volume": "150",
+            "issn": "",
+            "pages": "202--218",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.antiviral.2018.01.002"
+                ]
+            }
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "Darwin and the scientific method",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ayala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "106",
+            "issn": "1",
+            "pages": "10033--10042",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.0901404106"
+                ]
+            }
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Influenza in 1918: recollections of the epidemic in Philadelphia",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Starr",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "Ann Intern Med",
+            "volume": "145",
+            "issn": "",
+            "pages": "138--178",
+            "other_ids": {}
+        },
+        "BIBREF88": {
+            "ref_id": "b88",
+            "title": "Herding, social influences and behavioural bias in scientific research: Simple awareness of the hidden pressures and beliefs that influence our thinking can help to preserve objectivity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baddeley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "EMBO Rep",
+            "volume": "16",
+            "issn": "",
+            "pages": "902--907",
+            "other_ids": {
+                "DOI": [
+                    "10.15252/embr.201540637"
+                ]
+            }
+        },
+        "BIBREF89": {
+            "ref_id": "b89",
+            "title": "Revolutionary science",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Casadevall",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "MBio",
+            "volume": "7",
+            "issn": "",
+            "pages": "158--174",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/mbio00158-16"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Clinical influenza illness (blue) and pneumonia mortality (red) during the 1918 influenza pandemic. From Ref.[6] with permission",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Prepubertal mice infected with influenza virus experience lower mortality compared with pubertal mice. Mice were inoculated intranasally with PR8 H1N1 influenza virus (1 HAU). (a) Prepubertal mice (postnatal days P24 and P25) experienced lower mortality compared with pubertal mice (P28). The number of mice per group is shown in parentheses. Mice were monitored for 21 days after infection. Survival studies were compared by the Mantel-Cox logrank test; P 0.01 for P24, P25 and P26 mice versus P28 mice compared individually and for the pool of P24-P26 mice compared with either P28 or P35 mice. (b) Summary of three trials showing survival of groups (n = 25 each) of P26 (prepubertal) compared with P28 (pubertal) mice; *P = 0.006. (c) Virus load in the lungs of P25 (prepubertal) and P28 (pubertal) mice; qPCR for M1 mRNA on postinfection days 3, 6 and 9. Results are shown for duplicate samples from at least four mice per time point per group in a single trial.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Prepubertal mice with endotoxin (LPS)-induced sepsis experience lower mortality compared with postpubertal mice. Female mice were inoculated intraperitoneally with a dose of E. coli LPS known to cause 80-90% mortality in control mice. (a) Prepubertal C57BL/6 mice (postnatal days P24-26) experienced lower mortality compared with postpubertal mice (postnatal days P33-35; N 56 in each group). Typical experiments lasted 72 h. (b) Endotoxin levels (EU/ml) at 20 h were similar in pre-and postpubertal mice. (c) Na\u00efve peritoneal cells were collected from pre-and postpubertal mice by peritoneal lavage and administered to recipient postpubertal mice by intraperitoneal injection. Following incubation of donor cells for 30-60 min,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Annual probability of death for several human populations over time. The hunter gatherer curve approximates the typical human mortality profile over almost all of evolutionary time. The curves for Japan in 1947 and Japan and Sweden in 2010 demonstrate the steep rise in the modern all-cause mortality profile during the second decade of life. From reference 61, with permission",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,2306 @@
+{
+    "paper_id": "5c9373411bb9e5bbfc3fd8f8cedc7635d9a9088f",
+    "metadata": {
+        "title": "Evaluation of oseltamivir prophylaxis regimens for reducing influenza virus infection, transmission and disease severity in a ferret model of household contact",
+        "authors": [
+            {
+                "first": "Ding",
+                "middle": [
+                    "Yuan"
+                ],
+                "last": "Oh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Reference and Research on Influenza",
+                    "institution": "North Melbourne",
+                    "location": {
+                        "settlement": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sue",
+                "middle": [],
+                "last": "Lowther",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Australian Animal Health Laboratory",
+                    "location": {
+                        "settlement": "Geelong",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "James",
+                "middle": [
+                    "M"
+                ],
+                "last": "Mccaw",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Vaccine and Immunisation Research Group",
+                    "institution": "Royal Childrens Hospital",
+                    "location": {
+                        "settlement": "Parkville",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sheena",
+                "middle": [
+                    "G"
+                ],
+                "last": "Sullivan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Reference and Research on Influenza",
+                    "institution": "North Melbourne",
+                    "location": {
+                        "settlement": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sook-Kwan",
+                "middle": [],
+                "last": "Leang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Reference and Research on Influenza",
+                    "institution": "North Melbourne",
+                    "location": {
+                        "settlement": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jessica",
+                "middle": [],
+                "last": "Haining",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Australian Animal Health Laboratory",
+                    "location": {
+                        "settlement": "Geelong",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rachel",
+                "middle": [],
+                "last": "Arkinstall",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Australian Animal Health Laboratory",
+                    "location": {
+                        "settlement": "Geelong",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anne",
+                "middle": [],
+                "last": "Kelso",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Reference and Research on Influenza",
+                    "institution": "North Melbourne",
+                    "location": {
+                        "settlement": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jodie",
+                "middle": [],
+                "last": "Mcvernon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Vaccine and Immunisation Research Group",
+                    "institution": "Royal Childrens Hospital",
+                    "location": {
+                        "settlement": "Parkville",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ian",
+                "middle": [
+                    "G"
+                ],
+                "last": "Barr",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Reference and Research on Influenza",
+                    "institution": "North Melbourne",
+                    "location": {
+                        "settlement": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Deborah",
+                "middle": [],
+                "last": "Middleton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Australian Animal Health Laboratory",
+                    "location": {
+                        "settlement": "Geelong",
+                        "region": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Aeron",
+                "middle": [
+                    "C"
+                ],
+                "last": "Hurt",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Reference and Research on Influenza",
+                    "institution": "North Melbourne",
+                    "location": {
+                        "settlement": "Victoria",
+                        "country": "Australia"
+                    }
+                },
+                "email": "aeron.hurt@influenzacentre.org"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objectives: The emergence of the pandemic influenza A(H1N1)pdm09 virus in 2009 saw a significant increase in the therapeutic and prophylactic use of neuraminidase inhibitors (NAIs) to mitigate the impact of this highly transmissible virus. Prior to the pandemic, many countries stockpiled NAIs and developed pandemic plans for the use of antiviral drugs, based on either treatment of high-risk individuals and/or prophylaxis of contacts. However, to date there has been a lack of in vivo models to test the efficacy of treatment or prophylaxis with NAIs, for influenza-infected individuals or exposed contacts, in a household setting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: A ferret model of household contact was developed to study the efficacy of different prophylaxis regimens in preventing infection in contact ferrets exposed to influenza A(H1N1)pdm09-infected index ferrets.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: Among the different prophylactic regimens, contact ferrets receiving oseltamivir prophylaxis twice daily showed better outcomes than those receiving oseltamivir once daily. Benefits included a significant delay in the time to secondary infection, lower weight loss and higher activity levels. The treatment of index ferrets at 36 h post-infection did not influence either secondary infection rates or clinical symptoms in exposed contact ferrets. Neither prophylaxis nor treatment prevented infection or reduced the duration of viral shedding, although clinical symptoms did improve in infected animals receiving prophylaxis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusions: Different oseltamivir prophylaxis regimens did not prevent infections, but consistently resulted in a reduction in symptoms in infected ferrets. However, oseltamivir prophylaxis failed to reduce viral titres, which warrants further investigation in humans.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The prophylactic and/or therapeutic management of seasonal influenza currently relies solely on the neuraminidase (NA) inhibitors (NAIs) due to resistance of circulating influenza A viruses to the older adamantane class of antivirals. 1, 2 The most widely prescribed NAI is oseltamivir (Tamiflu TM ), followed by zanamivir (Relenza TM ), although other new NAIs, such as laninamivir and peramivir, have recently been approved for use in Japan, South Korea and China. 3, 4 Many countries have stockpiled antiviral drugs, particularly oseltamivir, in preparedness for a future influenza pandemic. For seasonal influenza, pre-exposure prophylaxis with NAIs has been shown to be effective in preventing the development of symptomatic infection in household contacts. 5, 6 Likewise, post-exposure prophylaxis with NAIs has also been effective in reducing the spread of infection in household contacts and communities. 7, 8 The emergence of the pandemic A(H1N1) pdm09 influenza virus in March -April 2009 resulted in a significant increase in the global use of NAIs for the treatment and prevention of infection. 9 Early NAI treatment of infected individuals or patients displaying influenza-like symptoms was associated with reductions in both severe clinical outcomes and mortality during the 2009 pandemic. 10 In addition, post-exposure oseltamivir prophylaxis was effective in reducing the rate of A(H1N1)pdm09 viral infections in households 11 and closed institutional settings such as military camps. 12 However, the therapeutic and prophylactic effectiveness of oseltamivir against mild seasonal influenza infections has been questioned following a meta-analysis of clinical trial data. 13 Prior to the 2009 pandemic, countries proposed different strategies for the use of antivirals. Australia's pandemic plan recommended liberal antiviral distribution for prophylaxis to limit the spread of infection and buy time for vaccine development, 14 but other countries, such as the USA, focused on the use of NAIs for case treatment. 15 The development of guidelines on the appropriate use of NAIs relies on antiviral effectiveness data derived largely from field epidemiological studies or clinical studies. However, these data may be limited or not available for newly emerged strains, which could differ in virulence and transmissibility from seasonal influenza viruses. Animal studies of NAI effectiveness, which have the advantage of being more rapidly established than human studies, have the potential to provide early data on the effectiveness of an NAI against a newly emerged influenza virus. Consequently, an in vivo model to test the effectiveness of different antiviral treatment or prophylaxis regimens on influenza infection and transmission in a household setting is needed.",
+            "cite_spans": [
+                {
+                    "start": 235,
+                    "end": 237,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 238,
+                    "end": 239,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 467,
+                    "end": 469,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 470,
+                    "end": 471,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 763,
+                    "end": 765,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 766,
+                    "end": 767,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 913,
+                    "end": 915,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 916,
+                    "end": 917,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1107,
+                    "end": 1108,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1304,
+                    "end": 1306,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1440,
+                    "end": 1442,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1501,
+                    "end": 1503,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1688,
+                    "end": 1690,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1942,
+                    "end": 1944,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2030,
+                    "end": 2032,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Ferrets are the preferred animal model to assess influenza virus infection, virulence and transmission as they display similar clinical symptoms, pathogenesis and antibody responses to those of humans 16 and can be readily infected with seasonal, pandemic or potentially pandemic influenza viruses such as A(H1N1)pdm09, H7N9 and H5N1. 17 -21 In this study, we aimed to establish a household contact model in ferrets to study the effectiveness of different oseltamivir treatment and prophylaxis regimens in preventing A(H1N1)pdm09 influenza virus infection.",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 203,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 335,
+                    "end": 341,
+                    "text": "17 -21",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Ferrets were used with the approval of the CSIRO Australian Animal Health Laboratory (AAHL) Animal Ethics Committee, in accordance with the Australian Government, National Health and Medical Research Council Australian code of practice for the care and use of animals for scientific purposes (8th edition). The project license numbers are AEC 1340 and 1390.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics statement"
+        },
+        {
+            "text": "Male and female ferrets weighing 1200 -1900 g were used. Serum samples from ferrets were tested by the haemagglutination inhibition (HI) assay against the reference strains A/California/7/2009 A(H1N1)pdm09, A/Perth/16/2009 A(H3N2), B/Brisbane/60/2008 (B/Yamagata lineage) and B/Brisbane/33/2008 (B/Victoria lineage) to ensure seronegativity (titre ,20) against currently circulating influenza types/subtypes. Experi -ments using ferrets were conducted in the BSL3 containment facilities at the CSIRO AAHL.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ferrets"
+        },
+        {
+            "text": "Index ferrets were either artificially infected (AI) by intranasal inoculation with 1\u00d710 6 TCID 50 (median tissue culture infectious dose) of egg-grown A/California/7/2009 A(H1N1)pdm09 (2.67\u00d710 6 TCID 50 ) or naturally infected (NI) by exposure to AI donor ferrets for 48 h. A/California/7/2009 (passage E4) was kindly provided by CDC, Atlanta, USA, and was passaged a further four times in embryonated hens eggs (passage E8) before being used. The virus did not contain the D222G/E/N mutation or any other haemagglutinin mutations known to be associated with receptor binding or virulence. A 5 mg/kg dose of oseltamivir phosphate in ferrets is considered to be equivalent to the standard human adult dose of 75 mg, which is normally delivered either once daily for prophylaxis or twice daily for treatment. 22 Oseltamivir phosphate (kindly provided by Hoffmann-La Roche Ltd, Basel, Switzerland) was prepared at a concentration of 10 mg/mL in a sterile 0.5% sugar/PBS solution and 5 mg/kg was delivered orally to conscious ferrets either once or twice daily with volume adjusted based on weight (e.g. a 1200 g ferret received 600 mL). For pre-exposure prophylaxis, contact ferrets were administered oseltamivir (either once or twice daily) 24 h prior to co-housing with an untreated NI index ferret (Figure 1a ). For post-exposure prophylaxis, contact ferrets were administered oseltamivir (either once or twice daily) 24 h after co-housing with an untreated NI index ferret (Figure 1b) . To assess the effect of time between exposure and the beginning of post-exposure prophylaxis, contact ferrets were administered oseltamivir twice daily 12 h after co-housing with an AI index ferret ( Figure 1c ). To compare the effect of contact prophylaxis with index treatment, index ferrets were treated with oseltamivir twice daily 36 h post-infection (12 h after being co-housed with untreated contact ferrets) ( Figure 1d ). All oseltamivir treatment and prophylaxis regimens were carried out for a total of 10 days. Seven ferrets (one donor and six recipients) were housed in an open cage measuring 2 m by 1 m. There was no direct airflow within the cage.",
+            "cite_spans": [
+                {
+                    "start": 808,
+                    "end": 810,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1299,
+                    "end": 1309,
+                    "text": "(Figure 1a",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1475,
+                    "end": 1486,
+                    "text": "(Figure 1b)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1689,
+                    "end": 1698,
+                    "text": "Figure 1c",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1907,
+                    "end": 1916,
+                    "text": "Figure 1d",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Virus infection and oseltamivir treatment of ferrets"
+        },
+        {
+            "text": "Body temperature, weight, activity score and nasal washes of all ferrets were collected daily after the index ferrets were co-housed with contact ferrets. Temperatures were measured daily using implanted temperature transponders fitted to identification chips (LifeChip Bio-Thermo w , Digivet, Australia). Ferret activity score was assessed in a blinded manner daily at the same time each morning by the same animal technician, who was not aware of treatment group. A seven-level arbitrary activity score system was used: 0, alert and fully playful; 0.5, alert but slightly less playful than usual; 1, alert and playful when encouraged to play; 1.5, alert and slightly playful when encouraged to play; 2, alert and slightly playful with strong encouragement; 2.5, alert but not playful; 3, euthanized. Activity score data are presented as the relative score compared with the activity of the group receiving no intervention. Therefore, relative activity scores of .0 indicate increased activity compared with no intervention, whereas relative activity scores of ,0 indicate decreased activity compared with no intervention. Nasal washes were collected daily from sedated ferrets (5 mg/kg xylazine) by instilling 1 mL of sterile PBS [supplemented with 1% (w/v) BSA, 100 mg/mL streptomycin and 100 U/mL penicillin] into one nostril and allowing the liquid to flow out of the other nostril into a collection tube. Nasal washes were stored at 2808C prior to analysis. Blood samples were collected 10 days post-infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ferret monitoring, measurement and sample collection"
+        },
+        {
+            "text": "Titres of infectious virus in the nasal washes were quantified by viral infectivity assay and the TCID 50 was determined. 23 Briefly, samples were serially diluted 10-fold in PBS and each dilution was added in quadruplicate to flatbottom 96-well plates containing a confluent monolayer of MDCK cells. Infected cells were incubated for 5 days at 378C, 5% CO 2 , followed by assessment of cytopathic effect. Virus titres were calculated as described by Reed and Muench. 24 The influenza-specific antibodies in sera were assessed with the HI assay. 25 Briefly, sera treated with receptor-destroying enzyme (RDE; Denka Seiken, Japan) were serially 2-fold diluted from a Evaluating oseltamivir regimens in a ferret model Oh et al. ",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 124,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 451,
+                    "end": 459,
+                    "text": "Reed and",
+                    "ref_id": null
+                },
+                {
+                    "start": 468,
+                    "end": 470,
+                    "text": "24",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 546,
+                    "end": 548,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Virological, serological and NAI susceptibility analysis"
+        },
+        {
+            "text": "Viral RNA was extracted from the ferrets' nasal washes using the QIAamp Viral RNA Mini Kit (Qiagen, CA, USA) and RT-PCR was performed using the Superscript III One",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RNA extraction, RT-PCR and pyrosequencing"
+        },
+        {
+            "text": "Step RT-PCR kit (Invitrogen) according to the manufacturer's protocols. Pyrosequencing was carried out to detect the H275Y mutation in the NA gene as described in Deng et al. 27 Briefly, pyrosequencing reactions were performed on a PyroMark ID (Qiagen) with PyroMark Gold reagents (Qiagen) and results were analysed using PyroMark ID 1.0 software to estimate the percentages of H275Y mutant and wild-type viruses by calculating the ratio of the two peaks representing the wild-type and mutant.",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 177,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RNA extraction, RT-PCR and pyrosequencing"
+        },
+        {
+            "text": "A log-rank (Mantel-Cox) test and log-rank test for trend was used to compare Kaplan -Meier curves reporting time to detect infection (detectable viral titre in nasal wash). The two-tailed unpaired t-test was used to compare day-by-day differences in percentage weight loss, body temperature, activity score, virus titre and influenza-specific HI antibody (log scale) among the different groups. A one-way ANOVA with Holm -Sidak's multiple comparison test was used to test for differences in mean peak viral load and mean day of peak viral load among the groups. A P value of ,0.05 was considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analyses"
+        },
+        {
+            "text": "In the ferret model of household contact, index ferrets were either AI by intranasal inoculation of influenza A(H1N1)pdm09 virus or NI by exposure to AI donor ferrets for 48 h, prior to co-housing with contact ferrets. NI index ferrets were used in the experiments outlined in Figure 1 (a and b) to represent natural transmission to contact ferrets that were undergoing oseltamivir prophylaxis. However, for experiments involving oseltamivir treatment of index ferrets, AI ferrets were used to ensure the timing of post-infection treatment of index ferrets was accurate (36 h) (Figure 1d ). To maintain consistency in the experiments outlined in Figure 1 (c and d), AI index ferrets were used for the no intervention and 12 h post-exposure prophylaxis groups. The viral infections of untreated contact ferrets exposed to either an AI index ferret or an NI index ferret were similar with respect to peak viral load and duration of viral shedding, although the establishment of infection was 1 day later in ferrets exposed to NI index ferrets than in those exposed to AI index ferrets ( Figure S1 , available as Supplementary data at JAC Online).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 277,
+                    "end": 285,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 577,
+                    "end": 587,
+                    "text": "(Figure 1d",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 646,
+                    "end": 654,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1085,
+                    "end": 1094,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Ferret model of household contact"
+        },
+        {
+            "text": "Prophylaxis regimens: pre-exposure prophylaxis of contact ferrets",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ferret model of household contact"
+        },
+        {
+            "text": "To determine the efficacy of pre-exposure oseltamivir prophylaxis, two groups of ferrets were orally administered oseltamivir either once or twice daily starting 24 h prior to A(H1N1)pdm09 exposure and continuing for 10 days after exposure (Figure 1a) . The time for all contact ferrets to become infected was significantly delayed in the prophylaxis group dosed twice daily compared with the oncedaily prophylaxis and no intervention groups (twice-daily prophylaxis, day 10; once-daily prophylaxis, day 7; no intervention, day 6; P \u00bc 0.043; Figure 2a ). Virus shedding profiles of the single index ferrets from each of the three groups were similar and therefore are unlikely to have biased the infection of contact ferrets in the different groups within this experiment ( Figure S2A , available as Supplementary data at JAC Online). Although twice-daily oseltamivir prophylaxis delayed the infection of contact ferrets, it did not prevent all the contact ferrets becoming infected (Figure 2a) . However, percentage weight loss following infection among the twice-daily oseltamivir prophylaxis group was significantly less than in ferrets receiving either once-daily oseltamivir prophylaxis or no intervention during days 1-4 post-exposure (Figure 2b ). No significant differences in body temperature were observed between the three groups of contact ferrets (Figure 2c ). Ferrets from oncedaily and twice-daily oseltamivir prophylaxis groups were significantly more active than untreated ferrets on days 4, 5 and 9 and days 4, 7, 8 and 9, respectively ( Figure 2d ). Despite these differences, the contact ferrets in all three groups had similar HI antibody titres and viral shedding patterns, with no significant difference in either peak viral titres or duration of shedding (Figure 2e and f and Table 1) . Collectively, the data show that pre-exposure prophylaxis with two doses of oseltamivir daily was effective in delaying infection of all contact ferrets and improving clinical symptoms (reduced weight loss and a higher activity score), whereas prophylaxis using only one dose of oseltamivir daily appeared only to improve ferret activity compared with no intervention (Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 240,
+                    "end": 251,
+                    "text": "(Figure 1a)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 542,
+                    "end": 551,
+                    "text": "Figure 2a",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 774,
+                    "end": 784,
+                    "text": "Figure S2A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 983,
+                    "end": 994,
+                    "text": "(Figure 2a)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1241,
+                    "end": 1251,
+                    "text": "(Figure 2b",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1360,
+                    "end": 1370,
+                    "text": "(Figure 2c",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1556,
+                    "end": 1565,
+                    "text": "Figure 2d",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1779,
+                    "end": 1808,
+                    "text": "(Figure 2e and f and Table 1)",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 2179,
+                    "end": 2187,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Ferret model of household contact"
+        },
+        {
+            "text": "To determine the efficacy of post-exposure oseltamivir prophylaxis, ferrets were co-housed with NI index ferrets for 24 h before administering oseltamivir either once or twice daily for 10 days (Figure 1b) . Virus shedding profiles of the single index ferrets from each of the three groups were again similar and therefore are unlikely to have biased the infection of contact ferrets in the different groups ( Figure S2B , available as Supplementary data at JAC Online). However, at the time when the index ferrets were co-housed with contacts in this post-exposure prophylaxis experiment, the viral titres of these index ferrets (4 -5.5 log 10 TCID 50 / mL) were considerably greater than that of the index ferrets in the pre-exposure prophylaxis experiment (0 -1.75 log 10 TCID 50 / mL) ( Figure S2A and B) . As a result, it took only 2 days for all untreated control ferrets in the post-exposure prophylaxis experiment to become infected, compared with 6 days in the pre-exposure prophylaxis experiment (Figures 2a and 3a) . When comparing within the 24 h post-exposure prophylaxis experiment, neither dosing regimen (once-and twice-daily oseltamivir) delayed the time of infection compared with untreated control ferrets, with all becoming infected within 2 days of exposure (Figure 3a) . While the twice-daily post-exposure prophylaxis group did show significantly less weight loss from day 4 to day 7 compared with the control group, no significant effect on weight loss was seen in the once-daily post-exposure prophylaxis group (Figure 3b ). In addition, the twice-daily post-exposure prophylaxis group also Evaluating oseltamivir regimens in a ferret model 2461 JAC showed significantly less weight loss from day 3 to day 9 compared with the once-daily post-exposure prophylaxis group (Figure 3b) . Neither of the post-exposure prophylaxis regimens (once-and twice-daily oseltamivir) had an effect on body temperature (Figure 3c ). However, compared with the untreated ferrets, those that received either once-or twice-daily oseltamivir in the postexposure prophylaxis groups were significantly more active across much of the 10 day period (Figure 3d) . Importantly, both postexposure prophylaxis regimens (once-and twice-daily oseltamivir) did not alter viral shedding profiles or HI antibody titres (Figure 3e and f and Table 1 ). Collectively, the data show that oseltamivir administered either once or twice daily 24 h post-exposure improved the activity of contact ferrets and reduced weight loss (for twice-daily dosing only), but had no significant effect on infection, temperature, viral shedding kinetics or HI antibody response ( Table 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 194,
+                    "end": 205,
+                    "text": "(Figure 1b)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 410,
+                    "end": 420,
+                    "text": "Figure S2B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 791,
+                    "end": 808,
+                    "text": "Figure S2A and B)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1006,
+                    "end": 1025,
+                    "text": "(Figures 2a and 3a)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1279,
+                    "end": 1290,
+                    "text": "(Figure 3a)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1536,
+                    "end": 1546,
+                    "text": "(Figure 3b",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1794,
+                    "end": 1805,
+                    "text": "(Figure 3b)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1927,
+                    "end": 1937,
+                    "text": "(Figure 3c",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 2149,
+                    "end": 2160,
+                    "text": "(Figure 3d)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 2310,
+                    "end": 2320,
+                    "text": "(Figure 3e",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 2331,
+                    "end": 2338,
+                    "text": "Table 1",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 2649,
+                    "end": 2657,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Prophylaxis regimens: post-exposure prophylaxis of contact ferrets"
+        },
+        {
+            "text": "To determine the impact of reducing the time between exposure and onset of oseltamivir prophylaxis, we compared twice-daily oseltamivir prophylaxis of contact ferrets at 12 h postexposure with no intervention (Figure 1c) . Virus shedding profiles of the index ferrets in each group were similar, but as they were AI index ferrets the viral kinetics differed from those seen with NI Oh et al. SID, 5 mg/kg oseltamivir once daily; BID, 5 mg/kg oseltamivir twice daily. a Days where the mean ferret weight loss was significantly less (P,0.05) than that of ferrets with no intervention. b Days where the mean ferret relative activity score was significantly greater (P, 0.05) than that of ferrets with no intervention. c Mean ferret weight loss was not significantly different from that of ferrets with no intervention. index ferrets ( Figure S2A , B and C, available as Supplementary data at JAC Online). Unlike 24 h post-exposure twice-daily oseltamivir prophylaxis, which did not delay the time of infection, 12 h post-exposure twice-daily oseltamivir prophylaxis did significantly delay infection compared with no intervention (time for all contact ferrets to become infected: twice-daily oseltamivir, day 6; no intervention, day 3; P \u00bc0.03; Figure 4a ). However, no significant effect on body weight or body temperature was observed (Figure 4b and c) . Twelve hours post-exposure, twice-daily oseltamivir prophylaxis significantly improved activity score on all but 2 days (Figure 4d) . As a result of the delayed infection, the peak viral load for contact ferrets receiving 12 h post-exposure twicedaily oseltamivir prophylaxis was shifted to day 6 compared with day 4 in untreated ferrets (Table 1) , but, importantly, the mean peak viral titre and the duration of viral shedding were not reduced as a result of oseltamivir prophylaxis (Table 1 and Figure 4e ). No significant differences in HI antibody titres were observed (Figure 4f ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 209,
+                    "end": 220,
+                    "text": "(Figure 1c)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 832,
+                    "end": 842,
+                    "text": "Figure S2A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1242,
+                    "end": 1251,
+                    "text": "Figure 4a",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1334,
+                    "end": 1351,
+                    "text": "(Figure 4b and c)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1474,
+                    "end": 1485,
+                    "text": "(Figure 4d)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1692,
+                    "end": 1701,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 1839,
+                    "end": 1847,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 1852,
+                    "end": 1861,
+                    "text": "Figure 4e",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1928,
+                    "end": 1938,
+                    "text": "(Figure 4f",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Prophylaxis regimens: post-exposure prophylaxis of contact ferrets"
+        },
+        {
+            "text": "To evaluate the effect of oseltamivir treatment of index ferrets on the infection and clinical signs of contact ferrets (which were not given prophylaxis), we initiated treatment at 36 h post-infection (estimated to be 12 h post-symptom onset), a time period designed to mimic when humans may be seeking and starting NAI treatment (Figure 1d ). Compared with no intervention, Oh et al.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 331,
+                    "end": 341,
+                    "text": "(Figure 1d",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Treatment regimen: treatment of index ferrets 36 h post-infection"
+        },
+        {
+            "text": "oseltamivir treatment of the index ferret did not slow the rate of infection of the co-housed contact ferrets (time for all contact ferrets to become infected: twice-daily oseltamivir-treated index, day 4; no intervention, day 3; P \u00bc 0.10; Figure 5a ). Contact ferrets exposed to the treated index ferret experienced weight loss, temperature rises, duration of viral shedding, HI antibody titres and mean peak viral titres similar to those of ferrets exposed to an untreated index ferret (Figure 5b , c, e and f and Table 1 ), but had increased activity on days 3 and 4 post-exposure only (Figure 5d) . A comparison of viral shedding in the oseltamivir-treated AI index ferrets (n \u00bc 2) compared with the untreated AI index ferrets (n \u00bc 4) revealed no significant difference in viral load or duration of shedding ( Figure S3 , available as Supplementary data at JAC Online).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 240,
+                    "end": 249,
+                    "text": "Figure 5a",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 488,
+                    "end": 498,
+                    "text": "(Figure 5b",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 516,
+                    "end": 523,
+                    "text": "Table 1",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 589,
+                    "end": 600,
+                    "text": "(Figure 5d)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 814,
+                    "end": 823,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Treatment regimen: treatment of index ferrets 36 h post-infection"
+        },
+        {
+            "text": "To determine whether oseltamivir treatment or prophylaxis leads to the emergence of oseltamivir-resistant variants, we isolated viruses from nasal washes of both index and contact ferrets in all experiments and tested these in a fluorescence-based NA Evaluating oseltamivir regimens in a ferret model 2465 JAC inhibition assay to measure oseltamivir susceptibility. The mean concentration of oseltamivir required to inhibit NA activity by 50% (IC 50 ) (+ SD) for all virus isolates was 0.3+0.2 nM, with none displaying either reduced (IC 50 .10-fold above the mean) or highly reduced (IC 50 .100-fold above the mean) inhibition. However, because the NA inhibition assay is unable to detect low proportions of resistant virus in a mixed viral population, RNA from all nasal washes was tested in a pyrosequencing assay for the detection of the H275Y NA mutation, known to confer resistance to oseltamivir in A(H1N1)pdm09 viruses. A sample from one of the oseltamivir-treated index ferrets on day 5 postinfection contained a mixed population of resistant and susceptible viruses, with 17% of viruses containing the H275Y NA mutation and 83% the susceptible wild-type virus. The H275Y variant was not detected in any of the nasal washes of co-housed contact ferrets, presumably because they had become infected before the selection of resistant virus in the index ferret.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "H275Y NA mutation in one infected index ferret following oseltamivir treatment"
+        },
+        {
+            "text": "Here we show that, using our ferret model, oseltamivir treatment of an index case had minimal or no impact on transmission to secondary contacts, whereas pre-exposure prophylaxis of contacts resulted in delayed infection and improved clinical symptoms in these animals, with greater benefits seen when the drug was Oh et al.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "delivered twice daily rather than once daily. Twice-daily oseltamivir prophylaxis at 12 h post-exposure was effective in delaying infection and improving clinical symptoms, but delaying prophylaxis until 24 h post-exposure resulted in the loss of most of these benefits. However, even at 24 h post-exposure, both dosing regimens (once-and twice-daily) appeared to improve ferret activity significantly compared with untreated control ferrets. Treatment for human influenza is recommended within 48 h of symptom onset, with delays resulting in reduced effectiveness in the treated patient. 28 However, little is known about how the timing of index treatment may alter the transmission of influenza to exposed contacts. In our study, we treated index ferrets at 36 h post-infection, which was estimated to be 12 -24 h after symptom onset, but this intervention had little or no effect on the infection of contact ferrets. This demonstrated that, in our model, prophylaxis of contacts was necessary to alter normal transmission. Numerous human studies have shown that antiviral prophylaxis has high protective efficacy against influenza infections. 5, 7, 8, 29, 30 In a proof-of-concept study involving 33 subjects, prophylaxis with 100 mg of oseltamivir once or twice daily for 5 days, starting 26 h prior to intranasal challenge with A/Texas/ 36/91 (H1N1), significantly reduced infection rates and inhibited viral shedding compared with placebo. 29 A follow-up multicentre clinical study by Hayden et al. 5 demonstrated a similar protective effect of pre-exposure prophylaxis against seasonal influenza infections in healthy, non-immunized subjects who received either once-daily (75 mg/kg) or twice-daily (150 mg/kg) prophylaxis with oseltamivir. Likewise, post-exposure prophylaxis of contacts in a randomized controlled trial also showed high protective efficacy in individuals and contacts. 7, 8 Compared with the benefits of pre-or post-exposure oseltamivir prophylaxis observed in the human studies, the effects of oseltamivir intervention described in our ferret model were more modest. This could be a result of study limitations, such as the differences in viral titres of donor ferrets between pre-and postexposure prophylaxis experiments, which could have biased the speed at which contact ferrets became infected. Other limitations of the study include the use of only a twice-daily, and not also once-daily, oseltamivir dosing regimen in the 12 h post-exposure prophylaxis experiment. In addition, the prolonged co-housing of index and contact ferrets in very close proximity meant that the duration and magnitude of virus exposure experienced by contact ferrets were likely to be considerably higher than those in a typical human household context. In addition, as contacts became infected, they became additional index ferrets, thereby increasing the probability of infecting further contact animals. Both factors, together with the observation that ferrets can transmit A(H1N1)pdm09 virus during both the early and late periods of infection, 31 may explain why none of the oseltamivir interventions was able to prevent infection.",
+            "cite_spans": [
+                {
+                    "start": 589,
+                    "end": 591,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1146,
+                    "end": 1148,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1149,
+                    "end": 1151,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1152,
+                    "end": 1154,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1155,
+                    "end": 1158,
+                    "text": "29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1159,
+                    "end": 1161,
+                    "text": "30",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1446,
+                    "end": 1448,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1505,
+                    "end": 1506,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1895,
+                    "end": 1897,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1898,
+                    "end": 1899,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "To more closely mimic the average contact parameters observed in a typical household context, future studies using this ferret model should consider modifications such as housing ferrets in separate but closely located cages to allow only aerosol or droplet transmission and/or artificially manipulating the duration of exposure between index and contact ferrets. Separation of human index cases from exposed contacts receiving prophylaxis has been shown in a military setting to dramatically reduce the rate of A(H1N1)pdm09 infection. 12 Additionally, ferrets with pre-existing immunity to a distantly related influenza virus rather than influenza-naive ferrets, as used in our study, may better represent a typical human adult who has been previously infected or vaccinated with influenza. Finally, while the treatment dose of 5 mg/kg twice daily with oseltamivir in ferrets has been widely accepted as the equivalent dose to that used in the treatment of human influenza infections (75 mg/kg twice daily) 4,32 and is widely used in many ferret studies, 20, 22, 33, 34 further detailed pharmacokinetic and pharmacodynamic studies in ferrets are needed to allow a robust comparison with equivalent human data. 35, 36 Although pre-or post-exposure oseltamivir prophylaxis of contact ferrets was unable to prevent A(H1N1)pdm09 infection or significantly reduce viral shedding, it did appear to reduce weight loss and improve activity, a similar finding to that reported by Govorkova et al. 37 for the treatment of index ferrets at 2 or 24 h post-infection. The reason for the improved clinical signs in the absence of clear virological improvement remains unclear, although a recent report by Maines et al. 38 on the effect of local innate immune responses to virus infection may provide an explanation. Among parameters not measured in our study are the levels of proinflammatory mediators in the respiratory tract, including IFNa/b, TNFa, IL-6, IL-12, CXCL9 and CXCL11, which have been shown to correlate with viral transmission, clinical signs of infections and influenza virus shedding in the ferret model. 38 In mice, the proinflammatory cytokine IL-6 has also been demonstrated to play an important role in governing antiviral immunity by limiting inflammation and promoting antiviral T cell responses to lung injury. 39 In humans infected with A/Texas/36/91 (H1N1), oseltamivir treatment was associated with significantly lower levels of proinflammatory cytokines, such as IFNg, TNFa and IL-6, in nasal lavage fluid. 29 Therefore, oseltamivir prophylaxis in the ferrets may result in downregulation of various proinflammatory mediators, resulting in alleviation of clinical symptoms.",
+            "cite_spans": [
+                {
+                    "start": 536,
+                    "end": 538,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1056,
+                    "end": 1059,
+                    "text": "20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1060,
+                    "end": 1063,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1064,
+                    "end": 1067,
+                    "text": "33,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1068,
+                    "end": 1070,
+                    "text": "34",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1211,
+                    "end": 1214,
+                    "text": "35,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1215,
+                    "end": 1217,
+                    "text": "36",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1489,
+                    "end": 1491,
+                    "text": "37",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1706,
+                    "end": 1708,
+                    "text": "38",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 2110,
+                    "end": 2112,
+                    "text": "38",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 2323,
+                    "end": 2325,
+                    "text": "39",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 2523,
+                    "end": 2525,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The findings of our study provide the first step in establishing an in vivo model that will help to determine the most effective way to use antiviral drugs against influenza in a household transmission setting. We showed that, under most of the prophylaxis regimens, the administration of oseltamivir significantly improved activity, but had little or no effect on viral shedding. In many human oseltamivir clinical trials, swabs have been taken only from symptomatic patients 29, 40, 41 as opposed to our ferret model, where all ferrets were swabbed daily regardless of symptoms. However, studies have shown that, following oseltamivir treatment, asymptomatic patients do shed influenza virus. 8, 11 This suggests that our finding that ferrets displayed improved activity while still shedding high titres of virus may extend to the human situation. 8, 11 From a public health perspective, it would be concerning if patients who received oseltamivir prophylaxis or treatment were returning to normal social activities prematurely due to experiencing mild or no symptoms while still shedding virus. These findings caution against over-reliance on pharmaceutical measures to reduce influenza transmission, and reinforce the importance of developing robust evidence-based guidelines for adjunct personal hygiene and social distancing measures to limit the spread of disease.",
+            "cite_spans": [
+                {
+                    "start": 477,
+                    "end": 480,
+                    "text": "29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 481,
+                    "end": 484,
+                    "text": "40,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 485,
+                    "end": 487,
+                    "text": "41",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 695,
+                    "end": 697,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 698,
+                    "end": 700,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 850,
+                    "end": 852,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 853,
+                    "end": 855,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Incidence of adamantane resistance among influenza A (H3N2) viruses isolated worldwide from 1994 to 2005: a cause for concern",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bright",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Medina",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Lancet",
+            "volume": "366",
+            "issn": "",
+            "pages": "1175--81",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The emergence of adamantane resistance in influenza A(H1) viruses in Australia and regionally in 2006",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Barr",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hurt",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Deed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Antiviral Res",
+            "volume": "75",
+            "issn": "",
+            "pages": "173--179",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "China's SFDA Ready to Fast-Track Approvals of Peramivir, a Flu Treatment",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Chinabiotoday",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Pharmacokinetic properties of anti-influenza neuraminidase inhibitors",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chairat",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tarning",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Clin Pharmacol",
+            "volume": "53",
+            "issn": "",
+            "pages": "119--158",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Use of the selective oral neuraminidase inhibitor oseltamivir to prevent influenza",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Atmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schilling",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "N Engl J Med",
+            "volume": "341",
+            "issn": "",
+            "pages": "1336--1379",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Long-term use of oseltamivir for the prophylaxis of influenza in a vaccinated frail older population",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Peters",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gravenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Norwood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J Am Geriatr Soc",
+            "volume": "49",
+            "issn": "",
+            "pages": "1025--1056",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Effectiveness of oseltamivir in preventing influenza in household contacts: a randomized controlled trial",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Welliver",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Monto",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Carewicz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "JAMA",
+            "volume": "285",
+            "issn": "",
+            "pages": "748--54",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Management of influenza in households: a prospective, randomized comparison of oseltamivir treatment with or without postexposure prophylaxis",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Belshe",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Villanueva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Infect Dis",
+            "volume": "189",
+            "issn": "",
+            "pages": "440--449",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Antiviral treatment for patients hospitalized with 2009 pandemic influenza A (H1N1)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Uyeki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "N Engl J Med",
+            "volume": "361",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Impact of neuraminidase inhibitor treatment on outcomes of public health importance during the 2009 -2010 influenza A(H1N1) pandemic: a systematic review and meta-analysis in hospitalized patients",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Muthuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Myles",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Venkatesan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Infect Dis",
+            "volume": "207",
+            "issn": "",
+            "pages": "553--63",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Use of antiviral drugs to reduce household transmission of pandemic (H1N1) 2009, United Kingdom",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pebody",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kafatos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Emerg Infect Dis",
+            "volume": "17",
+            "issn": "",
+            "pages": "990--999",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Seroconversion and asymptomatic infections during oseltamivir prophylaxis against influenza A H1N1",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yap",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "BMC Infect Dis",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Neuraminidase inhibitors for preventing and treating influenza in healthy adults and children",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jefferson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Doshi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Cochrane Database Syst Rev",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Modelling strategic use of the national antiviral stockpile during the CONTAIN and SUSTAIN phases of an Australian pandemic influenza response",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcvernon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mccaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Nolan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Aust N Z J Public Health",
+            "volume": "34",
+            "issn": "",
+            "pages": "113--122",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "National Strategy for Pandemic Influenza Implementation Plan. USA: Homeland Security Council",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Homeland Security",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Council",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The severe pathogenicity of alveolar macrophage-depleted ferrets infected with 2009 pandemic H1N1 influenza virus",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ku",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Virology",
+            "volume": "444",
+            "issn": "",
+            "pages": "394--403",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "In vitro and in vivo characterization of new swine-origin H1N1 influenza viruses",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Itoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shinya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kiso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nature",
+            "volume": "460",
+            "issn": "",
+            "pages": "1021--1026",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Transmission and pathogenesis of swine-origin 2009 A(H1N1) influenza viruses in ferrets and mice",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Maines",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jayaraman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Belser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Science",
+            "volume": "325",
+            "issn": "",
+            "pages": "484--491",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Pathogenesis and transmission of swine-origin 2009 A(H1N1) influenza virus in ferrets",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Munster",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wit",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "De",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Den Brand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Science",
+            "volume": "325",
+            "issn": "",
+            "pages": "481--484",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Efficacy of oseltamivir therapy in ferrets inoculated with different clades of H5N1 influenza virus",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Govorkova",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ilyushina",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Boltz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Antimicrob Agents Chemother",
+            "volume": "51",
+            "issn": "",
+            "pages": "1414--1438",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "H7N9 influenza viruses are transmissible in ferrets by respiratory droplet",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Science",
+            "volume": "341",
+            "issn": "",
+            "pages": "410--414",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Comparison of the protection of ferrets against pandemic 2009 influenza A virus (H1N1) by 244 DI influenza virus and oseltamivir",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dimmock",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dove",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Antiviral Res",
+            "volume": "96",
+            "issn": "",
+            "pages": "376--85",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "MDCK-SIAT1 cells show improved isolation rates for recent human influenza viruses compared to conventional MDCK cells",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Oh",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Barr",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mosse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Clin Microbiol",
+            "volume": "46",
+            "issn": "",
+            "pages": "2189--94",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "A simple method of estimating fifty per cent endpoints",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Muench",
+                    "suffix": ""
+                }
+            ],
+            "year": 1938,
+            "venue": "Am J Epidemiol",
+            "volume": "27",
+            "issn": "",
+            "pages": "493--500",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Neuraminidase-inhibiting antibody is a correlate of cross-protection against lethal H5N1 influenza virus in ferrets immunized with seasonal influenza vaccine",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rockman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Barr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Virol",
+            "volume": "87",
+            "issn": "",
+            "pages": "3053--61",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The fluorescence neuraminidase inhibition assay: a functional method for detection of influenza virus resistance to the neuraminidase inhibitors",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hurt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Okomo-Adhiambo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Gubareva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Methods Mol Biol",
+            "volume": "865",
+            "issn": "",
+            "pages": "115--140",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A comparison of pyrosequencing and neuraminidase inhibition assays for the detection of oseltamivir-resistant pandemic influenza A(H1N1) 2009 viruses",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Caldwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hurt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Antiviral Res",
+            "volume": "90",
+            "issn": "",
+            "pages": "87--91",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Very low pandemic influenza A (H1N1) 2009 mortality associated with early neuraminidase inhibitor treatment in Japan: analysis of 1000 hospitalized children",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sugaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shinjoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mitamura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Infect",
+            "volume": "63",
+            "issn": "",
+            "pages": "288--94",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Use of the oral neuraminidase inhibitor oseltamivir in experimental human influenza: randomized controlled trials for prevention and treatment",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Treanor",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fritz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "JAMA",
+            "volume": "282",
+            "issn": "",
+            "pages": "1240--1246",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Experimental human influenza: observations from studies of influenza antivirals",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Antivir Ther",
+            "volume": "17",
+            "issn": "",
+            "pages": "133--174",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Transmission of a 2009 H1N1 pandemic influenza virus occurs before fever is detected, in the ferret model",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shelton",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stilwell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Oseltamivir (Tamiflu) and its potential for use in the event of an influenza pandemic",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Small",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Antimicrob Chemother",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Oral administration of a prodrug of the influenza virus neuraminidase inhibitor GS 4071 protects mice and ferrets against influenza infection",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mendel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Tai",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Escarpe",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Antimicrob Agents Chemother",
+            "volume": "42",
+            "issn": "",
+            "pages": "640--646",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Assessing the development of oseltamivir and zanamivir resistance in A(H5N1) influenza viruses using a ferret model",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hurt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lowther",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Antiviral Res",
+            "volume": "87",
+            "issn": "",
+            "pages": "361--367",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Prolonged influenza virus shedding and emergence of antiviral resistance in immunocompromised patients and ferrets",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Der Vries",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stittelaar",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Van Amerongen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Pathog",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Identification of GS 4104 as an orally bioavailable prodrug of the influenza virus neuraminidase inhibitor GS 4071",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Escarpe",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Eisenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Antimicrob Agents Chemother",
+            "volume": "42",
+            "issn": "",
+            "pages": "647--53",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Assessment of the efficacy of the neuraminidase inhibitor oseltamivir against 2009 pandemic H1N1 influenza virus in ferrets",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Govorkova",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Marathe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Prevost",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Antiviral Res",
+            "volume": "91",
+            "issn": "",
+            "pages": "81--89",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Local innate immune responses and influenza virus transmission and virulence in ferrets",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Maines",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Belser",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gustin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Infect Dis",
+            "volume": "205",
+            "issn": "",
+            "pages": "474--85",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Interleukin-6 limits influenzainduced inflammation and protects against fatal lung pathology",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Lauder",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Smart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Eur J Immunol",
+            "volume": "43",
+            "issn": "",
+            "pages": "2613--2638",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Efficacy and safety of the oral neuraminidase inhibitor oseltamivir in treating acute influenza: a randomized controlled trial. US Oral Neuraminidase Study Group",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Treanor",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Vrooman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "JAMA",
+            "volume": "283",
+            "issn": "",
+            "pages": "1016--1040",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Household transmission of pandemic 2009 influenza A (H1N1) virus in Osaka",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Komiya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kamiya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Infect",
+            "volume": "61",
+            "issn": "",
+            "pages": "284--292",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Experimental outline of the treatment and prophylaxis regimens used. (a) Pre-and (b) post-exposure prophylaxis of contact ferrets (C; blue) 24 h prior to or 24 h after A(H1N1)pdm09 exposure to NI index ferrets (green) in a co-housed environment. NI ferrets were infected by co-housing with AI index ferrets (red) for 48 h. Experiments in (a) and (b) were carried out once. (c) Post-exposure prophylaxis of contact ferrets following 12 h of exposure to AI ferrets. (d) Treatment of AI ferrets after 36 h post-infection (p.i.) with A(H1N1)pdm09. Experiments in (c) and (d) were carried out twice. SID, 5 mg/kg oseltamivir once daily; BID, 5 mg/kg oseltamivir twice daily. This figure appears in colour in the online version of JAC and in black and white in the print version of JAC.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Clinical symptoms of contact ferrets receiving 24 h pre-exposure prophylaxis. (a) Proportion of uninfected contact ferrets (SID versus BID versus no intervention, *P, 0.05; log-rank test for trend in Kaplan -Meier curve). (b) Percentage weight loss. (c) Body temperature. (d) Activity score of treated contact ferrets relative to ferrets with no intervention. (e) Virus titre in nasal washes. (f) Serum antibody titre. Contact ferrets, n \u00bc 6 in each group. For (b), (c), (d) and (e), data are mean+SEM. SID 24 h pre-exposure versus no intervention, #P, 0.05, ###P, 0.001; BID 24 h pre-exposure versus no intervention, *P, 0.05, **P, 0.01, ***P, 0.001; two-tailed unpaired t-test. SID, 5 mg/kg oseltamivir once daily; BID, 5 mg/kg oseltamivir twice daily.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Clinical symptoms of contact ferrets receiving 24 h post-exposure prophylaxis. (a) Proportion of uninfected contacts. (b) Percentage weight loss. (c) Body temperature. (d) Relative activity score of treated contact ferrets compared with ferrets with no intervention. (e) Virus titre in nasal washes. (f) Serum antibody titre. Contact ferrets, n \u00bc6 in each group. For (b), (c), (d) and (e), data are mean+SEM. SID 24 h post-exposure versus no intervention, #P,0.05, ##P,0.01, ###P,0.001; BID 24 h post-exposure versus no intervention, *P, 0.05, **P, 0.01, ***P,0.001; SID 24 h post-exposure versus no BID 24 h post-exposure, @P, 0.05, @@P, 0.01; two-tailed unpaired t-test. SID, 5 mg/kg oseltamivir once daily; BID, 5 mg/kg oseltamivir twice daily.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Clinical symptoms of contact ferrets receiving 12 h post-exposure prophylaxis. (a) Proportion of uninfected contacts [*P,0.05, log-rank test (Mantel-Cox) on Kaplan-Meier curve]. (b) Percentage weight loss. (c) Body temperature. (d) Relative activity score of treated contact ferrets compared with ferrets with no intervention. (e) Virus titre in nasal washes. (f) Serum antibody titre. Contact ferrets, n \u00bc12 in each group. For (b), (c) and (d), data are mean+SEM of all individual ferrets from two independent experiments. Contact BID 12 h post-exposure versus no intervention, *P, 0.05, ***P,0.001; two-tailed unpaired t-test. BID, 5 mg/kg oseltamivir twice daily.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Clinical symptoms of untreated contact ferrets co-housed with oseltamivir-treated index ferrets 36 h post-infection (p.i.). (a) Proportion of uninfected contacts. (b) Percentage weight loss. (c) Body temperature. (d) Relative activity score of treated contact ferrets compared with ferrets with no intervention. (e) Virus titre in nasal washes. (f) Serum antibody titre. Contact ferrets, n \u00bc 12 in each group. For (b), (c) and (d), data are mean+SEM of all individual ferrets from two independent experiments. BID index 36 h p.i. versus no intervention: #P, 0.05; two-tailed unpaired t-test. BID, 5 mg/kg oseltamivir twice daily.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF3": {
+            "text": "Summary of the effectiveness of different oseltamivir regimens",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Viral load of contact ferrets following different oseltamivir dosing regimens Mean peak viral load was calculated by averaging the maximum viral titres detected in contact ferrets. b Mean day of peak viral load was calculated by averaging the day where maximum viral titre was detected in contact ferrets.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Lauren Dagley for her assistance in animal handling. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

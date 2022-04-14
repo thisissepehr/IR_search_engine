@@ -1,0 +1,235 @@
+{
+    "paper_id": "1b3d032fe3b4d7bc9d975c83b058c73c3c5143b7",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Hongyan",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Hubei Key Laboratory of Tumour Biological Behaviors",
+                    "institution": "Hubei Cancer Clinical Study Center Zhongnan Hospital of Wuhan University Wuhan",
+                    "location": {
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Conghua",
+                "middle": [],
+                "last": "Xie",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Hubei Key Laboratory of Tumour Biological Behaviors",
+                    "institution": "Hubei Cancer Clinical Study Center Zhongnan Hospital of Wuhan University Wuhan",
+                    "location": {
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yihua",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Oncology in South China",
+                    "institution": "Zhongnan Hospital of Wuhan University",
+                    "location": {
+                        "postCode": "430071",
+                        "settlement": "Wuhan",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Treatment and Outcome of a Patient With Lung Cancer Infected With Severe Acute Respiratory Syndrome Coronavirus-2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LETTERS TO THE EDITOR"
+        },
+        {
+            "text": "To the Editor: Since December 2019, an outbreak of infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) from Wuhan, China, has spread around the world causing great concern. 1,2 Currently, there is no specific treatment against this disease. A previous study has revealed that patients with cancer are at increased risks of severe infections. 3 Concerning deteriorating infection, most patients with cancer were recommended to withdraw cancer treatment after an infection. However, the risks of cancer progression make this issue controversial. Herein, we firstly reported a patient with cancer infected with SARS-CoV-2 who continued targeted therapy with stable cancer control and recovered from pneumonia after Kaletra (lopinavir/ritonavir) treatment.",
+            "cite_spans": [
+                {
+                    "start": 366,
+                    "end": 367,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "LETTERS TO THE EDITOR"
+        },
+        {
+            "text": "On January 18, 2020, a 57-year-old Chinese male patient with lung cancer presented with fever when he was hospitalized for cancer treatment. Given his contact with a confirmed case of corona virus disease 2019 (COVID-19), a throat swab was obtained for SARS-CoV-2 on real-time reverse transcription polymerase chain reaction (RT-PCR) and was found to be positive on January 26.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LETTERS TO THE EDITOR"
+        },
+        {
+            "text": "The patient was diagnosed with EGFR L858R mutant advanced adenocarcinoma and started targeted therapy with gefitinib since February 2016. After cancer progression in September 2017, EGFR T790M was detected, and osimertinib monotherapy was initiated. On December 30, 2019, the patient was admitted to the hospital for radiotherapy owing to enlarged lymph nodes. On January 18, 2020, the patient reported fever (temperature, 38.6 C), with symptoms of cough, shortness of breath, myalgia, and diarrhea after nine rounds of radiation (Fig. 1A) . Chest computed tomography (CT) scans on January 23 revealed patchy shadows in both lungs (Fig. 1B) . After treatment with cefoselis, oseltamivir, meropenem, teicoplanin, and moxifloxacin, his fever was reduced. Considering that the patient had contact history of patients with COVID-19, he underwent tests for SARS-CoV-2 on RT-PCR on January 26, and the result was positive. Thereafter, the patient started antiviral treatment with Kaletra (lopinavir/ritonavir) on January 29. CT scan after 2 weeks (February 12) revealed improved pneumonia status (Fig. 1B) . Follow-up RT-PCR tests for SARS-CoV-2 on February 1, 2, 5, and 10 revealed negative results, leading to confirmed recovery. The patient felt that his overall condition improved and was discharged from the hospital on February 14. Of note, the patient continued his targeted treatment with osimertinib because of slight discomfort during the infection period. Follow-up CT scan revealed stable lesions in both lungs, resulting in stable disease (Fig. 1B) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 530,
+                    "end": 539,
+                    "text": "(Fig. 1A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 631,
+                    "end": 640,
+                    "text": "(Fig. 1B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1090,
+                    "end": 1099,
+                    "text": "(Fig. 1B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1546,
+                    "end": 1555,
+                    "text": "(Fig. 1B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "LETTERS TO THE EDITOR"
+        },
+        {
+            "text": "This patient, despite the diagnosis of COVID-19, continued osimertinib treatment because his overall situation permitted. Intensive care, evaluation, and CT scans were performed in case of pneumonia exacerbation and cancer progression. Fortunately, stable cancer disease was observed, and the infection of SARS-CoV-2 was cured.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LETTERS TO THE EDITOR"
+        },
+        {
+            "text": "As for patients with cancer with COVID-19, whether cancer treatment should be discontinued remains debatable. Although this case firstly revealed the potential of maintaining targeted treatment in patients with good condition, further studies are in urgent need.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LETTERS TO THE EDITOR"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--733",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Cancer patients in SARS-CoV-2 infection: a nationwide analysis in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Oncol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Orange lines indicate temperature over 37.3 C, and grey lines indicate temperature not over 37.3 C. (B) Chest computed tomography scans during the patient's clinical course. Yellow arrows indicate patchy shadows in both lungs",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Sun Yat-sen University Cancer Center Guangzhou, People's Republic of China",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

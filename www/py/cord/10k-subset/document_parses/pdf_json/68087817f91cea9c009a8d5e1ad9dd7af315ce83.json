@@ -1,0 +1,2209 @@
+{
+    "paper_id": "68087817f91cea9c009a8d5e1ad9dd7af315ce83",
+    "metadata": {
+        "title": "Open Forum Infectious Diseases Surveillance Study of Influenza Occurrence and Immunity in a Wisconsin Cohort During the 2009 Pandemic \u2022 OFID \u2022 1 Open Forum Infectious Diseases \u00ae Surveillance Study of Influenza Occurrence and Immunity in a Wisconsin Cohort During the 2009 Pandemic",
+        "authors": [
+            {
+                "first": "Chia-Yun",
+                "middle": [],
+                "last": "Lo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Food and Drug Administration",
+                    "location": {
+                        "settlement": "Silver Spring, Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Susan",
+                "middle": [
+                    "L"
+                ],
+                "last": "Strobl",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Cell-Mediated Immunity",
+                    "institution": "Leidos Biomedical Research, Inc",
+                    "location": {
+                        "settlement": "Frederick",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kimberly",
+                "middle": [],
+                "last": "Dunham",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Cell-Mediated Immunity",
+                    "institution": "Leidos Biomedical Research, Inc",
+                    "location": {
+                        "settlement": "Frederick",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Food and Drug Administration",
+                    "location": {
+                        "settlement": "Silver Spring, Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lucy",
+                "middle": [],
+                "last": "Stewart",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BloodCenter of Wisconsin",
+                    "location": {
+                        "settlement": "Milwaukee",
+                        "region": "Wisconsin"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Julia",
+                "middle": [
+                    "A"
+                ],
+                "last": "Misplon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Food and Drug Administration",
+                    "location": {
+                        "settlement": "Silver Spring, Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mayra",
+                "middle": [],
+                "last": "Garcia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Food and Drug Administration",
+                    "location": {
+                        "settlement": "Silver Spring, Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jin",
+                "middle": [],
+                "last": "Gao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Food and Drug Administration",
+                    "location": {
+                        "settlement": "Silver Spring, Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tatsuhiko",
+                "middle": [],
+                "last": "Ozawa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Toyama",
+                    "location": {
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Graeme",
+                "middle": [
+                    "E"
+                ],
+                "last": "Price",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Food and Drug Administration",
+                    "location": {
+                        "settlement": "Silver Spring, Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jose",
+                "middle": [],
+                "last": "Navidad",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Steve",
+                "middle": [],
+                "last": "Gradus",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sanjib",
+                "middle": [],
+                "last": "Bhattacharyya",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Cecile",
+                "middle": [],
+                "last": "Viboud",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Bethesda",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Maryna",
+                "middle": [
+                    "C"
+                ],
+                "last": "Eichelberger",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Food and Drug Administration",
+                    "location": {
+                        "settlement": "Silver Spring, Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carol",
+                "middle": [
+                    "D"
+                ],
+                "last": "Weiss",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Food and Drug Administration",
+                    "location": {
+                        "settlement": "Silver Spring, Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jack",
+                "middle": [],
+                "last": "Gorski",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "BloodCenter of Wisconsin",
+                    "location": {
+                        "settlement": "Milwaukee",
+                        "region": "Wisconsin"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Suzanne",
+                "middle": [
+                    "L"
+                ],
+                "last": "Epstein",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Food and Drug Administration",
+                    "location": {
+                        "settlement": "Silver Spring, Maryland"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Influenza causes widespread morbidity and mortality, especially during pandemics. Current strain-matched vaccines leave public health gaps due to the long lead time for strain selection, vaccine production, and distribution. Universal influenza vaccines inducing broad (heterosubtypic) immunity could protect against diverse strains and even different subtypes of virus, and they could be available off-the-shelf early in an outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Broad cross-protection to influenza has long been studied in animals (reviewed in [1] ). Prior immunity to other strains does not prevent infection, but it greatly reduces morbidity and mortality. Extensive literature documents the ability of conserved antigens including nucleoprotein (NP) and matrix 2 (M2) to induce cross-protection [2] [3] [4] [5] [6] [7] , and there is evidence that cross-protective vaccination reduces transmission [8] . Nonneutralizing antibodies may also protect [9] [10] [11] perhaps by antibody-dependent cell-mediated cytotoxicity [9, 11] .",
+            "cite_spans": [
+                {
+                    "start": 82,
+                    "end": 85,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 336,
+                    "end": 339,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 340,
+                    "end": 343,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 344,
+                    "end": 347,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 348,
+                    "end": 351,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 352,
+                    "end": 355,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 356,
+                    "end": 359,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 439,
+                    "end": 442,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 489,
+                    "end": 492,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 493,
+                    "end": 497,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 498,
+                    "end": 502,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 560,
+                    "end": 563,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 564,
+                    "end": 567,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Cross-protection in humans is more controversial. Human T-cell memory responses to conserved influenza antigens are well documented, and they cross-react with virus strains the individuals have never encountered [12] [13] [14] . However, there is skepticism about whether T cells protect against disease [15] . Linking immunity to protection requires challenge or surveillance studies, and such evidence has accumulated gradually.",
+            "cite_spans": [
+                {
+                    "start": 212,
+                    "end": 216,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 222,
+                    "end": 226,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 304,
+                    "end": 308,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A classic human study found that, in donors lacking neutralizing antibodies, pre-existing cytotoxic T-cell levels against influenza correlated with reduced virus shedding but not reduced symptoms after influenza virus challenge [16] . Epidemiological studies of the 1957 pandemic, an H1N1 to H2N2 shift, suggested cross-protection, but these studies were too small for statistical significance [17] or lacked laboratory confirmation of self-reported symptoms [18] . A human challenge study found a correlation of CD4 (but not CD8) memory with reduced illness duration, viral shedding, and symptom severity [19] .",
+            "cite_spans": [
+                {
+                    "start": 228,
+                    "end": 232,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 394,
+                    "end": 398,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 459,
+                    "end": 463,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 606,
+                    "end": 610,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The 2009 influenza pandemic provided a rare opportunity to investigate cross-protection in humans, and several studies were performed. Some people >60 years old had neutralizing antibodies to the new virus [20] . In addition, there is evidence for protection by mechanisms other than neutralizing antibodies. A study in Hong Kong showed that previous seasonal influenza infection protected significantly against pandemic influenza infection (pH1N1) despite the absence of pH1N1-neutralizing antibodies [21] . A surveillance study found a correlation of CD8 T-cell memory with reduced symptom severity [22] . The UK Flu Watch study found that T-cell immunity to NP protected against symptomatic, polymerase chain reaction (PCR)-confirmed pH1N1 infection [23] .",
+            "cite_spans": [
+                {
+                    "start": 206,
+                    "end": 210,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 502,
+                    "end": 506,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 601,
+                    "end": 605,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 753,
+                    "end": 757,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This report describes a study planned while the pandemic was emerging in spring, 2009, with the hope of evaluating cross-protection. We established a cohort, collected baseline samples, monitored donors for symptoms, and collected follow-up samples. Banked samples were used to characterize pre-existing antibody and T-cell immunity cross-reactive with the pH1N1 virus and responses to infection. The relative mildness of the pandemic was fortunate for public health but resulted in relatively few infections in this cohort. We characterize baseline donor T-cell and antibody responses reactive with pH1N1 plus certain follow-up parameters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The study was approved by the BloodCenter of Wisconsin Institutional Review Board and the US Food and Drug Administration Research in Human Subjects Committee. Healthy blood donors were enrolled and consented to the research study. At baseline, a blood donation and questionnaire about influenza vaccination or symptoms were collected. Peripheral blood mononuclear cells (PBMC) and sera were frozen. Donors were instructed to contact study personnel immediately if they experienced influenza-like symptoms. Influenza-like illness (ILI) was defined by fever \u226537.8\u00b0C and 2 other influenza symptoms listed by the Centers for Disease Control and Prevention ([CDC] http://www.cdc.gov/ h1n1flu/symptoms.htm). Donors reporting ILI symptoms were visited by a study nurse the same day or the next day to collect nasal swabs, 50 mL of blood, vital signs, and a questionnaire about influenza vaccination and symptoms. The donor was asked to donate 50 mL of blood 7 and 14 days later. At subsequent blood donations, sample banking and questionnaires were repeated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Donor Cohort, Sample Banking, and Surveillance"
+        },
+        {
+            "text": "Viral ribonucleic acid (RNA) was extracted from nasal swabs using the MagNA Pure Compact RNA isolation kit (Roche Applied Science, Indianapolis, IN) according to the manufacturer's instructions. Polymerase chain reaction was performed using the CDC real-time reverse transcriptase-PCR Swine Flu Panel for detection and characterization of pH1N1 influenza viruses from donor specimens.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Real-Time, Polymerase Chain Reaction"
+        },
+        {
+            "text": "Hemagglutination inhibition (HI) [24] was performed in batches at the City of Milwaukee Health Department using pH1N1 strain A/CA/04/09, later replaced with A/CA/07/09 NYMC X-179A, and guinea pig red blood cells (RBC). Additional HI testing was performed at the Center for Biologics Evaluation and Research on available sera using A/CA/07/09 NYMC X-179A and turkey RBC.",
+            "cite_spans": [
+                {
+                    "start": 33,
+                    "end": 37,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hemagglutination Inhibition and Neuraminidase Inhibition Antibody Testing"
+        },
+        {
+            "text": "Neuraminidase inhibition (NI) was measured by enzymelinked lectin assay [25] . To eliminate effects of hemagglutinin (HA) cross-reactivity, a reassortant with H6 from A/turkey/ Massachusetts/3740/1965 (H6N2), 6 internal genes from PR8, and neuraminidase (NA) from A/CA/04/09 (same NA as in X-179A) was used.",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 76,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hemagglutination Inhibition and Neuraminidase Inhibition Antibody Testing"
+        },
+        {
+            "text": "Postseason antibody testing was performed on samples collected at the next blood donation visit, and only donors with such samples were considered evaluable for infection. Seroconversion was defined as \u22654-fold increase in HI or NI titer. We followed standard criteria for vaccine seroconversion [26] also used in some studies of infection [27] , under which an increase from <1:10 to 20 does not qualify as 4-fold. ",
+            "cite_spans": [
+                {
+                    "start": 295,
+                    "end": 299,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 339,
+                    "end": 343,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hemagglutination Inhibition and Neuraminidase Inhibition Antibody Testing"
+        },
+        {
+            "text": "Peripheral blood mononuclear cells were cultured in triplicate for 24 hours with stimulating peptide pools containing 2 \u00b5g/mL of each peptide, in anti-interferon (IFN)-\u03b3-coated plates. Spots were developed with biotinylated anti-IFN-\u03b3 antibody, streptavidin-alkaline phosphatase, and substrate. Results were calculated as spot-forming cells (SFC) per 10 6 above background for cells with medium alone. The standardized enzyme-linked immunospot (ELISPOT) protocol always included responses of the same 2 reference donors to CEF control peptides. These PBMC reference samples were banked frozen cells from a moderate responder and a low responder, thus representing a robust response and a response with sensitivity near the detection limit. Results demonstrate a high degree of consistency among assays and stability of frozen PBMC (Supplementary Figure 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 846,
+                    "end": 855,
+                    "text": "Figure 1)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Interferon-\u03b3 Enzyme-Linked Immunospot"
+        },
+        {
+            "text": "The cell surface flow cytometric assay (M2-CFA) [28] was used to measure antibodies to cell surface M2. 293FT transfectants expressing M2 of A/Panama/2007/99 (H3N2) (termed HM2) and A/CA/04/09 (pH1N1) (termed SWM2) were generously provided by Weimin Zhong (Centers for Disease Control and Prevention, Atlanta, GA). Positive control human monoclonal antibody (mAb) Ab1-10 was made at University of Toyama. Results are expressed as units (normalized % M2+ cells) = [(percentage with test serum sample on transfected cells \u2212 percentage with sample on untransfected cells)/(percentage with positive mAb on transfected cells \u2212 percentage with positive mAb on untransfected cells)] \u00d7 100.",
+            "cite_spans": [
+                {
+                    "start": 48,
+                    "end": 52,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "M2 Protein Antibody Testing"
+        },
+        {
+            "text": "Enzyme-linked immunosorbent assays (ELISA) were performed on plates coated with recombinant NP (rNP) of the Wisconsin 2009 pH1N1 consensus sequence, A/Brisbane/10/2007(H3N2), or A/PR/8/34(H1N1). Optical density (OD) was measured at 405 nm. Endpoint titers were defined as the greatest dilution with OD \u22650.1 after background subtraction.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nucleoprotein Antibody Testing"
+        },
+        {
+            "text": "The luciferase reporter assay using constructs expressing H1 HA from H1N1 viruses A/Mexico/4108/2009 (pH1N1), A/ Solomon Islands/3/2006 (SI/06), A/New Caledonia/20/1999 (NC/99), and A/Brisbane/59/2007 (BR/07), and H5 HA from A/Vietnam/1203/2004 (VN/04), has been described previously [29] . Titers were expressed as relative luminescence units/mL supernatant (RLU/mL). Neutralization was tested as described [30] using duplicates. The 95% inhibitory titer (IC95) = dilution causing 95% reduction of RLU compared with control, and this was calculated using GraphPad Prism.",
+            "cite_spans": [
+                {
+                    "start": 284,
+                    "end": 288,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 408,
+                    "end": 412,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hemagglutinin-Pseudotype Neutralization Assay"
+        },
+        {
+            "text": "Two-tailed Student t test, Pearson correlation, and linear regression were performed in SigmaPlot 13. Pseudovirus neutralization titer changes between groups were evaluated by Mann-Whitney U test using GraphPad Prism. P values <.05 were considered statistically significant. Discriminant analysis and principal component analysis were used to explore multivariate associations between immunologic parameters and disease outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "For additional details of all methods, see Supplementary Methods.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The cohort enrolled 182 people, 117 of whom were evaluable for infection (HI and NI antibody results for paired baseline and follow-up sera available). Table 1 shows donor age, gender, and infections. Pandemic (pH1N1) infections were defined by real-time PCR detecting pH1N1 in swabs of donors with ILI or by HI or NI seroconversion as defined in Methods, without vaccination against pH1N1. Of 36 donors reporting symptoms, 21 met the definition of ILI and had swabs collected the day of reporting symptoms or the next day, and these were tested by PCR. Of those, 5 had PCR-confirmed pH1N1. Seroconversion detected 2 additional pH1N1 infections in PCR-negative donors with ILI symptoms; presumably, viral shedding was low or missed by swab timing. These 7 cases are termed \"pH1N1+ILI. \" Donors with ILI symptoms but negative PCR and no seroconversion are termed \"non-pH1N1 febrile illness. \" Six pH1N1 infections were detected by seroconversion in donors asymptomatic or reporting symptoms milder than ILI. They are termed \"mild/asymptomatic. \"",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 159,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Surveillance Results"
+        },
+        {
+            "text": "Responses of 153 donors are shown in Figure 1A ; To assess linkage to reduction in symptoms, baseline T-cell results were compared for donors later infected with pH1N1 who had ILI (pH1N1+ILI; Figure 1B ) versus those with mild/ asymptomatic infections ( Figure 1C ). There was a trend toward greater T-cell responses in the mild/asymptomatic group, but the difference was not statistically significant. We also compared our 2 small groups of infected donors for IFN-\u03b3 responses to the peptides with which other investigators found T-cell differences: NP pools only rather than total ELISPOT in the case of Hayward et al [23] , and NP, M, PB1 9-mer peptides from the Biodefense [22] . Differences between the pH1N1+ILI and mild/asymptomatic groups were not significant for these measures (data not shown).",
+            "cite_spans": [
+                {
+                    "start": 620,
+                    "end": 624,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 37,
+                    "end": 46,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 192,
+                    "end": 201,
+                    "text": "Figure 1B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 254,
+                    "end": 263,
+                    "text": "Figure 1C",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Pre-existing T-Cell Immunity to the Pandemic Strain"
+        },
+        {
+            "text": "We analyzed pre-existing antibodies to highly conserved antigens NP and M2, which are known to provide cross-protection in animal models. Nucleoprotein is highly conserved among viral strains. Some antibodies can distinguish pH1N1 NP from earlier strains [31] , but polyclonal sera like ours mainly detect shared epitopes. Enzyme-linked immunosorbent assay was performed on rNP proteins of A/Brisbane/10/2007(H3N2), A/ PR/8/34(H1N1), and pH1N1. The distribution of baseline endpoint titers is shown in Figure 2 . Most donors had titers of 1280 or 5120. Titers on the 3 NP strains for individual sera were identical or differed by only 1 dilution. Antibodies recognizing cell surface conformational epitopes of M2 [32] are more broadly cross-reactive and protective in passive protection than those recognizing linear epitopes [33] . For that reason, we used the M2-CFA and transfectants of Zhong et al [28] to measure antibodies to cell surface \"human M2\" (HM2) from A/Panama/2007/99 (H3N2) or \"swine M2\" (SWM2) from A/CA/04/09 (pH1N1). Human mAb Ab1-10, which recognizes M2 of seasonal, pandemic, and avian viruses and inhibits pandemic virus plaques [34] , was used as a positive control.",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 259,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 713,
+                    "end": 717,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 826,
+                    "end": 830,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 902,
+                    "end": 906,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1152,
+                    "end": 1156,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 502,
+                    "end": 510,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Baseline Antibody Reactivity to Highly Conserved Antigens"
+        },
+        {
+            "text": "The M2 antibody results are shown in Figure 3 . Using 3 units as the threshold of positivity as defined by others [35] , 60 of 136 donors (44%) were positive on SWM2 at baseline, and 92 of 136 (68%) were positive on HM2. For SWM2, the median level in positive donors was 6.3 units for age <40 and 10.6 units for age \u226540 (not significantly different). Regarding cross-reactivity of individual sera on HM2 and SWM2, approximately half recognized both forms. Of the rest, more donors recognized only HM2, and a few recognized only SWM2.",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 118,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 37,
+                    "end": 45,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Baseline Antibody Reactivity to Highly Conserved Antigens"
+        },
+        {
+            "text": "Pseudotype neutralization is a sensitive assay for neutralizing antibodies against influenza HA. In some cases, this assay can detect antibodies missed by HI assays, including antibodies to HA stem epitopes. We tested sera using vectors pseudotyped with HA of pH1N1, VN/04 (H5N1), and 3 seasonal H1N1 strains. Donor sera had no or only marginal activity on the H5N1 pseudotype, which would detect antibody to conserved HA stem or head epitopes (data not shown).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hemagglutinin-Pseudotype Neutralizing Antibodies"
+        },
+        {
+            "text": "Testing of baseline and follow-up sera from donors with febrile illnesses revealed a novel relationship. Donors with pH1N1+ILI had increases in titer not only on the pH1N1 construct but also on seasonal H1N1 strains NC/99, SI/06, and BR/07 ( Figure 4A ), suggesting either bystander memory activation or antibody cross-reactivity. In donors with non-pH1N1 febrile illness ( Figure 4B ), the changes in titers on NC/99 were variable, whereas the bystander increase on SI/06 and BR/07 was not seen ( Figure 4C ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 242,
+                    "end": 251,
+                    "text": "Figure 4A",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 374,
+                    "end": 383,
+                    "text": "Figure 4B",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 498,
+                    "end": 507,
+                    "text": "Figure 4C",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Hemagglutinin-Pseudotype Neutralizing Antibodies"
+        },
+        {
+            "text": "We originally hoped to study T-cell cross-protection that might reduce symptom severity, but we also measured a variety of other parameters of pre-existing immunity (antibodies to NP, M2, and HA pseudotypes, as well as T-cell responses to individual peptide pools). For statistical comparison of so many variables, we performed exploratory principal component and discriminant analyses. These analyses did not reveal any significant relationships of antibody or T-cell parameters at baseline with occurrence of pH1N1 infection or with symptom severity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exploratory Multivariate Analyses"
+        },
+        {
+            "text": "We had defined pH1N1 infection by PCR-positive results for pH1N1 or seroconversion as described in Methods, and we did not modify that prospective definition on the basis of this exploration. However, because some infections could be missed by that definition, we explored a T-cell marker of infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exploratory Study of a T-Cell Marker"
+        },
+        {
+            "text": "Human T-cell responses to NP 418-426 distinguish the pH1N1 sequence LPFERATVM from earlier variants [36] . In one donor who had neither reported illness nor received pandemic vaccine, there was low baseline T-cell reactivity to pH1N1 NP 418-426 , followed by a striking rise and sustained reactivity ( Figure 5 ). At the same time, this donor had increases in total T-cell ELISPOT to pH1N1 (25 pools) and in antibodies to pH1N1 HA pseudotype, pH1N1 NP, and SWM2. Most likely the donor was infected with pH1N1. Thus, in this case, the NP 418-426 T-cell assay provided more sensitive detection than HI and NI. Note that donors of a certain human leukocyte antigen (HLA)-B family [36] react to this peptide, but not all donors. Thus, this marker could not be used alone for screening purposes but perhaps as part of a group of markers. We describe it as an interesting case study and proof-of-concept for this type of testing. ). One hundred thirty-seven donor sera were tested; each circle represents 1 donor. The solid red circles represent values above a 3% threshold considered positive. Open black circles are considered negative. Values <0 reflect more binding to untransfected cells than to transfected cells (see Methods), which is presumably nonspecific.",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 104,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 302,
+                    "end": 310,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Exploratory Study of a T-Cell Marker"
+        },
+        {
+            "text": "This study was organized to analyze the role of pre-existing immunity to conserved epitopes in protection against a novel influenza virus strain. Blood donors provide the advantage of large PBMC samples permitting extensive T-cell analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In addition, we performed testing for antibodies to M2, NP, NA, and conserved regions of HA, which could play roles in cross-protection against new influenza virus strains. Pre-existing T-cell responses to pH1N1 antigens were detected in most individuals, at widely varying levels. As discussed by Sridhar et al [22] , cross-protective T-cell immunity would be expected to reduce severity but not necessarily to completely prevent infection. We compared donors with milder versus more severe symptoms. Although there was a trend toward greater T-cell responses in the mild/asymptomatic group, too few infections had occurred in the cohort for testing of hypotheses about T-cell protection. Our projections of prevalence and protection called for larger numbers of donors, but we could only recruit and bank samples at a certain pace during the outbreak.",
+            "cite_spans": [
+                {
+                    "start": 312,
+                    "end": 316,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Note that the age distribution of our study (mostly over age 40) differs from the Sridhar et al [22] cohort (predominance under age 40), the Hayward et al [23] cohort (household members of all ages), and a study of cellular immunity and seasonal influenza in children [37] . Although age may alter responses and correlates of protection, the most likely reason we did not The titer changes of each tested virus were compared between non-ILI and ILI groups by Mann-Whitney U test. P values <.05 were considered statistically significant. The horizontal lines represent group means. If the 1 high outlier in the pH1N1+ILI group was excluded, the differences were still significant for SI/06, BR/07, and pH1N1 and remained non-significant for NC/99, as decribed previously.",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 155,
+                    "end": 159,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 268,
+                    "end": 272,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "detect similar correlations of T-cell reactivity with outcomes was that we had too few infected donors. Protective mechanisms in animal models include antibodies to influenza NP and M2. Although NP is highly conserved, occasional antibodies recognize pH1N1 NP but not NP from seasonal viruses [31, 38] . Our ELISA with polyclonal sera mainly detects the common antibodies to shared epitopes. Therefore, it was not surprising that donor baseline sera had substantial, similar anti-NP antibody titers on pandemic and seasonal sequences.",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 297,
+                    "text": "[31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 298,
+                    "end": 301,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Approximately two thirds of donors had pre-existing antibodies in baseline sera reactive with HM2 and 44% with SWM2. Age dependence of the levels and frequency of M2 antibodies was reported by Zhong et al [35] , and the levels in subjects above and below age 40 were different. In our cohort, 65% of donors were 40 or older, and there was a trend towards age dependence, but this was not significant.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 209,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Pseudotype-neutralizing antibodies to pandemic HA were detected in baseline sera. Hemagglutinin stem antibodies could provide a mechanism of cross-protection [39] , but the sera had no or only marginal activity on an H5N1 pseudotype. Thus, pre-existing antibodies to widely shared HA stem epitopes were marginal by this assay, although they might be detected in binding assays.",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 162,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Baseline and follow-up sera were also tested for HA-pseudotype neutralizing antibodies to seasonal strains and revealed a novel relationship. pH1N1+ILI was followed by sharp rises in neutralizing titers for most seasonal HA constructs tested. In contrast, other febrile respiratory infections resulted in increased activity, if at all, restricted to NC/99. Perhaps some antibodies to pH1N1 HA cross-react on SI/06 and BR/07 HAs. Alternatively, the innate response to pandemic infection may be more vigorous than to the non-pH1N1 febrile illnesses, resulting in more activation of bystander B-cell memory. Note that the NC/99 strain was prevalent and used in the vaccine for 7 years, rather than 1 year for SI/06 or 2 years for BR/07 [40] , so there may be larger memory populations to NC/99.",
+            "cite_spans": [
+                {
+                    "start": 733,
+                    "end": 737,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "To detect additional pH1N1 infections missed by standard means, we explored as a T-cell marker the response to NP 418-426 , which distinguishes the pH1N1 sequence (LPFERATVM) from other strains. We identified a donor with results suggesting infection with pH1N1 but who did not meet our predetermined definition. As commonly accepted, a 2-fold rise in HI or NI titer is not reliable enough to score as infection, but such a donor may indeed be infected. The increase in NP 418-426 T-cell response was dramatic rather than marginal. Although this parameter cannot be used alone for screening purposes due to HLA restriction, it could perhaps serve as part of a panel of markers for confirmatory analysis in specific cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Several studies have provided evidence for human cross-protection against pandemic influenza by pre-existing immunity [21] [22] [23] . Those findings reinforce the possibility that conserved antigen vaccines might be effective in humans. Crossprotection may involve multiple influenza virus target antigens and immune mechanisms, both humoral and cellular. The cohort described here documents a wide range of parameters of pre-existing cross-reactive immunity to pandemic virus antigens. Their roles can be explored further in studies of universal vaccine candidates.",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 122,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 123,
+                    "end": 127,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSIONS"
+        },
+        {
+            "text": "Supplementary materials are available at Open Forum Infectious Diseases online. Consisting of data provided by the authors to benefit the reader, the posted materials are not copyedited and are the sole responsibility of the authors, so questions or comments should be addressed to the corresponding author. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Data"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Cross-protective immunity to influenza A viruses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Price",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Expert Rev Vaccines",
+            "volume": "9",
+            "issn": "",
+            "pages": "1325--1366",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Heterologous protection against influenza by injection of DNA encoding a viral protein",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ulmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Donnelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Parker",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Science",
+            "volume": "259",
+            "issn": "",
+            "pages": "1745--1754",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Vaccination focusing immunity on conserved antigens protects mice and ferrets against virulent H1N1 and H5N1 influenza A viruses",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Soboleski",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Vaccine",
+            "volume": "27",
+            "issn": "",
+            "pages": "6512--6533",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Single-dose mucosal immunization with a candidate universal influenza vaccine provides rapid protection from virulent H5N1, H3N2 and H1N1 viruses",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Soboleski",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PLoS One",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Protection against multiple influenza A subtypes by vaccination with highly conserved nucleoprotein",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Misplon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Vaccine",
+            "volume": "23",
+            "issn": "",
+            "pages": "5404--5414",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A universal influenza A vaccine based on the extracellular domain of the M2 protein",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Neirynck",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Deroo",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Saelens",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Nat Med",
+            "volume": "5",
+            "issn": "",
+            "pages": "1157--63",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Protection of mice against influenza A virus challenge by vaccination with baculovirus-expressed M2 protein",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Slepushkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Black",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Vaccine",
+            "volume": "13",
+            "issn": "",
+            "pages": "1399--402",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Mucosal immunization with a candidate universal influenza vaccine reduces virus transmission in a mouse model",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Misplon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "6019--6049",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Cross-reactive influenza-specific antibody-dependent cellular cytotoxicity antibodies in the absence of neutralizing antibodies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jegaskanda",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Job",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kramski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Immunol",
+            "volume": "190",
+            "issn": "",
+            "pages": "1837--1885",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Contributions of antinucleoprotein IgG to heterosubtypic immunity against influenza virus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lamere",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Moquin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Immunol",
+            "volume": "186",
+            "issn": "",
+            "pages": "4331--4340",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Influenza virus A(H1N1)2009 antibody-dependent cellular cytotoxicity in young children prior to the H1N1 pandemic",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mesman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Westerhuis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ten",
+                    "middle": [],
+                    "last": "Hulscher",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Gen Virol",
+            "volume": "97",
+            "issn": "",
+            "pages": "2157--65",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Human CD8+ and CD4+ T lymphocyte memory to influenza A viruses of swine and avian species",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jameson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cruz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Terajima",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ennis",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J Immunol",
+            "volume": "162",
+            "issn": "",
+            "pages": "7578--83",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Healthy human subjects have CD4+ T cells directed against H5N1 influenza virus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Roti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Berger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Immunol",
+            "volume": "180",
+            "issn": "",
+            "pages": "1758--68",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Memory T cells established by seasonal human influenza A infection cross-react with avian influenza A (H5N1) in healthy individuals",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ha Do",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Simmons",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Clin Invest",
+            "volume": "118",
+            "issn": "",
+            "pages": "3478--90",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "H1N1: can a pandemic cycle be broken?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Settembre",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dormitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rappuoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Sci Transl Med",
+            "volume": "2",
+            "issn": "",
+            "pages": "24--38",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Cytotoxic T-cell immunity to influenza",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcmichael",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gotch",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Noble",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Beare",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "N Engl J Med",
+            "volume": "309",
+            "issn": "",
+            "pages": "13--20",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Prior H1N1 influenza infection and susceptibility of Cleveland Family Study participants during the H2N2 pandemic of 1957: an experiment of nature",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Infect Dis",
+            "volume": "193",
+            "issn": "",
+            "pages": "49--53",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The effect of a previous attack of A1 influenza on susceptibility to A2 virus during the 1957 outbreak",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Slepushkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1959,
+            "venue": "Bull World Health Organ",
+            "volume": "20",
+            "issn": "",
+            "pages": "297--301",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Preexisting influenza-specific CD4+ T cells correlate with disease protection against influenza challenge in humans",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nat Med",
+            "volume": "18",
+            "issn": "",
+            "pages": "274--80",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Serum cross-reactive antibody response to a novel influenza A (H1N1) virus after vaccination with seasonal influenza vaccine",
+            "authors": [],
+            "year": 2009,
+            "venue": "Centers for Disease Control and Prevention (CDC)",
+            "volume": "58",
+            "issn": "",
+            "pages": "521--525",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Protective efficacy of seasonal influenza vaccination against seasonal and pandemic influenza virus infection during 2009 in Hong Kong",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Clin Infect Dis",
+            "volume": "51",
+            "issn": "",
+            "pages": "1370--1379",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Cellular immune correlates of protection against symptomatic pandemic influenza",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sridhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Begom",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bermingham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat Med",
+            "volume": "19",
+            "issn": "",
+            "pages": "1305--1317",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Natural T cell-mediated protection against seasonal and pandemic influenza. Results of the Flu Watch Cohort Study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hayward",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Goonetilleke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "191",
+            "issn": "",
+            "pages": "1422--1453",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "World Health Organization. Manual of Animal Influenza Diagnosis and Surveillance",
+            "authors": [],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "An optimized enzyme-linked lectin assay to measure influenza A virus neuraminidase inhibition antibody titers in human sera",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Couzens",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Westgeest",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Virol Methods",
+            "volume": "210",
+            "issn": "",
+            "pages": "7--14",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Guidance for Industry: Clinical Data Needed to Support the Licensure of Seasonal Inactivated Influenza Vaccines",
+            "authors": [],
+            "year": 2007,
+            "venue": "Division of Vaccines and Related Product Applications, US Dept. of Health and Human Services, Food and Drug Administration",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Factors associated with maintenance of antibody responses to influenza vaccine in older, community-dwelling adults",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Talbot",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BMC Infect Dis",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Development and evaluation of an M2-293FT cellbased flow cytometric assay for quantification of antibody response to native form of matrix protein 2 of influenza A viruses",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Immunol Methods",
+            "volume": "369",
+            "issn": "",
+            "pages": "115--139",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Cross-neutralizing antibodies to pandemic 2009 H1N1 and recent seasonal H1N1 influenza A strains influenced by a mutation in hemagglutinin subunit 2",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Feo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS Pathog",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Characterization of lentiviral pseudotypes with influenza H5N1 hemagglutinin and their performance in neutralization assays",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Virol Methods",
+            "volume": "165",
+            "issn": "",
+            "pages": "305--315",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Discrimination of influenza A subtype by antibodies recognizing host-specific amino acids in the viral nucleoprotein",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Miyoshi-Akiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yamashiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Mai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Influenza Other Respir Viruses",
+            "volume": "6",
+            "issn": "",
+            "pages": "434--475",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Influenza A virus infection engenders a poor antibody response against the ectodomain of matrix protein 2",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mozdzanowska",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Virol J",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Human antibodies reveal a protective epitope that is highly conserved among human and nonhuman influenza A viruses",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Grandea",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Olsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "107",
+            "issn": "",
+            "pages": "12658--63",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Characterization of a fully human monoclonal antibody against extracellular domain of matrix protein 2 of influenza A virus",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ozawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tajiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Antiviral Res",
+            "volume": "91",
+            "issn": "",
+            "pages": "283--290",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Serum antibody response to matrix protein 2 following natural infection with 2009 pandemic influenza A(H1N1) virus in humans",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Blair",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Infect Dis",
+            "volume": "209",
+            "issn": "",
+            "pages": "986--94",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Cross-reactive CD8+ T-cell immunity between the pandemic H1N1-2009 and H1N1-1918 influenza A viruses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gras",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kedzierski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Valkenburg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "107",
+            "issn": "",
+            "pages": "12599--604",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Correlation of cellular immune responses with protection against culture-confirmed influenza virus in young children",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Forrest",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Pride",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dunning",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Clin Vaccine Immunol",
+            "volume": "15",
+            "issn": "",
+            "pages": "1042--53",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Development of an immunochromatographic assay specifically detecting pandemic H1N1 (2009) influenza virus",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Miyoshi-Akiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Narahara",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mori",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Clin Microbiol",
+            "volume": "48",
+            "issn": "",
+            "pages": "703--711",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "An intranasal virus-like particle vaccine broadly protects mice from multiple subtypes of influenza A virus",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schwartzman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cathcart",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pujanauski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "mBio",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "The evolving history of influenza viruses and influenza vaccines",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hannoun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Expert Rev Vaccines",
+            "volume": "12",
+            "issn": "",
+            "pages": "1085--94",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "17-mer peptides spanning all proteins of pH1N1 were prepared using a consensus of GenBank sequences of Wisconsin pandemic viruses isolated from June to December 2009 and used as 25 pools (Supplementary",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Cellular immunity to pandemic influenza virus (pH1N1) antigens in donor baseline peripheral blood mononuclear cells. Responses were measured by interferon (IFN)-\u03b3 enzyme-linked immunospot (ELISPOT). Stimulation used 25 pH1N1 2009 peptide pools (see Methods and Supplementary Table 1), at 2 \u03bcg/mL final concentration of each peptide in the culture. A standard CEF peptide pool and phytohemagglutinin were used as positive controls, and media alone was used as negative control. Spots were counted 24 hours later. Bars show responses for individual donors as IFN-\u03b3 spot-forming cells (SFC)/10 6 cells above background. Colored segments of bars indicate antigen recognized. (A) Responses at the baseline time point for 153 donors (not all of whom were evaluable for infection because some lacked follow-up serum samples). (B and C) Responses at the baseline time point in those donors later infected with pH1N1, grouped for symptoms of differing severity. Due to limited availability of cells, certain infected donors were not tested with the 25 peptide pools and thus are not shown. (B) Infected donors with influenza-like illness (ILI) symptoms. (C) Donors with milder or no symptoms. Total IFN-\u03b3 ELISPOT response did not differ significantly between the ILI and mild/asymptomatic groups, P = .127 by 2-tailed Student t test.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Antibodies to nucleoprotein (NP) in donor baseline sera. Enzyme-linked immunosorbent assay was performed as described under Methods on recombinant NP protein of 3 types: A/Brisbane/10/2007 (H3N2), our consensus sequence of Wisconsin 2009 pandemic influenza virus (pH1N1), and A/PR/8/34. One hundred forty-eight donor sera were tested. Endpoint titer was defined as the greatest dilution with optical density \u22650.1 after subtraction of background (average of secondary antibody alone in 5 antigen-coated wells).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Antibodies to matrix 2 (M2) in donor baseline sera. Antibodies were measured and units calculated as described under Methods using the cell surface flow cytometric assay (M2-CFA) of Zhong et al [28], stable transfectants expressing full-length M2 from A/CA/04/09 (pandemic influenza virus [pH1N1]; SWM2 [A]) and A/Panama/2007/99 (H3N2; HM2 [B]",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Hemagglutinin (HA) pseudotype-neutralizing antibodies in baseline sera. Hemagglutinin pseudotype-neutralizing antibodies were measured by the reporter assay described under Methods, using constructs with the HAs of A/Solomon Islands/3/2006 (SI/06, black circles), A/Brisbane/59/2007 (BR/07, green squares), A/New Caledonia/20/1999 (NC/99, red triangles), and A/Mexico/4108/2009 (pandemic influenza virus [pH1N1], blue diamonds). Donor numbers shown are arbitrary. Sera were tested at baseline and follow-up time points. The times of infection are indicated by black triangles for swab date. For the time period shown, none of the donors reported seasonal influenza vaccination, and available hemagglutination inhibition data showed no seroconversion to seasonal H1N1 viruses. (A) pH1N1-infected donors. Increases in titer on pH1N1 postinfection are hard to see for some donors because the 95% inhibitory titer (IC95) scale was chosen to cover the range of all pseudovirus strains, but fold increases are shown in C. (B) pH1N1-negative influenza-like illness (ILI) donors. Little change except for NC/99. (C) Comparison of groups for maximum fold titer increases between baseline and follow-up after febrile illness.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Marker of infection in a donor not meeting the pre-established definition of pandemic influenza infection (pH1N1). (A) Time course of enzyme-linked immunospot response to peptide nucleoprotein (NP) 418-426 with the pandemic sequence, versus human immunodeficiency virus gag control peptide. (B) Summary of changes in other immune parameters between baseline (time point A) and follow up (time point B). ELISA, enzyme-linked immunosorbent assay; HI, hemagglutination inhibition; HIV, human immunodeficiency virus; IC95, 95% inhibitory titer; NI, neuraminidase inhibition; RBC, red blood cells; SFC, spot-forming cells; SF09, swine flu 2009 (pH1N1).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". 17-mers were chosen to permit detection of both CD4 and CD8 responses. The peptides for the 25 pools and pH1N1 NP 418-426 variant LPFERATVM were synthesized by GenScript (Piscataway, NJ). Human immunodeficiency virus-Gag SLYNTVATL was obtained from New England Peptide (Gardner, MA). A mixture of cytomegalovirus, Epstein-Barr virus, and influenza peptides ([CEF] Mabtech, Mariemont, OH) served as a control.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "other donors had inadequate PBMC samples for complete T-cell testing. The rank order of response to the 25 peptide pools and average response are shown in Supplementary Table 1. Every influenza protein elicited responses from some donors. For individual donors, summed responses to all 25 pools ranged from 47 to 5004 SFC/10 6 cells. Total response did not correlate with age (data not shown).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Donor Population Demographics aAbbreviations: HI, hemagglutination inhibition; NI, neuraminidase inhibition; pH1N1, pandemic influenza. a Table includes only donors evaluable for seroconversion (HI and/or NI results available for both baseline and follow-up serum samples). Donors with either a baseline serum or a follow-up serum but not both were considered not evaluable for infection and excluded.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank the donors for participating. We thank Vi Nguyen-Liu and Va Xiong for technical work at the BloodCenter of Wisconsin, Lone Simonsen (George Washington University) for initial estimates of population size, Drs. A. Muraguchi and H. Kishi for their supervisory roles at the University of Toyama and for making it possible for us to obtain mAb1-10, Anatoli Malyguine for his management role at SAIC, Inc., Frederick, Maryland, and Robert Gaffey for assistance with multivariate analysis. We also thank Ira Berkower and Andrew Byrnes for helpful review comments.Financial support. This work was funded by the US Food and Drug Administration Chief Scientist's Challenge Grant, Center for Biologics Evaluation and Research Pandemic Influenza Program, and Department of Health and Human Services Medical Countermeasures Initiative.Potential conflicts of interest. All authors: No reported conflicts. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

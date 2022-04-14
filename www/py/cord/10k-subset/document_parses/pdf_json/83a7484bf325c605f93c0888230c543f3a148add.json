@@ -1,0 +1,1396 @@
+{
+    "paper_id": "83a7484bf325c605f93c0888230c543f3a148add",
+    "metadata": {
+        "title": "Epidemiology in History The 1918 Influenza Pandemic: Looking Back, Looking Forward",
+        "authors": [
+            {
+                "first": "C\u00e9cile",
+                "middle": [],
+                "last": "Viboud",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Johns Hopkins Bloomberg School of Public Health",
+                    "location": {
+                        "addrLine": "615 N. Wolfe Street",
+                        "postCode": "E6545, 21205",
+                        "settlement": "Baltimore",
+                        "region": "MD"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Justin",
+                "middle": [],
+                "last": "Lessler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Johns Hopkins Bloomberg School of Public Health",
+                    "location": {
+                        "addrLine": "615 N. Wolfe Street",
+                        "postCode": "E6545, 21205",
+                        "settlement": "Baltimore",
+                        "region": "MD"
+                    }
+                },
+                "email": "justin@jhu.edu."
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Initially submitted August 28, 2018 ; accepted for publication September 6, 2018 .",
+            "cite_spans": [
+                {
+                    "start": 20,
+                    "end": 35,
+                    "text": "August 28, 2018",
+                    "ref_id": null
+                },
+                {
+                    "start": 63,
+                    "end": 80,
+                    "text": "September 6, 2018",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In commemoration of the centennial of the 1918 influenza pandemic, the American Journal of Epidemiology has convened a collection of 12 articles that further illuminate the epidemiology of that pandemic and consider whether we would be more prepared if an equally deadly influenza virus were to emerge again. In the present commentary, we place these 12 articles in the context of a growing body of work on the archeo-epidemiology of past pandemics, the socioeconomic and geographic drivers of influenza mortality and natality impact, and renewed interest in immune imprinting mechanisms and the development of novel influenza vaccines. We also highlight persisting mysteries in the origins and severity of the 1918 pandemic and the need to preserve rapidly decaying information that may provide treasure troves for future generations. age patterns; history of epidemiology; influenza; mortality; pandemic; prior immunity One hundred years after the fact, the 1918 influenza pandemic remains one of the most important epidemics of the modern medical era; it was significant for its impact on both human health and the development of epidemiology and other medical sciences. Still, as we mark its centennial, it is sobering to realize how little we understand about the origins and lethality of this unusual outbreak despite decades of intense multidisciplinary research. Although it would be 80 years before it was possible to fully characterize the virus responsible for the 1918 pandemic (1), contemporaneous medical authorities put commendable effort into reporting detailed epidemiologic data on the progression of the pandemic that ranged from individual-level clinical records to aggregated city-level vital statistics (2, 3) . In addition to quantitative epidemiologic data, there exist many anecdotal reports from clinicians, particularly those who served military populations, that have been mined to provide modern audiences a comprehensive account of the pandemic (4). Yet, many important questions remain about the evolutionary origins of the pandemic virus; the contribution of World War I and troop displacements to pandemic emergence and progression; the unique age profile of pandemic deaths, with its signature of high mortality rate among healthy young adults; the consequences of such a large mortality event on natality; and the heterogeneity of the pandemic experience around the world. Such mysteries have captured the attention of the lay public and scientific community alike.",
+            "cite_spans": [
+                {
+                    "start": 1725,
+                    "end": 1728,
+                    "text": "(2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1729,
+                    "end": 1731,
+                    "text": "3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In commemoration of the centennial of the 1918 pandemic, the American Journal of Epidemiology has convened a collection of 12 articles that further illuminate the epidemiology of that pandemic and consider whether we would be more prepared if an equally deadly influenza virus were to emerge today. Five of the 12 articles touch on the origins of the 1918 pandemic virus, addressing the role of swine as mixing vessels in this and other pandemic events (5), the age-specific mortality patterns of the pandemic (6) (7) (8) , and prior population immunity (9) . Others include reports on geographic and social heterogeneities in the pandemic experience in which the authors describe the spatial diffusion of the pandemic in India and Portugal (10, 11) , the socioeconomic predictors of high mortality risk in Sweden and globally (12, 13) , and the consequences of the pandemic on US natality rates (14, 15) . Finally, 2 commentaries address preparedness for future influenza pandemics (16, 17) .",
+            "cite_spans": [
+                {
+                    "start": 510,
+                    "end": 513,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 514,
+                    "end": 517,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 518,
+                    "end": 521,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 554,
+                    "end": 557,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 741,
+                    "end": 745,
+                    "text": "(10,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 746,
+                    "end": 749,
+                    "text": "11)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 827,
+                    "end": 831,
+                    "text": "(12,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 832,
+                    "end": 835,
+                    "text": "13)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 896,
+                    "end": 900,
+                    "text": "(14,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 901,
+                    "end": 904,
+                    "text": "15)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 983,
+                    "end": 987,
+                    "text": "(16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 988,
+                    "end": 991,
+                    "text": "17)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The influenza virus is remarkable for its ability to infect a variety of animal species, from bats to birds to mammals. Although successful cross-species transmission events may be rare, they play a key role in the genesis of new pandemic strains. Nelson and Worobey (5) discussed different lines of evidence informing the origins of the 1918 virus, including the genetic make-up of the 1918 virus and other pandemic strains, the characteristics of influenza receptors across different influenza hosts, and the frequency of cross-species transmission events. They concluded that the pandemic virus must have emerged in mammals just before 1918, most likely from the avian reservoir, with onward transmission from humans to swine. More broadly, a re-analysis of virologic data from the 1957 and 1968 pandemics, together with a modern understanding of the swinehuman interface, suggested a twist on the long-standing concept of swine as a \"mixing vessel\" for influenza virus. The authors proposed that swine should be viewed as a repository of historic human viruses rather than a conduit for reassortment of genetic material between avian and human viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ORIGINS OF THE 1918 PANDEMIC"
+        },
+        {
+            "text": "Van Wijhe et al. (6) returned to the question of the origins of the 1918 virus by exploring the epidemiologic imprint of the 1918 virus on Danish mortality records, echoing recent work on immune imprinting (18) (19) (20) . They identified several age breakpoints in pandemic mortality that were suggestive of the cycling of different influenza strains between the mid-19th century and the 1918 pandemic. Most notably, they argued for co-circulation of 2 subtypes of influenza virus (carrying type I and II hemagglutinin surface antigens) between 1873 and 1908. As a result, persons born between 1873 and 1908 (aged 10-45 years during the 1918 pandemic) may have been primed by either hemagglutinin type, potentially explaining the intriguing age profile of pandemic mortality in adults.",
+            "cite_spans": [
+                {
+                    "start": 17,
+                    "end": 20,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 206,
+                    "end": 210,
+                    "text": "(18)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 211,
+                    "end": 215,
+                    "text": "(19)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 216,
+                    "end": 220,
+                    "text": "(20)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ORIGINS OF THE 1918 PANDEMIC"
+        },
+        {
+            "text": "Cilek et al. (7) used a similar epidemiologic approach to explore the 1918 pandemic mortality patterns in Madrid, Spain. Madrid is particularly interesting because a lethal pandemic wave was reported in the city in June 1918, the earliest such event recorded. Similar to other regions of the world, Madrid experienced a signature pandemic pattern of higher mortality rates among young adults. However, seniors in Madrid suffered equally high rates of excess influenza mortality. This is unlike the experience of the rest of Europe and North America, where seniors were reportedly spared, presumably because of antigenic recycling (i.e., exposure to a related strain in childhood that conferred partial protection) (20, 21) . This is an intriguing finding, and it will be important for future work to reconcile the well-accepted idea that a 1918-like virus may have circulated in Europe and North America in the second half of the 19th century, with the notion that Madrid would have escaped this virus.",
+            "cite_spans": [
+                {
+                    "start": 714,
+                    "end": 718,
+                    "text": "(20,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 719,
+                    "end": 722,
+                    "text": "21)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ORIGINS OF THE 1918 PANDEMIC"
+        },
+        {
+            "text": "To understand the unique epidemiology of the 1918 virus, it can be useful to document the experience of remote populations, in which prior immunity to influenza would be expected to be low because of less frequent circulation of the virus. Rice (8) built on a rich literature in this area to document mortality patterns in New Zealand between 1890 and 1918. He found that the 1890s were a decade associated with high rate of influenza mortality in New Zealand, despite the low global connectivity of this island in the era before air travel. He also noted that influenza mortality in 1918 was highest among young adults, with a more pronounced intensity in males than in females. These patterns are broadly consistent with the those among young adults in Europe and the Americas, pointing to the near universality of increased influenza mortality risk in this age group in 1918.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ORIGINS OF THE 1918 PANDEMIC"
+        },
+        {
+            "text": "Chuah et al. (9) used seroepidemiology and structural equation modeling to answer the inverse question: How did early-life exposure to the 1918 pandemic virus impact how people responded to the 2009 pandemic, which was caused by an antigenically similar virus? They found evidence for immunologic priming from the 1918 virus in the oldest people they studied (individuals 80 years of age or older) that impacted both baseline titers and vaccine response in 2009. This work adds to a growing body of evidence that early-life exposures can have profound effects on immune response and mortality patterns decades after they occur (18) .",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 16,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 627,
+                    "end": 631,
+                    "text": "(18)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ORIGINS OF THE 1918 PANDEMIC"
+        },
+        {
+            "text": "Information about global connectivity in the 19th century is tenuous, and influenza records before 1890 are scarce. Epidemiologic reconstructions of \"modern\" pandemics of the type presented here (6-9) provide indirect information on the exposures of populations that are now long gone, generating valuable hypotheses about influenza circulation patterns and disease dynamics well into the 19th century. Such reconstructions offer precious insights into what influenza may have looked like 200 years ago in a very different world and how long-term changes in human demography and mobility may affect disease dynamics (22) .",
+            "cite_spans": [
+                {
+                    "start": 616,
+                    "end": 620,
+                    "text": "(22)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ORIGINS OF THE 1918 PANDEMIC"
+        },
+        {
+            "text": "Active research topics in the field of archeo-epidemiology include the search for predictors of influenza mortality, such as socioeconomic indicators or geography, and the drivers of influenza spatial diffusion. In 2 articles in the present issue, the authors concentrated on the spatial diffusion of influenza, focusing on British India and Portugal, 2 countries that have been poorly studied in the context of the 1918 pandemic (10, 11) . Both studies revealed a highly heterogeneous spread of the pandemic and geographic variation in pandemic mortality impact, albeit at different spatial scales. Although Portugal as a whole was severely hit by the pandemic compared with other European countries, some provinces nearly fully escaped (10). Analysis of district-level mortality records in India revealed a northeastward wave of infection from September to November 1918 that was associated with climate and population density (11) . Diffusion was driven by long-distance jumps via the railroad network, superimposed on local diffusion between neighboring provinces. Further, the authors found moderate heterogeneity in the mortality experiences of different Indian provinces.",
+            "cite_spans": [
+                {
+                    "start": 430,
+                    "end": 434,
+                    "text": "(10,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 435,
+                    "end": 438,
+                    "text": "11)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 929,
+                    "end": 933,
+                    "text": "(11)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INFLUENZA MORTALITY BURDEN, RISK FACTORS, AND SPATIAL SPREAD"
+        },
+        {
+            "text": "Spreeuwenberg et al. (12) also made use of recently unearthed data from India to revisit the global mortality impact of the 1918 pandemic. India is a particularly important country for global burden estimation because it was the one most severely hit by the 1918 pandemic, with annual pandemic excess mortality rates that were 40-fold higher than those in Denmark for instance (23) . In the new study, the authors placed the burden of the pandemic at a much lower number than did previous work (12) , in part by using more detailed data to better adjust for high background mortality unrelated to flu. The results of the Portuguese study by Nunes et al. (10) echoed these conclusions-that careful analyses of more detailed data tend to decrease estimates of pandemic burden.",
+            "cite_spans": [
+                {
+                    "start": 21,
+                    "end": 25,
+                    "text": "(12)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 377,
+                    "end": 381,
+                    "text": "(23)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 494,
+                    "end": 498,
+                    "text": "(12)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 654,
+                    "end": 658,
+                    "text": "(10)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INFLUENZA MORTALITY BURDEN, RISK FACTORS, AND SPATIAL SPREAD"
+        },
+        {
+            "text": "The risk factors responsible for increased mortality and morbidity from influenza remain elusive, whether at the population level (e.g., effect of population density or weather on transmission) or the individual level (socioeconomic status, comorbid conditions, etc.). This is still an active area of contemporary influenza research, with direct applications to design targeted intervention strategies. In the present issue, Bengtsson et al. (13) explored the role of social class on pandemic mortality by linking individual death records with historical census data on occupation in a powerful study that captured the entire Swedish population. The authors found that low-skilled or unskilled adults had higher death rates than did more skilled workers during the pandemic period relative to prepandemic years, whereas farmers (especially men) fared particularly well. Social differences tended to be smaller in women, and there was no clear gradient between social class and mortality. The authors hypothesized that these social differences were linked to differential crowding in the workplace (hence an effect on transmission) rather than differences in income or nutrition. This is a topical issue because the effects of socioeconomic status and baseline health on influenza mortality are still debated today (24) .",
+            "cite_spans": [
+                {
+                    "start": 442,
+                    "end": 446,
+                    "text": "(13)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1314,
+                    "end": 1318,
+                    "text": "(24)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INFLUENZA MORTALITY BURDEN, RISK FACTORS, AND SPATIAL SPREAD"
+        },
+        {
+            "text": "Researchers have long thought that the 1918 pandemic could have affected birth rates (25) because of the large impact of this event on young adult mortality, the increased risk of severe flu outcomes during pregnancy, and a possible association between influenza infection and miscarriage. Two papers in this issue address the topic of natality (14, 15) . Key questions here include the trimester of pregnancy during which the risk of death is highest for the mother and/or the unborn child and the impact of influenza on (increased) stillbirths and (decreased) live births. The duration of the pandemic effect on natality is also important because it informs the biological mechanism at play. If influenza impacts the probability of conception or fetal deaths, one would expect a temporary natality drop in the aftermath of the pandemic, followed by a rebound in births a few months later. In contrast, a high mortality rate among young women of childbearing age due to influenza infection would result in a long-lasting natality trough. Dahal et al. (14) explored these questions using individual birth and death certificates from Arizona, where there was a drop in natality 9-11 months after pandemic mortality peaked. This was a temporary depletion, consistent with a detrimental effect of influenza early in pregnancy. In a larger study of populationlevel vital statistics in US states, Chandra et al. (15) found a 10% drop 9-10 months after peak influenza mortality, which they ascribe to a drop in conception during the period of intense pandemic activity. They also found a natality drop in the 3 months after peak mortality, which they linked to excess preterm births and stillbirths due to influenza infections in the last trimester. Interestingly, these patterns were also found in the aftermath of the 1920 influenza pandemic wave, albeit with a less pronounced effect.",
+            "cite_spans": [
+                {
+                    "start": 345,
+                    "end": 349,
+                    "text": "(14,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 350,
+                    "end": 353,
+                    "text": "15)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1039,
+                    "end": 1056,
+                    "text": "Dahal et al. (14)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1407,
+                    "end": 1411,
+                    "text": "(15)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "NATALITY"
+        },
+        {
+            "text": "One reason we still look back at the 1918 pandemic 100 years later is because doing so will make us better able to prepare for the future. The last 2 articles of this collection are focused on preparedness for future pandemic threats (16, 17) , building on the lessons learned in 1918 and later pandemics, and on new tools to protect populations, including the very active (but still elusive) topic of universal influenza vaccines. Jester et al. painted an optimistic picture of progress made in influenza surveillance domestically and internationally, antiviral treatments, and robustness in the infrastructure for vaccine production (16) . Epstein reviewed the progress of the development of a broadly cross-protective flu vaccine, focused on conserved parts of the influenza virus, such as the matrix protein, nucleoprotein, the hemagglutinin stem, and various cocktail combinations (17) . These vaccines offer promising broad protective effects against new influenza antigenic variants and could potentially be used in pandemic situations. However, some of the candidate vaccine formulations permit limited viral replication and may foster the emergence of escape mutants fit enough to cause disease. These features could have adverse epidemiologic consequences, and these risks need to be projected and monitored carefully.",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 238,
+                    "text": "(16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 239,
+                    "end": 242,
+                    "text": "17)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 635,
+                    "end": 639,
+                    "text": "(16)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 886,
+                    "end": 890,
+                    "text": "(17)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "THE FUTURE"
+        },
+        {
+            "text": "The 1918 pandemic is traditionally considered a worst-case scenario for pandemic preparedness, but there were many other pandemics before 1918 about which we know very little regarding mortality impact, circulating strains, or prior immunity. In fact, the 1889 pandemic has only recently drawn attention among epidemiologists (26, 27) . Most European and North American countries began formal collection of vital statistics in the mid-to-late 19th century, so that any pandemic predating 1850 can only be explored using church or cemetery records (or indirectly through reconstruction of modern pandemics). Digitization of historic records is time consuming, data lack standardization, and information is generally limited to small populations.",
+            "cite_spans": [
+                {
+                    "start": 326,
+                    "end": 330,
+                    "text": "(26,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 331,
+                    "end": 334,
+                    "text": "27)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "REMAINING PUZZLES"
+        },
+        {
+            "text": "Even with regard to the 1918 pandemic, crucial questions may never be answered, including which specific virus (or even subtype) circulated before 1918 and further back into the 19th century and what the population immunity profile was before the pandemic. The search for archival influenza specimens predating 1918 has remained elusive, and to our knowledge no archived sera exist from this period. In the absence of further virologic evidence, our understanding of the origins of the pandemic is limited to a handful of influenza virus sequences collected during May to November 1918 and to the epidemiologic signature of the 1918 virus in different populations. As Nelson and Worobey noted (5), more work can be done in this area, particularly to explore the uracil content of post-1918 viruses in different hosts, reconstruct their evolutionary trajectories, and better characterize host receptors and barriers to cross-species jumps. Further, as Rice (8) and Dahal et al. (14) noted, a systematic analysis of the age mortality profiles of the 1918 pandemic in a sample of remote and wellconnected locations would be most useful, together with modeling of plausible biological hypotheses and immune histories most consistent with the data. databases, which are often crowdsourced or maintained by state health departments (14) . Further analyses of such data could shed light on the mortality profile of the pandemic in understudied locations and would also allow identification of family linkage and host genetic risk factors, which could be tested among descendants. Many other library archives exist, although paper-based records rapidly decay and need to be digitized as quickly as possible. The detailed, sometimes freeform, notes typically kept by the scientists at the time mean that careful examination of these archives can sometimes yield surprising fruit. One such resource is the work of Wade Hampton Frost, who was the first chair of the Department of Epidemiology at Johns Hopkins University and a critical figure in the fight against the 1918 pandemic. Modern reanalysis of Dr. Frost's detailed work (3) has already yielded abundant insights, and we included digital copies of his papers on the 1918 pandemic from the Chesney archive in the Web Appendix (available at https://academic. oup.com/aje). The 1918 pandemic is remarkable for the large amount of extremely detailed epidemiologic data collected by public health officials (2, 3), in part because it was an era that valued epidemiology, at a time when analytical approaches and knowledge of infectious agents were limited. These exquisitely detailed records have been particularly useful in the attempt to understand the pandemic retrospectively. As a thought experiment, we can imagine ourselves in 2118: We may ask how scientists would look back at the large amount of data we archive on a daily basis in 2018. On the one hand, much if not all of the modern data are digital, meaning that they do not run the risk of being destroyed by fire or floods and they can be more accessible to a wide audience, spurred by the open access movement. However, digital data can also be corrupted (intentionally or unintentionally) and disappear. Much from the floppy-disk era has already been permanently lost, and it is unclear if modern cloud-based archives would survive a major disruption (whether technological or civil). Further, even today, there is a systematic dearth of epidemiologic and molecular data from low-and middle-income settings (including data on the 2009 pandemic (24)).",
+            "cite_spans": [
+                {
+                    "start": 964,
+                    "end": 981,
+                    "text": "Dahal et al. (14)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1326,
+                    "end": 1330,
+                    "text": "(14)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "REMAINING PUZZLES"
+        },
+        {
+            "text": "We are just beginning to scratch the surface of the intricate relationship between the influenza virus and the complex immune history of a host who has had repeated influenza exposures (9, (18) (19) (20) 28) . It is unclear whether we will be able to fully understand these interactions in the foreseeable future; in the meantime, population birth cohorts carrying important influenza immune histories disappear. We echo earlier calls for a time-stamped global repository of human sera and pathogen specimens, ideally together with epidemiologic information (biobanks) for current and future use (29) . We also applaud the push by the US National Institute of Allergy and Infectious Diseases to fund international influenza birth cohort studies and help untangle the complex mechanisms of influenza immunity (30) .",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 188,
+                    "text": "(9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 189,
+                    "end": 193,
+                    "text": "(18)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "(19)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 199,
+                    "end": 203,
+                    "text": "(20)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 204,
+                    "end": 207,
+                    "text": "28)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 596,
+                    "end": 600,
+                    "text": "(29)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 808,
+                    "end": 812,
+                    "text": "(30)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "REMAINING PUZZLES"
+        },
+        {
+            "text": "If again confronted with a deadly flu pandemic, we would be in a better place than we were in 1918 because of the availability of drugs, vaccines, and antibiotics and the general improvements in health and nutrition. There are high hopes for the development of universal vaccines, but we need to keep in mind that influenza is a rapidly evolving virus that has a large and diverse animal reservoir and presumably many tricks in store. We can only anticipate another hundred years of very active, and always surprising, influenza research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "REMAINING PUZZLES"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Structure of the uncleaved human H1 hemagglutinin from the extinct 1918 influenza virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stevens",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Corper",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Basler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Science",
+            "volume": "303",
+            "issn": "5665",
+            "pages": "1866--1870",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Preliminary statistics of the influenza epidemic",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sydenstricker",
+                    "suffix": ""
+                }
+            ],
+            "year": 1918,
+            "venue": "Public Health Rep",
+            "volume": "33",
+            "issn": "52",
+            "pages": "2305--2321",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Influenza transmission in households during the 1918 pandemic",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klinkenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am J Epidemiol",
+            "volume": "174",
+            "issn": "5",
+            "pages": "505--514",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The Great Influenza: The Story of the Deadliest Pandemic in History",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Barry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Origins of the 1918 pandemic: revisiting the swine \"mixing vessel\" hypothesis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Worobey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2498--2502",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Loose ends in the epidemiology of the 1918 pandemic: explaining the extreme mortality risk in young adults",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Wijhe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ingholt",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Andreasen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2503--2510",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Age-specific excess mortality patterns during the 1918-1920 influenza pandemic in Madrid, Spain",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cilek",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ramiro",
+                    "middle": [],
+                    "last": "Fari\u00f1as",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2511--2523",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Influenza in New Zealand before 1918: a preliminary report",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Rice",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2524--2529",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Investigating the legacy of 1918 pandemic on age-related seroepidemiology and immune responses to subsequent influenza A(H1N1) viruses through a structural equation model",
+            "authors": [
+                {
+                    "first": "Cxp",
+                    "middle": [],
+                    "last": "Chuah",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mic",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2530--2540",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The 1918-1919 influenza pandemic in Portugal: a regional analysis of death impact",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nunes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2541--2549",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Spatiotemporal patterns and diffusion of the 1918 influenza pandemic in British India",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Reyes",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2550--2560",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Reassessing the global mortality burden of the 1918 influenza pandemic",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Spreeuwenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kroneman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Paget",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2561--2567",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Social class and excess mortality in Sweden during the 1918 influenza pandemic",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bengtsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dribe",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Eriksson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2568--2576",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Natality decline and spatial variation in excess death rates during the 1918-1920 influenza pandemic in Arizona, United States",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dahal",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mizumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bolin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2577--2584",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Short-term birth sequelae of the 1918-1920 influenza pandemic in the United States: state-level analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chandra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Christensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S-E",
+                    "middle": [],
+                    "last": "Mamelund",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2585--2595",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Readiness for responding to a severe pandemic 100 years after 1918",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Jester",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Uyeki",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jernigan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2596--2602",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Universal influenza vaccines: progress in achieving broad cross-protection in vivo",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Epidemiol",
+            "volume": "187",
+            "issn": "12",
+            "pages": "2603--2614",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Potent protection against H5N1 and H7N9 influenza via childhood hemagglutinin imprinting",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gostic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ambrose",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Worobey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Science",
+            "volume": "354",
+            "issn": "6313",
+            "pages": "722--726",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Re-examining the evidence regarding circulation of a human H1 influenza virus immediately prior to the 1918 Spanish flu",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gagnon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Acosta",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Madrenas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PLoS Pathog",
+            "volume": "11",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Age-and sex-specific mortality associated with the 1918-1919 influenza pandemic in Kentucky",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Eisenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Reid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Infect Dis",
+            "volume": "207",
+            "issn": "5",
+            "pages": "721--729",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Epidemiological evidence of an early wave of the 1918 influenza pandemic in New York City",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Simonsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edelson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "102",
+            "issn": "31",
+            "pages": "11059--11063",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Influenza epidemics in Iceland over 9 decades: changes in timing and synchrony with the United States and Europe",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Weinberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Krause",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "M\u00f8lbak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Am J Epidemiol",
+            "volume": "176",
+            "issn": "7",
+            "pages": "649--655",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Estimation of potential global pandemic influenza mortality on the basis of vital registry data from the 1918-20 pandemic: a quantitative analysis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Murray",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lopez",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Lancet",
+            "volume": "368",
+            "issn": "9554",
+            "pages": "2211--2218",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Global mortality estimates for the 2009 influenza pandemic from the GLaMOR project: a modeling study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Simonsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Spreeuwenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lustig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Med",
+            "volume": "10",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Natality decline and miscarriages associated with the 1918 influenza pandemic: the Scandinavian and United States experiences",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bloom-Feshbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Simonsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Infect Dis",
+            "volume": "204",
+            "issn": "8",
+            "pages": "1157--1164",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Transmissibility and geographic spread of the 1889 influenza pandemic",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Valleron",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cori",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Valtat",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "107",
+            "issn": "",
+            "pages": "8778--8781",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Age-specific excess mortality patterns and transmissibility during the 1889-1890 influenza pandemic in Madrid, Spain",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ramiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Casado",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ann Epidemiol",
+            "volume": "28",
+            "issn": "5",
+            "pages": "267--272",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Evidence for antigenic seniority in influenza A (H3N2) antibody responses in southern China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Read",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS Pathog",
+            "volume": "8",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Use of serological surveys to generate key insights into the changing global landscape of infectious disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Metcalf",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Farrar",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Cutts",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Lancet",
+            "volume": "388",
+            "issn": "",
+            "pages": "728--730",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The ghost of influenza past and the hunt for a universal vaccine",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "560",
+            "issn": "7717",
+            "pages": "158--160",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "WHAT'S IN STORE FOR THE NEXT 100 YEARS OF ARCHEO-EPIDEMIOLOGIC RESEARCH?",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "100 YEARS FROM NOW, HOW WILL SCIENTISTS LOOK BACK AT 2018? ARE WE ARCHIVING THE RIGHT DATA?",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This article does not necessarily represent the views of the National Institutes of Health or the US government.Conflict of interest: none declared.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

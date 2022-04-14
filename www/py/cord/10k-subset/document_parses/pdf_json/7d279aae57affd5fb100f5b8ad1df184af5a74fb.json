@@ -1,0 +1,639 @@
+{
+    "paper_id": "7d279aae57affd5fb100f5b8ad1df184af5a74fb",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "G",
+                "middle": [
+                    "Dennis"
+                ],
+                "last": "Shanks",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Melissa",
+                "middle": [],
+                "last": "Eslinger",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "US Military Academy",
+                    "location": {
+                        "settlement": "West Point, New York"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The origin of the 1918 influenza pandemic virus is unknown and its genesis may never be fully understood. The 1918 influenza pandemic was the greatest single human mortality event for which detailed records exist; epidemiological examination of such records is one of the few ways to look for prepandemic influenza activity. Genomic information from archived pathology specimens indicates that the pandemic virus was likely circulating for years before 1918 [1] . Distinctive lethal respiratory disease, considered retrospectively as identical to what was seen in 1918, had occurred at least 2 years previously in military populations in England and France [2] . Genomic evidence of the pandemic virus exists from US Army recruit camps as early as May 1918, several months before the increase in mortality [3] .",
+            "cite_spans": [
+                {
+                    "start": 458,
+                    "end": 461,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 657,
+                    "end": 660,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 806,
+                    "end": 809,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Mortality records are more abundant than the few morbidity records from the 19th and early 20th centuries. Civilian deaths due to influenza had shown a distinct upwards shift after the 1890 pandemic in both the United Kingdom and New Zealand [4, 5] (see Supplementary Material). Prospective morbidity records were collected by the US Army from the time of the US Civil War (1862-1865) that distinguished between influenza and other respiratory illnesses, presumably based on clinical symptoms in an appropriate epidemiological context [6] . United States Army officer cadets at the US Military Academy (USMA) at West Point, New York were seen at a single medical clinic for more than a century with named daily records of each diagnosis serially recorded in ledger books. These 2 data sets from the entire US Army and the USMA at West Point were collected and examined to determine whether there were any epidemiological signatures that might have been due to pandemic influenza virus infections before both the 1890 and 1918 pandemics.",
+            "cite_spans": [
+                {
+                    "start": 242,
+                    "end": 245,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 246,
+                    "end": 248,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 535,
+                    "end": 538,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "US Army records were drawn from the US Army Surgeon General's Annual Reports, specifically the 1919 edition, which concentrated on the recently finished pandemic that had killed almost as many US soldiers as had died in combat during the First World War [6] . At this distance in time, it is not possible to reconstruct specific case definitions used by US Army medical officers that distinguished influenza (or grippe) from other common respiratory diseases (pleurisy, pharyngitis, bronchitis, laryngitis, tonsillitis, asthma), but this clinical distinction was made in all annual reports from 1862. The 2 categories (influenza, other respiratory disease) were separately reported and did not overlap. Admissions to a military health facility per 1000 men as well as deaths were collected and are reported here as they were published in 1919.",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 257,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "At USMA West Point, New York, any illness entailing the absence of officer cadets from classes required certification by a medical officers' diagnosis. These named individual diagnoses were serially recorded in a daily clinical register at USMA from the mid-19th century with only occasional gaps in these archival records, which are still kept at West Point [7] . Modern US Army cadets went through these clinic registers noting the respiratory-associated diagnoses; \"influenza\" or \"grippe\" was recorded as influenza with other respiratory diseases (bronchitis, pharyngitis, laryngitis, tonsillitis, asthma, coryza, and catarrh) denoting noninfluenza illnesses. These diagnostic categories were non-overlapping. Annual assigned strength was obtained from the Register of Cadets to determine rates per 1000 men and associated mortality [8, 9] . Admissions to the USMA cadet inpatient facility were recorded in the Daily Sick Returns of the Corps of Cadets with general trends documented in the surgeon's contributions to the Annual Report of the Superintendent. Records were placed into a Microsoft Excel database and epidemiologically analyzed. Monthly influenza and pneumonia mortality rates from the late 19th and early 20th centuries were reported by Frost [10] in 1919 from the US State of Massachusetts and are included for comparison to events at USMA in New York.",
+            "cite_spans": [
+                {
+                    "start": 359,
+                    "end": 362,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 836,
+                    "end": 839,
+                    "text": "[8,",
+                    "ref_id": null
+                },
+                {
+                    "start": 840,
+                    "end": 842,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1261,
+                    "end": 1265,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "Influenza and other respiratory disease per 1000 men annually are recorded in Figure 1A from 1862 (US Civil War) to 1918 (First World War). The decade from 1906 as a monthly disease rate appears in Figure 1B from the US Army; it is uncertain why that particular interval was the only one available, but it is reported as it was found. Annual rates per 1000 admissions of influenza and other respiratory disease from USMA appears in Figure 1C . Monthly influenza data from USMA 1912 to 1919 is in Figure 1D , some of which has previously been published in a different format [11] .",
+            "cite_spans": [
+                {
+                    "start": 574,
+                    "end": 578,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 78,
+                    "end": 87,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 198,
+                    "end": 207,
+                    "text": "Figure 1B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 432,
+                    "end": 441,
+                    "text": "Figure 1C",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 496,
+                    "end": 505,
+                    "text": "Figure 1D",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "METHODS"
+        },
+        {
+            "text": "From 1891 to 1917 inclusive, only 50 US Army soldiers (14 deaths in 1917) are recorded as having died specifically of influenza. The same mortality calculation for pneumonia was 1899 1887  1888  1889  1890  1891  1892  1893  1894  1895  1896  1897  1898  1899  1900  1901  1902  1903  1904  1905  1906  1907  1908  1909  1910  1911   1890  1891  1892  1893  1894  1895  1896  1897  1898  1899  1900  1901  1902  1903  1904  1905  1906  1907  1908  1909  1910  1911  1890  1891  1892  1893  1894  1895  1896  1897  1898  1899  1900  1901  1902  1903  1904  1905  1906  1907  1908  1909  1910 (1042 in 1917). During the entire year of the 1918 influenza pandemic, 22 402 deaths from influenza and 15 308 deaths from pneumonia were recorded in the US Army [7] . Using total approximate strength of the US Army (3.4 million men in October 1918), the estimated mortality rates for 1918 are 6.6 and 4.5 deaths/1000 soldiers for influenza and pneumonia, respectively. Figure 1E and F consists of monthly information from USMA from December 1889 to June 1911. There was a 6-month gap in the records in 1911 where the ledger books could not be found. Influenza usually occurred as an end of year episodic illness that appeared in most but not every year as demonstrated in Figure 1E . Because USMA West Point specifically recruited cadets from each congressional district, there would have been exposure to respiratory pathogens from all 48 states, particularly because cadets were given rail passes for end of school year (summer) holiday leave to visit their home of origin. Other respiratory disease shown in Figure 1F is less consistent but also generally shows annual winter peaks. Years showing little influenza activity (eg, 1897-1898, 1907-1910) have corresponding large numbers of other respiratory disease, likely reflecting some diagnostic overlap depending on the practice of the various US Army medical officers at the USMA clinic. The Massachusetts influenza mortality data also shown in Figure 1E and F match the USMA morbidity information well with some exceptions (1896, 1911) , but the Massachusetts pneumonia mortality and USMA other respiratory illness curves are much more discordant [10] .",
+            "cite_spans": [
+                {
+                    "start": 753,
+                    "end": 756,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1718,
+                    "end": 1744,
+                    "text": "(eg, 1897-1898, 1907-1910)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2196,
+                    "end": 2200,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 590,
+                    "text": "1887  1888  1889  1890  1891  1892  1893  1894  1895  1896  1897  1898  1899  1900  1901  1902  1903  1904  1905  1906  1907  1908  1909  1910  1911   1890  1891  1892  1893  1894  1895  1896  1897  1898  1899  1900  1901  1902  1903  1904  1905  1906  1907  1908  1909  1910  1911  1890  1891  1892  1893  1894  1895  1896  1897  1898  1899  1900  1901  1902  1903  1904  1905  1906  1907  1908  1909  1910",
+                    "ref_id": null
+                },
+                {
+                    "start": 961,
+                    "end": 970,
+                    "text": "Figure 1E",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1264,
+                    "end": 1273,
+                    "text": "Figure 1E",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1603,
+                    "end": 1612,
+                    "text": "Figure 1F",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1993,
+                    "end": 2002,
+                    "text": "Figure 1E",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2072,
+                    "end": 2084,
+                    "text": "(1896, 1911)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "METHODS"
+        },
+        {
+            "text": "One distinct limitation of historical epidemiology studies is uncertain case definitions particularly over decades. This uncertainty is particularly true for influenza whose symptoms are not greatly different from other respiratory viruses. Although admitting the difficulties, these US Army data are one of the largest respiratory disease epidemiology data sets from the 19th century and deserve to be examined for their historical value. It is important to note that the 2 military datasets reported here are internally consistent despite having been collected over several decades. Another large dataset from the same era was monthly influenza and pneumonia mortality rates collected by the US State of Massachusetts, which is shown with the USMA information in Figure 1E and F [10] . What was being clinically diagnosed at the USMA as influenza illness matches well with what was being coincidentally recorded as influenza mortality in Massachusetts, giving some confidence that the clinical diagnoses described similar epidemiological events.",
+            "cite_spans": [
+                {
+                    "start": 781,
+                    "end": 785,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 765,
+                    "end": 774,
+                    "text": "Figure 1E",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In retrospect, are there any indications that the 1890 or 1918 influenza pandemics were approaching given the likelihood that the respective viruses were circulating for some time before the pandemic? During the 2 to 3 years before both pandemics, there was little influenza activity reported from both the US Army and USMA. Perhaps this is an indication that the general population was progressively acquiring immunity to the major circulating influenza and/or respiratory viruses, opening up an evolutionary opportunity for new viral species that may have been formed as reassortments of multiple minority viruses. In 1916, influenza at USMA appears as an outlier that might reflect the increased influenza reported from New York City during the same time. Although one cannot see age range changes in a group of military cadets, New York City data indicated a shift towards young adults, as was seen later as a very remarkable and still unexplained characteristic of the 1918 influenza pandemic [12] . Animal reservoirs are important in influenza, but because swine influenza was widely regarded as a new disease of pigs in 1918, any swine contribution to the pandemic viruses of 1890 and 1918 remains uncertain [1] .",
+            "cite_spans": [
+                {
+                    "start": 998,
+                    "end": 1002,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1215,
+                    "end": 1218,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "How might these findings be different from the modern situation? Reflecting what was seen in US civilians and in contrast to 1918, the US Army was much less affected by the pandemics of 1957 and 1968, with only a few percent of people ill at any one time and almost no influenza-related mortality [13] . The larger global population now moves at much greater frequency and speed circulating respiratory pathogens at much higher rates. Still, our understanding and certainly our ability to predict future pandemic events is extremely limited. The progressive decrease in influenza pandemic mortality globally through 2009, although certainly a very positive observation, may be more indicative of a human population with a much wider personal experience with influenza than any viral-specific mechanism or vaccine intervention. The value of historical epidemiological datasets over decades continues as one of the few ways to reconstruct pandemic events long after they occurred. Influenza pandemics have been sudden, unexpected events since before 1890 and are likely to remain so [14] .",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1081,
+                    "end": 1085,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSIONS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Genesis and pathogenesis of the 1918 pandemic H1N1 influenza A virus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Worobey",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "111",
+            "issn": "",
+            "pages": "8107--8119",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Relationship between \"purulent bronchitis\" in military populations in Europe prior to 1918 and the 1918-1919 influenza pandemic",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shanks",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mackenzie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Waller",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Brundage",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Influenza Other Respir Viruses",
+            "volume": "6",
+            "issn": "",
+            "pages": "235--244",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Autopsy series of 68 cases dying before and during the 1918 influenza pandemic peak",
+            "authors": [
+                {
+                    "first": "Z-M",
+                    "middle": [],
+                    "last": "Sheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chertow",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ambroggio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "16416--16437",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Thoughts on the origin of influenza epidemics",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Andrewes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1942,
+            "venue": "Proc R Soc Med",
+            "volume": "36",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The unusually diverse mortality patterns in the Pacific region during the 1918-21 influenza pandemic: reflections at the pandemic's centenary",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shanks",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kippen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Brundage",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet Infect Dis",
+            "volume": "18",
+            "issn": "",
+            "pages": "323--355",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "War Department Annual Reports",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ireland",
+                    "suffix": ""
+                }
+            ],
+            "year": 1919,
+            "venue": "Report of the Surgeon General",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Register of Cadet Casualties (Casualties, USCC)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "1802--1953",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The epidemiology of influenza",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Frost",
+                    "suffix": ""
+                }
+            ],
+            "year": 1919,
+            "venue": "Pub Health Rep",
+            "volume": "34",
+            "issn": "",
+            "pages": "1823--1859",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Enhanced risk of illness during the 1918 influenza pandemic after previous influenza-like illnesses in three military populations",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shanks",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Burroughs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sohn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Epidemiol Infect",
+            "volume": "144",
+            "issn": "",
+            "pages": "2043--2051",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Epidemiological evidence of an early wave of the 1918 influenza pandemic in New York City",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Simonsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Morse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "102",
+            "issn": "",
+            "pages": "11059--63",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Acute respiratory disease in the United States Army in the Republic of Vietnam, 1965-1970",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sanford",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "Yale J Biol Med",
+            "volume": "48",
+            "issn": "",
+            "pages": "179--84",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Report on the Pandemic of Influenza 1918-19. Reports on Public Health and Medical Subjects. London: Ministry of Health",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Newman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1920,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Influenza illness in the US Army and at the US Military Academy, West Point. (A) Influenza and other respiratory disease admissions/1000 men/year in the US Army from 1862 to 1918. (B) Influenza and other respiratory disease admissions/1000 men/month in the US Army for the decade 1906-1915. (C) Influenza and other respiratory disease/1000 admissions/year at the US Military Academy, West Point NY from 1890 to 1910. Other respiratory disease for 1911 is missing data. (D) Influenza cases/1000 cadets/month at the US Military Academy, West Point, NY from 1912 to 1919. (E) Influenza (influenza, grippe) admissions/month at the US Military Academy, West Point, NY 1889-1911 as well as monthly mortality due to influenza in the US State of Massachusetts over the same period[11]. (F) Other respiratory disease (bronchitis, laryngitis, pharyngitis, tonsillitis, asthma, coryza, and catarrh) admissions/month at the US Military Academy, West Point, NY 1889-1911 as well as monthly mortality due to pneumonia in the US State of Massachusetts over the same period[11].",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank many unnamed historians, medical librarians, and archivists who have unselfishly provided data and ideas for this paper. We also acknowledge the special collections archivist Alicia Mauldin at US Military Academy, West Point and students Carissa Pekny, Natalie Nepa, and Emily Latimer for data collection assistance. We thank COL John F. Brundage (US Army Medical Corps [retired]) for constructive comments on respiratory illnesses and for reading an early draft of the manuscript.Disclaimer. The opinions expressed are those of the authors and do not necessarily reflect the position of the Australian Defence Force, the United States Military Academy, the Department of the Army, or the US Department of Defense.Author contributions. G. D. S. conceived the epidemiological study and wrote the first draft. M. E. collected and/or supervised much of the data. Data were jointly analyzed and interpreted.Financial support. G. D. S. is an employee of the Australian Defence Force Malaria and Infectious Disease Institute, and M. E. is an active-duty US Army officer. No specific funding was given for this epidemiological study.Potential conflicts of interest. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "Supplementary materials are available at Open Forum Infectious Diseases online. Consisting of data provided by the authors to benefit the reader, the posted materials are not copyedited and are the sole responsibility of the authors, so questions or comments should be addressed to the corresponding author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Data"
+        }
+    ]
+}

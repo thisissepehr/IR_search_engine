@@ -1,0 +1,987 @@
+{
+    "paper_id": "723dba4b748dc2e35a8094a88f572ce3567649a5",
+    "metadata": {
+        "title": "Dysregulated T-Helper Type 1 (Th1):Th2 Cytokine Profile and Poor Immune Response in Pregnant Ferrets Infected With 2009 Pandemic Influenza A(H1N1) Virus",
+        "authors": [
+            {
+                "first": "Sun-Woo",
+                "middle": [],
+                "last": "Yoon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "St Jude Children's Research Hospital",
+                    "location": {
+                        "settlement": "Memphis",
+                        "region": "Tennessee"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sook-San",
+                "middle": [],
+                "last": "Wong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "St Jude Children's Research Hospital",
+                    "location": {
+                        "settlement": "Memphis",
+                        "region": "Tennessee"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Huachen",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shantou University Medical College",
+                    "location": {
+                        "settlement": "Shantou"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rirong",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Long",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shantou University Medical College",
+                    "location": {
+                        "settlement": "Shantou"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yu",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shantou University Medical College",
+                    "location": {
+                        "settlement": "Shantou"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yi",
+                "middle": [],
+                "last": "Guan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shantou University Medical College",
+                    "location": {
+                        "settlement": "Shantou"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Richard",
+                "middle": [
+                    "J"
+                ],
+                "last": "Webby",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "St Jude Children's Research Hospital",
+                    "location": {
+                        "settlement": "Memphis",
+                        "region": "Tennessee"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Pregnancy has been associated with severe influenza, an association highlighted during the 2009 pandemic of influenza A(H1N1) virus (A[H1N1]pdm09) infection. To assess the underlying mechanism, we infected pregnant and non-pregnant ferrets with A(H1N1) pdm09 virus. A(H1N1)pdm09-infected pregnant ferrets also had higher levels of inflammatory cytokines in their pulmonary tracts. Systemically, total CD8 + T cell counts and A(H1N1)pdm09-specific B-cell responses in blood were significantly lower in pregnant ferrets. This model predicts that the poorer outcome for pregnant women during the A(H1N1)pdm09 pandemic was due to an elevated level of viral replication and to a cytokine imbalance that led to a less effective immune response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Keywords. Pregnancy; pandemic influenza A virus; immune response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Pregnant women are at risk of increased mortality and morbidity due to influenza virus infection [1] . During the 2009 pandemic of influenza A(H1N1) virus (A[H1N1]pdm09) infection, pregnancy was associated with an increased risk of hospitalization [1] , disease susceptibility [2] , and influenza-related death in the United States. In particular, women in their third trimester were especially vulnerable. Several studies have shown that pregnant women also had increased mortality and hospitalization rates during previous influenza pandemics: the [3] . In these cases, higher risk was not restricted to infection during the third trimester, and virus exposure during early gestation was also associated with adverse outcome for the fetus [2, 4] .",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 100,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 248,
+                    "end": 251,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 277,
+                    "end": 280,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 550,
+                    "end": 553,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 741,
+                    "end": 744,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 745,
+                    "end": 747,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Pregnancy is considered to be a state of immune suppression, with cytokine profiles biased toward a T-helper type 2 (Th2)-type response [5] . Peripheral blood mononuclear cells (PBMCs) isolated from pregnant women responded less robustly to innate immune stimulation than did those isolated from nonpregnant women. Although pregnant women are known to be a high-risk group for influenza virus infections, little is known about the underlying mechanisms. While some studies have assessed the impact of pregnancy during influenza virus infection in mice, studies in more-relevant animal models are warranted. We therefore developed a pregnant ferret model and analyzed the pathologic and immunologic changes following infection with A(H1N1)pdm09.",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 139,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "All experiments were approved by the Shantou University Medical College (reference number: SUMC2013-130) in compliance with their policies for Animal Ethics and Welfare and Use of Animals in Research, the guidelines of the World Health Organization, and the International Council for Laboratory Animal Science. Eighteen-to 20-month-old ferrets (Mustela putorius furo) were obtained from Wuxi Sangosho Co. Ltd. (Jiangsu province, China). In this study, we used 10 pregnant ferrets (6 infected with A[H1N1]pdm09 and 4 uninfected) and 8 nonpregnant ferrets (4 infected with A[H1N1]pdm09 and 4 uninfected). All ferrets were serologically negative for A(H1N1) pdm09 and seasonal influenza A(H3N2) virus as determined by hemagglutination inhibition assays. On day 14 after mating, ferrets were infected intranasally with 500 \u03bcL of 10 5 50% tissue culture infective doses (TCID 50 )/mL of the A(H1N1)pdm09 virus A/California/07/09 (CA07), each diluted in phosphate-buffered saline (pH 7.4), or received 500 \u03bcL of phosphate-buffered saline alone, after sedation with isoflurane. All inoculated animals were monitored daily. For viral titration, nasal washes from each ferret were collected on days 1, 3, 5, 7, 9, 11, and 13 after inoculation, and organs were collected on 5 days after inoculation (2 or 3 ferrets per group). All virus titers were expressed as TCID 50 in Madin-Darby canine kidney cells. For histopathologic analysis, tissue specimens were processed for hematoxylin and eosin staining and stained with a mouse anti-nucleoprotein (NP) monoclonal antibody For analysis of PBMC responses, cells were collected on 5 days after inoculation and isolated by density centrifugation by using Histopaque-1077 medium (Sigma, CA) according to the manufacturer's instructions. For quantification of peripheral CD8 + cells, PBMCs were stained with allophycocyanin-labeled CD8 antibody (eBioscience, CA) and data acquired on a BD FACSAria II (BD Biosciences, NJ). All samples were analyzed by FlowJo software (Tree Star, OR). To measure the influenza virus-specific B-cell response, 96-well Multiscreen HA plates (Millipore, MA) were coated with 1 \u00b5g of recombinant hemagglutinin (HA) from A(H1N1)pdm09 (Sino Biological, China), and cells were plated and incubated at 37\u00b0C for 5 hours. After binding, cells were stained with alkaline phosphatase-conjugated goat anti-ferret immunoglobulin G antibody (Southern Biotechnology, AL) and incubated overnight at 4\u00b0C. Spots were visualized by colorimetric analysis, using the substrate 5-bromo-4-chloro-3-indolyl phosphate/nitroblue tetrazolium (BCIP/NBT, KPL, MD), and positive spots were counted by using a KS enzyme-linked immunospot (ELISPOT) system (Carl Zeiss). Cytokine and chemokine expression levels were measured using quantitative real-time polymerase chain reaction analysis (Roche, CA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Animal Experiments"
+        },
+        {
+            "text": "To determine whether pregnancy in ferrets results in enhanced influenza severity, as seen in humans, we examined the virologic and pathologic changes following CA07 infection. Owing to the significant weight gain in pregnant ferrets, weight loss, which is typically used as a clinical marker of disease in ferrets, was not a feasible measure for this study. Upon infection, we observed that there were no significant differences in the temperature changes between pregnant and nonpregnant groups (P = .302; data not shown). Although our study was not designed to specifically measure this outcome, we noticed differences in the number of newborns between uninfected and infected pregnant ferrets by the end of the gestational period. Two newborns were produced by the noninfected pregnant ferrets, but none were produced by the infected pregnant ferrets. To determine the pattern of virus shedding in pregnant and nonpregnant animals, we collected nasal wash samples every other day. Viruses were detected in the nasal wash specimens from all inoculated ferrets, with significantly higher titers in pregnant ferrets (P < .0001) that were maintained for longer periods ( Figure 1A ). By day 9, all animals fully recovered, and virus was cleared in all infected ferrets.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1170,
+                    "end": 1179,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Pathologic Changes in CA07-Infected Pregnant Ferrets"
+        },
+        {
+            "text": "To evaluate the histopathologic changes upon CA07 infection, tissue samples were collected 5 days after inoculation from pregnant and nonpregnant ferrets. Viruses were detected in turbinate, tracheal, and lung tissues from all animals, with significantly higher titers (P < .001) seen in the pregnant group (mean titers ranged from 2.5 to 4.1 log 10 TCID 50 /mL; Figure 1B ). Viral NP staining confirmed virus replication in lungs (Figure 1Dc and 1 Dd) and tracheas (Figure 1Dg and 1 Dh) of inoculated ferrets. No evidence of viral infection was observed in nonpulmonary tissues ( Figure 1B) , including the transplacental tissues, suggesting a general lack of systemic spread of viruses in ferrets and no evidence of intrauterine infection. Pathologically, a difference in lung damage was observed between pregnant and nonpregnant groups. This was characterized by more-pronounced alveolar damage, widespread edema in the lungs (Figure 1Cc and 1 Cd), and severe degeneration of epithelial cell walls in trachea (Figure 1Cg and 1 Ch) of the pregnant animals. The numbers of viral NP-positive cells were also higher in pulmonary tissues of pregnant ferrets (Figure 1Dd and 1 Dh) than in those of nonpregnant ferrets (Figure 1Dc and 1 Dg) . No evidence of NP positivity or tissue damage was observed in the control mock-infected ferrets (Figure 1Ca, 1Cb, 1Ce , and 1Cf and Figure 1Da, 1Db, 1De, and 1Df) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 363,
+                    "end": 372,
+                    "text": "Figure 1B",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 431,
+                    "end": 442,
+                    "text": "(Figure 1Dc",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 466,
+                    "end": 477,
+                    "text": "(Figure 1Dg",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 581,
+                    "end": 591,
+                    "text": "Figure 1B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 929,
+                    "end": 946,
+                    "text": "(Figure 1Cc and 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1012,
+                    "end": 1029,
+                    "text": "(Figure 1Cg and 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1156,
+                    "end": 1167,
+                    "text": "(Figure 1Dd",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1215,
+                    "end": 1236,
+                    "text": "(Figure 1Dc and 1 Dg)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1335,
+                    "end": 1356,
+                    "text": "(Figure 1Ca, 1Cb, 1Ce",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1371,
+                    "end": 1401,
+                    "text": "Figure 1Da, 1Db, 1De, and 1Df)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Pathologic Changes in CA07-Infected Pregnant Ferrets"
+        },
+        {
+            "text": "Overall, these results showed that during pregnancy, both virus replication and subsequent tissue damage are elevated following influenza virus infection during pregnancy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Pathologic Changes in CA07-Infected Pregnant Ferrets"
+        },
+        {
+            "text": "Influenza virus infection in pregnant women is associated with increased levels of respiratory tract inflammatory cytokines and chemokines [5] . To determine whether a similar phenotype is present in pregnant ferrets, we measured the expression levels of inflammatory cytokines and chemokines by quantitative real-time polymerase chain reaction in the trachea (representative of the upper respiratory tract), lungs (representative of the lower respiratory tract), and bronchoalveolar lavage to evaluate responses in resident or infiltrating immune cells lining the airways [6] of pregnant and nonpregnant animals following infection. In general, although not exclusively, when differences in the levels of cytokines and chemokines were noted, levels were higher in pregnant animals, consistent with observations in humans. In lung tissues, levels of interferon \u03b1 (IFN-\u03b1) and interleukin 4 (IL-4) were significantly higher in pregnant animals; levels of interleukin 10 (IL-10) and interleukin 12p40 (IL-12p40) were higher in nonpregnant animals. In tracheal tissues, messenger RNA (mRNA) levels of tumor necrosis factor \u03b1, IFN-\u03b3, and interleukin 6 (IL-6) were higher in pregnant animals. In bronchoalveolar lavage, pregnant animals had higher mRNA levels for IFN-\u03b1, IFN-\u03b3, IL-6, and IL-12p40. In PBMCs, nonpregnant animals had higher levels of IL-4 and IL-12p40 (Figure 2A) .",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 142,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 573,
+                    "end": 576,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1361,
+                    "end": 1372,
+                    "text": "(Figure 2A)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Immunologic Changes in CA07-Infected Pregnant Ferrets"
+        },
+        {
+            "text": "In pregnant mice, influenza virus infection has been associated with alterations in the immune response [7, 8] . Correspondingly, we assessed the numbers of CD8 + T lymphocytes and influenza virus-specific B cells in total PBMCs 5 days after inoculation in our infected ferrets. In A(H1N1)pdm09-infected pregnant ferrets, the percentage of CD8 + T lymphocytes among PBMCs was significantly lower than in nonpregnant ferrets (P < .001; Figure 2B ). ELISPOT measurements of A(H1N1) pdm09-specific B cells also showed reduced numbers in the pregnant ferrets (P < .05; Figure 2C ). Together, these results suggest that both innate and adaptive immune responses are impaired in pregnant ferrets during influenza virus infection.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 107,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 108,
+                    "end": 110,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 435,
+                    "end": 444,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 565,
+                    "end": 574,
+                    "text": "Figure 2C",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Immunologic Changes in CA07-Infected Pregnant Ferrets"
+        },
+        {
+            "text": "Although pregnancy is associated with increased susceptibility to pathogens owing to immunologic suppression, it is not entirely clear how this manifests as increased severity after influenza virus infection. While informative studies have been conducted in mice, the nature of influenza virus-mediated disease in this host is distinctly different than what is seen in humans; we thus turned to the ferret model. The pregnant ferret model has been used since the 1970s to study the teratogenic potential of influenza viruses [9] [10] [11] . These studies showed that fetal infection and pathology were only possible through virus inoculation directly into the amniotic space or maternal bloodstream, leading the authors to suggest that the teratogenic risk to the fetus due to natural influenza virus infection was low. However, these studies did not focus on the virologic or immunologic outcome of infection in the pregnant ferret itself. Thus, our study aimed to address this knowledge gap. In our study, we infected the ferrets on day 14 after mating, which, in the ferret's gestational cycle, loosely corresponds to early stages of human pregnancy.",
+            "cite_spans": [
+                {
+                    "start": 525,
+                    "end": 528,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 529,
+                    "end": 533,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 534,
+                    "end": 538,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The cytokine profile in the infected ferrets was consistent with that observed in infected humans, notably the elevation levels of IFN-\u03b1, IL-6, and IFN-\u03b3 [12] . This suggests that the immune response in infected ferrets to some extent mimics the response in humans [13] . When we compared the cytokine mRNA levels between pregnant and nonpregnant ferrets, however, there were striking differences in responses of several key cytokines in the trachea, lung, and bronchoalveolar lavage. Stronger proinflammatory responses were observed in the trachea (ie, upper respiratory tract) of pregnant ferrets, which also had extended and higher levels of virus shedding as compared to nonpregnant ferrets. Interestingly, levels of IL-6 and TNF-\u03b1 in the upper respiratory tract of influenza virus-infected humans were correlated with virus shedding [12] . In contrast, mRNA levels of the antiinflammatory cytokine IL-10 were increased in the lungs of nonpregnant ferrets. This suggests that nonpregnant ferrets may have more capacity to regulate excessive inflammatory responses and tissue repair in the lungs, compared with pregnant ferrets, as was previously shown in the murine model [8] . However, as was shown in same study, cytokine levels may change over time, and because of limitations of the ferret model, our results may only represent a snapshot of these changes. Severe cases of influenza in pregnant women were also associated with decreased levels of immunoglobulin in sera [14] and dysregulated T lymphocytes [15] . Consistent with these observations, we found that the numbers of A(H1N1)pdm09-specific B cells and CD8 + T cells in peripheral blood in pregnant ferrets were lower than those in nonpregnant ferrets. PBMCs from pregnant ferrets produced less IL-4 and IL-12p40 than those from nonpregnant ferrets after A(H1N1)pdm09 infection, which could account for the decreased number of influenza virus-specific B cells and CD8 + T cells.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 158,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 265,
+                    "end": 269,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 838,
+                    "end": 842,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1176,
+                    "end": 1179,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1478,
+                    "end": 1482,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1514,
+                    "end": 1518,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Unlike the murine model, one major limitation of our ferret model was the lack of reagents for detailed immunologic analyses. For example, the cytokine responses could only be profiled at the mRNA level and not at the protein level. At the time of the experiments, no suitable assay for the assessment of ferret-specific CD8 + T-cell function and specificity was available. For the same reason, we were also unable to assess the cellular innate responses or the CD4 + T-cell responses. These are also critical immune regulators that can modulate disease severity during influenza virus infection. Our findings here will have to be interpreted with these caveats in mind.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In our combined virologic and immunologic analyses, we showed that A(H1N1)pdm09 infection during pregnancy induces more-severe disease as a consequence of elevated viral loads and innate responses, combined with a diminished adaptive response. These factors likely contributed to the increased morbidity and mortality rates observed during the 2009 influenza pandemic in pregnant women.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Novel Influenza A(H1N1) Pregnancy Working Group. H1N1 2009 influenza virus infection during pregnancy in the USA",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jamieson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Honein",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rasmussen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Lancet",
+            "volume": "374",
+            "issn": "",
+            "pages": "451--459",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Influenza and congenital anomalies: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Luteijn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dolk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Hum Reprod",
+            "volume": "29",
+            "issn": "",
+            "pages": "809--832",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "California Pandemic (H1N1) Working Group. Severe 2009 H1N1 influenza in pregnant and postpartum women in California",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Louie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Acosta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jamieson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Honein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "N Engl J Med",
+            "volume": "362",
+            "issn": "",
+            "pages": "27--35",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Influenza in pregnancy: the case for prevention",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mcneil",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Halperin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Macdonald",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Adv Exp Med Biol",
+            "volume": "634",
+            "issn": "",
+            "pages": "161--83",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The Th1:th2 dichotomy of pregnancy and preterm labour",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sykes",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Macintyre",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yap",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Teoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bennett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Mediators Inflamm",
+            "volume": "2012",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Bronchoalveolar lavage constituents in healthy individuals, idiopathic pulmonary fibrosis, and selected comparison groups. The BAL Cooperative Group Steering Committee",
+            "authors": [],
+            "year": 1990,
+            "venue": "Am Rev Respir Dis",
+            "volume": "141",
+            "issn": "",
+            "pages": "169--202",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Wild type and mutant 2009 pandemic influenza A (H1N1) viruses cause more severe disease and higher mortality in pregnant BALB/c mice",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PloS One",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Fatal outcome of pandemic H1N1 2009 influenza virus infection is associated with immunopathology and impaired lung repair, not enhanced viral burden, in pregnant mice",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Marcelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Aldridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "11208--11227",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The effects of maternal influenzal viraemia in late gestation on the conceptus of the pregnant ferret",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Rushton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Collie",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sweet",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Husseini",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "J Pathol",
+            "volume": "140",
+            "issn": "",
+            "pages": "181--91",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Association of foetal wastage with influenza infection during ferret pregnancy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Collie",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sweet",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cavanagh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Br J Exp Pathol",
+            "volume": "59",
+            "issn": "",
+            "pages": "190--195",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The pregnant ferret as a model for studying the congenital effects of influenza virus infection in utero: infection of foetal tissues in organ culture and in vivo",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sweet",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Toms",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Br J Exp Pathol",
+            "volume": "58",
+            "issn": "",
+            "pages": "113--136",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Local and systemic cytokine responses during experimental human influenza A virus infection. Relation to symptom formation and host defense",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fritz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lobo",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Alvord",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Strober",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Straus",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J Clin Invest",
+            "volume": "101",
+            "issn": "",
+            "pages": "643--652",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Local innate immune responses and influenza virus transmission and virulence in ferrets",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Maines",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Belser",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gustin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Infect Dis",
+            "volume": "205",
+            "issn": "",
+            "pages": "474--85",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Association between severe pandemic 2009 influenza A (H1N1) virus infection and immunoglobulin G(2) subclass deficiency",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Permezel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Clin Infect Dis",
+            "volume": "50",
+            "issn": "",
+            "pages": "672--680",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Regulatory T cells mediate maternal tolerance to the fetus",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Aluvihare",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kallikourdis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Betz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nat Immunol",
+            "volume": "5",
+            "issn": "",
+            "pages": "266--71",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Pathologic changes in pregnant ferrets infected with 2009 pandemic influenza A(H1N1) virus (A[H1N1]pdm09). A and B, Virus titers were measured in nasal wash (A) and tissue (B) specimens collected from CA07-infected ferrets on the days shown after infection and were expressed as log 10 50% tissue culture infective doses (TCID 50 )/mL (dotted line). C and D, Immunopathologic changes were determined by hematoxylin and eosin staining (C) and anti-nucleoprotein (NP; D) staining. Representative images are shown (a and e, nonpregnant; b and f, pregnant; c and g; nonpregnant, infected with strain CA07; and d and h, pregnant, infected with strain CA07). Original magnification \u00d7100.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Immunologic changes in pregnant ferrets infected with 2009 pandemic influenza A(H1N1) virus (A[H1N1]pdm09). A, Production of inflammatory cytokines was detected in the pulmonary tract, bronchoalveolar lavage, and peripheral blood mononuclear cells (PBMCs) from CA07-infected ferrets by using quantitative real-time polymerase chain reaction analysis. Data are normalized for GAPDH and are shown as the mean fold change from values in uninfected ferrets. B and C, Quantification of peripheral lymphocytes in PBMCs from ferrets infected with CA07 viruses. The total number of peripheral CD8 + T lymphocytes was enumerated in PBMCs by flow cytometry (B), and the influenza virus-specific B-cell response was determined in PBMCs by enzyme-linked immunospot analysis (C). Representative data are shown, and the detailed protocols are as described in Methods. Abbreviations: IFN, interferon; IgG, immunoglobulin G; IL-4, interleukin 4; IL-6, interleukin 6; IL-10, interleukin 10; IL-12p40, interleukin 12p40; TNF-\u03b1, tumor necrosis factor \u03b1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "1918 Spanish influenza (due to influenza A[H1N1] virus), 1957 Asian influenza (due to influenza A[H2N2] virus), and 1968 Hong Kong influenza (due to influenza A[H3N2] virus)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

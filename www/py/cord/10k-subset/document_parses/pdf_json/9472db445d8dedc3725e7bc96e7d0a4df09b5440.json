@@ -1,0 +1,681 @@
+{
+    "paper_id": "9472db445d8dedc3725e7bc96e7d0a4df09b5440",
+    "metadata": {
+        "title": "Special Programme for Research and Training in Tropical Diseases (TDR), World Health Organization",
+        "authors": [
+            {
+                "first": "Amanda",
+                "middle": [
+                    "M"
+                ],
+                "last": "Rojek",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Epidemic Diseases Research Group Oxford (ERGO)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Jake",
+                "middle": [],
+                "last": "Dunning",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Epidemic Diseases Research Group Oxford (ERGO)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Aleksandra",
+                "middle": [],
+                "last": "Leliogdowicz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Epidemic Diseases Research Group Oxford (ERGO)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Lyndsey",
+                "middle": [],
+                "last": "Castle",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Epidemic Diseases Research Group Oxford (ERGO)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Mary",
+                "middle": [
+                    "Van"
+                ],
+                "last": "Lieshout",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "GOAL Global",
+                    "location": {
+                        "settlement": "Dun Laoghaire",
+                        "country": "Ireland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gail",
+                "middle": [],
+                "last": "Carson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Foday",
+                "middle": [],
+                "last": "Sahr",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Piero",
+                "middle": [],
+                "last": "Olliaro",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "country": "United Kingdom"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peter",
+                "middle": [
+                    "W"
+                ],
+                "last": "Horby",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Epidemic Diseases Research Group Oxford (ERGO)",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The first phase II and III clinical trials for Ebola virus disease treatments were conducted during the West Africa outbreak. We report the operational practicalities of conducting a phase II clinical trial of TKM-130803 to international standards during this outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Ebola virus disease (EVD)-specific treatments were proposed as a method to improve patient survival and curb further escalation of the West Africa (2013-2016) epidemic. The clinical trials undertaken to assess the most promising agents were unprecedented.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Subsequent reports lauded the trials as \"ground-breaking\" [1] , but also criticized the paucity of definitive findings and the continued lack of licensed therapies [1, 2] . They advise that improving the ability to conduct analogous trials rapidly is a high priority in preparing for future epidemics [1, 3] . However, there are few records describing the practicalities of how this research was undertaken within the context of the outbreak [4] and the specific barriers to a swifter research response. Here, we report details for one such clinical trial.",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 61,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 164,
+                    "end": 167,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 168,
+                    "end": 170,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 301,
+                    "end": 304,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 305,
+                    "end": 307,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 442,
+                    "end": 445,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The Rapid Assessment of Potential Interventions and Drugs for Ebola (RAPIDE) platform assessed World Health Organizationshortlisted experimental treatments during the epidemic. Two RAPIDE trials enrolled patients [5, 6] , including the trial discussed here-a phase II clinical trial of the small interfering RNA lipid nanoparticle product TKM-130803 conducted in the GOAL Global Ebola Treatment Centre (ETC) in Sierra Leone. The World Health Organization prioritized this product for investigation on the basis of promising animal study data [7] . The TKM-230803 trial assessed safety and efficacy in patients with laboratory-confirmed EVD, with a primary outcome of day 14 survival, compared with historical controls. Although the full results of the trial are reported elsewhere [5] , the trial closed to enrollment after reaching a prespecified futility boundary. For the current article, additional trial records and documents are presented Supplementary Methods [S1]. Figure 1 describes the TKM-130803 trial timeline, within the context of the outbreak. The TKM-130803 trial was the second trial to be prioritized within the platform, after a trial of brincidofovir that opened on 1 January 2015. Most TKM-130803 trial activities began after this time, and the trial began on 11 March 2015. The longest delays to starting the trial were caused by reaching research agreements with partners (39 days) and due mostly to concerns about legal liabilities. These agreements, and the time taken to formalize the research protocol (18 days), were most likely to affect possible enrollment of patients (though research protocol drafting was a faster process, it took place earlier during the outbreak, when the disease was spreading more rapidly) (detailed information on delays provided in the Supplementary Materials [S2]).",
+            "cite_spans": [
+                {
+                    "start": 213,
+                    "end": 216,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 217,
+                    "end": 219,
+                    "text": "6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 542,
+                    "end": 545,
+                    "text": "[7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 781,
+                    "end": 784,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 973,
+                    "end": 981,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "METHODS"
+        },
+        {
+            "text": "There was a 48-hour window for consent and enrollment, to maximize the potential efficacy of the antiviral and to prevent inadvertent enrollment of patients with convalescent phase EVD. Typically, 4 persons were required to enter the ETC's high-risk zone (HRZ; where patients with suspected or confirmed EVD were located) to gain consent: a pair of Englishand Krio-speaking trial clinicians, an interpreter fluent in local languages, and an independent witness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Enrollment"
+        },
+        {
+            "text": "All participants in the trial were illiterate and so required independent verification of consent. For 2 participants, proxy consent was required because they were too unwell to be competent for decision making. Only written consent was considered appropriate for proxy consent, which created an unintended obstacle because the next of kin could be quarantined (n = 1) or also in an ETC (n = 1). If this relation could not be accessed by the trial team, he or she offered verbal assent, and then the next appropriate relation was approached for written consent. One patient became ineligible for enrollment owing to difficulty finding an appropriate next of kin, followed by extended travel time to meet the research team.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Enrollment"
+        },
+        {
+            "text": "TKM-130803 was provided as a 2-hour infusion via peripheral intravenous line, once daily for 7 days. Patients were monitored continuously during each infusion, and then a minimum of 5 regular observations were performed for an 8-hour period. All clinical work relevant to the trial was undertaken by trialemployed clinicians, but ETC clinicians remained responsible for overall patient care. Where possible, trial procedures were combined with routine care requirements to prevent duplication, although some procedures (eg, phlebotomy for TKM-130803 pharmacokinetics) remained trial specific.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Monitoring"
+        },
+        {
+            "text": "The implication of this monitoring regimen was that significant human resources were required, especially because clinical care occurred in the HRZ where personal protective equipment (PPE) had to be worn. To prevent heat exhaustion, team members were restricted to entries lasting no more than 45-60 minutes, up to a maximum of 3 times per day (depending on temperature and humidity). To maintain safety, all staff worked in pairs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Monitoring"
+        },
+        {
+            "text": "An example of the scheduling for a single patient is displayed in the Supplementary Results (S3). In total, a research team member entered the HRZ for patient-related activities at least 592 times during the trial. The actual number of entries is probably much higher, but we did not permanently record additional entries for training purposes, administrative duties, or unscheduled patient care (eg, for venous cannula replacement). There were no known PPE breaches, instances of heat strain or heat exhaustion, percutaneous sharps injuries, or \"man-down\" episodes involving trial staff. On 2 occasions, team members requested cancellation of a planned entry because they felt unwell.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Monitoring"
+        },
+        {
+            "text": "Clinical data were recorded in writing on paper forms at the bedside. Writing while wearing PPE was difficult, so these forms were simplified and used large fonts. Clinical data were entered by one staff member and checked by another to minimize error in the challenging conditions within the HRZ.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Collecting Patient Data"
+        },
+        {
+            "text": "Although the original source data would normally be filed for trial monitoring and regulatory inspections, infection prevention and control requirements prevented their transport out of the HRZ. Verbal handover of clinical information was not entertained owing to the potential for inaccuracies in conveying information. Flat-bed scanning of paper documents (with wireless and cable connections between the HRZ and the low-risk zone (LRZ; air-conditioned administrative area where PPE is not required)) was trialed but found to be too slow, with technical faults frequently encountered owing to heat, humidity, and possible environmental chlorine exposure. Instead, documents were placed on a post in the HRZ and photographed with a simple digital camera in the LRZ (illustrated in the Supplementary Results [S4] ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 786,
+                    "end": 812,
+                    "text": "Supplementary Results [S4]",
+                    "ref_id": null
+                }
+            ],
+            "section": "Collecting Patient Data"
+        },
+        {
+            "text": "Trial staff in the LRZ entered information from printed copies of the photographs onto an electronic case report form (Infermed MACRO; Elsevier). To enable real-time data reporting to the data safety monitoring board and reduce the risk of losing data because of hardware failure, the electronic case report forms were synchronized with the trial's secure server (located in the United Kingdom) at least daily. Additional details of the strategies used for other on-site practices, including TKM130803 management, community engagement, and trial staff safety management, are provided in the Supplementary Results (S5).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Collecting Patient Data"
+        },
+        {
+            "text": "The TKM-130803 trial was operationally successful in that it was completed to a predefined statistical threshold, in a manner compliant with international regulatory frameworks for research and while maintaining the safety of the research team. The practical perspective of how this was achieved is relevant to the ongoing evaluations of science conducted during the epidemic, especially when these are meant to inform preparedness efforts.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Although this trial and others conducted during the outbreak were successful in fast-tracking to recruitment compared with trials conducted in other settings [11] , the new target recommended by the Academy of Medical Sciences-that clinical trials are launched before the epidemic peak [1]-remains infeasible. Although a variety of solutions have been proposed [12, 13] , our data suggest that preapproval of partnership agreements and predesigned protocols will be especially helpful. Practical difficulties, as opposed to scientific or trial design issues, are a major contributor to delayed and inadequate recruitment for clinical trials [14] . The additional operational complexities during outbreaks can be significant may be underappreciated. Key constraints for EVD include stringent infection prevention and control requirements impairing ready access to patients and the expanded breadth of logistical activities undertaken by research staff working in a resource limited environment. The consequences can include a difficulty in scaling up recruitment (or initiating multicenter recruitment) without threatening staff or patient safety or detracting from the immediate humanitarian priorities of the clinical team.",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 162,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 361,
+                    "end": 365,
+                    "text": "[12,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 366,
+                    "end": 369,
+                    "text": "13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 641,
+                    "end": 645,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The most significant improvement to the operational feasibility of outbreak clinical research will occur when research is integrated into the overall outbreak response. When high-quality clinical data are captured according to standard operating procedures and using agreed-on data standards, the process meets the shared needs of clinical and research teams and minimizes duplication. The benefits are multifold; patients will be protected from additional examinations or interventions, the utility of clinicians is maximized, and multisite research will be simpler to conduct. Technological and human factors advancements that will automate or simplify the collection of clinical data have particular potential for infectious diseases that require PPE to be worn.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Integrating clinical research into epidemic response: the Ebola experience",
+            "authors": [],
+            "year": 2017,
+            "venue": "The National Academies of Sciences, Engineering, and Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Special report: Ebola's thin harvest",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Enserink",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Will Ebola change the game? ten essential reforms before the next pandemic. The report of the Harvard-LSHTM Independent Panel on the Global Response to Ebola",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Moon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sridhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pate",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Lancet",
+            "volume": "386",
+            "issn": "",
+            "pages": "2204--2225",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The use of Ebola convalescent plasma to treat Ebola virus disease in resource-constrained settings: a perspective from the field",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Griensven",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Weiggheleire",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Delamou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clin Infect Dis",
+            "volume": "62",
+            "issn": "",
+            "pages": "69--74",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Experimental treatment of Ebola virus disease with TKM-130803: a single-arm phase 2 clinical trial",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dunning",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sahr",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rojek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS Med",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Experimental treatment of Ebola virus disease with Brincidofovir",
+            "authors": [
+                {
+                    "first": "Rapide-Bcv Trial",
+                    "middle": [],
+                    "last": "Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS One",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Lipid nanoparticle siRNA treatment of Ebolavirus-Makona-infected nonhuman primates",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Thi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mire",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nature",
+            "volume": "521",
+            "issn": "",
+            "pages": "362--367",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Available at: http:// apps.who.int/ebola/ebola-situation-reports. Accessed",
+            "authors": [],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Global Ebola response timeline",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "World Health Organization. Key events in the WHO response to the Ebola outbreak",
+            "authors": [],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Canadian Critical Care Trials Group. Time required to initiate outbreak and pandemic observational research",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rishu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Marinoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Julien",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Crit Care",
+            "volume": "40",
+            "issn": "",
+            "pages": "7--10",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Modernising epidemic science: enabling patient-centred research during epidemics",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rojek",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Horby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "BMC Med",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Offering patients more: how the West Africa Ebola outbreak can shape innovation in therapeutic research for emerging and epidemic infections",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rojek",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Horby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Philos Trans R Soc Lond B Biol Sci",
+            "volume": "372",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Managing clinical trials",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Farrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kenyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shakur",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Trials",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Timeline of RAPIDE TKM-130803 trial. A, Epidemiological curve for Sierra Leone, constructed using publicly available information from the World Health Organization (WHO)[8]; data are aggregated per calendar week. Asterisks denote underestimation due to correction in total case count by WHO.B, Timeline of admissions for adult patients with laboratory-confirmed Ebola virus disease (EVD) admitted to the GOAL Ebola Treatment Centre (unpublished data); data are aggregated per calendar week. C, Milestones to trial clearances and agreements. D, TKM-130803 administrative milestones. E, External events affecting Port Loko operating site; data are sourced from the United Nations [9], WHO [10], and personal records. Abbreviations: HREC, Human Research Ethics Committee; IDMC, Independent Data Monitoring Committee; IMP, Investigational Medicine Product; PBSL, Pharmacy Board of Sierra Leone; PHEIC, Public Health Emergency of International Concern; SOPs, standard operating procedure.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank trial participants and the following groups for their collaboration: GOAL Global, Public Health England, the Department for International Development, and staff at the participating sites. The following were instrumental to the operational management of Potential conflicts of interest. All authors: No reported conflicts. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments."
+        },
+        {
+            "text": "Supplementary materials are available at Clinical Infectious Diseases online. Consisting of data provided by the authors to benefit the reader, the posted materials are not copyedited and are the sole responsibility of the authors, so questions or comments should be addressed to the corresponding author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Data"
+        }
+    ]
+}
