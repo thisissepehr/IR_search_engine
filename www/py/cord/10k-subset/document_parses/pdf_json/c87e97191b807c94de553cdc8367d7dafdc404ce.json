@@ -1,0 +1,2001 @@
+{
+    "paper_id": "c87e97191b807c94de553cdc8367d7dafdc404ce",
+    "metadata": {
+        "title": "The Journal of Infectious Diseases Predicting the Next Influenza Pandemics",
+        "authors": [
+            {
+                "first": "Yoshihiro",
+                "middle": [],
+                "last": "Kawaoka",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Wisconsin-Madison",
+                    "location": {}
+                },
+                "email": "yoshihiro.kawaoka@wisc.edu."
+            },
+            {
+                "first": "Gabriele",
+                "middle": [],
+                "last": "Neumann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Wisconsin-Madison",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "If we had complete knowledge of all factors (viral, human, animal, genetic, immunologic, epidemiologic, and environmental) that determine global outbreaks of influenza (pandemics), we might be able to predict novel influenza pandemics and develop influenza vaccines that protect against a range of antigenically diverse influenza viruses. Advances have been made in our understanding of influenza viruses and their interplay with the host, but we still do not know the specific features that render a virus capable of initiating a pandemic. Here, we summarize the gaps in our knowledge.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Some records and serology studies suggest that H2N2 and H3N8 subtype viruses caused influenza pandemics in the 1800s. The first confirmed influenza pandemic dates to 1918, when an H1N1 subtype virus, most likely originating from an avian species [1] , was introduced into the human population. The 1918 pandemic claimed up to 100 million lives, reduced the life expectancy in the United States by 10 years, and may have affected the course of World War I. Descendants of this virus circulated in humans until 1957, when they were replaced by a reassortant virus of the H2N2 subtype with hemagglutinin (HA), neuraminidase (NA), and polymerase basic protein 1 (PB1) (a polymerase subunit) viral RNA (vRNA) segments originating from an avian influenza virus [2, 3] . The death toll of this \"Asian\" pandemic exceeded 1 million. In 1968, the \"Hong Kong\" pandemic was caused by an influenza virus of the H3N2 subtype possessing HA and PB1 vRNA segments of avian influenza virus origin [2, 3] ; the estimated death toll of 33 800 in the United States may have been lower than that of other pandemics owing to some protection conferred by existing antibodies to the N2 NA. The H3N2 viruses replaced the H2N2 viruses and continue to circulate to this day. In 1977, H1N1 viruses similar to those circulating in humans in the 1950s reemerged; hence, primarily young persons were infected. The H1N1 and H3N2 viruses circulated until 2009, when the H1N1 viruses were replaced by a novel H1N1 virus, which caused the 2009 pandemic. This was surprising because pandemics were thought to be caused by a virus subtype not circulating in humans at the time of the pandemic outbreak. However, the HA of the 2009 pandemic virus, which has vRNAs originating from human, avian, and swine influenza viruses, and may have been transmitted to humans from pigs [4] [5] [6] [7] , was antigenically distinct from the H1N1 viruses circulating in humans, hence causing a pandemic. Since 2009, the newly emerged H1N1 viruses have cocirculated in humans with the previously circulating H3N2 viruses.",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 249,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 755,
+                    "end": 758,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 759,
+                    "end": 761,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 979,
+                    "end": 982,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 983,
+                    "end": 985,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1835,
+                    "end": 1838,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1839,
+                    "end": 1842,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1843,
+                    "end": 1846,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1847,
+                    "end": 1850,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PAST PANDEMICS"
+        },
+        {
+            "text": "All recorded pandemics have been caused by influenza viruses of the H1, H2, or H3 subtypes. Were these just random events? (After all, \"only\" 4 pandemics have occurred in the last century.) Or are other virus subtypes unable to cause pandemics? Influenza viruses of the H5 and H7 subtypes have infected hundreds of persons with high case fatality rates, but these infections have not resulted in sustained human-to-human transmission of viruses. Viruses of the H9 subtype are enzootic in poultry in several parts of the world, but only a few cases of human infection have been reported, although serology studies suggest that the numbers of mild or subclinical human infections may be higher. Clearly, we need a better understanding of influenza virus transmission among humans, which is most likely the sum of several factors, including the genetic composition of the virus, receptor-binding specificity, replicative ability, and antigenic relatedness to circulating viruses ( Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 978,
+                    "end": 986,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "UNDERSTANDING THE KEY FEATURES OF INFLUENZA PANDEMICS"
+        },
+        {
+            "text": "Risk assessment of newly emerging influenza viruses begins with a phylogenetic analysis of the viral genomic sequence. Human H1N1 and H3N2 influenza viruses closely related to circulating viruses are highly unlikely to cause a pandemic, although they may cause a new epidemic if they bear mutations in the major antigenic epitopes of the HA head. For wholly avian influenza viruses of the H1N1, H2N2, and H3N2 subtypes, we are currently unable to assess the pandemic risk based on sequence analysis. A wholly avian H1N1 virus caused the 1918 pandemic, and an H2N2 virus could cause a future pandemic because an increasing percentage of the human population lacks antibodies to H2 viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Genetic Composition of Influenza Viruses"
+        },
+        {
+            "text": "A higher pandemic potential should be assigned to reassortant viruses possessing a nonhuman virus-derived H1, H2, or H3 HA vRNA in combination with other vRNAs of human and/ or swine virus origin. Such reassortants caused the pandemics of 1957, 1968, and 2009 [2] [3] [4] [5] [6] [7] . A novel H2N2 virus with, for example, the HA and NA vRNAs of an avian H2N2 influenza virus, and the remaining vRNAs of a current human virus may have high pandemic potential.",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 263,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 264,
+                    "end": 267,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 268,
+                    "end": 271,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 272,
+                    "end": 275,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 276,
+                    "end": 279,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 280,
+                    "end": 283,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Genetic Composition of Influenza Viruses"
+        },
+        {
+            "text": "High pandemic potential is currently assigned to highly pathogenic H5 viruses possessing NA vRNAs of different subtypes. Since 1997, highly pathogenic avian H5 viruses have infected >860 persons with a case fatality rate of >50% (see [8] [9] [10] for the first reports of deadly human H5N1 virus infections). Humans do not have antibodies to H5 viruses, so human-transmissible H5 viruses could cause a pandemic. However, current H5 viruses do not transmit efficiently among mammals. Nonetheless, several mutant or reassortant H5 viruses derived from sequential virus passages in ferrets have been shown to be transmitted among ferrets and guinea pigs via respiratory droplets [11] [12] [13] [14] . These viruses bound to \"human-type\" receptors, replicated efficiently in mammalian cells, and some of them had additional mutations in HA that restored the protein's \"stability\" that had been diminished on conversion of the receptor specificity. These properties are discussed below in more detail. However, we currently do not know if the ferret-transmissible H5 viruses would cause a pandemic in humans (see Influenza Virus Transmissibility Among Mammals).",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 237,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 238,
+                    "end": 241,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 242,
+                    "end": 246,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 676,
+                    "end": 680,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 681,
+                    "end": 685,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 686,
+                    "end": 690,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 691,
+                    "end": 695,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Genetic Composition of Influenza Viruses"
+        },
+        {
+            "text": "In 2013, novel influenza viruses of the H7N9 subtype emerged in China [15] and have now infected >1600 persons, killing about 30% of them. As with highly pathogenic H5 viruses, no sustained human-to-human transmission has yet been reported. However, wild-type H7N9 viruses can bind to human-type receptors to some extent and transmit among ferrets via respiratory droplets [16] [17] [18] [19] ; that is, they already have some of the properties discussed below in more detail. Their pandemic potential may therefore be greater than that of highly pathogenic H5 viruses.",
+            "cite_spans": [
+                {
+                    "start": 70,
+                    "end": 74,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 373,
+                    "end": 377,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 378,
+                    "end": 382,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 383,
+                    "end": 387,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 388,
+                    "end": 392,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Genetic Composition of Influenza Viruses"
+        },
+        {
+            "text": "Avian influenza viruses of subtypes other than H1-H3, H5, and H7 rarely cause human infections and are not considered a pandemic threat. The lack of reported human infections by these viruses is poorly understood. H9N2 influenza viruses, for example, which are enzootic in poultry populations in different parts of the world, bind to human-type receptors to some extent (and to \"avian-type\" receptors), and have donated different combinations of vRNAs (other than HA and NA) to current H5 and H7N9 viruses (reviewed in [20, 21] ). Despite these properties, few human H9N2 infections have been reported. However, serology studies have reported an appreciable number of H9-seropositive individuals (reviewed in [22] ), suggesting that human infections with H9N2 viruses may be subclinical or mild. Accordingly, these viruses should be monitored for potential human-to-human transmissibility and the emergence of mutations that may increase virulence.",
+            "cite_spans": [
+                {
+                    "start": 519,
+                    "end": 523,
+                    "text": "[20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 524,
+                    "end": 527,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 709,
+                    "end": 713,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Genetic Composition of Influenza Viruses"
+        },
+        {
+            "text": "Pandemic viruses need to bind efficiently to human cells, a function carried out by the HA protein. Influenza viruses bind to sialic acids on glycoproteins and glycolipids on the surface of host cells. A major barrier to interspecies transmission of influenza viruses is the difference in receptor-binding specificity between human and avian influenza viruses. Avian influenza viruses preferentially bind to sialic acids linked to the penultimate galactose residue by an \u03b12,3-linkage, the major sialyloligosaccharides on epithelial cells in the intestinal tract of ducks, whereas human influenza viruses interact primarily with oligosaccharides with \u03b12,6-linked sialic acid, the major sialyloligosaccharides on epithelial cells of the upper human respiratory tract [23] [24] [25] [26] [27] [28] . Pigs are susceptible to both human and avian influenza viruses; their epithelial cells express \u03b12,3-and \u03b12,6-linked sialic acids. The HA proteins of early isolates of the pandemic 1918, 1957, and 1968 viruses preferentially bound to \u03b12,6-linked sialic acids Predicting the next pandemic?",
+            "cite_spans": [
+                {
+                    "start": 765,
+                    "end": 769,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 770,
+                    "end": 774,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 775,
+                    "end": 779,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 780,
+                    "end": 784,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 785,
+                    "end": 789,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 790,
+                    "end": 794,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Receptor-Binding Specificity of Influenza Viruses"
+        },
+        {
+            "text": "Understanding key features -Genetic composition -Receptor-binding specificity -Replicative ability in mammals -Transmissibility among mammals -Antigenic relatedness Computational tools for risk assesment -IRAT -TIPRA Surveillance -Animals (with focus on poultry and pigs) -Human -Online social networks -Sequence-based risk assessment [29, 30], even though they originated from avian species, indicating the importance of human-type receptor-binding specificity for pandemic viruses. Several HA mutations have been identified that affect the receptor-binding specificity of different subtypes; however, this list is almost certainly incomplete, and comprehensive studies are needed to identify mutations that confer binding to \u03b12,6-linked sialic acids for viruses of different subtypes. Moreover, the assays commonly used, such as solid-phase binding assays and some glycan arrays, do not fully reflect the sialyloligosaccharides expressed on human epithelial cells of the upper and lower respiratory tract. Binding studies with human tissue samples may have higher biological relevance but are cumbersome and may be limited by sample availability.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Receptor-Binding Specificity of Influenza Viruses"
+        },
+        {
+            "text": "Research should therefore focus on (1) identifying the specific sialyloligosaccharides on cells in the upper and lower respiratory tracts of humans and pigs, (2) assessing which of these sialyloligosaccharides are preferred receptors of influenza viruses, (3) identifying amino acid changes in avian virus HAs that confer efficient binding to these \"preferred\" sialyloligosaccharides, and (4) developing semi-throughput or high-throughput glycan assays to test for the features described above. In addition, mutant HAs with human-type receptor-binding specificity should be tested for virus transmissibility in animal models (see Influenza Virus Transmissibility Among Mammals).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Receptor-Binding Specificity of Influenza Viruses"
+        },
+        {
+            "text": "After entering a human cell, viruses need to replicate efficiently in these cells. The viral ribonucleoprotein complex, composed of the 3 polymerase proteins, polymerase basic protein 2 (PB2), PB1, and polymerase acidic protein, and the nucleoprotein of avian influenza viruses is typically restricted in its replicative ability in mammalian cells, and adapting mutations may be necessary for the efficient replication and transcription of the vRNAs in human cells. Several amino acid changes, such as PB2-E627K [31, 32] and PB2-D701N [33] , increase the replicative efficiency of avian influenza viruses in mammalian cells, and their emergence in avian influenza viruses is believed to increase the pandemic potential of these viruses. However, some highly pathogenic avian influenza viruses lacking the currently known mammalian-adapting mutations in the viral ribonucleoprotein complex nonetheless replicate efficiently in mammalian cells; hence, we lack a comprehensive understanding of the viral features that facilitate efficient virus replication in mammals. Comprehensive mutagenesis studies are needed, and mutations that increase replicative ability in mammals should be tested for their effect on virus transmissibility in animal models (see Influenza Virus Transmissibility Among Mammals).",
+            "cite_spans": [
+                {
+                    "start": 512,
+                    "end": 516,
+                    "text": "[31,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 517,
+                    "end": 520,
+                    "text": "32]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 535,
+                    "end": 539,
+                    "text": "[33]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mammalian Cells"
+        },
+        {
+            "text": "Pandemic influenza viruses are characterized by the ability to transmit efficiently among persons. Although some H5, H7, and H9 viruses have acquired mutations that increase their binding to human-type receptors and/or confer efficient viral replication in mammalian cells, current H5, H7, and H9 viruses have not caused pandemics. Influenza virus transmission among mammals is typically tested in ferrets, the most widely used animal model for influenza transmission studies [34] , or in guinea pigs [35] . Overall, a surprisingly small number of H5, H7, and H9 viruses have been tested for contact and/or respiratory droplet transmissibility in animal models. Reasons include the need for high biosafety containment and high biosecurity, as well as the high cost of ferrets, which is also responsible for small group sizes in transmission studies. However, without comprehensive transmission studies in animal models, we will never fully understand the factors that determine virus transmissibility in these models.",
+            "cite_spans": [
+                {
+                    "start": 476,
+                    "end": 480,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 501,
+                    "end": 505,
+                    "text": "[35]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza Virus Transmissibility Among Mammals"
+        },
+        {
+            "text": "To predict the pandemic potential of influenza viruses, it is vital to test reassortant and mutant viruses for their transmissibility in animal models. In particular, viruses with high pandemic potential should be tested, for example, avian/ human reassortant viruses with avian virus HA and NA vRNAs in the background of otherwise human virus vRNAs, or H5 or H7 viruses with mammalian-adapting mutations in the receptor-binding site and/or viral polymerase complex. Such studies have previously found that a combination of experimentally introduced amino acid changes and sequential virus passages resulted in H5 viruses that acquired respiratory droplet transmissibility in ferrets or guinea pigs [11] [12] [13] [14] . These studies established that H5 viruses have the ability to become transmissible among mammals and revealed several features that are shared among some transmissible H5 viruses, such as human-type receptor-binding specificity, mammalian-adapting mutations in the polymerase complex, and compensatory mutations in HA to restore decreased HA stability resulting from the mutations that confer human-type receptor binding. These findings have provided valuable information on features that should be tested in newly emerging viruses.",
+            "cite_spans": [
+                {
+                    "start": 699,
+                    "end": 703,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 704,
+                    "end": 708,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 709,
+                    "end": 713,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 714,
+                    "end": 718,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza Virus Transmissibility Among Mammals"
+        },
+        {
+            "text": "The publications on the ferret-transmissible H5 viruses were followed by an intense debate about the potential risks associated with such studies, including the accidental release of such viruses from high-containment laboratories. As a result, in October 2014, the US government announced a funding pause for so-called gain-of-function studies, which brought transmission studies with genetically altered influenza viruses to a halt in the United States. After extensive risk assessment and deliberations by the National Science Advisory Board for Biosecurity and the National Academies of Sciences, Engineering, and Medicine, a framework for a new review mechanism for \"potential pandemic pathogens\" (P3) came into effect in December 2017. Under this new mechanism, US researchers can request permission to test the transmissibility of genetically altered influenza viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Influenza Virus Transmissibility Among Mammals"
+        },
+        {
+            "text": "Does influenza virus transmissibility among ferrets reflect the potential of these viruses to transmit among persons? Several studies suggest the predictive power of transmission studies in ferrets [36] , but some questions remain. For example, H7N9 influenza viruses transmit among ferrets without the need for adapting mutations, yet these viruses have not yet caused a pandemic. Transmission studies in animal models are conducted with influenza virus-naive animals, whereas humans experience multiple exposures to influenza viruses during their lifetime through infection and/or vaccination. Prior exposure to influenza viruses of different subtypes may elicit low levels of cross-protective antibodies to other subtypes, such as antibodies to conserved epitopes in the HA stem region, which probably affect the outcome of future infections with influenza viruses. Thus, H7N9 virus transmission studies in ferrets should be carried out with animals that were previously infected or vaccinated with human H1 and/or H3 viruses.",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 202,
+                    "text": "[36]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza Virus Transmissibility Among Mammals"
+        },
+        {
+            "text": "In summary, much more effort needs to be devoted to influenza virus transmission studies in animal models, including larger group sizes and the establishment of additional animal models (eg, hamsters [37] ), as well as the testing of many more wild-type, mutant, and reassortant viruses in naive and infected or vaccinated animals.",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza Virus Transmissibility Among Mammals"
+        },
+        {
+            "text": "To cause a pandemic, viruses that fulfill the above criteria also need to escape the antibodies circulating in human populations. Currently, we do not know the antigenic distance between novel and recently or currently circulating human influenza viruses that will result in a pandemic. Even if we knew the antigenic distance that triggers a pandemic, we are currently unable to deduce it from a viral sequence without time-consuming experimental testing. However, efforts are underway to better understand the functional consequences of amino acid changes in HA. Most likely, avian influenza viruses (even those of the H1-H3 subtypes currently circulating in humans) would not be efficiently neutralized by antibodies circulating in human populations and might thus cause a pandemic. For novel human influenza viruses and humanlike influenza viruses isolated from swine (in which human and avian influenza viruses could potentially reassort), sequence comparison with currently circulating human influenza viruses may provide information on antigenic relatedness. Nonetheless, routine assays that test the antigenic properties of viruses, including hemagglutination inhibition and focus reduction assays, need to be conducted, followed by antigenic cartography to map the antigenic relationships of viruses. Antigenic cartography [38] is now used to assess the epidemic potential of novel human influenza variants but, as stated above, we currently do not know the antigenic distance from presently circulating human viruses that would cause a pandemic.",
+            "cite_spans": [
+                {
+                    "start": 1331,
+                    "end": 1335,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Antigenic Relatedness to Viruses Currently Circulating in Humans"
+        },
+        {
+            "text": "Viruses presumed to have pandemic potential should be tested for their ability to replicate in animals previously infected or vaccinated with circulating viruses. Such information would also help in the development of broadly protective vaccines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Antigenic Relatedness to Viruses Currently Circulating in Humans"
+        },
+        {
+            "text": "Efforts to predict future pandemics also rely on surveillance data on circulating and newly emerging influenza viruses ( Figure  1 ). These data allow us to monitor the evolution of circulating influenza viruses, and the emergence of novel influenza viruses with pandemic potential.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 121,
+                    "end": 130,
+                    "text": "Figure  1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "INFLUENZA VIRUS SURVEILLANCE"
+        },
+        {
+            "text": "Until the mid-1990s, influenza surveillance was limited in many parts of the world. However, with the emergence of highly pathogenic H5N1 viruses in 1997 in Hong Kong and of H7N9 viruses in China in 2013, avian surveillance in China, which is presumed to be a hot spot for the emergence of novel influenza viruses, and in other parts of the world has increased greatly. Nonetheless, certain areas, such as parts of Africa and South America, still lack sizeable surveillance programs. Despite the fact that the 2009 pandemic virus most likely resulted from influenza virus reassortment in pigs, surveillance in swine is still limited and should be expanded so that novel avian/ human/swine reassortants can be identified early and monitored closely.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Influenza Virus Surveillance in Animals"
+        },
+        {
+            "text": "Influenza surveillance in humans starts with the collection of samples by local healthcare providers who may further analyze the samples serologically and/or genetically, or send them to state or national reference laboratories. The World Health Organization (WHO) Global Influenza Surveillance and Response System laboratories test large numbers of samples; for example, >65 000 samples were tested in 14-27 May 2018, of which approximately 3% were positive for influenza A or B viruses. Data generated by the Global Influenza Surveillance and Response System and other influenza reference laboratories are provided to FluNet (http://www.who.int/influenza/ gisrs_laboratory/flunet/en/), a Web-based portal for influenza surveillance data. Most of these data are based on reverse-transcription polymerase chain reaction, which does not capture the antigenic properties of viruses. Selected viruses, including those that cannot be subtyped locally, belong to a subtype not commonly circulating in humans, or were collected from severe cases, are typically sent to 1 of the 5 WHO Collaborating Centers for antigenic characterization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Influenza Virus Surveillance in Humans"
+        },
+        {
+            "text": "In addition to the collection and characterization of surveillance samples, information from online social networks may be leveraged to detect the onset of severe virus outbreaks [39, 40] . In fact, in 2009, local reports preceded the identification of the novel 2009 pandemic virus (for a summary, see [41] ). Though not a predictive tool, increased use of certain keywords in online social networks may be a sign of an influenza virus outbreak that could necessitate the implementation of countermeasures. The challenge lies in developing computational algorithms that efficiently analyze large amounts of highly unstructured data.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 183,
+                    "text": "[39,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 184,
+                    "end": 187,
+                    "text": "40]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 303,
+                    "end": 307,
+                    "text": "[41]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza Virus Surveillance in Humans"
+        },
+        {
+            "text": "Genomic characterization of surveillance samples has improved considerably with the implementation of robust real-time reverse-transcription polymerase chain reaction platforms and next-generation sequencing platforms that have become more cost-competitive. In addition, the recently developed Oxford Nanopore technology may allow influenza virus sequencing in the field. With these advances, large numbers of influenza viral sequences can be generated quickly. In parallel, the Global Initiative on Sharing All Influenza Data database (www. gisaid.org), which acknowledges the rights of contributors, has increased willingness to share influenza virus sequences for analyses by the global research community. Inspection of viral genomic sequences will identify avian influenza viruses that infected humans, novel avian/human/swine reassortants with a gene constellation of concern (eg, avian virus HA and NA vRNAs combined with otherwise human virus vRNAs), or avian influenza viruses that acquired mammalian-adapting amino acid changes. However, more viruses need to be sequenced in \"real time\" to allow the early detection of those with pandemic potential.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Influenza Virus Surveillance: Sequence-Based Risk Assessment"
+        },
+        {
+            "text": "Surveillance and experimental data, together with data on numbers of human infections, existing population immunity, and the prevalence of a virus of interest in nature can also be assessed through the Influenza Risk Assessment Tool (developed by the Centers for Disease Control and Prevention; https://www.cdc.gov/flu/pandemic-resources/national-strategy/risk-assessment.htm) or the Tool for Influenza Pandemic Risk Assessment (developed by the WHO; http://www.who. int/influenza/publications/TIPRA_manual_v1/en/) ( Figure  1 ). Both tools rank influenza viruses by their pandemic potential and by the potential impact of such an event on human societies and public health. An Influenza Risk Assessment Tool assessment of several high-and low-pathogenic influenza viruses of different subtypes assigned the highest pandemic potential and impact to the H7N9 viruses that emerged in 2013. Experimental testing and computational risk assessment are important to determine the pandemic potential of circulating viruses, which may help decision makers to allocate potentially limited countermeasures (eg, antivirals). However, experimental virus characterization and risk assessment take several months and will lag behind an acute pandemic outbreak.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 517,
+                    "end": 526,
+                    "text": "Figure  1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "COMPUTATIONAL TOOLS FOR RISK ASSESSMENT"
+        },
+        {
+            "text": "Although much has been learned about the viral properties that may cause a pandemic, our knowledge is still incomplete. We, therefore, propose focusing on (1) comprehensive mutagenesis studies to identify mutations that confer binding to humantype receptors or efficient replication in mammalian cells; (2) cataloging the sialyloligosaccharides to which influenza viruses bind efficiently; (3) extensive transmission studies in naive and infected or vaccinated animals; (4) developing novel animal models for influenza virus transmission studies; (5) expanding influenza virus surveillance in poultry and pigs, and in certain geographic areas, such as Africa and South America; (6) studying environmental factors that may facilitate the emergence of pandemic strains; and (7) developing robust computational tools for the mining of information exchanged in online social networks. Some of these data might also aid in the development of influenza vaccines that elicit protection against antigenically diverse influenza viruses. For example, the impact of antibodies to conserved regions in HA on future infections is still incompletely understood. Such knowledge might suggest additional strategies for the development of universal influenza vaccines. ",
+            "cite_spans": [
+                {
+                    "start": 303,
+                    "end": 306,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSIONS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Initial genetic characterization of the 1918 \"Spanish\" influenza virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Taubenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Reid",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Krafft",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bijwaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Fanning",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Science",
+            "volume": "275",
+            "issn": "",
+            "pages": "1793--1799",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "On the origin of the human influenza virus subtypes H2N2 and H3N2",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Scholtissek",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Rohde",
+                    "suffix": ""
+                },
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Hoyningen",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rott",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Virology",
+            "volume": "87",
+            "issn": "",
+            "pages": "13--20",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Avian-to-human transmission of the PB1 gene of influenza A viruses in the 1957 and 1968 pandemics",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Krauss",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "J Virol",
+            "volume": "63",
+            "issn": "",
+            "pages": "4603--4611",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Emergence of a novel swine-origin influenza A (H1N1) virus in humans",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dawood",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Finelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "N Engl J Med",
+            "volume": "360",
+            "issn": "",
+            "pages": "2605--2620",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Origins and evolutionary genomics of the 2009 swine-origin H1N1 influenza A epidemic",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vijaykrishna",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bahl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nature",
+            "volume": "459",
+            "issn": "",
+            "pages": "1122--1127",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The origin of the recent swine influenza A(H1N1) virus infecting humans",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Trifonov",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Khiabanian",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Greenbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rabadan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Euro Surveill",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Antigenic and genetic characteristics of swine-origin 2009 A(H1N1) influenza viruses circulating in humans",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Garten",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Science",
+            "volume": "325",
+            "issn": "",
+            "pages": "197--201",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Human influenza virus A/HongKong/156/97 (H5N1) infection",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Claas",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "De Jong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Van Beek",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Rimmelzwaan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Vaccine",
+            "volume": "16",
+            "issn": "",
+            "pages": "977--985",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Human influenza A H5N1 virus related to a highly pathogenic avian influenza virus",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Claas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Van Beek",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Lancet",
+            "volume": "351",
+            "issn": "",
+            "pages": "472--479",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Characterization of an avian influenza A (H5N1) virus isolated from a child with a fatal respiratory illness",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Subbarao",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Klimov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Science",
+            "volume": "279",
+            "issn": "",
+            "pages": "393--399",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Airborne transmission of influenza A/H5N1 virus between ferrets",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Herfst",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schrauwen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Linster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Science",
+            "volume": "336",
+            "issn": "",
+            "pages": "1534--1575",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Experimental adaptation of an influenza H5 HA confers respiratory droplet transmission to a reassortant H5 HA/H1N1 virus in ferrets",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hatta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nature",
+            "volume": "486",
+            "issn": "",
+            "pages": "420--428",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "In vitro evolution of H5N1 avian influenza virus toward human-type receptor specificity",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Blixt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stevens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Virology",
+            "volume": "422",
+            "issn": "",
+            "pages": "105--118",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "H5N1 hybrid viruses bearing 2009/H1N1 virus genes transmit in guinea pigs by respiratory droplet",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Science",
+            "volume": "340",
+            "issn": "",
+            "pages": "1459--63",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The first patient recovered from avian influenza A H7N9 viral infection: a case report and review of the literature",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Respir Med Case Rep",
+            "volume": "10",
+            "issn": "",
+            "pages": "23--29",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Infectivity, transmission, and pathology of human-isolated H7N9 influenza virus in ferrets and pigs",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kelvin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Science",
+            "volume": "341",
+            "issn": "",
+            "pages": "183--189",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "H7N9 influenza viruses are transmissible in ferrets by respiratory droplet",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Science",
+            "volume": "341",
+            "issn": "",
+            "pages": "410--414",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Characterization of H7N9 influenza A viruses isolated from humans",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kiso",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fukuyama",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "501",
+            "issn": "",
+            "pages": "551--556",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Mammalian pathogenesis and transmission of H7N9 influenza viruses from three waves",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Belser",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Creager",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Virol",
+            "volume": "90",
+            "issn": "",
+            "pages": "4647--57",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Challenge for one health: co-circulation of zoonotic H5N1 and H9N2 avian influenza viruses in Egypt",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Viruses",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "H9N2 influenza virus in China: a cause of concern",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Protein Cell",
+            "volume": "6",
+            "issn": "",
+            "pages": "18--25",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A systematic review and meta-analysis of the seroprevalence of influenza A(H9N2) infection among humans",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Heil",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gray",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Infect Dis",
+            "volume": "212",
+            "issn": "",
+            "pages": "562--571",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Influenza virus strains selectively recognize sialyloligosaccharides on human respiratory epithelium; the role of the host cell in selection of hemagglutinin receptor specificity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Couceiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Paulson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Baum",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Virus Res",
+            "volume": "29",
+            "issn": "",
+            "pages": "155--65",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Avian flu: influenza virus receptors in the human airway",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shinya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ebina",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ono",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kasai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaoka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nature",
+            "volume": "440",
+            "issn": "",
+            "pages": "435--441",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "H5N1 virus attachment to lower respiratory tract",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Van Riel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Munster",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Wit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Science",
+            "volume": "312",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Receptor binding properties of human and animal H1 influenza virus isolates",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Virology",
+            "volume": "173",
+            "issn": "",
+            "pages": "317--339",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Receptor determinants of human and animal influenza virus isolates: differences in receptor specificity of the H3 hemagglutinin based on species of origin",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Paulson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Virology",
+            "volume": "127",
+            "issn": "",
+            "pages": "361--73",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Differential sensitivity of human, avian, and equine influenza A viruses to a glycoprotein inhibitor of infection: selection of receptor specific variants",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Pritchett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lane",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Paulson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Virology",
+            "volume": "131",
+            "issn": "",
+            "pages": "394--408",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Early alterations of the receptor-binding properties of H1, H2, and H3 avian influenza virus hemagglutinins after their introduction into mammals",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Matrosovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tuzikov",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bovin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J Virol",
+            "volume": "74",
+            "issn": "",
+            "pages": "8502--8514",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "influenza pandemic caused by highly conserved viruses with two receptor-binding variants",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Reid",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Janczewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lourens",
+                    "suffix": ""
+                }
+            ],
+            "year": 1918,
+            "venue": "Emerg Infect Dis",
+            "volume": "9",
+            "issn": "",
+            "pages": "1249--53",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Molecular basis for high virulence of Hong Kong H5N1 influenza A viruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hatta",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Halfmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaoka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Science",
+            "volume": "293",
+            "issn": "",
+            "pages": "1840--1842",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "A single amino acid in the PB2 gene of influenza A virus is a determinant of host range",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Subbarao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "London",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J Virol",
+            "volume": "67",
+            "issn": "",
+            "pages": "1761--1765",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Molecular basis of replication of duck H5N1 influenza viruses in a mammalian mouse model",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "12058--64",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Ferrets as models for influenza virus transmission studies and pandemic risk assessments",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Belser",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Barclay",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Barr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Emerg Infect Dis",
+            "volume": "24",
+            "issn": "",
+            "pages": "965--71",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The guinea pig as a transmission model for human influenza viruses",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lowen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mubareka",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tumpey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Garc\u00eda-Sastre",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "103",
+            "issn": "",
+            "pages": "9988--92",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Mapping influenza transmission in the ferret model to transmission in humans",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Buhnerkempe",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gostic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ahsan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Belser",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lloyd-Smith",
+                    "middle": [],
+                    "last": "Jo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Elife",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7554/eLife.07969"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Syrian hamster as an animal model for the study of human influenza virus infection",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Iwatsuki-Horimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Nakajima",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ichiko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "1693--1710",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Mapping the antigenic and genetic evolution of influenza virus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lapedes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "De Jong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Science",
+            "volume": "305",
+            "issn": "",
+            "pages": "371--377",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Using online social networks to track a pandemic: a systematic review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Garadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Varathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mujtaba",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Al-Kabsi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Biomed Inform",
+            "volume": "62",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The politics of participatory epidemiology: technologies, social media and influenza surveillance in the US",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Blouin-Genest",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Health Policy Technol",
+            "volume": "6",
+            "issn": "",
+            "pages": "192--199",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Four-year-old could hold key in search for source of swine flu outbreak: case confirmed in village in south-eastern Mexico where 60% of residents fell ill",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tuckman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Booth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Guardian",
+            "volume": "27",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Overview of proposed activities and tools to enable the prediction of future influenza pandemics. See text for details. Abbreviations: IRAT, Influenza Risk Assessment Tool; TIPRA, Tool for Influenza Pandemic Risk Assessment.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Financial support. This work was supported by the National Institute of Allergy and Infectious Diseases-funded Center for Research on Influenza Pathogenesis (grant HHSN272201400008C). Potential conflict of interest. Y. K. has received grant support from Daiichi Sankyo Pharmaceutical, Toyama Chemical, Tauns Laboratories, Denka Seiken, and Ttsumura; has received royalties from MedImmune and Integrated Biotherapeutics; and is a cofounder of FluGen. He also holds the following patents: Recombinant influenza viruses for vaccines and gene therapy (US patent 8,715,940 B2); Viruses comprising mutant ion channel protein (US patent 6,872,395); Mutant cells with altered sialic acid (US patent 7,176,021); Signal for packaging of influenza virus vectors (US patent 7,585,657 B2); Viruses encoding mutant membrane protein (US patent 7,588,769 B2); Recombinant influenza vectors with a polII promoter and ribozymes for vaccines and gene therapy (US patent 7,723,094); Recombinant influenza vectors with tandem transcription units (US patent 7,968,101 B2); Adenoviral vectors for influenza virus production (US patent 8,043,856); Viruses comprising mutant ion channel protein (US patent 8,057,806; 6,872,395 B2); Cellbased systems for producing influenza vaccines (US patent 8,163,523); Influenza B viruses with reduced sensitivity to neuraminidase inhibitor (US patent 8,465,960); High titer recombinant influenza viruses for vaccine and gene therapy (US patent 8,475,806 B2); Influenza A virus with attenuating mutations in NS2 protein (US patent 8,507,247); Neuraminidase-deficient live influenza vaccines (US patent 8,597,661)with enhanced replication in MDCK or Vero cells (US patent 9.950,057); Influenza M2 protein mutant viruses as live influenza attenuated vaccines (US patent 9,474,798, B2). G. N. is a cofounder of FluGen and has received royalties from MedImmune. She holds the following patents: Recombinant influenza viruses for vaccines and gene therapy (US patent 8,715,940 B2); Recombinant influenza vectors with tandem transcription units (US patent 7,968,101 B2). The authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

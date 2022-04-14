@@ -16,11 +16,14 @@ db_port = "6033"
 db_user = 'root' #'populator',
 db_password = 'root' #'d9pifetoyesad2cekipoyolis',
 db_database = "BASP"
-insert_sqls = {'Author': 'INSERT INTO Author (FirstName, LastName) VALUES (%s, %s)',
-               'Paper': 'INSERT INTO Paper (idPaper, title, doi,abstract,year,body,word_count,unique_word_count) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)',
-               'Word': 'INSERT INTO Word (word) VALUES (%s)',
-               'paper_to_author': 'INSERT INTO paper_to_author (fk_paper_id, fk_author_id) VALUES (%s, %s)',
-               'word_to_paper': 'INSERT INTO word_to_paper (fk_word_id, fk_paper_id,counter) VALUES (%s, %s,%s)'}
+
+# INSERT IGNORE is used, which is suboptimal, as all errors are suppressed, it improves performance
+insert_sqls = {'Author': 'INSERT IGNORE INTO Author (FirstName, LastName) VALUES (%s, %s)',
+               'Paper': 'INSERT IGNORE INTO Paper (idPaper, title, doi,abstract,year,body,word_count,unique_word_count) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)',
+               'Word': 'INSERT IGNORE INTO Word (word) VALUES (%s)',
+               'paper_to_author': 'INSERT IGNORE INTO paper_to_author (fk_paper_id, fk_author_id) VALUES (%s, %s)',
+               'word_to_paper': 'INSERT IGNORE INTO word_to_paper (fk_word_id, fk_paper_id,counter) VALUES (%s, %s,%s)'}
+
 select_sqls = {'Author': 'SELECT * FROM Author WHERE FirstName = %s AND LastName = %s',
                'Paper': 'SELECT * FROM Paper WHERE idPaper = %s',
                'paper_to_author': 'SELECT * FROM paper_to_author WHERE fk_paper_id = %s AND fk_author_id = %s',
@@ -33,7 +36,7 @@ populator = None
 populator_cursor = None
 nlp = spacy.load('en_core_web_sm')
 stemmer = snowballstemmer.stemmer("english")
-MAX_FILE_NUMER = 1
+MAX_FILE_NUMER = 100
 
 # Function to iterate over dataset and parse the files
 def iterate_jsons():
@@ -144,12 +147,12 @@ def connect_to_DB():
     @return
         the object id
 '''
-def add_object_to_DB(instert_sql, select_sql, select_val, val) -> int:
+def add_object_to_DB(instert_sql, select_sql, select_val, val):
     populator_cursor = populator.cursor()
-    populator_cursor.execute(select_sql, select_val)
+    #populator_cursor.execute(select_sql, select_val)
     try: 
-        id = populator_cursor.fetchone()
-        if id == None:
+        #id = populator_cursor.fetchone()
+        #if id == None:
             populator_cursor.execute(instert_sql, val)
             populator.commit()
             id = populator_cursor.lastrowid
@@ -162,14 +165,16 @@ def add_object_to_DB(instert_sql, select_sql, select_val, val) -> int:
     All the indexing happens here
 '''
 def index(paper_id, author_ids, word_ids):
-    populator_cursor = populator.cursor()
+    if not type(paper_id)==str: paper_id = paper_id[0]
     for author_id  in author_ids:
+        if not type(author_id)==int: author_id = author_id[0]
         # should checke first if exists
-        populator_cursor.execute(insert_sqls['paper_to_author'], (paper_id[0], author_id[0]))
-    populator.commit()
-    for word_id in word_ids:
+        add_object_to_DB(insert_sqls['paper_to_author'], select_sqls['paper_to_author'], (paper_id, author_id), (paper_id, author_id))
+    for word_id,word_val in word_ids:
+        if not type(word_id)==int: word_id = word_id[0]
         # should checke first if exists
-        populator_cursor.execute(insert_sqls['word_to_paper'], (word_id[0], paper_id[0],dataset.get(paper_id[0])['body'].count(word_id[1])))
+        counter = dataset.get(paper_id)['body'].count(word_val)
+        add_object_to_DB(insert_sqls['word_to_paper'], select_sqls['word_to_paper'], (word_id, paper_id), (word_id, paper_id,counter))
     populator.commit()
 
 ''' populate function
@@ -186,8 +191,8 @@ def populate():
             author_ids.append(add_object_to_DB(insert_sqls['Author'], select_sqls['Author'], val_author,val_author))
         word_ids = []
         for val_word in val_words:
-            word_ids.append(add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], [val_word],[val_word]))
-        index(paper_id, author_ids, word_ids)
+            word_ids.append((add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], [val_word],[val_word]),val_word))
+        index(paperid, author_ids, word_ids)
 
 ''' count_unique function
     Counts the unique words in the document

@@ -1,0 +1,4094 @@
+{
+    "paper_id": "9968d7fb8ddbf432dcbfd1ab10df8211bee4b3ac",
+    "metadata": {
+        "title": "The impact of artificial intelligence in the diagnosis and management of glaucoma",
+        "authors": [
+            {
+                "first": "Eileen",
+                "middle": [
+                    "L"
+                ],
+                "last": "Mayro",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mengyu",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u2022",
+                "middle": [],
+                "last": "Tobias Elze",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Louis",
+                "middle": [
+                    "R"
+                ],
+                "last": "Pasquale",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Deep learning (DL) is a subset of artificial intelligence (AI), which uses multilayer neural networks modelled after the mammalian visual cortex capable of synthesizing images in ways that will transform the field of glaucoma. Autonomous DL algorithms are capable of maximizing information embedded in digital fundus photographs and ocular coherence tomographs to outperform ophthalmologists in disease detection. Other unsupervised algorithms such as principal component analysis (axis learning) and archetypal analysis (corner learning) facilitate visual field interpretation and show great promise to detect functional glaucoma progression and differentiate it from non-glaucomatous changes when compared with conventional software packages. Forecasting tools such as the Kalman filter may revolutionize glaucoma management by accounting for a host of factors to set target intraocular pressure goals that preserve vision. Activation maps generated from DL algorithms that process glaucoma data have the potential to efficiently direct our attention to critical data elements embedded in high throughput data and enhance our understanding of the glaucomatous process. It is hoped that AI will realize more accurate assessment of the copious data encountered in glaucoma management, improving our understanding of the disease, preserving vision, and serving to enhance the deep bonds that patients develop with their treating physicians.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The field of artificial intelligence (AI) began around 1950 when Turing pointed out that computer programs simulating cognitive functions like game play could be written [1] . In the 1980s, machine learning (ML), a subset of AI, achieved the objective of actually learning patterns in data without explicitly being programmed, but this subset of AI did not greatly impact medicine, probably because clinicians could readily outperform such algorithms. Around 2010 the artificial neural networks of ML were replaced with networks that functioned like neurons with receptive fields that efficiently integrated high throughput data and the subset ML called deep learning (DL) emerged ( Fig. 1) . In a short time, DL algorithms have rivalled and even outperformed pre-existing algorithms in medicine and other disciplines. DL applications are diverse, ranging from the prediction of earthquake aftershocks [2] to the advancement of drug discovery [3] . In healthcare, DL has been used to ascertain time of stroke onset [4] , assess cancer lesions and metastases [5] [6] [7] , and recognize numerous other conditions. In ophthalmology, DL applications aid in the detection of glaucoma [8] [9] [10] [11] , diabetic retinopathy (DR) [12] [13] [14] [15] , age-related macular degeneration [16] [17] [18] , and retinopathy of prematurity [19, 20] . Remarkably, a myriad of products employing AI algorithms for the detection of conditions ranging from atrial fibrillation via the Apple watch to autonomous recognition of DR from digital fundus gained FDA approval in 2017 and 2018 [21] . The 2020 issue of Eye spotlights innovation and the incredible progress being made in the field of glaucoma. This review emphasizes advancements in glaucoma related to AI.",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 173,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 902,
+                    "end": 905,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 943,
+                    "end": 946,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1015,
+                    "end": 1018,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1058,
+                    "end": 1061,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1062,
+                    "end": 1065,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1066,
+                    "end": 1069,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1180,
+                    "end": 1183,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1184,
+                    "end": 1187,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1188,
+                    "end": 1192,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1193,
+                    "end": 1197,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1226,
+                    "end": 1230,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1231,
+                    "end": 1235,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1236,
+                    "end": 1240,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1241,
+                    "end": 1245,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1281,
+                    "end": 1285,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1286,
+                    "end": 1290,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1291,
+                    "end": 1295,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1329,
+                    "end": 1333,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1334,
+                    "end": 1337,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1571,
+                    "end": 1575,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 683,
+                    "end": 690,
+                    "text": "Fig. 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "After providing an overview of AI, this paper reviews the applications of DL to glaucoma, including (1) detection of the glaucomatous disc from fundus photographs and optical coherence tomography, (2) interpretation of visual fields and recognition of their progression, and (3) clinical forecasting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In earlier forms of AI that did not use ML, a machine only learns when explicitly programmed. The machine is taught through a series of if-then statements that specify how the machine should act. For example, let us assume a person wants a computer to play checkers. To teach the computer, the person indicates where the computer should move based on specific circumstances in the game. Under these conditions, the computer will not likely be better at checkers than the person.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AI, machine learning, and DL"
+        },
+        {
+            "text": "In contrast, ML describes the ability of a machine to learn something without needing to be explicitly programmed [22] . Samuel coined this term in attempting to make a computer play checkers better than him. ML allowed the computer to adapt to the game as it played out. As a result, the computer improved its own performance and learned to play checkers better than Samuel.",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 118,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI, machine learning, and DL"
+        },
+        {
+            "text": "The 'deep' in DL, the newest subset of ML, refers to the many hidden layers in its computer neural network. The benefit of more hidden layers is the ability to analyse more complicated inputs, including entire images. DL also uses a general-purpose learning procedure so that features do not need to be engineered individually [23] . Of vital importance, the DL algorithm is inspired by the organization of the visual cortex, giving it a particular advantage in perceiving visual inputs.",
+            "cite_spans": [
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI, machine learning, and DL"
+        },
+        {
+            "text": "DL and visual cortex neural networks DL networks are modelled after visual cortex neural networks. As a result, there are multiple features that artificial and biological networks share, including the use of edge detection and a high degree of spatial invariance, which refers to the ability to recognize images despite alterations in viewing angle, image orientation, image size, scene lighting, etc. [24] . Early layers of the visual cortex are considered edge detectors [25] because they have dedicated orientation-and position-specific cells, as initially described by Hubel and Wiesel [26] . A cell might respond to a bar with a vertical orientation, but if the bar is rotated 30\u00b0, the cell may no longer respond. DL utilizes small receptive fields that act like flashlights to learn about edges of objects and where the objects have empty space.",
+            "cite_spans": [
+                {
+                    "start": 402,
+                    "end": 406,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 473,
+                    "end": 477,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 590,
+                    "end": 594,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI, machine learning, and DL"
+        },
+        {
+            "text": "There are multiple architectural similarities between biological and artificial neural networks, including their degree of connectivity and their learning procedure. In the visual cortex, every neuron in a particular layer is not connected to every neuron in the next layer. While this breadth of connectivity would be useful, it is not feasible because of evolutionary constraints on human brain size. Artificial neurons in DL networks have the same connective architecture as biological neurons, a feature that reduces computational burden. DL networks further reduce computational complexity and minimize the amount of computer memory use by employing matrix multiplication with predetermined filters. Another architectural similarity between biological and artificial neural networks is the condensation and summation that occurs at the end of the DL algorithm that is akin to what happens in level V1 of the cerebral cortex. Finally, DL and cortical computation have both feedforward and feedback arms (the latter is called backpropagation) [27, 28] . In backpropagation, a network adjusts the weights of its different inputs to ensure the actual output of the algorithm matches its expected value [28] .",
+            "cite_spans": [
+                {
+                    "start": 1046,
+                    "end": 1050,
+                    "text": "[27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1051,
+                    "end": 1054,
+                    "text": "28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1203,
+                    "end": 1207,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI, machine learning, and DL"
+        },
+        {
+            "text": "DL consists of three essential stages, (1) training, (2) validating, and (3) testing. A machine is first given a training dataset, or sample data that the machine fits its algorithm to. A validation dataset then evaluates how well the model fits the training set and the model is manually adjusted Fig. 1 The relationship between deep learning, machine learning, and artificial intelligence is depicted. Artificial intelligence is the broadest classification and deep learning is the narrowest classification of the three. Machine learning is a type of artificial intelligence. Deep learning is a type of artificial intelligence as well but is also a machine learning classifier accordingly. In order to assess how well the algorithm works, the machine is ultimately given a testing dataset.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 298,
+                    "end": 304,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "DL algorithm"
+        },
+        {
+            "text": "Glaucoma is a leading cause of irreversible blindness, with a global prevalence of 3.5% and a global burden of 76 million affected people in 2020 [29] . Early detection and treatment can preserve vision in affected individuals. However, glaucoma is asymptomatic in early stages, as visual fields are not affected until 20-50% of corresponding retinal ganglion cells are lost [30, 31] . Considerable work is needed to improve our ability to detect glaucoma and its progression as well as optimize treatment algorithms in order to preserve vision in these patients. While great strides have been made in understanding the various glaucoma subtypes, the avalanche of existing imaging and visual field data will need to be synthesized in new ways to improve our understanding of glaucoma and derive better treatments. Glaucoma, like the field of ophthalmology in general, is heavily image based and AI is poised to address many of these challenges.",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 375,
+                    "end": 379,
+                    "text": "[30,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 380,
+                    "end": 383,
+                    "text": "31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DL and glaucoma"
+        },
+        {
+            "text": "Assessment of optic nerve head (ONH) integrity is the foundation for detecting glaucomatous damage. The ONH is a site where~1 million retinal ganglion cell axons converge on a space with average area of 2.1-3.0 mm 2 prior to radiating to higher visual pathways [32] . Given the variance in ONH anatomy [33] , it can be challenging to identify the glaucomatous disc both in the clinical and screening setting.",
+            "cite_spans": [
+                {
+                    "start": 261,
+                    "end": 265,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 302,
+                    "end": 306,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DL and detection of the glaucomatous disc"
+        },
+        {
+            "text": "In fact a study showed that agreement on the detection of ONH damage from fundus photographs among experts is only moderate [34] . Difficulties in detecting the glaucomatous disc from fundus photographs can be compounded by variations in image capture platform, exposure, focus, magnification, state of mydriasis, and presence of nonglaucomatous disease. DL has made considerable inroads in detecting glaucomatous disc damage from digital optic nerve photographs. Figure 2 shows the DL procedure applied to detection of the glaucomatous disc. Here the input layer is an optic nerve image, which mathematically can be depicted as a 3-dimensional pixel array with length, width, and colour channels (Red-Green-Blue). The input image is assigned a clinical consensus ground truth label like 'glaucoma' or 'no glaucoma'. The output of one hidden layer becomes the input of the next hidden layer. The output layer is a classification label that the algorithm gives the image based on the properties it identifies during DL.",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 128,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 464,
+                    "end": 472,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "DL and detection of the glaucomatous disc"
+        },
+        {
+            "text": "There are two stages of DL: feature learning and classification. Feature learning is an iterative procedure of convolution, pooling, and activation, followed by backpropagation ( Fig. 2 ). Classification consists of probability conversion and clinical labelling. The feature learning iterative procedure is applied at each hidden layer. Each layer is analysed piecewise, in blocks called image patches or receptive fields. Convolution, pooling, and activation occur at each image patch until the entire layer is analysed. The first step, convolution, is synonymous with matrix combination. The input matrix, or the image being analysed, and the feature matrix, or the feature being extracted from the image, are combined. Convolution then produces a feature map. A feature map shows the important features of Fig. 2 The deep learning procedure applied to glaucomatous disc detection is depicted. The input layer, or the image, is analysed and gives rise to the output layer, or the classification label. There are two stages of deep learning analysis: feature learning and classification. Feature learning is an iterative procedure of convolution, pooling, and activation that is applied at each hidden layer. In order to classify the image based on what is deduced from feature learning, probability conversion is performed. The probability value produced is used to classify the input image. Prior to classification, backpropagation occurs to compare the predicted probability value to the actual probability value and calculate the corresponding error. In the case of glaucoma detection, the final probability value is used to classify the input image as glaucomatous or normal the input image and excludes the irrelevant parts of the input image.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 179,
+                    "end": 185,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 809,
+                    "end": 815,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "DL and detection of the glaucomatous disc"
+        },
+        {
+            "text": "The final two stages of the iterative procedure are pooling and activation. Pooling consists of streamlining the matrix to its most important parts, which are passed on to the next hidden layer. The most common type of pooling is called max pooling. In max pooling, the image patches with the highest intensity pixels are maintained and all other image patches are removed. Pooling isolates the most relevant features of the given hidden layer. Activation further streamlines by setting negative matrix values to 0. Probability conversion produces a probability value based on what remains in the matrix. This probability value will later be used to clinically classify the input image. Prior to classification, backpropagation, which implements gradient descent, occurs. Backpropagation compares the predicted probability value to the actual probability value and calculates the corresponding error. Backpropagation subsequently updates each feature matrix value recursively in order to compute the most accurate probability value. Based on the final probability value, the input image is clinically labelled. In the case of glaucoma detection, the final probability value is used to classify the input image as glaucomatous or normal.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DL and detection of the glaucomatous disc"
+        },
+        {
+            "text": "Common metrics that assess DL algorithms are sensitivity, specificity, accuracy, precision, positive predictive value, negative predictive value, and area under the receiver operating curve (AUC) [35] . AUC is calculated using sensitivity and specificity [36] . AUC is intended for binary classifiers only [36] . As a result, AUC can be used as a metric when images are classified into two categories, such as 'glaucoma' or 'no glaucoma'.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 200,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 255,
+                    "end": 259,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DL and detection of the glaucomatous disc"
+        },
+        {
+            "text": "Investigators have assembled large numbers of images into training, validation, and testing datasets to successfully train DL algorithms to detect a cup-disc ratio (CDR) at or above a certain threshold (either CDR of 0.7 or 0.8) with AUC \u2265 0.942 [10, 12] (Table 1 ). In an alternative approach, investigators have assigned a glaucoma status based on a consensus of ancillary data associated with the input disc photograph and also reported remarkable good results (AUC \u2265 0.872). [9, [37] [38] [39] [40] In this way, a DL algorithm could be tailored to identify the optic disc associated with manifest visual field loss, a highly meaningful endpoint that circumvents the issue that larger discs will naturally have larger cups and could be a source of false positive screening results. Furthermore, investigators have applied DL to assessments of OCT. A study detecting early glaucoma with OCT using DL showed a higher AUC (0.937) than other machine learning methods including random forests (AUC 0.820) and support vector machine model (AUC 0.674) ( Table 1 ) [8] . Finally, in a highly innovative approach, Medeiros et al. assigned the average nerve fibre layer thickness from an OCT paired to a fundus photo and trained OCT ocular coherence tomography, CDR cup-disc ratio, AUC area under the curve a DL to predict average NFL thickness from a test fundus photo [37] . The correlation between predicted and observed retinal nerve fibre layer (RNFL) thickness values was high (r = 0.83) and the AUC for glaucoma detection from the DL prediction of RNFL thickness was 0.944. Such a machine-to-machine learning approach removes the subjectivity associated with the ground truth labels for disc photographs and gives the photo the added value of an estimated RNFL thickness. Using a similar approach, this research team also assigned a Bruch's membrane opening minimal rim width (BMO-MRW) value, defined as the minimal distance from the internal limiting membrane to the inner opening of Bruch's membrane opening, to fundus images and yielded similar results in terms of detecting glaucoma [40] . BMO-MWO is an OCT biomarker that may be as sensitive or more sensitive in detecting glaucoma. There is considerable pixel information embedded in digital fundus photographs and DL algorithms are being used to leverage that information.",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 251,
+                    "end": 254,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 479,
+                    "end": 482,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 483,
+                    "end": 487,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 488,
+                    "end": 492,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 493,
+                    "end": 497,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 498,
+                    "end": 502,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1060,
+                    "end": 1063,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1363,
+                    "end": 1367,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 2087,
+                    "end": 2091,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 255,
+                    "end": 263,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1050,
+                    "end": 1057,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "DL and detection of the glaucomatous disc"
+        },
+        {
+            "text": "Structural disc features that clinicians use to detect glaucomatous optic neuropathy include increased CDR, RNFL thinning, neuroretinal rim thinning and notching, excavation of the cup, optic cup vertical elongation, parapapillary atrophy, disc haemorrhage, nasal shifting of central ONH vessels, and baring of the circumlinear vessels [41] . To confirm glaucoma, a clinician inspects these features on ONH and RNFL exam. In contrast, it is unknown whether DL algorithms evaluate these features. In fact, the exact mechanism DL models use to predict in glaucoma algorithms is unclear. As a result, DL algorithms have been called 'black boxes' [35] . Heatmap analysis and occlusion testing have shed light on how DL works. Both heatmap analysis and occlusion testing visually represent the weights of fundus image components as contributors to the algorithm's prediction [37] . Heatmap analysis has identified the optic disc as the region that algorithms primarily use to classify [37, 40, 42] . In addition, occlusion testing has identified the neuroretinal rim as the main predictive factor in differentiating normal from glaucomatous eyes [43] .",
+            "cite_spans": [
+                {
+                    "start": 336,
+                    "end": 340,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 643,
+                    "end": 647,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 870,
+                    "end": 874,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 980,
+                    "end": 984,
+                    "text": "[37,",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 985,
+                    "end": 988,
+                    "text": "40,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 989,
+                    "end": 992,
+                    "text": "42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1141,
+                    "end": 1145,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DL and detection of the glaucomatous disc"
+        },
+        {
+            "text": "Computerized automated visual field testing represented a real advancement in mapping the island of vision and allowed visual field testing to be a cornerstone in diagnosing and monitoring glaucoma. Various platforms were developed and computerized algorithms generated useful outputs containing reliability parameters, retinal sensitivity arrays across visual space that were adjusted for agematched controls, and global indices that provide summaries regarding the island of vision. Visual fields, as opposed to digital fundus photographs or OCTs, are low 2-dimensional datasets that represent a functional assay of the entire visual pathway. They are also subject to shortand long-term fluctuation. While computerized visual field printouts are extremely informative, they lack certain features that would make them more useful to clinicians. Specifically, current algorithms do not differentiate glaucomatous versus non-glaucomatous defects and artefacts. Furthermore, they do not quantify the degree of defects in a regional manner.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AI and visual field interpretation"
+        },
+        {
+            "text": "In 1994, Goldbaum et al. [44] created a two-layer neural network that analysed visual fields. This network categorized normal eyes and glaucomatous eyes with sensitivity (65%) and specificity (72%), comparable to two glaucoma specialists. The pioneering work of Goldbaum et al. employed an unsupervised ML learning strategy that could be broadly classified as axis learning, i.e. principal component analysis and independent component analysis. DL has been used to further leverage retinal sensitivity data contained in visual fields. For example, these algorithms have been effective in the automated differentiation of glaucoma and preperimetric glaucoma [11] . Asaoka et al. showed that a DL classifier exhibited a higher AUC (0.926) in detecting glaucomatous visual field loss than other machine learning classifiers, including random forests (AUC 0.790) and support vector machine (AUC 0.712) ( Table 1 ) [11] . DL algorithms are also better able to detect glaucoma using visual fields than clinicians. Li et al. found that DL was more accurate (0.876) than ophthalmology residents (0.593-0.640), attending ophthalmologists (0.533-0.653), and glaucoma experts (0.607-0.663) at differentiating glaucomatous visual field from nonglaucomatous visual fields [45] . Li et al. suggested that there are patterns, possibly between adjacent and distant test points, that DL algorithms are able to detect that clinicians do not appreciate.",
+            "cite_spans": [
+                {
+                    "start": 25,
+                    "end": 29,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 657,
+                    "end": 661,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 910,
+                    "end": 914,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1259,
+                    "end": 1263,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 900,
+                    "end": 907,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "AI and visual field interpretation"
+        },
+        {
+            "text": "Current computerized packages do not decompose visual field data into patterns of loss. Visual field loss patterns are due to compromise of various structures ranging from the cornea to the occipital cortex. Furthermore, glaucomatous patterns ultimately have topological correspondence to discrete regions of the ONH [46] . Keltner et al. offered a visual field classification system based on manual inspection of visual fields generated in the ocular hypertension study (OHTS), but made no attempt to quantify these patterns [47] . More recently, an unsupervised algorithm employing a corner learning strategy called archetypal analysis was developed to classify quantitatively the regional patterns of loss without the potential bias of clinical experience [48] . In this study, 13,321 Humphrey visual fields were subjected to unsupervised learning to identify archetypes, or prototypical patterns of visual loss. All archetypes obtained through this algorithm corresponded to the manual OHTS classifiers. Archetypal analysis provides a regional stratification of a visual field along with coefficients that weigh each of these regional patterns of loss. In Fig. 3 , an inferior visual field defect is decomposed into an inferonasal step (46%), an inferior altitudinal defect (40%), and an inferior paracentral pattern of loss (15%). Subsequent chart review of visual fields from patients with weighting coefficients >0.7 for each archetype yielded expected clinical findings [49] . For example, patients with high weighting coefficients for an archetype consistent with advanced glaucoma were more likely to have high CDRs than patients with high weighting coefficients for other archetypes. Furthermore, archetypal analysis was useful in predicting reversal of a glaucoma hemifield test back to normal after two consecutive 'outside normal limit' results largely because it accounted for lens rim artefacts and non-glaucomatous loss patterns [50] .",
+            "cite_spans": [
+                {
+                    "start": 317,
+                    "end": 321,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 526,
+                    "end": 530,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 759,
+                    "end": 763,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1478,
+                    "end": 1482,
+                    "text": "[49]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1946,
+                    "end": 1950,
+                    "text": "[50]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1160,
+                    "end": 1166,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "AI and visual field interpretation"
+        },
+        {
+            "text": "Saeedi et al. identified a high degree of variation in predictions of visual field progression across existing conventional algorithms that are used in randomized trials and in clinical practice [51] . This lack of agreement underscores an opportunity for AI algorithms to track visual field progression. In fact, Wang et al. calculated the rate of change in the weighting coefficients generated from archetypal analysis to a large visual field database with serial tests and used the consensus of three glaucoma specialists with access to clinical data as the reference standard. They found an accuracy of 0.77 for archetypal analysis to detect progression, a value exceeding the mean deviation slope (0.59), the permutation of pointwise linear regression (0.60), the Collaborative Initial Glaucoma Treatment Study scoring (0.59), and the Advanced Glaucoma Intervention Study scoring (0.52) [52] . Figure 4 shows consensus on visual field progression based on conventional algorithms, the clinical reference standard, and archetypal analysis. In Fig. 5 , a patient with 6.3 years of follow-up was regarded to have progressed clinically on the basis of deepening of a superior nasal step. The change in mean deviation slope was small and the permutation of pointwise linear regression, the Collaborative Initial Glaucoma Treatment Study score, and the Advanced Glaucoma Intervention Study scoring did not designate the visual field tests as worsening; however, archetypal analysis found a significant increase in the coefficient for the superior nasal step archetype (archetype 3).",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 199,
+                    "text": "[51]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 892,
+                    "end": 896,
+                    "text": "[52]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 899,
+                    "end": 907,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1047,
+                    "end": 1053,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Detecting visual field progression and AI"
+        },
+        {
+            "text": "In the Collaborative Initial Glaucoma Treatment Study, Janz et al. documented that patients with newly diagnosed glaucoma harbour fears of blindness after they receive this diagnosis [53] . The aggregate blindness rates from glaucoma are not high; for example, the rate of monocular blindness from glaucoma in the Salisbury Eye Evaluation study was 1.4% [54] . Nonetheless, patients and physicians alike would benefit from accurate forecasting to identify disease prognosis.",
+            "cite_spans": [
+                {
+                    "start": 183,
+                    "end": 187,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 354,
+                    "end": 358,
+                    "text": "[54]",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Clinical forecasting and AI"
+        },
+        {
+            "text": "Kalman filtering is a forecasting method that has been used in numerous fields. The visual field shown depicts an inferior arcuate defect that is decomposed quantitatively into an inferonasal defect (46%), inferior altitudinal loss (40%), and an inferior paracentral defect (15%) as per archetypal analysis 1960s, the National Aeronautics and Space Administration used Kalman filters to map out the trajectory of astronauts to the Moon [55] . In more recent years, Kalman filtering has been used for clinical forecasting. Clinical forecasting refers to the generation of a personalized prediction for disease trajectory [56] . Forecasting models can be updated using data from subsequent clinic visits, leading to more accurate predictions [57] . By using a Kalman filter model for patients with glaucoma, researchers were able to detect glaucoma progression 57% earlier than they would have using a yearly monitoring system [57] . The same model then accurately predicted disease progression in patients with normal tension glaucoma [58] . A third study used Kalman forecasting to predict personalized, target intraocular pressure levels for patients [59] . Personalized patient recommendations can be produced based on the Kalman forecasting method, which can help clinicians in decision-making.",
+            "cite_spans": [
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[55]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 620,
+                    "end": 624,
+                    "text": "[56]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 740,
+                    "end": 744,
+                    "text": "[57]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 925,
+                    "end": 929,
+                    "text": "[57]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1034,
+                    "end": 1038,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1152,
+                    "end": 1156,
+                    "text": "[59]",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Clinical forecasting and AI"
+        },
+        {
+            "text": "DL is considered a 'black box' in that its predictive mechanism is unknown [60] . In the field of retinal disease, the most notable example of opening the 'black box' was reported by De Fauw et al. who provided a framework allowing for inspection of the particular OCT feature used to detect referable retinal disease [61] . Ultimately, learning image features under consideration in classification of disease or determination of disease progression may be instructive in making clinicians better observers of clinical data and could be used to train current and future generations of glaucoma specialists. DL algorithms are only as good as the images inputted into them. Algorithms have low sensitivity and specificity in analysing fundus images with poor image quality. In a recent study, fundus images of poor quality that were not removed from the dataset were found to decrease the AUC by 0.1 [42] . Another limitation of DL is that images with less severe disease manifestations, including glaucoma suspect and early glaucoma, can be more difficult for DL algorithms to classify [39, 42] . Algorithms are thus better able to detect more severe cases of glaucoma. DL also has difficulty analysing images with multiple comorbid eye conditions. False negative classifications have occurred when glaucoma is present with age-related macular degeneration, DR, or high myopia [10] . Consequently, myopic eyes are sometimes excluded from analysis [62, 63] . Considering that Asians have a high prevalence of myopia [64, 65] and glaucoma [66, 67] , devising a way to include myopic eyes in DL models is vital. Another limitation is the lack of information about the use of DL algorithms in heterogeneous samples. Thus far, algorithms have been used in mostly homogenous groups where images from only a few races and ethnicities were inputted.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 79,
+                    "text": "[60]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 318,
+                    "end": 322,
+                    "text": "[61]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 898,
+                    "end": 902,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1085,
+                    "end": 1089,
+                    "text": "[39,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1090,
+                    "end": 1093,
+                    "text": "42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1376,
+                    "end": 1380,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1446,
+                    "end": 1450,
+                    "text": "[62,",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1451,
+                    "end": 1454,
+                    "text": "63]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1514,
+                    "end": 1518,
+                    "text": "[64,",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 1519,
+                    "end": 1522,
+                    "text": "65]",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1536,
+                    "end": 1540,
+                    "text": "[66,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1541,
+                    "end": 1544,
+                    "text": "67]",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations of DL"
+        },
+        {
+            "text": "In order for DL algorithms to predict with high sensitivity and specificity, a large number of images must be included [37, 38] . There are time constraints and technological difficulties associated with obtaining and storing many images. Furthermore, it may be necessary for such databases to be continuously updated to remain relevant and prevent system-wide failure of the algorithms. Also, a high AUC for an AI algorithm does not necessarily translate into important clinical impact and this must be kept in mind as AI begins to permeate the field of glaucoma.",
+            "cite_spans": [
+                {
+                    "start": 119,
+                    "end": 123,
+                    "text": "[37,",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 124,
+                    "end": 127,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations of DL"
+        },
+        {
+            "text": "An initial test indicates that tampering with an image in minor ways can undermine the DL classification. Specifically, it is possible that changing a few pixels can lead to the misclassification of an image [68] . Lynch et al. changed pixels in fundus photos exhibiting DR. These changes were undetectable to the human eye, so ophthalmologists still judged these photos as exhibiting DR. In contrast, the pixel changes caused the algorithm to mis-categorize half of the DR photos as normal [68] . While this finding has not been confirmed in other studies, it is a potential issue.",
+            "cite_spans": [
+                {
+                    "start": 208,
+                    "end": 212,
+                    "text": "[68]",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 491,
+                    "end": 495,
+                    "text": "[68]",
+                    "ref_id": "BIBREF67"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations of DL"
+        },
+        {
+            "text": "Although there are limitations, the future for DL applications in glaucoma is bright. In a few short years, tens of applications of DL specific to glaucoma have been published in peer-review publications. In addition to the subjects discussed here we suspect the use of AI in optical coherence tomography angiography interpretation will be forthcoming. We anticipate applications will emerge that will accomplish relevant clinical functions with high sensitivity and specificity across different patient platforms and different races/ethnicities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "It is interesting to speculate on what is possible in this new DL era. We envision that AI will greatly impact outpatient glaucoma screening, glaucoma management, and will allow for remote disease monitoring. These developments will empower the patient to take charge of their disease and enlighten the provider about the glaucomatous process. Glaucoma AI algorithms that meet regulatory ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Step Fig. 5 The visual field shown depicts a superior nasal step and is a subtle example of visual field progression. The archetype method seems to detect VF progression pattern when conventional algorithms do not approval (currently there are none) will likely be embedded in the electronic medical record to facilitate outpatient management. We can imagine an eye care provider logging on to view their schedule and being met with a pre-visit synthesis of a patient's prior optic nerve and visual field data. The provider would also be notified if the patient was flagged to have glaucoma that is progressing and likely needs a change in target IOP. This AI assessment would also be updated based on additional data that are gathered during the patient visit and may also incorporate ancillary genetic and other medical information.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 5,
+                    "end": 11,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Superonasal"
+        },
+        {
+            "text": "AI methods could be applied to teleretinal screening programs in non-ophthalmic settings like primary care offices. In this model, manual detection of the glaucomalike disc would be replaced by algorithms that assess the disc, allowing for effective triage of the patient.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Superonasal"
+        },
+        {
+            "text": "Finally, there is a great need to facilitate remote glaucoma monitoring whereby patients collect their own IOP data with anaesthesia-free and accurate tonometers [69] , although more effort will be needed to make hometonometry available at lower costs. Remote monitoring will be facilitated by home visual field testing that could be achieved using virtual reality [70] , which controls for ambient lighting and distance between the eye and stimulus presentation, although fixation monitoring may still be an issue. Ultimately, nonmydriatic self-retinal imaging without the need for expensive smartphone attachments may be realized as the imaging capability of these pervasive handheld devices improve [71] . Of course, the tools for remote disease monitoring will require validation and the ability of DL algorithms to synthesize remotely acquired data will need to be assessed. However, once reliable, remotely generated glaucoma data are available and analysed by DL algorithms, a new era of glaucoma management will begin. Interestingly, in the United States, Centres for Medicare and Medicaid Service code for remote disease monitoring is available, essentially anticipating that such a trend will happen [72] . It will be up to the clinicians to lead the way and determine how to implement AI in meaningful ways for our glaucoma patients worldwide.",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 166,
+                    "text": "[69]",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 365,
+                    "end": 369,
+                    "text": "[70]",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 702,
+                    "end": 706,
+                    "text": "[71]",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 1210,
+                    "end": 1214,
+                    "text": "[72]",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Superonasal"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Computing machinery and intelligence",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Turing",
+                    "suffix": ""
+                }
+            ],
+            "year": 1950,
+            "venue": "Mind",
+            "volume": "49",
+            "issn": "",
+            "pages": "433--60",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Deep learning of aftershock patterns following large earthquakes",
+            "authors": [
+                {
+                    "first": "Pmr",
+                    "middle": [],
+                    "last": "Devries",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Viegas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wattenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Meade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "560",
+            "issn": "",
+            "pages": "632--636",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The rise of deep learning in drug discovery",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Engkvist",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Olivecrona",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Blaschke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Drug Discov Today",
+            "volume": "23",
+            "issn": "",
+            "pages": "1241--50",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Classifying acute ischemic stroke onset time using deep imaging features",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Speier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "El-Saden",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Arnold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "AMIA Annu Symp Proc",
+            "volume": "2017",
+            "issn": "",
+            "pages": "892--901",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Dermatologist-level classification of skin cancer with deep neural networks",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Esteva",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kuprel",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Novoa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Swetter",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Blau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "542",
+            "issn": "",
+            "pages": "115--123",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer",
+            "authors": [
+                {
+                    "first": "Ehteshami",
+                    "middle": [],
+                    "last": "Bejnordi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Veta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Johannes",
+                    "middle": [],
+                    "last": "Van Diest",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Ginneken",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Karssemeijer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Litjens",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Am Med Assoc",
+            "volume": "318",
+            "issn": "",
+            "pages": "2199--210",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Deep learning for fully-automated localization and segmentation of rectal cancer on multiparametric",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Trebeschi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jjm",
+                    "middle": [],
+                    "last": "Van Griethuysen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dmj",
+                    "middle": [],
+                    "last": "Lambregts",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lahaye",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Parmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fch",
+                    "middle": [],
+                    "last": "Bakers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "MR. Sci Rep",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Using deep learning and transfer learning to accurately diagnose early-onset glaucoma from macular optical coherence tomography images",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Asaoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Murata",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hirasawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fujino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Matsuura",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Miki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Ophthalmol",
+            "volume": "198",
+            "issn": "",
+            "pages": "136--181",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Development of a deep residual learning algorithm to screen for glaucoma from fundus photography",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shibata",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tanito",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mitsuhashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fujino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Matsuura",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Murata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci Rep",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Efficacy of a deep learning system for detecting glaucomatous optic neuropathy based on color fundus photographs",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Keel",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ophthalmology",
+            "volume": "125",
+            "issn": "",
+            "pages": "1199--206",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Detecting preperimetric glaucoma with standard automated perimetry using a deep learning classifier",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Asaoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Murata",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwase",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Araie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Ophthalmology",
+            "volume": "123",
+            "issn": "",
+            "pages": "1974--80",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes",
+            "authors": [
+                {
+                    "first": "Dsw",
+                    "middle": [],
+                    "last": "Ting",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gsw",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Quang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Am Med Assoc",
+            "volume": "318",
+            "issn": "",
+            "pages": "2211--2234",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Gulshan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Coram",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stumpe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Narayanaswamy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Am Med Assoc",
+            "volume": "316",
+            "issn": "",
+            "pages": "2402--2412",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Improved automated detection of diabetic retinopathy on a publicly available dataset through integration of deep learning",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Abramoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Erginay",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Clarida",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Amelon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Folk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Invest Ophthalmol Vis Sci",
+            "volume": "57",
+            "issn": "",
+            "pages": "5200--5206",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Automated identification of diabetic retinopathy using deep learning",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gargeya",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Leng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Ophthalmology",
+            "volume": "124",
+            "issn": "",
+            "pages": "962--971",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Automated grading of age-related macular degeneration from color fundus images using deep convolutional neural networks",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Burlina",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Joshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pekala",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pacheco",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Freund",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bressler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JAMA Ophthalmol",
+            "volume": "135",
+            "issn": "",
+            "pages": "1170--1176",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Automated detection of exudative age-related macular degeneration in spectral domain optical coherence tomography using deep learning",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Treder",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lauermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Eter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Graefes Arch Clin Exp Ophthalmol",
+            "volume": "256",
+            "issn": "",
+            "pages": "259--65",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Fully automated detection and quantification of macular fluid in OCT using deep learning",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schlegl",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Waldstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bogunovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Endstrasser",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sadeghipour",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Philip",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ophthalmology",
+            "volume": "125",
+            "issn": "",
+            "pages": "549--58",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Evaluation of a deep learning image assessment system for detecting severe retinopathy of prematurity",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Redd",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ostmo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rvp",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Br J Ophthalmol",
+            "volume": "103",
+            "issn": "",
+            "pages": "580--584",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Automated retinopathy of prematurity screening using deep neural networks",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ju",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "EBioMedicine",
+            "volume": "35",
+            "issn": "",
+            "pages": "361--369",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "High-performance medicine: the convergence of human and artificial intelligence",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Topol",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat Med",
+            "volume": "25",
+            "issn": "",
+            "pages": "44--56",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Some studies in machine learning using the game of checkers",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Samuel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1959,
+            "venue": "IBM J Res Dev",
+            "volume": "3",
+            "issn": "",
+            "pages": "210--239",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Deep learning",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lecun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bengio",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hinton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nature",
+            "volume": "521",
+            "issn": "",
+            "pages": "436--480",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Visual cortex and deep networks: learning invariant representations",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Poggio",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Anselmi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Human information processing: introduction to psychology",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lindsay",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Norman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Receptive fields, binocular interaction and functional architecture in the cat's visual cortex",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hubel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wiesel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1962,
+            "venue": "J Physiol",
+            "volume": "160",
+            "issn": "",
+            "pages": "106--54",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Hierarchical Bayesian inference in the visual cortex",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mumford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Opt Soc Am",
+            "volume": "20",
+            "issn": "",
+            "pages": "1434--1482",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Learning representations by back-propagating errors",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Rumelhart",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hinton",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Nature",
+            "volume": "323",
+            "issn": "",
+            "pages": "533--539",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tham",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Quigley",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Aung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Ophthalmology",
+            "volume": "121",
+            "issn": "",
+            "pages": "2081--90",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Ganglion cell losses underlying visual field defects from experimental glaucoma",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Harwerth",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Carter-Dawson",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Smith El 3rd",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Crawford",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Invest Ophthalmol Vis Sci",
+            "volume": "40",
+            "issn": "",
+            "pages": "2242--50",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Neural losses correlated with visual losses in clinical perimetry",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Harwerth",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Carter-Dawson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Smith El 3rd",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Barnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Holt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Crawford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Invest Ophthalmol Vis Sci",
+            "volume": "45",
+            "issn": "",
+            "pages": "3152--60",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Optic disk size and glaucoma",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zangwill",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Crowston",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Weinreb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Surv Ophthalmol",
+            "volume": "52",
+            "issn": "",
+            "pages": "32--49",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The size and shape of the optic disc in normal human eyes",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Quigley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Morrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Drance",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Arch Ophthalmol",
+            "volume": "108",
+            "issn": "",
+            "pages": "51--57",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Expert agreement in evaluating the optic disc for glaucoma",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Varma",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Steinmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Ophthalmology",
+            "volume": "99",
+            "issn": "",
+            "pages": "215--236",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Deep learning in ophthalmology: the technical and clinical considerations",
+            "authors": [
+                {
+                    "first": "Dsw",
+                    "middle": [],
+                    "last": "Ting",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Varadarajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Keane",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Burlina",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Prog Retin Eye Res",
+            "volume": "72",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Determining the area under the ROC curve for a binary diagnostic test",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Cantor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kattan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Med Decis Mak",
+            "volume": "20",
+            "issn": "",
+            "pages": "468--70",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "From machine to machine: an OCT-trained deep learning algorithm for objective quantification of glaucomatous damage in fundus photographs",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Medeiros",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jammal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ophthalmology",
+            "volume": "126",
+            "issn": "",
+            "pages": "513--534",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Screening glaucoma with redfree fundus photography using deep learning classifier and polar transformation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Glaucoma",
+            "volume": "28",
+            "issn": "",
+            "pages": "258--64",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Deep-learning classifier with an ultrawide-field scanning laser ophthalmoscope detects glaucoma visual field severity",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Masumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tabuchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nakakura",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ishitobi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Enno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Glaucoma",
+            "volume": "27",
+            "issn": "",
+            "pages": "647--52",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "A deep learning algorithm to quantify neuroretinal rim loss from optic disc photographs",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jammal",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Medeiros",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Ophthalmol",
+            "volume": "201",
+            "issn": "",
+            "pages": "9--18",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Primary Open-Angle Glaucoma Preferred Practice Pattern\u00ae guidelines",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Prum",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Rosenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gedde",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mansberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Stein",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Moroi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Ophthalmology",
+            "volume": "123",
+            "issn": "",
+            "pages": "41--111",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Japan Ocular Imaging Registry Research G. Evaluation of deep convolutional neural networks for glaucoma detection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Phan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Satoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yoda",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kashiwagi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Oshika",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Jpn J Ophthalmol",
+            "volume": "63",
+            "issn": "",
+            "pages": "276--83",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Performance of deep learning architectures and transfer learning for detecting glaucomatous optic neuropathy in fundus photographs",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Christopher",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Belghith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bowd",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Proudfoot",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Goldbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Weinreb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci Rep",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Interpretation of automated perimetry for glaucoma by neural network",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Goldbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sample",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Colt",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Raphaelian",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Fechtner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Invest Ophthalmol Vis Sci",
+            "volume": "35",
+            "issn": "",
+            "pages": "3362--73",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Automatic differentiation of glaucoma visual field from non-glaucoma visual filed using deep convolutional neural network",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Med Imaging",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Mapping standard automated perimetry to the peripapillary retinal nerve fiber layer in glaucoma",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ferreras",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Pablo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Garway-Heath",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fogagnolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Garcia-Feijoo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Invest Ophthalmol Vis Sci",
+            "volume": "49",
+            "issn": "",
+            "pages": "3018--3043",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Classification of visual field abnormalities in the ocular hypertension treatment study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Keltner",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cello",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Edwards",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bandermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kass",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Arch Ophthalmol",
+            "volume": "121",
+            "issn": "",
+            "pages": "643--50",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Patterns of functional vision loss in glaucoma determined with archetypal analysis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Elze",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pasquale",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wiggs",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bex",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J R Soc Interface",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Clinical correlates of computationally derived visual field defect archetypes in patients from a glaucoma clinic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Elze",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bex",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wiggs",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pasquale",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Curr Eye Res",
+            "volume": "42",
+            "issn": "",
+            "pages": "568--74",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Reversal of glaucoma hemifield test results and visual field features in glaucoma",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pasquale",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Boland",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wellik",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Moraes",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ophthalmology",
+            "volume": "125",
+            "issn": "",
+            "pages": "352--60",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Agreement and predictors of discordance of six visual field progression algorithms",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Saeedi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Elze",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "&apos;acunto",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Swamy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hegde",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ophthalmology",
+            "volume": "126",
+            "issn": "",
+            "pages": "822--830",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "An artificial intelligence approach to detect visual field progression in glaucoma based on spatial pattern analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pasquale",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Petrakos",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Formica",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Boland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Invest Ophthalmol Vis Sci",
+            "volume": "60",
+            "issn": "",
+            "pages": "365--75",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Fear of blindness in the Collaborative Initial Glaucoma Treatment Study: patterns and correlates over time",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Janz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wren",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Guire",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Musch",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gillespie",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lichter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Ophthalmology",
+            "volume": "114",
+            "issn": "",
+            "pages": "2213--2233",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Causes of blindness and visual impairment in a population of older Americans: The Salisbury Eye Evaluation Study",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Munoz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rubin",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Schein",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Quigley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bressler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Arch Ophthalmol",
+            "volume": "118",
+            "issn": "",
+            "pages": "819--844",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Kalman filtering for spacecraft attitude estimation",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lefferts",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Markley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shuster",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "J Guid Control Dyn",
+            "volume": "5",
+            "issn": "",
+            "pages": "417--446",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "The discrete Kalman filter",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Catlin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Estimation, control, and the discrete Kalman filter",
+            "volume": "",
+            "issn": "",
+            "pages": "133--63",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Using filtered forecasting techniques to determine personalized monitoring schedules for patients with open-angle glaucoma",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lavieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Helm",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Musch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Van Oyen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Ophthalmology",
+            "volume": "121",
+            "issn": "",
+            "pages": "1539--1585",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Using Kalman filtering to forecast disease trajectory for patients with normal tension glaucoma",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nitta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lavieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Andrews",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lobaza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Ophthalmol",
+            "volume": "199",
+            "issn": "",
+            "pages": "111--120",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Personalized prediction of glaucoma progression under different target intraocular pressure levels using filtered forecasting methods",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kazemian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lavieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Van Oyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Andrews",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Stein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ophthalmology",
+            "volume": "125",
+            "issn": "",
+            "pages": "569--77",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Artificial intelligence and deep learning in ophthalmology",
+            "authors": [
+                {
+                    "first": "Dsw",
+                    "middle": [],
+                    "last": "Ting",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pasquale",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Raman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Br J Ophthalmol",
+            "volume": "103",
+            "issn": "",
+            "pages": "167--75",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Clinically applicable deep learning for diagnosis and referral in retinal disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "De Fauw",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ledsam",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Romera-Paredes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nikolov",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tomasev",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Blackwell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat Med",
+            "volume": "24",
+            "issn": "",
+            "pages": "1342--50",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Validating the usefulness of the \"random forests\" classifier to diagnose early glaucoma with optical coherence tomography",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Asaoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hirasawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwase",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fujino",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Murata",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shoji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Ophthalmol",
+            "volume": "174",
+            "issn": "",
+            "pages": "95--103",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Discriminating between glaucoma and normal eyes using optical coherence tomography and the 'random forests' classifier",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yoshida",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwase",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hirasawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Murata",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mayama",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Araie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS One",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Epidemiology of myopia",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Asia Pac J Ophthalmol",
+            "volume": "5",
+            "issn": "",
+            "pages": "386--93",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Ethnic differences in the prevalence of myopia and ocular biometry in 10-and 11-year-old children: the Child Heart and Health Study in England (CHASE)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rudnicka",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Owen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Nightingale",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Whincup",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Investig Ophthalmol Vis Sci",
+            "volume": "51",
+            "issn": "",
+            "pages": "6270--6276",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Population-based glaucoma prevalence studies in Asians",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Surv Ophthalmol",
+            "volume": "59",
+            "issn": "",
+            "pages": "434--481",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Differences in rates of glaucoma among Asian Americans and other racial groups, and among various Asian ethnic groups",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Stein",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Niziol",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Talwar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Musch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Ophthalmology",
+            "volume": "118",
+            "issn": "",
+            "pages": "1031--1038",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Catastrophic failure in image-based convolutional neural network algorithms for detecting diabetic retinopathy",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lynch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Folk",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Abramoff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Investig Ophthalmol Vis Sci",
+            "volume": "58",
+            "issn": "",
+            "pages": "3776--3776",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Self-monitoring of intraocular pressure using Icare HOME tonometry in clinical practice",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cvenkel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Atanasovska",
+                    "middle": [],
+                    "last": "Velkovska",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin Ophthalmol",
+            "volume": "13",
+            "issn": "",
+            "pages": "841--848",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "GearVision: smartphone based head mounted perimeter for detection of visual field defects",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sircar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mishra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bopardikar",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Tiwari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Conf Proc IEEE Eng Med Biol Soc",
+            "volume": "",
+            "issn": "",
+            "pages": "5402--5407",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "High-resolution direct ophthalmoscopy with an unmodified iPhone X",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gunasekera",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "JAMA Ophthalmol",
+            "volume": "137",
+            "issn": "",
+            "pages": "212--215",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "CMS to reimburse providers for remote patient monitoring services. Telehealth News. www.mhealthintelligence",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Wicklund",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Fig. 3 The visual field shown depicts an inferior arcuate defect that is decomposed quantitatively into an inferonasal defect (46%), inferior altitudinal loss (40%), and an inferior paracentral defect (15%) as per archetypal analysis",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The visual field shown depicts a superior altitudinal defect and is a clear example of visual field progression. The figure shows consensus of progression based on conventional algorithms, the clinical reference standard, and archetypal analysis",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Summary of glaucoma detection studies using deep learning Imaging type Race/Ethnicity Disease definition No. of Images AUC Sensitivity SpecificityTing et al.[12] Thompson et al.[40] Fundus images and OCT scans White, Black",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Conflict of interest The authors declare that they have no conflict of interest.Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        }
+    ]
+}

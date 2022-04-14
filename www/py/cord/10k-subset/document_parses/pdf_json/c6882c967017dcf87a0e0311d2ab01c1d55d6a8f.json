@@ -1,0 +1,1565 @@
+{
+    "paper_id": "c6882c967017dcf87a0e0311d2ab01c1d55d6a8f",
+    "metadata": {
+        "title": "Estimating the Potential Effects of a Vaccine Program Against an Emerging Influenza Pandemic-United States",
+        "authors": [
+            {
+                "first": "Matthew",
+                "middle": [],
+                "last": "Biggerstaff",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Carrie",
+                "middle": [],
+                "last": "Reed",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "L"
+                ],
+                "last": "Swerdlow",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Modeling Unit and Office of the Director",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Manoj",
+                "middle": [],
+                "last": "Gambhir",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Samuel",
+                "middle": [],
+                "last": "Graitcer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NCIRD",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Lyn",
+                "middle": [],
+                "last": "Finelli",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rebekah",
+                "middle": [
+                    "H"
+                ],
+                "last": "Borse",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sonja",
+                "middle": [
+                    "A"
+                ],
+                "last": "Rasmussen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Influenza Coordination Unit",
+                    "institution": "CDC",
+                    "location": {
+                        "settlement": "Atlanta",
+                        "country": "Georgia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Martin",
+                "middle": [
+                    "I"
+                ],
+                "last": "Meltzer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Carolyn",
+                "middle": [
+                    "B"
+                ],
+                "last": "Bridges",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NCIRD",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background. Human illness from influenza A(H7N9) was identified in March 2013, and candidate vaccine viruses were soon developed. To understand factors that may impact influenza vaccination programs, we developed a model to evaluate hospitalizations and deaths averted considering various scenarios.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods. We utilized a model incorporating epidemic curves with clinical attack rates of 20% or 30% in a single wave of illness, case hospitalization ratios of 0.5% or 4.2%, and case fatality ratios of 0.08% or 0.53%. We considered scenarios that achieved 80% vaccination coverage, various starts of vaccination programs (16 or 8 weeks before, the same week of, or 8 or 16 weeks after start of pandemic), an administration rate of 10 or 30 million doses per week (the latter rate is an untested assumption), and 2 levels of vaccine effectiveness (2 doses of vaccine required; either 62% or 80% effective for persons aged <60 years, and either 43% or 60% effective for persons aged \u226560 years).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "factors, including the size, speed, and number of waves of the pandemic outbreak, the number of doses administered, the timing of the vaccination program relative to the spread of the novel influenza virus, and the vaccine effectiveness (VE) [10] . To help public health officials and policy makers evaluate the impact of a hypothetical vaccination program against a future influenza pandemic, we developed a spreadsheet-based model that allowed quick exploration of the number of hospitalizations and deaths averted in the United States under various vaccination scenarios.",
+            "cite_spans": [
+                {
+                    "start": 242,
+                    "end": 246,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We adapted a spreadsheet model (Excel, Microsoft Corporation, Redmond, Washington) that was originally created to estimate the effects of a vaccine program against influenza A(H1N1) pdm09 [10] . The model user enters an epidemic curve (the number of persons becoming ill by time) and other variables that define the impact of both the pandemic and the vaccination campaign. These variables include the timing of the vaccination program relative to the introduction of No. of initial cases 100 [11] Cumulative attack rate, % 20 or 30 [11] Case hospitalization ratio, % [11, 12] All cases into the United States, the number of doses administered per week and the allocation by age group, the clinical attack rate, and the ratios of health outcomes to the number of cases (eg, the case hospitalization and case fatality ratios) ( Table 1) . We adjusted calculations to account for individuals who were naturally immunized through infection but who may still be vaccinated.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 192,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 493,
+                    "end": 497,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 533,
+                    "end": 537,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 568,
+                    "end": 572,
+                    "text": "[11,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 573,
+                    "end": 576,
+                    "text": "12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 827,
+                    "end": 835,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "METHODS"
+        },
+        {
+            "text": "To estimate the number of infections prevented by the vaccination program, we took [the number of persons fully vaccinated 2 weeks prior to the current week in the model] \u00d7 [the probability of not having been previously infected with influenza before being fully vaccinated and having developed immunity] \u00d7 [ probability of becoming infected with influenza after being fully vaccinated and having developed immunity] \u00d7 [VE] [10] . We utilized standardized epidemic curves, using 20% and 30% clinical attack rates in 1 wave of illnesses and different levels of clinical severity and assumed that the pandemic began with 100 persons initially infected [11] (Table 1) . For our model, we assumed that 2 doses of vaccine administered 3 weeks apart would be needed to be fully effective, based on data indicating that previous H5 and H7 influenza vaccines have low immunogenicity [15] [16] [17] . We further assumed that, during a pandemic with moderate or high mortality, demand for vaccine would be such that 80% of the US population would receive 2 doses of vaccine. We prioritized persons returning for their second dose of vaccine over persons who were receiving their first dose. We also assumed that vaccine was allocated in a pattern similar to the doses administered among 4 age groups (6 months-9 years, 10-19 years, 20-59 years, and \u226560 years) during the 2012-2013 influenza season [18] (Table 1) . Once 80% of an age group was fully vaccinated, we assumed vaccination would end in that age group. Remaining vaccine would then be allocated to other age groups until they reached 80% coverage. We allowed for a 2-week delay in protection against the virus after administration of the second dose of the vaccine [13] .",
+            "cite_spans": [
+                {
+                    "start": 424,
+                    "end": 428,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 650,
+                    "end": 654,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 875,
+                    "end": 879,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 880,
+                    "end": 884,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 885,
+                    "end": 889,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1388,
+                    "end": 1392,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1716,
+                    "end": 1720,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 655,
+                    "end": 664,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1393,
+                    "end": 1402,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Calculation Overview"
+        },
+        {
+            "text": "We ran multiple scenarios to explore the effects of the quantity of the doses administered, the timing of the vaccine program, and the VE of the first and second doses. We first assumed that the program would administer either 10 million doses per week (approximating the maximum number of doses administered per week during seasonal influenza programs [14] ) or 30 million doses per week; the latter has yet to be achieved during seasonal influenza vaccination programs. To explore the effects of timing of the vaccine program, we modeled programs starting at 5 different time points, separated by 8-week intervals: 16 weeks before, 8 weeks before, the same week as, 8 weeks after, and 16 weeks after the first cases of the novel influenza virus were introduced into the United States. We also assumed that 1 dose of vaccine was 0% effective for Figure 1 . The estimated epidemic curve without vaccination and the cumulative number of persons protected by an influenza vaccination program with the following assumptions: an overall clinical attack rate of the influenza pandemic of 20% or 30%; administered 10 million (left) or 30 million (right) vaccine doses; vaccination programs that begin 8 or 16 weeks before, the same week, or 8 or 16 weeks after the first cases of a novel influenza virus occur in the United States (US); and the vaccine effectiveness (VE) equivalent to the H1N1pmd09 monovalent vaccine. 2009 H1N1-like VE: 2 doses of vaccine administered 3 weeks apart required to be fully effective (62% for persons aged <60 years and 43% for persons \u226560 years) in protecting against subclinical and clinical cases, hospitalizations, and deaths. We assumed 1 dose of vaccine to be 0% effective for all age groups.",
+            "cite_spans": [
+                {
+                    "start": 353,
+                    "end": 357,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 847,
+                    "end": 855,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Calculation Overview"
+        },
+        {
+            "text": "all age groups and 2 doses of vaccine were 62% effective in protecting against subclinical and clinical cases, hospitalizations, and deaths for persons aged <60 years and 43% for persons aged \u226560 years (Table 1) . These values were based on the VE of the monovalent, inactivated, nonadjuvanted influenza A(H1N1)pdm09 vaccine [10] . For the second scenario, we clinical attack rate of the influenza pandemic is 20% and the overall case fatality ratio is 0.53% (high-severity scenario); 10 million doses (left) or 30 million doses (right) of vaccine are administered each week; the vaccination program begins 16 weeks after, 8 weeks after, the same week as, 8 weeks before, and 16 weeks before the first cases of a novel influenza virus occur in the United States; and the efficacy is \"H1N1pmd09 monovalent vaccine-like.\" 2009 H1N1-like vaccine effectiveness: 2 doses of vaccine administered 3 weeks apart required to be fully effective (62% for persons aged <60 years and 43% for persons \u226560 years) in protecting against subclinical and clinical cases, hospitalizations, and deaths. We assumed 1 dose of vaccine to be 0% effective for all age groups.",
+            "cite_spans": [
+                {
+                    "start": 325,
+                    "end": 329,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 202,
+                    "end": 211,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Calculation Overview"
+        },
+        {
+            "text": "assumed a high VE due to the use of higher concentrations of hemagglutinin antigen [19] or the addition of an adjuvant to the vaccine [20] . In the high VE scenario, we assumed some VE with 1 dose (40% VE for persons aged <60 years and 30% for persons \u226560 years) and higher VE with 2 doses (80% effective for persons aged <60 years and 60% for persons \u226560 years) ( Table 1) . clinical attack rate of the influenza pandemic is 20% and the overall case fatality ratio is 0.084% (low-severity scenario); 10 million doses (left) or 30 million doses (right) of vaccine are administered each week; the vaccination program begins 16 weeks after, 8 weeks after, the same week as, 8 weeks before, and 16 weeks before the first cases of a novel influenza virus occur in the United States; and the efficacy is \"H1N1pmd09 monovalent vaccine-like.\" 2009 H1N1-like vaccine effectiveness: 2 doses of vaccine administered 3 weeks apart required to be fully effective (62% for persons aged <60 years and 43% for persons \u226560 years) in protecting against subclinical and clinical cases, hospitalizations, and deaths. We assumed 1 dose of vaccine to be 0% effective for all age groups.",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 87,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 134,
+                    "end": 138,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 365,
+                    "end": 373,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Calculation Overview"
+        },
+        {
+            "text": "To calculate the number of vaccine-associated averted outcomes (hospitalizations and deaths), we assumed that 50% of infected cases were symptomatic and either 1.05% of symptomatic cases were hospitalized and 0.084% of symptomatic cases would die (low-severity scenario) or 4.2% of symptomatic cases were hospitalized and 0.53% of symptomatic cases would die (high-severity scenario) ( Table 1) . We adjusted the risk of hospitalization and death by age group ( Table 1) . The values for hospitalizations and deaths were based on estimates predicted for a pandemic with high clinical severity, and the adjustments for age were based on historic pandemics [11, 12] .",
+            "cite_spans": [
+                {
+                    "start": 655,
+                    "end": 659,
+                    "text": "[11,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 660,
+                    "end": 663,
+                    "text": "12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 386,
+                    "end": 394,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 462,
+                    "end": 470,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Calculation Overview"
+        },
+        {
+            "text": "For the scenario with a cumulative clinical attack rate of 20%, without any other intensive interventions, the simulated pandemic peaked in the United States 20 weeks after the introduction of the first 100 cases and resulted in 127 000 000 infections, 63 500 000 clinical cases, and 669 000 hospitalizations and 54 000 deaths in the low-severity scenario or 2 700 000 hospitalizations and 336 000 deaths in the high-severity scenario (Figures 1-3) . For the scenario with a cumulative clinical attack rate of 30%, the simulated epidemic peaked 12 weeks after the start and resulted in 188 000 000 infections, 94 000 000 clinical cases, and 1 070 000 hospitalizations and 86 000 deaths (low-severity scenario) or 4 300 000 hospitalizations and 538 000 deaths (high-severity scenario) (Figure 1 ). Vaccination programs distributing 10 million doses per week would take 54 weeks to achieve 80% coverage of a 2-dose vaccine series among all age groups, whereas programs distributing 30 million doses per week would take 21 weeks (Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 435,
+                    "end": 448,
+                    "text": "(Figures 1-3)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 784,
+                    "end": 793,
+                    "text": "(Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1026,
+                    "end": 1035,
+                    "text": "(Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Base Case Scenario"
+        },
+        {
+            "text": "For an influenza pandemic with a 20% overall cumulative attack rate and high clinical severity, we estimated that a vaccination program beginning 8 weeks before the pandemic started in the United States and that administered 10 million doses of vaccine with the moderate VE per week could avert 568 000 hospitalizations and 71 000 deaths (21% reduction relative to no vaccine). Starting the vaccination program 16 weeks before the pandemic started would avert 777 000 hospitalizations and 97 000 deaths (29% reduction) (Tables 2 and 3; Figures 2  and 3) . A vaccine program administering 30 million doses per week that started 8 or 16 weeks before the pandemic would avert 1 000 000 hospitalizations and 130 000 deaths (39% reduction) (Tables 2 and 3 ; Figures 2 and 3) . Assuming that the VE would be 80% and 60% for persons aged <60 years and \u226560 years, respectively (compared with the base assumption of 62% and 43% for persons aged <60 years and \u226560 years, respectively) would further reduce hospitalizations and deaths by at least an additional 10% relative to no vaccine for both the 10 and 30 million administration scenarios (Tables 2 and 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 519,
+                    "end": 553,
+                    "text": "(Tables 2 and 3; Figures 2  and 3)",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 735,
+                    "end": 750,
+                    "text": "(Tables 2 and 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 753,
+                    "end": 769,
+                    "text": "Figures 2 and 3)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1133,
+                    "end": 1149,
+                    "text": "(Tables 2 and 3)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Effects of a Program Beginning Before (8 or 16 Weeks) the Introduction of Influenza Infections"
+        },
+        {
+            "text": "For an influenza pandemic with a 30% overall cumulative attack rate and high clinical severity, we estimated that a vaccination program beginning 8 weeks before the pandemic started in the United States that administered 10 million doses of vaccine with the moderate VE per week could avert 570 000 hospitalizations and 71 000 deaths (13% reduction relative to no vaccine). Starting the vaccination program 16 weeks before the pandemic started would avert 924 000 hospitalizations and 116 000 deaths (21% reduction) (Tables 2 and 3 ; Figures 2 and  3) . A vaccine program administering 30 million doses per week that started 8 weeks before the pandemic would avert more than 1 400 000 hospitalizations and 180 000 deaths (33% reduction), whereas one that started 16 weeks before the pandemic would avert 1 700 000 hospitalizations and 207 000 deaths (38% reduction) (Tables 2 and 3 ; Figures 2 and 3 ). Using the high VE would further reduce hospitalizations and deaths relative to no vaccine for both the 10 and 30 million administration scenarios by at least an additional 7% (Tables 2 and 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 516,
+                    "end": 531,
+                    "text": "(Tables 2 and 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 534,
+                    "end": 551,
+                    "text": "Figures 2 and  3)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 866,
+                    "end": 881,
+                    "text": "(Tables 2 and 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 884,
+                    "end": 899,
+                    "text": "Figures 2 and 3",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1078,
+                    "end": 1094,
+                    "text": "(Tables 2 and 3)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Effects of a Program Beginning Before (8 or 16 Weeks) the Introduction of Influenza Infections"
+        },
+        {
+            "text": "For an influenza pandemic with a 20% overall cumulative attack rate and high clinical severity, we estimated that a vaccination program beginning the same week as the pandemic started in the United States that administered 10 million doses of vaccine with the moderate VE per week could avert 375 000 hospitalizations and 47 000 deaths (14% reduction). A vaccine program administering 30 million doses per week that started the same week as the pandemic would avert 916 000 hospitalizations and 114 000 deaths (34% reduction) (Tables 2 and 3 ; Figures 2 and 3) . Using the high VE would further reduce hospitalizations and deaths by at least an additional 7% relative to no vaccine for both the 10 million and 30 million administration scenarios (Tables 2 and 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 526,
+                    "end": 541,
+                    "text": "(Tables 2 and 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 544,
+                    "end": 560,
+                    "text": "Figures 2 and 3)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 746,
+                    "end": 762,
+                    "text": "(Tables 2 and 3)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Effects of a Program Beginning the Same Week as the Introduction of Influenza Infections"
+        },
+        {
+            "text": "For an influenza pandemic with a 30% overall cumulative attack rate and high-severity scenario, we estimated that a vaccination program beginning the same week as the pandemic started in the United States that administered 10 million doses of vaccine with the moderate VE per week could avert 260 000 hospitalizations and 32 000 deaths (6% reduction) (Tables 2 and  3 ; Figures 2 and 3) . A vaccine program administering 30 million doses per week would avert 777 000 hospitalizations and 97 000 deaths (18% reduction) (Tables 2 and 3 ; Figures 2 and 3) . Using the high VE would reduce hospitalizations and deaths by at least an additional 4% relative to no vaccine for both the 10 million and 30 million administration scenarios (Tables 2 and 3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 351,
+                    "end": 367,
+                    "text": "(Tables 2 and  3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 370,
+                    "end": 386,
+                    "text": "Figures 2 and 3)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 518,
+                    "end": 533,
+                    "text": "(Tables 2 and 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 536,
+                    "end": 552,
+                    "text": "Figures 2 and 3)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 730,
+                    "end": 745,
+                    "text": "(Tables 2 and 3",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Effects of a Program Beginning the Same Week as the Introduction of Influenza Infections"
+        },
+        {
+            "text": "For an influenza pandemic with a 20% overall cumulative attack rate and high clinical severity, we estimated that a vaccination program beginning 8 weeks after the pandemic started in the United States that administered 10 million doses of vaccine with the moderate VE per week could avert 183 000 hospitalizations and 23 000 deaths (6.8% reduction relative to no vaccine). Beginning the vaccination program 16 weeks after the pandemic started would avert 17 000 hospitalizations and 2000 deaths (0.6% reduction) (Tables 2 and 3; Figures 2 and  3) . A vaccine program administering 30 million doses per week that started 8 weeks after the pandemic would avert more than 538 000 hospitalizations and 67 000 deaths (20% reduction), whereas one that started 16 weeks after the pandemic would avert 50 000 hospitalizations and 6000 deaths (1.9% reduction) (Tables 2 and 3 ; Figures 2 and 3) . Using the high VE would reduce hospitalizations and deaths by at least an additional 1% relative to no vaccine for both the 10 million and 30 million administration scenarios (Tables 2 and 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 530,
+                    "end": 547,
+                    "text": "Figures 2 and  3)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 852,
+                    "end": 867,
+                    "text": "(Tables 2 and 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 870,
+                    "end": 886,
+                    "text": "Figures 2 and 3)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1064,
+                    "end": 1080,
+                    "text": "(Tables 2 and 3)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Effects of a Program Beginning After (8 or 16 Weeks) the Introduction of Influenza Infections"
+        },
+        {
+            "text": "For an influenza pandemic with a 30% overall cumulative attack rate and high clinical severity, we estimated that no vaccination program that began 8 or 16 weeks after the pandemic started in the United States would avert more than 36 000 hospitalizations and 4600 deaths (<1% reduction), regardless of whether 10 million or 30 million doses of vaccine per week with the moderate VE were administered (Tables 2 and 3 ; Figures 2 and 3) . Using the high VE would reduce hospitalizations and deaths by no more than 5% relative to no vaccine for the vaccination programs beginning 8 weeks after the pandemic started in the United States. For the high VE scenarios starting 16 weeks after the pandemic started in the United States, no additional reductions in hospitalizations or deaths were observed (Tables 2 and 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 401,
+                    "end": 416,
+                    "text": "(Tables 2 and 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 419,
+                    "end": 435,
+                    "text": "Figures 2 and 3)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 797,
+                    "end": 813,
+                    "text": "(Tables 2 and 3)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Effects of a Program Beginning After (8 or 16 Weeks) the Introduction of Influenza Infections"
+        },
+        {
+            "text": "In our analysis, the clinical attack rate and case hospitalization and case fatality ratios had the greatest impact on the number of severe outcomes averted in the United States, whereas the vaccination program factor with the greatest impact was the timing of the start of vaccination relative to the start of a pandemic. For example, under the 30% clinical attack rate and 30 million doses per week scenario, a vaccination program starting 16 weeks before the start of the pandemic in the United States results in a 38% reduction in hospitalizations and deaths. Delaying the start of vaccination to the same week as the pandemic starts in the United States drops the reductions to 18%. The number of vaccine doses administered each week is also very important. Decreasing the doses administered to 10 million per week causes the impact of vaccination in the above 2 scenarios to decline to 21% and 6% reductions, respectively. The assumptions related to VE of the first and second doses were relatively less important.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "This study highlights several key components to pandemic influenza preparedness, especially for a severe pandemic, including the importance of ensuring readiness to initiate large-scale vaccination programs as early as possible and ideally before the introduction of a novel influenza virus into the United States [18, 21] . Factors that may impact vaccine dose availability include how soon we develop an appropriate vaccine virus candidate, growth characteristics of vaccine virus candidates, influenza vaccine production capacity, efficiency of vaccine allocation and distribution, and vaccine administration capacity. Increased investment and research in vaccine production technologies, including the use of cell-derived recombinant proteins [22] , virus-like particles [23] , or adjuvants (by conserving the use of hemagglutinin antigen), have the potential to increase the speed with which the number of vaccine doses can be produced.",
+            "cite_spans": [
+                {
+                    "start": 314,
+                    "end": 318,
+                    "text": "[18,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 319,
+                    "end": 322,
+                    "text": "21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 747,
+                    "end": 751,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 775,
+                    "end": 779,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Also important is the need to identify ways to invest in improvements that will notably increase the capacity to administer large number of doses of pandemic influenza vaccine. Currently, the peak administration rate for seasonal influenza in the United States is between 5 and 12 million doses per week. The CDC is working with state and local health officials and vaccine providers to identify means to enhance vaccination administration capabilities. In addition to exercising large-scale b Two doses of vaccine administered 3 weeks apart required to be fully effective (62% for persons aged <60 years and 43% for persons \u226560 years) in protecting against subclinical and clinical cases, hospitalizations, and deaths. We assumed 1 dose of vaccine to be 0% effective for all age groups. c Two doses of vaccine administered 3 weeks apart required to be to fully effective (80% for persons aged <60 years and 60% for persons \u226560 years) in protecting against subclinical and clinical cases, hospitalizations, and deaths. We assumed 1 dose of vaccine is 40% effective for persons aged <60 years and 30% for persons \u226560 years.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "mass vaccination clinics, this includes increasing partnerships with nontraditional vaccine providers, such as pharmacies, supermarket chains, and other community vaccine providers including diverse health, faith, and community based-organizations that reach vulnerable, at-risk, hard-to-reach, and minority populations [24, 25] . We evaluated a wide range of vaccine program initiation times relative to disease introduction in the United States in this article. Although this information cannot be known in advance, beginning vaccination 16 weeks prior to the introduction of disease in the United States might be possible if the pandemic virus was identified, a stockpiled influenza vaccine were available and appropriate for use, officials were prepared to administer vaccine, and the decision to vaccinate was made at least 28 weeks before the establishment of the virus in the United States (based on current estimates of 12 weeks to fill and finish and begin distribution of stockpiled pandemic vaccine) [26] . This timeline is dependent on robust novel influenza virus surveillance that can identify influenza viruses with pandemic potential before widespread transmission has occurred. During the 2009 H1N1 pandemic, however, the first cases were identified in the United States after widespread transmission had already occurred, and no stockpiled vaccine or vaccine candidate seed viruses were available. In this example, the first doses of vaccine became available 26 weeks after identification of the first case in the United States and 8 weeks after the start of the main wave of pandemic illness in the fall of 2009 [27] . This situation is demonstrated by the scenarios beginning 8 or 16 weeks after the introduction of the virus into the United States [28] .",
+            "cite_spans": [
+                {
+                    "start": 320,
+                    "end": 324,
+                    "text": "[24,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 325,
+                    "end": 328,
+                    "text": "25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1011,
+                    "end": 1015,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1631,
+                    "end": 1635,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1769,
+                    "end": 1773,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "This study has several limitations. Most important, because infections with influenza A(H7N9) so far have been rare [5] , the modeled number of pandemic-related hospitalizations and deaths, and the numbers of such that would be prevented by a vaccination program, can only be considered as illustrative and are not based on the current epidemiology of H7N9 or other novel influenza virus illnesses. These results, therefore, should not be interpreted as a prediction of the impact of a widespread outbreak of H7N9 or any other novel influenza A virus with pandemic potential. Additionally, we did not account for the effects of other interventions (eg, nonpharmaceutical interventions such as canceling mass gatherings or closing schools), the seasonality of when a novel virus might be introduced into the United States, or \"waves of illness,\" which are thought to have occurred in 3 modern pandemics [1, 2] . These factors could slow the course of the pandemic and thereby increase the amount of time to initiate and complete a vaccine program, increasing the number of hospitalizations and deaths averted. For ease of estimation, we also did not account for any adverse events associated with vaccination or for the indirect effects of vaccination (eg, herd immunity). Theoretically, accounting for indirect effects would likely increase the number of hospitalizations and deaths averted for those vaccination programs assumed to start before the pandemic; this effect would likely be lower for those programs assumed to start the same time as or after the pandemic. Another important assumption is that 80% of the population would want to be vaccinated. This is distinctly different from recent seasonal influenza coverage estimates of approximately 45% [14] . We do not know the precise correlation between severity of an influenza pandemic and public demand for vaccination, but 80% coverage may be an overestimate. Another potential limitation is that no data are available on the VE of a possible H7N9 vaccine. Thus, we based our estimates of VE of either an nonadjuvanted influenza vaccine, using data from the 2009 H1N1 pandemic, or a hypothetical vaccine with high VE based on data from adjuvanted 2009 H1N1 vaccine VE estimates. Limited data indicate that H7 vaccines have lower immunogenicity than seasonal influenza vaccines, which may result in lower VE [29, 30] . The population coverage or the effectiveness of a H7N9 or other future pandemic vaccine may be lower than what is assumed here, leading to a smaller number of averted outcomes.",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 119,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 902,
+                    "end": 905,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 906,
+                    "end": 908,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1758,
+                    "end": 1762,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2369,
+                    "end": 2373,
+                    "text": "[29,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 2374,
+                    "end": 2377,
+                    "text": "30]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Historically, influenza pandemics have been largely unpredictable events, and it is likely that the set of assumptions used in this study will vary from the actual events seen in the next pandemic, even if influenza A(H7N9) is the virus involved. However, the finding that variations in the timing of vaccination administration yield the greatest effect on the reduction in hospitalizations and deaths than do variations in rate of vaccine administration or effectiveness would likely remain consistent. Continued research and investment in work that improves the timeliness of vaccine production and administration will have the greatest benefits in the event of another influenza pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Global epidemiology of influenza: past and present",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Subbarao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Annu Rev Med",
+            "volume": "51",
+            "issn": "",
+            "pages": "407--428",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Epidemiology of 2009 pandemic influenza A (H1N1) in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jhung",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Swerdlow",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Clin Infect Dis",
+            "volume": "52",
+            "issn": "1",
+            "pages": "13--26",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Human infection with a novel avian-origin influenza A (H7N9) virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "N Engl J Med",
+            "volume": "368",
+            "issn": "",
+            "pages": "1888--97",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical findings in 111 cases of influenza A (H7N9) virus infection",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "N Engl J Med",
+            "volume": "368",
+            "issn": "",
+            "pages": "2277--85",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Human infection with avian influenza A (H7N9) virus-update",
+            "authors": [],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Receptor binding by an H7N9 influenza virus from humans",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Haire",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "499",
+            "issn": "",
+            "pages": "496--505",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Biological features of novel avian influenza A (H7N9) virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "499",
+            "issn": "",
+            "pages": "500--503",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Population-level antibody estimates to novel influenza A/H7N9",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Boni",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Chau",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Infect Dis",
+            "volume": "208",
+            "issn": "",
+            "pages": "554--562",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Emergence of avian influenza A(H7N9) virus causing severe human illness-China",
+            "authors": [],
+            "year": 2013,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "62",
+            "issn": "",
+            "pages": "366--71",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Effects of vaccine program against pandemic influenza A(H1N1) virus, United States",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Borse",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shrestha",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Fiore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Emerg Infect Dis",
+            "volume": "19",
+            "issn": "",
+            "pages": "439--487",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Standardizing scenarios to assess the need to respond to an influenza pandemic",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Meltzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gambhir",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Atkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Swerdlow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Clin Infect Dis",
+            "volume": "60",
+            "issn": "1",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Novel framework for assessing epidemiologic effects of influenza epidemics and pandemics",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Biggerstaff",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Finelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Emerg Infect Dis",
+            "volume": "19",
+            "issn": "",
+            "pages": "85--91",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Sensitivity and specificity of serologic assays for detection of human infection with 2009 pandemic H1N1 virus in U.S. populations",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Veguilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hancock",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schiffer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Clin Microbiol",
+            "volume": "49",
+            "issn": "",
+            "pages": "2210--2215",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "FluVaxView influenza vaccination coverage",
+            "authors": [],
+            "year": 2013,
+            "venue": "Centers for Disease Control and Prevention",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "H5N1 avian influenza: preventive and therapeutic strategies against a pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sambhara",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Poland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Annu Rev Med",
+            "volume": "61",
+            "issn": "",
+            "pages": "187--98",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A randomized clinical trial of an inactivated avian influenza A (H7N7) vaccine",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Couch",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wade-Bowers",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A phase I clinical trial of a PER.C6 cell grown influenza H7 virus vaccine",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Madhun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hauge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Vaccine",
+            "volume": "27",
+            "issn": "",
+            "pages": "1889--97",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Influenza vaccination coverage: how well did we do in 2012-13",
+            "authors": [],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Randomized, double-blind controlled phase 3 trial comparing the immunogenicity of high-dose and standard-dose influenza vaccine in adults 65 years of age and older",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Falsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Treanor",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tornieporth",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Capellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gorse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Infect Dis",
+            "volume": "200",
+            "issn": "",
+            "pages": "172--80",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "and pandemic vaccines, to prevent influenza hospitalizations during the autumn 2009 influenza pandemic wave in Castellon, Spain. A test-negative, hospital-based, case-control study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Puig-Barbera",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arnedo-Pena",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pardo-Serrano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Vaccine",
+            "volume": "28",
+            "issn": "",
+            "pages": "7460--7467",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Final estimates for 2009-10 seasonal influenza and influenza A (H1N1) 2009 monovalent vaccination coverage-United States",
+            "authors": [],
+            "year": 2009,
+            "venue": "Centers for Disease Control and Prevention",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Protective efficacy of a trivalent recombinant hemagglutinin protein vaccine (FluBlok(R)) against influenza in healthy adults: a randomized, placebo-controlled trial",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Treanor",
+                    "suffix": ""
+                },
+                {
+                    "first": "El",
+                    "middle": [],
+                    "last": "Sahly",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Vaccine",
+            "volume": "29",
+            "issn": "",
+            "pages": "7733--7742",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Virus-like particle (VLP)-based vaccines for pandemic influenza: performance of a VLP vaccine during the 2009 influenza pandemic",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lopez-Macias",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Hum Vaccin Immunother",
+            "volume": "8",
+            "issn": "",
+            "pages": "411--415",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Vaccinations administered during off-clinic hours at a national community pharmacy: implications for increasing patient access and convenience",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Goad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Taitel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Fensterheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cannon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Ann Fam Med",
+            "volume": "11",
+            "issn": "",
+            "pages": "429--465",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Public health and faith community partnerships: model practices to increase influenza prevention among hard to reach populations",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Interfaith Health Program",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "News release: HHS boosts national capacity to produce pandemic flu vaccine",
+            "authors": [],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Surveillance for influenza during the 2009 influenza A (H1N1) pandemic-United States",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Brammer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Blanton",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Epperson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Clin Infect Dis",
+            "volume": "52",
+            "issn": "1",
+            "pages": "27--35",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Report to the President on reengineering the influenza vaccine production enterprise to meet the challenges of pandemic influenza",
+            "authors": [],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Low immunogenicity predicted for emerging avian-origin H7N9: implication for influenza vaccine design",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "De Groot",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ardito",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Terry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Hum Vaccin Immunother",
+            "volume": "9",
+            "issn": "",
+            "pages": "950--956",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "A recombinant viruslike particle influenza A (H7N9) vaccine",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fries",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Glenn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "N Engl J Med",
+            "volume": "369",
+            "issn": "",
+            "pages": "2564--2570",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Number of hospitalizations (top) and deaths (bottom) if the overall",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Number of hospitalizations (top) and deaths (bottom) if the overall",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "List of Input Values Used to Calculate the Number of Hospitalizations and Deaths Prevented Due to a National Vaccination Program Against an Influenza Pandemic-United States",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "We prioritized persons returning for their second doses of vaccine over persons who were receiving their first doses. b Once 80% of an age group was fully vaccinated, we assumed vaccination would end in that age group. Remaining vaccine would then be allocated to other age groups until they all reached 80% coverage.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Number and Percentage of Hospitalizations Averted Relative to the Number of Hospitalizations Without Vaccination No. of Hospitalizations Averted in High-Severity a (H) or Low-Severity a (L) Scenarios, % Hospitalizations Averted Relative to No Vaccine 10 Million Doses Administered per Week 30 Million Doses Administered per Week Shown by number of vaccine doses administered per week (10 million or 30 million), cumulative clinical attack rate (20% vs 30%), clinical severity (high vs low), start of vaccination relative to cases (from 16 weeks before to 16 weeks after), and vaccine efficacy (moderate vs high). a Overall case hospitalization ratio is 4.23% (high) or 1.05% (low).b Two doses of vaccine administered 3 weeks apart required to be fully effective (62% for persons aged <60 years and 43% for persons \u226560 years) in protecting against subclinical and clinical cases, hospitalizations, and deaths. We assumed 1 dose of vaccine to be 0% effective for all age groups. c Two doses of vaccine administered 3 weeks apart required to be to fully effective (80% for persons aged <60 years and 60% for persons \u226560 years) in protecting against subclinical and clinical cases, hospitalizations, and deaths. We assumed 1 dose of vaccine is 40% effective for persons aged <60 years and 30% for persons \u226560 years.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Number and Percentage of Deaths Averted Relative to the Number of Deaths Without Vaccination",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Disclaimer. The findings and conclusions in this report are those of the authors and do not necessarily represent the official position of the Centers for Disease Control and Prevention (CDC).Supplement sponsorship. This article appears as part of the supplement titled \"CDC Modeling Efforts in Response to a Potential Public Health Emergency: Influenza A(H7N9) as an Example,\" sponsored by the CDC.Potential conflicts of interest. All authors: No reported conflicts. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Notes"
+        }
+    ]
+}

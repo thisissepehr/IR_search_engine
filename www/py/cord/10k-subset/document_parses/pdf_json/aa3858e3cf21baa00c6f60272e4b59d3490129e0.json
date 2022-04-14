@@ -1,0 +1,3780 @@
+{
+    "paper_id": "aa3858e3cf21baa00c6f60272e4b59d3490129e0",
+    "metadata": {
+        "title": "CXCR6 regulates localization of tissue-resident memory CD8 T cells to the airways",
+        "authors": [
+            {
+                "first": "Alexander",
+                "middle": [
+                    "N"
+                ],
+                "last": "Wein",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sean",
+                "middle": [
+                    "R"
+                ],
+                "last": "Mcmaster",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shiki",
+                "middle": [],
+                "last": "Takamura",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Paul",
+                "middle": [
+                    "R"
+                ],
+                "last": "Dunbar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Emily",
+                "middle": [
+                    "K"
+                ],
+                "last": "Cartwright",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sarah",
+                "middle": [
+                    "L"
+                ],
+                "last": "Hayward",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [
+                    "T"
+                ],
+                "last": "Mcmanus",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Takeshi",
+                "middle": [],
+                "last": "Shimaoka",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Satoshi",
+                "middle": [],
+                "last": "Ueha",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tatsuya",
+                "middle": [],
+                "last": "Tsukui",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tomoko",
+                "middle": [],
+                "last": "Masumoto",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Makoto",
+                "middle": [],
+                "last": "Kurachi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kouji",
+                "middle": [],
+                "last": "Matsushima",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jacob",
+                "middle": [
+                    "E"
+                ],
+                "last": "Kohlmeier",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Resident memory T cells (T RM cells) are an important first-line defense against respiratory pathogens, but the unique contributions of lung T RM cell populations to protective immunity and the factors that govern their localization to different compartments of the lung are not well understood. Here, we show that airway and interstitial T RM cells have distinct effector functions and that CXCR6 controls the partitioning of T RM cells within the lung by recruiting CD8 T RM cells to the airways. The absence of CXCR6 significantly decreases airway CD8 T RM cells due to altered trafficking of CXCR6 \u2212/\u2212 cells within the lung, and not decreased survival in the airways. CXCL16, the ligand for CXCR6, is localized primarily at the respiratory epithelium, and mice lacking CXCL16 also had decreased CD8 T RM cells in the airways. Finally, blocking CXCL16 inhibited the steady-state maintenance of airway T RM cells. Thus, the CXCR6/CXCL16 signaling axis controls the localization of T RM cells to different compartments of the lung and maintains airway T RM cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Over the past decade, resident memory T cells (T RM cells) have been recognized as a distinct population from either central or effector memory T cells (T CM and T EM cells, respectively; Schenkel and Masopust, 2014) . T RM cells are uniquely situated to immediately respond to reinfection of a tissue and proliferate locally without the requirement for priming in the lymph node (Wakim et al., 2008; Beura et al., 2018; Park et al., 2018) . The cues that lead to the development of resident versus effector versus central memory cells are still being investigated and are subject to debate, but it is recognized that T RM cells are a distinct population compared with T EM and T CM cells. Regulation of T RM cell seeding in distinct tissues is less well characterized, but several reports have shown that the tissue tropism of T RM cells is determined by expression of signature chemokine receptors and adhesion molecules (Mackay et al., 2013) . These enable migration to different mucosal sites and assist in retaining cells in the tissue by preventing tissue egress into the circulation or lymphatics. Classically, CCR9 and integrin \u03b14\u03b27 are expressed on memory T cells destined to home to the gut, where the ligands CCL25 and MadCAM1 are constitutively expressed (Mora et al., 2003) . CCR4/CCL17, CCR8/CCL1, and CCR10/CCL27 enable migration to the skin, and cutaneous lymphocyte antigen allows them to bind to local selectins (Campbell et al., 1999; Schaerli et al., 2004; Sigmundsdottir et al., 2007) . However, it is unknown whether similar combinations of chemokine receptors and adhesion molecules direct the preferential migration or retention of memory T cells to other peripheral tissues.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 216,
+                    "text": "Schenkel and Masopust, 2014)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 380,
+                    "end": 400,
+                    "text": "(Wakim et al., 2008;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 401,
+                    "end": 420,
+                    "text": "Beura et al., 2018;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 421,
+                    "end": 439,
+                    "text": "Park et al., 2018)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 923,
+                    "end": 944,
+                    "text": "(Mackay et al., 2013)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1267,
+                    "end": 1286,
+                    "text": "(Mora et al., 2003)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1430,
+                    "end": 1453,
+                    "text": "(Campbell et al., 1999;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1454,
+                    "end": 1476,
+                    "text": "Schaerli et al., 2004;",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1477,
+                    "end": 1505,
+                    "text": "Sigmundsdottir et al., 2007)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Following influenza virus infection, memory CD8 T cells can persist in the lung for months, and these T RM cells are required for effective immunity against heterosubtypic influenza challenge (Hogan et al., 2001; Wu et al., 2014) . Studies on CD8 T cell homing to the lung have lagged behind those on other tissues due to the unique problems of identifying resident cells within such a vascularized organ, but intravital labeling with fluorescent antibodies has enabled the identification of intra-versus extravascular cells within the lung (Anderson et al., 2012) . The lung T RM cell pool can be divided into two populations, airway T RM cells and interstitial T RM cells, that differ not only based on localization within the tissue, but also in their effector functions and homeostatic maintenance. Airway T RM cells are poorly cytolytic compared with T RM cells in the parenchyma, yet are sufficient to protect against respiratory virus challenge through the rapid production of cytokines (Jozwik et al., 2015; McMaster et al., 2015; Zhao et al., 2016) . Furthermore, airway T RM cells have a limited lifespan and must be maintained via a process of continual recruitment that remains poorly understood (Ely et al., 2006; Kohlmeier et al., 2007) . Despite the importance of both airway and parenchyma T RM cells for cellular immunity against respiratory pathogens, critical questions regarding the ontogeny and maintenance of these two lung T RM cell populations remain unanswered.",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 212,
+                    "text": "(Hogan et al., 2001;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 213,
+                    "end": 229,
+                    "text": "Wu et al., 2014)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 541,
+                    "end": 564,
+                    "text": "(Anderson et al., 2012)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 994,
+                    "end": 1015,
+                    "text": "(Jozwik et al., 2015;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1016,
+                    "end": 1038,
+                    "text": "McMaster et al., 2015;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1039,
+                    "end": 1057,
+                    "text": "Zhao et al., 2016)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1208,
+                    "end": 1226,
+                    "text": "(Ely et al., 2006;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1227,
+                    "end": 1250,
+                    "text": "Kohlmeier et al., 2007)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Several reports have identified molecules important for CD8 T cell homing to the lung. Integrins such as CD11a/CD18 (LFA-1) and CD49a (VLA-1) are required for CD8 T cell entry into and retention in the lung, respectively (Ray et al., 2004; Galkina et al., 2005) . Chemokine receptors such as CXCR3 and CCR5 have been shown to control localization of effector or memory CD8 T cells in the lung during acute infection as well as steady-state memory (Galkina et al., 2005; Kohlmeier et al., 2008; Sl\u00fctter et al., 2013) . However, these chemokine receptors are required for T cell trafficking to inflammation in a diverse range of tissues, and thus seem unlikely to direct the preferential homing of CD8 T cells to the lung mucosa in the absence of inflammation. Furthermore, it is also unclear whether the same chemotactic signals are required to draw cells into the lung interstitium and airways, or whether these populations are separated based on differential migratory cues within the tissue.",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 239,
+                    "text": "(Ray et al., 2004;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 240,
+                    "end": 261,
+                    "text": "Galkina et al., 2005)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 447,
+                    "end": 469,
+                    "text": "(Galkina et al., 2005;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 470,
+                    "end": 493,
+                    "text": "Kohlmeier et al., 2008;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 494,
+                    "end": 515,
+                    "text": "Sl\u00fctter et al., 2013)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "CXCL16 and CXCR6 are a chemokine and receptor pair with exclusive binding between ligand and receptor (Matloubian et al., 2000) . CXCL16 can be produced in multiple isoforms including a small, soluble chemokine and a membrane-tethered protein that is cleaved and released by the metalloprotease ADAM10 (Abel et al., 2004) . CXCR6 has been shown to draw CD8 T cells to the liver in graft-versus-host disease and is required for the maintenance of liver-resident CD8 T cells following infection (Sato et al., 2005; Tse et al., 2014) . Its expression level on CD8 T cells in the lung correlates with disease severity in patients with chronic obstructive pulmonary disease, and it is up-regulated on T cells in the lungs of patients with asthma, sarcoidosis, or interstitial lung disease (Agostini et al., 2005; Morgan et al., 2005; Freeman et al., 2007) . In mice, CXCR6 has been shown to draw antigen-specific CD8 T cells to the lung after vaccination against ESAT6 or infection with Mycobacterium tuberculosis (Lee et al., 2011) . Finally, CXCR6 was recently shown to be part of a core cluster of genes that define CD69 + resident memory CD8 T cells in mice and humans (Mackay et al., 2013; Hombrink et al., 2016; Kumar et al., 2017) . Despite these reports on CXCR6 function in T RM cells from various tissues and infection models, the role of CXCR6 in the establishment and maintenance of different T RM cell populations within the lung following respiratory viral infection has not been investigated.",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 127,
+                    "text": "(Matloubian et al., 2000)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 302,
+                    "end": 321,
+                    "text": "(Abel et al., 2004)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 493,
+                    "end": 512,
+                    "text": "(Sato et al., 2005;",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 513,
+                    "end": 530,
+                    "text": "Tse et al., 2014)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 784,
+                    "end": 807,
+                    "text": "(Agostini et al., 2005;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 808,
+                    "end": 828,
+                    "text": "Morgan et al., 2005;",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 829,
+                    "end": 850,
+                    "text": "Freeman et al., 2007)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1009,
+                    "end": 1027,
+                    "text": "(Lee et al., 2011)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1168,
+                    "end": 1189,
+                    "text": "(Mackay et al., 2013;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1190,
+                    "end": 1212,
+                    "text": "Hombrink et al., 2016;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1213,
+                    "end": 1232,
+                    "text": "Kumar et al., 2017)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the present study, we investigated the expression of homing molecules on flu-specific CD8 T RM cells to identify processes that regulate the establishment and/or maintenance of these cells in different compartments of the lung. We found that CXCR6 is highly expressed on T RM cells in the lung interstitium in both mice and humans, but largely absent from T RM cells in the airways and T EM cells in the circulation. Expression of CXCR6 on flu-specific memory T cells required cognate antigen encounter in the lung, demonstrating that pulmonary imprinting maintains CXCR6 expression. Interestingly, Cxcr6-deficient mice have a significant defect in the number of flu-specific T RM cells in the lung airways, but not the lung interstitium or systemic T EM cell populations, and this finding was confirmed in mixed bone marrow chimeras. Analysis of CXCL16 showed that it is constitutively expressed in the lung and localized primarily to the airway epithelium in both mice and humans. In addition, Cxcl16-deficient mice show a similar defect in the number of fluspecific T RM cells in the airways but not the lung parenchyma. Microscopic localization of WT and Cxcr6-deficient cells in the lung showed that WT CD8 T RM cells were more abundant around the large conducting airways, whereas Cxcr6-deficient CD8 T RM cells were spread more diffusely throughout the interstitium. CXCR6 was highly expressed on cells that had recently migrated into the airways, and CXCR6 expression decreased over time with exposure to the airway environment. Finally, we found that transient blockade of CXCR6-CXCL16 interactions significantly decreased the steady-state migration of T RM cells into the airways. Together, these data demonstrate a critical role for CXCR6 in the migration of lung T RM cells from the interstitium into the airways and show the requirement for continued CXCR6 signaling in maintaining the airway T RM cell pool.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Airway and interstitial T RM cells are distinct subsets with differential effector functions The lung T RM cell pool is comprised of cells residing in distinct anatomical niches, namely the airway and interstitial spaces. To investigate whether these unique microenvironments influence T RM cell biology, we first analyzed expression of canonical T RM cell markers CD69, CD103, and CD49a on flu-specific memory CD8 T cells in the airway (BAL: bronchoalveolar lavage), lung extravascular (lung IV \u2212 ), or lung intravascular (lung IV + ) compartments ( Fig. 1 A) . Despite their different microenvironments, the frequency of flu-specific T RM cell subsets based on these markers was similar between the aiways and lung ( Fig. 1 B) . Previous studies have shown that airway T RM cells have a unique phenotype and effector functions compared with circulating T EM cells, but differences between T RM cells in the airways and interstitium have not been thoroughly explored (Kohlmeier et al., 2007) . We used an unbiased analysis, t-distributed stochastic neighbor embedding, to investigate potential phenotype differences between airway (BAL) and interstitial (lung) T RM cells ( Fig. 1 C) using several markers known to be different between T cells in the airways and spleen. Total T RM cells (CD8 + CD44 + IV \u2212 CD69 + ) from the airways and interstitium clustered differently based on these markers. While influenza nucleoprotein (FluNP)-and acid polymerase (FluPA)-specific cells localized to discreet populations, and expression of CXCR3 and PD-1 was similar, lung T RM cells showed increased expression and distinct clustering of CD11a and Ly6c compared with airway T RM cells, demonstrating unique expression patterns of these markers. Finally, to determine whether airway and lung T RM cells had different effector functions, we sorted cells from the BAL and lungs of influenza-immune mice 35 d after infection and assessed cytokine and granzyme (gzm) production following stimulation with FluNP peptide (Fig. 1 D) . When normalized to the frequency of FluNP-specific cells as determined by tetramer staining, airway T RM cells showed a significant defect in the production of IFN-\u03b3 and TNF\u03b1 compared with lung T RM cells ( Fig. 1 E) . This defect was even more pronounced in gzmB production, with very few antigen-specific airway T RM cells expressing gzmB following peptide stimulation. These data show that T RM cells residing in different anatomical locations in the lung, while sharing common markers of tissue residency, are phenotypically and functionally distinct populations.",
+            "cite_spans": [
+                {
+                    "start": 968,
+                    "end": 992,
+                    "text": "(Kohlmeier et al., 2007)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 551,
+                    "end": 560,
+                    "text": "Fig. 1 A)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 719,
+                    "end": 728,
+                    "text": "Fig. 1 B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1175,
+                    "end": 1184,
+                    "text": "Fig. 1 C)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2006,
+                    "end": 2016,
+                    "text": "(Fig. 1 D)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2226,
+                    "end": 2235,
+                    "text": "Fig. 1 E)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "CXCR6 is expressed on mouse and human lung-resident (lung res) CD8 + T cells To identify chemokine receptors that may be important for CD8 T RM cells homing to the lungs and/or airways, FluNPspecific memory CD8 T cells in the lung vasculature or lung interstitium were compared from mice previously infected with influenza A/HK-x31 (x31). We observed greater CXCR3 and CXCR6 expression on T RM cells in the interstitium compared with T EM cells in the lung vasculature (Fig. 2 , A and B), distinguished by intravital labeling. To further define CXCR6 expression on lung T RM cells, we sorted lung res cells into three populations based on tissue residency markers CD69 and CD103 (Fig. 2 C) and measured Cxcr6 gene expression. CD69 + CD103 + T RM cells exhibited the highest expression of Cxcr6, followed by CD69 + CD103 \u2212 T RM cells. CD69 \u2212 CD103 \u2212 T RM cells had the lowest expression of Cxcr6 as compared with other T RM cell populations. Surface expression of CXCR6 protein from these same cell populations corresponded with gene expression patterns ( Fig. 2 C, center and far right). We also examined co-expression of CXCR3 and CXCR6 and found that CXCR6 + FluNP-specific CD8 + T RM cells had higher expression of CXCR3 than CXCR6 \u2212 cells (Fig. 2 D) . Next, we compared levels of CXCR6 expression in the airways (BAL) and spleen to the lung res and lung-systemic (lung sys) populations. FluNP-specific T RM cells in the airways, pulmonary circulation (lung sys), and spleen expressed less CXCR6 than did lung insterstitial T RM cells (lung res; Fig. 2 E) . Notably, CXCR6 expression was highly variable on airway T RM cells, with a subset of cells expressing CXCR6 at levels comparable to interstitial T RM cells. We also investigated CXCR6 expression on memory CD8 T cell subsets resident in human lung. Similar to mice, CXCR6 expression was significantly higher on CD69 + CD103 + T RM cells and CD69 + T RM cells compared with CD69 \u2212 CD103 \u2212 memory CD8 T cells (Fig. 2 F) . These data show that T RM cells within the lung interstitium have increased CXCR6 expression compared with those in the airways, in the pulmonary vasculature, or in the systemic circulation and suggest a potential role for CXCR6 in lung T RM cell trafficking.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 469,
+                    "end": 476,
+                    "text": "(Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 679,
+                    "end": 689,
+                    "text": "(Fig. 2 C)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1055,
+                    "end": 1061,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1243,
+                    "end": 1253,
+                    "text": "(Fig. 2 D)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1549,
+                    "end": 1558,
+                    "text": "Fig. 2 E)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1967,
+                    "end": 1977,
+                    "text": "(Fig. 2 F)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Antigen re-encounter in the lung maintains CXCR6 expression on developing T RM cells We next investigated the kinetics of CXCR6 expression on lung and vascular flu-specific CD8 T cells over the course of the cellular response to influenza: early acute phase (day 7 [D7]), peak acute response (D10), resolution and contraction (D12, D14, and D21), and memory (D45). We found higher expression of CXCR6 on lung res cells throughout the course of infection, peaking during the early phase of resolution, and continuing out to memory (Fig. 3 A) . To better define T RM cells by expression of canonical residency markers, we compared lung res cells based (B) Quantification of geometric mean fluorescence intensity (gMFI) of CXCR6 and CXCR3 on lung sys and lung res cells. Values are paired. (C) Expression of CXCR6 by influenza-specific CD3 i.v. \u2212 CD8 T cells is divided into three populations by CD69 and CD103 with example flow plots. Populations are designated by roman numerals I (CD69 + CD103 + ), II (CD69 + CD103 \u2212 ), and III (CD69 \u2212 CD103 \u2212 ). qPCR for Cxcr6 is relative to Hprt. CXCR6 surface expression shown as representative flow plots and quantification of gMFI. (D) CXCR3 surface expression on CXCR6 + and CXCR6 \u2212 FluNP + lung res T cells shown as representative flow plots and quantification of gMFI. FSC-A, forward scatter area. (E) Surface expression of CXCR6 on antigen-specific CD8 + T cells from the BAL (black bar), lung res (open bar), lung sys (gray bar), and splenic (hashed bar) populations. CXCR6 surface expression shown as representative flow plots and quantification of gMFI. (F) Staining of memory CD8 T cells from explanted human lungs for CXCR6 expression. CD45RA \u2212 CCR7 \u2212 CD8 T cells were divided into three populations as in C. CXCR6 surface expression is shown as representative flow plots and quantification of gMFI. Data are from five donors (F). gMFI data were analyzed by paired Student's t test (B and C) or one-way repeated measures ANOVA followed by Holm-Sidak multiple comparisons test (C, E, and F). qPCR data were analyzed using one-way ANOVA followed by Holm-Sidak multiple comparisons test (C). A and C are concatenated from five mice, and panels A-E are combined from two experiments of five mice each. Error bars indicate SEM. on CD69 expression and measured CXCR6. We observed that among lung T RM cells, CD69 + cells exhibited higher expression of CXCR6 than CD69 \u2212 cells over the course of infection, resolution, and establishment of memory ( Fig. 3 B) . These differences in CXCR6 expression between resident and vascular cells, and between CD69 + and CD69 \u2212 resident cells, suggested that antigen encounter in the lung environment may be important for maintaining CXCR6 expression. To determine if pulmonary antigen exposure was necessary for CXCR6 up-regulation, we used a method to establish systemic effector T cells and \"pull\" them to the lungs (McMaster et al., 2018) . Mice were i.m. infected with influenza, dosed i.n. 7 d later with either CpG alone to induce local inflammation or CpG with cognate antigen to induce inflammation and also expose T cells to antigen in the lung (Fig. 3 C) . 3 d after i.n. dosing, expression levels of CXCR6 in the lung were equivalent between the groups (Fig. 3 D) . However, at memory, T cells in the lung res population that encountered cognate antigen in the pulmonary environment had significantly increased expression of CXCR6 compared with cells that did not. Overall, these data indicate that CXCR6 expression is sustained on lung res CD8 T cells throughout the cellular response to influenza infection, and maintenance of CXCR6 expression is dependent on antigen exposure within the lung during T RM cell development.",
+            "cite_spans": [
+                {
+                    "start": 2899,
+                    "end": 2922,
+                    "text": "(McMaster et al., 2018)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 530,
+                    "end": 540,
+                    "text": "(Fig. 3 A)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2491,
+                    "end": 2500,
+                    "text": "Fig. 3 B)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 3135,
+                    "end": 3145,
+                    "text": "(Fig. 3 C)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 3245,
+                    "end": 3255,
+                    "text": "(Fig. 3 D)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "To elucidate the role of CXCR6 in recruitment of flu-specific CD8 T cells to the lung, we infected WT and CXCR6 \u2212/\u2212 mice with x31 influenza and measured virus-specific T cells in the airways (BAL), lung interstitium (lung res), and spleen during the acute and memory phases of infection. At the peak of the acute response, there was no difference in the number of FluNP-specific CD8 T cells in the spleen or lung interstitium. However, the BAL revealed a decrease in the number of FluNP-specific CD8 T cells in the airways of CXCR6 \u2212/\u2212 mice ( Fig. 4 A) . At memory, there were still significantly fewer FluNP-specific CD8 T cell airways of CXCR6 \u2212/\u2212 mice, while the numbers of cells in the lung and spleen were similar (Fig. 4 B) . To determine if the difference observed in the airways of CXCR6 \u2212/\u2212 mice could be explained by a skewing of the virus-specific response to different influenza antigens, we also examined the frequency of CD8 + T cells that were specific to the FluNP 366-374 D b epitope, but there was no difference between WT and CXCR6 \u2212/\u2212 mice ( Fig. 4 C) . Furthermore, the number of total memory CD8 T cells was significantly decreased in the airways of CXCR6 \u2212/\u2212 mice ( Fig. 4 D) , suggesting a global effect of CXCR6 deficiency on airway T RM cells. Thus, despite the increased expression of CXCR6 on T RM cells in the interstitium, these data show that CXCR6 is important for regulating the number of memory CD8 T cells in the airways.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 543,
+                    "end": 552,
+                    "text": "Fig. 4 A)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 719,
+                    "end": 729,
+                    "text": "(Fig. 4 B)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1062,
+                    "end": 1071,
+                    "text": "Fig. 4 C)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1189,
+                    "end": 1198,
+                    "text": "Fig. 4 D)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "CXCR6 \u2212/\u2212 mice have decreased numbers of antigen-specific T cells in the airways"
+        },
+        {
+            "text": "As CXCR3 has been reported to be important for T cell trafficking to the lungs and airways, we also examined the expression of CXCR3 on WT and CXCR6 \u2212/\u2212 FluNP-specific CD8 T cells in the lung (Medoff et al., 2006; Kohlmeier et al., 2009; Sl\u00fctter et al., 2013) . No difference in the frequency of CXCR3 + FluNP-specific cells in the BAL, lung res compartment, or spleen was found, indicating that the decreased number of airway cells observed in CXCR6 \u2212/\u2212 mice was not due to defects in CXCR3mediated trafficking (Fig. 4 E) . To determine how decreased airway T RM cells in CXCR6 \u2212/\u2212 mice might impact cellular immune protection, we challenged naive or x31 influenza-immune WT and CXCR6 \u2212/\u2212 mice with influenza A/PR8. While we observed no difference in weight loss between naive mice, x31immune CXCR6 \u2212/\u2212 mice showed significantly greater weight loss compared with WT mice on days 3 and 5 after challenge (Fig. 4 F) . Thus, the decreased number of flu-specific airway T RM cells capable of rapidly responding to a secondary challenge in CXCR6 \u2212/\u2212 mice results in impaired cellular immunity to influenza virus. To determine whether these observations were unique to influenza virus infection and control for any potential differences in infection or disease course between intact WT and CXCR6 \u2212/\u2212 mice, we generated mixed bone marrow chimeras and infected these mice with Sendai virus (Fig. 5 A) . We examined Sendai-specific CD8 T cell responses in the spleen, blood, mediastinal LNs, liver, lung, and airways on days 10 and 60 after infection (Fig. 5 B) . Analysis of Sendai-specific CD8 T cells in the liver was added as a control since previous studies found that CXCR6 is essential for maintenance of T RM cells in the liver (Tse et al., 2014) . On day 10 after infection, no differences in localization of Sendai-specific CD8 T cells were observed (Fig. 5 C) . In contrast, on day 60 after infection, the Sendai-specific airway T RM cells (BAL) were highly skewed toward WT cells, despite equal ratios of WT to CXCR6 \u2212/\u2212 cells in the lung interstitium, mediastinal LNs, and blood (Fig. 5 D) . Consistent with prior studies, Sendai-specific liver T RM cells were also skewed toward WT cells, but the level of skewing observed in the liver was less than that observed in the airways. To confirm the CD8 T cellintrinsic role for CXCR6 in airway localization following influenza infection, we used a dual-transfer system of transgenic WT and CXCR6 \u2212/\u2212 OT-I cells (transgenic CD8 T cells specific for ovalbumin protein) and infected mice with x31-OVA influenza ( Fig. 5 E) . Similar to Sendai infection, the ratio of memory OT-I cells was highly skewed toward WT cells in the airways, but not the lung interstitium (Fig. 5, F and G) . Furthermore, the defect in CXCR6 \u2212/\u2212 OT-I localization to the airways was most prominent among the CD69 + CD103 + cells, which express the highest levels of CXCR6 (Fig. 5, H and I) . Together, these data show that the defect in airway T RM cells in the absence of CXCR6 is consistent in different respiratory viral infections and when WT and CXCR6 \u2212/\u2212 cells are subjected to the same infection dynamics in vivo.",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 213,
+                    "text": "(Medoff et al., 2006;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 214,
+                    "end": 237,
+                    "text": "Kohlmeier et al., 2009;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 238,
+                    "end": 259,
+                    "text": "Sl\u00fctter et al., 2013)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1728,
+                    "end": 1746,
+                    "text": "(Tse et al., 2014)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 512,
+                    "end": 522,
+                    "text": "(Fig. 4 E)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 904,
+                    "end": 914,
+                    "text": "(Fig. 4 F)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1383,
+                    "end": 1393,
+                    "text": "(Fig. 5 A)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1543,
+                    "end": 1553,
+                    "text": "(Fig. 5 B)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1852,
+                    "end": 1862,
+                    "text": "(Fig. 5 C)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 2084,
+                    "end": 2094,
+                    "text": "(Fig. 5 D)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 2562,
+                    "end": 2571,
+                    "text": "Fig. 5 E)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 2714,
+                    "end": 2731,
+                    "text": "(Fig. 5, F and G)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 2897,
+                    "end": 2914,
+                    "text": "(Fig. 5, H and I)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "CXCR6 \u2212/\u2212 mice have decreased numbers of antigen-specific T cells in the airways"
+        },
+        {
+            "text": "CXCL16 is expressed on the airway epithelium and required for airway T RM cells The only known ligand for CXCR6 is CXCL16, which is a membrane-anchored chemokine that can be cleaved by proteases to form a chemo-attractive gradient (Matloubian et al., 2000) . To investigate whether the expression patterns of CXCL16 could explain the defect in airway T RM cells, we investigated CXCL16 protein localization in the lung by immunofluorescent microscopy. We found CXCL16 staining restricted to the lining of the large airways and co-localized with epithelial cell adhesion molecule (EpCAM; Fig. 6 A) . The specificity of CXCL16 staining was confirmed by staining sections from CXCL16 \u2212/\u2212 mice and by staining sections from WT mice with secondary antibody alone (Fig. S1 ). To investigate the kinetics of CXCL16 expression over the course of an influenza infection, we harvested BAL and assessed levels of CXCL16 and the CXCR3 ligands CXCL9 and CXCL10 (Fig. 6  B) . As expected, infection led to a rapid and transient increase of CXCL9 and CXCL10 in the airways, and both were undetectable by day 30 after infection. In contrast, CXCL16 was constitutively expressed in the airways, with a transient increase during active infection. To identify potential cellular sources of CXCL16 in the lung, we sorted hematopoietic and nonhematopoietic cell types from the lungs of mice 30 d after influenza infection (Fig. S2) . Consistent with microscopy data, Cxcl16 expression was highest on epithelial cells, and alveolar macrophages also showed increased expression compared with other CD45 + hematopoietic cells, endothelial cells, and fibroblasts (Fig. 6 C) . Analysis of human lung sections similarly showed CXCL16 protein expression was restricted to the lung epithelium (Fig. 6 D) . Together, these data show that CXCL16 is constitutively expressed in the epithelium lining the lung airways in both mice and humans, and the localized expression of CXCL16 may explain the impact of CXCR6-CXCL16 interactions on airway, but not interstitial, lung T RM cells. To test whether CXCL16 deficiency also resulted in decreased airway T RM cells following influenza infection, we infected WT and CXCL16 \u2212/\u2212 mice with influenza and assessed FluNP-specific CD8 T cell numbers in the airways and interstitium on days 10 and 60 after infection (Fig. 6 E) . Similar to CXCR6 \u2212/\u2212 mice, CXCL16 \u2212/\u2212 mice exhibited decreased numbers of FluNP-specific CD8 T RM cells in the airways but not the interstitium (Fig. 6 F) . Thus, direct interactions between CXCR6 and its ligand CXCL16 at the respiratory epithelium are required for T RM cell localization in the lung airways.",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 256,
+                    "text": "(Matloubian et al., 2000)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 587,
+                    "end": 596,
+                    "text": "Fig. 6 A)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 758,
+                    "end": 766,
+                    "text": "(Fig. S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 948,
+                    "end": 959,
+                    "text": "(Fig. 6  B)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1401,
+                    "end": 1410,
+                    "text": "(Fig. S2)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1638,
+                    "end": 1648,
+                    "text": "(Fig. 6 C)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1764,
+                    "end": 1774,
+                    "text": "(Fig. 6 D)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2324,
+                    "end": 2334,
+                    "text": "(Fig. 6 E)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2481,
+                    "end": 2491,
+                    "text": "(Fig. 6 F)",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "CXCR6 \u2212/\u2212 mice have decreased numbers of antigen-specific T cells in the airways"
+        },
+        {
+            "text": "CXCR6 mediates localization, but not survival, of lung T RM cells Potential explanations for reduced airway T RM cells in CXCR6 \u2212/\u2212 and CXCL16 \u2212/\u2212 mice are that CXCR6 anchors virus-specific cells to the epithelium and promotes their survival in the airways, or that CXCR6-CXCL16 interactions are directing the migration of T RM cells within the lung tissue. To test these possibilities, we first performed dual-adoptive transfers of congenic WT and CXCR6 \u2212/\u2212 lung interstitium memory CD8 T cells directly into the airways via intratracheal (i.t.) administration and assessed survival (Fig. 7 A) . Both WT and CXCR6 \u2212/\u2212 cells were recovered from the airways after transfer, and the ratio of recovered cells showed no survival defect in CXCR6 \u2212/\u2212 cells (Fig. 7, B and C) . To investigate the localization of CXCR6 \u2212/\u2212 T RM cells in the lung, we compared transgenic WT and CXCR6 \u2212/\u2212 OT-I cells within the tissue. For imaging, congenic (CD45.1) mice were seeded with equal numbers of naive WT (CD45.2/CD90.1) and CXCR6 \u2212/\u2212 (CD45.2/CD90.2) CD8 T cells and infected with influenza x31-OVA (Fig. 7 D) . Tile scans were taken of whole-lung sections 45 d after infection, WT and CXCR6 \u2212/\u2212 OT-I cells were identified by congenic marker staining (Fig. 7 E) , and the distance of each cell to the nearest airway was measured (Fig. S3) . Compiled measurements from multiple lung sections showed that WT cells were, on average, 146 microns closer to an airway than CXCR6 \u2212/\u2212 cells (757 versus 903 microns, respectively; Fig. 7 F) . To more clearly visualize any CXCR6-mediated defect on localization, we calculated the ratio of WT to CXCR6 \u2212/\u2212 OT-I T cells at discrete distances from the nearest airway (Fig. 7 G) . At distances >200 microns, the ratio of WT to CXCR6 \u2212/\u2212 OT-I T cells was 1:1. However, within 50 microns to the closest airway, WT cells were present at a 3:1 ratio compared with CXCR6 \u2212/\u2212 cells. Together, these data show that decreased airway T RM cells in the absence of CXCR6 are not due to altered survival in the airway environment, but due to defective trafficking to the airways.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 584,
+                    "end": 594,
+                    "text": "(Fig. 7 A)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 751,
+                    "end": 768,
+                    "text": "(Fig. 7, B and C)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1083,
+                    "end": 1093,
+                    "text": "(Fig. 7 D)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1235,
+                    "end": 1245,
+                    "text": "(Fig. 7 E)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1313,
+                    "end": 1322,
+                    "text": "(Fig. S3)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1506,
+                    "end": 1515,
+                    "text": "Fig. 7 F)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1689,
+                    "end": 1699,
+                    "text": "(Fig. 7 G)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "CXCR6 \u2212/\u2212 mice have decreased numbers of antigen-specific T cells in the airways"
+        },
+        {
+            "text": "Airway T RM cells are a dynamic population with a relatively high rate of turnover that must be replaced by a steady influx of cells from the established memory T cell pool (Ely et al., 2006) . Although the impact of CXCR6-mediated trafficking on lung T RM cells is specific to airways, surface expression of CXCR6 on airway T RM cells was significantly lower than interstitial T RM cells. This raised the possibility that high levels of CXCR6 expression on interstitial T RM cells may guide cells to the airways, and upon entry into the airways, CXCR6 is down-regulated. To test this, we first compared transcriptional activity from the Cxcr6 locus to CXCR6 protein expression by crossing CXCR6 \u2212/\u2212 and WT mice to generate one allele that drives eGFP expression from the Cxcr6 promoter and one allele that can produce CXCR6 protein. A comparison of CXCR6 protein expression between airway (BAL) and interstitial (lung res) T RM cells confirmed our previous results of decreased surface CXCR6 expression on airway T RM cells (Fig. 8 A) . Airway T RM cells showed continued Cxcr6 transcription as measured by eGFP expression, but the intensity of eGFP expression was diminished compared with interstitial T RM cells (Fig. 8 B) . To investigate when the loss of CXCR6 surface expression is occurring on airway T RM cells, we compared expression of CXCR6 and the integrin CD11a, which is highly expressed on circulating memory T cells but is downregulated within 48 h after airway entry (Kohlmeier et al., 2007) . The expression of CXCR6 was significantly higher on CD11a Hi airway T RM cells, which have recently entered the airway environment (Fig. 8 C) . In contrast, CD11a Lo airway T RM cells showed decreased CXCR6 surface expression. One possibility to explain the loss of CXCR6 protein expression is that binding to CXCL16 on the airway epithelium could lead to internalization or shedding of CXCR6. To address this possibility, we transferred sorted congenic lung T RM cells into the airways of WT or CXCL16 \u2212/\u2212 mice and assessed CXCR6 surface expression (Fig. 8 D) . However, cells transferred into WT and CXCL16 \u2212/\u2212 mice had a similar loss of CXCR6 surface expression (Fig. 8, E and F) . Thus, CXCR6-CXCL16 interactions were not necessary for the loss of CXCR6 on T cells in the airways.",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 191,
+                    "text": "(Ely et al., 2006)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1484,
+                    "end": 1508,
+                    "text": "(Kohlmeier et al., 2007)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1025,
+                    "end": 1035,
+                    "text": "(Fig. 8 A)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 1215,
+                    "end": 1225,
+                    "text": "(Fig. 8 B)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 1642,
+                    "end": 1652,
+                    "text": "(Fig. 8 C)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 2061,
+                    "end": 2071,
+                    "text": "(Fig. 8 D)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 2176,
+                    "end": 2193,
+                    "text": "(Fig. 8, E and F)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "CXCR6 is expressed on T RM cells recently recruited to the airways and is required for airway T RM cell maintenance"
+        },
+        {
+            "text": "As these findings suggested that CXCR6 may be important for the continual recruitment that sustains the airway T RM cell pool, we investigated whether blocking CXCR6-CXCL16 interactions after T cell memory had been established would impact the maintenance of airway T RM cells (Fig. 8 G) . i.n. administration of anti-CXCL16 significantly reduced the frequency of recently recruited CD11a Hi FluNP-specific T RM cells in the airways compared with PBS controls (Fig. 8 H) . In addition, limiting the influx of cells into the airways by blocking CXCL16 resulted in a significant decrease in the overall number of FluNP-specific airway T RM cells, but had no effect on the number of FluNPspecific T RM cells in the lung interstitium (Fig. 8 I) . Thus, CXCR6-CXCL16 interactions maintain the airway T RM cell pool through the continual recruitment of T RM cells into the airways.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 277,
+                    "end": 287,
+                    "text": "(Fig. 8 G)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 460,
+                    "end": 470,
+                    "text": "(Fig. 8 H)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 730,
+                    "end": 740,
+                    "text": "(Fig. 8 I)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "CXCR6 is expressed on T RM cells recently recruited to the airways and is required for airway T RM cell maintenance"
+        },
+        {
+            "text": "We have shown that CXCR6 expression is increased on lung T RM cells compared with T EM cells in the vasculature, and expression is highest on T RM cells co-expressing the tissue residency markers CD69 and CD103. The increased expression of CXCR6 on lung CD8 T cells is sustained throughout the immune response to influenza infection and is dependent on pulmonary antigen encounter. Mice lacking CXCR6 have decreased numbers of virus-specific CD8 T cells in their airways following influenza or parainfluenza infection, demonstrating a unique role for CXCR6 in regulating the airway T RM cell pool. Mixed bone marrow chimeras showed that the effects on airway T RM cells observed in CXCR6 \u2212/\u2212 mice are not due to differences in the immune response between intact WT and CXCR6 \u2212/\u2212 mice, and that this effect is broadly applicable to T RM cells formed by respiratory viruses. In addition to decreased numbers within the airways, lung CD8 T cells lacking CXCR6 are located further from the airways. CXCL16, the ligand for CXCR6, is expressed primarily in the airways, and blockade or genetic deletion of CXCL16 leads to decreased recruitment of virus-specific CD8 T RM cells to the airways. Finally, CD69 + CD103 + CD8 T RM cells in human lungs also have increased CXCR6 expression compared with CD69 \u2212 CD103 \u2212 cells, and CXCL16 is expressed by human bronchial epithelial cells lining the airways. Together, these findings have identified a critical role for CXCR6-CXCL16 interactions in controlling the localization of virus-specific CD8 T RM cells in the lung and maintaining the airway T RM cell pool.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Previous genomic analyses of tissue-resident memory CD8 T cells have shown that increased Cxcr6 expression is a common trait of T RM cells in many mucosal sites, but the biological importance of CXCR6 expression on T RM cells in these tissues is less well defined (Hombrink et al., 2016; Mackay et al., 2016; Kumar et al., 2017) . CXCR6 has been previously shown to be important in the maintenance of T RM cells in the liver following malaria infection in mice and is highly expressed on intrahepatic CD69 + CD103 + hepatitis B virus-specific CD8 T RM cells in humans (Tse et al., 2014; Fernandez-Ruiz et al., 2016) . CXCR6 has also been shown to be expressed on skin T RM cells in humans (Clark et al., 2006) and to be important for the maintenance of skin T RM cells in mice, where CXCR6 \u2212/\u2212 cells formed fewer CD69 + CD103 + T RM cells in the skin at memory (Zaid et al., 2017) . Notably, direct injection into the skin resulted in a similar decrease in CXCR6 \u2212/\u2212 skin T RM cells, suggesting that CXCR6 may be important for retention rather than recruitment of CD8 T cells in the skin. Although a role for CXCR6 in the localization of gut T RM cells has not been reported, CXCR6 has been shown to regulate the topography of NKp46 + ILC3s in the intestine by directing their interaction with CXCL16-expressing CX3CR1 + intestinal dendritic cells (Satoh-Takayama et al., 2014) . These studies, together with our reported data, suggest that CXCR6-CXCL16 interactions may have a primary role of controlling localization of lymphocytes within tissues, rather than directly recruiting them into the tissue from the circulation.",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 287,
+                    "text": "(Hombrink et al., 2016;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 288,
+                    "end": 308,
+                    "text": "Mackay et al., 2016;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 309,
+                    "end": 328,
+                    "text": "Kumar et al., 2017)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 568,
+                    "end": 586,
+                    "text": "(Tse et al., 2014;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 587,
+                    "end": 615,
+                    "text": "Fernandez-Ruiz et al., 2016)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 689,
+                    "end": 709,
+                    "text": "(Clark et al., 2006)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 861,
+                    "end": 880,
+                    "text": "(Zaid et al., 2017)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1348,
+                    "end": 1377,
+                    "text": "(Satoh-Takayama et al., 2014)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Previous studies investigating mechanisms controlling T cell localization to the lung have identified chemotactic or adhesion molecules that regulate migration or retention of antigen-specific T cells resident in both the lung interstitium and airways. Integrins such as VLA-1 (CD49a), \u03b1E\u03b27 (CD103), and E-cadherin are important for the maintenance of lung T RM cells. The chemokine receptor CXCR3 has been implicated in the homing and maintenance of lung T RM cells, but its role in effector T cell recruitment to the interstitium and airways during the acute response to respiratory infection has complicated evaluation of its role in maintaining lung T RM cells once established. CXCR3 \u2212/\u2212 antigen-specific effector T cells fail to accumulate in the lung and airways following influenza or parainfluenza virus infections, resulting in a smaller pool of cells in the tissue that can survive contraction and transition into T RM cells (Kohlmeier et al., 2009) . Thus, the role of CXCR3 in the trafficking and/or maintenance of memory T cells in the lung may largely depend on the presence or absence of localized inflammation, and future studies where CXCR3 can be conditionally deleted at different times during the immune response may help to refine its role in lung T RM cells. In addition to the role of chemokines in trafficking to the lung, the potential for chemotactic signals to regulate partitioning of T RM cells between the airways and interstitium had been largely unexplored. It was previously shown that airway-surveilling memory CD8 T cells express high levels of CXCR3 and that CXCR3 was required for the steady-state recruitment of memory T cells to the airways following i.v. transfer (Sl\u00fctter et al., 2013) . It should be noted that neither CXCR3 \u2212/\u2212 or CXCR6 \u2212/\u2212 memory T cells showed a complete loss of airway T RM cells, raising the possibility that both chemokine receptors can contribute to the preferential migration of T RM cells into the airways under steady-state conditions.",
+            "cite_spans": [
+                {
+                    "start": 936,
+                    "end": 960,
+                    "text": "(Kohlmeier et al., 2009)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1705,
+                    "end": 1727,
+                    "text": "(Sl\u00fctter et al., 2013)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Defining mechanisms that differentially regulate these two populations of T RM cells within the lung is important because they have been shown to have distinct effector functions that synergize to provide optimal cellular immunity in the lung (Jozwik et al., 2015; McMaster et al., 2015) . Airway T RM cells are able to rapidly produce cytokines upon antigen recognition but are poorly cytolytic, and thus likely serve more of a sentinel role to draw additional immune cells to sites of viral infection in the lung. Several reports have shown that pathogen-specific airway T RM cell numbers correlate with protection against respiratory challenge, and thus identifying mechanisms that regulate airway T RM cells is central to developing strategies that promote robust cellular immunity against respiratory pathogens. Airway T RM cells have a short half-life in the lumen of airways (\u223c14 d) and begin to down-regulate certain cell surface markers such as CD11a within hours of entering the airway environment (Ely et al., 2006; Kohlmeier et al., 2007) . In addition, airway T RM cells do not undergo homeostatic proliferation and must be continually replenished from the memory T cell pool, but the mechanisms regulating this continual recruitment had not been known. Our data show that CXCR6 expression on lung res CD8 T cells direct their movement within the tissue toward the CXCL16 gradient from the airway epithelium, resulting in a oneway migration into the airways to replenish and maintain the airway T RM cell pool. This process raises interesting questions regarding the source of newly recruited airway T RM cells and the impact it may have on other memory CD8 T cell populations. The most straightforward explanation is that the lung interstitial T RM cell population is continually seeding airway T RM cells, which is supported by the high CXCR6 expression on this population, proximity to the airways, and analysis of recently recruited airway T RM cells showing that they arrive in the airways expressing T RM cell markers such as CD69 and CD103. This may also explain the gradual decline of T RM cells in the lung interstitium as they are recruited into the airways (Wu et al., 2014) . However, it should be noted that we did not observe an increase in the number of interstitial T RM cells when the steady-state migration of T RM cells into the airways was transiently blocked by anti-CXCL16 administration. This raises the possibility that some interstitial T RM cells may also be dying within the lung tissue, in addition to being gradually depleted by trafficking into the airways. Additional studies are required to fully understand the ontology of the antigen-specific CD8 T cells that continually seed the airway T RM cell pool.",
+            "cite_spans": [
+                {
+                    "start": 243,
+                    "end": 264,
+                    "text": "(Jozwik et al., 2015;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 265,
+                    "end": 287,
+                    "text": "McMaster et al., 2015)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1008,
+                    "end": 1026,
+                    "text": "(Ely et al., 2006;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1027,
+                    "end": 1050,
+                    "text": "Kohlmeier et al., 2007)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2181,
+                    "end": 2198,
+                    "text": "(Wu et al., 2014)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In summary, we have identified a unique role for the chemokine receptor CXCR6 in directing the migration of T RM cells in the lung under steady-state conditions and maintaining the airway T RM cell pool. The differential impact of CXCR6 signaling on the airway and interstitial T RM cell populations in the lung is likely due to the localization of CXCL16, the ligand for CXCR6, to the respiratory epithelium. As airway T RM cells are known to be critical for cellular immunity in the lung, developing vaccination strategies that induce CXCR6 expression on antigen-specific T cells may increase airway T RM cells and improve the efficacy of vaccination against respiratory pathogens.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Mice C57BL/6J (B6), B6.PL-Thy1 a /CyJ (CD90.1), B6.SJL-Ptprc a Pepc b / BoyJ (CD45.1), C.129P2-Cxcr6 tm1Litt /J (CXCR6 \u2212/\u2212 ), and C57BL/6-Tg(TcraTcrb)1100Mjb/J (OT-I) mice were purchased from The Jackson Laboratory. SR-PSOX/CXCL16-deficient (CXCL16 \u2212/\u2212 ) mice were provided by Dr. Shin Yonehara (Kyoto University, Kyoto, Japan; Shimaoka et al., 2004) . Mice were housed and bred under specific pathogen-free conditions at Emory University and Kindai University. B6 and CD45.1 mice were bred, and the F1 mice were used as controls for CXCR6 \u2212/\u2212 mice for congenic identification. OT-I mice were crossed with CD90.1 or CXCR6 \u2212/\u2212 mice to give congenic WT OT-I (CD90.1 + ) and CXCR6 \u2212/\u2212 OT-I (CD90.2 + ). All animal procedures and experiments were approved by the Emory University or Kindai University Institutional Animal Care and Use Committees.",
+            "cite_spans": [
+                {
+                    "start": 328,
+                    "end": 350,
+                    "text": "Shimaoka et al., 2004)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Sendai virus, Influenza A/PR8, x31, and Influenza A/HK-x31-Ova I were grown in embryonated chicken eggs. For sublethal infection with influenza HK-x31 or Sendai viruses, mice were anesthetized with 2,2,2-tribromoethanol solution, and virus was administered dropwise i.n. Sendai was used at 3 \u00d7 10 3 times the 50% egg infectious dose (EID 50 ) per mouse, and x31 and Influenza A/HK-x31-Ova I were used at 3 \u00d7 10 4 EID 50 . For challenge experiments with PR8, mice were anesthetized with isoflurane before i.n. infection. Primary infection with PR8 was at 250 PFU (1 \u00d7 LD 50 ), and secondary infection with PR8 was at 1,250 PFU (5 \u00d7 LD 50 ). During lethal infection, mice were monitored daily for weight loss and euthanized at 25% weight loss in accordance with the Institutional Animal Care and Use Committee guidelines of Emory University.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Virus strains and infection"
+        },
+        {
+            "text": "To establish a circulating pool of influenza-specific T cells, mice were infected i.m. in the right thigh with 1 \u00d7 10 6 EID 50 x31. The thighs were wiped with 70% ethanol following injection to prevent i.n. infection. 7 d after infection, mice were anesthetized with 2,2,2-tribromoethanol and dosed i.n. with 50 \u03bcl PBS containing 5 \u03bcg ODN-1826 with or without 5 \u03bcg of the immunodominant CD4 and CD8 influenza nucleoprotein peptides NP 311-325 and 366-374.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "i.m. infection and pull"
+        },
+        {
+            "text": "To generate mixed bone marrow chimeras, donor mice were euthanized, and the femurs were harvested and processed to isolate bone marrow. Recipient mice were given two doses of 475 rads of gamma irradiation from a 131 Cs irradiator with 6 h between doses. Chimeras were maintained on a solid food diet with 1.2% sulfamethoxazole and 0.2% trimethoprim (Purina TestDiet 5TYG) for 4 wk and given wet food and Napa Nectar every other day for the first 2 wk. Mice were rested for an additional 2 wk before use, allowing for immune reconstitution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of mixed bone marrow chimeras"
+        },
+        {
+            "text": "General mouse harvest, cell isolation, staining, and flow cytometry For intravital labeling, mice were injected i.v. with 1.5 \u03bcg CD3e-PE/CF594 or 2.5 \u03bcg CD45.2-BV650 via the tail vein. After 5 min, mice were overdosed with 2,2,2-tribromoethanol solution i.p. and exsanguinated brachially. BAL was harvested directly from euthanized mice via insertion of an 18-gauge catheter into an incision in the trachea. Leukocytes were isolated from spleens and mediastinal lymph node (medLN) by mechanical dissociation. Lungs were mechanically dissociated and digested at 37\u00b0C for 30 min with Collagenase D (Roche) and DNaseI (Sigma), syringing every 10 min. Cells were purified by 80% Percoll/40% Percoll gradient. Live/dead staining was performed by Zombie UV or Zombie NIR by the manufacturer's protocol. Anti-CD16/32 clone 2.4G2 (American Type Culture Collection) was used to block Fc receptors. Antibodies were from BD Bioscience: anti-mouse Siglec-F-PE (clone E50-2400), anti-mouse CD103-BV421 or -PerCP/Cy5.5 (clone M290), anti-mouse CD3e-PE/CF594 (clone 146-2C11), anti-mouse CD45.1-PE/CF594 (clone A20), anti-mouse CD45.2-BV421 (clone 104), anti-mouse CD49a-PE (clone Ha31/8), anti-mouse CD69-BUV737 (clone H1.2F3); BioLegend: anti-mouse CCR4-PE/Cy7 (clone 2G12), anti-mouse CCR5-APC (clone HM-CCR5), anti-mouse CCR6-BV605 (clone 29-2L17), anti-mouse CCR9-PE/Cy7 (clone CW-1.2), anti-mouse CD11b-APC/Cy7 (clone M1/70), anti-mouse CD11c-APC (clone N418), anti-mouse CD19-APC/Cy7 (clone 6D5), anti-mouse CD3-APC (clone 17A2), anti-mouse CD31-PE/Cy7 (clone 390), anti-mouse CD4-BV510 (clone RM4-5), anti-mouse CD45-APC/Cy7 (clone 30-F11), anti-mouse CD62L-BV605 (clone MEL-14), anti-mouse CD69-PE (clone H1.2F3), anti-mouse CD8a-BV510, -BV711, or -BV785 (clone 53-6.7), anti-mouse CD90.1-A700 (clone OX-7), anti-mouse CD90.2-BV785 (clone 53-2.1), anti-mouse CXCR3-BV650 (clone 173), anti-mouse EpCAM-PE (clone G8.8), antimouse F4/80-APC/Cy7 (clone BM8), anti-mouse PDFR\u03b1-APC (clone APA5), anti-mouse TCRVa2-PE (clone B20.1), anti-mouse TCRVb5-APC (clone MR9-4), anti-mouse Ter119-APC/Cy7 (clone TER119); and eBioscience: anti-mouse CD11a-PE/Cy7 (clone M17/4), anti-mouse CD44-A700 or -APC/Cy7 (clone IM7). For experiments using the CXCL16-human Fc fusion protein (generously provided by Dr. Mehrdad Matloubian, University of California, San Francisco, San Francisco, CA) to stain cells, a secondary reagent (anti-human Fc gamma-APC, 1:50) was used. Staining of CCR5 required intracellular staining using the BD Cytofix/Cytoperm kit. Samples were acquired on a BD LSR II or Fortessa X-20, and data were analyzed with FlowJo v10.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of mixed bone marrow chimeras"
+        },
+        {
+            "text": "Ex vivo stimulation and intracellular cytokine staining Total tissue-resident memory CD8 T cells (CD8 + CD44 + IV \u2212 CD69 + ) were sorted from the BAL and lung of influenza-immune mice 35 d after infection. Sorted cells were mixed with splenocytes from a congenic naive donor mouse that had been pulsed with 5 \u03bcg/ml FluNP 366-374 peptide or 5 \u03bcg/ml SenNP 324-332 peptide as a negative control. Mixed cultures were stimulated for 6 h in the presence of brefeldin A (10 \u03bcg/ml). Cells were stained with antibodies to surface markers as described above, fixed, and permeabilized using the CytoFix/CytoPerm kit (BD Biosciences), and stained for intracellular proteins with antibodies against IFN-\u03b3, TNF\u03b1, and gzmB.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of mixed bone marrow chimeras"
+        },
+        {
+            "text": "Human lung harvest and staining Nontransplantable but otherwise healthy human lungs were provided by LifeLink of Georgia. Lungs were explanted by LifeLink personnel after transplantable organs were harvested and transported on ice to Emory University for further processing. Informed consent was obtained from next-of-kin before explant. This study was exempt from International Review Board review since the donors were deceased at the time of collection. Sections from human lungs were flash-frozen in OCT for immunofluorescence microscopy before the remainder of the lung was mechanically dissociated and digested in RPMI 1640 with nonessential amino acid solution, sodium pyruvate, collagenase D, DNase I, and soybean trypsin inhibitor solution at 37\u00b0C for 2 h with shaking. The digested lungs were filtered through a mesh strainer, and red blood cells were lysed using ammonium-chloride-potassium buffer before purification by Percoll gradient. Cells were frozen in 90% FBS/ 10% DMSO for storage. Staining was as above except for the use of human Fc blocking reagent (eBioscience). Antibodies were from BD Biosciences: anti-human CCR7-PE/CF594 (clone 150503), antihuman CD103-BB515 (clone Ber-ACT8), anti-human CD4-A700 (clone RPA-T4), anti-human CD45-APC/H7 (clone 2D1), antihuman CD69-BUV395 (clone FN50), anti-human CXCR6-BV421 (clone 13B1E5); or BioLegend: anti-human CD3-BV785 (clone OKT3), anti-human CD8a-BV510 (clone RPA-T8).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of mixed bone marrow chimeras"
+        },
+        {
+            "text": "RNA isolation for Cxcr6 or Cxcl16 quantitative PCR (qPCR) Cells were sorted into buffer RLT containing 1% \u03b2-mercaptoethanol on a BD FACS Aria II. RNA was extracted using the Qiagen RNeasy Kit. cDNA synthesis was performed using the High Capacity cDNA Reverse Transcription Kit (Cxcr6; ThermoFisher) or ReverTra Ace qPCR RT Master Mix with gDNA Remover (Cxcl16; Toyobo). Realtime qPCR was performed using SYBR Green PCR Master Mix (Cxcr6) or with THUNDERBIRD SYBR or Probe qPCR Mix (Cxcl16; Toyobo) using the following primers: Cxcr6 forward, 59-CTTCTC TTCTGATGCCATGGA-39; Cxcr6 reverse, 59-GAAACACATCTGTCA GAGTCC-39; Hprt-F, 59-CATTATGCCGAGGATTTGGAA-39; Hprt-R, 59-CACACAGAGGGCCACAATGT-39; Rps3 forward, 59-CGGTGCAGA TTTCCAAGAAG-39; Rps3 reverse, 59-GGACTTCAACTCCAGAGT AGCC-39; Cxcl16 forward, 59-TGTGGAACTGGTCATGGGAAG-39; Cxcl16 reverse, 59-AGCTTTTCCTTGGCTGGAGAG-39; Cxcl16 probe, 59-TGCCTCAAGCCAGTACCCAGACCC-39.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of mixed bone marrow chimeras"
+        },
+        {
+            "text": "OT-I transfer and immunofluorescence microscopy 10,000 WT and CXCR6 \u2212/\u2212 OT-I T cells were transferred i.v. to recipient mice, and the mice were infected the next day. For harvest, lungs were inflated with OCT, removed en bloc, and flash-frozen by floating on liquid nitrogen. Blocks were sectioned at 7 microns on a cryostat, and slides were fixed in 75:25 acetone/ethanol. The slides were blocked with FACS wash containing 1 \u03bcg/ml anti-mouse CD16/32 (clone 2.4G2), 10% mouse serum, 10% rat serum, and 10% donkey serum. Antibodies were from Abcam: goat anti-collagen IV polyclonal antibody (pAb); BioLegend: anti-mouse CD45.2-A594 or -A647 (clone 104), anti-mouse CD90.1-A647 (clone OX-7), anti-mouse EpCAM-A488 or -A647 (clone G8.8), anti-human EpCAM-A647 (clone 9C4), donkey anti-rabbit IgG pAb-Alexa555; Bioss: rabbit anti-mouse CXCL16 pAb; Invitrogen: anti-human CXCL16 pAb; and Rockland: donkey anti-goat IgG pAb-Dylight488. Coverslips with Prolong Gold were applied, and the slides were cured overnight before imaging. Imaging was performed on a Zeiss Axio Observer Z1 with an Axiocam 506 monochromatic camera. Image processing was performed with Zen 2 software.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of mixed bone marrow chimeras"
+        },
+        {
+            "text": "CXCL9/10/16 ELISA Serum and BAL (1 ml) were harvested from naive or x31-infected mice at indicated time points. Chemokine concentration was determined using Quantikine ELISA Kit for CXCL9 and CXCL10 and mouse CXCL16 ELISA Kit according to the manufacturer's instructions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of mixed bone marrow chimeras"
+        },
+        {
+            "text": "Anti-SR-PSOX/CXCL16 mAb IgG1 12-81 was generated as described previously (Shimaoka et al., 2004) . Mice were infected i.n. with x31. 28-35 d later, mice were administered either anti-SR-PSOX/ CXCL16 mAb (30 \u03bcg/30 \u03bcl) or PBS i.n. twice at 3-d intervals.",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 96,
+                    "text": "(Shimaoka et al., 2004)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CXCL16 blockade"
+        },
+        {
+            "text": "Flow cytometry data were analyzed using Flowjo. Relevant populations were identified, and the percentage of parent population or gMFI statistics were exported to Microsoft Excel. Cell numbers were calculated by using percentage of parent population data and the live cell count obtained on a hemocytometer. Calculated values were analyzed for significance using GraphPad Prism. Details of statistical methods are provided in figure legends. Gaussian distributions were tested using the Kolmogorov-Smirnov test of normalcy, parametric tests were used with data that were Gaussian, and nonparametric tests were used on non-Gaussian data. Significance was defined as P < 0.05, and exact P values are shown in the figures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "Online supplemental material Fig. S1 shows the specificity of CXCL16 staining by staining sections from CXCL16 \u2212/\u2212 mice and by staining sections from WT mice with secondary antibody alone. Fig. S2 shows the flow cytometry staining and sorting strategy for isolating hematopoietic and nonhematopoietic cell types from the lung. Fig. S3 shows an example of the technique used to measure the distance of each cell to the nearest airway.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 29,
+                    "end": 36,
+                    "text": "Fig. S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 189,
+                    "end": 196,
+                    "text": "Fig. S2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 327,
+                    "end": 334,
+                    "text": "Fig. S3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Statistics"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The transmembrane CXC-chemokine ligand 16 is induced by IFN-\u03b3 and TNF-\u03b1 and shed by the activity of the disintegrin-like metalloproteinase ADAM10",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hundhausen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mentlein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schulte",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Berkhout",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Broadway",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hartmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sedlacek",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dietrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Muetze",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Immunol",
+            "volume": "172",
+            "issn": "",
+            "pages": "6362--6372",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.172.10.6362"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Role for CXCR6 and its ligand CXCL16 in the pathogenesis of T-cell alveolitis in sarcoidosis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Agostini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cabrelle",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Calabrese",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bortoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Scquizzato",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Carraro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miorin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Begh\u00e8",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Trentin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zambello",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Am. J. Respir. Crit. Care Med",
+            "volume": "172",
+            "issn": "",
+            "pages": "1290--1298",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.200501-142OC"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Cutting edge: Intravascular staining redefines lung CD8 T cell responses",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Skon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lefrancois",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Deisinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Vezys",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Masopust",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Immunol",
+            "volume": "189",
+            "issn": "",
+            "pages": "2702--2706",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.1201682"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Intravital mucosal imaging of CD8 + resident memory T cells shows tissue-autonomous recall responses that amplify secondary memory",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Beura",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schenkel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mohammed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wijeyesinghe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fonseca",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Burbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hickman",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Vezys",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The chemokine receptor CCR4 in vascular recognition by cutaneous but not intestinal memory T cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Haraldsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rottman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ponath",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Andrew",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Warnke",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ruffing",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kassam",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Nature",
+            "volume": "400",
+            "issn": "",
+            "pages": "776--780",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/23495"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The vast majority of CLA + T cells are resident in normal skin",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chong",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mirchandani",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Brinster",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yamanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dowgiert",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kupper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Immunol",
+            "volume": "176",
+            "issn": "",
+            "pages": "4431--4439",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.176.7.4431"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Memory T cell populations in the lung airways are maintained by continual recruitment",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ely",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cookenham",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Woodland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Immunol",
+            "volume": "176",
+            "issn": "",
+            "pages": "537--543",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.176.1.537"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Liver-resident memory CD8 + T cells form a front-line defense against malaria liver-stage infection",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fernandez-Ruiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Holz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zaid",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mollard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cozijnsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Immunity",
+            "volume": "45",
+            "issn": "",
+            "pages": "889--902",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.immuni.2016.08.011"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "CC chemokine receptor 5 and CXC chemokine receptor 6 expression by lung CD8 + cells correlates with chronic obstructive pulmonary disease severity",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Freeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chensue",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Am. J. Pathol",
+            "volume": "171",
+            "issn": "",
+            "pages": "767--776",
+            "other_ids": {
+                "DOI": [
+                    "10.2353/ajpath.2007.061177"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Preferential migration of effector CD8 + T cells into the interstitium of the normal lung",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Galkina",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Thatte",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Dabak",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ley",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Braciale",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Clin. Invest",
+            "volume": "115",
+            "issn": "",
+            "pages": "3473--3483",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/JCI24482"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Activated antigen-specific CD8 + T cells persist in the lungs following recovery from respiratory virus infections",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Usherwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Dutton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Harmsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Woodland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J. Immunol",
+            "volume": "166",
+            "issn": "",
+            "pages": "1813--1822",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.166.3.1813"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Programs for the persistence, vigilance and control of human CD8 + lung-resident memory T cells",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hombrink",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Helbig",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Backer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Piet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Oja",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Stark",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Brasser",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jongejan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jonkers",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nota",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nat. Immunol",
+            "volume": "17",
+            "issn": "",
+            "pages": "1467--1478",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/ni.3589"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "RSV-specific airway resident memory CD8+ T cells and differential disease severity after experimental human infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jozwik",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Habibi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Paras",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Guvenel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dhariwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Almond",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H C"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sykes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Maybeno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nat. Commun",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/ncomms10224"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Cutting edge: Antigen is not required for the activation and maintenance of virus-specific memory CD8 + T cells in the lung airways",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kohlmeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Woodland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Immunol",
+            "volume": "178",
+            "issn": "",
+            "pages": "4721--4725",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.178.8.4721"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The chemokine receptor CCR5 plays a key role in the early memory CD8 + T cell response to respiratory virus infections",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kohlmeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gerard",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cookenham",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Woodland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Immunity",
+            "volume": "29",
+            "issn": "",
+            "pages": "101--113",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.immuni.2008.05.011"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "CXCR3 directs antigenspecific effector CD4 + T cell migration to the lung during parainfluenza virus infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kohlmeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cookenham",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Christensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Thomsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Woodland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Immunol",
+            "volume": "183",
+            "issn": "",
+            "pages": "4378--4384",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.0902022"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Human tissue-resident memory T cells are defined by core transcriptional and functional signatures in lymphoid and mucosal sites",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miron",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Granot",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Guyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Carpenter",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Senda",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.-H",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lerner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cell Reports",
+            "volume": "20",
+            "issn": "",
+            "pages": "2921--2934",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.celrep.2017.08.078"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "CXCR6 is a marker for protective antigen-specific cells in the lungs after intranasal immunization against Mycobacterium tuberculosis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Ronan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lara",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L M C"
+                    ],
+                    "last": "Franken",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H M"
+                    ],
+                    "last": "Ottenhoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Tchilian",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C L"
+                    ],
+                    "last": "Beverley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Infect. Immun",
+            "volume": "79",
+            "issn": "",
+            "pages": "3328--3337",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/IAI.01133-10"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The developmental pathway for CD103 + CD8 + tissue-resident memory T cells of skin",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mackay",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rahimpour",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Stock",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-L",
+                    "middle": [],
+                    "last": "Hafon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vega-Ramos",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lauzurica",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mueller",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Stefanovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat. Immunol",
+            "volume": "14",
+            "issn": "",
+            "pages": "1294--1301",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/ni.2744"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Hobit and Blimp1 instruct a universal transcriptional program of tissue residency in lymphocytes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mackay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Minnich",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A M"
+                    ],
+                    "last": "Kragten",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nota",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Seillet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zaid",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Man",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Preston",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Freestone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Science",
+            "volume": "352",
+            "issn": "",
+            "pages": "459--463",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.aad2035"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A transmembrane CXC chemokine is a ligand for HIV-coreceptor Bonzo",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Matloubian",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Engel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Cyster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nat. Immunol",
+            "volume": "1",
+            "issn": "",
+            "pages": "298--304",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/79738"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Airwayresident memory CD8 T cells provide antigen-specific protection against respiratory virus challenge through rapid IFN-\u03b3 production",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mcmaster",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kohlmeier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Immunol",
+            "volume": "195",
+            "issn": "",
+            "pages": "203--209",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.1402975"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Pulmonary antigen encounter regulates the establishment of tissue-resident CD8 memory T cells in the lung airways and parenchyma",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mcmaster",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wein",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dunbar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hayward",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cartwright",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Denning",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kohlmeier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Mucosal Immunol",
+            "volume": "11",
+            "issn": "",
+            "pages": "1071--1078",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41385-018-0003-x"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "CXCR3 and its ligands in a murine model of obliterative bronchiolitis: Regulation and function",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Medoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wain",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Seung",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jackobek",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Means",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ginns",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Farber",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Luster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Immunol",
+            "volume": "176",
+            "issn": "",
+            "pages": "7087--7095",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.176.11.7087"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Selective imprinting of guthoming T cells by Peyer's patch dendritic cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mora",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bono",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Manjunath",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Weninger",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cavanagh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rosemblatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Von Andrian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "424",
+            "issn": "",
+            "pages": "88--93",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature01726"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Expression of CXCR6 and its ligand CXCL16 in the lung in health and disease",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Morgan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Guillen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Symon",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Huynh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Berry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Entwisle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Briskin",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pavord",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wardlaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Clin. Exp. Allergy",
+            "volume": "35",
+            "issn": "",
+            "pages": "1572--1580",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2222.2005.02383.x"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Local proliferation maintains a stable pool of tissue-resident memory T cells after antiviral recall responses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zaid",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hor",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Christo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Prier",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Alexandre",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gregory",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gebhardt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat. Immunol",
+            "volume": "19",
+            "issn": "",
+            "pages": "183--191",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41590-017-0027-5"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "The collagen binding \u03b11\u03b21 integrin VLA-1 regulates CD8 T cell-mediated immune protection against heterologous influenza infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ray",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Franki",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pierce",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dimitrova",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Koteliansky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sprague",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Doherty",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "De Fougerolles",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Topham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Immunity",
+            "volume": "20",
+            "issn": "",
+            "pages": "167--179",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1074-7613(04)00021-4"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Role for CXCR6 in recruitment of activated CD8 + lymphocytes to inflamed liver",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Thorlacius",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Johnston",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Staton",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Littman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Butcher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Immunol",
+            "volume": "174",
+            "issn": "",
+            "pages": "277--283",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.174.1.277"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The chemokine receptor CXCR6 controls the functional topography of interleukin-22 producing intestinal innate lymphoid cells",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Satoh-Takayama",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Serafini",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Verrier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rekiki",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-C",
+                    "middle": [],
+                    "last": "Renauld",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Frankel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Di Santo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Immunity",
+            "volume": "41",
+            "issn": "",
+            "pages": "776--788",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.immuni.2014.10.007"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "A skin-selective homing mechanism for human immune surveillance T cells",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schaerli",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ebert",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Willimann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Blaser",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Roos",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Loetscher",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Moser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Exp. Med",
+            "volume": "199",
+            "issn": "",
+            "pages": "1265--1275",
+            "other_ids": {
+                "DOI": [
+                    "10.1084/jem.20032177"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Tissue-resident memory T cells. Immunity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schenkel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Masopust",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "41",
+            "issn": "",
+            "pages": "886--897",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.immuni.2014.12.007"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Cell surface-anchored SR-PSOX/CXC chemokine ligand 16 mediates firm adhesion of CXC chemokine receptor 6-expressing cells",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Shimaoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nakayama",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fukumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kume",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yamaguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Minami",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kita",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ohsumi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Leukoc. Biol",
+            "volume": "75",
+            "issn": "",
+            "pages": "267--274",
+            "other_ids": {
+                "DOI": [
+                    "10.1189/jlb.1003465"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "DCs metabolize sunlight-induced vitamin D3 to 'program' T cell attraction to the epidermal chemokine CCL27",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sigmundsdottir",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Debes",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Alt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Habtezion",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Soler",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Butcher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nat. Immunol",
+            "volume": "8",
+            "issn": "",
+            "pages": "285--293",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/ni1433"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Lung airwaysurveilling CXCR3 hi memory CD8 + T cells are critical for protection against influenza A virus",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sl\u00fctter",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pewe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kaech",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Harty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Immunity",
+            "volume": "39",
+            "issn": "",
+            "pages": "939--948",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.immuni.2013.09.013"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The chemokine receptor CXCR6 is required for the maintenance of liver memory CD8 + T cells specific for infectious pathogens",
+            "authors": [
+                {
+                    "first": "S.-W",
+                    "middle": [],
+                    "last": "Tse",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Radtke",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Espinosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cockburn",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zavala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Infect. Dis",
+            "volume": "210",
+            "issn": "",
+            "pages": "1508--1516",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jiu281"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Dendritic cell-induced memory T cell activation in nonlymphoid tissues",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wakim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Waithman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Rooijen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Heath",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Carbone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Science",
+            "volume": "319",
+            "issn": "",
+            "pages": "198--202",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1151869"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Lung-resident memory CD8 T cells (T RM ) are indispensable for optimal cross-protection against pulmonary virus infection",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-T",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bouchard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Benechet",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Khanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cauley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Leukoc. Biol",
+            "volume": "95",
+            "issn": "",
+            "pages": "215--224",
+            "other_ids": {
+                "DOI": [
+                    "10.1189/jlb.0313180"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Chemokine receptor-dependent control of skin tissueresident memory T cell formation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zaid",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hor",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Christo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Groom",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Heath",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mackay",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mueller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Immunol",
+            "volume": "199",
+            "issn": "",
+            "pages": "2451--2459",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.1700571"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Airway memory CD4 + T cells mediate protective immunity against emerging respiratory coronaviruses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mangalam",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Channappanavar",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fett",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Meyerholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Agnihothram",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Immunity",
+            "volume": "44",
+            "issn": "",
+            "pages": "1379--1391",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.immuni.2016.05.006"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Distinct phenotypes and effector functions of T RM cells based on anatomical location within the lung. (A) Example staining of CD69, CD103, and CD49a on FluPA-and FluNP-specific memory CD8 T cells from the airway (BAL), lung IV \u2212 , or lung IV + compartments. (B) Frequency of flu-specific T RM cells based on expression of CD69, CD103, and CD49a in the airways (BAL) and lung IV \u2212 comparments 45 d after infection. (C) t-distributed stochastic neighbor-embedding analysis of T RM cells in the airways (BAL) and lung IV \u2212 compartments gated on CD8 + CD44 + IV \u2212 CD69 + cells using FluNP, FluPA, CD103, CD11a, PD-1, and CD244 as input parameters. (D) Example staining of FluNP tetramer, IFN-\u03b3, TNF\u03b1, and gzmB on sorted T RM cells from the airways (BAL) and lung following FluNP peptide stimulation. (E) Frequency of cytokine + and gzm + T RM cells relative to the frequency of FluNP tetramer + cells in the airways (BAL) and lung. Data are representative of three (A-C, n = 5 mice) or two (D and E, n = 10 mice) independent experiments. Data were analyzed by Student's t test (B and E) followed by Holm-Sidak multiple comparisons test. Error bars indicate SEM.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "CXCR6 is up-regulated on lung res memory CD8 T cells. (A) Chemokine receptor expression of CD8 T cells showing gating on CD44 + and FluNP 366-374 D b+ cells. Y axis of plots of chemokine receptor expression of antigen-specific cells separates cells on CD3 i.v. + (lung sys) and CD3 i.v. \u2212 (lung res).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "CXCR6 expression on lung res memory T cells occurs throughout infection and is antigen dependent. (A) CXCR6 expression of lung sys (gray histograms, gray boxes) and lung res (black histograms, black circles) antigen-specific CD8 T cells at indicated times after infection. Data are combined from two experiments of five mice each and are shown as representative flow histograms (left), and gMFI is quantified (right). (B) CXCR6 expression of lung res antigen-specific CD8 T cells that are CD69 + (black circles) and CD69 \u2212 (open boxes) at indicated times after infection. Data are combined from two experiments of five mice each and are shown as representative flow histograms (left), and gMFI is quantified (right). (C) Experimental design diagram showing pull method of establishing lung res CD8 T cells. (D) CXCR6 expression on antigen-specific CD8 T cells after dosing i.n. with either CpG (top histograms, open bars) or CpG and FluNP peptide (bottom histograms, black bars). Histograms shown are gated on IV \u2212 FluNP + cells in the lung. Data are combined from three experiments of five mice per group and are shown as representative histograms, and gMFI is quantified. Data were analyzed by Student's t test (A and B) or one-way ANOVA followed by Holm-Sidak multiple comparisons test (D). Error bars indicate SEM.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Mice lacking CXCR6 have decreased airway-resident cells following influenza infection. (A and B) Analysis of the antigen-specific response of WT (black bars) and CXCR6 \u2212/\u2212 (open bars) mice at 10 (A) and 50 (B) d after infection. Example CD69 and FluNP 366-374 D b staining of the CD8 + CD44 + T cell population (left) and quantification of the FluNP-specific response in the BAL, lung res, and splenic compartments (right) are shown. (C) Percentage of WT (black bars) and CXCR6 \u2212/\u2212 (open bars) CD8 T cells in the BAL, lung res, and spleen that are specific for FluNP at day 50 after infection. (D) Number of total CD8 + CD44 + cells in the BAL of WT (black bar) and CXCR6 \u2212/\u2212 (open bars) mice at day 50 after infection. (E) CXCR3 expression of WT (top histograms, black bars) and CXCR6 \u2212/\u2212 (bottom histogram, open bars) FluNP-specific cells at day 50 after infection. Example histograms (left) and quantification (right) of the percent CXCR3 + in the BAL, lung res compartment, and spleen are shown. (F) Weight loss of WT (black circles) and CXCR6 \u2212/\u2212 (open squares) following infection with PR8 influenza without (left) or with (right) pre-existing T cell memory. Data are representative of four (A-E, n = 12 WT mice and 15 KO mice) and two (F, n = 20 mice per group) experiments and were analyzed with Student's t test (A, B, D, and F) or two-way ANOVA followed by the Holm-Sidak multiple comparisons test (C and E). Error bars indicate SEM.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Defective airway recruitment of CXCR6 \u2212/\u2212 T cells is cell intrinsic. (A) Experimental schema showing setup of chimera experiment. (B) Example flow plots of indicated tissues from chimeric mice at day 60 after infection showing CD44 by SenNP 324-332 K b of CD8 + cells (top row) and CD45.2 by GFP of SenNP 324-332 K b+ cells (bottom row). WT cells are CD45.2 \u2212 GFP \u2212 , and KO cells are CD45.2 + GFP +/\u2212 . (C and D) Ratio of WT to KO SenNP 324-332 K b+ cells in indicated tissues at day 10 (C) and day 60 (D) after infection, normalized to the spleen. Values greater than one indicate more WT cells in tissues. (E) Experimental schema of OT-I dual-transfer experiment. (F) Example flow plots of indicated tissues at day 45 after infection showing WT (CD90.1 + ) and CXCR6 \u2212/\u2212 (CD90.2 + ) cells. CD90.1/CD90.2 double-positive cells from the host mouse were excluded from analysis. (G) Ratio of WT to KO OT-I cells in the indicated tissues at day 45 after infection. (H) Example flow plots showing CD69 and CD103 expression gated on WT (top) or KO (bottom) OT-I cells in the airways. (I) Percentage of WT (open circles) or KO (filled squares) OT-I cells in the airways with the indicated phenotype. Data are representative of three (A-D, n = 4-5 mice) and two (E-I, n = 5-6 mice) experiments and were analyzed with a one-way ANOVA followed by Tukey's multiple comparisons test (C, D, and G) or Student's t test (I). Error bars indicate SEM.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "CXCL16 is expressed in the lung and is required for T cell recruitment to the airways. (A) Immunofluorescence microscopy of mouse lung showing CXCL16 (green), EpCAM (red), and Collagen IV (gray). Original image is at 200\u00d7 magnification. Scale bar is 200 \u03bcm in the tiled image and 50 \u03bcm in the inset images. (B) ELISA of BAL fluid for the chemokines CXCL9 (left), CXCL10 (center), and CXCL16 (right) at indicated times after infection. Data are representative of two experiments (n = 3-4 mice). (C) qPCR of listed cell types for Cxcl16 mRNA levels in day 30 post-infection mice. Data are relative to the housekeeping gene Rps3. Data are representative of two experiments (n = 3 mice). M\u00d8, macrophage; AM\u00d8, alveolar macrophage. (D) Immunofluorescence microscopy of explanted human lung showing CXCL16 (green), EpCAM (red), and Collagen IV (gray). Original image is at 200\u00d7 magnification. Scale bars are 50 \u03bcm. (E and F) Analysis of the antigen-specific response of WT (black bars) and CXCL16 \u2212/\u2212 (open bars) mice at 10 (left) and 60 (right) days after infection. Example CD8 and FluNP 366-374 D b staining of lung res T cell population and quantification of the FluNP-specific response in the BAL and lung res compartments are shown. Data are representative of two experiments (n = 3-4 mice). Data were analyzed by one-way ANOVA and Holm-Sidak multiple comparisons test (C) or Student's t test (E). Error bars indicate SEM.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "OT-I T cells lacking CXCR6 are located further from the airways than WT cells. (A) Experimental diagram showing setup of i.t. transfer experiment. (B) Example staining of WT and CXCR6 \u2212/\u2212 donor cells from the airways 8 d after transfer. (C) Ratio of WT:CXCR6 \u2212/\u2212 cells before transfer (black circles) or after 8 d in the airways (red squares). (D) Experimental diagram showing setup of OT-I transfer experiment. (E) Example image of a mouse lung section showing WT (pink arrows) and CXCR6 \u2212/\u2212 (green arrows) OT-I T cells. All transferred cells are CD45.2 + (green), and WT cells are CD90.1 + (red). EpCAM (cyan) and DAPI (white) were used to define airways. Scale bars are 200 \u03bcm. (F) Quantification of the distance of WT (circles) and CXCR6 \u2212/\u2212 (squares) OT-I T cells to the nearest airway. Data were analyzed by Mann-Whitney test. (G) Ratio of WT to CXCR6 \u2212/\u2212 OT-I cells in bins based on distance to the nearest airway. Ratios >1 indicate more WT cells. Data are representative of two experiments with four to five recipient mice (B and C) or were compiled from whole-lung sections from six individual mice from two independent replicates (E-G). Error bars indicate SEM.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "CXCR6 expression is down-regulated upon entry into the airways. (A) Example flow plots showing GFP expression of CXCR6 GFP/+ CD8 T cells versus surface expression of CXCR6 in the BAL and lung res compartments. (B) Quantification of GFP expression based on surface CXCR6 expression (black, CXCR6 + ; open, CXCR6 \u2212 ) in the BAL and lung res populations. (C) Flow staining and gMFI quantification of CXCR6 levels based on CD11a expression in CD8 T cells in the BAL. Example staining is concatenated from five mice. (D) Experimental schema for IT transfer. (E) Example flow plots showing CXCR6 expression before IT transfer (Input; black histogram) or after transfer into WT (open histogram) or CXCL16 \u2212/\u2212 (gray histogram) mice. (F) gMFI quantification of CXCR6 expression before i.t. transfer or after i.t. transfer into WT or CXCL16 \u2212/\u2212 mice. (G) Experimental setup of CXCL16 blockade experiment. (H) Example staining and quantification of CD11a expression on PBS (open histogram and bar) or \u03b1CXCL16-treated (black histogram and bar) mice. (I) Numbers of antigen-specific cells in the BAL and lung res compartments of PBS (open histogram and bar) or \u03b1CXCL16-treated (black histogram and bar) mice. Data are representative of two (A and B), four (C), or three (E, F, H, and I) experiments and were analyzed by Student's t test (C, F, H, and I). Error bars indicate SEM.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We are grateful for the contributions of organ donors and their families. The authors thank Tiger Li for helpful discussions and Laurel Lawrence for management of our mouse colony. The CXCL16-hFc fusion protein was generously provided by Dr. Mehrdad Matloubian. This project was supported by National Institutes of Health grants HL122559 and HL138508 and Centers of Excellence in Influenza Research and Surveillance contract HHSN272201400004C (to J.E. Kohlmeier); Ministry of Education, Culture, Sports, Science and Technology of Japan Grant-in-Aid for Young Scientists ( ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

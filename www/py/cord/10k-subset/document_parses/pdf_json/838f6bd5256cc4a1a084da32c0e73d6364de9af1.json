@@ -1,0 +1,946 @@
+{
+    "paper_id": "838f6bd5256cc4a1a084da32c0e73d6364de9af1",
+    "metadata": {
+        "title": "Pandemic H5N1: Receding Risk or Coming Catastrophe?",
+        "authors": [
+            {
+                "first": "David",
+                "middle": [
+                    "M"
+                ],
+                "last": "Morens",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Bethesda",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Rarely do arguments about the meaning of serosurveillance data bear directly upon potentially preventing billions of deaths. But this has been the case in attempts at making sense of more than 50 serologic studies of human antibody to avian H5N1 viruses in exposed and unexposed human populations from countries in which H5N1 has been circulating in poultry [1] [2] [3] [4] . Sixteen years since highly pathogenic avian H5N1 influenza viruses began to spread around much of the globe in domestic poultry and wild birds, there is a growing list of incidental human cases that have been unusually severe and fatal, with very rare instances of suspected person-to-person transmission. (As of 1 February 2013, the World Health Organization [WHO] reports 615 human cases occurring between 2003 and the present and a case-fatality rate of 59.0% [5] ). Many have wondered whether this is how pandemics begin, and whether H5N1 might now be just a mutation away, or a few mutations away, from human adaptation and pandemic emergence.",
+            "cite_spans": [
+                {
+                    "start": 358,
+                    "end": 361,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 366,
+                    "end": 369,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 370,
+                    "end": 373,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 736,
+                    "end": 741,
+                    "text": "[WHO]",
+                    "ref_id": null
+                },
+                {
+                    "start": 839,
+                    "end": 842,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Because we have never \"seen\" a pandemic influenza virus emerge before, we have little idea what emergence might look like. We are even more in the dark about emergence of pandemic \"founder viruses,\" those hypothesized pandemic viruses believed to emerge directly or indirectly from an avian source, and which are believed to be completely unique in having no gene component that has ever before circulated in most living humans. Post-1918 Post- pandemics in 1957 Post- , 1968 Post- , and 2009 have all resulted instead from \"updating\" of the 1918 pandemic virus by reassortment, including the complex genetic emergence mechanism of the 2009 virus [6] . Speculation that the 1918 pandemic virus was a true founder virus is supported by its subsequent evolution and by interpretation of phylogenetic analyses suggesting the virus had been genetically avian shortly before 1918 [7] . Is H5N1 following the founder virus path of the 1918 pandemic virus? If it is, and if the case-fatality rate is truly 59%, we could be facing a pandemic with unprecedented global mortality. The question became critical in 2012, when independent research teams made laboratory mutations that rendered H5N1 viruses transmissible in ferrets [8, 9] . Those who believed that ferret transmissibility in a caged environment might predict human pandemic transmissibility, and furthermore that a pandemic H5N1 virus might cause the same 59% mortality documented by WHO, led the call for a voluntary moratorium on this type of transmission research [3] . Others argued that H5N1 had little or no inherent ability to become pandemic and would cause far lower mortality in the unlikely event that it did. The debate remains unresolved. It is in this speculative framework that the H5N1 seroepidemiology review of Toner et al [4] in this issue of Clinical Infectious Diseases addresses aspects of potential H5N1 emergence related to human adaptation and pathogenicity.",
+            "cite_spans": [
+                {
+                    "start": 429,
+                    "end": 438,
+                    "text": "Post-1918",
+                    "ref_id": null
+                },
+                {
+                    "start": 439,
+                    "end": 462,
+                    "text": "Post- pandemics in 1957",
+                    "ref_id": null
+                },
+                {
+                    "start": 463,
+                    "end": 475,
+                    "text": "Post- , 1968",
+                    "ref_id": null
+                },
+                {
+                    "start": 476,
+                    "end": 492,
+                    "text": "Post- , and 2009",
+                    "ref_id": null
+                },
+                {
+                    "start": 647,
+                    "end": 650,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 875,
+                    "end": 878,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1219,
+                    "end": 1222,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1223,
+                    "end": 1225,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1521,
+                    "end": 1524,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1795,
+                    "end": 1798,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "However, the seroepidemiologic studies in question, 52 of which had been examined by 2012 (see [3] , supplemented by the addition of newly published studies; references available from author D.M.M.), of which Toner et al focus on 29, defy easy interpretation. Although the studies might seem to indicate that human H5N1 infection is relatively common (approximately 1%-2% of various exposed and unexposed indigenous populations in the studies in question, which included 25 014 persons but probably represents an [unscientific] sample of countless additional exposed persons), only a small number of human H5N1 cases have ever been detected clinically, and in those the case-fatality rate has been 59%. If human infection is as common as suggested by the serosurveillance studies, why are human cases so rarely detected (a mean of 38 cases per year since 1997), and, when detected, why are they invariably so severe? Looking at the question another way, if the human H5N1 case-fatality rate is really 59%, why are there so many healthy people walking around with H5N1 antibody and no history of prior illnesses? If H5N1 antibody in exposed populations is really common, then H5N1 disease must be less severe than WHO data suggest. On the other hand, if true H5N1 immunity in exposed populations is rare (eg, because exposed subjects were not sufficiently exposed and their antibody is falsely positive), a highly deadly virus may be evolving in the direction of human adaptation and transmissibility, ready at any moment to pick up a transmission-enhancing mutation that leads to a pandemic.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 98,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Researchers have tried to explain these contradictory findings in different ways. Palese and Wang [1] postulate widespread mild or subclinical H5N1 infection coupled with inability in many affected countries to detect all but the most severe cases of the spectrum of clinical H5N1 presentation. Data on ostensibly non-cross-reactive H5 T cell immune responses appear to support this possibility [10] . In the view of Palese and Wang, H5N1 is far more benign than the 59% case-fatality rate suggests. Osterholm and Kelly [2] , on the other hand, analyze a subset of studies with stricter serologic criteria and find a lower prevalence of antibody, arguing that mild cases appear to be rare or nonexistent, suggesting that H5N1 is a deadly human virus potentially capable of causing a catastrophic pandemic. The study of Toner et al [4] extends upon the findings of Osterholm and Kelly by applying even stricter interpretation of serologic criteria and excluding studies that appeared less relevant to the question, agreeing with Osterholm and Kelly that true H5N1 seropositivity in noncases is probably uncommon.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 101,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 395,
+                    "end": 399,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 520,
+                    "end": 523,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 831,
+                    "end": 834,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "There are a host of pitfalls in interpreting such eclectic and loosely controlled serologic data, many of which are discussed by Toner et al [4] . Among those that relate to serologic methods are that (1) the serologic studies employ different tests that may have marked sensitivity/ specificity problems and interstudy variability; (2) the kinetics of postinfectious H5N1 antibody rise, fall, and persistence are unknown; (3) intervals after H5N1 exposures are unknown and likely to be variable; (4) the ability of non-H5 influenza viruses to raise cross-reacting anti-H5 antibodies is unknown; and (5) there exist no agreed-on serologic criteria for determining past H5N1 exposure based on presence/titer of anti-H5 antibody, the WHO serologic criteria adopted by Toner et al relating only to antibody detected at specific intervals after identified acute infections. However, Toner et al plausibly note that it seems reasonable that high (>1:80) antibody titers are more likely to indicate past infection than lower titers. Even so, a decision to raise the titer threshold for a positive test is also necessarily a decision to exclude lower titers as being falsely positive, with no way of being certain of the truth. Do we consider such low titers, as well as the supposedly more specific H5 T cell responses, to be false positives, or are they true positives whose titers have (inevitably) declined over time?",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 144,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In trying to answer this question, Toner et al note that it would be desirable to use optimal comparison (\"control\") groups, although it is not clear what these groups would be other than groups from the same communities, if possible, with low or no chances of H5N1 exposure. In this regard, it is interesting to note that in those few H5N1 serosurveillance studies that examine both H5N1-exposed and -unexposed groups at the same time, there seems to be a tendency for the exposed groups to have higher H5 antibody prevalences [3, [11] [12] [13] , perhaps consistent with a relatively high number of falsepositive results overlying a background of true low-titer positives.",
+            "cite_spans": [
+                {
+                    "start": 528,
+                    "end": 531,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 532,
+                    "end": 536,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 537,
+                    "end": 541,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 542,
+                    "end": 546,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "What does all of this say about the possibility that a deadly H5N1 pandemic is preparing to emerge? There seem to be 2 main possibilities for interpreting the serologic studies, each of which has implications for pandemic emergence. If the conclusions of Toner et al are incorrect, and low-titer H5N1 antibody found in the surveys reflects true past infections that were mild or asymptomatic, then the true H5N1 case fatality must be far lower than the WHO figures suggest, more likely 1% or less [3] , meaning that fears about the consequences of an H5N1 pandemic are greatly lessened. But if the conclusions of Toner et al are correct, that most of the survey results are false positives, we arrive at an additional paradox. Given that many thousands, perhaps hundreds of thousands, of humans (or more) have now been exposed to H5N1 poultry outbreaks, why have so relatively few become infected, and almost none of those mildly ill? Are mild/asymptomatic cases being massively missed by both the medical systems and by serosurveys of tens of thousands of people, and is this happening while similar serosurveillance studies -and sometimes the very same studies -are detecting human antibody to other avian influenza outbreak viruses such as H9 viruses [13] [14] [15] [16] ? In short, in those indigenous areas with H5N1 poultry outbreaks to which large numbers of people are clearly exposed, we need to explain why during a 16year-period there have been 615 human infections, almost all of which are severe or fatal but nontransmissible to others, while simultaneously explaining the near absence of mild disease and immunologic evidence of infection in anyone, including thousands of poultry workers with intense H5N1 exposures of the type that lead to immune responses to other avian influenza viruses.",
+            "cite_spans": [
+                {
+                    "start": 497,
+                    "end": 500,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1254,
+                    "end": 1258,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1259,
+                    "end": 1263,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1264,
+                    "end": 1268,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1269,
+                    "end": 1273,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In thinking about this paradox, it may be helpful to look at additional epidemiologic and experimental studies. Data about household case clustering of H5N1 suggest that household coprimary cases are more likely to occur in blood relatives [17, 18] . This is consistent with the possibility that H5N1, poorly adapted to humans, is capable of infecting only those rare individuals with specific genetic susceptibilities, perhaps related to or analogous to the IFITM3 allele recently linked to severe influenza [19, 20] . Under this scenario, widespread human population exposure to H5N1 would not lead to much immunologic evidence of past infection because the virus would be too poorly adapted to humans to productively infect most individuals, or perhaps able to infect only in extremely high-dose exposure situations. WHO's 59% case-fatality rate could therefore be close to the truth for only a small subset of exposed persons who are susceptible to infection and disease, the rest of the large exposed population being insusceptible, leading to a very low effective \"exposed case\" fatality rate. If the confusing serosurveillance data can really be explained by such host susceptibility factors, it might suggest that H5N1 is less likely to emerge to cause a pandemic, and might also provide a mechanism to identify those at risk if it did emerge, as well as if it remains enzootic.",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 244,
+                    "text": "[17,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 245,
+                    "end": 248,
+                    "text": "18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 509,
+                    "end": 513,
+                    "text": "[19,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 514,
+                    "end": 517,
+                    "text": "20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Toner et al make a good case that in trying to understand H5 serosurveillance data, better methodologic control is desirable, including use of nonexposed comparison groups from the same locales. In addition, it may also be important to study highly exposed noncases identified at the time of index case identification, and potential host risk factors for infection, disease, and immune responses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "H5N1 influenza viruses: facts, not fear",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Proc Nat Acad Sci U S A",
+            "volume": "109",
+            "issn": "",
+            "pages": "2211--2214",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Mammaliantransmissible H5N1 influenza: facts and perspective",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Osterholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kelley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "mBio",
+            "volume": "3",
+            "issn": "",
+            "pages": "45--57",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Engineering H5N1 avian influenza viruses to study human adaptation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morens",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Subbarao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Taubenberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nature",
+            "volume": "486",
+            "issn": "",
+            "pages": "335--375",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Assessment of serosurveys for H5N1",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Toner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Adalja",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Nuzzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Inglesby",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Henderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Burke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Clin Infect Dis",
+            "volume": "56",
+            "issn": "",
+            "pages": "1206--1218",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Cumulative number of confirmed human cases of avian influenza A(H5N1) reported to WHO",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The persistent legacy of the 1918 influenza virus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morens",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Taubenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fauci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "N Engl J Med",
+            "volume": "361",
+            "issn": "",
+            "pages": "225--234",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "influenza: the mother of all pandemics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Taubenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morens",
+                    "suffix": ""
+                }
+            ],
+            "year": 1918,
+            "venue": "Emerg Infect Dis",
+            "volume": "12",
+            "issn": "",
+            "pages": "15--22",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Experimental adaptation of an influenza H5 HA confers respiratory droplet transmission to a reassortant H5 HA/H1N1 virus in ferrets",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hatta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nature",
+            "volume": "486",
+            "issn": "",
+            "pages": "420--428",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Airborne transmission of influenza A/H5N1 virus between ferrets",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Herfst",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schrauwen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Linster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Science",
+            "volume": "336",
+            "issn": "",
+            "pages": "1534--1575",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Identification of H5N1-specific T-cell responses in a high-risk cohort in Vietnam indicates the existence of potential asymptomatic infection",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Powell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fox",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Infect Dis",
+            "volume": "205",
+            "issn": "",
+            "pages": "20--27",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Antibody response in individuals infected with avian influenza A (H5N1) viruses and detection of anti-H5 antibody among household and social contacts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bridges",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J Infect Dis",
+            "volume": "180",
+            "issn": "",
+            "pages": "1763--70",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Serosurveillance study on transmission of H5N1 virus during a 2006 avian influenza epidemic",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ceyhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Yildirim",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ferraris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Epidemiol Infect",
+            "volume": "138",
+            "issn": "",
+            "pages": "1274--80",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Serological survey on antibodies to influenza A viruses subtype H1, H3, H5 and H9 of population in Shanghai",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Potential infections of H5N1 and H9N2 avian influenza do exist in Guangdong populations of China",
+            "authors": [
+                {
+                    "first": "C-Y",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-H",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W-Q",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "China Med J",
+            "volume": "121",
+            "issn": "",
+            "pages": "2050--2053",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Antibodies against HS and H9 avian influenza among poultry workers in China",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-X",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B-J",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "N Engl J Med",
+            "volume": "360",
+            "issn": "",
+            "pages": "2583--2587",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Risk perceptions for avian influenza virus infection among poultry workers",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "China. Emerg Infect Dis",
+            "volume": "19",
+            "issn": "",
+            "pages": "313--319",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Risk factors for cluster outbreaks of avian influenza A H5N1 infection",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Aditama",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Samaan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kusriastuti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Clin Infect Dis",
+            "volume": "53",
+            "issn": "",
+            "pages": "1237--1281",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Avian influenza H5N1 transmission in households, Indonesia",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Aditama",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Samaan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kusriastuti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "IFITM3 restricts the morbidity and mortality associated with influenza",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Everitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "Clare",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Pertel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nature",
+            "volume": "484",
+            "issn": "",
+            "pages": "519--544",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Interferoninduced transmembrane protein-3 genetic variant rs12252-C is associated with severe influenza in Chinese individuals",
+            "authors": [
+                {
+                    "first": "Y-H",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature Communications",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Acknowledgments. I thank Dr. Fred Murphy for insights and helpful comments about the possible meaning of H5N1 serologic data.Potential conflicts of interest. Author certifies no potential conflicts of interest.The author has submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

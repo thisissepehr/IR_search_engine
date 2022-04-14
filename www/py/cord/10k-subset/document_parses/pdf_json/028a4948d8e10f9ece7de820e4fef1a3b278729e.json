@@ -1,0 +1,188 @@
+{
+    "paper_id": "028a4948d8e10f9ece7de820e4fef1a3b278729e",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "To the Editor: We were very pleased to read Chen et al's commentary 1 presenting practical methods for reducing the spread of coronavirus disease 2019 in the dermatologic setting. Health care teams around the world are working diligently to limit the spread of COVID-19 despite unprecedented challenges. In this letter, we provide additional strategies and a potential framework for maintaining successful patient care while limiting risks for faculty, residents, staff, and the community during the COVID-19 outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "JAAD ONLINE: NOTES & COMMENTS Strategic dermatology clinical operations during the coronavirus disease 2019 (COVID-19) pandemic"
+        },
+        {
+            "text": "The first goal in the COVID-19 pandemic is to limit the spread of the virus. To prevent infection of an entire specialty group, departments should consider adopting a team-based practice model to limit cross-contamination. Each team consists of a ratio of providers based on the individual institution's workforce. For example, 1 team in our department consists of 1 attending physician, 2 resident physicians, 2 nurses or medical assistants, and 1 supportive staff member. Individuals are in the clinic only if their team is conducting inperson visits that day. They are not allowed to have in-person contact with members outside of their designated team. In the event that a team member is exposed to or tests positive for COVID-19, only individuals within their team are required to self-quarantine for 14 days and/or be subsequently tested. By using this approach, cross-contamination is limited; thus, the department can continue to operate and deliver in-person care despite COVID-19 exposure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "JAAD ONLINE: NOTES & COMMENTS Strategic dermatology clinical operations during the coronavirus disease 2019 (COVID-19) pandemic"
+        },
+        {
+            "text": "To continue effective patient care while limiting exposure, we have implemented a coded triaging system that allows us to prioritize and provide the appropriate care for each patient (Fig 1 and Table I) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 193,
+                    "text": "(Fig 1 and",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 194,
+                    "end": 202,
+                    "text": "Table I)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "JAAD ONLINE: NOTES & COMMENTS Strategic dermatology clinical operations during the coronavirus disease 2019 (COVID-19) pandemic"
+        },
+        {
+            "text": "A key step is to implement this model as early as possible in combination with teledermatology, as other practices have already suggested. 2,3 As depicted in the diagram, patients with high acuity, such as individuals with concerning lesions and potentially life-threatening eruptions, have priority for inperson visits. Simultaneously, continuity of care for existing patients can be achieved through teledermatology. With this system, patients can continue long-term management while decreasing the risk of exposure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "JAAD ONLINE: NOTES & COMMENTS Strategic dermatology clinical operations during the coronavirus disease 2019 (COVID-19) pandemic"
+        },
+        {
+            "text": "Because in-patient visits are unavoidable, Chen et al 1 detailed additional precautions that can be implemented to reduce COVID-19 spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "JAAD ONLINE: NOTES & COMMENTS Strategic dermatology clinical operations during the coronavirus disease 2019 (COVID-19) pandemic"
+        },
+        {
+            "text": "Recommendations included allowing only 1 accompanying person per patient, mask usage and temperature reading for people entering both inpatient and outpatient buildings, and the use of personal protective equipment (PPE) by team members working with patients with suspected or confirmed COVID-19. We agree with these recommendations, although PPE has been in short supply, restricting successful implementation. Alternatively, sterilization of PPE equipment can help mitigate this limitation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "JAAD ONLINE: NOTES & COMMENTS Strategic dermatology clinical operations during the coronavirus disease 2019 (COVID-19) pandemic"
+        },
+        {
+            "text": "The COVID-19 outbreak has been challenging, and the medical community has united together to halt the spread. As the COVID-19 outbreak continues to evolve, we hope to develop and implement procedures that limit the spread of COVID-19 while ensuring that optimal patient care is achieved in dermatology. Once again, we thank Chen et al 1 for their contribution to improving patient care and safety during this unprecedented time. Scientific; there were no incentives or transactions, financial or otherwise, relevant to this manuscript. Dr Curiel-Lewandrowski has served as an advisory board member and/or investigator and/or has received research funding from Amgen, Bristol-Myers Squibb, Helsinn, and Novartis; there were no incentives or transactions, financial or otherwise, relevant to this manuscript. Ms Price and Dr Thiede have no conflicts of interest to declare.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "JAAD ONLINE: NOTES & COMMENTS Strategic dermatology clinical operations during the coronavirus disease 2019 (COVID-19) pandemic"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "What are we doing in the dermatology outpatient department amidst the raging of the 2019 novel coronavirus?",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pradhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Am Acad Dermatol",
+            "volume": "82",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Virtually perfect? Telemedicine for Covid-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hollander",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Carr",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Telehealth for global emergencies: implications for coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Snoswell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Telemed Telecare",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaad.2020.03.089"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Color-coded scheme of triaging patient visits in dermatologic care during the coronavirus disease 2019 pandemic. MA, Medical assistant; RN, registered nurse. Created with Biorender.com. J AM ACAD DERMATOL n 2020 e1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The authors thank Dr Sancy Leachman and Dr Julie Bauman for their support and inspiration during the design and implementation of the proposed clinical model.Kyla N. Price, BS, a Rebecca Thiede, MD, b Vivian Y. Shi, MD, b and Clara Curiel-Lewandrowski, MD bFrom the University of Illinois Chicago, College of Medicine a ; and Division of Dermatology, Department of Medicine, University of Arizona, Tucson. b Funding sources: None. Disclosure: Dr Shi is a stock shareholder of Learn Health and has served as an advisory board member and/or investigator and/or has received research funding from Sanofi Genzyme, Regeneron, AbbVie, Eli Lilly, Novartis, SUN Pharma, LEO Pharma, Pfizer, Menlo Therapeutics, Burt's Bees, GpSkin, Altus Labs, and Skin Actives",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Visit types and associated visit categories RN/MA calls Path results information Laboratory tests e notification of normal/abnormal results RN/MA visit Isotretinoin refill (female urine test)* Nonurgent/reschedule 6-12 month follow-up without concerning lesions Lesion for monitoring in patient with no personal or family history of melanoma. Lesion stable per patient. Lesion of concern present \\ 4 weeks Acne vulgaris and rosacea (controlled) Seborrheic dermatitis Skin tag/seborrheic keratoses Lipoma/cyst Hair loss Irritating lesion Patch testing Cyst (not inflamed) BSA, Body surface area; MA, medical assistant; RN, registered nurse. *With associated provider phone call.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "IRB approval status: Not applicable.Reprints not available from the authors. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

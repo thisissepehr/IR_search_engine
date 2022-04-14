@@ -1,0 +1,233 @@
+{
+    "paper_id": "8111256ef395fdf678d4e5c4c4cade9f43b19886",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Euring",
+                "middle": [
+                    "Colin"
+                ],
+                "last": "Pritchard",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Edinburgh",
+                    "location": {
+                        "country": "UK"
+                    }
+                },
+                "email": "colin.pritchard@ed.ac.uk"
+            },
+            {
+                "first": "(",
+                "middle": [],
+                "last": "Ma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Edinburgh",
+                    "location": {
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Msc",
+                "middle": [],
+                "last": "Meng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Edinburgh",
+                    "location": {
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ceng",
+                "middle": [],
+                "last": "Ficheme",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Edinburgh",
+                    "location": {
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Congratulations! You have just opened what may come to be seen as a seminal publication from the Institution of Chemical Engineers (IChemE). Within these pages you will find research papers from the IChemE-published journals which relate in one way or another to our Climate Emergency. They cover a great deal of ground -from atmospheric CO 2 removal all the way to the carbon footprint of sandwiches; from the bioeconomy to flaring, CCS to ball milling! Research plays a vital role in leading to policy adoptionbut it is no substitute for policy formulation, adoption and implementation. So the editors hope that you will find in these pages issues on which you can take action to mitigate the drastic and dramatic consequences of our wholly unsustainable global activity -in energy use, resource extraction and processing, habitat destruction -which pose a real threat to the survival of civilisation on this planet. This must be the objective of our Institution's flagship 'sustainable development' which was championed by the UN in the Brundtland Report. So tackling climate change is not about simply doing the things we already do more efficiently, or meeting some concept of economic growth based on current measurement criteria: it requires a fundamental shift in approach, and we have to succeed in implementing dramatic change within a 30year time horizon. This has been eloquently put by Myles Allen (the physicist behind 'net zero'), in a radio 4 interview with Jim Al-Khalili (BBC)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "In the circumstances we each need to recognise:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "-there is NO semblance of a 'business as usual' solution to this dire emergency; and -there is NO 'planet B'",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "The UN Sustainable Development Goals (SDGs) (IPCC) expose the dichotomy between economic growth and the need to stay within ecological boundaries. Currently, global production and consumption levels are overshooting the planet's biocapacity by about 50% each year (Sustainable Development). In other words we have already grown beyond ecological limits, and growth is no longer an option on a global scale. This ecological overshoot is due almost entirely to overconsumption in rich countries (Giljum et al., 2014) . SDG 8 calls for improving 'global resource efficiency' and 'decoupling economic growth from environmental degradation'. However, global material extraction and consumption has doubled over the past 30 years (National Footprint Accounts, 2016), and has accelerated since 2000. Within my lifetime the world's population has trebled, and so has resource consumption per head. So a policy of 'sustainable production' is by itself simply unsustainable.",
+            "cite_spans": [
+                {
+                    "start": 493,
+                    "end": 514,
+                    "text": "(Giljum et al., 2014)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "2020 saw the hottest January on record over the world's land and ocean surfaces, with average temperatures exceeding anything in the 141 years' data held by the National Oceanic and Atmospheric Administration. The world's governments agreed in 2015 to keep the global temperature increase to well below 2 degrees compared with the pre-industrial era, in order to stave off disastrous flooding, food insecurity, heatwaves and mass displacement of people. Yet these effects are already being felt when the global rise is still 'only' 1.3 degrees.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "Mark Carney, former governor of the Bank of England and now the UN Special Envoy for Climate Action and Finance, has declared that companies and industries that are not moving towards zero-carbon emissions will be punished by investors and go bankrupt (Bank of England). Up to $20tn (\u00a316tn) of assets could be stranded and wiped out if the climate emergency is not addressed effectively. But he also noted that great fortunes could be made by those working to end greenhouse gas emissions -with a big potential upside for the UK economy in particular. He also warned that the global transition required to tackle the climate crisis could result in an abrupt financial collapse: the longer that action to reverse emissions is delayed, the more the risk of collapse will grow. Most significantly, he told those who question the consensus on climate change: \"We can't afford on this one to have selective information, spin, misdirection. . . It needs to be absolutely clear because we are all in on it.\" (Mark Carney).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "And Christine Lagarde, president of the European Central Bank, has thrown her weight behind calls for companies to provide much fuller disclosure of their exposure to climate change risks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "Nevertheless despite the ravages of Covid-19, planetoverheating emissions from human activity are not showing any sign of lasting decline, let alone the deep cuts needed to meet the 2 degree goal and to address the climate crisis. According to climate scientists, the world must halve its emissions by 2030 to stand any chance of avoiding disastrous climate breakdown. Yet there are indications of an acceleration in warming -partly as a result of the albedo effect: the reduction in the surface reflectivity as a result of shrinkage of snow cover in the Arctic; and partly as a result of thawing of the Arctic tundra, leading to the evolution of vast quantities of methane gas. If we add to these the calving of huge icesheets from the Thwaites glacier and the Antarctic continent, then the rise in sea level -affecting and displacing possibly as much as 40% of the (growing) global population -appears inevitable and indeed imminent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "The structure of decision-making in the 21st-century world makes reaching this objective of a 2 degree limit appear exceedingly unlikely. Many leaders of nations and of large and influential fossil-fuel-using companies -chemical engineers among them -see exploitation of the virtually unlimited appetite for energy, iron & steel, cement and petrochemical products, as the route to their continuing prosperity. But the consequences of this piracy are most severe for the poorest, who have done least to create the current levels of climate, environment and habitat damage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "Faced with this greatest ever challenge to the very survival of homo sapiens, what should Chemical Engineers do? True the issues are hugely complex, politically sensitive, societally sensitive -and yet still disputed by some fossil fuel companies who believe that their survival rests on exploiting 'fossil money'. So the issues are by no means wholly technical; nor can technical 'solutions' preserve any kind of status quo.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "The Guardian of 22nd February reported that JP Morgan, the world's largest financier of fossil fuels has warned clients that the climate crisis threatens the survival of humanity, and that the planet is on an unsustainable trajectory. Their report on the economic risks of human-caused global overheating says that climate policy has to change, or else the world faces irreversible consequences. It highlights the growing concern among Wall Street institutions about the financial and reputational risks of continued funding of carbon-intensive industries such as oil and gas. And they \"cannot rule out catastrophic outcomes where human life as we know it is threatened\". (Yet this comes from a company that, since the Paris agreement, has provided \u00a361 billion in financial services to the companies that are most aggressively expanding sectors such as fracking and Arctic oil and gas exploration).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "Drawing on forecasts by the IMF and the UN's IPPC, the JP Morgan report notes that global heating is on course to hit 3.5 \u2022 above pre-industrial levels by the end of this century; and that most current estimates of the likely economic and health costs are far too small because they fail to account for the loss of wealth, the discount rate and the possibility of increased natural disasters. The report acknowledges a massive global market failure: producers and consumers of CO 2 emissions do not pay for the climate damage that results. It highlights the need for a global carbon tax to reverse this damage; but is cautious that this is \"not going to happen any time soon\" because of concerns about jobs and competitiveness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "The great variety of papers here, the diligence and perceptiveness of the researchers, their passion for facing difficult issues head on, should give us much confidence in the Chemical Engineering community's response to this greatest issue ever faced by humankind. The thread running through all these articles is the same: the science is inescapable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        },
+        {
+            "text": "So what should you be taking from this broad spread of research? What should Chemical Engineers be doing? -to ensure that there is still a world, and society, for our children and grandchildren to enjoy, and to give an answer to their deep-seated question: \"What did you do during this crucial time?\" because \"I (for one) will not be silenced when the world is on fire\" (Greta Thunberg).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IChemE Special Issue on Climate Change"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "England Chief Mark Carney Issues Climate Change Warning",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Global Patterns of Material Flows and Their Socio-Economic and Environmental Implications, Resources",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Giljum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Global Warming of 1.5 \u2022 C",
+            "authors": [],
+            "year": 2018,
+            "venue": "Greta Thunberg at the Glasgow March, Personal Report. IPCC Report",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Firms Ignoring Climate Crisis Will Go Bankrupt, Says Mark Carney",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Global Footprint Network",
+            "authors": [],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "The editorial was written independently by Dr. Colin Pritchard.Paper selection for this special issue was made by: Chemical Engineering Research and Design -Dr. Jerry Heng (Deputy Editor-in-Chief).Food and Bioproducts Processing -Professor Nik Willoughby (Editor).Process Safety and Environmental Protection -Professor Adisa Azapagic (Editor-in-Chief -Environment).South African Journal of Chemical Engineering -Professor Milan Carsky (Editor-in-Chief).Sustainable Production and Consumption -Professor Adisa Azapagic (Editor-in-Chief).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

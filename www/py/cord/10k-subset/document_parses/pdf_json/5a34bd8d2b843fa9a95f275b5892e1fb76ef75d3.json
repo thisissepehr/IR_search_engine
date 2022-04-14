@@ -1,0 +1,458 @@
+{
+    "paper_id": "5a34bd8d2b843fa9a95f275b5892e1fb76ef75d3",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Reecha",
+                "middle": [],
+                "last": "Sofat",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University College London",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": "r.sofat@ucl.ac.uk"
+            },
+            {
+                "first": "Serge",
+                "middle": [],
+                "last": "Cremers",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Columbia University Irving Medical Center",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "New York",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "R",
+                "middle": [
+                    "E"
+                ],
+                "last": "Ferner",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Birmingham",
+                    "location": {
+                        "settlement": "Birmingham",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Drug and therapeutics committees as guardians of safe and rational medicines use 1 | INTRODUCTION The Royal College of Physicians published the Pharmacopoeia Londinensis, \"the first standard list of medicines and their ingredients in England\", in 1618. It had been more than 30 years in the making. Catalogues of available medicines and their composition have gradually evolved. The British National War Formulary, a \"selection of medicaments sufficient in range to meet ordinary requirements of therapeutics\" was in this mould, but the new-style British National Formulary (BNF), first published in 1981, contains in addition essential information on the indications, contraindications, cautions, dosage, and drug interactions of almost all licensed medicines used in general practice, and most drugs used in hospitals. The Medicines Act 1968 and its European successors demand that marketing authorizations (\"licences\") are only issued if medicines fulfil three criteria-quality of manufacture, efficacy in the licensed indication, and reasonable safety. These are not, however, sufficient to ensure safe, rational, and cost-effective therapeutic choices. There are several reasons for this. 2 | PROBLEMS 2.1 | Multiplicity of medicines There is a multiplicity of agents with similar or identical therapeutic properties. The current BNF lists 14 beta-blockers licensed for treatment of arterial hypertension: 10 angiotensin-converting-enzyme inhibitors; eight angiotensin-2 antagonists, eight calcium antagonists, and five diuretics; and at least 25 preparations combining two or more anti-hypertensives. The mere existence of so many alternatives means that patient safety is compromised by the potential for confusion among and between drugs of the same class but with different properties or dosage. There are also financial consequences, because some drugs may be more costly than others and because the need to keep several very similar drugs in stock carries costs both in acquisition (and wastage) and in space for storage. Thus, choosing to limit the local availability of drugs with similar actions should make patients safer and should reduce costs. \u00a9 2019 The British Pharmacological Society Br J Clin Pharmacol. 2019;86:10-12.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "R.S. chairs and R.E.F. has chaired drug and therapeutics committees;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "both have sat on other committees related to the safe, rational, and cost-effective use of medicines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Secondly, the BNF gives information on guidance from the National Institute for Health and Care Excellence (NICE), but only after the guidance has been formulated. This can take months or years from the time a medicine is licensed. 1 Yet, and for clear reasons, pharmaceutical companies are likely to encourage early adoption of novel agents. This explains in part, for example, the very large numbers of patients exposed to rofecoxib (Vioxx) in the 5 years from licensing to withdrawal. 2 ",
+            "cite_spans": [
+                {
+                    "start": 488,
+                    "end": 489,
+                    "text": "2",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Safety and cost-effectiveness of new medicines"
+        },
+        {
+            "text": "The time has passed when every practitioner was free to practice medicine in whatever way he or she chose. Some unlicensed or offlabel prescribing is supported by strong evidence of efficacy or at least by wide adoption. Someone, though, has to sanction the use of medicines outside their licensed indications. For paediatric practice, the BNF for Children (BNF-C) covers much of the likely unlicensed prescribing, from acetazolamide (\"Not licensed for the treatment of glaucoma\") to zolmitriptan (\"not licensed for use in children\"). For off-label or unlicensed use of medicines outside the recommendations of BNF and BNF-C, health care organizations and practitioners are at risk unless the reasons for use are logical and the appropriate safeguards are in place.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| New or non-standard treatments"
+        },
+        {
+            "text": "Pharmaceutical companies owe a duty to their shareholders to make profits. They do this by selling medicines that are already licensed and by undertaking research on novel drugs. It is uncertain whether companies spend more on research than on marketing. 3 It is clear that substantial sums are spent on marketing: $17 700m on medical marketing in 1997, which rose to $20 900m in 2016. 4 Marketing is not always constrained by ethics or self-regulation: between 2003 and 2012, there were 74 cases of off-label promotion in the United Kingdom, and 43 companies were ruled in breach of the relevant regulation at least once. 5 It is also clear that prescribers are influenced by such marketing. A study in the United States found that \"Gifts from DOI: 10.1111/bcp.14088 wileyonlinelibrary.com/journal/bcp pharmaceutical companies are associated with more prescriptions per patient, more costly prescriptions, and a higher proportion of branded prescriptions with variation across specialties. Gifts of any size had an effect and larger gifts elicited a larger impact on prescribing behaviors.\" 6",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 256,
+                    "text": "3",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 386,
+                    "end": 387,
+                    "text": "4",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 623,
+                    "end": 624,
+                    "text": "5",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| The influence of the pharmaceutical industry"
+        },
+        {
+            "text": "The favoured solution to the problems outlined above is to control prescribing in the local environment through a committee, variously called a medicines committee, a drug and therapeutics committee, a prescribing and medicines committee, or something similar. The committee's role may vary from one health care organization to another.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| POTENTIAL SOLUTIONS"
+        },
+        {
+            "text": "Briefly, the committee would concern itself with the rules and regulations governing the use of drugs in its organization, publish a list of permitted medicines based on efficacy, safety, tolerability and cost, consider any restrictions on their use, and supervise the addition and removal of medicines from the list. [7] [8] [9] When it comes to new or off-label medicines, the committee can help protect patients from poorly founded claims for new medicines, and the organization from the financial burden of a medicine with only marginal benefits but substantially higher costs. An additional task is to guide the judicious use of drugs locally through extensions to the committee's main roles, for example, through antibiotic stewardship, management of demand for intravenous immunoglobulin, and oversight of the switch from originators to biosimilars.",
+            "cite_spans": [
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 322,
+                    "end": 325,
+                    "text": "[8]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 326,
+                    "end": 329,
+                    "text": "[9]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| POTENTIAL SOLUTIONS"
+        },
+        {
+            "text": "The role of formulary committees is evolving. Bodies such as NICE in the United Kingdom now evaluate the evidence for new treatments and make judgements of cost-effectiveness at a national level. NICE guidelines influence, and its Technology Appraisals mandate, the adoption of recommended treatments in both primary and secondary health care. This relieves local committees of the duty to judge medicines considered in a Technology Appraisal. Regional Medicines Optimisation Committees (RMOC), established in England and Wales in 2017, 10 aim to provide a single strategic medicines optimization system for England, taking on many of the tasks that currently fall to local formulary committees; this aim has not yet been realized, although the process is still in evolution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| THE FUTURE OF FORMULARY COMMITTEES"
+        },
+        {
+            "text": "Local committees have adapted to these changes but continue to face their own substantial challenges. The Early Access to Medicines evidence of efficacy is often lacking, yet access to a medicine can falsely raise expectations; secondly, data on outcomes are not systematically collected, so that information that would help to assess the true value of a drug is lost; and thirdly, the cost of giving early access and potential market share to some drugs is recouped by the pharmaceutical industry after the drug is licensed and the NHS pays the cost.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| THE FUTURE OF FORMULARY COMMITTEES"
+        },
+        {
+            "text": "High-cost drugs with little or no evidence on safety or efficacy pose similar problems. Individual funding requests made to NHS authorities for exceptional patients who do not fit into a standard evidence-based cohort are often denied. Trials on such small groups of individuals will not be possible, but grouped in an observational setting, large treatment effects can inform clinical decisions, and if data are appropriately harnessed with ethical approval, they can also begin to inform the biology of rare and refractory diseases. Formulary committees with an allied research arm could then have an enhanced datagathering role embedded into routine care, working effectively as an NHS network for both drug discovery and repurposing, with shorter implementation times.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| THE FUTURE OF FORMULARY COMMITTEES"
+        },
+        {
+            "text": "The role of the drug and therapeutics committee continues to evolve. Now NICE has been established for 20 years, the committee has been largely relieved of the burden of making complex assessments of the effectiveness and cost-effectiveness of newly licensed drugs; regional medicines optimization committees may also remove some of the decisions from local committees. However, there are continued and evolving challenges to ensuring the safe, effective, and cost-effective use of medicines within a single health care facility, and the drug and therapeutics committee needs to continue and to evolve to meet them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| THE FUTURE OF FORMULARY COMMITTEES"
+        },
+        {
+            "text": "Clinical pharmacologists have specific knowledge and skills to guide rational therapeutics and improve patient care. As a result, they commonly participate in committees responsible for overseeing the use of medicines in health care organizations, often called drugs and therapeutics committees (DTCs) in the United Kingdom and pharmacy and therapeutics committees in the United States.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| A NEW BJCP SERIES ON DRUGS AND THERAPEUTICS COMMITTEES"
+        },
+        {
+            "text": "This editorial describes some important aspects of DTCs and how a changing landscape creates both challenges and opportunities. It introduces a BJCP series called \"Drugs and Therapeutics Committees\" to allow clinical pharmacologists and those participating in DTCs to share data and practices on how best to contribute to DTCs and to adapt to the changing landscape.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| A NEW BJCP SERIES ON DRUGS AND THERAPEUTICS COMMITTEES"
+        },
+        {
+            "text": "We encourage contributions from all over the globe so that we can learn and share good practice. We hope to publish articles on topics such as the management of high-cost drugs and how this is applied to individual funding requests; how DTCs manage off-label use of drugs; the relationship between the DTC and the pharmaceutical industry; and how to manage n-of-1 studies. The first contribution to the series describes an approach to the successful introduction of biosimilars.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| A NEW BJCP SERIES ON DRUGS AND THERAPEUTICS COMMITTEES"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Merck withdraws arthritis drug worldwide",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "BMJ",
+            "volume": "329",
+            "issn": "7470",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.329.7470.816-a"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Pharmaceutical company spending on research and development and promotion in Canada",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lexchin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Pharm Policy Pract",
+            "volume": "11",
+            "issn": "1",
+            "pages": "2013--2016",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s40545-018-0132-3"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Pharmaceutical industry off-label promotion and self-regulation: a document analysis of off-label promotion rulings by the United Kingdom prescription medicines code of practice authority 2003-2012",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vilhelmsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mulinari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Lexchin J",
+            "volume": "13",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1001945"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Influence of pharmaceutical marketing on Medicare prescriptions in the District of Columbia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Podrasky",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcmonagle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Bochenek T",
+            "volume": "12",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0186060"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Medical Marketing in the United States",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Woloshin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "JAMA",
+            "volume": "321",
+            "issn": "1",
+            "pages": "80--96",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2018.19320"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The hospital formulary system-1965. l. Pharmacy and therapeutics committee, consent and the hospital formulary",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lamy",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Flack",
+                    "suffix": ""
+                }
+            ],
+            "year": 1966,
+            "venue": "Am J Hosp Pharm",
+            "volume": "23",
+            "issn": "12",
+            "pages": "662--672",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ajhp/23.12.662"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Local formularies",
+            "authors": [
+                {
+                    "first": "Djm",
+                    "middle": [],
+                    "last": "Reynolds",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Fajemisin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wilds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Br J Clin Pharmacol",
+            "volume": "74",
+            "issn": "4",
+            "pages": "640--643",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2125.2012.04269.x"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The roles of clinical pharmacologists in formulating medicines policy locally",
+            "authors": [
+                {
+                    "first": "Djm",
+                    "middle": [],
+                    "last": "Reynolds",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cis",
+                    "middle": [],
+                    "last": "Barker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Br J Clin Pharmacol",
+            "volume": "73",
+            "issn": "6",
+            "pages": "931--933",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2125.2012.04240.x"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Schemes (EAMS) introduced by the UK Medicines andHealthcare products Regulatory Agency (MHRA) aims to give patients with lifethreatening or seriously debilitating conditions access to medicines that do not yet have a marketing authorization. Free of charge (FOC) schemes organized directly by the pharmaceutical industry operate in a similar manner. Such schemes raise difficult problems: first, robust",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We are very grateful to our colleagues past and present who have contributed to our understanding of the work of the drug and therapeutics committee. R.S. is funded by the UCLH National Institute of Health Research Biomedical Research Centre.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGEMENTS"
+        },
+        {
+            "text": "We welcome the submission of original studies or reviews, related to DTCs as part of the series.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

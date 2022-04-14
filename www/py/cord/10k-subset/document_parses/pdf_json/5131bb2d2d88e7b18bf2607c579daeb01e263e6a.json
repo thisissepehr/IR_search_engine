@@ -1,0 +1,1400 @@
+{
+    "paper_id": "5131bb2d2d88e7b18bf2607c579daeb01e263e6a",
+    "metadata": {
+        "title": "Safety, Reactogenicity, and Immunogenicity of Inactivated Monovalent Influenza A(H5N1) Virus Vaccine Administered With or Without AS03 Adjuvant",
+        "authors": [
+            {
+                "first": "Wilbur",
+                "middle": [
+                    "H"
+                ],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Maryland School of Medicine",
+                    "location": {
+                        "settlement": "Baltimore"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lisa",
+                "middle": [
+                    "A"
+                ],
+                "last": "Jackson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Group Health Research Institute",
+                    "location": {
+                        "settlement": "Seattle, Washington"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kathryn",
+                "middle": [
+                    "M"
+                ],
+                "last": "Edwards",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vanderbilt University School of Medicine",
+                    "location": {
+                        "settlement": "Nashville",
+                        "region": "Tennessee"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wendy",
+                "middle": [
+                    "A"
+                ],
+                "last": "Keitel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baylor College of Medicine",
+                    "location": {
+                        "settlement": "Houston",
+                        "region": "Texas"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Heather",
+                "middle": [],
+                "last": "Hill",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "EMMES Corporation",
+                    "location": {
+                        "settlement": "Rockville",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Diana",
+                "middle": [
+                    "L"
+                ],
+                "last": "Noah",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Research",
+                    "location": {
+                        "settlement": "Birmingham",
+                        "region": "Alabama"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [
+                    "Buddy"
+                ],
+                "last": "Creech",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vanderbilt University School of Medicine",
+                    "location": {
+                        "settlement": "Nashville",
+                        "region": "Tennessee"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shital",
+                "middle": [
+                    "M"
+                ],
+                "last": "Patel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baylor College of Medicine",
+                    "location": {
+                        "settlement": "Houston",
+                        "region": "Texas"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Brian",
+                "middle": [],
+                "last": "Mangal",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "EMMES Corporation",
+                    "location": {
+                        "settlement": "Rockville",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Karen",
+                "middle": [
+                    "L"
+                ],
+                "last": "Kotloff",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Maryland School of Medicine",
+                    "location": {
+                        "settlement": "Baltimore"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background. The national stockpile for influenza pandemic preparedness includes vaccines against an array of strains and adjuvants that could be utilized to induce immunologic priming as a pandemic wave emerges. We assessed the feasibility of a strategy that allows the flexibility of postmanufacture mixture of vaccine and adjuvant at the point of care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods. We conducted a randomized, double-blind, multicenter trial among healthy adults aged 18-49 years who received 2 doses of inactivated influenza A/Indonesia/05/2005 (H5N1 clade 2.2.3) virus vaccine containing either 3.75, 7.5, or 15 \u00b5g of hemagglutinin (HA) with or without AS03 adjuvant, administered 21 days apart. Subjects were observed for local (injection site) and systemic reactogenicity and adverse events. Sera were tested for hemagglutination inhibition (HAI) and microneutralization (MN) antibody levels against the homologous strain and 4 heterologous avian strains.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results. Vaccine containing ASO3 adjuvant was associated with significantly more local reactions compared with nonadjuvanted vaccine, but these were short-lived and resolved spontaneously. Although the immune response to nonadjuvanted vaccine was poor, 2 doses of AS03-adjuvanted vaccine containing as little as 3.75 \u00b5g of HA elicited robust immune responses resulting in seroprotective titers (\u22651:40) to the homologous strain in \u226586% of subjects by HAI and in 95% of subjects by MN. Cross-clade antibody responses were also observed with AS03-adjuvanted vaccine, but not nonadjuvanted vaccine.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusions. AS03 adjuvant formulated with inactivated vaccine at the administration site significantly enhanced the immune responses to H5N1 vaccine and has the potential to markedly improve vaccine responses and accelerate delivery during an influenza pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Clinical Trials Registration. NCT01317758.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Influenza pandemics have occurred 4 times during the past 100 years, repeatedly demonstrating an ability to cause excess mortality, morbidity, and varying degrees of social and economic disruption. The threat of a new pandemic persists as novel avian influenza A strains continue to emerge with the ability to induce high mortality (but, to date, limited transmissibility) in humans. These antigenically distinct influenza viruses are categorized, based on phylogenetic characterization and sequence homology of the hemagglutinin (HA) gene, into clades. In the United States, a key component of pandemic preparedness is the National Prepandemic Influenza Vaccine Stockpile [1] , which currently contains 4 H5N1 avian influenza strain vaccines ( 1/2005) . The rationale behind the stockpile is that a vaccine made from pre-pandemic subtype virus would provide partial cross-protection through immunologic priming [2] , thereby benefiting first responders and other high-risk or priority groups before a better-matched vaccine against the pandemic strain becomes available. Because vaccines comprising H5N1 and other avian pandemic strains have had poor immunogenicity in unprimed populations [3, 4] , 2 immune-enhancing adjuvants have been included in the stockpile (AS03 and MF59). The AS03 adjuvant is a proprietary oil-inwater emulsion product, manufactured by GlaxoSmithKline, which has been in advanced clinical development for use with a number of seasonal, 2009 pandemic A(H1N1), and pandemicpotential avian influenza (eg, H5N1 and H7N9) virus vaccines. Nonetheless, the optimal strategy for use of pandemic vaccine with adjuvants is incompletely elucidated.",
+            "cite_spans": [
+                {
+                    "start": 673,
+                    "end": 676,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 743,
+                    "end": 744,
+                    "text": "(",
+                    "ref_id": null
+                },
+                {
+                    "start": 745,
+                    "end": 752,
+                    "text": "1/2005)",
+                    "ref_id": null
+                },
+                {
+                    "start": 912,
+                    "end": 915,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1191,
+                    "end": 1194,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1195,
+                    "end": 1197,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Given the urgent time frame for vaccine development once an influenza pandemic is declared, it is likely that several manufacturers would be tasked to produce both vaccines and adjuvants sufficient to protect the global population. Maximum flexibility could be realized by pairing vaccines and adjuvants postmanufacture. To assess the feasibility of this approach, we evaluated the safety and immunogenicity of an inactivated influenza A(H5N1) virus vaccine administered alone or in combination with AS03 adjuvant, formulated at the point of care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The investigational subvirion inactivated monovalent vaccine was manufactured by Sanofi Pasteur from clade 2.1.3 influenza A(H5N1) (A/Indonesia/05/2005) PR8-IBCDC-RG2 virus, and provided in multidose vials containing either 20 \u00b5g/mL or 60 \u00b5g/mL HA, as determined by single radial immunodiffusion. Sterile phosphate-buffered saline, provided in single-use vials, was used as diluent. AS03 adjuvant, manufactured by GlaxoS-mithKline Biologicals, is a proprietary oil-in-water emulsion containing DL-\u03b1-tocopherol, squalene, and Tween 80 in 10dose vials. The US Department of Health and Human Services (HHS) Biomedical Advanced Research and Development Authority (BARDA) provided the vaccine and adjuvant from the National Prepandemic Influenza Vaccine Stockpile. All doses of vaccine with or without adjuvant were mixed just prior to administration in the investigational pharmacy at each site.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Vaccine"
+        },
+        {
+            "text": "Subjects were enrolled at 4 National Institute of Allergy and Infectious Diseases (NIAID)-sponsored Vaccine and Treatment Evaluation Units from May through August 2011 (University of Maryland School of Medicine, Group Health Research Institute, Vanderbilt University, and Baylor College of Medicine). The study was approved by the institutional review boards for each clinical site and conducted in accordance with the ethical standards of the Helsinki Declaration. Written informed consent was obtained from all participants prior to enrollment. Eligible persons were healthy men and nonpregnant women aged 18-49 years who were screened for the absence of chronic illnesses and had an erythrocyte sedimentation rate <30 mm/ hour. (Enrollment criteria are described in NCT01317758 and the Supplementary Material.) Subjects were randomized 2:1 to receive either adjuvanted or unadjuvanted vaccine, then randomized into 1 of 3 groups (1:1:1) to receive 2 intramuscular doses of vaccine, spaced 21 days apart, at 3.75, 7.5, or 15 \u00b5g of HA. Dilution of vaccine and mixture with adjuvant, when indicated, was performed by an unblinded pharmacist and administered by an unblinded vaccinator, neither of whom were involved in clinical evaluations. Subjects were observed for 20 minutes after each vaccination to detect adverse events (AEs). For the next 8 days, they recorded a daily oral temperature and the occurrence of injection site (pain, tenderness, erythema, and induration) and systemic reactions (feverishness, chills, arthralgia, myalgia, headache, and nausea). Interim AEs were collected 2 days after each vaccination by telephone and on days 8, 29, and 42 at the clinic. On days 81, 141, 201, and 386, subjects were interviewed to capture serious AEs (SAEs) and new-onset chronic medical conditions. Clinical safety hematology and chemistry laboratory values were collected before and 8 days after each vaccination. Subjects graded the severity of their symptoms as mild (no interference with normal activities), moderate (some interference with normal activities), or severe ( prevented normal activities). Clinical signs and abnormal laboratory values were graded using predefined criteria. Serum was collected on days 0 ( prevaccination), 8, 21 (before second vaccination), 29, and 42 for assessment of hemagglutination inhibition (HAI) and microneutralization (MN) antibody responses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Design"
+        },
+        {
+            "text": "In additional to the conventional HAI assay, the MN assay was also performed because it is a functional antibody assay and because there is no correlate of protection for avian influenza viruses. The HAI and MN responses were measured at a central laboratory (Southern Research, Birmingham, Alabama) as previously described [5, 6] ). Serum samples were tested in duplicate, and the initial dilution of the series was 1:10 [5] .",
+            "cite_spans": [
+                {
+                    "start": 324,
+                    "end": 327,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 328,
+                    "end": 330,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 422,
+                    "end": 425,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Laboratory Assays"
+        },
+        {
+            "text": "Primary safety endpoints were solicited: local (injection site) and systemic reactions for 8 days after each vaccination, clinical laboratory parameters, AEs, and vaccine-associated SAEs from the first vaccination through 13 months of follow-up. The primary immunological endpoints were the geometric mean titers (GMTs) of HAI antibody, the proportion of subjects achieving an HAI titer of \u22651:40 (seroprotective titer), and the frequency of \u22654-fold increases in HAI antibody (seroconversion) to A/Indonesia/05/2005 in each group 21 days after receipt of the second vaccination (day 42). Secondary immunological endpoints included the MN responses to these 3 parameters. Exploratory immunological endpoints included the HAI and MN responses (to these same parameters) to the 4 heterologous H5N1 strains.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "AEs were analyzed using the most severe grade assigned, dichotomizing into a binary variable (none vs mild or moderate or severe). Comparisons between groups were made using Fisher exact test, and estimates of group differences are reported using odds ratios and 95% confidence intervals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "For immunological endpoints, GMTs were analyzed on a logarithmic scale, with 95% confidence interval calculated using the normal approximation, and then converted back to the original scale. General linear models with adjuvant as a fixed effect, dose as a continuous variable, and the interaction of the 2, were fit to the log-transformed titer data to examine the dose response for both HAI and MN. Models were fit separately for day 42 and day 21. Separate logistic regression models were used to examine the dose-response relationship at day 42 and day 21 for the seroprotection and seroconversion endpoints. All reported P values are 2-sided.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "Statistical analyses were conducted using SAS (version 9.2). The safety analysis includes all participants who received a dose of vaccine and provided safety data. The immunogenicity sample following each dose of vaccine included all eligible subjects who received that dose and provided serum samples before and after that dose within the designated time windows.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "A total of 245 subjects were enrolled and received the first dose of vaccine; 225 received dose 2 and completed the protocol, whereas 17 subjects were lost to follow-up and 3 subjects voluntarily withdrew. Most subjects were male (56%), non-Hispanic (94%), and white (71%). Ethnicity, race, and sex did not vary significantly across vaccine groups. The mean age was 30. 8 years (range, 18-49 years; Supplementary Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 413,
+                    "end": 421,
+                    "text": "Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Participants"
+        },
+        {
+            "text": "All 245 study subjects (100%) provided safety data. The frequency of local (injection site) and systemic reactions after dose 1 was 77% and 42%, respectively, and after dose 2 was 41% and 68%, respectively (Figure 1 ). Both local and systemic reactions were more common following adjuvanted vaccine than following nonadjuvanted vaccine. Although severe grade reactions were rare, 15 of the 16 subjects who reported them received adjuvant vaccine. Malaise and headache were the most common systemic reactions, and tenderness and pain were the most common injection site reactions. All reactions were self-limited and resolved within several days.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 206,
+                    "end": 215,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Safety Analysis"
+        },
+        {
+            "text": "A total of 210 unsolicited AEs were reported by 133 subjects (54.3%); 47% occurred within 7 days of either dose and 97% were graded as mild or moderate. Three severe AEs were considered possibly vaccine-related: esophagitis 1 day after dose 2 (3.75 \u00b5g + AS03), neck pain the same day as dose 1 (7.5 \u00b5g + AS03), and abdominal pain 1 day after dose 1 (7.5 \u00b5g + AS03). There were 12 new-onset medical conditions during the study; all were deemed unrelated to vaccine and none were considered severe.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Safety Analysis"
+        },
+        {
+            "text": "There were no SAEs deemed to be vaccine-related, no deaths, and no AEs of special interest (see Supplementary Material). Clinical laboratory results did not indicate any safety signals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Safety Analysis"
+        },
+        {
+            "text": "Both the HAI and MN GMTs following receipt of 2 doses of nonadjuvanted vaccine were low for all 3 HA dosages, but AS03-adjuvanted vaccine at all doses induced robust HAI and MN GMTs (Figure 2 ). At day 42, HAI GMTs among the AS03adjuvanted group were similar between the 7.5-\u00b5g and 15-\u00b5g groups, but were approximately 50% lower in the 3.75-\u00b5g group (Figure 2 ). At day 21, HAI GMTs among the AS03adjuvanted group were similar across all 3 dose groups ( Figure 2 ). The MN titers within the AS03-adjuvanted group increased with increasing dose at both day 21 and day 42 ( Figure 2 ). There appeared to be good correlation between the HAI and MN assays for the A/Indonesia/05/2005 strain (P = .8747, Pearson correlation coefficient).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 182,
+                    "end": 191,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 350,
+                    "end": 359,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 454,
+                    "end": 462,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 572,
+                    "end": 580,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Vaccine Immunogenicity"
+        },
+        {
+            "text": "Following 2 doses (day 42), HAI titers of \u22651:40 were observed in \u226410% of subjects who received nonadjuvanted vaccine compared with 86%, 100%, and 95% of subjects who received AS03 adjuvant (3.75 \u00b5g, 7.5 \u00b5g, and 15 \u00b5g of HA, respectively; Supplementary Table 2 ). Following a single dose (day 21) of AS03-adjuvanted vaccine, HAI titers of \u22651:40 were observed in 30%, 34%, and 40% of subjects (3.75 \u00b5g, 7.5 \u00b5g, or 15 \u00b5g of HA, respectively; Supplementary Table 2) . Four-fold increases in HAI responses were similar in frequency to the \u22651:40 results. Results for seroprotection and seroconversion for the MN assay were similar to the HAI assay (Supplementary Table 2 ). For both the MN and HAI assays, seroprotection and seroconversion responses within the AS03-adjuvanted group were similar across all 3 dose groups (Supplementary Table 2 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 252,
+                    "end": 259,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 453,
+                    "end": 461,
+                    "text": "Table 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 657,
+                    "end": 664,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 830,
+                    "end": 837,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Vaccine Immunogenicity"
+        },
+        {
+            "text": "In previous reports, a subvirion inactivated A/Vietnam (H5N1) and a recombinant baculovirus-expressed recombinant H5 HA vaccine both required 2 doses of up to 90 \u00b5g, spaced 28 days apart, to elicit antibody responses in only 50%-57% of young healthy adult subjects [3, 4] . This is approximately 12 times the dose of each HA antigen contained in seasonal influenza vaccines and would have limited utility in a pandemic setting where vaccine quantities are limited and mass vaccination of large populations is required. Aluminum salt-based adjuvants combined with H5 vaccines afforded little if any enhancement of the immune response [7] [8] [9] . These disappointing results prompted a search for novel adjuvants and delivery systems. A major advance was the finding that 2 doses of an H5N1 influenza vaccine containing AS03 with as little as 3.8 \u00b5g of HA antigen elicited HAI antibody responses \u22651:40 to a homologous A/Vietnam/1194/2004 [10] clade 1 virus and an A/Indonesia/ 05/2005 clade 2.1 virus [11] in at least 80% of adults. Nonetheless, questions remain about the ability to provide sufficient amounts of adjuvanted vaccine in a timely fashion to protect the global population against an emerging influenza pandemic.",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 268,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 269,
+                    "end": 271,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 633,
+                    "end": 636,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 637,
+                    "end": 640,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 641,
+                    "end": 644,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 938,
+                    "end": 942,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1001,
+                    "end": 1005,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "To this end, US HHS BARDA contracted with vaccine and adjuvant manufacturers to ensure the production of at least 150 million doses of a pandemic influenza vaccine. Furthermore, companies provided their proprietary adjuvants for government-sponsored, independent evaluations with influenza vaccines from other manufacturers [12] . This strategy was intended to provide proprietary adjuvants quickly and for use in combination with pandemic antigens produced by other manufacturers [13] . Our findings strongly support that stockpiled AS03 adjuvant combined with candidate pandemic vaccines are highly immunogenic. Within 8 days after the second dose (day 29), >90% of subjects achieved seroprotective antibody levels. Although a single dose of AS03-adjuvanted vaccine elicited seroprotective responses in only one-third of subjects, mathematical models predict a significant reduction in attack rates even with low-efficacy pandemic vaccines [14] . Our study was not designed to fully evaluate the timing and stability of the mixing of vaccine antigen and adjuvant-that is, our mixand-match strategy was administered within 8 hours of preparation. A similar study among adults \u226550 years of age would be important.",
+            "cite_spans": [
+                {
+                    "start": 324,
+                    "end": 328,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 481,
+                    "end": 485,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 942,
+                    "end": 946,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The AS03-adjuvanted H5N1 vaccine used in this study elicited immune responses to the homologous viral strain, irrespective of HA dosage, that approached or exceeded the response needed to support US Food and Drug Administration licensure of pandemic inactivated influenza vaccine product for use in young adults [15] . In addition, only 3.75 \u00b5g of HA per dose was sufficient to achieve this benchmark, allowing the National Stockpile to have 24 times more doses available than if 90-\u00b5g doses were required. Peak antibody titers were observed as early as 8 days following the second dose of AS03-adjuvanted vaccine. This rapid (anamnestic) response to the second dose is likely the result of robust immunologic priming elicited by the first dose, leading to the speculation that the immunization schedule resulted in the induction of strong immunologic memory, a correlate of enduring protection [16, 17] . Immunologic measurements 6 and 12 months after the second vaccination will be performed to test this hypothesis. Moreover, we hypothesize that T-cell priming that may occur even in the absence of serological responses is capable of limiting viral replication and thereby ameliorate disease severity, viral shedding, and presumably transmission [18] .",
+            "cite_spans": [
+                {
+                    "start": 312,
+                    "end": 316,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 895,
+                    "end": 899,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 900,
+                    "end": 903,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1250,
+                    "end": 1254,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Phylogenic and antigenic analyses of the HA antigen of H5N1 viruses collected since 1997 indicates the evolution into different sublineages or clades [19] . The ability of a pandemic vaccine to induce cross-clade responses is fundamental to the ability to provide immunologic priming to a population while awaiting manufacture of a vaccine that matches the emergent pandemic strain. Although it is unlikely that a single dose that elicits cross-clade seroprotective responses in \u226413% of recipients will prevent infection, the rapid response following the second dose is noteworthy; remarkably, 2 doses of AS03adjuvanted vaccine, using the 3. [11, [20] [21] [22] . In our study, there was also a clear dose-response curve with adjuvanted vaccine, generally resulting in the strongest cross-clade responses with the highest dosage evaluated (15 \u00b5g).",
+            "cite_spans": [
+                {
+                    "start": 150,
+                    "end": 154,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 642,
+                    "end": 646,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 647,
+                    "end": 651,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 652,
+                    "end": 656,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 657,
+                    "end": 661,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The laboratory assays were performed in an independent laboratory with extensive prior experience measuring immune responses to avian influenza strains. However, the results between the HAI and MN assays did not always closely correlate. The MN assay is generally a substantially more sensitive means of detecting antibodies to H5N1 viruses [23] . On the other hand, the MN assay has not been internationally standardized and surrogate endpoints that correlate with protection have not yet been defined [24] . According to amino acid sequence analysis of the HA region of our selected H5N1 viruses, the results of the MN assay more closely resembled the antigenic distance predicted; the relationship is: A/turkey/Turkey/1/2005 (closest to the reference), then A/Vietnam/1203/2004, then A/Anhui/ 1/2005, and lastly A/Hubei/1/2010 (the most antigenically distant strain).",
+            "cite_spans": [
+                {
+                    "start": 341,
+                    "end": 345,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 503,
+                    "end": 507,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The vaccines were well tolerated and, in general, adverse effects were transient in nature. Nonetheless, there was clearly more reactogenicity involving both injection site and systemic events when the vaccine contained AS03 adjuvant. We did not observe any new-onset medical conditions or cases of narcolepsy, although recent evidence suggests that the occurrence of narcolepsy may be related to antigenic mimicry involving H1 HA epitopes and not based on adjuvant exposure alone [25] . We are mindful that concerns about increased adverse effects with the use of AS03, real or perceived, could impact public acceptability of vaccination, especially when public perception of disease risk is low.",
+            "cite_spans": [
+                {
+                    "start": 481,
+                    "end": 485,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In summary, we demonstrated the feasibility of a strategy in which proprietary adjuvants available in the US National Prepandemic Influenza Vaccine Stockpile could be combined with pandemic avian antigens produced by other manufacturers [13] . This approach has the potential to substantially increase the supply of effective vaccine and to add flexibility and speed to the responses available for controlling an emerging influenza pandemic.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 241,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Supplementary material is available online at Open Forum Infectious Diseases (http://OpenForumInfectiousDiseases. oxfordjournals.org/).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Material"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Stockpiling prepandemic influenza vaccines: a new cornerstone of pandemic preparedness plans",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jennings",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Monto",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Lancet Infect Dis",
+            "volume": "8",
+            "issn": "",
+            "pages": "650--58",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Safety and immunogenicity of influenza A H5 subunit vaccines: effect of vaccine schedule and antigenic variant",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Belshe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Frey",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Infect Dis",
+            "volume": "203",
+            "issn": "",
+            "pages": "666--73",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Safety and immunogenicity of an inactivated subvirion influenza A (H5N1) vaccine",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Treanor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zangwill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "N Engl J Med",
+            "volume": "354",
+            "issn": "",
+            "pages": "1343--51",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Safety and immunogenicity of a recombinant hemagglutinin vaccine for H5 influenza in humans",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Treanor",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Masseoud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Vaccine",
+            "volume": "19",
+            "issn": "",
+            "pages": "1732--1769",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Qualification of the hemagglutination inhibition assay in support of pandemic influenza vaccine licensure",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Noah",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hines",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Clin Vaccine Immunol",
+            "volume": "16",
+            "issn": "",
+            "pages": "558--66",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Phase 2 assessment of the safety and immunogenicity of two inactivated pandemic monovalent H1N1 vaccines in adults as a component of the U.S. pandemic preparedness plan in 2009",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Winokur",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Edwards",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Vaccine",
+            "volume": "30",
+            "issn": "",
+            "pages": "4240--4288",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Adjuvants for pandemic influenza vaccines",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Atmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Keitel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Curr Top Microbiol Immunol",
+            "volume": "333",
+            "issn": "",
+            "pages": "323--367",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Safety and immunogenicity of an inactivated split-virion influenza A/Vietnam/1194/2004 (H5N1) vaccine: phase I randomised trial",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bresson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Perronne",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Launay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Lancet",
+            "volume": "367",
+            "issn": "",
+            "pages": "1657--64",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Safety and immunogenicity of an inactivated influenza A/H5N1 vaccine given with or without aluminum hydroxide to healthy adults: results of a phase I-II randomized clinical trial",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Keitel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Treanor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Infect Dis",
+            "volume": "198",
+            "issn": "",
+            "pages": "1309--1325",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Antigen sparing and cross-reactive immunity with an adjuvanted rH5N1 prototype pandemic influenza vaccine: a randomised controlled trial",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Leroux-Roels",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Borkowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Vanwolleghem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Lancet",
+            "volume": "370",
+            "issn": "",
+            "pages": "580--589",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Safety and cross-reactive immunogenicity of candidate AS03-adjuvanted prepandemic H5N1 influenza vaccines: a randomized controlled phase 1/2 trial in adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Langley",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Frenette",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Infect Dis",
+            "volume": "201",
+            "issn": "",
+            "pages": "1644--53",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Department of Health and Human Services . HHS funds the advanced development of vaccines against the H5N1 influenza strain",
+            "authors": [],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "for the NVAC Subcommittee on Vaccine Development and Supply. Dose optimization strategies for vaccines: the role of adjuvants and new technologies",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dekker",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Strategies for mitigating an influenza pandemic",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nature",
+            "volume": "442",
+            "issn": "",
+            "pages": "448--52",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Guidance for industry: clinical data needed to support the licensure of pandemic influenza vaccines",
+            "authors": [],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Single dose vaccination with AS03-adjuvanted H5N1 vaccines in a randomized trial induces strong and broad immune responsiveness to booster vaccination in adults",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Schwarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Horacek",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Knuf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Vaccine",
+            "volume": "27",
+            "issn": "",
+            "pages": "6284--90",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Antibody persistence and response to 2010-2011 trivalent influenza vaccine one year after a single dose of 2009 AS03-adjuvanted pandemic H1N1 vaccine in children",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Gilca",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Serres",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hamelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Vaccine",
+            "volume": "30",
+            "issn": "",
+            "pages": "35--41",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Cellular immune correlates of protection against symptomatic pandemic influenza",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sridhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Begom",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bermingham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat Med",
+            "volume": "19",
+            "issn": "",
+            "pages": "1305--1317",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Continued evolution of highly pathogenic avian influenza A (H5N1): updated nomenclature. Influenza Other Respir Viruses",
+            "authors": [],
+            "year": 2012,
+            "venue": "WHO/OIE/FAO H5N1 Evolution Working Group",
+            "volume": "6",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Dose-sparing H5N1 A/Indonesia/ 05/2005 pre-pandemic influenza vaccine in adults and elderly adults: a phase III, placebo-controlled, randomized study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Langley",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Risi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Caldwell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Infect Dis",
+            "volume": "203",
+            "issn": "",
+            "pages": "1729--1767",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Rapid immunization against H5N1: a randomized trial evaluating homologous and cross-reactive immune responses to AS03(A)-adjuvanted vaccination in adults",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lasko",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Reich",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Madan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Infect Dis",
+            "volume": "204",
+            "issn": "",
+            "pages": "574--81",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Safety and immunogenicity of a splitvirion AS03A-adjuvanted A/Indonesia/05/2005 (H5N1) vaccine in Taiwanese adults",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Formos Med Assoc",
+            "volume": "111",
+            "issn": "",
+            "pages": "333--342",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Detection of antibody to avian influenza A (H5N1) virus in human serum by using a combination of serologic assays",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Abernathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu-Primmer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J Clin Microbiol",
+            "volume": "37",
+            "issn": "",
+            "pages": "937--980",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Considerations for licensure of influenza vaccines with pandemic and prepandemic indications",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Baylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Houn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Curr Top Microbiol Immunol",
+            "volume": "333",
+            "issn": "",
+            "pages": "453--70",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "CD4+ T cell autoimmunity to hypocretin/orexin and cross-reactivity to a 2009 H1N1 influenza A epitope in narcolepsy",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "De La Herran-Arita",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kornum",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mahlios",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Sci Transl Med",
+            "volume": "5",
+            "issn": "",
+            "pages": "216--176",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The percentage of subjects who experienced solicited adverse events, by maximum reactogenicity, during the 7 days after receipt of the first dose (A and C) or the second dose (B and D), according to vaccine dosage (3.75, 7.5, and 15 \u00b5g) and whether nonadjuvanted (A and B) or AS03-adjuvanted (C and D). a The widest diameter was measured and graded as follows: small (mild) <20 mm, medium (moderate) 20-50 mm, and large (severe) >50 mm.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "). Antibody responses to the drifted strains (A/Vietnam/1203/ 2004, A/Anhui/2005, A/turkey/Turkey/01/2005, and A/Hubei/ 1/2010) were lower than to the homologous vaccine strain (SupplementaryTable 3). Antibody responses following 2 doses of nonadjuvanted vaccine were poor: \u22648% and \u226413% achieved an HAI or MN titer of \u22651:40 at day 42. The antibody responses following a single dose of any AS03-adjuvanted vaccine dosages were also poor: \u226415% and \u226432% achieved an HAI or MN titer of \u22651:40 at day 21. In contrast, the antibody responses following2 doses of AS03-adjuvanted vaccine were relatively robust for A/turkey/Turkey/01/2005 and A/Anhui/1/2005, although less robust for A/Vietnam/1203/2004 and A/Hubei/1/2010. The GMT of antibody induced by 2 doses of AS03-adjuvanted vaccine varied according to the heterologous antigens tested (Figure 3). In both HAI and MN assays, GMTs of antibody recognizing A/Anhui/2005 and A/turkey/Turkey/01/2005 appeared more vigorous than those recognizing A/Vietnam/ 1203/2004 and A/Hubei/1/2010. The correlation (by Pearson coefficient) between HAI and MN antibody levels was good for A/Anhui/2005 (P = .82) and A/turkey/Turkey/01/2005 (P = .85), but lower for A/Vietnam/1203/2004 (P = .58) and A/Hubei/1/2010 (P = .64).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Geometric mean hemagglutination inhibition (HAI) and microneutralization (MN) titers to homologous (A/Indonesia/05/2005) virus strain, by dosage group.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Geometric mean hemagglutination inhibition (HAI) and microneutralization (MN) titers to heterologous virus strains (A/turkey/Turkey/01/2005, clade 2.2.1; A/Vietnam/1203/2004, clade 1; A/Anhui/1/2005, clade 2.3.4; and A/Hubei/1/2010, clade 2.3.2.1), by dosage group.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF2": {
+            "text": "75-\u00b5g dosage, resulted in seroprotective HAI responses on day 29 in 57% of subjects for A/Anhui/1/2005, 58% for A/turkey/Turkey/1/2005, 48% for A/Vietnam/1203/2004, and 34% for A/Hubei/1/2010. Our results are consistent with prior studies involving naive subjects who received an A/Indonesia/05/2005-based inactivated vaccine and AS03 adjuvant and developed robust cross-clade antibodies elicited against clade 1 (A/Vietnam/1194/2004), clade 2.2 (A/turkey/Turkey/1/2005), and clade 2.3.4 (A/Anhui/1/ 2005) viruses",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgments. We are grateful for the recruitment and care of subjects provided by the staff at each of the clinical sites. We thank the clinical and laboratory personnel who supported this study at University of Mary- Potential conflicts of interest. All authors: No potential conflicts.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

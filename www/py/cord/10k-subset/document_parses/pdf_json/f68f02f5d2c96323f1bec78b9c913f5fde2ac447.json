@@ -1,0 +1,1014 @@
+{
+    "paper_id": "f68f02f5d2c96323f1bec78b9c913f5fde2ac447",
+    "metadata": {
+        "title": "Multiyear Persistence of 2 Pandemic A/H1N1 Influenza Virus Lineages in West Africa",
+        "authors": [
+            {
+                "first": "Martha",
+                "middle": [
+                    "I"
+                ],
+                "last": "Nelson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Bethesda",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Richard",
+                "middle": [],
+                "last": "Njouom",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Centre Pasteur du Cameroun",
+                    "location": {
+                        "settlement": "Yaound\u00e9",
+                        "country": "Cameroon"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Cecile",
+                "middle": [],
+                "last": "Viboud",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Bethesda",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mbayame",
+                "middle": [
+                    "N D"
+                ],
+                "last": "Niang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Institut Pasteur de Dakar",
+                    "location": {
+                        "country": "Senegal"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Herv\u00e9",
+                "middle": [],
+                "last": "Kadjo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Abidjan C\u00f4te d'Ivoire",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "William",
+                "middle": [],
+                "last": "Ampofo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ghana",
+                    "location": {
+                        "settlement": "Legon",
+                        "country": "Accra Ghana"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Adedeji",
+                "middle": [],
+                "last": "Adebayo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Federal Ministry of Health",
+                    "location": {
+                        "settlement": "Abuja",
+                        "country": "Nigeria"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zekiba",
+                "middle": [],
+                "last": "Tarnagda",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "A"
+                ],
+                "last": "Miller",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Bethesda",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Edward",
+                "middle": [
+                    "C"
+                ],
+                "last": "Holmes",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Bethesda",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ousmane",
+                "middle": [
+                    "M"
+                ],
+                "last": "Diop",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Institut Pasteur de Dakar",
+                    "location": {
+                        "country": "Senegal"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Our understanding of the global ecology of influenza viruses is impeded by historically low levels of viral surveillance in Africa. Increased genetic sequencing of African A/H1N1 pandemic influenza viruses during 2009-2013 revealed multiyear persistence of 2 viral lineages within West Africa, raising questions about the roles of reduced air traffic and the asynchrony of seasonal influenza epidemics among West African countries in the evolution of independent lineages. The potential for novel influenza virus lineages to evolve within Africa warrants intensified influenza surveillance in Africa and other understudied areas.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Keywords. human influenza A virus; pandemic; phylogenetic analysis; Africa.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Despite strong seasonal bottlenecks, influenza A viruses (IAVs) persist in humans through continual global migration, which repeatedly reseeds viral diversity on local scales [1, 2] . It has been proposed that Southeast Asian countries are the most important global sources of antigenically novel IAVs, supplying Europe, North America, Africa, Latin America, and Oceania with novel variants on a continual basis [3] . Subsequent studies added complexity to this model, including roles for North America and other regions in the genesis of novel diversity [4] that are more consistent with a shifting meta-population model [5] . However, the lack of viral sequence data from a number of global regions, including Latin America, South Asia, and Africa, remains a major barrier to understanding the complex global ecology and evolution of IAVs.",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 178,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 179,
+                    "end": 181,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 412,
+                    "end": 415,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 555,
+                    "end": 558,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 622,
+                    "end": 625,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The emergence of novel pandemic A/H1N1 ( pH1N1) viruses in early 2009 resulted in a global expansion in IAV sequencing. Currently, >8000 full-length sequences of the main antigenic protein, the hemagglutinin (HA), are available through the Global Initiative on Sharing All Influenza Data (GISAID; www.gisaid.org). Notably, influenza surveillance increased in a number of African countries during 2009-2013 in response to the pandemic and as part of a larger trend of increased recognition of the seasonal influenza virus burden in Africa (see reviews [6, 7] ). To elucidate the evolution of influenza viruses in Africa, we conducted a large-scale phylogenetic analysis of global pH1N1 influenza virus diversity during 2009-2013, including 299 pH1N1 HA sequences collected in 18 African countries. Our analysis identified 2 well-supported clades of pH1N1 viruses that each persisted for >1.5 years in West Africa, highlighting the need to further understand the ecology and evolution of IAVs in this understudied and relatively geographically isolated region. Table 1 ; GenBank accession numbers KJ026367-KJ026452). Because Cameroon shares a long border with Nigeria and no other Central African countries had viral sequence data available that met the criteria for this study, for simplicity Cameroon was considered to be within West Africa in this analysis.",
+            "cite_spans": [
+                {
+                    "start": 551,
+                    "end": 554,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 555,
+                    "end": 557,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1059,
+                    "end": 1066,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The entire data set of 8712 pH1N1 HA (H1) sequences was aligned using MUSCLE alignment software (version 3.3.81) [8] , with manual correction. A maximum likelihood (ML) tree of these data was inferred by using RAxML software (version 7.2.6) [9] and a general time-reversible (GTR) model of nucleotide substitution with a gamma-distributed (\u0393) rate variation among sites (data available on request). Given the extremely large size of the data set, 100 bootstrap replicates were generated using RAxML software, with the same GTR + \u0393 model of nucleotide substitution, to assess the robustness of individual nodes. The resulting phylogeny was visualized and midpoint rooted using FigTree software (version 1.4.0; available at: http://tree. bio.ed.ac.uk/software/figtree/), and amino acid substitutions were identified using a customized R script. Similarly, an ML phylogeny also was inferred for 7644 full-length (1407 nt) pH1N1 NA (N1) sequences that were obtained and analyzed using identical methods (Supplementary Figure 1) . For the purposes of visualization ( Figure 1 ), an ML tree also was inferred from a subset of the HA sequence data (1643 HA sequences) that included all 299 African viruses, 9 viruses identified within West African clades I and II (described below), and 300 HA sequences randomly sampled from each year during 2009-2013 (all sequences from 2013 were used because <300 sequences were available). The full tree used for Figure 1 , including tip labels, is available in Supplementary Figure 2 .",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 116,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1014,
+                    "end": 1023,
+                    "text": "Figure 1)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1062,
+                    "end": 1070,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1444,
+                    "end": 1452,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1493,
+                    "end": 1515,
+                    "text": "Supplementary Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Full"
+        },
+        {
+            "text": "The majority of pH1N1 influenza viruses collected in Africa during 2009-2013 (256 of 299; 86%) are phylogenetically interspersed with viruses collected from other continents, as expected given the ability of influenza viruses to rapidly disseminate between continents. However, 43 African pH1N1 viruses (14%) are positioned within 2 phylogenetically distinct clades that comprised viruses collected predominantly in West Africa (labeled as West African clades I and II in Figure 1 ). Both West African clades I and II are defined by high bootstrap values (\u226580%) and separated by long branch lengths on the HA tree, indicating that the lineages have evolved independently. A monophyletic cluster of 21 Kenyan viruses also was identified that contains viruses collected from March 2010 (A/Nairobi/ 20/2010) through November 2011 (A/Kenya/190/2011), indicative of 20 months of persistence ( Figure 1 ). However, this cluster was not supported by high bootstrap values and therefore was not considered in our analysis. Both West African clades I and II are relatively small-15 and 37 isolates, respectively. However, the small size of these clades is more likely to be explained by the sparse sampling of influenza viruses in West Africa than by their low prevalence (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 472,
+                    "end": 480,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 888,
+                    "end": 896,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1263,
+                    "end": 1272,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "West African clade I comprises14 isolates collected from 3 West African countries (C\u00f4te d'Ivoire, Ghana, and Senegal) Figure 3) . Otherwise, the S145T and R276K substitutions were observed globally at extremely low levels, at <1% among the other 8790 pandemic H1 sequences. All 14 West African clade I isolates also clustered together on the NA global phylogeny, and 11 of 14 isolates in this cluster also were highly bootstrap supported (85%) (Supplementary Figure 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 127,
+                    "text": "Figure 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 444,
+                    "end": 468,
+                    "text": "(Supplementary Figure 1)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "West African clade II is larger (37 isolates) and more diverse than clade I, containing 26 isolates from 5 West African countries (Burkina Faso, Cameroon, C\u00f4te d'Ivoire, Ghana, and Nigeria), 3 from Ethiopia in East Africa, and 8 from non-African countries in Europe (France, Italy, Norway, and Sweden) and the United States (Minnesota). Within West Africa, clade II has persisted for \u22651.9 (Table 1 ). In contrast, the East African isolates were collected during 2012, and all non-African isolates were collected from November 2012 to January 2013. Critically, 10 of the 11 non-West African isolates (except for a single outlier from France: A/Paris/1878/2012) cluster together within a highly supported subclade (bootstrap, 100%), consistent with 1 migration event of this lineage out of West Africa. Although the majority of West African isolates from clade II also cluster together on the NA phylogeny ( Supplementary Figure 1) , the non-West African isolates from Ethiopia, Europe, and the United States are positioned together in a different part of the NA tree, indicative of reassortment. Four amino acid substitutions in the H1 sequences were observed among 37/37 clade II viruses: A15T, N490D, T491K, and V537A ( Supplementary Figure 3) . The A15T, N490D, and T491K substitutions were observed globally at extremely low levels: <1% among the other 8790 pandemic H1 sequences.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 389,
+                    "end": 397,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 906,
+                    "end": 929,
+                    "text": "Supplementary Figure 1)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1221,
+                    "end": 1244,
+                    "text": "Supplementary Figure 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "A central question in influenza virus epidemiology and evolution is whether viral lineages can persist at low levels of circulation on local and regional scales, or whether new viruses must be reseeded continually from a globally sustained gene pool. In the past 7 years, large-scale phylogenetic analyses of global influenza virus sequence data have provided important insights into viral migration and persistence [1] [2] [3] [4] [5] . The great intensification of IAV sequencing that occurred during the 2009 H1N1 pandemic provided the best opportunity to identify viral persistence on local scales, including low-frequency variants. Heightened influenza surveillance during New York State's first pandemic wave revealed that A/H3N2 seasonal influenza viruses persisted into the early summer, although this persistent lineage did not give rise to the state's subsequent fall epidemic virus [10] . In the United Kingdom, Baillie et al [11] detected 2 United Kingdom-specific pH1N1 lineages that persisted between the first and second pandemic waves of 2009, although the close timing of the 2 waves meant that the lineages persisted for <6 months in the United Kingdom.",
+            "cite_spans": [
+                {
+                    "start": 416,
+                    "end": 419,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 420,
+                    "end": 423,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 424,
+                    "end": 427,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 428,
+                    "end": 431,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 432,
+                    "end": 435,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 893,
+                    "end": 897,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 937,
+                    "end": 941,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our analysis of viral evolution in West Africa revealed the sustained persistence of 2 pH1N1 clades over a nearly 2-year period, although increased sampling is required to confirm that isolates from other localities are not interspersed within these clades. The intensity of global sampling of pandemic A/H1N1 influenza viruses during this time (>8000 full-length HA sequences were included in this analysis) reduces the likelihood that the persistence observed here is an artifact of unsampled diversity. In fact, the relative sparseness of sampling in West Africa compared to other regions (115 of 8712 global sequences, 1.3%) means that our data are strongly biased against the detection of clades comprised solely of West African viruses. That air traffic volume within West Africa is lower than in other global regions further supports the plausibility of influenza virus lineage persistence for several years without widespread dissemination to other continents. The delayed appearance of the pandemic H1N1 virus in West Africa 6 months after the emergence of the virus in North America in March 2009 further supports the possibility that influenza virus evolution in West Africa is less strongly linked to other continents owing to reduced international air traffic [12] . The lack of synchrony among the variable seasonal patterns of geographically linked African countries may also facilitate the persistence of influenza viruses within West Africa. In contrast to temperate areas where influenza virus epidemics are strongly synchronized during winter and undergo strong bottlenecks during summertime, the virus may persist through continual migration among seasonally variable and asynchronous West African localities, similar to what is thought to occur within the Southeast Asian network [3] . In Senegal, which has been conducting influenza surveillance for more than a decade, peaks in influenza activity coincide with the rainy season during July through September [13] . Nigeria, C\u00f4te d'Ivoire, and Cameroon exhibit more variable patterns of influenza virus seasonality, although longer time series of data are required [14, 15] . The phylogenies indicate that both West African clades, clades I and II, evolved within multiple West African countries, with no evidence of long-term persistence within a single country, which is consistent with a role for viral migration between West African countries in the persistence of the virus. High levels of bootstrap support for a subclade within clade II that contains isolates from Ethiopia, Europe, and the United States indicates that clade II viruses may have disseminated from West Africa to East Africa and from East Africa to Europe and the United States around 2012. Additionally, the detection of a singleton virus from France within both clade I (A/Lyon/ CHU/43.28/2010) and clade II (A/Paris/1878/2012) could relate to the frequency of air traffic between francophone West Africa and France. The lack of detection of either West African clades I or II in North or Southern Africa may also reflect low human mobility between these regions and West Africa. Further understanding of influenza virus migration within Africa and between Africa and other continents will require additional sequence data.",
+            "cite_spans": [
+                {
+                    "start": 1273,
+                    "end": 1277,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1801,
+                    "end": 1804,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1981,
+                    "end": 1985,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2137,
+                    "end": 2141,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2142,
+                    "end": 2145,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Although the intensity of influenza surveillance in Africa still lags behind that of other continents, these findings suggest that substantial viral diversity circulates within Africa, including viral lineages that are unique to the region but capable of disseminating to other continents. Small sample sizes at country levels necessitate cautious inference of clade prevalence, and it remains unknown whether clades I and II comprised substantial proportions of the H1N1 diversity in West African countries. The possibility of minor variants evolving locally within West Africa undermines the assumption that a vaccine matched to globally dominant lineages will necessarily protect against these local lineages, although more data is clearly required. Further knowledge of the viral lineages that circulate within Africa, including antigenic characterization, is required to understand the full diversity and global ecology of influenza viruses in humans and to inform vaccination strategies within Africa.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Supplementary materials are available at The Journal of Infectious Diseases online (http://jid.oxfordjournals.org/). Supplementary materials consist of data provided by the author that are published to benefit the reader. The posted materials are not copyedited. The contents of all supplementary data are the sole responsibility of the authors. Questions or messages regarding errors should be addressed to the author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Data"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Phylogenetic analysis reveals the global migration of seasonal influenza A viruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Simonsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "PLoS Pathog",
+            "volume": "3",
+            "issn": "",
+            "pages": "1220--1228",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The genomic and epidemiological dynamics of human influenza A virus",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pybus",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Taubenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Nature",
+            "volume": "453",
+            "issn": "",
+            "pages": "615--624",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The global circulation of seasonal influenza A (H3N2) viruses",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Barr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Science",
+            "volume": "320",
+            "issn": "",
+            "pages": "340--346",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Global migration dynamics underlie evolution and persistence of human influenza A (H3N2)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bedford",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cobey",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Beerli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pascual",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PLoS Pathog",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Temporally structured metapopulation dynamics and persistence of influenza A H3N2 virus in humans",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "108",
+            "issn": "",
+            "pages": "19359--64",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Influenza in Africa: Uncovering the Epidemiology of a Long-Overlooked Disease",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Schoub",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Heraud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Infect Dis",
+            "volume": "206",
+            "issn": "1",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Influenza in Africa",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yazdanbakhsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kremsner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS Med",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "MUSCLE: multiple sequence alignment with high accuracy and high throughput",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Edgar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res",
+            "volume": "32",
+            "issn": "",
+            "pages": "1792--1799",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Maximum likelihood-based phylogenetic analyses with thousands of taxa and mixed models",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Stamatakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "-",
+                    "middle": [],
+                    "last": "Raxml",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Vi-Hpc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Bioinformatics",
+            "volume": "22",
+            "issn": "",
+            "pages": "2688--90",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Unseasonal transmission of H3N2 influenza A virus during the swine-origin H1N1 pandemic",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ghedin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wentworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Halpin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "5715--5723",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Evolutionary dynamics of local pandemic H1N1/2009 influenza virus lineages revealed by whole-genome analysis",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Baillie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Galiano",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Agapow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Virol",
+            "volume": "86",
+            "issn": "",
+            "pages": "11--19",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Delayed 2009 pandemic influenza A virus subtype H1N1 circulation in West Africa",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Nzussouo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Michalove",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Diop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Infect Dis",
+            "volume": "206",
+            "issn": "1",
+            "pages": "101--108",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Sentinel surveillance for influenza in Senegal",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Niang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dosseh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ndiaye",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J Infect Dis",
+            "volume": "206",
+            "issn": "1",
+            "pages": "129--164",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Influenza viruses in Nigeria, 2009-2010: results from the first 17 months of a national influenza sentinel surveillance system",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Dalhatu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Medina-Marino",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Infect Dis",
+            "volume": "206",
+            "issn": "1",
+            "pages": "121--129",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Spatiotemporal circulation of influenza viruses in 5 African countries during 2008-2009: a collaborative study of the Institut Pasteur International Network",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Heraud",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Njouom",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rousset",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Infect Dis",
+            "volume": "206",
+            "issn": "1",
+            "pages": "5--13",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "-length HA sequences of 8712 pandemic A/H1N1 influenza viruses collected globally during 2009-2013 were downloaded from GISAID (www.gisaid.org). These data include 299 HA sequences from pandemic A/H1N1 influenza viruses collected in 18 African countries representing 4 African subregions: 3 nations in North Africa (Algeria, Morocco, and Egypt), 7 nations in West Africa (Burkina Faso, Cameroon, C\u00f4te d'Ivoire, Ghana, Niger, Nigeria, and Senegal), 7 nations in East Africa (Djibouti, Ethiopia, Kenya, Madagascar, Tanzania, Uganda, and Zambia), and 1 Southern African nation (South Africa) (Supplementary",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Phylogenetic relationships of H1 sequences from 1643 pandemic A/H1N1 influenza viruses collected globally during 2009-2013, estimated using a maximum likelihood method. West African clades I and II, the main global clade of 2012-2013 viruses, and the cluster of Kenyan viruses are labeled. Bootstrap values >70% are provided for West African clades I and II and the main 2012-2013 clade. The full phylogeny, including tip labels, is provided in Supplementary Figure 2. and a singleton isolate from France (A/Lyon/CHU/43.28/2010). Bootstrap support for West African clade I is very high (100%), indicating that clade I circulated among West African countries for \u22651.8 years: from at least March-April 2011 in Senegal (A/ Dakar/09/2011, A/Dakar/11/2011, A/Dakar/14/2011) to January 2013 in C\u00f4te d'Ivoire (A/Cote d'Ivoire/1575/2013). Two amino acid substitutions in the H1 sequences were observed among all 15 viruses in clade I: S145T and R276K (Supplementary",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Total across the entire phylogenetic tree (ie, all viruses from a country).b Percentages for countries with <10 influenza virus hemagglutinin sequences should be interpreted with caution.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgments. We thank Dr Workenesh Ayele, PhD at Ethiopian Health and Nutrition Research Institute for providing A/H1N1 HA sequences from Ethiopia, East Africa, for comparison with sequences from West Africa.Financial support. This work was supported by the Multinational Influenza Seasonal Mortality Study, an ongoing international collaborative effort to understand influenza epidemiology and evolution, led by the Fogarty International Center, National Institutes of Health, with funding from the Office of Global Affairs at the Department of Health and Human Services (C. V. and M. I. N.). E. C. H. is supported by an National Health and Medical Research Council (NHMRC) Australia fellowship.Potential conflicts of interest. All authors: No reported conflicts. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

@@ -1,0 +1,2168 @@
+{
+    "paper_id": "2393e84cbe8d570d83b5adb14dcfd8654e933329",
+    "metadata": {
+        "title": "Combination anti-HIV-1 antibody therapy is associated with increased virus-specific T cell immunity",
+        "authors": [
+            {
+                "first": "Michel",
+                "middle": [
+                    "C"
+                ],
+                "last": "Nussenzweig",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Molecular Immunology",
+                    "institution": "The Rockefeller University",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [
+                    "E"
+                ],
+                "last": "Kaufmann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Research Centre of the Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM)",
+                    "location": {
+                        "settlement": "Montreal",
+                        "region": "QC",
+                        "country": "Canada"
+                    }
+                },
+                "email": "daniel.kaufmann@umontreal.ca"
+            },
+            {
+                "first": "Julia",
+                "middle": [],
+                "last": "Niessl",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Research Centre of the Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM)",
+                    "location": {
+                        "settlement": "Montreal",
+                        "region": "QC",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Amy",
+                "middle": [
+                    "E"
+                ],
+                "last": "Baxter",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Research Centre of the Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM)",
+                    "location": {
+                        "settlement": "Montreal",
+                        "region": "QC",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pilar",
+                "middle": [],
+                "last": "Mendoza",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Molecular Immunology",
+                    "institution": "The Rockefeller University",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mila",
+                "middle": [],
+                "last": "Jankovic",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Molecular Immunology",
+                    "institution": "The Rockefeller University",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yehuda",
+                "middle": [
+                    "Z"
+                ],
+                "last": "Cohen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Molecular Immunology",
+                    "institution": "The Rockefeller University",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Allison",
+                "middle": [
+                    "L"
+                ],
+                "last": "Butler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Molecular Immunology",
+                    "institution": "The Rockefeller University",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ching-Lan",
+                "middle": [],
+                "last": "Lu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Molecular Immunology",
+                    "institution": "The Rockefeller University",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mathieu",
+                "middle": [],
+                "last": "Dub\u00e9",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Research Centre of the Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM)",
+                    "location": {
+                        "settlement": "Montreal",
+                        "region": "QC",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Irina",
+                "middle": [],
+                "last": "Shimeliovich",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Molecular Immunology",
+                    "institution": "The Rockefeller University",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Henning",
+                "middle": [],
+                "last": "Gruell",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Experimental Immunology",
+                    "institution": "University of Cologne",
+                    "location": {
+                        "settlement": "Cologne",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Florian",
+                "middle": [],
+                "last": "Klein",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Experimental Immunology",
+                    "institution": "University of Cologne",
+                    "location": {
+                        "settlement": "Cologne",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marina",
+                "middle": [],
+                "last": "Caskey",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Molecular Immunology",
+                    "institution": "The Rockefeller University",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "ART. In addition to suppressing viremia, bNAbs may have T cell immunomodulatory effects as seen for other forms of immunotherapy 3 . However, this has not been established in individuals who are infected with HIV-1. Here, we document increased HIV-1 Gag-specific CD8 + T cell responses in the peripheral blood of all nine study participants who were infected with HIV-1 with suppressed blood viremia, while receiving bNAb therapy during ART interruption 4 . Increased CD4 + T cell responses were detected in eight individuals. The increased T cell responses were due both to newly detectable reactivity to HIV-1 Gag epitopes and the expansion of pre-existing measurable responses. These data demonstrate that bNAb therapy during ART interruption is associated with enhanced HIV-1-specific T cell responses. Whether these augmented T cell responses can contribute to bNAb-mediated viral control remains to be determined.",
+            "cite_spans": [
+                {
+                    "start": 129,
+                    "end": 130,
+                    "text": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 454,
+                    "end": 455,
+                    "text": "4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Combination antiretroviral therapy (ART) is highly effective in controlling human immunodeficiency virus (HIV)-1 but requires lifelong medication due to the existence of a latent viral reservoir 1,2 . Potent broadly neutralizing antibodies (bNAbs) represent a potential alternative or adjuvant to"
+        },
+        {
+            "text": "HIV-1 infection is characterized by high initial levels of plasma viremia that are variably controlled by virus-specific CD8 + T cell responses 5, 6 . Individuals who fail to control viremia, rapidly develop immunodeficiency. In contrast, strong, broad HIV-specific CD8 + and CD4 + T cell responses have been associated with spontaneous viral control (that is, elite controllers, viral load <50 copies per ml) and delayed progression to AIDS [7] [8] [9] .",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 146,
+                    "text": "5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 147,
+                    "end": 148,
+                    "text": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 442,
+                    "end": 445,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 446,
+                    "end": 449,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 450,
+                    "end": 453,
+                    "text": "[9]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Combination antiretroviral therapy (ART) is highly effective in controlling human immunodeficiency virus (HIV)-1 but requires lifelong medication due to the existence of a latent viral reservoir 1,2 . Potent broadly neutralizing antibodies (bNAbs) represent a potential alternative or adjuvant to"
+        },
+        {
+            "text": "ART is highly effective in maintaining viral suppression but does not boost host antiviral immunity because it limits antigen availability. In contrast, antibodies do not prevent virus replication or production and, unlike small molecule drugs, they have dual functionality; variable domains neutralize the virus and constant domains (Fc) engage the host immune system 3 . In humanized mice, Fc interactions lead to accelerated clearance of viruses and infected cells 10 . bNAb administration to macaques infected with chimeric simian and human immunodeficiency viruses (SHIV) is associated with CD8 + T cell-dependent lasting control in a fraction of the treated animals 11 . In humans, bNAb monotherapy was associated with increased T cell responses in 9 of 12 individuals; however this occurred after rebound viremia in all but 3 individuals 12 . Whether bNAb therapy has a positive impact on HIV-1-specific T cell immune responses in infected humans with prolonged suppression during ART interruption has not been determined.",
+            "cite_spans": [
+                {
+                    "start": 369,
+                    "end": 370,
+                    "text": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 468,
+                    "end": 470,
+                    "text": "10",
+                    "ref_id": null
+                },
+                {
+                    "start": 672,
+                    "end": 674,
+                    "text": "11",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Combination antiretroviral therapy (ART) is highly effective in controlling human immunodeficiency virus (HIV)-1 but requires lifelong medication due to the existence of a latent viral reservoir 1,2 . Potent broadly neutralizing antibodies (bNAbs) represent a potential alternative or adjuvant to"
+        },
+        {
+            "text": "In a phase 1b clinical trial, individuals who were infected with HIV-1 and on ART were infused with a combination of two bNAbs, 3BNC117 and 10-1074, at 0, 3 and 6 weeks (Fig. 1a) 4 . ART was interrupted 2 d after the first antibody infusion. Nine bNAb-infused individuals harboring viruses sensitive to both bNAbs maintained viral suppression for at least 15 weeks following analytical treatment interruption (ATI) (Extended Data Fig. 1a,b) 4 .",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 180,
+                    "text": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 441,
+                    "end": 442,
+                    "text": "4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 169,
+                    "end": 178,
+                    "text": "(Fig. 1a)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 430,
+                    "end": 440,
+                    "text": "Fig. 1a,b)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Combination antiretroviral therapy (ART) is highly effective in controlling human immunodeficiency virus (HIV)-1 but requires lifelong medication due to the existence of a latent viral reservoir 1,2 . Potent broadly neutralizing antibodies (bNAbs) represent a potential alternative or adjuvant to"
+        },
+        {
+            "text": "Individuals who were infected with HIV-1 and on ART show stable or decreasing levels of HIV-1-specific CD8 + and CD4 + T cell responses over time [13] [14] [15] . To determine whether the combination of bNAb treatment and ATI was associated with alterations of CD8 + and CD4 + T cell responses to HIV-1, we analyzed the peripheral blood of the nine individuals on bNAb + ATI at baseline (week \u22122) and during bNAb-mediated suppression (weeks 6/7, 12 and 18; Extended Data Fig. 1b; week 18 samples were limited to seven individuals). Peripheral blood mononuclear cells (PBMCs) were stimulated with an HIV-1 Consensus B Gag peptide pool. CD8 + T cells were analyzed for expression of interferon (IFN)-\u03b3, tumor necrosis factor (TNF)-\u03b1, macrophage inflammatory protein (MIP)1-\u03b2 and the degranulation marker CD107A; CD4 + T cells were analyzed for expression of IFN-\u03b3, TNF-\u03b1, interleukin (IL)-2 and CD40L (Supplementary Table 1 and Supplementary Fig. 1a-c) .",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "[13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "[15]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 471,
+                    "end": 479,
+                    "text": "Fig. 1b;",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 914,
+                    "end": 921,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 926,
+                    "end": 950,
+                    "text": "Supplementary Fig. 1a-c)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Combination antiretroviral therapy (ART) is highly effective in controlling human immunodeficiency virus (HIV)-1 but requires lifelong medication due to the existence of a latent viral reservoir 1,2 . Potent broadly neutralizing antibodies (bNAbs) represent a potential alternative or adjuvant to"
+        },
+        {
+            "text": "In line with previous reports [13] [14] [15] , anti-HIV-1 T cell responses in individuals on long-term viral suppression by ART alone remained stable over time (Extended Data Fig. 2a,b) . In contrast, the frequency of antigen-specific CD8 + T cells expressing IFN-\u03b3, TNF-\u03b1, MIP1-\u03b2 and/or CD107A increased significantly in all nine individuals receiving bNAbs during ATI after 6/7 weeks ( Fig. 1b and Extended Data Fig. 3a ). Of note, bNAb plasma levels were highest at this time point 4 (Extended Data Fig. 1b) . CD8 + T cell responses Letters Nature MediciNe decreased by week 12 in six individuals but remained significantly elevated for IFN-\u03b3, TNF-\u03b1 and MIP1-\u03b2 when compared to baseline. At week 18, when antibody levels were 2-3 orders of magnitude below the week 6/7 peak, CD8 + T cell responses were similar to week 12, but interpretation of these data was limited by the small sample size (Fig. 1b) .",
+            "cite_spans": [
+                {
+                    "start": 30,
+                    "end": 34,
+                    "text": "[13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 35,
+                    "end": 39,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 40,
+                    "end": 44,
+                    "text": "[15]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 175,
+                    "end": 185,
+                    "text": "Fig. 2a,b)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 388,
+                    "end": 395,
+                    "text": "Fig. 1b",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 414,
+                    "end": 421,
+                    "text": "Fig. 3a",
+                    "ref_id": null
+                },
+                {
+                    "start": 502,
+                    "end": 510,
+                    "text": "Fig. 1b)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 896,
+                    "end": 905,
+                    "text": "(Fig. 1b)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Combination antiretroviral therapy (ART) is highly effective in controlling human immunodeficiency virus (HIV)-1 but requires lifelong medication due to the existence of a latent viral reservoir 1,2 . Potent broadly neutralizing antibodies (bNAbs) represent a potential alternative or adjuvant to"
+        },
+        {
+            "text": "CD4 + T cells expressing IFN-\u03b3, CD40L, TNF-\u03b1 and/or IL-2 in response to Gag also increased significantly between baseline and week 6/7 in eight bNAb + ATI individuals (Fig. 1c) . When measured individually, only CD40L and TNF-\u03b1 remained significantly elevated at week 12 and no responses were significantly elevated at week 18. However, the total frequency of cytokine + CD4 + T cells (percentage of cells positive for one or more cytokines or functional markers) was above baseline at all time points tested (Fig. 1c) . In contrast, cytomegalovirus (CMV) pp65-specific T cell responses remained unchanged (Extended Data Fig. 4a,b) , suggesting that the increased T cell immunity in bNAb + ATI individuals was specific to HIV-1. In summary, CD8 + and CD4 + T cell responses to Gag were most prominent at week 6/7 but remained elevated for weeks after the last antibody dose in individuals who remained suppressed while receiving bNAbs during ATI.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 167,
+                    "end": 176,
+                    "text": "(Fig. 1c)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 509,
+                    "end": 518,
+                    "text": "(Fig. 1c)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 621,
+                    "end": 631,
+                    "text": "Fig. 4a,b)",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "Combination antiretroviral therapy (ART) is highly effective in controlling human immunodeficiency virus (HIV)-1 but requires lifelong medication due to the existence of a latent viral reservoir 1,2 . Potent broadly neutralizing antibodies (bNAbs) represent a potential alternative or adjuvant to"
+        },
+        {
+            "text": "Two additional individuals recruited to the study harbored antibody-resistant viruses and showed early rebound after ATI (9245 and 9251, Extended Data Fig. 5a ,b) 4 . Gag-specific T cell responses in both participants were analyzed at baseline, week 6/7 and week 11 or 12 after reinitiation of ART. Where the frequency of cytokine + cells for CD8 + and CD4 + increased for individual 9245, the responses decreased for 9251 (Extended Data Fig. 5c ), consistently with rebound viremia being sufficient to increase CD8 + T cell responses in some individuals 16 .",
+            "cite_spans": [
+                {
+                    "start": 555,
+                    "end": 557,
+                    "text": "16",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 151,
+                    "end": 158,
+                    "text": "Fig. 5a",
+                    "ref_id": null
+                },
+                {
+                    "start": 438,
+                    "end": 445,
+                    "text": "Fig. 5c",
+                    "ref_id": null
+                }
+            ],
+            "section": "Combination antiretroviral therapy (ART) is highly effective in controlling human immunodeficiency virus (HIV)-1 but requires lifelong medication due to the existence of a latent viral reservoir 1,2 . Potent broadly neutralizing antibodies (bNAbs) represent a potential alternative or adjuvant to"
+        },
+        {
+            "text": "Polyfunctional HIV-1-specific CD8 + T cells have been associated with enhanced HIV-1 control 9,17 , whereas other studies reported superior antiviral functions of MIP1-\u03b2 monofunctional cells 18 . To examine Gag-specific T cells in bNAb + ATI individuals for polyfunctional responses, we performed coexpression analysis using Boolean gating. Gag-specific CD8 + T cells coexpressing IFN-\u03b3, TNF-\u03b1, MIP1-\u03b2 and CD107A were significantly increased at weeks 6/7 and 12 after receiving bNAb therapy (Fig. 2a) . However, the greatest absolute increase in CD8 + T cell responses to Gag was associated with expansion of MIP1-\u03b2 + single-positive cells (Fig. 2a) . In addition, the frequency of CD4 + T cells expressing IFN-\u03b3 or CD40L alone or in combination with other functions and IL-2/TNF-\u03b1-double ",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 193,
+                    "text": "18",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 491,
+                    "end": 500,
+                    "text": "(Fig. 2a)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 640,
+                    "end": 649,
+                    "text": "(Fig. 2a)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Combination antiretroviral therapy (ART) is highly effective in controlling human immunodeficiency virus (HIV)-1 but requires lifelong medication due to the existence of a latent viral reservoir 1,2 . Potent broadly neutralizing antibodies (bNAbs) represent a potential alternative or adjuvant to"
+        },
+        {
+            "text": "positive cells was also increased (Fig. 2b) . Thus, several subsets of Gag-specific mono-or polyfunctional CD8 + and CD4 + T cells were augmented at weeks 6/7 and 12 compared to baseline for bNAbtreated individuals (Fig. 2a,b) . Activation-induced marker (AIM) assays give a broader overview of the total peptide-reactive T cell response and identify cells without cytokine expression or expressing cytokines that are challenging to detect by intracellular cytokine staining (ICS) 19, 20 . We therefore used the AIM assay as an alternative, cytokine-independent method to confirm our findings obtained by ICS. CD4 + or CD8 + AIM + cells were identified as CD69 + programmed death ligand (PD-L)1 + or CD69 + 4-1BB + or PD-L1 + 4-1BB + after Gag peptide pool stimulation (Supplementary Fig. 2 Table 2) .",
+            "cite_spans": [
+                {
+                    "start": 481,
+                    "end": 484,
+                    "text": "19,",
+                    "ref_id": null
+                },
+                {
+                    "start": 485,
+                    "end": 487,
+                    "text": "20",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 34,
+                    "end": 43,
+                    "text": "(Fig. 2b)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 215,
+                    "end": 226,
+                    "text": "(Fig. 2a,b)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 784,
+                    "end": 790,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 791,
+                    "end": 799,
+                    "text": "Table 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Nature MediciNe"
+        },
+        {
+            "text": "Similarly to ICS, we found increased Gag-specific T cell responses in seven (CD8 + ) or six (CD4 + ) out of nine bNAb + ATI individuals at week 12 compared to baseline (Fig. 3a,b) . As expected 19 , the frequency of Gag-specific CD4 + and CD8 + T cells was higher in the AIM assay but correlated with ICS ( Fig. 3c ,d, r = 0.64). We did not detect changes in human leukocyte antigen (HLA)-DR + CD38 + or programmed cell death (PD)-1 + cells within AIM + Gag-specific T cell responses at week 12 versus baseline (Extended Data Fig. 6 ).",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 196,
+                    "text": "19",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 168,
+                    "end": 179,
+                    "text": "(Fig. 3a,b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 307,
+                    "end": 314,
+                    "text": "Fig. 3c",
+                    "ref_id": null
+                },
+                {
+                    "start": 526,
+                    "end": 532,
+                    "text": "Fig. 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "We further used the AIM assay to investigate responses to less immunodominant HIV-1 antigens with expected lower frequencies than Gag. In contrast to Gag, we did not find a significant increase in HIV-1-specific T cell responses directed against HIV-1 Pol, Nef, gp120 or gp41 at the cohort level (Fig. 3e) . Nevertheless, enhanced CD8 + and/or CD4 + T cell responses to these HIV-1 proteins were noted in several individuals at week 12 compared to week \u22122, including against gp120 and gp41 (Extended Data Fig. 7a,b) . Specifically, the two individuals with controlled viremia beyond 30 weeks showed increased CD8 + and CD4 + responses to nearly all HIV-1 antigens tested at week 12 (Extended Data Fig. 7a -c, participants 9254 and 9255). This was not seen in individuals who rebounded before week 26 after ATI (Extended Data Fig. 7a -c, participants 9241, 9242, 9243, 9244, 9246, 9247 and 9252). However, the association between prolonged control and breadth in these two individuals is anecdotal. Larger studies will be required to understand the precise relationship between prolonged control, bNAb therapy and enhanced breadth of T cell immunity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 296,
+                    "end": 305,
+                    "text": "(Fig. 3e)",
+                    "ref_id": null
+                },
+                {
+                    "start": 505,
+                    "end": 515,
+                    "text": "Fig. 7a,b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 697,
+                    "end": 704,
+                    "text": "Fig. 7a",
+                    "ref_id": null
+                },
+                {
+                    "start": 825,
+                    "end": 832,
+                    "text": "Fig. 7a",
+                    "ref_id": null
+                }
+            ],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "To determine whether the increased HIV-1 Gag-specific T cell responses were directed against pre-existing or new peptide epitopes, we stimulated PBMCs with a peptide library spanning the entire HIV Gag protein Consensus B sequence (Supplementary Table 3 ) and compared IFN-\u03b3 responses before and after ATI for the nine bNAb + ATI individuals. IFN-\u03b3 ELISpot responses were detectable for six study participants ( Fig. 4a- Fig. 8f ). Overall, 41% (9 of 22) of the detectable responses in these six individuals at week 12 were directed against Gag epitopes that did not induce a detectable response at baseline (new responses: red dots and section, Fig. 4e ,f). In contrast, none of the Gag responses detected at baseline were lost by week 12. Finally, several individuals with detectable responses at week 12 had IFN-\u03b3 ELISpot responses against the major homology region (peptide 69-76, Gag285-304; Fig. 4g ), a highly conserved motif in the gag gene of all retroviruses 21 . Thus, the increased IFN-\u03b3 responses that developed during bNAb therapy result from increased breadth and magnitude of detectable peptidespecific responses.",
+            "cite_spans": [
+                {
+                    "start": 969,
+                    "end": 971,
+                    "text": "21",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 246,
+                    "end": 253,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 412,
+                    "end": 420,
+                    "text": "Fig. 4a-",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 421,
+                    "end": 428,
+                    "text": "Fig. 8f",
+                    "ref_id": null
+                },
+                {
+                    "start": 646,
+                    "end": 653,
+                    "text": "Fig. 4e",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 897,
+                    "end": 904,
+                    "text": "Fig. 4g",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "To determine whether the increased HIV-1-specific T cell response could eliminate HIV-1-infected cells in vitro, we performed HIV-1 viral inhibition assays 22 . CD4 + T cells from participants 9246 and 9252 at baseline were infected with HIV-1 BaL and cultured either alone or in the presence of CD8 + T cells isolated from the same individuals before and after ATI (Extended Data Fig. 9a ",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 158,
+                    "text": "22",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 381,
+                    "end": 388,
+                    "text": "Fig. 9a",
+                    "ref_id": null
+                }
+            ],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "Week -2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "Week 6/7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "Week 12",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "Week 18",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "Cytokine + CD4 + cells (%) Week -2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "Week 6/7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "Week 12",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "Week Fig. 9b ). Given the importance of HIV-1-specific CD8 + T cells in controlling viral replication, we also examined rebound viruses for mutations in HIV-1 gag in the seven individuals who rebounded before week 30. When compared to week \u22122 or 12, HIV-1 gag DNA from rebound plasma showed no consistent evidence for cytotoxic lymphocyte escape (Extended Data Fig. 10) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 5,
+                    "end": 12,
+                    "text": "Fig. 9b",
+                    "ref_id": null
+                },
+                {
+                    "start": 361,
+                    "end": 369,
+                    "text": "Fig. 10)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "and Supplementary"
+        },
+        {
+            "text": "a, Net frequency of HIV-1 Gag-specific AIM + CD8 + (left, red) and CD4 + T cells (right, blue) for each bNAb + ATI individual. Net frequency of the Gag-stimulated condition was calculated by subtracting the frequency detected in a DMSO control. b, Comparison of net frequency HIV-1 Gagspecific AIM + CD8 + (left, blue) and CD4 + T cells (right, red) at week \u22122 and week 12. Symbols represent biologically independent samples from n = 9 bNAb + ATI individuals. Lines connect data from the same donor. Bars show median values. c, Comparison of the frequency of Gag-specific CD8 + or CD4 + T cells identified by AIM assay or ICS. The or-gate strategy was used for both assays. Symbols represent biologically independent samples from n = 9 bNAb + ATI individuals (samples obtained at week \u22122 and 12 for each individual were included for comparison). Lines connect data from the same donor and time point. d, Relationship between the frequency of Gag-specific CD8 + and CD4 + T cell responses identified either by AIM assay or ICS. Symbols represent biologically independent samples from n = 9 bNAb + ATI individuals (samples obtained at week \u22122 and 12 for each individual were included for comparison). Association was determined by Spearman correlation. e, Net frequency of HIV-1 Pol, Nef, gp120 or gp41-specific CD8 + (upper graphs) or CD4 + T cells (lower graphs) identified by AIM assay in bNAb + ATI individuals at week \u22122 and week 12. Symbols represent biologically independent samples from n = 9 bNAb + ATI individuals. Lines connect data from the same donor. Median values are shown as bars. P values indicated in b,c,e were calculated by a paired two-tailed Wilcoxon test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. 3 | AIM assay evaluation of T cell responses to multiple HIV-1 antigens. AIM + T cells include cells that were PD"
+        },
+        {
+            "text": "HIV-1-specific T cell responses likely play a key role in spontaneous control of HIV-1 viremia in elite controllers [7] [8] [9] . However, most individuals exhibit partial control of viral replication as evidenced by suppression of initial peak viremia by 1-2 orders of magnitude for prolonged periods of time before developing AIDS-defining clinical complications 23 . ART is highly effective in further suppressing viremia but fails to enhance virus-specific immunity possibly because of decreased viral antigen availability. Week -2",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 119,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 120,
+                    "end": 123,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 124,
+                    "end": 127,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 365,
+                    "end": 367,
+                    "text": "23",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nature MediciNe"
+        },
+        {
+            "text": "Week 12 Peptide no. Week -2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nature MediciNe"
+        },
+        {
+            "text": "Week 12 Peptide no. Week -2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nature MediciNe"
+        },
+        {
+            "text": "Week 12 Peptide no. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nature MediciNe"
+        },
+        {
+            "text": "In contrast, bNAb therapy in SHIV-infected rhesus macaques induces long-lasting CD8 + T cell-mediated viral suppression in a subset of the animals 11, 24 . Our data indicate that individuals who are infected with HIV-1, receiving bNAb therapy during ATI, show increased T cell immunity to HIV-1, including reactivity to Gag epitopes that were undetectable before bNAb administration. Specifically, we identified increased frequencies of MIP1-\u03b2-expressing CD8 + T cells, which have been associated with control of viremia 18 . However, notably, the observational nature of this trial does not allow the determination of whether the observed expansion of HIV-1-specific T cell responses in bNAb-treated humans contributes to viral control.",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 150,
+                    "text": "11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 151,
+                    "end": 153,
+                    "text": "24",
+                    "ref_id": null
+                },
+                {
+                    "start": 521,
+                    "end": 523,
+                    "text": "18",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nature MediciNe"
+        },
+        {
+            "text": "Previous clinical trials in individuals who are infected with HIV-1, who underwent ATI in the absence of immune intervention, showed increased HIV-1-specific T cell responses that coincided with plasma viral rebound, suggesting that this boost in antiviral immunity was induced by increased viral replication 16, 25 . The increased T cell responses in individual 9245 are consistent with these observations (Extended Data Fig. 5 ). In contrast, our results demonstrate increased HIV-1 Gag-specific CD8 + and CD4 + T cell immunity in bNAb + ATI individuals at a time when bNAbs maintained viral suppression. At least two mechanisms could account for the association of bNAb treatment with increased T cell responses. One possibility is that ART interruption in the presence of antibodies results in production of bNAb-HIV-1 immune complexes that activate antigen-presenting dendritic cells and enhance their antigen-presenting and cross-presenting capabilities to produce a vaccinal effect 3, 26 . A second nonexclusive possibility is that the augmented CD8 + T cell response is driven by increased low-grade viral replication and antigen availability in tissues that we have not been able to assay during overt viremia suppression by bNAbs. While the underlying mechanism of the observed increased T cell immunity remains to be determined, a potentially important advantage of bNAb + ATI treatment compared to ATI alone, standard ART or T cell vaccination is that the immune system is stimulated with the individual's own virus while circulating viremia is suppressed. Whether the same effects will be seen in individuals who receive bNAbs during ART and whether the increased T cell responses are sufficient to help control infection remains to be determined.",
+            "cite_spans": [
+                {
+                    "start": 309,
+                    "end": 312,
+                    "text": "16,",
+                    "ref_id": null
+                },
+                {
+                    "start": 313,
+                    "end": 315,
+                    "text": "25",
+                    "ref_id": null
+                },
+                {
+                    "start": 989,
+                    "end": 991,
+                    "text": "3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 992,
+                    "end": 994,
+                    "text": "26",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 417,
+                    "end": 428,
+                    "text": "Data Fig. 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Nature MediciNe"
+        },
+        {
+            "text": "Any methods, additional references, Nature Research reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at https://doi.org/10.1038/s41591-019-0747-1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Online content"
+        },
+        {
+            "text": "Study design and participants. BNAb study participants were enrolled in an openlabel phase 1b clinical trial at the Rockefeller University and University of Cologne and received three infusions with a combination of two bNAbs, 3BNC117 and 10-1074. ART was interrupted at day 2 after the first antibody infusion 4 (ClinicalTrials.gov identifier: NCT02825797). Viral load was assessed every 1-2 weeks and ART was reinitiated when two consecutive measurements showed viral load of >200 copies per ml. All individuals were infected with clade B HIV-1 (ref. 4 Activation-induced marker assay. PBMCs were thawed, washed and cultured in 24-well plates at a concentration of 10 \u00d7 10 6 cells per ml in RPMI 1640 supplemented with HEPES, penicillin and streptomycin and 10% human serum (Sigma). Cells were rested for 3 h and stimulated with 0.5 \u03bcg ml \u22121 per peptide of HIV-1 Consensus B peptide pools spanning the entire protein for Gag, Nef, Pol, gp120 or gp41 (NIH AIDS Reagent Program) for 18 h at 37 \u00b0C and 5% CO 2 . Pools for gp120 and gp41 were obtained by combining single Env peptides 1-123 (gp120) and 124-211 (gp41) (HIV-1 Consensus B Env Peptide Set). A DMSO-treated condition served as a negative control. Cells were stained for viability dye (aquavivid, Life Technologies) and surface markers (30 min, 4 \u00b0C) and cells were fixed using 2% paraformaldehyde before acquisition at a LSRII flow cytometer (BD Biosciences) (see Supplementary  Table 2 for antibody staining panel). DMSO-treated cells served as negative controls and were used together with fluorescence minus one controls to set gates for analysis.",
+            "cite_spans": [
+                {
+                    "start": 553,
+                    "end": 554,
+                    "text": "4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1425,
+                    "end": 1447,
+                    "text": "Supplementary  Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "All information regarding material and methods can be found in the Life Sciences Reporting Summary."
+        },
+        {
+            "text": "HIV Gag-specific IFN-\u03b3 responses were measured using an IFN-\u03b3 ELISpot assay as previously described 27 . The 96-well hydrophobic polyvinylidene difluoride membrane-backed plates (Millipore) were pre-wetted with 35% ethanol for 45 s, washed with PBS and coated overnight at 4 \u00b0C with anti-IFN-\u03b3 capture antibody (3 \u03bcg ml \u22121 in PBS, clone NIB42, BD Biosciences). PBMCs were thawed, rested for 2 h and seeded into plates at 1-2 \u00d7 10 5 PBMCs per well in RPMI with 10% FBS supplemented with HEPES and penicillin and streptomycin. Cells were stimulated with 123 peptides spanning the entire HIV-1 Consensus B Gag protein (10 \u03bcg ml \u22121 , NIH AIDS Reagent Program; see Supplementary Table 3 for all sequences) for 20 h at 37 \u00b0C and 5% CO 2 . Plates were washed with PBS-T (PBS and 0.05% Tween-20) and incubated with biotinylated anti-IFN-\u03b3 antibody (0.5 \u03bcg ml \u22121 in PBS and 0.5% BSA, clone 4S.B3; BD Biosciences) for 2 h at room temperature. Plates were washed with PBS-T and incubated with streptavidinalkaline-phosphatase conjugate (Bio-Rad Laboratories) (1:1,000 dilution in PBS and 0.5% BSA) for 1 h at room temperature. Spots were developed using an alkaline phosphatase conjugate substrate kit (Bio-Rad Laboratories) for 4 min and the reaction was stopped with tap water. Spots were counted using an Immunospot Analyzer Instrument (Cellular Technology). PBMCs incubated with medium alone served as negative controls and staphylococcal enterotoxin B-stimulated PBMCs (0.5 \u03bcg ml \u22121 ) as a positive control. The s.f.u. were calculated as number of spots in test wells minus the mean number of spots in medium control wells and normalized to s.f.u. per 10 6 PBMCs. A response was considered positive if greater than 50 s.f.u. per 10 6 PBMCs. Week \u22122 and week 12 samples from the same individual were assayed together in the same experiment.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 660,
+                    "end": 681,
+                    "text": "Supplementary Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "IFN-\u03b3 ELISpot."
+        },
+        {
+            "text": "In vitro viral inhibition assay. The capacity of CD8 + T cells to suppress HIV-1 infection of autologous CD4 + T cells was evaluated using a previously described HIV-1 suppression assay 22 with minor modifications. CD4 + T cells were isolated using negative magnetic bead selection (StemCell Technologies) from PBMCs, rested for 2 h and cultured in RPMI and 10% FBS supplemented with PHA-L (2 \u03bcg ml \u22121 ; Sigma-Aldrich) and IL-2 (100 U ml \u22121 ; StemCell Technologies) for 72 h.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IFN-\u03b3 ELISpot."
+        },
+        {
+            "text": "After 72 h, CD8 + T cells were isolated from PBMCs using negative magnetic bead selection (StemCell Technologies), counted and rested for 2 h at 37 \u00b0C. Meanwhile, cultured CD4 + T cells were washed, counted and plated in U-bottom 96-well plates for infection with HIV-1 BaL (NIH AIDS Reagent Program) using a multiplicity of infection of 0.015: plates were first centrifuged at 1,200g for 1 h at 22 \u00b0C and then incubated for an additional hour at 37 \u00b0C. After infection, CD4 + T cells from different wells were pooled, washed three times and plated in U-bottom 96-well plates (50,000 cells per well) with CD8 + T cells at a 1:1 ratio in RPMI with 10% FBS supplemented with IL-2 (100 U ml \u22121 ). Uninfected CD4 + T cells were included as negative controls and infected CD4 + T cells cultured without CD8 + T cells served as 100% infectivity controls. At days 3, 5 and 7 after infection, cells were stained with a viability dye (aquavivid, Life Technologies) and surface markers (30 min, 4 \u00b0C), followed by intracellular detection of HIV-1 Gag (Beckman Coulter) using the IC Fixation/Permeabilization kit (eBioscience) according to the manufacturer's protocol (see Supplementary Table 5 for the antibody staining panel). All experiments were performed in duplicate or triplicate, depending on cell availability.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1162,
+                    "end": 1183,
+                    "text": "Supplementary Table 5",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "IFN-\u03b3 ELISpot."
+        },
+        {
+            "text": "Sequencing and phylogenetic analysis. Gag sequences from latent reservoir viruses were obtained from CD4 + T cell genomic DNA by near-full length HIV-1 sequencing as previously described 28 . Gag sequences from rebound plasma were obtained by HIV-1 RNA extraction and single-genome amplification as previously described 29 . In brief, HIV-1 RNA was extracted from plasma samples using the MinElute Virus Spin kit (Qiagen) followed by first-strand cDNA synthesis using SuperScript III reverse transcriptase (Invitrogen). The cDNA synthesis for plasma-derived HIV-1 RNA was performed using the antisense primer B5R2 5\u2032-CAATCATCACCTGCCATCTGTTTTCCATA-3\u2032. Gag was then amplified using the primer Gag5out 5\u2032-TTGACTAGCGGAGGCTAGAAGG-3\u2032 and Gag3out 5\u2032-GATAAAACCTCCAATTCCCCCTATC-3\u2032 in the first round and in the second round with nested primers Gag5in 5\u2032-GAGAGATGGGTGCGAGAGCGTC-3\u2032 and Gag3in 5\u2032-CTGCTCCTGTATCTAATAGAGC-3\u2032. PCRs were performed using High Fidelity Platinum Taq (Invitrogen) and run at 94 \u00b0C for 2 min; 35 cycles of 94 \u00b0C for 15 s, 58 \u00b0C for 30 s and 68 \u00b0C for 3 min; and 68 \u00b0C for 15 min. Secondround PCR was performed with 1 \u03bcl of the PCR product from the first round as a template and High Fidelity Platinum Taq at 94 \u00b0C for 2 min; 45 cycles of 94 \u00b0C for 15 s, 58 \u00b0C for 30 s and 68 \u00b0C for 3 min; and 68 \u00b0C for 15 min.",
+            "cite_spans": [
+                {
+                    "start": 320,
+                    "end": 322,
+                    "text": "29",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "IFN-\u03b3 ELISpot."
+        },
+        {
+            "text": "Amino acid alignments of intact gag sequences were obtained by using ClustalW v.2.1 (ref. 30 ) under the BLOSUM cost matrix. Sequences with premature stop codons were excluded from all analyses. Maximum likelihood phylogenetic trees were then generated from these alignments using RAxML v.8.2.9 (ref. 31 ) under the GTRGAMMA model with 1,000 bootstraps. To analyze changes between reservoir and rebound viruses, gag sequences were aligned at the amino-acid-level to a HXB2 reference using ClustalW v.2.1.",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 92,
+                    "text": "30",
+                    "ref_id": null
+                },
+                {
+                    "start": 301,
+                    "end": 303,
+                    "text": "31",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "IFN-\u03b3 ELISpot."
+        },
+        {
+            "text": "Flow cytometric data were analyzed using FlowJo v.10.5.0 for Mac. Statistical analyses were performed using GraphPad Prism v.8.0.1 for Mac using nonparametric tests. Pairwise comparisons were performed using the two-sided Wilcoxon matched-pairs signed rank test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis."
+        },
+        {
+            "text": "Reporting Summary. Further information on research design is available in the Nature Research Reporting Summary linked to this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis."
+        },
+        {
+            "text": "Sequences from all isolated viruses are available in GenBank, accession numbers MN750027 to MN750174. Other raw experimental data associated with the figures presented in the manuscript are available from the corresponding authors upon reasonable request. Study participant-related data not included in the paper may be subject to confidentiality obligations. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability"
+        },
+        {
+            "text": "For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "n/a Confirmed",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "The statistical test(s) used AND whether they are one-or two-sided",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "Only common tests should be described solely by name; describe more complex techniques in the Methods section.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "A description of all covariates tested A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient) AND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "Flow cytometry data were analyzed with Flowjo v10 (Treestar) and statistical analyses were performed with Prism v8 for Mac (Graphpad Software Inc). Amino acid alignments of intact gag sequences were obtained by using ClustalW v.2.1 under the BLOSUM cost matrix. Sequences with premature stop codons were excluded from all analyses. Maximum likelihood phylogenetic trees were then generated from these alignments using RAxML v.8.2.9 under the GTRGAMMA model with 1,000 bootstraps. To analyze changes between reservoir and rebound viruses, gag sequences were aligned at the amino acid level to a HXB2 reference using ClustalW v.2.1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors/reviewers. We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Research guidelines for submitting code & software for further information.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "Policy information about availability of data All manuscripts must include a data availability statement. This statement should provide the following information, where applicable:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "-Accession codes, unique identifiers, or web links for publicly available datasets -A list of figures that have associated raw data -A description of any restrictions on data availability",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "Sequences from all isolated viruses are available in GenBank, accession numbers MN750027 -MN750174. Additional datasets that support the findings of this study are available from the corresponding authors on reasonable request.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Presence of an inducible HIV-1 latent reservoir during highly active antiretroviral therapy",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chun",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "94",
+            "issn": "",
+            "pages": "13193--13197",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Identification of a reservoir for HIV-1 in patients on highly active antiretroviral therapy",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Finzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Science",
+            "volume": "278",
+            "issn": "",
+            "pages": "1295--1300",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Broadly neutralizing anti-HIV-1 monoclonal antibodies in the clinic",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Caskey",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Nussenzweig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Med",
+            "volume": "25",
+            "issn": "",
+            "pages": "547--553",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Combination therapy with anti-HIV-1 antibodies maintains viral suppression",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mendoza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "561",
+            "issn": "",
+            "pages": "479--484",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Temporal association of cellular immune responses with the initial control of viremia in primary human immunodeficiency virus type 1 syndrome",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Koup",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J. Virol",
+            "volume": "68",
+            "issn": "",
+            "pages": "4650--4655",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The first T cell response to transmitted/founder virus contributes to the control of acute viremia in HIV-1 infection",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Goonetilleke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Exp. Med",
+            "volume": "206",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Vigorous HIV-1-specific CD4 + T cell responses associated with control of viremia",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rosenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Science",
+            "volume": "278",
+            "issn": "",
+            "pages": "1447--1450",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Genetic and immunologic heterogeneity among persons who control HIV infection in the absence of therapy",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pereyra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Infectious Dis",
+            "volume": "197",
+            "issn": "",
+            "pages": "563--571",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "HIV nonprogressors preferentially maintain highly functional HIV-specific CD8 + T cells",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Betts",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Blood",
+            "volume": "107",
+            "issn": "",
+            "pages": "4781--4789",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Enhanced clearance of HIV-1-infected cells by broadly neutralizing antibodies against HIV-1 in vivo",
+            "authors": [
+                {
+                    "first": "C.-L",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Science",
+            "volume": "352",
+            "issn": "",
+            "pages": "1001--1004",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Early antibody therapy can induce long-lasting immunity to SHIV",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nishimura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature",
+            "volume": "543",
+            "issn": "",
+            "pages": "559--563",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "HIV-1 antibody 3BNC117 suppresses viral rebound in humans during treatment interruption",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Scheid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nature",
+            "volume": "535",
+            "issn": "",
+            "pages": "556--560",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Effect of therapeutic intensification followed by HIV DNA prime and rAd5 boost vaccination on HIV-specific immunity and HIV reservoir (EraMune 02): a multicentre randomised clinical trial",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Achenbach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Lancet HIV",
+            "volume": "2",
+            "issn": "",
+            "pages": "82--91",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Immune activation and HIV-specific T cell responses are modulated by a cyclooxygenase-2 inhibitor in untreated HIV-infected individuals: an exploratory clinical trial",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Prebensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS ONE",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Frequency of class I HLA-Restricted Anti-HIV CD8+ T cells in individuals receiving highly active antiretroviral therapy (HAART)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gray",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Stimulation of HIV-specific cellular immunity by structured treatment interruption fails to enhance viral control in chronic HIV infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Oxenius",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "99",
+            "issn": "",
+            "pages": "13747--13752",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Superior control of HIV-1 replication by CD8 + T cells is reflected by their avidity, polyfunctionality, and clonal turnover",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Almeida",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Exp. Med",
+            "volume": "204",
+            "issn": "",
+            "pages": "2473--2485",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Phenotypic and functional profile of HIV-inhibitory CD8 + T cells elicited by natural infection and heterologous prime/boost vaccination",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Freel",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Comparative analysis of activation induced marker (AIM) assays for sensitive identification of antigen-specific CD4 + T cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS ONE",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Altered differentiation is central to HIV-specific CD4 + T cell dysfunction in progressive disease",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Morou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Immunol",
+            "volume": "20",
+            "issn": "",
+            "pages": "1059--1070",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Similarities among retrovirus proteins",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Patarca",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Haseltine",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Nature",
+            "volume": "312",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Ex vivo T cell-based HIV suppression assay to evaluate HIV-specific CD8 + T cell responses",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Saez-Cirion",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Versmisse",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Barre-Sinoussi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pancino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nat. Protoc",
+            "volume": "5",
+            "issn": "",
+            "pages": "1033--1041",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "High levels of HIV-1 in plasma during all stages of infection determined by competitive PCR",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Piatak",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Science",
+            "volume": "259",
+            "issn": "",
+            "pages": "1749--1754",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Antibody and TLR7 agonist delay viral rebound in SHIV-infected monkeys",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Borducchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "563",
+            "issn": "",
+            "pages": "360--364",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A prospective trial of structured treatment interruptions in human immunodeficiency virus infection",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fagard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Arch. Intern. Med",
+            "volume": "163",
+            "issn": "",
+            "pages": "1220--1226",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Fc\u03b3 receptor pathways during active and passive immunization",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bournazos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Ravetch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Immunol. Rev",
+            "volume": "268",
+            "issn": "",
+            "pages": "88--103",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "All antibodies used for flow cytometry are listed in supplementary tables 1, 2 and 5, which describe the specific panels used",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "CD8 APC-Fire750 SK1",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "CD40L BV421, TRAP1, BD Biosciences 563886, lot#6280762, 5 \u03bcl/test",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "CD107A BV786, H4A3, BD Biosciences 563869, lot#8144866, 5 \u03bcl/test",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "BD Biosciences 550078, lot#8176503, 1 \u03bcl/test nature research | reporting summary October",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mip1\u03b2",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "21--1351",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "CD69 BUV395, FN50, BD Biosciences 564364, lot#8242749, 5 \u03bcl/test",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "CD137 (4-1BB) PE-Cy7",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "PD-1 Alexa Fluor 647, EH12.2H7, Biolegend 329910, lot# B241533, 2.5 \u03bcl/test",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "CD19 BUV737, SJ25C1, BD Biosciences 564303, lot#5100759, 3 \u03bcl/test",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "1 \u03bcl/test Validation 3BNC117 and 10-1074 that were administered to the participants were manufactured by Celldex Therapeutics under Good Manufacturing Practice and have been fully characterized in terms of biophysical properties and potency (INDs 118225 and 123713)",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hiv-1 Gag",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kc57",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Beckman",
+                    "middle": [],
+                    "last": "Coulter",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "They are being investigated under US FDA INDs 118225 and 123713",
+            "volume": "6604667",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "All antibodies used for flow cytometry were commercially available. Clones and companies are listed in the supplementary tables 1, 2 and 5",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "CD3 BUV395, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested, BD Biosciences) 2. CD4 BUV496, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "CD8 APC-Fire750, reactivity: human (Biolegend), application: flow cytometry (quality tested",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "CD14 BV510, reactivity: human (Biolegend), application: flow cytometry (quality tested",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "CD19 BV510, reactivity: human (Biolegend), application: flow cytometry (quality tested",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "CD40L BV421, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "CD56 BUV737, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "CD69 PerCP-eFluor710, reactivity: human (ThermoFisher), tested applications: flow cytometry",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "CD107A BV786, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested, BD Biosciences) 10. IFN\u03b3 PE-Cy7, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "reactivity: human (Biolegend), application: flow cytometry (quality tested, Biolegend) 12. MIP1\u03b2 PE, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested, BD Biosciences) 13. TNF\u03b1 APC, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested, BD Biosciences) 14. CD3 PerCP-eFluor710, reactivity: human (ThermoFisher), tested applications: flow cytometry",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pe-Dazzle594",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "CD8 BV711, reactivity: human (Biolegend), application: flow cytometry (quality tested, Biolegend) 16. CD69 BUV395, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested, BD Biosciences) 17. CD137 (4-1BB) PE-Cy7, reactivity: human (Biolegend), application: flow cytometry (quality tested, Biolegend) 18. PD-L1 BV421, reactivity: human (Biolegend), application: flow cytometry (quality tested, Biolegend) 19. HLA-DR APC-eFluor780, reactivity: human (ThermoFisher), tested applications: flow cytometry (Thermofisher) 20. CD38 PE, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested, BD Biosciences) 21. PD-1 Alexa Fluor 647, reactivity: human (Biolegend), application: flow cytometry (quality tested, Biolegend) 22. CD4 PE-Cy7, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested, BD Biosciences) 23. CD14 BUV737, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested, BD Biosciences) 24. CD19 BUV737, reactivity: human (QC testing, BD Biosciences), application: flow cytometry (routinely tested, BD Biosciences) 25. HIV-1 Gag PE",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "HIV-1-infected, on ART for a minimum of 24 months, with plasma HIV-1 RNA levels of 50 copies/ml for at least 18 months (one viral blip of >50 but <500 copies/ml during this 18-month period was allowed), plasma HIV-1 RNA levels of <20 copies/ml at the screening visit, and a current CD4+ T cell count >500 cells/\u03bcl. Clinical data are summarized in extended data figure 1 and 5. To study HIV-specific T cell responses during ART suppression",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Recruitment Participants of the bNAb+ATI trial were pre-screened for sensitivity of latent proviruses against 3BNC117 and 10-1074 antibodies by bulk PBMC viral outgrowth. Sensitivity was defined as an IC50 < 2 \u03bcg/ml for both antibodies against outgrowth virus. Participants harboring sensitive viruses were invited for screening and were enrolled in the study sequentially",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "HIV-infected individuals on continuous ART were recruited at the Rockefeller University",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "The clinical trial protocol was approved by the Federal Drug Administration in the USA, the Paul-Ehrlich-Institute in Germany, and the Institutional Review Boards (IRBs) at the Rockefeller University and the University of Cologne. The protocol for collection of samples from ART-suppressed participants was approved by the",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "All manuscripts should comply with the ICMJE guidelines for publication of clinical research and a completed CONSORT checklist must be included with all submissions. Clinical trial registration NCT02825797 Study protocol",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "For this study, we used PBMC samples collected at Rockefeller University or University of Cologne from enrolled HIV-infected trial participants at week -2, 6/7",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mendoza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "561",
+            "issn": "",
+            "pages": "479--484",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "For the immunological exploratory substudy presented here, we pre-selected participants with a specific outcome (maintained viral suppression for >12 weeks after analytical treatment interruption)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Flow Cytometry Plots Confirm that: The axis labels state the marker and fluorochrome used (e.g. CD4-FITC)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Include numbers along axes only for bottom left plot of group (a 'group' is an analysis of identical markers)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "All plots are contour plots with outliers or pseudocolor plots. A numerical value for number of cells or percentage",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Cryopreserved PBMCs were thawed, rested, stimulated, fixed, permeabilized and stained according to the demands on each experiment. All details are mentioned in the Methods section",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Instrument LSRII (BD Biosciences) and LSR Fortessa (BD) for standard flow cytometry",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Software Flow cytometry data were collected by DIVA 8.0.1 and analyzed with Flowjo v10 (Treestar)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Cell population abundance For Flow Cytometry",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Gating strategy The generic gating strategy is explained in supplementary figures 1&2 and extended data figures 6& 9",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Tick this box to confirm that a figure exemplifying the gating strategy is provided in the Supplementary Information",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Increased frequency of Gag-specific T cells during ATI in bNAb-treated individuals. a, Study design. b,c, Net frequency of cytokine + CD8 + (b) or CD4 + cells (c) after Gag stimulation at weeks \u22122, 6/7, 12 and 18. Total cytokine + cells include cells that express at least one cytokine and effector function upon Gag stimulation (CD107A, IFN-\u03b3, MIP1-\u03b2 and/or TNF-\u03b1 for CD8 + ; CD40L, IFN-\u03b3, IL-2 and/or TNF-\u03b1 for CD4 + ). Net value was calculated by subtracting the frequency of cytokine + cells detected in a DMSO control. Bars show median values. Symbols represent biologically independent samples from n = 9 (weeks -2, 6/7 and 12) and n = 7 (week 18) bNAb-treated individuals with suppressed viral load during ATI (week 18 sample was not available for individual 9244 and individual 9242 reinitiated ART after viral rebound at week 15). Lines connect data from the same donor. P values comparing responses at week 6/7, 12 or 18 versus baseline (week -2) were calculated using a paired two-tailed Wilcoxon test.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Polyfunctionality of Gag-specific T cells. T cell cytokine coexpression after HIV-1 Gag peptide pool stimulation was evaluated in bNAb + ATI individuals by ICS and analyzed using combination gates. a, Coexpression of CD107A, IFN-\u03b3, MIP1-\u03b2 and TNF-\u03b1 in CD8 + T cells. b, Coexpression of CD40L, IFN-\u03b3, IL-2 and TNF-\u03b1 in CD4 + T cells. Box-and-whisker plots show median values (line), 25th to 75th percentiles (box outline) and minimum and maximum values (whiskers); n = 9 (weeks \u22122, 6/7 and 12) and n = 7 (week 18) biologically independent samples from bNAb-treated individuals with suppressed viral load during ATI. P values comparing responses at week 6/7, 12 or 18 versus baseline (week \u22122) were calculated using a paired two-tailed Wilcoxon test.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "responses to HIV-1 Gag epitopes. PBMCs obtained at week \u22122 and 12 were evaluated for IFN-\u03b3 ELISpot responses to 123 peptides spanning the entire HIV-1 Gag protein (Consensus Clade B sequence). a-d, Plots showing PBMC IFN-\u03b3 ELISpot response calculated as spot-forming units (s.f.u.) per 10 6 PBMCs for individuals with broadened IFN-\u03b3 ELISpot response at week 12 (dark gray bars) compared to week \u22122 (white bars): 9244, 9246, 9252 and 9255. e, PBMC IFN-\u03b3 ELISpot responses at week \u22122 were plotted against week 12 responses for all nine individuals in the bNAb + ATI group. White symbols represent responses that were below the limit of detection (LOD) for both time points. Responses were considered as new (red symbols) if responses were undetectable for week \u22122 and detectable for week 12. Responses were considered as unchanged (light gray symbols) if number of spots did not differ by more than twofold between both time points. Responses were considered as increased (blue symbols) if number of spots for week \u22122 were increased by more than twofold for week 12 versus week \u22122. f, Doughnut chart depicting proportion of new, increased or unchanged IFN-\u03b3 ELISpot responses within all detectable responses (n = 22) of the nine individuals at week 12. g, Summary of detectable IFN-\u03b3 ELISpot responses at week 12 for all nine bNAb study participants. The LOD of 50 s.f.u. per 10 6 PBMCs is indicated as a dashed line in a-e.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "). Clinical data of all participants are shown in Extended Data Figs. 1a and 5a. Individuals on continuous ART were enrolled in an observational study at the Rockefeller University. Clinical data of all ART individuals are shown in Extended Data Fig. 2a. The studies were approved by the Rockefeller University and the University of Cologne Institutional Review Boards and written informed consent was obtained from all participants before study enrollment. Secondary use of samples was approved by the University of Montr\u00e9al Hospital Institutional Review Board. Intracellular cytokine staining. PBMCs were thawed and rested for 2 h in RPMI 1640 medium (Gibco by Life Technologies) supplemented with 10% FBS (Seradigm), penicillin and streptomycin (Gibco by Life Technologies) and HEPES (Gibco by Life Technologies) and stimulated with a HIV-1 Consensus B Gag peptide pool (0.5 \u03bcg ml \u22121 per peptide; NIH AIDS Reagent Program) or CMV pp65 peptide pool (0.5 \u03bcg ml \u22121 per peptide; JPT Peptide Technologies) for 6 h in the presence of anti-CD107A-BV786 (BD Biosciences), Brefeldin A (BD Biosciences) and monensin (BD Biosciences) at 37 \u00b0C and 5% CO 2 . DMSO-treated cells served as a negative control. Cells were stained for aquavivid viability marker (Life Technologies) for 20 min at 4 \u00b0C and surface markers (30 min, 4 \u00b0C), followed by intracellular detection of cytokines using the IC Fixation/Permeabilization kit (eBioscience) according to the manufacturer's protocol before acquisition at an LSRFortessa flow cytometer (BD Biosciences) (see Supplementary Table 1 for antibody staining panel).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Pelletier, S. et al. Increased degranulation of natural killer cells during acute HCV correlates with the magnitude of virus-specific T cell responses. J. Hepatol. 53, 805-816 (2010). 28. Lu, C.-L. et al. Relationship between intact HIV-1 proviruses in circulating CD4( + ) T cells and rebound viruses emerging during treatment interruption. Proc. Natl Acad. Sci. USA 115, E11341-E11348 (2018). 29. Salazar-Gonzalez, J. F. et al. Deciphering human immunodeficiency virus type 1 transmission and early envelope diversification by single-genome amplification and sequencing. J. Virol. 82, 3952-3970 (2008). 30. Larkin, M. A. et al. Clustal W and Clustal X version 2.0. Bioinformatics 23, 2947-2948 (2007). 31. Stamatakis, A. RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics 30, 1312-1313 (2014). 32. Gartner, S. et al. The role of mononuclear phagocytes in HTLV-III/LAV infection. Science 233, 215-219 (1986). Study participant clinical characteristics. (a) Study participant demographics and baseline clinical data 4 . Amer Indian: American Indian; Hisp: Hispanic; cobi: cobicistat; DTG: dolutegravir; EFV: efavirenz; EVG: elvitegravir; FTC: emtricitabine; RPV: rilpivirine; TAF: tenofovir alafenamide fumarate; TDF: tenofovir disoproxil fumarate. NNRTI-based regimens were switched four weeks before ART interruption due to longer half-lives of NNRTIs. All participants harboured clade B viruses. Viral load <20D: plasma HIV-1 RNA detected but not quantifiable by clinical assays. d0: day 0; dx: diagnosis; Scr: screening. (b) Levels of plasma HIV-1 RNA (black; left y axis) and serum concentration of 3BNC117 (red) and 10-1074 (blue, right y axis) in the 9 participants enrolled in the bNAb+ATI trial 4 . Frequency of Gag-specific CD4 + and CD8 + unchanged in ArT-treated individuals over time. T cell cytokine coexpression after 6h HIV-1 Gag peptide pool stimulation was evaluated by intracellular cytokine staining (ICS) in individuals on continuous ART. (a) Demographics and clinical data of ART-treated individuals. 3TC: lamivudine; ABC: abacavir; cobi: cobicistat; DRV: darunavir; DTG: dolutegravir; EFV: efavirenz; EVG: elvitegravir; FTC: emtricitabine; RAL: raltegravir; rit: ritonavir; RPV: rilpivirine; SQV: saquinavir; TAF: tenofovir alafenamide fumarate; TDF: tenofovir disoproxil fumarate. Viral load <20D: plasma HIV-1 RNA detected but not quantifiable by clinical assays. n.d.: not determined. (b) Cytokine analysis of CD8 + and CD4 + after HIV-1 Gag peptide pool stimulation at week 0 and 12. Symbols represent biologically independent samples from n=13 individuals on continuous ART. Lines connect data from the same donor. Bars show median values. P values were calculated by paired two-tailed Wilcoxon test. Individual Gag-specific T cell responses measured by ICS. (ab) Net frequency of total cytokine + CD8 + (a) or CD4 + cells (b) after Gag stimulation for each individual study participant. Total cytokine + cells include cells that express at least one cytokine/effector function upon Gag stimulation (CD107A, IFN\u03b3, MIP1\u03b2 and/or TNF\u03b1 for CD8 + ; CD40L, IFN\u03b3, IL-2 and/or TNF\u03b1 for CD4 + ). Net value was calculated by subtracting frequency of total cytokine + cells detected in a DMSO control. ND: Week 18 sample was not available for individual 9244. *9242 week 18 on ART after viral rebound at week 15.Letters Nature MediciNe Extended Data Fig. 4 | unchanged frequency of CMV-specific effector T cells detected by intracellular cytokine staining. PBMCs were stimulated with CMV pp65 peptide pools for 6h and cytokine production was evaluated by ICS in bNAb+ATI individuals at week -2 and week 12. (ab) Cytokine analysis of CD8 + (a) or CD4 + T cells (b) at week -2 and week 12 after CMV pp65 stimulation. Net frequency of stimulated condition was calculated by subtracting frequency detected in a DMSO control. Symbols represent biologically independent samples from n=9 bNAb+ATI individuals. Lines connect data from the same donor. Bars show median values. P values are indicated in graphs and were calculated by paired two-tailed Wilcoxon test. Letters Nature MediciNe Extended Data Fig. 5 | HIV-1 Gag-specific T cell responses in early rebounders with bNAb-resistant reservoir. (a) Study participant demographics and baseline clinical data 4 . Hisp: Hispanic; cobi: cobicistat; EVG: elvitegravir; FTC: emtricitabine; TAF: tenofovir alafenamide fumarate; TDF: tenofovir disoproxil fumarate. All participants harboured clade B viruses. d0: day 0; dx: diagnosis; Scr: screening. (b) Levels of plasma HIV-1 RNA (black; left y axis) and serum concentration of 3BNC117 (red) and 10-1074 (blue, right y axis) in the 2 participants enrolled in the bNAb+ATI trial with early rebound due to bNAbresistant reservoir 4 . (c) Net frequency of total cytokine + CD8 + or CD4 + T cells after HIV-1 Gag stimulation in both individuals at weeks -No change in HLA-Dr/CD38 and PD-1 expression of HIV-1-specific T cell responses. HIV-1-specific T cell responses identified by PD-L1/CD69/4-1BB AIM assay were analyzed for surface expression of HLA-DR/CD38 and PD-1. (a) Representative plot showing expression of HLA-DR/ CD38 and PD-1 on AIM + HIV-1-specific CD8 + (upper graphs) and CD4 + T cells (lower graphs). Flow panels are representative of n=6 (CD8 + ) or n=8 (CD4 + ) biologically independent bNAb+ATI individuals. (b) Frequency of HLA-DR + CD38 + or PD-1 + of HIV-1-specific CD8 + and CD4 + T cell responses at week -2 or week 12. Symbols represent biologically independent samples from n=6 (CD8 + ) and n=8 (CD4 + ) bNAb+ATI individuals. Only samples with AIM-responses that are at least 2-fold over DMSO-stimulated control condition were analyzed for phenotype to limit the contribution of background events. Lines connect data from the same donor. Bars show median values. P values are indicated in graphs and were calculated by paired two-tailed Wilcoxon test. Dynamics of T cell responses to multiple HIV-1 antigens in bNAb+ATI individuals. (ab) Frequency of CD8 + (a) and CD4 + T cells (b) specific to HIV-1 Pol, Nef, gp120 or gp41 were evaluated by CD69/PD-L1/4-1BB AIM assay at weeks -2 and 12. Individuals with viral suppression >30 weeks (9254, 9255) are marked with an asterisk (*). (c) Number of increased HIV-specific CD4 + and CD8 + T cell responses in n=7 biologically independent individuals with 15-26 weeks of viral control after ATI (15-26 weeks: 9241, 9242, 9243, 9244, 9246, 9247, 9252) versus n=2 biologically independent individuals with viral control beyond 30 weeks after ATI (>30 weeks: 9254 and 9255). Number of increased HIV-specific T cell responses was calculated as the sum of single HIV antigens (Gag, Pol, Nef, gp120, gp41) for which we observed an increase at week 12 versus week -2. Bars represent median values with IQR.LettersNature MediciNeExtended DataFig. 10| Comparison of the circulating latent reservoir and rebound viruses. Maximum likelihood phylogenetic trees of full-length gag sequences isolated from CD4 + T cell genomic near-full length (NFL) HIV-1 sequencing and rebound plasma SGA from participants 9241, 9242, 9243, 9244, 9246, 9247 and 9252. Open and closed black rectangles indicate NFL-derived viruses from pre-infusion (week -2) and week 12, respectively. Viruses obtained at the time of rebound are indicated by red rectangles (plasma SGA). Asterisks indicate individuals where there is at least one identical match between a gag sequence from the latent reservoir and the rebound viruses. wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency in reporting. For further information on Nature Research policies, see Authors & Referees and the Editorial Policy Checklist.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Give P values as exact values whenever suitable.For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo settingsFor hierarchical and complex designs, identification of the appropriate level for tests and full reporting of outcomes Estimates of effect sizes (e.g. Cohen's d, Pearson's r), indicating how they were calculated Our web collection on statistics for biologists contains articles on many of the points above.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "d, Extended Data Fig. 8 and Supplementary Table 4). Four individuals from these six (9244, 9246, 9252 and 9255) broadened the IFN-\u03b3 ELISpot response to Gag during ATI (Fig. 4a-d and Extended Data",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": ". Participant 9252 showed increased suppression of HIV-1 BaL in vitro at week 12 compared to baseline (ExtendedData Fig. 9b). However, 9246 was uninformative with no detectable impact on HIV-1 BaL outgrowth at baseline or week 12 (Extended Data",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank the clinical staff in the Laboratory of Molecular Immunology at the Rockefeller University and the Division of Infectious Diseases at the University Hospital Cologne, Field-specific reporting Please select the one below that is the best fit for your research. If you are not sure, read the appropriate sections before making your selection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Behavioural & social sciences Ecological, evolutionary & environmental sciencesFor a reference copy of the document with all sections, see nature.com/documents/nr-reporting-summary-flat.pdf",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Life sciences"
+        },
+        {
+            "text": "All studies must disclose on these points even when the disclosure is negative.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Life sciences study design"
+        },
+        {
+            "text": "No sample size calculation was performed. Results obtained from the bNAb+ATI clinical trial (NCT02825797) have been previously published in Mendoza et al., Nature 561, 479-484 (2018). Nine of the 15 study participants who fulfilled the study eligibility criteria harbored latent reservoir that was sensitive to both bNAbs (10-1074 and 3BNC117) and maintained viral suppression for 15 to >30 weeks after ART discontinuation. We analyzed all available study participants (n=9) with prolonged viral suppression for this manuscript.In addition, two study participants who harbored latent reservoir that was resistant to one of the two bNAbs and who rebounded early after ATI (week 5 or 7) were analyzed (Extended Data Figure 5 ).The number of individuals included in the historical comparison group of people on continuous ART (n=13) was chosen to approximately match the number of participants enrolled into the Phase Ib trial.Data exclusions No participant fulfilling the criteria mentioned above was excluded from the analyses.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 714,
+                    "end": 722,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Sample size"
+        },
+        {
+            "text": "Samples analyzed in this study were obtained from participants of a clinical trial (bNAb+ATI) or an observational study (ART) and samples were analyzed on individual study participants. Experiments did not include replicates as all participants and data points are unique. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Replication"
+        },
+        {
+            "text": "C.-L.L. and H.G. performed experiments; M.D. provided input on manuscript content and data representation; Y.Z.C. and A.L.B. contributed to recruitment and clinical assessments; I.S. coordinated and performed sample processing; J.N., M.C.N. and D.E.K. interpreted the data and wrote the paper with all co-authors' assistance; M.C.N. and D.E.K. provided supervision.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "There are patents on 3BNC117 (PTC/US2012/038400) and 10-1074 (PTC/US2013/ 065696) that list M.C.N. as an inventor. M.C.N. is a member of the Scientific Advisory Board of Frontier Bioscience. Gilead has the rights to develop the 3BNC117 and 10-1074 antibody combination for clinical use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        },
+        {
+            "text": "Extended data is available for this paper at https://doi.org/10.1038/s41591-019-0747-1.Supplementary information is available for this paper at https://doi.org/10.1038/ s41591-019-0747-1.Correspondence and requests for materials should be addressed to M.C.N. or D.E.K.Peer review information Alison Farrell was the primary editor on this article and managed its editorial process and peer review in collaboration with the rest of the editorial team.Reprints and permissions information is available at www.nature.com/reprints. Fraction of residual HIV-1 Gag + CD4 -T cells after 3, 5 or 7 days of co-culture with CD8 + T cells obtained at week -2 or week 12 for n=2 biologically independent individuals (9252 and 9246) normalized to infected CD4 + T cells cultured without CD8 + T cells. (c) Fraction of residual HIV-1 Gag + CD4 -T cells after 3, 5 or 7 days of co-culture with autologous CD8 + T cells for one HIV-1-uninfected control individual. Each condition was done in technical duplicates or triplicates depending on cell availability and mean values are shown.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Additional information"
+        }
+    ]
+}

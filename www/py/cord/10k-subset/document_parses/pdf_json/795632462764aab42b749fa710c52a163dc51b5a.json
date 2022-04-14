@@ -1,0 +1,1009 @@
+{
+    "paper_id": "795632462764aab42b749fa710c52a163dc51b5a",
+    "metadata": {
+        "title": "Population-Level Antibody Estimates to Novel Influenza A/H7N9",
+        "authors": [
+            {
+                "first": "Maciej",
+                "middle": [
+                    "F"
+                ],
+                "last": "Boni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nguyen",
+                "middle": [],
+                "last": "Van",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vinh",
+                "middle": [],
+                "last": "Chau",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Hospital for Tropical Diseases",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Nguyen",
+                "middle": [],
+                "last": "Dong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Stacy",
+                "middle": [],
+                "last": "Todd",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nguyen",
+                "middle": [],
+                "last": "Thi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Duy",
+                "middle": [],
+                "last": "Nhat",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Erwin",
+                "middle": [],
+                "last": "De Bruin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute for Public Health and the Environment",
+                    "location": {
+                        "settlement": "Bilthoven"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Janko",
+                "middle": [],
+                "last": "Van Beek",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute for Public Health and the Environment",
+                    "location": {
+                        "settlement": "Bilthoven"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nguyen",
+                "middle": [
+                    "Tran"
+                ],
+                "last": "Hien",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Cameron",
+                "middle": [
+                    "P"
+                ],
+                "last": "Simmons",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jeremy",
+                "middle": [],
+                "last": "Farrar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oxford University Clinical Research Unit",
+                    "location": {
+                        "settlement": "Ho Chi Minh City"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marion",
+                "middle": [],
+                "last": "Koopmans",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute for Public Health and the Environment",
+                    "location": {
+                        "settlement": "Bilthoven"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ho",
+                "middle": [],
+                "last": "Chi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Minh",
+                "middle": [],
+                "last": "City",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Khanh",
+                "middle": [],
+                "last": "Hoa",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nha",
+                "middle": [],
+                "last": "Trang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "There are no contemporary data available describing human immunity to novel influenza A/H7N9. Using 1723 prospectively collected serum samples in southern Vietnam, we tested for antibodies to 5 avian influenza virus antigens, using a protein microarray. General-population antibody titers against subtype H7 virus are higher than antibody titers against subtype H5 and lower than titers against H9. The highest titers were observed for human influenza virus subtypes. Titers to avian influenza virus antigens increased with age and with geometric mean antibody titer to human influenza virus antigens. There were no titer differences between the urban and the rural location in our study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Keywords. influenza; serology; H7N9; pandemic; microarray.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Influenza pandemics typically originate when avian or swine influenza viruses adapt to humans through reassortment or mutation. Not every cross-species jump causes an influenza pandemic, as seen by the differences last decade between the sporadic outbreaks of influenza A/H5N1 and the 2009 A/H1N1 pandemic, which spread worldwide in a matter of weeks. The current outbreak of subtype A/H7N9 human cases in China [1, 2] , with 130 cases confirmed in <3 months and no confirmation yet of human-to-human transmission, appears to be more transmissible from poultry to humans than H5N1 but does not yet resemble the transmission patterns of the 2009 pandemic. In any of these epidemiological scenarios, key clinical and epidemiological features are difficult to determine during the early outbreak or epidemic phase, and for this reason pandemic preparedness plans have been put into place globally in an attempt to mitigate or slow down the first stages of the epidemic and to gather early data.",
+            "cite_spans": [
+                {
+                    "start": 412,
+                    "end": 415,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 416,
+                    "end": 418,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "When a pandemic may be imminent, the key knowledge to have in place includes the pattern of population immunity for targeting protective measures and predicting the attack rate, virological parameters that enable the development of diagnostic tests and may inform about the effectiveness of drugs or vaccines, the clinical spectrum of disease, and the risk for severe infection. Data gathering will be prioritized differently depending on whether the early epidemiological data represent sporadic animal-to-human transmission (as with H5N1), consistent animal-to-human transmission (as with H7N9), or a rapidly spreading pandemic (as with 2009 H1N1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "One aspect of pandemic preparation that has not received much attention is the analysis of serological data in the early stages of a pandemic and whether these data can be used to inform the medical and public health communities about the immune status of the general population during this critical period. We address this topic here by presenting general-population serological data from an ongoing study in southern Vietnam, and we suggest the best way to interpret these results during the context of an emerging pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Since 2010, age-stratified serum sample collections have been ongoing in the Hospital for Tropical Diseases in Ho Chi Minh City, Vietnam, and in Khanh Hoa Provincial Hospital in Nha Trang, 300 km northeast of Ho Chi Minh City. Ho Chi Minh City is a densely populated major urban center with an official population of 7.5 million inhabitants. Nha Trang, with a population of 400 000, is the capital of Khanh Hoa province, and the Khanh Hoa Provincial Hospital serves the city of Nha Trang, as well as the surrounding rural areas. Anonymized and unlinked residual serum samples are collected in both hospitals from routine biochemistry and hematology analysis for the purpose of measuring influenza virus antibody titers. The serum samples are intended to represent the general population in each hospital's catchment region, as presentation to the hospital should not be correlated with history of influenza virus infection. Seasonal influenza vaccination in Vietnam is uncommon and therefore unlikely to influence antibody levels. The research protocol was approved by the Oxford Tropical Research Ethics Committee at the University of Oxford and by the Scientific and Ethical Committee of the Hospital for Tropical Diseases in Ho Chi Minh City.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "BACKGROUND AND METHODS"
+        },
+        {
+            "text": "A total of 1723 samples were collected between 2010 and 2012-939 from Ho Chi Minh City and 784 from Khanh Hoa -and were tested for immunoglobulin G antibodies to the hemagglutinin 1 (HA1) region of 5 avian influenza viruses and 11 human influenza viruses (Supplementary Table 1 ) by a protein microarray [3] [4] [5] . One of the 5 avian influenza virus antigens was that of the A/Chicken/Netherlands/1/2003 (H7N7) virus, whose HA1 protein shares 96% homology with the HA1 of the earliest H7N9 strains sequenced in China (A/Shanghai/ 2/2013 and A/Anhui/1/2013 [1] ). Only 10 amino acid positions differed between these 2 strains: V38I, T112A, D165N, I170V, T180A, I193V, I227M, E261G, N289D, and E303R (HA numbering as in [2] ). The last 2 positions do not appear to be in regions associated with binding of virus-neutralizing antibodies, and the remaining changes are largely conservative, but it is difficult to describe the antigenic characteristics of the viruses on the basis of the mutations alone. Nevertheless, the high level of homology makes it likely that there would be substantial serological cross-reaction between the HAs from these 2 viruses.",
+            "cite_spans": [
+                {
+                    "start": 304,
+                    "end": 307,
+                    "text": "[3]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 308,
+                    "end": 311,
+                    "text": "[4]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 312,
+                    "end": 315,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 559,
+                    "end": 562,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 721,
+                    "end": 724,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 270,
+                    "end": 277,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "BACKGROUND AND METHODS"
+        },
+        {
+            "text": "In addition to the subtype H7 antigen, the microarray includes 1 subtype H9 antigen and 3 H5 antigens (H5/04, H5/07, and H5/10; Supplementary Table 1) . Serology was performed on 4-fold dilutions (1:20, 1:80, 1:320, and 1:1280), and antibody titers were computed by fitting a 4-parameter log-logistic curve to 8 luminescence readouts (duplicate spots per antigen), using the curve's point of inflection as the titer measurement for that sample, as described previously [5] . Antibody titer measurements are continuous in this type of analysis and can fall anywhere between 20 and 1280. Titer measurements that fall outside this range were given scores of 10 and 1810. The assay was validated for pandemic 2009 H1N1 influenza by comparing results with hemagglutination inhibition (HI) assays; reactivity of H5, H7, and H9 antigens was confirmed using sera from immunized rabbits and chickens [5] .",
+            "cite_spans": [
+                {
+                    "start": 469,
+                    "end": 472,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 891,
+                    "end": 894,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 142,
+                    "end": 150,
+                    "text": "Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "BACKGROUND AND METHODS"
+        },
+        {
+            "text": "Statistical analysis was performed with R, version 3.0.0 (R Foundation for Statistical Computing, Vienna, Austria), and MATLAB (Mathworks, Natick, MA). Domestic chicken ownership data were obtained from the Government Statistics Office of Vietnam.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "BACKGROUND AND METHODS"
+        },
+        {
+            "text": "Antibodies binding to subtype H7 antigen are at higher titers than antibodies binding to H5; titers to H9 were the highest among the avian antigens. Geometric mean titers (GMTs) were 23.1 for H9 (95% confidence interval [CI], 21.8-24.4), 19.0 for H7 (95% CI, 18.1-20.0), 13.5 for both H5/10 and H5/07 (95% CI, 13.1-13.9), and 11.1 for H5/04 (95% CI, 10.9-11.3), while GMTs for human influenza virus antigens ranged from 60 to 200. This indicates that immunity to subtype H7 viruses should be low and comparable to that for other avian influenza viruses. The microarray assay is more sensitive than HI or microneutralization tests, but it has not yet been determined whether the binding differences observed among H5, H7, and H9 translate to differences in clinical protection. Because titers calculated from our assay are not directly comparable to HI or microneutralization tests, no cutoff is chosen to represent positivity or clinical protection. It is not possible to associate these titers with past exposure or past infection, as serological assays have not yet been validated for H7N9. On the basis of comparison of the H7 GMT with that of other antigens on the array, it is reasonable to assume that past exposure to avian H7 viruses is similar to past exposure to other avian influenza viruses. Figure 1 shows quantile-quantile plots for the entire titer distributions, as well as their top quartiles; top quartiles are shown because the majority of titers for each antigen were equal to 10 and the upper end of each distribution showed the most variation. Pair-wise differences between distributions were significant by both the Kolmogorov-Smirnov test and Wilcoxon rank-sum test (all P values were < 10 \u22125 ), except for the comparison between H5/07 and H5/10, whose titer distributions were very similar. These relative titers among H9, H7, and H5 are consistent with some [6, 7] but not all [8, 9] past serological investigation in various study populations.",
+            "cite_spans": [
+                {
+                    "start": 1884,
+                    "end": 1887,
+                    "text": "[6,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1888,
+                    "end": 1890,
+                    "text": "7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1903,
+                    "end": 1906,
+                    "text": "[8,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1907,
+                    "end": 1909,
+                    "text": "9]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1304,
+                    "end": 1312,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Antibody titers to all avian influenza virus antigens increase with age, as expected (Figure 2) , and this increase is largely explained by increased antibody titers to human influenza viruses (Supplementary Figure 1) . If we assume that infections with avian influenza viruses are rare, then the most likely explanation for the titer signals we observe to avian influenza virus antigens is cross-reactivity of antibodies generated by past infections with human influenza virus [10] . Diversity of influenza virus antibodies increases with age, as individuals accumulate an antibody repertoire to their different influenza virus infections, and it becomes more likely that these antibody populations are able to bind antigens from certain avian influenza viruses [11] .",
+            "cite_spans": [
+                {
+                    "start": 478,
+                    "end": 482,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 763,
+                    "end": 767,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 85,
+                    "end": 95,
+                    "text": "(Figure 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 208,
+                    "end": 217,
+                    "text": "Figure 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "No titer differences between locations were detected in the data (by the Kolmogorov-Smirnov test and Wilcoxon ranksum tests, after generating 100 subsamples without replacement to match age distributions between the 2 sites; Supplementary  Figure 2 ), although 38% of households in Khanh Hoa province keep domestic chickens, compared with 5.4% of households in Ho Chi Minh City. It is also plausible that in Khanh Hoa human influenza virus exposure is lower than in Ho Chi Minh City and that avian influenza virus exposure is higher than in Ho Chi Minh City. However, Supplementary Figure 1 shows that regression of the log titer of avian influenza virus antibody onto age and the log GMT of human influenza virus antibodies does not reveal differences in the regression coefficients by site. Thus, the data do not show evidence that domestic poultry ownership has an effect on immunoglobulin G antibody titers to avian subtype hemagglutinins [12] .",
+            "cite_spans": [
+                {
+                    "start": 943,
+                    "end": 947,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 225,
+                    "end": 248,
+                    "text": "Supplementary  Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 568,
+                    "end": 590,
+                    "text": "Supplementary Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Although validation of serological assays is impossible in the early months of a pandemic because of the lack of positive controls, serological measurements can still be informative when compared across age groups or antigens. The value of comparing antibody titers across antigens in a potentially prepandemic scenario is that it may alert us to a particularly dangerous situation in which cross-reactive antibodies to an emerging virus are lower than we expected; this would have been the case if H7-binding had been weaker than H5-binding in our assays. With pandemic preparedness in mind, antigen-antigen comparisons can also be used to prioritize vaccine development for H7 viruses over H9 viruses, if the higher titers to H9 can be correlated to some level of clinical protection. Comparing antibody titers across age groups can be useful for pandemic response, although these results will not always be available in time, as was the case in 2009 [13] .",
+            "cite_spans": [
+                {
+                    "start": 953,
+                    "end": 957,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The perfect seroepidemiological analysis early during a pandemic would be able to link quantitative differences in serology to quantitative differences in population transmission rates, but it will be many years before experimental and analytical methods are sophisticated enough to establish this link. For pathogens that confer complete immunity, this link can be established because the percentage of completely immune individuals can be equated to the percentage reduction in the basic reproduction number of the pathogen (if mixing patterns are known or assumed to be uniform). For influenza, however, antigenic diversity is high and partial immunity is the norm; thus, it is not currently possible to link the immunity measured in any influenza virus assay to quantitative reductions in susceptibility, viral replication, or transmissibility.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Prioritizing clinical and epidemiological research is an important component of pandemic response. If patients, contacts, and negative controls from the earliest infections can be enrolled and followed up for serology, validations for positive and negative serological results can be ready after 2-3 months, depending on the rate of spread, the case-fatality rate, and enrollment. In 2009, these serological results would have arrived too late, but for outbreaks involving the less transmissible H7N9 and H5N1 viruses, interpretation of serological findings could take place well before an outbreak becomes a pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "If the general-population serological responses in Vietnam are representative of other countries in East and Southeast Asia, then the results presented here may tell us something about relative levels of immune protection in the region. This gives us another reason to seek better understanding of global influenza virus circulation. If the current belief holds that influenza viruses circulate and mix globally in short periods (as suggested by Bahl et al [14] and in articles they cite), then the immunological landscapes constructed by influenza epidemics should be similar across countries. Taking national vaccination patterns into account [15] , serological studies from a limited number of sites could be used to inform the global response. If a coordinated research response involving serological analysis is perceived as too difficult logistically or scientifically, a simpler solution may be to preempt this need by maintaining recent serum collections that are either tested or ready for testing for a broad class of important pathogens.",
+            "cite_spans": [
+                {
+                    "start": 457,
+                    "end": 461,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 645,
+                    "end": 649,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Population-level immunity appears to be low to influenza A/H7N9 and comparable to what we observe for other avian influenza viruses. In southern Vietnam, we do not see evidence that the current H7N9 outbreaks represent a tip-of-the-iceberg observation of widespread H7N9 infection. We observed no differences between 2 areas with low and high levels of domestic poultry ownership, indicating that poultry ownership does not have an effect on avian influenza virus exposure or avian influenza virus antibody levels. If the H7N9 outbreaks develop into a human-transmissible epidemic, the current results will serve as a baseline for interpreting population-level serological data after the first wave of infections. Figure 2 . Scatter plots of antibody titers by antigen and age group. Red lines show 70th, 80th, and 90th quantiles of the data points. A single red line at 10 indicates that the 70th, 80th, and 90th quantiles of that data set are all equal to 10.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 714,
+                    "end": 722,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Supplementary materials are available at The Journal of Infectious Diseases online (http://jid.oxfordjournals.org/). Supplementary materials consist of data provided by the author that are published to benefit the reader. The posted materials are not copyedited. The contents of all supplementary data are the sole responsibility of the authors. Questions or messages regarding errors should be addressed to the author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Data"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Human infection with a novel avian-origin influenza A (H7N9) virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "N Engl J Med",
+            "volume": "368",
+            "issn": "",
+            "pages": "1888--97",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Origin and diversity of novel influenza A/ H7N9 viruses causing human infection: phylogenetic, structural, and coalescent analyses",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Detection of influenza A virus homo-and heterosubtype-specific memory B-cells using a novel protein microarray-based analysis tool",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Koopmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Bruin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Med Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "899--909",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Profiling of humoral response to influenza A (H1N1) pdm09 infection and vaccination measured by a protein microarray in persons with and without history of seasonal vaccination",
+            "authors": [
+                {
+                    "first": "Egw",
+                    "middle": [],
+                    "last": "Huijskens",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Reimerink",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pgh",
+                    "middle": [],
+                    "last": "Mulder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Profiling of humoral immune responses to influenza viruses by using protein microarray",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Koopmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Bruin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G-J",
+                    "middle": [],
+                    "last": "Godeke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Clin Microbiol Infect",
+            "volume": "18",
+            "issn": "",
+            "pages": "797--807",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Antibodies against H5 and H9 avian influenza among poultry workers in China",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-X",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "N Engl J Med",
+            "volume": "360",
+            "issn": "",
+            "pages": "2583--2587",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Serosurvey against H5 and H7 avian influenza viruses in Italian poultry workers",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Trani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Porru",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bonfanti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Avian Dis",
+            "volume": "56",
+            "issn": "",
+            "pages": "1068--71",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Evidence of previous avian influenza infection among US turkey workers",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kayali",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ortiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chorazy",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gray",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Zoonoses Public Health",
+            "volume": "57",
+            "issn": "",
+            "pages": "265--72",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Evidence for avian influenza A infections among Iowa's agricultural workers",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mccarthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Capuano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Setterquist",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Alavanja",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lynch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Influenza Other Respi Viruses",
+            "volume": "2",
+            "issn": "",
+            "pages": "61--70",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Seasoned adaptive antibody immunity for highly pathogenic pandemic influenza in humans",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lynch",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Selleck",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Church",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sullivan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Immunol Cell Biol",
+            "volume": "90",
+            "issn": "",
+            "pages": "149--58",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Heterosubtype neutralizing responses to influenza A (H5N1) viruses are mediated by antibodies to virus haemagglutinin",
+            "authors": [
+                {
+                    "first": "J-M",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pepin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lagarde",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS One",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Evidence for subclinical avian influenza virus infections among rural Thai villagers",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Khuntirat",
+                    "suffix": ""
+                },
+                {
+                    "first": "I-K",
+                    "middle": [],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Blair",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Clin Infect Dis",
+            "volume": "53",
+            "issn": "",
+            "pages": "107--123",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Serum cross-reactive antibody response to a novel influenza A (H1N1) virus after vaccination with seasonal influenza vaccine",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hancock",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Veguilla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "58",
+            "issn": "",
+            "pages": "521--525",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Temporally structured metapopulation dynamics and persistence of influenza A H3N2 virus in humans",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "108",
+            "issn": "",
+            "pages": "19359--64",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Cross-subtype immunity against avian influenza in persons recently vaccinated for influenza",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gioia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Castilletti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tempestilli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Emerg Infect Dis",
+            "volume": "14",
+            "issn": "",
+            "pages": "121--129",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Quantile-quantile plots showing comparisons of titer distributions among 5 antigens (n = 1723; upper left). Titer values and specific antigens are labeled on both axes. The 10 subplots in the lower-right part of the graph show quantile-quantile plots of the top quartile of individuals (n = 431) with the highest geometric mean antibody titers across the 5 avian influenza virus antigens. All pair-wise distribution comparisons show that the distributions are statistically significantly different (all P values are < 10 \u22125 , by the Kolmogorov-Smirnov and Wilcoxon rank-sum tests), except for the 2 panels marked \"NS\" (ie, not significant). Antigen abbreviations are A/Vietnam/1194/2004 (H5/04), A/Cambodia/R0405050/2007 (H5/07), A/Hubei/1/2010 (H5/10), A/ Chicken/Netherlands/1/2003 (H7), and A/Guinea Fowl/Hong Kong/WF10/1999 (H9).",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

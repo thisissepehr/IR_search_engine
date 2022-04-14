@@ -1,0 +1,1101 @@
+{
+    "paper_id": "e7522f4e4b1359da1656fa2c5e1ee9cba9d16909",
+    "metadata": {
+        "title": "Journal Pre-proof Considerations for Drug Interactions on QTc in Exploratory COVID-19 (Coronavirus Disease 2019) Treatment Considerations for Drug Interactions on QTc in Exploratory COVID-19 (Coronavirus Disease 2019) Treatment Running Title: Roden et al.; Drug Interactions on QTc in Exploratory COVID-19 Treatment",
+        "authors": [
+            {
+                "first": "Dan",
+                "middle": [
+                    "M C M"
+                ],
+                "last": "Roden",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vanderbilt University School of Medicine",
+                    "location": {
+                        "settlement": "Nashville",
+                        "region": "TN"
+                    }
+                },
+                "email": "dan.roden@vumc.org"
+            },
+            {
+                "first": "Robert",
+                "middle": [
+                    "A"
+                ],
+                "last": "Harrington",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University",
+                    "location": {
+                        "settlement": "Stanford",
+                        "region": "CA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Athena",
+                "middle": [],
+                "last": "Poppas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Brown University School of Medicine",
+                    "location": {
+                        "settlement": "Providence",
+                        "region": "RI"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrea",
+                "middle": [
+                    "M"
+                ],
+                "last": "Russo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Vanderbilt University School of Medicine 1285B Medical Research Building-IV",
+                    "institution": "Rowan University",
+                    "location": {
+                        "addrLine": "2215B Garland Avenue Nashville",
+                        "postCode": "37232-0575",
+                        "settlement": "Camden",
+                        "region": "NJ, TN"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Hydroxychloroquine and azithromycin have been touted for potential prophylaxis or treatment for COVID-19 (coronavirus disease 2019) infection. Both drugs are listed as definite causes of torsade de pointes at crediblemeds.org. There are occasional case reports of hydroxychloroquine prolonging the QT interval and provoking torsade de pointes 1-4 when used to treat systemic lupus erythematosus. Antimalarial prophylactic drugs, such as hydroxychloroquine, are believed to act on the entry and post-entry stages of SARS-CoV (severe acute respiratory syndrome-associated coronavirus) and SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) infection, likely via effects on endosomal pH and the resulting under-glycosylation of angiotensinconverting enzyme 2 receptors that are required for viral entry. 5 The widely used antibiotic azithromycin is increasingly recognized as a rare cause of QT prolongation, 6,7 serious arrhythmias, 8, 9 and increased risk for sudden death 10 ; advanced age and female sex have been implicated as risk factors. Interestingly, azithromycin can also provoke non-pause-dependent polymorphic ventricular tachycardia. 11, 12 The FDA Perspective supported the observations that azithromycin administration leaves the patient vulnerable to QTc interval prolongation and torsade de pointes. 13 Basic electrophysiologic studies suggest that both drugs can provoke proarrhythmia via mechanisms beyond block of I Kr implicated in usual cases of torsade de pointes. 14, 15 The effect of the combination of these agents on QT or arrhythmia risk has not been studied. There are very limited data evaluating the safety of combination therapy. Multiple randomized trials are currently being initiated.",
+            "cite_spans": [
+                {
+                    "start": 811,
+                    "end": 812,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 941,
+                    "end": 943,
+                    "text": "8,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 944,
+                    "end": 945,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1155,
+                    "end": 1158,
+                    "text": "11,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1159,
+                    "end": 1161,
+                    "text": "12",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1325,
+                    "end": 1327,
+                    "text": "13",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1496,
+                    "end": 1499,
+                    "text": "14,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1500,
+                    "end": 1502,
+                    "text": "15",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Seriously ill patients often have comorbidities that can increase risk of serious arrhythmias. These include hypokalemia, hypomagnesemia, fever, 16 and an inflammatory state. 17 Mechanisms to minimize arrhythmia risk include: o In patients critically ill with COVID-19 infection, frequent caregiver contact may need to be minimized, so optimal electrocardiographic interval and rhythm monitoring may not be possible.",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 147,
+                    "text": "16",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 175,
+                    "end": 177,
+                    "text": "17",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "\u2022 Correction of hypokalemia to levels of >4 mEq/L and hypomagnesemia to levels of >2 mg/dL.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "\u2022 Avoid other QTc prolonging agents 5 whenever feasible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Safety considerations for use of hydroxychloroquine and azithromycin in clinical practice have been described. 18 Some of the current COVID-19 repurposed drugs are listed in the Table. ",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 113,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Chronic hydroxychloroquine use associated with QT prolongation and refractory ventricular arrhythmia",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Clin Toxicol (Phila)",
+            "volume": "44",
+            "issn": "",
+            "pages": "173--175",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Suspected hydroxychloroquine-associated QT-interval prolongation in a patient with systemic lupus erythematosus",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Morgan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Dvorkina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Clin Rheumatol",
+            "volume": "19",
+            "issn": "",
+            "pages": "286--288",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Life threatening severe QTc prolongation in patient with systemic lupus erythematosus due to hydroxychloroquine",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "O&apos;laughlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Case Reports in Cardiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Toxicokinetics of hydroxychloroquine following a massive overdose",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "De Olano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Howland",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hoffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Biary",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Emerg Med",
+            "volume": "37",
+            "issn": "",
+            "pages": "2264--2269",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Urgent guidance for navigating and circumventing the QTc prolonging and torsadogenic potential of possible pharmacotherapies for COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Giudicessi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Noseworthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ackerman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Risk evaluation of azithromycin-induced QT prolongation in real-world practice",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-S",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-G",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yoon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BioMed Research International",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Incidence of sustained ventricular tachycardia in patients with prolonged QTc after the administration of azithromycin: a retrospective study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sears",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Getz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Austin",
+                    "middle": [],
+                    "last": "Co",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Palmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Boyd",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Stancampiano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Drugs Real World Outcomes",
+            "volume": "3",
+            "issn": "1",
+            "pages": "99--105",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Azithromycin-induced torsade de pointes",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hsia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yin",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Pacing Clin Electrophysiol",
+            "volume": "30",
+            "issn": "",
+            "pages": "1579--1582",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Azithromycin as a cause of QTinterval prolongation and torsade de pointes in the absence of other known precipitating factors",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kezerashvili",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Khattak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Barsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nazari",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Fisher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Interv Card Electrophysiol",
+            "volume": "18",
+            "issn": "",
+            "pages": "243--246",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Azithromycin and the risk of cardiovascular death",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ray",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Murray",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Arbogast",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Stein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "N Engl J Med",
+            "volume": "366",
+            "issn": "",
+            "pages": "1881--1890",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Polymorphic ventricular tachycardia with a normal QT interval following azithromycin",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Berkowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Trohman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Pacing Clin Electrophysiol",
+            "volume": "28",
+            "issn": "",
+            "pages": "1221--1222",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Azithromycin causes a novel proarrhythmic syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Prinsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bersell",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yermalitskaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sidorova",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Luis",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Circ Arrhythm Electrophysiol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Cardiovascular risks with azithromycin and other antibacterial drugs",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mosholder",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mathew",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alexander",
+                    "middle": [
+                        "Jj"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nambiar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "N Engl J Med",
+            "volume": "368",
+            "issn": "",
+            "pages": "1665--1668",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Electrophysiologic studies on the risks and potential mechanism underlying the proarrhythmic nature of azithromycin",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cardiovasc Toxicol",
+            "volume": "17",
+            "issn": "",
+            "pages": "434--440",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Hydroxychloroquine reduces heart rate by modulating the hyperpolarization-activated current If: novel electrophysiological insights and therapeutic potential",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Capel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Herring",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kalla",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yavari",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mirams",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Douglas",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bub",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Channon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Paterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Terrar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Heart Rhythm",
+            "volume": "12",
+            "issn": "",
+            "pages": "2186--2194",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Assessment of temperature-induced hERG channel blockade variation by drugs",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kauthale",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dadarkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Husain",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Karande",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gatne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Appl Toxicol",
+            "volume": "35",
+            "issn": "",
+            "pages": "799--805",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Interleukin-6 inhibition of hERG underlies risk for acquired long QT in cardiac and systemic inflammation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Aromolaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Srivastava",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chahine",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lazaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "El-Sherif",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Capecchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Laghi-Pasini",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lazzerini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boutjdir",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PloS One",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Ventricular arrhythmia risk due to hydroxychloroquine-azithromycin treatment for COVID-19",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Simpson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kovacs",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stecker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Electrocardiographic/QT interval monitoring: o Withhold the drugs in patients with baseline QT prolongation (eg, QTc \u2265500 msec) or with known congenital long QT syndrome. o Monitor cardiac rhythm and QT interval; withdrawal of the drugs if QTc exceeds a preset threshold of 500 msec.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Torsade de pointes potential and post-marketing adverse events associated with possible COVID-19 repurposed pharmacotherapies. COVID-19 [published online ahead of print March 25, 2020]. Mayo Clin Proc. doi: 10.1016/j.mayocp.2020.03.024. https://www.elsevier.com/__data/assets/pdf_file/0004/996745/MCP_Possible-COVID-19-Pharmacotherapies.pdf. Accessed April 2, 2020. 5 Dr. Roden has nothing to disclose. Dr. Harrington serves on the AHA Board of Directors (unpaid); he also served on the Stanford Healthcare Board of Directors from 2016-2018 (unpaid). Dr. Poppas has nothing to disclose. Dr. Russo receives research study support from the following (all funding to the hospital): Boehringer Ingelheim, Boston Scientific, and Medilynx. She also serves on the Research Steering Committee (no honoraria) for Boston Scientific and the Apple Heart Study.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

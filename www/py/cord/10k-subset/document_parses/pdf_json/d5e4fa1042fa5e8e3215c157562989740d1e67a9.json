@@ -1,0 +1,2253 @@
+{
+    "paper_id": "d5e4fa1042fa5e8e3215c157562989740d1e67a9",
+    "metadata": {
+        "title": "Child-Turcotte-Pugh Score, MELD Score and MELD-Na Score as Predictors of Short-Term Mortality among Patients with End-Stage Liver Disease in Northern India",
+        "authors": [
+            {
+                "first": "Gagandeep",
+                "middle": [],
+                "last": "Acharya",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Swami Rama Himalayan University",
+                    "location": {
+                        "settlement": "Dehradun",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rajeev",
+                "middle": [
+                    "Mohan"
+                ],
+                "last": "Kaushik",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Swami Rama Himalayan University",
+                    "location": {
+                        "settlement": "Dehradun",
+                        "country": "India"
+                    }
+                },
+                "email": "rmkaushik@srhu.edu.in"
+            },
+            {
+                "first": "Rohit",
+                "middle": [],
+                "last": "Gupta",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Swami Rama Himalayan University",
+                    "location": {
+                        "settlement": "Dehradun",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Reshma",
+                "middle": [],
+                "last": "Kaushik",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Swami Rama Himalayan University",
+                    "location": {
+                        "settlement": "Dehradun",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mohan",
+                "middle": [],
+                "last": "Rajeev",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "P.O. Jolly Grant Dehradun, Uttarakhand 248016",
+                    "institution": "Rama Himalayan University",
+                    "location": {
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Kaushik",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "P.O. Jolly Grant Dehradun, Uttarakhand 248016",
+                    "institution": "Rama Himalayan University",
+                    "location": {
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background and Objectives: Child-Turcotte-Pugh (CTP), Model for End-Stage Liver Disease (MELD) and MELD-sodium (MELD-Na) scores are used for predicting disease severity and mortality among patients with end-stage liver disease. However, data regarding their usefulness in predicting the short-term outcome of end-stage liver disease are not available in India. This prospective study compared the CTP score, MELD score and MELD-Na score as predictors of shortterm outcome among patients with end-stage liver disease. Methods: CTP, MELD and MELD-Na scores were determined in 171 patients with end-stage liver disease at a tertiary healthcare centre in India at the time of admission, and the concordance (C-) statistics of the three scores for 3-month mortality were assessed and compared. The aetiology of end-stage liver disease and the clinical presentation were determined. Results: The CTP score, MELD score and MELD-Na score on day 1 were significantly higher among non-survivors than among survivors (p < 0.0001 each). The C-statistic for 3-month mortality for the CTP score was 0.93 (p < 0.0001), that for the MELD score was 0.86 (p < 0.0001) and that for the MELD-Na score was 0.83 (p < 0.0001). The C-statistics of these scores differed significantly for 3-month mortality, and the CTP score was better than the MELD (p < 0.0001) and MELD-Na (p < 0.0001) scores in predicting 3-month mortality. Conclusions: The CTP, MELD and MELD-Na scores were very good predictors of mortality at 3 months among patients with end-stage liver disease. The CTP score was superior to the MELD and MELD-Na scores in predicting 3-month mortality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Liver disease accounts for a sizeable number of patients in various countries around the world and poses serious health-related as well as economic problems [1] . The pattern of liver disease differs geographically, between various ethnic groups with different practices, and in time period [2] . The pattern of onset and prominence of symptoms can rapidly suggest a diagnosis, particularly if major risk factors are considered, such as the age and sex of the patient and a history of exposure or risk behaviours [3] .",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 160,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 291,
+                    "end": 294,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 513,
+                    "end": 516,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The aetiology of end-stage liver disease varies between different geographical areas of the globe. Hepatotropic viruses are the chief causes of end-stage liver disease in most regions of the world [4] . Alcohol is an important cause of end-stage liver disease in developed countries and in certain parts of India as well [5] . With the beginning of routine screening of blood and blood products of hepatitis B virus (HBV) markers and vaccination in the last few decades, the frequency of end-stage liver disease due to HBV has decreased in the developed world, making hepatitis C virus (HCV) the major cause there [6] .",
+            "cite_spans": [
+                {
+                    "start": 197,
+                    "end": 200,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 321,
+                    "end": 324,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 614,
+                    "end": 617,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Earlier data on the aetiological spectrum of end-stage liver disease from Northern India revealed HBV and HCV infections as the predominant causes of chronic liver disease [7] . A recent prospective, multicentre study involving 20,701,383 patients from different parts of India showed that 1.28% (n = 266,621) of these patients had chronic liver disease, while 65,807 (24.68%) were diagnosed for the first time. A final analysis of 13,014 cases of chronic liver disease (19.77%) showed that 33.9% presented with decompensated cirrhosis. Alcoholism (34.3% of 4,413) was the most common cause of cirrhosis, while hepatitis B (33.3%) was the predominant cause of chronic liver disease in general as well as of non-cirrhotic chronic liver disease (40.8% out of 8,163). The predominant cause of chronic liver disease was hepatitis C in the north, alcohol in the northeast, hepatitis B in the east and the south, and non-alcoholic fatty liver disease (NAFLD) in the west and differed significantly in various regions [8] . NAFLD is also highly prevalent in the western population [9] .",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 175,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1011,
+                    "end": 1014,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1074,
+                    "end": 1077,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Many prognostic scores have been used for predicting prognosis in patients with end-stage liver disease and for determining the most appropriate treatment. After about four decades, the Child score [10] was replaced by the modified Child-Turcotte-Pugh (CTP) score [11] as a reference for assessing the prognosis of cirrhosis. Of the other prognostic scores, the Model for End-Stage Liver Disease (MELD) score is more reproducible than the CTP score, as it does not use subjective variables like encephalopathy and ascites [12] . As such, the MELD score has replaced the CTP score for deciding on the priority of allocation of a liver donor [13] .",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 202,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 264,
+                    "end": 268,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 522,
+                    "end": 526,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 640,
+                    "end": 644,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In a large systematic review, the CTP and MELD scores had comparable prognostic values in most of the cases, but their benefits varied in some specific conditions [14] . Therefore, whether the CTP score should definitely be abandoned for use of the MELD score remains uncertain.",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 167,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Cirrhotic patients often develop dilutional hyponatraemia due to altered vascular haemodynamics. Activa-tion of these mechanisms correlates with the degree of portal hypertension [15] . Hyponatraemia with lower sodium values predicts worse outcomes and is an independent predictor of survival at 3 and 12 months [16] . A modified score including serum sodium -termed the \"MELD sodium\" score (MELD-Na) -was proposed as an alternative to the MELD score [17] and was implemented for liver transplant allocation in 2016, since hyponatraemia is a strong predictor of mortality among liver transplant waitlist patients [18] .",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 183,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 312,
+                    "end": 316,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 451,
+                    "end": 455,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 613,
+                    "end": 617,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "No data are available regarding the prognostic utility of these scores in predicting short-term outcomes among patients with end-stage liver disease in India. As such, this study was conducted to assess disease severity in patients with end-stage liver disease using the CTP score, the MELD score and the MELD-Na score and to compare these prognostic scores as predictors of 3-month mortality among patients with end-stage liver disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This observational longitudinal follow-up study was carried out at the Himalayan Institute Hospital, a tertiary healthcare centre in Dehradun, Uttarakhand, India. One hundred and seventyone patients admitted consecutively with a primary admission diagnosis of end-stage liver disease were included in the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Subjects and Methods"
+        },
+        {
+            "text": "The diagnosis of end-stage liver disease was based on historytaking; clinical examination including jaundice, ascites, upper gastrointestinal bleed, hepatic encephalopathy, hepatomegaly, splenomegaly and hyperbilirubinaemia accompanied by a modest increase in aspartate aminotransferase and alanine aminotransferase; ultrasound findings; and other appropriate assessments, wherever required. Patients with ascites due to tuberculosis or malignancy, as well as those with malignancies other than hepatocellular carcinoma, were excluded from the study. Survival at 3 months following the index admission was determined by either telephonic follow-up or patient attendance at the medical outpatient department, if discharged from the hospital. CTP, MELD and MELD-Na scores were calculated on the basis of laboratory values obtained within 24 h of admission. Patient outcome was assessed after 3 months as \"survivor\" or \"non-survivor.\" The CTP score included two continuous variables (bilirubin and albumin) and three discrete variables (ascites, encephalopathy and international normalized ratio [INR] ). This score was divided into three classes: class A (5-6), class B (7-9) and class C (10-15). The formulas used for the calculations were as follows: MELD score = 3.78 \u00d7 ln(serum bilirubin [mg/dL]) + 11.2 \u00d7 ln(INR) + 9.57 \u00d7 ln(serum creatinine [mg/ dL]) + 6.43; MELD-Na score = MELD score + 1.59 (135 -Na) with maximum and minimum Na values of 135 and 120 mmol/L, respectively [19, 20] .",
+            "cite_spans": [
+                {
+                    "start": 1093,
+                    "end": 1098,
+                    "text": "[INR]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1478,
+                    "end": 1482,
+                    "text": "[19,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1483,
+                    "end": 1486,
+                    "text": "20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Subjects and Methods"
+        },
+        {
+            "text": "All the scores were recorded periodically from indoor patients. The predictive values of the CTP, MELD and MELD-Na scores regarding 3-month mortality were assessed and compared. Inflamm Intest Dis 2020;5:1-10 DOI: 10.1159/000503921",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Subjects and Methods"
+        },
+        {
+            "text": "The data thus collected were subjected to statistical analysis using SPSS 22. A one-sample Kolmogorov-Smirnov test was used for checking the assumption of normality of the data. Continuous variables are expressed as median (range), and they were compared with the Mann-Whitney U test, as some of the variables did not have a normal distribution. The \u03c7 2 test or Fisher's exact test was used for comparing the qualitative variables. The prognostic utility of the CTP, MELD and MELD-Na scores in assessing mortality at 3 months was calculated by determining the concordance (C-) statistic (equivalent to the area under the receiver operating characteristic curve [AUC]). Comparison of the C-statistics of various prognostic scores was done by DeLong's test. Multivariate analysis using logistic regression was performed for determining the potential independent predictors of 3-month mortality among end-stage liver disease patients. Only the clinical parameters assessed in all patients were used for the multivariate analysis. A p value < 0.05 was considered significant. All reported p values are two-sided. Values are presented as n (%). Socio-economic status was defined as \"high\" (annual income INR >850,000), \"middle\" (annual income INR 50,000-850,000) and \"low\" (annual income INR <50,000) (INR 1 = USD 0.015). Residence was defined as \"urban\" for all places with a municipality, corporation, cantonment board or notified town area committee and all other places that satisfied the criteria of a minimum population of 5,000, at least 75% of the male main workers engaged in non-agricultural pursuits and a density of population of at least 400/km 2 . All areas that were not categorized as \"urban\" were considered \"rural.\" Bold type denotes significance. IMFL, India-made foreign liquor; NASH, non-alcoholic steatohepatitis. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The demographic characteristics of the 171 patients with end-stage liver disease are shown in Table 1 . Out of the total of 171 patients, 24 (14.03%) expired, while 147 (85.96%) survived. The patients' age range was 20-80 years and their mean age (\u00b1SD) was 48.94 \u00b1 12.63 years (median age 50 years; range 60). There was no significant difference in median age between survivors and non-survivors (median age 48 years, range 60, and median age 54.5 years, range 49, respectively; p = 0.118).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 94,
+                    "end": 101,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Among the 171 patients, end-stage liver disease was caused by alcohol in 88 patients (51.46%) and by both alcohol and a virus in 11 patients (6.43%). A pure viral aetiology was present in 51 patients (29.82%), i.e., hepatitis B in 36 cases (21.05%), hepatitis C in 11 cases (6.43%), hepatitis B + C in 3 cases (1.75%) and hepatitis B + A in 1 case (0.58%). End-stage liver disease was due to nonalcoholic steatohepatitis in 13 patients (7.60%), autoimmune hepatitis in 7 patients (4.09%) and Wilson's disease in 1 patient (0.58%). Of the 99 patients with alcoholic end-stage liver disease, 92 patients abstained from alcohol, while 7 patients started taking alcohol after their discharge from the hospital, though on an irregular basis. At the end of 3 months, mortality was recorded at 17.39% (16/92) among the patients who abstained from alcohol and at 28.57% (2/7) among those who persisted with the habit of taking alcohol.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "There were various symptoms seen in the patients with end-stage liver disease: jaundice (69.00%), ascites (63.15%), hepatic encephalopathy (32.74%), melaena (29.82%) and haematemesis (20.46%). The most common signs seen among the patients with end-stage liver disease were icterus (69.00%), pallor (28.07%), splenomegaly (25.14%) and parotid enlargement (23.39%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Ascites, jaundice, haematemesis, hepatic encephalopathy, decreased urinary output, peripheral oedema, parotid enlargement, white nails, and loss of axillary and pubic hair occurred significantly more often among nonsurvivors than among survivors (p < 0.05 each), as shown in Table 2 . White blood cell count (p = 0.001), serum bilirubin (p = 0.004), INR (p < 0.001) and serum creatinine Values are presented as n (%). All patients were examined for clinical features such as white nails, parotid enlargement, and loss of axillary and pubic hair as per working proforma. Parotid enlargement was assessed by inspection and palpation. In borderline cases, it was confirmed by ultrasound examination of the parotid glands. Bold type denotes significance.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 275,
+                    "end": 282,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Prognostic Scores in End-Stage Liver Disease (p < 0.001) were significantly higher, while serum albumin (p < 0.001) and serum sodium (p = 0.006) were lower among non-survivors than among survivors (Table 3) . For 3-month mortality, the C-statistic for the CTP score was 0.93 (p < 0.0001, 95% confidence interval [CI] 0.88-0.96) and was statistically significant (Fig. 1a) . Using an optimal CTP cut-off > 11, the sensitivity and specificity for the prediction of 3-month mortality were 76. 19 and 100%, respectively. The C-statistic for the predictive value of the MELD score for 3-month mortality was 0.86 (p < 0.0001, 95% CI 0.79-0.90) and was statistically significant (Fig. 1b) . Using an optimal MELD cut-off > 26, the sensitivity and specificity for the prediction of 3-month mortality were 81.63 and 75%, respectively, while for a cut-off of 18, the sensitivity was 37.41% and the specificity 100%. For 3-month mortality, the C-statistic for the MELD-Na score was 0.83 (p < 0.0001, 95% CI 0.77-0.89) and was statistically significant (Fig. 1c) . Using an optimal MELD-Na cut-off > 32.14, the sensitivity and specificity for the prediction of 3-month mortality were 77.40 and 83.33%, respectively.",
+            "cite_spans": [
+                {
+                    "start": 490,
+                    "end": 492,
+                    "text": "19",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 197,
+                    "end": 206,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 362,
+                    "end": 371,
+                    "text": "(Fig. 1a)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 672,
+                    "end": 681,
+                    "text": "(Fig. 1b)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1041,
+                    "end": 1050,
+                    "text": "(Fig. 1c)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The difference between the C-statistic of the CTP score and that of the MELD score was statistically significant for 3-month mortality (p < 0.0001, 95% CI 0.65-0.79); the CTP score was superior to the MELD score in predicting 3-month mortality (Fig. 2a) . The difference between the C-statistic of the CTP score and that of the MELD-Na score was statistically significant for 3-month mortality (p < 0.0001, 95% CI 0.64-0.78); the CTP score was superior to the MELD-Na score in predicting 3-month mortality (Fig. 2b) . The difference between the C-statistic of the MELD score and that of the MELD-Na score was statistically significant for 3-month mortality (p < 0.0001, 95% CI 0.79-0.88); the MELD score was superior to the MELD-Na score in predicting 3-month mortality (Fig. 2c) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 244,
+                    "end": 253,
+                    "text": "(Fig. 2a)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 506,
+                    "end": 515,
+                    "text": "(Fig. 2b)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 770,
+                    "end": 779,
+                    "text": "(Fig. 2c)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Of the various clinical and laboratory variables showing significant differences between end-stage liver disease survivors and non-survivors, INR, serum bilirubin, decreased urinary output and white nails were found to be independent predictors of 3-month mortality among end-stage liver disease patients using multivariate analysis by logistic regression. Loss of axillary and pubic hair, showing a significant difference between end-stage liver disease survivors and non-survivors, was not entered as a variable into the logistic regression model for examining independent predictors of 3-month mortality, since the number of observations was inadequate for logistic regression analysis (Table 4 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 689,
+                    "end": 697,
+                    "text": "(Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "End-stage liver disease leads to a rise in morbidity and mortality, with the majority of preventable cases attributed to excessive alcohol consumption, viral hepatitis or NAFLD. Single or multifactorial insults to the liver result in cirrhosis, the most common factors being alcohol abuse, chronic hepatitis C and obesity with concomitant NAFLD [21] .",
+            "cite_spans": [
+                {
+                    "start": 345,
+                    "end": 349,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In a study conducted by Shrestha et al. [22] at a tertiary care centre in Nepal, 130 patients with diagnosed liver disease were analysed; most of the patients were in the range of 41-50 years of age, followed by those at 31-40 years of age. Our findings are in agreement with the findings of that study, since most of the patients were above 40 years of age (range 20-80 years). This shows that liver diseases are more common after the fourth decade of life in our region. A study conducted in India by Trimukhe and Rai [23] showed chronic alcoholism (36.8%), chronic hepatitis B (36.8%) and chronic hepatitis C (3.2%) as the main aetiologies of chronic liver disease. Differences may be observed regarding the age, aetiology and clinical presentation of patients in Northern India and the USA/Europe. The mean age of our patients was 48.94 years and a male predominance was seen (male:female ratio 5.1). Most of the cases of cirrhosis were due to alcohol, hepatitis B, hepatitis C and NAFLD, while in a study in Italy, the mean age of the patients with cirrhosis was 60.3 years, with a male:female ratio of 1.7. The most common cause of cirrhosis was HCV infection, alone or in combination with other aetiologic agents (58.6%), HBV (7.6%) and alcohol abuse (16.0%) [24] .",
+            "cite_spans": [
+                {
+                    "start": 40,
+                    "end": 44,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 520,
+                    "end": 524,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1266,
+                    "end": 1270,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Another study in France reported alcohol (88%), viral hepatitis (5%), alcohol plus viral hepatitis (4%) and others (3%) as aetiologies of cirrhosis [25] . In the USA, diabetes, alcohol abuse, hepatitis C and B, male sex and older age were all independently associated with cirrhosis, with a population attributable fraction of 53.5% from viral hepatitis (mostly hepatitis C), diabetes, and alcohol abuse [26] . There has also been a recent increase in the prevalence of cirrhosis due to non-alcoholic steatohepatitis in the USA [27] .",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 152,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 404,
+                    "end": 408,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 528,
+                    "end": 532,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A large number of cirrhosis patients have no symptoms in early stages. Clinical symptoms at presentation may include jaundice of the eyes or skin, pruritus, gastrointestinal bleeding, coagulopathy, increasing abdominal girth and mental status changes [28] . In a study on 180 patients with end-stage liver disease in the central part of India, the most common presentation was ascites (76.1%), followed by splenomegaly (52.2%), jaundice (50%), upper gastrointestinal bleeding (32.2%), hepatic encephalopathy (22.2%), thrombocytopenia (16.6%) and hepatorenal syndrome (15%) [23] . However, in our study, the most common presentation was jaundice (69.00%), followed by ascites (63.15%), upper gastrointestinal bleeding (39.18%), hepatic encephalopathy (32.74%), anaemia (28.07%) and splenomegaly (25.14%).",
+            "cite_spans": [
+                {
+                    "start": 251,
+                    "end": 255,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 573,
+                    "end": 577,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Different predictive models are used to assess prognosis in cirrhotic patients. There are few studies which have assessed the ability of CTP, MELD and MELD-Na scores to predict mortality. In our study, we recruited 171 pa- tients with end-stage liver disease and calculated their CTP, MELD and MELD-Na scores. For 3-month mortality, the C-statistics for the CTP, MELD and MELD-Na scores were statistically significant. Using an optimal CTP cut-off > 11, the sensitivity and specificity for the prediction of 3-month mortality were 76.19 and 100%, respectively. Using an optimal MELD cut-off > 26, the sensitivity and specificity for the prediction of 3-month mortality were 81.63 and 75%, respectively, while for a cut-off of 18, the sensitivity was 37.41% and the specificity 100%. Using an optimal MELD-Na cut-off > 32.14, the sensitivity and specificity for the prediction of 3-month mortality were 77.40 and 83.33%, respectively. As such, all three prognostic scores were of value in assessing the prognosis of patients with end-stage liver disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We used AUCs to compare the accuracy of the CTP, MELD and MELD-Na scores. In a meta-analysis of 269 studies comparing the discriminative ability of the CTP score with that of the MELD score to assess the prognosis of cirrhotic patients, 44 studies favoured the MELD score, 16 favoured the CTP score, 99 found both to be of similar value, and 110 did not report any statistically significant difference [14] . Previous studies in France [25] and the USA [29] have shown that the MELD score performs better than the CTP score in predicting 3-month mortality among patients on the waiting list for liver transplantation. In a meta-analysis of 26 studies involving 4,732 patients having acute-on-chronic liver failure, the MELD score was found to have the largest AUC (0.82) when compared with other scoring systems estimated, especially for 3-month mortality [30] . Receiver operating characteristic curve analysis demonstrated that the MELD-Na score (0.82) or the MELD score (0.81) at admission predicted in-hospital mortality better than did the CTP score (0.76) [25] . A prospective study by Wiesner et al. [29] on 3,437 patients on a liver transplantation waiting list showed that the MELD score was significantly superior to the CTP score in predicting 3-month mortality (AUC 0.83 vs. 0.76). Interestingly, another study analysing waiting list mortality in this regard showed a similar predictive value of the MELD and CTP scores for waiting list mortality [31] . However, in our study, the AUC was 0.93 for the CTP score, 0.86 for the MELD score and 0.83 for the MELD-Na score, and the CTP score was superior to the MELD score in predicting 3-month mortality (p < 0.0001). In the study by Wiesner et al. [29] , the study cohort was different to the cohort of our study, as their patients were on a transplant waiting list. Similarly, Londo\u00f1o et al. [17] found serum sodium and the MELD score as independent predictors of survival for patients with cirrhosis awaiting liver transplantation, but hepatitis C (44%) was the commonest aetiology of cirrhosis among their patients, followed by alcohol (26%), both alcohol and hepatitis C (8%), hepatitis B (7%) and other aetiologies (15%), while alcohol was the most common cause of cirrhosis among our patients.",
+            "cite_spans": [
+                {
+                    "start": 402,
+                    "end": 406,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 453,
+                    "end": 457,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 856,
+                    "end": 860,
+                    "text": "[30]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1062,
+                    "end": 1066,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1107,
+                    "end": 1111,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1459,
+                    "end": 1463,
+                    "text": "[31]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1707,
+                    "end": 1711,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1852,
+                    "end": 1856,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our results are supported by some other studies which failed to confirm the superiority of the MELD to the CTP score [32] [33] [34] . A study by Heuman and Mihas [33] on 6,958 patients showed that the CTP score slightly outperformed the MELD score in predicting 3-month mortality (AUC 0.76 vs. 0.75), and the authors suggested that the superiority of the MELD score observed by Wiesner et al. [29] was probably the result of selection bias. In a study involving 257 patients with cirrhosis at the liver transplantation centre of Imam Khomeini Hospital, Tehran, Iran, the statistical analysis of the prediction of mortality or removal from the waiting list due to severe deterioration showed an AUC of 0.75 for the CTP score and 0.69 for the MELD score [34] . The better performance of the CTP score compared to those of the MELD/MELD-Na scores in our study appears to have its basis in the different aetiologies and clinical presentations, which can vary depending on the country and region of the world. As the different prognostic scores have varying components, a particular prognostic score may perform better for a particular clinical presentation. In our study, 63.15% (108/171) of the patients had ascites and 32.74% (56/171) had hepatic encephalopathy, while in a study by Dupont et al. [25] in France, ascites was observed only in 4.98% (14/281) of the patients and hepatic encephalopathy in 9.96% (28/281) of the patients. They found the MELD and MELD-Na scores to be better than the CTP score in predicting in-hospital mortality among cirrhotic patients. Although in our study as well as in their study, the mean serum sodium level was significantly lower among nonsurvivors than among survivors, the higher number of patients with ascites and hepatic encephalopathy in our study might have contributed to the better performance of the CTP score compared to the MELD/MELD-Na scores in predicting 3-month mortality among the cirrhotic patients in our series. It therefore appears logical that a particular scoring method may be preferred over others in the assessment of chronic liver disease based on different clinical settings, aetiologies, or regions of the world.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 121,
+                    "text": "[32]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 122,
+                    "end": 126,
+                    "text": "[33]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 127,
+                    "end": 131,
+                    "text": "[34]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 393,
+                    "end": 397,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 752,
+                    "end": 756,
+                    "text": "[34]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1295,
+                    "end": 1299,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The differences noted between the scores matter in clinical practice, since depending upon the clinical presentation, a particular score may be more useful than another. For a patient with hepatic encephalopathy and as-Inflamm Intest Dis 2020;5:1-10 DOI: 10.1159/000503921 cites, the CTP score may be more valid, as it incorporates these components, while for a patient having renal impairment with/without hyponatraemia, the MELD/ MELD-Na scores may be more valid.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Hyponatraemia has also been shown to be a factor associated with liver-related mortality independent of the MELD score [35] . Previous attempts to incorporate serum sodium into the MELD score resulted in a better accuracy in predicting mortality than with the MELD score alone [36] . The median MELD score in the non-survivor group in our study was 32.5 (range 29) and the median MELD-Na score was 42.67 (range 44.82), while the median MELD and MELD-Na scores in the survivor group were 20 (range 32) and 23.13 (range 53.83), respectively. Serum sodium was also low in the non-survivors as compared to the survivors, with median values of 130.15 (range 29) and 133.6 (range 23.28) mmol/L, respectively.",
+            "cite_spans": [
+                {
+                    "start": 119,
+                    "end": 123,
+                    "text": "[35]",
+                    "ref_id": null
+                },
+                {
+                    "start": 277,
+                    "end": 281,
+                    "text": "[36]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In a study conducted by Biggins et al. [20] , among 753 Americans with cirrhosis mainly due to chronic hepatitis C and alcoholic liver disease, those with MELD-Na scores of 20, 30 and 40 had 6-month mortality rates of 6, 16 and 37%, respectively. In contrast, in our study, the mortality rates among patients with MELD-Na scores of < 20, 21-30, 31-40, 41-50 and > 50 were 4.16 (n = 1), 12.50 (n = 3), 25 .00 (n = 6), 33.33% (n = 8) and 25.00% (n = 6), respectively. However, in our study, both the CTP and the MELD score outperformed the MELD-Na score in predicting 3-month mortality (p < 0.0001 each). Thus, our study shows that the CTP score outperforms the MELD and MELD-Na scores in predicting 3-month mortality.",
+            "cite_spans": [
+                {
+                    "start": 39,
+                    "end": 43,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 401,
+                    "end": 403,
+                    "text": "25",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The CTP, MELD and MELD-Na scores were very good predictors of 3-month mortality among end-stage liver disease patients in a study cohort from Northern India. However, the CTP score was superior to the MELD and MELD-Na scores in predicting 3-month mortality. The performance of any particular scoring method for end-stage liver disease may depend on the variable clinical settings and aetiologies of liver disease occurring in the different regions of the world.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Liver disease-related admissions in Portugal: clinical and demographic pattern",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cortez-Pinto",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Marques-Vidal",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Monteiro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Eur J Gastroenterol Hepatol",
+            "volume": "16",
+            "issn": "9",
+            "pages": "873--880",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Liver diseases in Nepal. Kathmandu Univ Med J (KUMJ)",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shrestha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Harrison's principles of internal medicine",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ghany",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hoofnagle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fauci",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Braunwald",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kasper",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Longo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jameson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Occult hepatitis B virus infection in patients with chronic hepatitis C liver disease",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Cacciola",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pollicino",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Squadrito",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cerenzia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Orlando",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Raimondo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "N Engl J Med",
+            "volume": "341",
+            "issn": "1",
+            "pages": "22--28",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Young v adult cirrhotics: a prospective, comparative analysis of the clinical profile, natural course and survival",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chari",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sundaram",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ahuja",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Anand",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Broor",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Gut",
+            "volume": "29",
+            "issn": "1",
+            "pages": "101--108",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The prevalence of hepatitis C virus infection in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Alter",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kruszon-Moran",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nainan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcquillan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Moyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "N Engl J Med",
+            "volume": "341",
+            "issn": "8",
+            "pages": "556--62",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Status of hepatitis viral markers in patients with acute and chronic liver diseases in northern India",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Irshad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Acharya",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Intervirology",
+            "volume": "37",
+            "issn": "6",
+            "pages": "369--72",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Etiology and mode of presentation of chronic liver diseases in India: a multi centric study",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mukherjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vishnubhatla",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Amarapurkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sood",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chawla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS One",
+            "volume": "12",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The Metabolic Syndrome and Its Influence on Nonalcoholic Steatohepatitis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kanwar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Kowdley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clin Liver Dis",
+            "volume": "20",
+            "issn": "2",
+            "pages": "225--268",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Surgery and portal hypertension",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Child",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Turcotte",
+                    "suffix": ""
+                }
+            ],
+            "year": 1964,
+            "venue": "Major Probl Clin Surg",
+            "volume": "1",
+            "issn": "",
+            "pages": "1--85",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Transection of the oesophagus for bleeding oesophageal varices",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Pugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Murray-Lyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dawson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Pietroni",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 1973,
+            "venue": "Br J Surg",
+            "volume": "60",
+            "issn": "8",
+            "pages": "646--655",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Important predictor of mortality in patients with end-stage liver disease",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Clin Mol Hepatol",
+            "volume": "19",
+            "issn": "2",
+            "pages": "105--120",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A model to predict survival in patients with endstage liver disease",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kamath",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wiesner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Malinchoc",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Kremers",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Therneau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kosberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Hepatology",
+            "volume": "33",
+            "issn": "2",
+            "pages": "464--70",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Child-Pugh versus MELD score for the assessment of prognosis in liver cirrhosis: a systematic review and meta-analysis of observational studies. Medicine (Baltimore)",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "95",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Hyponatremia in cirrhosis: pathophysiology and management",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "John",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thuluvath",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "World J Gastroenterol",
+            "volume": "21",
+            "issn": "11",
+            "pages": "3197--205",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Hyponatremia and mortality among patients on the liver-transplant waiting list",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Biggins",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kremers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wiesner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kamath",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Benson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "N Engl J Med",
+            "volume": "359",
+            "issn": "10",
+            "pages": "1018--1044",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "MELD score and serum sodium in the prediction of survival of patients with cirrhosis awaiting liver transplantation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Londo\u00f1o",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "C\u00e1rdenas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guevara",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Quint\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "De Las Heras",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Navasa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Gut",
+            "volume": "56",
+            "issn": "9",
+            "pages": "1283--90",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Changing prioritization for transplantation: MELD-Na, hepatocellular carcinoma exceptions, and more. Curr Opin Organ Transplant",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kalra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Wedd",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Biggins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "21",
+            "issn": "",
+            "pages": "120--126",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Performance of the new MELD-Na score in predicting 3-month and 1-year mortality in Chinese patients with chronic hepatitis B. Liver Transpl",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "1228--1263",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Evidence-based incorporation of serum sodium concentration into MELD",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Biggins",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Terrault",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Saab",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Balan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schiano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Gastroenterology",
+            "volume": "130",
+            "issn": "6",
+            "pages": "1652--60",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Immunopathogenesis in hepatitis C virus cirrhosis",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Spengler",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nattermann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Clin Sci",
+            "volume": "112",
+            "issn": "3",
+            "pages": "141--55",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Molecular investigation of hepatitis E virus infection in patients with acute hepatitis in Kathmandu, Nepal",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shrestha",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shrestha",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tsuda",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nishizawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gotanda",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Takeda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Med Virol",
+            "volume": "69",
+            "issn": "2",
+            "pages": "207--221",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Spectrum of cirrhosis of liver in eastern Madhya Pradesh",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Trimukhe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "India. IOSR-JDMS",
+            "volume": "16",
+            "issn": "2",
+            "pages": "6--8",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "EPACRON Study Group. Characteristics of liver cirrhosis in Italy: evidence for a decreasing role of HCV aetiology",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Stroffolini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sagnelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gaeta",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sagnelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Andriulli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Brancaccio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Eur J Intern Med",
+            "volume": "38",
+            "issn": "",
+            "pages": "68--72",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Retrospective evaluation of prognostic score performances in cirrhotic patients admitted to an intermediate care unit. Dig Liver Dis",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dupont",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Delvincourt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kon\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Du Cheyron",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ollivier-Hourmand",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Piquet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "47",
+            "issn": "",
+            "pages": "675--81",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The epidemiology of cirrhosis in the United States: a populationbased study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Scaglione",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kliethermes",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shoham",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Durazo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Luke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Clin Gastroenterol",
+            "volume": "49",
+            "issn": "8",
+            "pages": "690--696",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Prevalence of Nonalcoholic Steatohepatitis-Associated Cirrhosis in the United States: An Analysis of National Health and Nutrition Examination Survey Data",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kabbany",
+                    "suffix": ""
+                },
+                {
+                    "first": "Conjeevaram",
+                    "middle": [],
+                    "last": "Selvakumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Watt",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lopez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Akras",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zein",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Gastroenterol",
+            "volume": "112",
+            "issn": "4",
+            "pages": "581--588",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Cirrhosis and chronic liver failure: part II. Complications and treatment",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Heidelbaugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sherbondy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Am Fam Physician",
+            "volume": "74",
+            "issn": "5",
+            "pages": "767--76",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "United Network for Organ Sharing Liver Disease Severity Score Committee. Model for End-Stage Liver Disease (MELD) and allocation of donor livers",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wiesner",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Edwards",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Freeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Harper",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kamath",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Gastroenterology",
+            "volume": "124",
+            "issn": "1",
+            "pages": "91--97",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Performance of scoring systems to predict mortality of patients with acute-on-chronic liver failure: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Risk factors for liver transplantation waiting list mortality",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fink",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Berry",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gow",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Angus",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Muralidharan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Gastroenterol Hepatol",
+            "volume": "22",
+            "issn": "1",
+            "pages": "119--143",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Limitations of the MELD score in predicting mortality or need for removal from waiting list in patients awaiting liver transplantation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gotthardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baumg\u00e4rtner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Stremmel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "BMC Gastroenterol",
+            "volume": "9",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Utility of the MELD score for assessing 3-month survival in patients with liver cirrhosis: one more positive answer",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Heuman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mihas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Gastroenterology",
+            "volume": "125",
+            "issn": "3",
+            "pages": "992--995",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Model for End-Stage Liver Disease (MELD) and Child-Turcotte-Pugh (CTP) scores: ability to predict mortality and removal from liver transplantation waiting list due to poor medical conditions",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Rahimi-Dehkordi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nourijelyani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nasiri-Tousi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ghodssi-Ghassemabadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Azmoudeh-Ardalan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nedjat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Arch Iran Med",
+            "volume": "17",
+            "issn": "2",
+            "pages": "118--139",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Addition of serum sodium into the MELD score predicts waiting list mortality better than MELD alone",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ruf",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kremers",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chavez",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Descalzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Podesta",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Villamil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Liver Transpl",
+            "volume": "11",
+            "issn": "3",
+            "pages": "336--379",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF3": {
+            "text": "Receiver operating characteristic (ROC) curves for the predictive values of the Child-Turcotte-Pugh (CTP) score (a), the Model for End-Stage Liver Disease (MELD) score (b) and the MELD-Na score (c) for 3-month mortality. DOI: 10.1159/000503921",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Comparison of the receiver operating characteristic curves for the predictive values of the Child-Turcotte-Pugh (CTP) score and the Model for End-Stage Liver Disease (MELD) score (a), the CTP score and the MELD-Na score (b), and the MELD score and the MELD-Na score (c) for 3-month mortality. Inflamm Intest Dis 2020;5:1-10 DOI: 10.1159/000503921",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Demographic characteristics of the patients with end-stage liver disease and their comparison between survivors and the patients who died",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Symptomatology and signs observed in patients with end-stage liver disease",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Comparison of baseline laboratory parameters and scores between the survivors and the patients who died within 3 months CI, confidence interval; INR, international normalized ratio; CTP, Child-Turcotte-Pugh; MELD, Model for End-Stage Liver Disease; WBC, white blood cell; Na, sodium.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Multivariate analysis showing various clinical and laboratory variables at admission as independent predictors of 3-month mortality SE, standard error; WBC, white blood cell; B, coefficient for the constant; SE, standard error; Wald, Wald \u03c7 2 value; df, degrees of freedom; Sig., significance probability or p value; exp(B), exponentiation of the B coefficient.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We are thankful to Dr. Madhurima Kaushik for her valuable suggestions during the preparation of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The study protocol was in conformity with the ethical guidelines of the 1975 Declaration of Helsinki. The study was approved by the ethics committee of Swami Rama Himalayan University, Dehradun, India. Written informed consent was obtained from all study participants before inclusion in the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statement of Ethics"
+        },
+        {
+            "text": "The authors have no conflict of interest to disclose.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclosure Statement"
+        },
+        {
+            "text": "This research was funded by the Swami Rama Himalayan University, Dehradun, India.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding Sources"
+        },
+        {
+            "text": "G. Acharya: clinical assessment, analysis and interpretation of the data, and preparation of the initial manuscript; R.M. Kaushik and R. Gupta: study design, analysis and interpretation of the data, and revision of the manuscript; R. Kaushik: analysis and interpretation of the data, and revision of the manuscript. All authors read and approved the final version of the manuscript. R.M. Kaushik and R. Kaushik are the guarantors of the paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author Contributions"
+        }
+    ]
+}

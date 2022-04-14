@@ -1,0 +1,1542 @@
+{
+    "paper_id": "a7fedb32092ab3b67b2bf0b59335d6fbb882ab3d",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "in 20-to 29-year-old and 60-to 69-year-old individuals. 1, [3] [4] [5] [6] [7] IgAV is often involved with the kidneys, which is called IgAV with nephritis (IgAVN): 30%-50% of children and 45%-85% of adult cases. 1, 3 They also reported that adult patients with IgAVN have a higher rate of renal involvement and, thus, a greater risk of progression to endstage kidney disease (ESKD) than children. [6] [7] [8] [9] Clinical findings at the time of diagnosis indicated advanced age, baseline renal function, lower serum albumin levels, hypertension, and proteinuria to be risk factors for ESKD. 7, 8, [10] [11] [12] A multicenter retrospective cohort study, using the Japan Renal Biopsy Registry, demonstrated that age older than 65 years and hypoalbuminemia were the independent prognostic factors for a decline in renal function. 13 Although gastrointestinal bleeding (GIB) because of various causes, such as hemorrhagic erosions and ulcers, is common, 9, 14, 15 its impact on renal prognosis in patients with IgAVN remains uncertain. In addition, patients with IgAV often visit primary care physicians with common complaints such as palpable purpura, arthritis, and gastrointestinal symptoms, so that study on the prognosis of IgAV is relevant for general physicians. Therefore, we conducted this retrospective cohort study to investigate the effects of GIB on renal prognosis and mortality; furthermore, we examined the factors that affect the progression to ESKD in adult patients with IgAVN. 16 We performed a chart review of patients with IgAVN using the Teine Keijinkai Renal Biopsy Registry (TK-RBR) at Teine Keijinkai Medical Center and gathered information between January 1, 2000, and December 31, 2018.",
+            "cite_spans": [
+                {
+                    "start": 56,
+                    "end": 58,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 59,
+                    "end": 62,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 63,
+                    "end": 66,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 67,
+                    "end": 70,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 71,
+                    "end": 74,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 75,
+                    "end": 78,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 213,
+                    "end": 215,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 398,
+                    "end": 401,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 402,
+                    "end": 405,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 406,
+                    "end": 409,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 410,
+                    "end": 413,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 593,
+                    "end": 595,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 596,
+                    "end": 598,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 599,
+                    "end": 603,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 604,
+                    "end": 608,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 609,
+                    "end": 613,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 953,
+                    "end": 955,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 956,
+                    "end": 959,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1496,
+                    "end": 1498,
+                    "text": "16",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The main measurement of exposure in this study was GIB one month before and after the diagnosis of IgAVN, which had been defined as endoscopically proven GIB, melena, and/or hematemesis. Baseline characteristics, as well as laboratory and pathological data, were evaluated by physicians in charge of each patient in every individual case at the time of the initial evaluation. Baseline characteristics of the patients included age, gender, body mass index (body weight",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Definitions and measurements"
+        },
+        {
+            "text": "[kg]/height 2 [m 2 ]), systolic and diastolic blood pressure, presence/ absence of edema, comorbidities (hypertension, diabetes mellitus, liver diseases, endometriosis, uterine fibroids), and prescribed medications (aspirin, warfarin, nonsteroidal anti-inflammatory drugs).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Definitions and measurements"
+        },
+        {
+            "text": "Hypertension was defined as a state in which systolic blood pressure was greater than 140 mm Hg and/or diastolic blood pressure was greater than 90 mm Hg, and antihypertensive drugs were being used as treatment before diagnosis of IgAVN. Diabetes mellitus was defined as the condition in which HbA1c was greater than 6.5% The primary outcome of interest that was measured here was the incidence of ESKD, which was indicated by an eGFR less than 15 mL/min/1.73 m 2 or the initiation of renal replacement therapy, including hemodialysis, peritoneal dialysis, or renal transplant within 5 years of diagnosis. The incidence of ESKD was ascertained from each patient's medical records prepared by the physicians in charge of them. Secondary outcomes recorded here were time to death from any cause and time to clinical remission, which was defined as the disappearance of hematuria and proteinuria. The disappearance of hematuria was defined as a condition with fewer than 5/ high-power field of erythrocytes in sediment or (\u2212) to (\u00b1) in dipstick tests. The disappearance of proteinuria was defined by the presence of less than a total of 0.3 g/d of protein in urine samples collected over a 24-hour period or urine protein/urine creatinine ratio of less than 0.3, when recorded from spot urine or (\u2212) to (\u00b1) dipstick tests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Definitions and measurements"
+        },
+        {
+            "text": "The follow-up period was defined as the time from the initial diagnosis to (a) incidence of ESKD or (b) the last follow-up visit, whichever came first. Cases in which death occurred before ESKD incidence were not considered for further analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Definitions and measurements"
+        },
+        {
+            "text": "We used Student's t test or the Wilcoxon rank-sum test to compare continuous variables based on their distributions, and Fisher's exact test to compare the proportions of categorical variables between the GIB and non-GIB groups. The normality of the variance for each continuous variable was analyzed using the Shapiro-Wilk W test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Statistical analyses"
+        },
+        {
+            "text": "The ISKDC classification was compared between the groups using single-factor analysis of variance (ANOVA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Statistical analyses"
+        },
+        {
+            "text": "We used the Kaplan-Meier method to estimate incidences of ESKD, clinical remission, and death; the records thus obtained were compared by using the log-rank tests. Data were censored on December 31, 2018. Patients who were lost till the time of follow-up were removed at the date of the last contact. Patients who were alive on December 31, 2018, were considered for analysis. We used Cox proportional hazards models to assess the association of GIB and several covariates with the incidence of ESKD; the results were expressed as hazard ratios (HR) with 95% confidence intervals (CI). All the independent variables included in univariable analyses were either categorical (coded as 0/1) or quantitative. Categorical variables included hypertension, RASi, endocapillary proliferation lesions (\u226525%), steroid pulse therapy, and GIB. Quantitative variables included age, gender, urinary protein levels, eGFR, and serum red blood cell counts. Multivariable Cox analyses were applied to determine the relationship between the incidence of ESKD and GIB, as well as age, gender, hypertension, and urinary protein levels.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Statistical analyses"
+        },
+        {
+            "text": "Variables included in the multivariable Cox analysis were selected based on previous studies and the results of the univariable analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Statistical analyses"
+        },
+        {
+            "text": "The sample size calculation was based upon the primary outcome, which was estimated to be 50% 17 in the GIB group and 20% 8, 10, 11, 18 in the non-GIB group. With a significance threshold of P = .05 in statistical analyses and 80% statistical power, the total sample size was calculated to be 80 after adjusting for 5% attrition, leaving 40 individuals in each group.",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 124,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 125,
+                    "end": 128,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 129,
+                    "end": 132,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Statistical analyses"
+        },
+        {
+            "text": "We have presented data on continuous variables as means with standard deviations (SD) or medians with associated interquartile ranges, while categorical variables are presented as numbers and percentages. We used the STATA software (version 15.1; StataCorp LLC) to perform statistical analyses. All the reported P-values are two-sided. We considered a P-value less than .05 to indicate statistical significance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Statistical analyses"
+        },
+        {
+            "text": "Among the 1085 eligible patients who were registered in the TK-RBR from January 1, 2000, to November 30, 2018, at the Teine Keijinkai Medical Center, 35 (3.4%) only the patients with IgAVN were included in this study. We excluded three patients who had not completed the one-month follow-up requirement and two patients who had missing data. The remaining 30 patients were included in further analyses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Patients"
+        },
+        {
+            "text": "Baseline clinicopathological characteristics are summarized in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 63,
+                    "end": 70,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Clinicopathological characteristics and treatment modalities"
+        },
+        {
+            "text": "Ten out of the 30 (33%) patients developed GIB. The median age of patients was 58 years, and the mean body mass index was 24 \u00b1 4.3 kg/ m 2 . These statistics were comparable between the two groups (P = .059 and .81, respectively). As compared to the patients without GIB, patients with GIB had a higher prevalence of hypertension (70% vs 25%, P = .045), higher urinary protein levels (median [ The incidence of ESKD was significantly higher in the GIB group (five events, 50%) than in the non-GIB group (one event, 5%) (logrank test, P = .003) (Figure 1) . Additionally, the incidence of clinical remission was significantly lower in the GIB group (2 events, 20%) than in the non-GIB group (15 events, 75%) (log-rank test, P = .003) ( Figure 2) . A total of 2 (6.7%) deaths occurred, both in the GIB group as a result of hemorrhagic shock secondary to massive GIB.",
+            "cite_spans": [
+                {
+                    "start": 392,
+                    "end": 393,
+                    "text": "[",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 544,
+                    "end": 554,
+                    "text": "(Figure 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 735,
+                    "end": 744,
+                    "text": "Figure 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Clinicopathological characteristics and treatment modalities"
+        },
+        {
+            "text": "However, the mortality rate was not significantly different between the two groups (log-rank test, P = .07).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Between-group comparison of primary and secondary outcomes"
+        },
+        {
+            "text": "As per the univariable analysis with Cox proportional hazards models ( ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Factors affecting progression to ESKD"
+        },
+        {
+            "text": "with IgAVN and identified the factors that affect progression to ESKD. The results showed that patients who developed GIB were at a higher risk of ESKD with lower chances of clinical remission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "This study investigated the clinical impacts of GIB in adult patients"
+        },
+        {
+            "text": "Although the relationship was not statistically significant, the patients with GIB tended to have more deaths than those without GIB. Although GIB is not independently associated with progression to ESKD with adjustment for covariates, our results suggest that assessment of GIB may be an effective method to identify patients with IgAVN who are at a high risk of ESKD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "This study investigated the clinical impacts of GIB in adult patients"
+        },
+        {
+            "text": "The renal prognosis in adult patients with IgAVN was worse than that in children. 9 Previous studies have shown that it ranged from 9% to 27% because of substantial heterogeneity across studies, as well as limitations in study designs, patient populations, and definition of outcomes. 8, 10, 11, 18 A more recent study, using the Japan Renal Biopsy Registry, reported that the rate of decline in renal function (defined as a 50% increase in sCr from baseline or ESKD with renal replacement therapy) was 21.7% in Japanese patients with IgAVN. 13 In the present study, 20% of the patients reached ESKD in the 5-year follow-up period, comparable to results from the previous study. 18 Additionally, our results from the univariable analysis are in line with previous studies, demonstrating that urinary protein levels and hypertension are independent predictors of renal prognosis in patients with IgAVN. 10, 12, 18 We found out that patients with GIB are more likely to develop ESKD and less likely to reach clinical remission than those without GIB. This may be biologically plausible because GIB can cause anemia and subsequent hypo-oxygenation of the kidney, contributing to the development of ESKD. 19 Although GIB is one of the most acute life-threatening clinical manifestations, 9 only a few studies have reported an association between GIB and long-term progression to ESKD. A recent retrospective cohort study in France 6 reported that 43/137 (31%) patients with IgAV had GIB; however, they did not investigate the effect of GIB on the renal prognosis as we did in our study.",
+            "cite_spans": [
+                {
+                    "start": 285,
+                    "end": 287,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 288,
+                    "end": 291,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 292,
+                    "end": 295,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 902,
+                    "end": 905,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 906,
+                    "end": 909,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "This study investigated the clinical impacts of GIB in adult patients"
+        },
+        {
+            "text": "This study showed that the GIB group tended to have higher mortality than the non-GIB group, although the difference was not statistically significant between the groups. This may simply be because of the small sample size (type II error). Interestingly, we observed a relatively higher mortality of 2/30 (6.7%) patients than that reported in prior studies 6, 18 despite aggressive treatment with high-dose corticosteroids. The reasons remain unclear, but one possible explanation may be related to the inclusion of more severe cases in our study: The baseline sCr levels (1.21 \u00b1 0.92 mg/ dL vs 0.91 \u00b1 0.46 mg/dL) and the percentage of urine protein, that is, >3 g/d (32% vs 23%), were higher in our cohort than in the study performed using the Japan Renal Biopsy Registry. 13 We observed that GIB has a statistically significant association with ESKD with an adjustment for patients' age and gender; however, this result should be interpreted cautiously because it has a wide 95% confidence interval. Besides, GIB was not statistically significant after further adjustment with urinary protein levels and hypertension. Therefore, we could not conclude that GIB is an independent prognostic factor of ESKD in this study. Baseline characteristics, including age, BUN, and sCr, were not included in the multivariable analysis because they were similar in the two groups.",
+            "cite_spans": [
+                {
+                    "start": 357,
+                    "end": 359,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "This study investigated the clinical impacts of GIB in adult patients"
+        },
+        {
+            "text": "In addition, we did not include ISKDC classification and crescentic lesions in the Cox proportional hazards models because the performed. Despite these limitations, this was the first report to assess the association of gastrointestinal bleeding and renal prognosis in patients with IgAVN. Finally, we provide univariable analyses of ESKD, but we were unable to perform robust multivariable analyses for the outcome because of the limited number of events. 25 Prospective enrollment and multicenter data collection from the time of diagnosis would have been ideal but are difficult to achieve with a single-center study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "This study investigated the clinical impacts of GIB in adult patients"
+        },
+        {
+            "text": "In conclusion, we performed a retrospective study on a patient cohort with IgAVN to compare the outcomes between the GIB and non-GIB groups. This study indicated that GIB is associated with the incidence of ESKD, as well as clinical remission in patients with",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "This study investigated the clinical impacts of GIB in adult patients"
+        },
+        {
+            "text": "IgAVN, but it failed to be identified as an independent predictor of ESKD. Although these findings should be interpreted in the context of the small sample size, GIB may be a useful indicator for identification of patients with IgAVN at a high risk of ESKD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "This study investigated the clinical impacts of GIB in adult patients"
+        },
+        {
+            "text": "We would like to thank Editage (www.edita ge.jp) for English language editing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACK N OWLED G EM ENTS"
+        },
+        {
+            "text": "The authors have stated explicitly that there are no conflicts of interest in connection with this article. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CO N FLI C T O F I NTE R E S T S"
+        },
+        {
+            "text": "Yoshinosuke Shimamura https://orcid.org/0000-0003-0278-6900",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "O RCI D"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "revised International Chapel Hill Consensus Conference Nomenclature of Vasculitis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jennette",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Falk",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bacon",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Basu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cid",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ferrario",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "65",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Differences in clinical manifestations and outcomes between adult and child patients with Henoch-Sch\u00f6nlein purpura",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ha",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Korean Med Sci",
+            "volume": "29",
+            "issn": "",
+            "pages": "198--203",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical manifestations of Henoch-Sch\u00f6nlein purpura nephritis and IgA nephropathy: comparative analysis of data from the Japan Renal Biopsy Registry (J-RBR)",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Komatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fujimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Yoshikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kitamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sugiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yokoyama",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clin Exp Nephrol",
+            "volume": "20",
+            "issn": "",
+            "pages": "552--60",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Lin YT A nationwide survey on epidemiological characteristics of childhood Henoch-Sch\u00f6nlein purpura in Taiwan",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chuang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Rheumatology (Oxford)",
+            "volume": "44",
+            "issn": "",
+            "pages": "618--640",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "What is known about the epidemiology of the vasculitides?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Watts",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lane",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Best Pract Res Clin Rheumatol",
+            "volume": "19",
+            "issn": "",
+            "pages": "191--207",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Characteristics and management of IgA vasculitis (Henoch-Sch\u00f6nlein) in adults: data From 260 patients included in a french multicenter retrospective survey",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Audemard-Verger",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Terrier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dechartres",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chanal",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Amoura",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Gouellec",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Arthritis Rheumatol",
+            "volume": "69",
+            "issn": "",
+            "pages": "1862--70",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical impact of endocapillary proliferation according to the Oxford classification among adults with Henoch-Sch\u00f6nlein purpura nephritis: a multicenter retrospective cohort study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Inagaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kaihan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hachiya",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ozeki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ando",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kato",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Nephrol",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Henoch-Sch\u00f6nlein purpura in adults: outcome and prognostic factors",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pillebout",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Thervet",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Alberti",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vanhille",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nochy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Am Soc Nephrol",
+            "volume": "13",
+            "issn": "",
+            "pages": "1271--1279",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "IgA vasculitis (Henoch-Sch\u00f6nlein purpura) in adults: Diagnostic and therapeutic aspects",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Audemard-Verger",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pillebout",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guillevin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Thervet",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Terrier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Autoimmun Rev",
+            "volume": "14",
+            "issn": "",
+            "pages": "579--85",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Long-term prognosis of Henoch-Sch\u00f6nlein nephritis in adults and children. Italian Group of Renal Immunopathology Collaborative Study on Henoch-Sch\u00f6nlein purpura",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Coppo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mazzucco",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cagnoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lupo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Schena",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nephrol Dial Transplant",
+            "volume": "12",
+            "issn": "",
+            "pages": "2277--83",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Henoch-Sch\u00f6nlein nephritis in adults-clinical features and outcomes in Finnish patients",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rauta",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tornroth",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gronhagen-Riska",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Clin Nephrol",
+            "volume": "58",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Predictors of outcome in Henoch-Sch\u00f6nlein nephritis in children and adults",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Coppo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Andrulli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Amore",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gianoglio",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Conti",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peruzzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Am J Kidney Dis",
+            "volume": "47",
+            "issn": "",
+            "pages": "993--1003",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Distinct characteristics and outcomes in elderlyonset IgA vasculitis (Henoch-Sch\u00f6nlein purpura) with nephritis: Nationwide cohort study of data from the Japan Renal Biopsy Registry (J-RBR)",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Komatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fujimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Maruyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mukoyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sugiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tsuruya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS ONE",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Henoch-Sch\u00f6nlein purpura in northern Spain: clinical spectrum of the disease in 417 patients from a single center",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Calvo-Rio",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Loricera",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mata",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mart\u00edn",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ortiz-Sanju\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Alvarez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Medicine (Baltimore)",
+            "volume": "93",
+            "issn": "",
+            "pages": "106--119",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "GI involvement in Henoch-Sch\u00f6nlein purpura",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Esaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Matsumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nakamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kawasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Iwai",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hirakawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Gastrointest Endosc",
+            "volume": "56",
+            "issn": "",
+            "pages": "920--923",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Association of kidney function with anemia: the Third National Health and Nutrition Examination Survey (1988-2014)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Astor",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Muntner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Levin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Eustace",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Coresh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Arch Intern Med",
+            "volume": "162",
+            "issn": "",
+            "pages": "1401--1409",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Henoch-Sch\u00f6nlein purpura with nephritis in adults: adverse prognostic indicators in a UK population",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shrestha",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sumingan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Alhous",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mcwilliam",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ballardie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "QJM",
+            "volume": "99",
+            "issn": "",
+            "pages": "253--65",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Upper gastrointestinal bleeding as a risk factor for dialysis and all-cause mortality: a cohort study of chronic kidney disease patients in Taiwan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "BMJ Open",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Using Oxford classification of IgA nephropathy to predict long-term outcomes of Henoch-Sch\u00f6nlein purpura nephritis in adults",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bae",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kwon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Nam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Mod Pathol",
+            "volume": "27",
+            "issn": "",
+            "pages": "972--82",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Significance of histological crescent formation in patients with IgA vasculitis (Henoch-Sch\u00f6nlein purpura)-related nephritis: a cohort in the adult Chinese population",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Huan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-X",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-H",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Nephrol",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Early prednisone therapy in Henoch-Sch\u00f6nlein purpura: a randomized, double-blinded, placebo-controlled trial",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ronkainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Koskimies",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ala-Houhala",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Antikainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Merenmies",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rajantie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Pediatr",
+            "volume": "149",
+            "issn": "",
+            "pages": "241--248",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A randomized, placebo-controlled trial of prednisone in early Henoch-Sch\u00f6nlein purpura",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Huber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mclaine",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Klassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pothos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "BMC Med",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Clinical course of extrarenal symptoms in Henoch-Sch\u00f6nlein purpura: 6 6-month prospective studies",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Jauhola",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ronkainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Koskimies",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ala-Houhala",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Arikoski",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "H\u00f6ltt\u00e4",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Arch Dis Child",
+            "volume": "95",
+            "issn": "",
+            "pages": "871--877",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Regression Modeling Strategies: With Application to Linear Models, Logistic Regression, and Survival Analysis",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Harrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "A total of 1085 patients underwent kidney biopsy at the Teine Keijinkai Medical Center, a 650-bed tertiary reference center, in Sapporo situated at the northern island of Japan between January 1, 2000, and December 31, 2018. Inclusion criteria were as follows: age of 18 years or older; diagnosis of IgAVN between January 1, 2000, and November 30, 2018; treatment with renin-angiotensin system inhibitors, steroids, or other immunosuppressive regimens for at least a month; follow-up after at least a month of diagnosis; and consent to enroll in the study. Patients were considered to have IgAVN based on a modification of the classification criteria by the European League Against Rheumatism/the Paediatric Rheumatology European Society (EULAR/PRINTO/PRES): presence of purpura or petechiae with lower limb predominance and unrelated thrombocy-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "National Glycohemoglobin Standardization Program) and/or treatment with hypoglycemic drugs was ongoing before diagnosis. Liver disease was defined as the presence of viral hepatitis (hepatitis B virus or hepatitis C virus) or alcoholic liver disease before diagnosis. Information on the presence or absence of endometriosis and uterine fibroids was collected from hospital medical records or databases. Laboratory data collected for the study included values of urine in urine sediment red blood cell counts (\u226530 per high-power field), urinary protein levels, serum red blood cell counts, platelet counts, blood urea nitrogen (BUN), serum creatinine (sCr), estimated glomerular filtration rates (eGFR), serum albumin, serum immunoglobulin A (IgA) levels, complement 3 (C3) levels, complement 4 (C4) levels, and CH50 levels. Estimated glomerular filtration rates were calculated using a modified form of the IDMS-MDRD Study equation for Japanese individuals. Renal biopsy was performed at the time of diagnosis. Renal specimens were examined by a nephrological pathologist (YO) and were classified based on the International Study of Kidney Disease in Children (ISKDC) classification system. The modalities of initial treatment were recorded, such as the initial oral dose of corticosteroid, steroid pulse therapy (methylprednisolone 0.5 g/d for three consecutive days), along with the number of courses, renin-angiotensin system inhibitors (RASi), immunosuppressive agents and their descriptions, and tonsillectomy. Here, the RASi included the angiotensin-converting enzyme inhibitors and angiotensin II receptor antagonists.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "GIB groups. A total of 26 out of the 30 (87%) patients received oral corticosteroids with mean initial doses of 35.0 \u00b1 7.9 mg/d in the GIB group and 31.0 \u00b1 7.2 mg/d in the non-GIB group (P = .34); 15/30 (50%) patients received steroid pulse therapy, where 5/10 (50%) patients were from the GIB group and 10/20 (50%) were from the non-GIB group (P = 1.0). The numbers of steroid pulse courses varied between 1 and 3 in each group. The rate of treatment with a selected RASi (5/10 (50%) vs. 6/20 (30%)) did not differ between the groups (P = .43). A total of 2 out of 27 (7%) patients received intravenous cyclophosphamide as a part of the initial therapy.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "a median follow-up of 2.6 years, ESKD, clinical remission, and deaths from any cause occurred in 6/30 (20%), 17/30 (57%),",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "HT conceived and designed the study and drafted the manuscript; YS, TM, KN, HT, and YO acquired the data; YS carried out analysis and interpretation of data and statistical analysis; and HT and OY critically revised the manuscript. Human and animal rights: All procedures involving human participants were designed in accordance with the ethical standards of the institutional and/or national research committee at which the studies were conducted (IRB approval number: 2018-173) and followed the 1964 Helsinki Declaration and its later amendments or comparable ethical standards. Informed consent: Informed consent was obtained from all participants included in the study individually.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "topenia, histologically proven small-vessel vasculitis, histologically proven IgA deposits, and the involvement of at least one organ (from among kidney, joints, or intestinal tract). Patients were excluded from the analysis if they had kidney diseases other than IgAVN between January 1, 2000, and November 30, 2018, and if they refused to enroll in the study. After application of the exclusion criteria, 35 patients were included in our study. This study was conducted according to the Declaration of Helsinki and was approved by the institutional review board of Teine Keijinkai Medical Center (approval no. 2018-173). The participants in this study provided their written informed consent. The findings of this study follow the checklist for STROBE, that is, Strengthening the Reporting of Observational Studies in Epidemiology (STROBE), for observational studies.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "IQR], 4.8 [2.3-7.3] vs 1.3 [0.8-2.9] g/d, P = .011), lower serum red blood cell counts (mean \u00b1 SD, 359 \u00b1 93 vs 423 \u00b1 65 \u00d710 3 /\u03bcL, P = .003), and lower serum albumin levels (mean \u00b1 SD, 2.8 \u00b1 0.7 vs 3.4 \u00b1 0.8 g/dL, P = .023). mg/dL, P = .72) were comparable between the two groups. Renal biopsy was performed in all patients. According to the ISKDC classification, 7/23 (23%) patients belonged to class II, 16/30 (53%) belonged to class IIIa, and 7/30 (23%) belonged to class IIIb. No patients were assigned to class I, IV, V, or VI.Table 1also summarizes treatments between the GIB and non-",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Note: BMI, body mass index; BP, blood pressure; eGFR, estimated glomerular filtration rate; GIB, gastrointestinal bleeding; HPF, high-power field; ISKDC classification, the International Study of Kidney Disease in Children classification; NSAIDs, nonsteroidal anti-inflammatory drugs; PT-INR, prothrombin time internationalized ratio; RBC, red blood cell; SD, standard deviation; RAS inhibitors, renin-angiotensin system inhibitors.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Note: Model 1, adjusted for age and gender; Model 2, adjusted for Model 1, urine protein; Model 3, adjusted for Model 2 and hypertension. association between ISKDC classification and renal prognosis has not been observed previously in adult patients with IgAVN 12,20 ; furthermore, a recent retrospective cohort study reported that the proportion of crescents is not associated with a higher risk of ESKD.21 Most previous studies were performed on pediatric patients and have reported mixed results for the effectiveness of corticosteroids and other immunosuppressive agents, partly because of the differences in the sample populations and definitions of clinical outcomes.While several studies have reported the efficacy of prednisolone therapy in treating renal symptoms8,22,23 , a recent prospective study reported that there is no difference in the renal outcomes between the prednisolone-treated and nontreated patients.24 Therefore, we did not conduct a comparison of therapeutic effects of different treatments in this study because of its retrospective nature. To evaluate the effectiveness of corticosteroids and other immunosuppressive agents, large-scale prospective studies are required.The present study had several limitations. First, background characteristics were different between patients with positive and negative GIB. We tried to control for confounding factors using multivariable analysis to evaluate the prognostic factors; however, unmeasured confounders may still exist. Second, the retrospective study design was limited to the interpretation of our results. Third, the sample size of the present study might be insufficient to evaluate the influence of GIB on renal prognosis. The sample size also restricted the construction of models incorporating all potential confounding factors, especially BUN and sCr, and failed to introduce corrections in independent variables for multiple comparisons. Fourth, the log-rank tests in our analyses were not adjusted for potential confounders; therefore, our results should be interpreted with caution. Fifth, the study population consisted solely of Japanese patients, so these findings might not be generalizable to other ethnic groups. Validation studies in other settings should be",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}
