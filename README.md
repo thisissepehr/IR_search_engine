@@ -20,7 +20,7 @@ __Team Members:__
 
 ## Overview
 
-For this Project a Search Engine has been developed that allows the User to search through the articles collected by [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), which is a COVID-19 reasearch paper database.
+For this Project, a Search Engine has been developed that allows the User to search through the articles collected by [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), which is a COVID-19 reasearch paper database.
 
 
 ## Running the Project
