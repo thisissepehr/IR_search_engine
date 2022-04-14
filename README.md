@@ -20,17 +20,17 @@ __Team Members:__
 
 ## Overview
 
-for this Project, as Search Engine has been developed, that allowes for the User to search tough the articles collecetd by [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), which is a COVID-19 reasearch paper database.
+For this Project a Search Engine has been developed that allows the User to search through the articles collected by [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), which is a COVID-19 reasearch paper database.
 
 
 ## Running the Project
 
 ### Using  Docker
-The whole Project has been developed, so that it can be easilty executed and deployed using the single Docker command.
+The whole Project has been developed so that it can be easily executed and deployed using the single Docker command.
 
 -  `docker-compose up`
 
-This will create a Docker App, which will consitst out of two containers. One Backend Contianer, which runs the Python and Javascript code. The second contianer hosts the MySQL Database.
+This will create a Docker App, which will consist of two containers. One Backend Contianer, which runs the Python and Javascript code. The second contianer hosts the MySQL Database.
 
 ## Executing the Indexer
 **SYNOPSIS:**
@@ -39,13 +39,13 @@ This will create a Docker App, which will consitst out of two containers. One Ba
 
 **DESCRIPTION**
 
-The Intexer populated the Database with the Dataset. This operation can be very time intensive, as the most recent Dataset of the [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) collection has a size of ~80GB (April 2022).
+The Indexer populates the Database with the Dataset. This operation can be very time intensive, as the most recent Dataset of the [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) collection has a size of ~80GB (April 2022). Therefore, we chose an earlier version of the collection with size 2GB, but the code would remain workable for a larger version.
 
 ## The Methodology
 
 ### Natural language pre-processing
 
-Several pre-processing options are implemented an can be used via the commandline (lemmatization, stemming, stopwords removal, case folding).
+Several pre-processing options are implemented and can be used via the commandline (lemmatization, stemming, stopwords removal, case folding).
 They can be used in any combination apart from lemmatization and stemming together.
 We use spacy for the tokenization, stopwords removal and case folding. For stemming we use snowball-stemmer.
 
@@ -59,7 +59,7 @@ Case-folding is implemented with the python string method "casefold()".
 
 ### Scoring
 
-We have implemented *tf-idf*, *bm25* and *bm25va* scoring. The ranking works as follows:
+We have implemented *tf-idf*, *bm25*, *bm25L*, *bm25+* and *bm25va* scoring. The ranking works as follows:
 For each word that is both in the query and in the document we calculate the score of both the query and the documents. 
 We use cosine similarity for ranking, however we kind of calculate it while creating the vectors.
 We add up the upper part of cosine similarity A*B for all documents if they have the word (otherwise it the product is 0).
