@@ -16,11 +16,14 @@ db_port = "6033"
 db_user = 'root' #'populator',
 db_password = 'root' #'d9pifetoyesad2cekipoyolis',
 db_database = "BASP"
-insert_sqls = {'Author': 'INSERT INTO Author (FirstName, LastName) VALUES (%s, %s)',
-               'Paper': 'INSERT INTO Paper (idPaper, title, doi,abstract,year,body,word_count,unique_word_count) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)',
-               'Word': 'INSERT INTO Word (word) VALUES (%s)',
-               'paper_to_author': 'INSERT INTO paper_to_author (fk_paper_id, fk_author_id) VALUES (%s, %s)',
-               'word_to_paper': 'INSERT INTO word_to_paper (fk_word_id, fk_paper_id,counter) VALUES (%s, %s,%s)'}
+
+# INSERT IGNORE is used, which is suboptimal, as all errors are suppressed, it improves performance
+insert_sqls = {'Author': 'INSERT IGNORE INTO Author (FirstName, LastName) VALUES (%s, %s)',
+               'Paper': 'INSERT IGNORE INTO Paper (idPaper, title, doi,abstract,year,body,word_count,unique_word_count) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)',
+               'Word': 'INSERT IGNORE INTO Word (word) VALUES (%s)',
+               'paper_to_author': 'INSERT IGNORE INTO paper_to_author (fk_paper_id, fk_author_id) VALUES (%s, %s)',
+               'word_to_paper': 'INSERT IGNORE INTO word_to_paper (fk_word_id, fk_paper_id,counter) VALUES (%s, %s,%s)'}
+
 select_sqls = {'Author': 'SELECT * FROM Author WHERE FirstName = %s AND LastName = %s',
                'Paper': 'SELECT * FROM Paper WHERE idPaper = %s',
                'paper_to_author': 'SELECT * FROM paper_to_author WHERE fk_paper_id = %s AND fk_author_id = %s',
@@ -33,31 +36,24 @@ populator = None
 populator_cursor = None
 nlp = spacy.load('en_core_web_sm')
 stemmer = snowballstemmer.stemmer("english")
-MAX_FILE_NUMER = 1
+MAX_FILE_NUMER = 100
 
 # Function to iterate over dataset and parse the files
 def iterate_jsons():
-    for paperid, data in dataset.items():
+    for paperid,data in dataset.items():
         with open('./cord/'+date+'/document_parses/pdf_json/'+paperid) as f:
             text_only = ''
             json_data = json.load(f)
             authors = json_data["metadata"]["authors"]
-            title = json_data["metadata"]["title"]
-            abstract = json_data["abstract"]
             texts = json_data["body_text"]
             for items in texts:
                 text_only = text_only + str(items["text"]) if len(str(items["text"])) != 0 else text_only
-            for items in abstract:
-                text_only = text_only + str(items["text"]) if len(str(items["text"])) != 0 else text_only
-            if title != '':
-                text_only += title
             data = dataset.get(paperid)
             data['authors'] = authors
-            dataset.update({paperid: data})
+            dataset.update({paperid:data})
             yield paperid, text_only
 
-# Function to preprocess data
-def preprocess(doc_id, token) -> str:
+def preprocess(doc_id,token) -> str:
     strtok = ''
     if not stop_words or (token.is_alpha and not token.is_stop and len(token.orth_) > 1):
         if lemmatize:
@@ -70,24 +66,23 @@ def preprocess(doc_id, token) -> str:
             strtok = strtok.casefold()
         return strtok              
 
-# Function to Parse JSON
 def parse_json():
     paperids, texts = itertools.tee(iterate_jsons())
     paperids = (id_ for (id_, text) in paperids)
     texts = (text for (id_, text) in texts)
     texts = nlp.pipe(texts, batch_size=10)
     for paperid, texts in zip(paperids, texts):
-        processed_text: str = ''
+        processed_text:str = ''
         for token in texts:
-            processed_token: str = preprocess(paperid, token)
-            if processed_token == '' or processed_token is None:
+            processed_token:str = preprocess(paperid,token)
+            if processed_token == '' or processed_token == None:
                 continue
             processed_text = processed_text+' '+processed_token
         data = dataset.get(paperid)
         data['body'] = processed_text
-        dataset.update({paperid: data})
+        dataset.update({paperid:data})
 
-# Function to load CSV
+
 def load_csv():
     global dataset
     counter = 0
@@ -99,8 +94,8 @@ def load_csv():
             abstract = row['abstract']
             publish_time = row['publish_time']
             paperid = row['pdf_json_files'][25:].split()
-            if not len(paperid) == 0 and not publish_time == '' and not abstract == '' and not title == '' and not doi == '':
-                if not doi.startswith('http://dx.doi.org/'): doi = 'http://dx.doi.org/' + doi
+            if (not len(paperid) == 0 and not publish_time == '' and not abstract == '' and not title == '' and not doi == ''):
+                if(not doi.startswith('http://dx.doi.org/')): doi = 'http://dx.doi.org/'+doi
                 dataset.update({paperid[0].replace(';',''):{'doi': doi, 'title': title, 'abstract': abstract, 'authors': '', 'publish_time': publish_time, 'body': ''}})
                 counter = counter + 1
             if counter == MAX_FILE_NUMER:
@@ -152,13 +147,13 @@ def connect_to_DB():
     @return
         the object id
 '''
-def add_object_to_DB(insert_sql, select_sql, select_val, val) -> int:
+def add_object_to_DB(instert_sql, select_sql, select_val, val):
     populator_cursor = populator.cursor()
-    populator_cursor.execute(select_sql, select_val)
+    #populator_cursor.execute(select_sql, select_val)
     try: 
-        id = populator_cursor.fetchone()
-        if id is None:
-            populator_cursor.execute(insert_sql, val)
+        #id = populator_cursor.fetchone()
+        #if id == None:
+            populator_cursor.execute(instert_sql, val)
             populator.commit()
             id = populator_cursor.lastrowid
     except BaseException as es: 
@@ -170,14 +165,14 @@ def add_object_to_DB(insert_sql, select_sql, select_val, val) -> int:
     All the indexing happens here
 '''
 def index(paper_id, author_ids, word_ids):
-    populator_cursor = populator.cursor()
-    for author_id in author_ids:
-        # should check first if exists
-        populator_cursor.execute(insert_sqls['paper_to_author'], (paper_id[0], author_id[0]))
-    populator.commit()
-    for word_id in word_ids:
-        # should check first if exists
-        populator_cursor.execute(insert_sqls['word_to_paper'], (word_id[0], paper_id[0],dataset.get(paper_id[0])['body'].count(word_id[1])))
+    if not type(paper_id)==str: paper_id = paper_id[0]
+    for author_id  in author_ids:
+        if not type(author_id)==int: author_id = author_id[0]
+        add_object_to_DB(insert_sqls['paper_to_author'], select_sqls['paper_to_author'], (paper_id, author_id), (paper_id, author_id))
+    for word_id,word_val in word_ids:
+        if not type(word_id)==int: word_id = word_id[0]
+        counter = dataset.get(paper_id)['body'].count(word_val)
+        add_object_to_DB(insert_sqls['word_to_paper'], select_sqls['word_to_paper'], (word_id, paper_id), (word_id, paper_id,counter))
     populator.commit()
 
 ''' populate function
@@ -194,8 +189,8 @@ def populate():
             author_ids.append(add_object_to_DB(insert_sqls['Author'], select_sqls['Author'], val_author,val_author))
         word_ids = []
         for val_word in val_words:
-            word_ids.append(add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], [val_word],[val_word]))
-        index(paper_id, author_ids, word_ids)
+            word_ids.append((add_object_to_DB(insert_sqls['Word'], select_sqls['Word'], [val_word],[val_word]),val_word))
+        index(paperid, author_ids, word_ids)
 
 ''' count_unique function
     Counts the unique words in the document

@@ -1,4 +1,3 @@
-import pickle
 import sys
 import math
 import spacy
@@ -278,17 +277,8 @@ if os.path.exists('scores_{}.txt'.format(scoring_method)):
     print('Output file scores_{}.txt already exists. Old file deleted.'.format(scoring_method))
     # sys.exit(0)
 
-# print("All data is being loaded. This can take a few minutes.")
-# iInd = pickle.load(open("inv_ind.p", "rb"))
-# word_counters = pickle.load(open("word_count.p", "rb"))
-# unique_word_counters = pickle.load(open("unique_words_count.p", "rb"))
-# nlp = spacy.load('en_core_web_sm')
-# print("Data loaded successfully, starting with scoring.")
-
 connect_to_DB()
 topic_tokens = pre_process_query(query)
 process_topic(topic_tokens, query, topicNo=None)
 
 print("All topics processed. Output can be found in \"scores_{}.txt\".".format(scoring_method))
-
-
