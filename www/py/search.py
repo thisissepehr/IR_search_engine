@@ -1,4 +1,3 @@
-import sys
 import math
 import spacy
 from nltk.tokenize import RegexpTokenizer
@@ -10,6 +9,7 @@ stemmer = snowballstemmer.stemmer("english")
 nlp = spacy.load('en_core_web_sm')
 tokenizer = RegexpTokenizer(r'[a-zA-Z]+')
 import os
+import sys, getopt
 
 # try:
 #     _create_unverified_https_context = ssl._create_unverified_context
@@ -261,24 +261,23 @@ def pre_process_query(query):
 
     return tokens
 
-# Take query input from user
-print("Input your query: ")
-query: str = input()
+def main_args(argv):
+    query = ''
+    scoring_method = ''
+    try:
+        opts, args = getopt.getopt(argv,"m:q:",[])
+    except getopt.GetoptError:
+        exit(1)
+    for opt, arg in opts:
+        if opt == '-m':
+            scoring_method = str(arg)
+        elif opt in ("-q"):
+            query = str(arg)
+    if query == '' and scoring_method == '': exit(1)
 
-# Take scoring method input from user
-print("Choose a scoring method. Options are: \"tf-idf\", \"bm25\", \"bm25l\", \"bm25_plus\" or \"bm25va\".")
-scoring_method = input()
-if scoring_method != "tf-idf" and scoring_method != "bm25" and scoring_method != "bm25va":
-    print("Please either enter \"tf-idf\", \"bm25\" or \"bm25va\" \"bm25l\", \"bm25_plus\". Exiting..")
-    sys.exit(0)
+    connect_to_DB()
+    topic_tokens = pre_process_query(query)
+    process_topic(topic_tokens, query, topicNo=None)    
 
-if os.path.exists('scores_{}.txt'.format(scoring_method)):
-    os.remove('scores_{}.txt'.format(scoring_method))
-    print('Output file scores_{}.txt already exists. Old file deleted.'.format(scoring_method))
-    # sys.exit(0)
-
-connect_to_DB()
-topic_tokens = pre_process_query(query)
-process_topic(topic_tokens, query, topicNo=None)
-
-print("All topics processed. Output can be found in \"scores_{}.txt\".".format(scoring_method))
+if __name__ == "__main__":
+   main_args(sys.argv[1:])
