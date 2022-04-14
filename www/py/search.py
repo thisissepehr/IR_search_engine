@@ -25,7 +25,7 @@ import os
 lemmatize = True
 stem = False
 stop_words = True
-case_fold = False
+case_fold = True
 
 # global DB variables
 db_host = "localhost"
