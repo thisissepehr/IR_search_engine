@@ -36,7 +36,7 @@ populator = None
 populator_cursor = None
 nlp = spacy.load('en_core_web_sm')
 stemmer = snowballstemmer.stemmer("english")
-MAX_FILE_NUMER = 100
+MAX_FILE_NUMER = -1
 
 # Function to iterate over dataset and parse the files
 def iterate_jsons():
