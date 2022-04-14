@@ -1,5 +1,5 @@
 .DS_Store
-www/py/cord
+**/cord
 *.tar.gz
 __pycache__
 node_modules
