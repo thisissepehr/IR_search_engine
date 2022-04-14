@@ -169,11 +169,9 @@ def score(topic_words, topic_word_count):
                 b = bva(topic_word_count, int(doc_counter[0]), int(word_counters[0]), len(topic_words))
                 t_score = bm25(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]), b)
             elif scoring_method == 'bm25l':
-                pass
-                ## TODO : 
+                t_score = bm25l(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
             elif scoring_method == "bm25_plus":
-                pass
-                ## TODO :
+                t_score = bm25_plus(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
             vector_betrag_topic += t_score * t_score
 
             # Get all documents & count of that word where we find work tk from word_to_paper Table
@@ -195,11 +193,9 @@ def score(topic_words, topic_word_count):
                     b = bva(int(words_in_doc[0][0]), int(doc_counter[0]), int(word_counters[0]), int(unique_word_counters[0][0]))
                     d_score = bm25(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]), b)
                 elif scoring_method == 'bm25l':
-                    pass
-                    ## TODO : 
+                    d_score = bm25l(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
                 elif scoring_method == "bm25_plus":
-                    pass
-                    ## TODO :
+                    d_score = bm25_plus(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
                 
                 if scores_upper.get(dk) is None:
                     scores_upper[dk] = t_score * d_score
