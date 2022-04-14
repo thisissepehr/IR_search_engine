@@ -164,6 +164,12 @@ def score(topic_words, topic_word_count):
             elif scoring_method == "bm25va":
                 b = bva(topic_word_count, int(doc_counter[0]), int(word_counters[0]), len(topic_words))
                 t_score = bm25(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]), b)
+            elif scoring_method == 'bm25l':
+                pass
+                ## TODO : 
+            elif scoring_method == "bm25_plus":
+                pass
+                ## TODO :
             vector_betrag_topic += t_score * t_score
 
             # Get all documents & count of that word where we find work tk from word_to_paper Table
@@ -180,7 +186,13 @@ def score(topic_words, topic_word_count):
                 elif scoring_method == "bm25va":
                     b = bva(int(words_in_doc[0][0]), int(doc_counter[0]), int(word_counters[0]), int(unique_word_counters[0][0]))
                     d_score = bm25(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]), b)
-
+                elif scoring_method == 'bm25l':
+                    pass
+                    ## TODO : 
+                elif scoring_method == "bm25_plus":
+                    pass
+                    ## TODO :
+                
                 if scores_upper.get(dk) is None:
                     scores_upper[dk] = t_score * d_score
                 else:
@@ -251,10 +263,10 @@ print("Input your query: ")
 query: str = input()
 
 # Take scoring method input from user
-print("Choose a scoring method. Options are: \"tf-idf\", \"bm25\" or \"bm25va\".")
+print("Choose a scoring method. Options are: \"tf-idf\", \"bm25\", \"bm25l\", \"bm25_plus\" or \"bm25va\".")
 scoring_method = input()
 if scoring_method != "tf-idf" and scoring_method != "bm25" and scoring_method != "bm25va":
-    print("Please either enter \"tf-idf\", \"bm25\" or \"bm25va\". Exiting..")
+    print("Please either enter \"tf-idf\", \"bm25\" or \"bm25va\" \"bm25l\", \"bm25_plus\". Exiting..")
     sys.exit(0)
 
 if os.path.exists('scores_{}.txt'.format(scoring_method)):

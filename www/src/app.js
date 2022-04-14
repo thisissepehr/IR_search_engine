@@ -28,9 +28,14 @@ app.get("", (req,res)=>{
 })
 
 app.get("/search",(req,res)=>{
-    if(!req.query.query) {
+    if(!req.query.query || !req.query.method) {
         return res.send({
-            error: "Provide some text to start the search"
+            data: [{
+                title:"Error in your search",
+                author:["error"],
+                url:"/",
+                year: 0        
+            }]
         })
     }
     const python = spawn('python',['./utils/searchConnector.py'])
