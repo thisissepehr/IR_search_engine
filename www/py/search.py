@@ -254,13 +254,12 @@ def pre_process_query(query):
     return tokens
 
 def main_args(argv):
-    query = 'ahead'
-    scoring_method = 'bm25'
+    query = ''
+    scoring_method = ''
     try:
         opts, args = getopt.getopt(argv,"m:q:",[])
     except getopt.GetoptError:
-        #exit(1)
-        i=1
+        exit(1)
     for opt, arg in opts:
         if opt == '-m':
             scoring_method = str(arg)
