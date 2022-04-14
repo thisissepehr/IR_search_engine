@@ -6,7 +6,9 @@ from nltk.tokenize import RegexpTokenizer
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import snowballstemmer
+import mysql.connector
 stemmer = snowballstemmer.stemmer("english")
+nlp = spacy.load('en_core_web_sm')
 tokenizer = RegexpTokenizer(r'[a-zA-Z]+')
 import os
 
@@ -24,6 +26,45 @@ lemmatize = True
 stem = False
 stop_words = True
 case_fold = False
+
+# global DB variables
+db_host = "localhost"
+db_port = "3306"
+db_user = 'root' #'populator',
+db_password = 'SED_Group10' #'d9pifetoyesad2cekipoyolis',
+db_database = "BASP"
+select_sqls = {'word_counter': 'SELECT * FROM Word',
+               'doc_counter': 'SELECT * FROM Paper',
+               'word_in_doc_counter': 'SELECT * FROM word_to_paper WHERE fk_word_id in (SELECT idWord from Word WHERE word = %s)',
+               'unique_word_counter': 'SELECT unique_word_count FROM Paper WHERE idPaper = %s',
+               'word_avail': 'SELECT * FROM Word WHERE word = %s',
+               'documents': 'SELECT fk_paper_id, counter FROM word_to_paper WHERE fk_word_id in (SELECT idWord from Word WHERE word = %s)',
+               'total_words_in_doc': 'SELECT * from Paper WHERE idPaper = %s',
+               'get_doc_unique_count': 'SELECT idPaper, word_count, unique_word_count FROM Paper'}
+
+''' connect_to_DB function
+    Connect to the database
+'''
+def connect_to_DB():
+    global db_host
+    global db_user
+    global db_password
+    global db_database
+    global populator_cursor
+    global populator
+    global db_port
+    try:
+        populator = mysql.connector.connect(
+            host=db_host,
+            user=db_user,
+            password=db_password,
+            database=db_database,
+            port=db_port
+        )
+        populator_cursor=populator.cursor()
+    except BaseException as ex:
+        print(ex)
+        exit(1)
 
 # Function to calculate term frequency
 def tf(word_occ, word_count):
@@ -47,12 +88,12 @@ def bm25(word_occ, word_count, doc_count, contains_count, all_dwords_count, b=0.
             (tf(word_occ, word_count) + k * (1 - b + b * word_count / avgdl(all_dwords_count, doc_count))))
 
 # Function to calculate BM25L
-def bm25l(word_occ, word_count, doc_countm, contains_count, all_dwords_count, b = 0.75, delta = 0.5, k = 1.2):
+def bm25l(word_occ, word_count, doc_count, contains_count, all_dwords_count, b=0.75, delta=0.5, k=1.2):
     ctd = tf(word_occ, word_count) / (1 - b + b * word_count / avgdl(all_dwords_count, doc_count))
     return idf(doc_count, contains_count) * (k + 1) * (ctd + delta) / (k + ctd + delta)
 
 # Function to calculate BM25Plus
-def bm25_plus():
+def bm25_plus(word_occ, word_count, doc_count, contains_count, all_dwords_count, b=0.75, delta=0.5, k=1.2):
     return idf(doc_count, contains_count) * (delta + (tf(word_occ, word_count) * (k + 1)) / 
             (k * (1 - b + b * word_count / avgdl(all_dwords_count, doc_count)) + tf(word_occ, word_count)))
 
@@ -66,9 +107,10 @@ def mavgtf(doc_count):
     global mavgtf_v
     if mavgtf_v is None:
         sum_m = 0
-        for docno, u_c in unique_word_counters.items():
-            if docno in word_counters: # Added condition
-                sum_m = sum_m + avgtf(word_counters[docno], u_c)
+        # Get all papers with unique word count from database
+        unique_word_counters = get_val_from_DB(select_sqls['get_doc_unique_count'], None, False, False)
+        for docno, word_count, u_c in unique_word_counters:
+            sum_m = sum_m + avgtf(word_count, u_c)
         mavgtf_v = sum_m / doc_count
     return mavgtf_v
 
@@ -78,48 +120,46 @@ def bva(word_count, doc_count, all_dwords_count, unique_word_count):
     return (pow(mavgtf_l, -2) * avgtf(word_count, unique_word_count) + (1 - pow(mavgtf_l, -1)) *
             word_count / avgdl(all_dwords_count, doc_count))
 
+def get_val_from_DB(select_sql, select_val, val, count) -> int:
+    populator_cursor = populator.cursor()
+    try:
+        if val:
+            populator_cursor.execute(select_sql, select_val)
+            if count:
+                id = populator_cursor.fetchall().count()
+            else:
+                id = populator_cursor.fetchall()
+        else:
+            populator_cursor.execute(select_sql)
+            if count:
+                id = populator_cursor.fetchall().count()
+            else:
+                id = populator_cursor.fetchall()
+        if id is None:
+            return -1
+    except BaseException as es: 
+        print(es)
+        exit(1)
+    return id
+
 # Function to score query
 def score_topic(topic_words, topic_word_count):
     topic_vector = {}
     for tk, tv in topic_words.items():
+        # Get total number of words in whole dataset
+        word_counters = get_val_from_DB(select_sqls['word_counter'], None, False, True)
+        # Get total number of documents in dataset
+        doc_counter = get_val_from_DB(select_sqls['doc_counter'], None, False, True)
+        # Get total number of documents where we find word tk
+        iInd = get_val_from_DB(select_sqls['word_in_doc_counter'], {'word': tk}, True, True)
         if scoring_method == "tf-idf":
-            topic_vector[tk] = (tf_idf(tv, topic_word_count, word_counters["doc_counter"], len(iInd[tk]) + 1))
+            topic_vector[tk] = (tf_idf(tv, topic_word_count, doc_counter, iInd + 1))
         elif scoring_method == "bm25":
-            topic_vector[tk] = (bm25(tv, topic_word_count, word_counters["doc_counter"], len(iInd[tk]) + 1,
-                           word_counters["word_counter"]))
+            topic_vector[tk] = (bm25(tv, topic_word_count, doc_counter, iInd + 1, word_counters))
         elif scoring_method == "bm25va":
-            b = bva(topic_word_count, word_counters["doc_counter"], word_counters["word_counter"], len(topic_words))
-            topic_vector[tk] = (bm25(tv, topic_word_count, word_counters["doc_counter"], len(iInd[tk]) + 1,
-                           word_counters["word_counter"], b))
+            b = bva(topic_word_count, doc_counter, word_counters, len(topic_words))
+            topic_vector[tk] = (bm25(tv, topic_word_count, doc_counter, iInd + 1, word_counters, b))
     return topic_vector
-
-# Function to build vectors of query words
-def build_vectors(topic_words, topic_word_count):
-    topic_vector = score_topic(topic_words, topic_word_count)
-    topic_vector = {}
-    document_vectors = {}
-    for tk, tv in topic_words.items():
-        if scoring_method == "tf-idf":
-            topic_vector[tk] = (tf_idf(tv, topic_word_count, word_counters["doc_counter"], len(iInd[tk]) + 1))
-        elif scoring_method == "bm25":
-            topic_vector[tk] = (bm25(tv, topic_word_count, word_counters["doc_counter"], len(iInd[tk]) + 1,
-                           word_counters["word_counter"]))
-        elif scoring_method == "bm25va":
-            b = bva(topic_word_count, word_counters["doc_counter"], word_counters["word_counter"], len(topic_words))
-            topic_vector[tk] = (bm25(tv, topic_word_count, word_counters["doc_counter"], len(iInd[tk]) + 1,
-                           word_counters["word_counter"], b))
-        for dk, dv in iInd[tk].items():
-            if scoring_method == "tf-idf":
-                document_vectors[dk][tk] = tf_idf(dv, word_counters[dk], word_counters["doc_counter"], len(iInd[tk]) + 1)
-            elif scoring_method == "bm25":
-                document_vectors[dk][tk] = bm25(dv, word_counters[dk], word_counters["doc_counter"], len(iInd[tk]) + 1,
-                               word_counters["word_counter"])
-            elif scoring_method == "bm25va":
-                b = bva(word_counters[dk], word_counters["doc_counter"], word_counters["word_counter"],
-                        unique_word_counters[dk])
-                document_vectors[dk][tk] = bm25(dv, word_counters[dk], word_counters["doc_counter"], len(iInd[tk]) + 1,
-                               word_counters["word_counter"], b)
-    return topic_vector, document_vectors
 
 # Function to calculate the score
 def score(topic_words, topic_word_count):
@@ -127,37 +167,45 @@ def score(topic_words, topic_word_count):
     vector_betrag_topic = 0
     vector_betrag_doc = {}
     for tk, tv in topic_words.items():
-        if tk in iInd:
+        # Find if that word is available in our database
+        id = get_val_from_DB(select_sqls['word_avail'], {'word': tk}, True, True)
+        if id != -1:
+            # Get total number of words in whole dataset
+            word_counters = get_val_from_DB(select_sqls['word_counter'], None, False, True)
+            # Get total number of documents in dataset
+            doc_counter = get_val_from_DB(select_sqls['doc_counter'], None, False, True)
+            # Get total number of documents where we find word tk
+            iInd = get_val_from_DB(select_sqls['word_in_doc_counter'], {'word': tk}, True, True)
             if scoring_method == "tf-idf":
-                t_score = tf_idf(tv, topic_word_count, word_counters["doc_counter"], len(iInd[tk]) + 1)
+                t_score = tf_idf(tv, topic_word_count, doc_counter, iInd + 1)
             elif scoring_method == "bm25":
-                t_score = bm25(tv, topic_word_count, word_counters["doc_counter"], len(iInd[tk]) + 1,
-                               word_counters["word_counter"])
+                t_score = bm25(tv, topic_word_count, doc_counter, iInd + 1, word_counters)
             elif scoring_method == "bm25va":
-                b = bva(topic_word_count, word_counters["doc_counter"], word_counters["word_counter"], len(topic_words))
-                t_score = bm25(tv, topic_word_count, word_counters["doc_counter"], len(iInd[tk]) + 1,
-                               word_counters["word_counter"], b)
+                b = bva(topic_word_count, doc_counter, word_counters, len(topic_words))
+                t_score = bm25(tv, topic_word_count, doc_counter, iInd + 1, word_counters, b)
             vector_betrag_topic += t_score * t_score
-            for dk, dv in iInd[tk].items():
-                if dk in word_counters:
-                    if scoring_method == "tf-idf":
-                        d_score = tf_idf(dv, word_counters[dk], word_counters["doc_counter"], len(iInd[tk]) + 1)
-                    elif scoring_method == "bm25":
-                        d_score = bm25(dv, word_counters[dk], word_counters["doc_counter"], len(iInd[tk]) + 1,
-                                       word_counters["word_counter"])
-                    elif scoring_method == "bm25va":
-                        b = bva(word_counters[dk], word_counters["doc_counter"], word_counters["word_counter"],
-                                unique_word_counters[dk])
-                        d_score = bm25(dv, word_counters[dk], word_counters["doc_counter"], len(iInd[tk]) + 1,
-                                       word_counters["word_counter"], b)
-                    if scores_upper.get(dk) is None:
-                        scores_upper[dk] = t_score * d_score
-                    else:
-                        scores_upper[dk] = scores_upper[dk] + t_score * d_score
-                    if vector_betrag_doc.get(dk) is None:
-                        vector_betrag_doc[dk] = d_score * d_score
-                    else:
-                        vector_betrag_doc[dk] = vector_betrag_doc[dk] + d_score * d_score
+
+            # Get all documents & count of that word where we find work tk from word_to_paper Table
+            documents = get_val_from_DB(select_sqls['documents'], {'word': tk}, True, False)
+            for dk, dv in documents:
+                unique_word_counters = get_val_from_DB(select_sqls['unique_word_counter'], {'idPaper': dk}, True, False)
+                words_in_doc = get_val_from_DB(select_sqls['total_words_in_doc'], {'idPaper': dk}, True, False)
+                if scoring_method == "tf-idf":
+                    d_score = tf_idf(dv, words_in_doc, doc_counter, iInd + 1)
+                elif scoring_method == "bm25":
+                    d_score = bm25(dv, words_in_doc, doc_counter, iInd + 1, word_counters)
+                elif scoring_method == "bm25va":
+                    b = bva(words_in_doc, doc_counter, word_counters, unique_word_counters)
+                    d_score = bm25(dv, words_in_doc, doc_counter, iInd + 1, word_counters, b)
+
+                if scores_upper.get(dk) is None:
+                    scores_upper[dk] = t_score * d_score
+                else:
+                    scores_upper[dk] = scores_upper[dk] + t_score * d_score
+                if vector_betrag_doc.get(dk) is None:
+                    vector_betrag_doc[dk] = d_score * d_score
+                else:
+                    vector_betrag_doc[dk] = vector_betrag_doc[dk] + d_score * d_score
 
     # cosine similarity
     vector_betrag_topic = math.sqrt(vector_betrag_topic)
@@ -231,13 +279,14 @@ if os.path.exists('scores_{}.txt'.format(scoring_method)):
     print('Output file scores_{}.txt already exists. Old file deleted.'.format(scoring_method))
     # sys.exit(0)
 
-print("All data is being loaded. This can take a few minutes.")
-iInd = pickle.load(open("inv_ind.p", "rb"))
-word_counters = pickle.load(open("word_count.p", "rb"))
-unique_word_counters = pickle.load(open("unique_words_count.p", "rb"))
-nlp = spacy.load('en_core_web_sm')
-print("Data loaded successfully, starting with scoring.")
+# print("All data is being loaded. This can take a few minutes.")
+# iInd = pickle.load(open("inv_ind.p", "rb"))
+# word_counters = pickle.load(open("word_count.p", "rb"))
+# unique_word_counters = pickle.load(open("unique_words_count.p", "rb"))
+# nlp = spacy.load('en_core_web_sm')
+# print("Data loaded successfully, starting with scoring.")
 
+connect_to_DB()
 topic_tokens = pre_process_query(query)
 process_topic(topic_tokens, query, topicNo=None)
 
