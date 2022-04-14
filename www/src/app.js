@@ -38,7 +38,7 @@ app.get("/search",(req,res)=>{
             }]
         })
     }
-    const python = spawn('python',['./utils/searchConnector.py'])
+    const python = spawn('python',['./utils/searchConnector.py',req.query.query, req.query.method])
 
     python.stdout.on('data', (data)=>{
         dataTosend = data.toString();
@@ -46,7 +46,7 @@ app.get("/search",(req,res)=>{
 
     python.on('close', (code)=>{
         res.send({
-            data: data1
+            data: eval(dataTosend)
         })
     })
     // this is the place to call the pythonic functions
