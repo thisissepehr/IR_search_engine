@@ -33,13 +33,13 @@ db_port = "3306"
 db_user = 'root' #'populator',
 db_password = 'SED_Group10' #'d9pifetoyesad2cekipoyolis',
 db_database = "BASP"
-select_sqls = {'word_counter': 'SELECT * FROM Word',
-               'doc_counter': 'SELECT * FROM Paper',
-               'word_in_doc_counter': 'SELECT * FROM word_to_paper WHERE fk_word_id in (SELECT idWord from Word WHERE word = %s)',
+select_sqls = {'word_counter': 'SELECT COUNT(*) FROM Word',
+               'doc_counter': 'SELECT COUNT(*) FROM Paper',
+               'word_in_doc_counter': 'SELECT COUNT(*) FROM word_to_paper WHERE fk_word_id in (SELECT idWord from Word WHERE word = %s)',
                'unique_word_counter': 'SELECT unique_word_count FROM Paper WHERE idPaper = %s',
                'word_avail': 'SELECT * FROM Word WHERE word = %s',
                'documents': 'SELECT fk_paper_id, counter FROM word_to_paper WHERE fk_word_id in (SELECT idWord from Word WHERE word = %s)',
-               'total_words_in_doc': 'SELECT * from Paper WHERE idPaper = %s',
+               'total_words_in_doc': 'SELECT word_count from Paper WHERE idPaper = %s',
                'get_doc_unique_count': 'SELECT idPaper, word_count, unique_word_count FROM Paper'}
 
 ''' connect_to_DB function
@@ -110,15 +110,15 @@ def mavgtf(doc_count):
         # Get all papers with unique word count from database
         unique_word_counters = get_val_from_DB(select_sqls['get_doc_unique_count'], None, False, False)
         for docno, word_count, u_c in unique_word_counters:
-            sum_m = sum_m + avgtf(word_count, u_c)
+            sum_m = sum_m + avgtf(int(word_count), int(u_c))
         mavgtf_v = sum_m / doc_count
     return mavgtf_v
 
 # Function to calculate BM25VA score
 def bva(word_count, doc_count, all_dwords_count, unique_word_count):
     mavgtf_l = mavgtf(doc_count)
-    return (pow(mavgtf_l, -2) * avgtf(word_count, unique_word_count) + (1 - pow(mavgtf_l, -1)) *
-            word_count / avgdl(all_dwords_count, doc_count))
+    return (pow(mavgtf_l, -2) * avgtf(int(word_count), unique_word_count) + (1 - pow(mavgtf_l, -1)) *
+            int(word_count) / avgdl(all_dwords_count, doc_count))
 
 def get_val_from_DB(select_sql, select_val, val, count) -> int:
     populator_cursor = populator.cursor()
@@ -126,13 +126,13 @@ def get_val_from_DB(select_sql, select_val, val, count) -> int:
         if val:
             populator_cursor.execute(select_sql, select_val)
             if count:
-                id = populator_cursor.fetchall().count()
+                id = populator_cursor.fetchone()
             else:
                 id = populator_cursor.fetchall()
         else:
             populator_cursor.execute(select_sql)
             if count:
-                id = populator_cursor.fetchall().count()
+                id = populator_cursor.fetchone()
             else:
                 id = populator_cursor.fetchall()
         if id is None:
@@ -142,25 +142,6 @@ def get_val_from_DB(select_sql, select_val, val, count) -> int:
         exit(1)
     return id
 
-# Function to score query
-def score_topic(topic_words, topic_word_count):
-    topic_vector = {}
-    for tk, tv in topic_words.items():
-        # Get total number of words in whole dataset
-        word_counters = get_val_from_DB(select_sqls['word_counter'], None, False, True)
-        # Get total number of documents in dataset
-        doc_counter = get_val_from_DB(select_sqls['doc_counter'], None, False, True)
-        # Get total number of documents where we find word tk
-        iInd = get_val_from_DB(select_sqls['word_in_doc_counter'], {'word': tk}, True, True)
-        if scoring_method == "tf-idf":
-            topic_vector[tk] = (tf_idf(tv, topic_word_count, doc_counter, iInd + 1))
-        elif scoring_method == "bm25":
-            topic_vector[tk] = (bm25(tv, topic_word_count, doc_counter, iInd + 1, word_counters))
-        elif scoring_method == "bm25va":
-            b = bva(topic_word_count, doc_counter, word_counters, len(topic_words))
-            topic_vector[tk] = (bm25(tv, topic_word_count, doc_counter, iInd + 1, word_counters, b))
-    return topic_vector
-
 # Function to calculate the score
 def score(topic_words, topic_word_count):
     scores_upper = {}
@@ -168,35 +149,37 @@ def score(topic_words, topic_word_count):
     vector_betrag_doc = {}
     for tk, tv in topic_words.items():
         # Find if that word is available in our database
-        id = get_val_from_DB(select_sqls['word_avail'], {'word': tk}, True, True)
+        id = get_val_from_DB(select_sqls['word_avail'], (tk, ), True, True)
         if id != -1:
             # Get total number of words in whole dataset
             word_counters = get_val_from_DB(select_sqls['word_counter'], None, False, True)
             # Get total number of documents in dataset
             doc_counter = get_val_from_DB(select_sqls['doc_counter'], None, False, True)
             # Get total number of documents where we find word tk
-            iInd = get_val_from_DB(select_sqls['word_in_doc_counter'], {'word': tk}, True, True)
+            iInd = get_val_from_DB(select_sqls['word_in_doc_counter'], (tk, ), True, True)
             if scoring_method == "tf-idf":
-                t_score = tf_idf(tv, topic_word_count, doc_counter, iInd + 1)
+                t_score = tf_idf(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1)
             elif scoring_method == "bm25":
-                t_score = bm25(tv, topic_word_count, doc_counter, iInd + 1, word_counters)
+                t_score = bm25(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
             elif scoring_method == "bm25va":
-                b = bva(topic_word_count, doc_counter, word_counters, len(topic_words))
-                t_score = bm25(tv, topic_word_count, doc_counter, iInd + 1, word_counters, b)
+                b = bva(topic_word_count, int(doc_counter[0]), int(word_counters[0]), len(topic_words))
+                t_score = bm25(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]), b)
             vector_betrag_topic += t_score * t_score
 
             # Get all documents & count of that word where we find work tk from word_to_paper Table
-            documents = get_val_from_DB(select_sqls['documents'], {'word': tk}, True, False)
+            documents = get_val_from_DB(select_sqls['documents'], (tk, ), True, False)
             for dk, dv in documents:
-                unique_word_counters = get_val_from_DB(select_sqls['unique_word_counter'], {'idPaper': dk}, True, False)
-                words_in_doc = get_val_from_DB(select_sqls['total_words_in_doc'], {'idPaper': dk}, True, False)
+                # Get unique word counts in a document dk
+                unique_word_counters = get_val_from_DB(select_sqls['unique_word_counter'], (dk, ), True, False)
+                # get total word counts in document dk
+                words_in_doc = get_val_from_DB(select_sqls['total_words_in_doc'], (dk, ), True, False)
                 if scoring_method == "tf-idf":
-                    d_score = tf_idf(dv, words_in_doc, doc_counter, iInd + 1)
+                    d_score = tf_idf(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1)
                 elif scoring_method == "bm25":
-                    d_score = bm25(dv, words_in_doc, doc_counter, iInd + 1, word_counters)
+                    d_score = bm25(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
                 elif scoring_method == "bm25va":
-                    b = bva(words_in_doc, doc_counter, word_counters, unique_word_counters)
-                    d_score = bm25(dv, words_in_doc, doc_counter, iInd + 1, word_counters, b)
+                    b = bva(int(words_in_doc[0][0]), int(doc_counter[0]), int(word_counters[0]), int(unique_word_counters[0][0]))
+                    d_score = bm25(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]), b)
 
                 if scores_upper.get(dk) is None:
                     scores_upper[dk] = t_score * d_score
