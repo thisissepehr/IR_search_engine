@@ -8,17 +8,9 @@ import mysql.connector
 stemmer = snowballstemmer.stemmer("english")
 nlp = spacy.load('en_core_web_sm')
 tokenizer = RegexpTokenizer(r'[a-zA-Z]+')
-import os
 import sys, getopt
+import json
 
-# try:
-#     _create_unverified_https_context = ssl._create_unverified_context
-# except AttributeError:
-#     pass
-# else:
-#     ssl._create_default_https_context = _create_unverified_https_context
-#
-# nltk.download('omw-1.4')
 
 # Input Query Preprocessor
 lemmatize = True
@@ -27,10 +19,10 @@ stop_words = True
 case_fold = True
 
 # global DB variables
-db_host = "localhost"
-db_port = "3306"
+db_host = "127.0.0.1"
+db_port = "6033"
 db_user = 'root' #'populator',
-db_password = 'SED_Group10' #'d9pifetoyesad2cekipoyolis',
+db_password = 'root' #'d9pifetoyesad2cekipoyolis',
 db_database = "BASP"
 select_sqls = {'word_counter': 'SELECT COUNT(*) FROM Word',
                'doc_counter': 'SELECT COUNT(*) FROM Paper',
@@ -119,8 +111,7 @@ def bva(word_count, doc_count, all_dwords_count, unique_word_count):
     return (pow(mavgtf_l, -2) * avgtf(int(word_count), unique_word_count) + (1 - pow(mavgtf_l, -1)) *
             int(word_count) / avgdl(all_dwords_count, doc_count))
 
-def get_val_from_DB(select_sql, select_val, val, count) -> int:
-    populator_cursor = populator.cursor()
+def get_val_from_DB(select_sql, select_val, val, count):
     try:
         if val:
             populator_cursor.execute(select_sql, select_val)
@@ -142,7 +133,7 @@ def get_val_from_DB(select_sql, select_val, val, count) -> int:
     return id
 
 # Function to calculate the score
-def score(topic_words, topic_word_count):
+def score(topic_words, topic_word_count, scoring_method):
     scores_upper = {}
     vector_betrag_topic = 0
     vector_betrag_doc = {}
@@ -210,24 +201,26 @@ def score(topic_words, topic_word_count):
     scores = {}
     for doc, upper in scores_upper.items():
         scores[doc] = upper / (vector_betrag_topic * math.sqrt(vector_betrag_doc[doc]))
-
     return scores
 
 # Function to output the results
-def output_topic(scores, query, topicNo):
-    output_file = open('scores_{}.txt'.format(scoring_method), 'a')
-    rank_counter = 1
-    output_file.write("Input Query: {}\n".format(query))
-    output_file.write("{} {} {} {} \n".format("topicNo", "score[0]", "rank_counter", "score[1]"))
-    for score in [(k, scores[k]) for k in sorted(scores, key=scores.get, reverse=True)]:
-        output_file.write("{} {} {} {} \n".format(topicNo, score[0], rank_counter, score[1]))
-        rank_counter += 1
-        if rank_counter == 1001:
-            break
-    output_file.close()
+def output_topic(scores):
+    MAX_OUTPUT = 100
+    output = []
+    for paper_id in [k for k in sorted(scores, key=scores.get, reverse=True)]:
+        populator_cursor.execute('SELECT title,doi,year FROM Paper WHERE idPaper = %s', [paper_id])
+        paper = populator_cursor.fetchone()
+        populator_cursor.execute('SELECT FirstName,LastName FROM paper_to_author LEFT JOIN Author ON idAuthor=fk_author_id WHERE fk_paper_id = %s', [paper_id])
+        authors = populator_cursor.fetchall()
+        output.append({'title':paper[0], 'author':[author[0]+' '+author[1] for author in authors],'url':paper[1], 'year': paper[2].year})
+        MAX_OUTPUT -= 1
+        if MAX_OUTPUT == 0: break
+    jsonString = json.dumps(output, indent=4)
+    print(jsonString)
+    
 
 # Main function to process the query
-def process_topic(docs, query, topicNo):
+def process_topic(docs, query, scoring_method):
     topic_words = {}
     word_count = 0
 
@@ -241,8 +234,8 @@ def process_topic(docs, query, topicNo):
         else:
             topic_words[token] = topic_words[token] + 1
 
-    scores = score(topic_words, word_count)
-    output_topic(scores, query, topicNo)
+    scores = score(topic_words, word_count, scoring_method)
+    output_topic(scores)
 
 # Function to preprocess the query
 def pre_process_query(query):
@@ -258,16 +251,16 @@ def pre_process_query(query):
             if stem:
                 strtok = stemmer.stemWord(strtok)
             tokens.append(strtok)
-
     return tokens
 
 def main_args(argv):
-    query = ''
-    scoring_method = ''
+    query = 'ahead'
+    scoring_method = 'bm25'
     try:
         opts, args = getopt.getopt(argv,"m:q:",[])
     except getopt.GetoptError:
-        exit(1)
+        #exit(1)
+        i=1
     for opt, arg in opts:
         if opt == '-m':
             scoring_method = str(arg)
@@ -277,7 +270,7 @@ def main_args(argv):
 
     connect_to_DB()
     topic_tokens = pre_process_query(query)
-    process_topic(topic_tokens, query, topicNo=None)    
+    process_topic(topic_tokens, query, scoring_method)    
 
 if __name__ == "__main__":
    main_args(sys.argv[1:])
