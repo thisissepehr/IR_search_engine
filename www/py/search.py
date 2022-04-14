@@ -159,6 +159,10 @@ def score(topic_words, topic_word_count):
             iInd = get_val_from_DB(select_sqls['word_in_doc_counter'], (tk, ), True, True)
             if scoring_method == "tf-idf":
                 t_score = tf_idf(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1)
+            elif scoring_method == "bm25l":
+                t_score = bm25l(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
+            elif scoring_method == "bm25_plus":
+                t_score = bm25_plus(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
             elif scoring_method == "bm25":
                 t_score = bm25(tv, topic_word_count, int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
             elif scoring_method == "bm25va":
@@ -183,6 +187,10 @@ def score(topic_words, topic_word_count):
                     d_score = tf_idf(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1)
                 elif scoring_method == "bm25":
                     d_score = bm25(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
+                elif scoring_method == "bm25l":
+                    d_score = bm25l(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
+                elif scoring_method == "bm25_plus":
+                    d_score = bm25_plus(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]))
                 elif scoring_method == "bm25va":
                     b = bva(int(words_in_doc[0][0]), int(doc_counter[0]), int(word_counters[0]), int(unique_word_counters[0][0]))
                     d_score = bm25(dv, int(words_in_doc[0][0]), int(doc_counter[0]), int(iInd[0]) + 1, int(word_counters[0]), b)
