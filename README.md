@@ -59,9 +59,12 @@ The following metrics are calculated as well
 ## Roles
 
 Alexander Sworski: System Structure/Architecture, Database setup, retrieval/indexing model development 
+
 Amir Sepehr Aminian: Repo Setup, Input Pre-processing, Designing user interface, Relevance Analysis 
+
 Bhavya Makwana: Tool Analysis/research, pairing on retrieval/indexing model development, preparation/analysis of results. 
-Patrick Levermore: Query processor model/framework, retrieval/indexing model development 
+
+Patrick Levermore: Query processor model/framework, retrieval/indexing model development, preparation/analysis of results. 
 
 ## The Methodology
 
