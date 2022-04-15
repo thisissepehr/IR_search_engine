@@ -1,0 +1,13 @@
+[
+    {
+        "title": "The 21st International Symposium on Intensive Care and Emergency Medicine, Brussels, Belgium, 20-23 March 2001",
+        "author": [
+            "Jonathan Ball",
+            "Richard Venn",
+            "Jonathan Ball",
+            "Richard Venn"
+        ],
+        "url": "http://dx.doi.org/10.1186/cc1013",
+        "year": 2001
+    }
+]
