@@ -217,6 +217,9 @@ def output_topic(scores):
         if MAX_OUTPUT == 0: break
     jsonString = json.dumps(output, indent=4)
     print(jsonString)
+    textfile = open("results.txt", "w")
+    textfile.write(jsonString)
+    textfile.close()
     
 
 # Main function to process the query
