@@ -40,12 +40,28 @@ This will create a Docker App, which will consist of two containers. One Backend
 **DESCRIPTION**
 
 The Indexer populates the Database with the Dataset. This operation can be very time intensive, as the most recent Dataset of the [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) collection has a size of ~80GB (April 2022). Therefore, we chose an earlier version of the collection with size 2GB, but the code would remain workable for a larger version.
+We fetch three different types of data from corpus during the indexing phase. We run through all the documents and build the dataset by adding new entries. The dataset is stored in Database
+
+Inverted index with the words as keys, as values we save the docNo and the occurrence rate (see below)
+Word counter index which contains the length of all documents
+Word unique counter index which is needed for BM25VA<br /><br />
+Examples:<br />
+Inverted index: {write : {doc1 : 2, doc2: 5}, zone : {doc5 : 1}}
+
+Word counter: {doc1 : 100}
+
+Unique word counter: {doc1 : 35}
+
+The following metrics are calculated as well
+
+* total number of documents
+* total number of words in all documents
 
 ## The Methodology
 
 ### Natural language pre-processing
 
-Several pre-processing options are implemented and can be used via the commandline (lemmatization, stemming, stopwords removal, case folding).
+Several pre-processing options are implemented (lemmatization=ON, stemming=OFF, stopwords removal=ON, case folding=ON).
 They can be used in any combination apart from lemmatization and stemming together.
 We use spacy for the tokenization, stopwords removal and case folding. For stemming we use snowball-stemmer.
 
@@ -57,7 +73,7 @@ All of these are excluded from the tokens which later on are stored in the index
 
 Case-folding is implemented with the python string method "casefold()".
 
-### Scoring
+### Scoring & Evaluation of significance
 
 We have implemented *tf-idf*, *bm25*, *bm25L*, *bm25+* and *bm25va* scoring. The ranking works as follows:
 For each word that is both in the query and in the document we calculate the score of both the query and the documents. 
@@ -70,34 +86,22 @@ In the end we sort them and only use the best 1000.
 
 The tf-idf, bm25 and bm25va implementations are pretty straightforward and carefully put into methods to easily see how they are implemented.
 One thing worth mentioning is that we implemented the term frequency as: word_occurrence / document_length (in words).
-However all methods are written to be able to be easily looked up in the search.py.
+However, all methods are written to be able to be easily looked up in the search.py.
 
 It is interesting that the differences in the table below are so small. TF-IDF surely performed better because we added the document length to it, however we thought
 it would still perform worse.
 We were also surprised that BM25VA performed worse than BM25, it even made us check our implementation again (however everything seems correctly implemented).
 We have some ideas to why this could be the case. The default "b"-value in BM25 of 0.75 is fits probably pretty well for all the documents we indexed. They articles
 are "as normal as texts get" on average, so the default value should perform very well. If all the articles however were extremely long or just a few words short, than
-the default b value would probably fail. With the average length of 261 words per document it fits well. In addition to that we assume that the b-calculation of BM25VA
+the default b value would probably fail. With the average length of 2000 words per document it fits well. In addition to that we assume that the b-calculation of BM25VA
 is only "vague". That means the b-value is never completely wrong, but also not optimized. In every case the b-values could be adjusted by hand to achieve better results.
 Because of this we think that BM25VA is only good if you know nothing about the texts or have completely different texts (very short and very long), which was not the case
 in this assignment.
 
-Scoring results are stored at the end in the text file as per the method selected
-* scored_bm25.txt
-* scores_bm25va.txt
-* scores_tf-idf.txt
+Scoring results are stored at the end in the database as per the method selected
 
-Format is as follows:<br />
-Input Query: An Extended Outbreak of Infectious Peritonitis in a Closed Colony of European Wildcats (Fells silvestris)<br />
-topicNo, score[0]'(File Name)', rank_counter, score[1] <br />
-None, 0a0bc6bc993e37df9be46a2c80e969cbac5a89db, 1, 0.8668498598860553 <br />
-None, 0b1515138984b9f9f2d08a8aaedc388846b531d4, 2, 0.3998634550118276 <br />
-None, 0ab9753b9860f6b8c433f07e1bf96c98f452ecb1, 3, 0.39899786579916413 <br />
-None, 0ba1801a150e25b029cf3c2a38573435b21dea80, 4, 0.34348281131845837 <br />
+Note: All scores are from the default settings of the indexer.py - lemmatization, case-folding and stopwords on.
 
-Note: All scores are from the default settings of the indexer.py - lemmatization and stopwords on.
-
-### Evaluation of significance
 
 
 
