@@ -2,6 +2,20 @@ const path = require("path")
 const express = require("express")
 const hbs = require('hbs')
 const {spawn} = require("child_process")
+const fs = require('fs')
+
+const getResults = ()=>{
+    try {
+        const data = fs.readFileSync('test.txt', 'utf8')
+        console.log(data)
+        return(data)          
+
+      } catch (err) {
+        console.error(err)
+      }
+}
+
+
 
 // defining paths to pages
 const publicDirectoryPath = path.join(__dirname,'../public')
@@ -40,12 +54,8 @@ app.get("/search",(req,res)=>{
     }
     const python = spawn('python',['./utils/searchConnector.py',req.query.query, req.query.method])
     const dataTosend = ""
-    python.stdout.on('data', (data)=>{
-        dataTosend = data.toString();
-        console.log(dataTosend);
-    });
-
     python.on('close', (code)=>{
+        const dataTosend = getResults()
         res.send({
             data: eval(dataTosend)
         })
