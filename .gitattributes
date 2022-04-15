@@ -1,1 +1,1 @@
-./DB/SQL_Export_10k-subset.sql filter=lfs diff=lfs merge=lfs -text
+DB/SQL_Export_10k-subset.sql filter=lfs diff=lfs merge=lfs -text
