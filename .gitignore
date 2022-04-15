@@ -9,7 +9,8 @@ www/node_modules
 scores*.txt
 **/20*
 **/data
-.ipynb
+*.ipynb
+*helper.py
 
 #adding the metadata.csv
 !www/py/cord/
