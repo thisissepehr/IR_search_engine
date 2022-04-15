@@ -55,6 +55,9 @@ app.get("/search",(req,res)=>{
     const python = spawn('python3',['./utils/searchConnector.py',req.query.query, req.query.method])
     const dataTosend = ""
     python.on('close', (code)=>{
+        setTimeout(()=>{
+
+        },1500)
         const dataTosend = getResults()
         res.send({
             data: eval(dataTosend)
