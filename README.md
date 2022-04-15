@@ -22,7 +22,6 @@ __Team Members:__
 
 For this Project, a Search Engine has been developed that allows the User to search through the articles collected by [CORD19](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), which is a COVID-19 reasearch paper database.
 
-
 ## Running the Project
 
 ### Using  Docker
@@ -56,6 +55,13 @@ The following metrics are calculated as well
 
 * total number of documents
 * total number of words in all documents
+
+## Roles
+
+Alexander Sworski: System Structure/Architecture, Database setup, retrieval/indexing model development 
+Amir Sepehr Aminian: Repo Setup, Input Pre-processing, Designing user interface, Relevance Analysis 
+Bhavya Makwana: Tool Analysis/research, pairing on retrieval/indexing model development, preparation/analysis of results. 
+Patrick Levermore: Query processor model/framework, retrieval/indexing model development 
 
 ## The Methodology
 
@@ -102,17 +108,6 @@ Scoring results are stored at the end in the database as per the method selected
 
 Note: All scores are from the default settings of the indexer.py - lemmatization, case-folding and stopwords on.
 
- 
-
-### Roles 
-
-Alexander Sworski: System Structure/Architecture, Database setup, retrieval/indexing model development 
-
-Amir Sepehr Aminian: Repo Setup, Input Pre-processing, Designing user interface, Relevance Analysis 
-
-Bhavya Makwana: Tool Analysis/research, pairing on retrieval/indexing model development, preparation/analysis of results. 
-
-Patrick Levermore: Query processor model/framework, retrieval/indexing model development 
 
 
 
