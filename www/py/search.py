@@ -19,8 +19,8 @@ stop_words = True
 case_fold = True
 
 # global DB variables
-db_host = "127.0.0.1"
-db_port = "6033"
+db_host = "172.21.0.2"
+db_port = "3306"
 db_user = 'root' #'populator',
 db_password = 'root' #'d9pifetoyesad2cekipoyolis',
 db_database = "BASP"

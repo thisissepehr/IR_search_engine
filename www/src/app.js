@@ -4,6 +4,7 @@ const hbs = require('hbs')
 const {spawn} = require("child_process")
 const fs = require('fs')
 
+<<<<<<< HEAD
 const getResults = ()=>{
     try {
         const data = fs.readFileSync('../py/results.txt', 'utf8')
@@ -15,6 +16,8 @@ const getResults = ()=>{
 }
 
 
+=======
+>>>>>>> 89f2c4f825b28b59f167d2235bb207c666d834e8
 
 // defining paths to pages
 const publicDirectoryPath = path.join(__dirname,'../public')
@@ -53,21 +56,18 @@ app.get("/search",(req,res)=>{
     }
     const python = spawn('python3',['./utils/searchConnector.py',req.query.query, req.query.method])
     const dataTosend = ""
-    python.on('close', (code)=>{
-        setTimeout(()=>{
 
-        },1500)
-        const dataTosend = getResults()
+    dataTosend = ''
+
+    python.stdout.on('data', (data)=>{
+        dataTosend = data.toString();
+    });
+
+    python.on('close', (code)=>{
         res.send({
             data: eval(dataTosend)
         })
     })
-    // this is the place to call the pythonic functions
-    ///////////////////////////////////////////////////
-    //                                               //
-    //                 Python code call              //
-    //                                               //
-    ///////////////////////////////////////////////////
     // res.send({
     //     data: data1
     // })
