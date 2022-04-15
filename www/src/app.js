@@ -41,7 +41,7 @@ app.get("", (req,res)=>{
 })
 
 let index = 1;
-app.get("/search",(req,res)=>{
+app.get("/search",async(req,res)=>{
     if(!req.query.query || !req.query.method) {
         return res.send({
             data: [{
@@ -53,11 +53,11 @@ app.get("/search",(req,res)=>{
         })
     }
     // const python = spawn('python3',['./utils/searchConnector.py',req.query.query, req.query.method])
-    // const dataTosend = ""
+    // 
 
     // dataTosend = ''
 
-    // python.stdout.on('data', (data)=>{
+    // await python.stdout.on('data', (data)=>{
     //     dataTosend += data.toString();
     // });
 
