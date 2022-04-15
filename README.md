@@ -102,6 +102,18 @@ Scoring results are stored at the end in the database as per the method selected
 
 Note: All scores are from the default settings of the indexer.py - lemmatization, case-folding and stopwords on.
 
+ 
+
+### Roles 
+
+Alexander Sworski: System Structure/Architecture, Database setup, retrieval/indexing model development 
+
+Amir Sepehr Aminian: Repo Setup, Input Pre-processing, Designing user interface, Relevance Analysis 
+
+Bhavya Makwana: Tool Analysis/research, pairing on retrieval/indexing model development, preparation/analysis of results. 
+
+Patrick Levermore: Query processor model/framework, retrieval/indexing model development 
+
 
 
 
