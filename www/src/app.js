@@ -6,7 +6,7 @@ const fs = require('fs')
 
 const getResults = ()=>{
     try {
-        const data = fs.readFileSync('results.txt', 'utf8')
+        const data = fs.readFileSync('../py/results.txt', 'utf8')
         console.log(data)
         return(data)          
 
@@ -52,7 +52,7 @@ app.get("/search",(req,res)=>{
             }]
         })
     }
-    const python = spawn('python',['./utils/searchConnector.py',req.query.query, req.query.method])
+    const python = spawn('python3',['./utils/searchConnector.py',req.query.query, req.query.method])
     const dataTosend = ""
     python.on('close', (code)=>{
         const dataTosend = getResults()
