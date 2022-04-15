@@ -5,7 +5,7 @@ services:
     container_name: db
     environment:  
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_ONETIME_PASSWORD: onetime
+      #MYSQL_ONETIME_PASSWORD: onetime
     restart: always
     env_file: ./.env
     ports:
