@@ -39,9 +39,10 @@ app.get("/search",(req,res)=>{
         })
     }
     const python = spawn('python',['./utils/searchConnector.py',req.query.query, req.query.method])
-
+    const dataTosend = ""
     python.stdout.on('data', (data)=>{
         dataTosend = data.toString();
+        console.log(dataTosend);
     });
 
     python.on('close', (code)=>{
