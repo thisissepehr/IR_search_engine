@@ -7,7 +7,6 @@ const fs = require('fs')
 const getResults = ()=>{
     try {
         const data = fs.readFileSync('../py/results.txt', 'utf8')
-        console.log(data)
         return(data)          
 
       } catch (err) {
