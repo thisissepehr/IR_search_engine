@@ -6,7 +6,7 @@ const fs = require('fs')
 
 const getResults = ()=>{
     try {
-        const data = fs.readFileSync('test.txt', 'utf8')
+        const data = fs.readFileSync('results.txt', 'utf8')
         console.log(data)
         return(data)          
 
