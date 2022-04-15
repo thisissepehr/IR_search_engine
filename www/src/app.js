@@ -4,7 +4,6 @@ const hbs = require('hbs')
 const {spawn} = require("child_process")
 const fs = require('fs')
 
-<<<<<<< HEAD
 const getResults = ()=>{
     try {
         const data = fs.readFileSync('../py/results.txt', 'utf8')
@@ -16,8 +15,6 @@ const getResults = ()=>{
 }
 
 
-=======
->>>>>>> 89f2c4f825b28b59f167d2235bb207c666d834e8
 
 // defining paths to pages
 const publicDirectoryPath = path.join(__dirname,'../public')
@@ -59,8 +56,8 @@ app.get("/search",(req,res)=>{
 
     dataTosend = ''
 
-    python.stdout.on('data', (data)=>{
-        dataTosend = data.toString();
+    await python.stdout.on('data', (data)=>{
+        dataTosend += data.toString();
     });
 
     python.on('close', (code)=>{
