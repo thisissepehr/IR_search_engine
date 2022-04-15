@@ -204,6 +204,7 @@ def score(topic_words, topic_word_count, scoring_method):
     return scores
 
 # Function to output the results
+__index=1
 def output_topic(scores):
     MAX_OUTPUT = 100
     output = []
@@ -217,7 +218,8 @@ def output_topic(scores):
         if MAX_OUTPUT == 0: break
     jsonString = json.dumps(output, indent=4)
     print(jsonString)
-    textfile = open("results.txt", "w")
+    textfile = open("results{}.txt".format(__index), "w")
+    __index+=1
     textfile.write(jsonString)
     textfile.close()
     

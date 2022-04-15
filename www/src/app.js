@@ -4,9 +4,9 @@ const hbs = require('hbs')
 const {spawn} = require("child_process")
 const fs = require('fs')
 
-const getResults = ()=>{
+const getResults = (index)=>{
     try {
-        const data = fs.readFileSync('../py/results.txt', 'utf8')
+        const data = fs.readFileSync('../py/results'+index+'.txt', 'utf8')
         return(data)          
 
       } catch (err) {
@@ -40,6 +40,7 @@ app.get("", (req,res)=>{
     res.render("index", {})
 })
 
+let index = 1;
 app.get("/search",(req,res)=>{
     if(!req.query.query || !req.query.method) {
         return res.send({
@@ -51,23 +52,24 @@ app.get("/search",(req,res)=>{
             }]
         })
     }
-    const python = spawn('python3',['./utils/searchConnector.py',req.query.query, req.query.method])
-    const dataTosend = ""
+    // const python = spawn('python3',['./utils/searchConnector.py',req.query.query, req.query.method])
+    // const dataTosend = ""
 
-    dataTosend = ''
+    // dataTosend = ''
 
-    await python.stdout.on('data', (data)=>{
-        dataTosend += data.toString();
-    });
+    // python.stdout.on('data', (data)=>{
+    //     dataTosend += data.toString();
+    // });
 
-    python.on('close', (code)=>{
-        res.send({
-            data: eval(dataTosend)
-        })
-    })
-    // res.send({
-    //     data: data1
+    // python.on('close', (code)=>{
+    //     res.send({
+    //         data: eval(dataTosend)
+    //     })
     // })
+    res.send({
+        data: eval(getResults(index))
+    })
+    index++;
 })
 
 
